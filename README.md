@@ -34,7 +34,7 @@ The thresholds for each entity are calculated as at the balance date of their 2 
 
 ### Analysis versions
 
-* `pdfs_2024` The first analysis was conducted in June 2024 for 35 companies (including 30 companies reported as of 7 May 2024 and 5 extra banks from 2022-2023). To begin with, the register only includes CREs with a reporting period up to June 2024.   
+* `pdfs_2024` The first analysis was conducted in June 2024 for 35 companies (including 30 companies reported as of 7 May 2024 and 5 extra banks from 2022-2023). 
 * `pdfs_2026` The second analysis was conducted in May 2026 for 198 companies (across all target years in 2023-2026). This analysis now only includes a snapshot of 198 companies as of May 2026 for the period from 2024-2025. 
 
 ### Update of 2026 versions 
@@ -44,3 +44,6 @@ The thresholds for each entity are calculated as at the balance date of their 2 
 - Groundtruth comparison for 35 companies (17 companies with manual data) in 2024-2025 
 
 
+### Scripts
+- `0-scrapping_climate_risk_disclosure.ipynb' to scrap all disclosure statement and saved to 'pdfs_2026'
+- `1-explatory_analysis.ipynb' to conduct exploratory analysis for 198 companies as of May 2026 for the period from 2024 to 2025 
