@@ -4,15 +4,22 @@
 # ─────────────────────────────────────────────────────────────────────────────
 
 paths:
-  base_dir:     "C:/Users/QuyenN/OneDrive - ESNZ/Offline_work/2_GNS/19_LLM_ClimateRisk2026"
-  pdf_folder:   "{base_dir}/3-Webscrapping & PDF disclosure/pdfs_2026/pdfs"
-  analysis_dir: "{base_dir}/5-Analysis2026"
-  results_dir:  "{base_dir}/5-Analysis2026/llm_results"
-  fig_folder:   "{base_dir}/5-Analysis2026"
-  pdf_list:     "{base_dir}/5-Analysis2026/List_of_all_PDF_for_normal_companies.csv"
-  selected_pdf_list: "{base_dir}/5-Analysis2026/List_of_selected_PDF_forLLManalysis.csv"
-  mapped_models:     "{base_dir}/5-Analysis2026/List_of_mapped_models.csv"
-  instruction:  "{base_dir}/4-Github2026_LLM/LLM_climaterisk_2026/scripts/3-llm_Instruction.md"
+  base_dir:          "C:/Users/QuyenN/OneDrive - ESNZ/Offline_work/2_GNS/19_LLM_ClimateRisk2026"
+  analysis_dir:      "{base_dir}/5-Analysis2026"
+  pdf_folder:        "{base_dir}/3-Webscrapping & PDF disclosure/pdfs_2026/pdfs"
+  fig_folder:        "{base_dir}/5-Analysis2026/figures"
+
+  # Input tables
+  pdf_list:              "{base_dir}/5-Analysis2026/List_of_all_PDF_for_normal_companies.csv"
+  selected_pdf_list:     "{base_dir}/5-Analysis2026/tables/Table01_nlp_analysis_submitted_normal_firms_2024_2025.updated.rag.csv"
+  mapped_models:         "{base_dir}/5-Analysis2026/interim_results/List_of_mapped_models.csv"
+  scenario_rename:       "{base_dir}/5-Analysis2026/interim_results/list_of_climate_scenarios_RAG_renamed.csv"
+  instruction:           "{base_dir}/4-Github2026_LLM/LLM_climaterisk_2026/scripts/3-llm_Instruction.md"
+
+  # Output directories
+  rag_results_dir:       "{base_dir}/5-Analysis2026/rag_results_florent"
+  benchmark_output_dir:  "{base_dir}/5-Analysis2026/benchmark_output"
+  tables_dir:            "{base_dir}/5-Analysis2026/tables"
 
 model:
   name:       "claude-sonnet-4-6"
@@ -23,6 +30,6 @@ chunking:
   chunk_overlap: 2000
 
 analysis:
-  sample_n:       227
-  periods:        ["FY2024", "FY2025"]
-  benchmark_n:    13
+  sample_n:    227
+  benchmark_n: 13
+  periods:     ["FY2024", "FY2025"]

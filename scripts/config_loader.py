@@ -13,15 +13,13 @@ def load_config(config_path=None):
     with open(config_path, "r", encoding="utf-8") as f:
         cfg = yaml.safe_load(f)
 
-    # Resolve {base_dir} placeholders in all path values
     base = cfg["paths"]["base_dir"]
     cfg["paths"] = {
         k: v.replace("{base_dir}", base) if isinstance(v, str) else v
         for k, v in cfg["paths"].items()
     }
 
-    # Create output directories if they don't exist
-    for key in ("results_dir", "fig_folder"):
+    for key in ("fig_folder", "rag_results_dir", "benchmark_output_dir", "tables_dir"):
         os.makedirs(cfg["paths"][key], exist_ok=True)
 
     return cfg
