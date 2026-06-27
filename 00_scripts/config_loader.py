@@ -1,4 +1,4 @@
-"""Load project config from config.yaml, resolving {base_dir} and {repo_dir} placeholders."""
+"""Load project config from config.yaml, resolving {base_dir} placeholders."""
 import os
 import yaml
 from pathlib import Path
@@ -14,11 +14,8 @@ def load_config(config_path=None):
         cfg = yaml.safe_load(f)
 
     base = cfg["paths"]["base_dir"]
-    repo = cfg["paths"]["repo_dir"].replace("{base_dir}", base)
-
     cfg["paths"] = {
-        k: (v.replace("{repo_dir}", repo).replace("{base_dir}", base)
-            if isinstance(v, str) else v)
+        k: v.replace("{base_dir}", base) if isinstance(v, str) else v
         for k, v in cfg["paths"].items()
     }
 
