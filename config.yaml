@@ -31,14 +31,6 @@ scraping:
   base_url:     "https://crd-app.companiesoffice.govt.nz"
   target_years: [2023, 2024, 2025, 2026]
 
-model:
-  name:       "claude-sonnet-4-6"
-  max_tokens: 8192
-
-chunking:
-  chunk_size:    60000   # characters (~15k tokens)
-  chunk_overlap: 2000
-
 analysis:
   sample_n:    227
   benchmark_n: 13

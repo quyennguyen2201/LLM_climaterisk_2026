@@ -75,26 +75,6 @@ All paths and model settings are stored in [`config.yaml`](config.yaml). Before 
 
 Before running webscraping, makesure you download the equivalent chrome driver and update `chromedriver`.
 
-```yaml
-paths:
-  base_dir: "C:/Users/YourName/path/to/LLM_climaterisk_2026"  # ← change this only
-
-  # Repo folders (derived from base_dir)
-  pdf_folder:              "{base_dir}/01_pdfs_2026"
-  rag_results_folder:      "{base_dir}/02_full_rag_results"
-  benchmark_result_folder: "{base_dir}/03_benchmark_rag_results"
-  interim_folder:          "{base_dir}/04_interim_results"
-  fig_folder:              "{base_dir}/05_final_results"
-
-  # External data (hardcoded absolute paths)
-  scraping_dir: "C:/Users/YourName/.../3-Webscrapping & PDF disclosure"
-  chromedriver: "C:/Users/YourName/.../chromedriver-win64/chromedriver.exe"
-
-model:
-  name:       "claude-sonnet-4-6"
-  max_tokens: 8192
-```
-
 Each notebook loads config at the top via:
 ```python
 from config_loader import load_config
@@ -107,7 +87,7 @@ cfg = load_config()
 
 | Script | Description |
 |--------|-------------|
-| `0-scrapping_disclosure.ipynb` | Scrapes all disclosure statements and saves to `pdfs_2026/` |
+| `0-scrapping_disclosure.ipynb` | Scrapes all disclosure statements and saves to `01_pdfs_2026/` |
 | `1-explatorary_analysis.ipynb` | Exploratory analysis for 198 companies (May 2026, period 2024–2025) |
 | `2-nlp_analysis.ipynb` | Preliminary NLP-based analysis of climate risk disclosures |
 | `3-rag_result.ipynb` | LLM-assisted extraction of structured answers from PDFs |
