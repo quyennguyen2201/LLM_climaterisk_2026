@@ -106,7 +106,7 @@ cfg = load_config()
 
 ---
 
-## Scripts
+## Notebooks 
 
 | Script | Description |
 |--------|-------------|
