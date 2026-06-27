@@ -59,7 +59,7 @@ LLM_climaterisk_2026/
 
 ## External Data
 
-**Raw PDF files:** `drive.google.com///` *(link to be updated)*
+**Raw PDF files:** `` *(link to be updated)*
 
 The PDFs are New Zealand climate-related disclosure statements lodged by Climate Reporting Entities (CREs) with the Registrar of Financial Service Providers.
 
@@ -70,7 +70,7 @@ The PDFs are New Zealand climate-related disclosure statements lodged by Climate
 
 | Script | Description |
 |--------|-------------|
-| `0-scrapping_climate_risk_disclosure.ipynb` | Scrapes all disclosure statements and saves to `pdfs_2026/` |
+| `0-scrapping_disclosure.ipynb` | Scrapes all disclosure statements and saves to `pdfs_2026/` |
 | `1-explatorary_analysis.ipynb` | Exploratory analysis for 198 companies (May 2026, period 2024–2025) |
 | `2-nlp_analysis.ipynb` | Preliminary NLP-based analysis of climate risk disclosures |
 | `3-rag_result.ipynb` | LLM-assisted extraction of structured answers from PDFs |
