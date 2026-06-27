@@ -22,8 +22,8 @@ def load_config(config_path=None):
         for k, v in cfg["paths"].items()
     }
 
-    for key in ("fig_folder", "rag_results_dir", "benchmark_output_dir",
-                "interim_results_dir", "pdf_folder"):
+    for key in ("fig_folder", "rag_results_folder", "benchmark_result_folder",
+                "interim_folder", "pdf_folder"):
         os.makedirs(cfg["paths"][key], exist_ok=True)
 
     return cfg

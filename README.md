@@ -93,10 +93,11 @@ paths:
   repo_dir: "{base_dir}/4-Github2026_LLM/LLM_climaterisk_2026"  # derived automatically
 
   # Repo folders
-  pdf_folder:           "{repo_dir}/01_pdfs_2026"
-  rag_results_dir:      "{repo_dir}/02_full_rag_results"
-  benchmark_output_dir: "{repo_dir}/03_benchmark_rag_results"
-  fig_folder:           "{repo_dir}/05_final_results"
+  pdf_folder:              "{repo_dir}/01_pdfs_2026"
+  rag_results_folder:      "{repo_dir}/02_full_rag_results"
+  benchmark_result_folder: "{repo_dir}/03_benchmark_rag_results"
+  interim_folder:          "{repo_dir}/04_interim_results"
+  fig_folder:              "{repo_dir}/05_final_results"
 
   # External data
   scraping_dir: "{base_dir}/3-Webscrapping & PDF disclosure"
