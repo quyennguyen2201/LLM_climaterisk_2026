@@ -30,7 +30,7 @@ LLM_climaterisk_2026/
 ├── 00_scripts/                                   # Analysis notebooks (run in order)
 │   ├── config_loader.py                          # Reads config.yaml; imported by all notebooks
 │   ├── 0-scrapping_disclosure.ipynb              # Scrape PDFs from CRE search hub
-│   ├── 1-explatorary_analysis.ipynb              # Exploratory analysis of the sample
+│   ├── 1-sample_analysis.ipynb              # Exploratory analysis of the sample
 │   ├── 2-nlp_analysis.ipynb                      # NLP-based disclosure analysis
 │   ├── 3-rag_result.ipynb                        # LLM-assisted extraction (RAG)
 │   └── 4-rag_benchmark.ipynb                     # Benchmarking RAG outputs
