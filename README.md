@@ -53,7 +53,7 @@ LLM_climaterisk_2026/
 
 ## Analysis Versions
 - **Number of CREs:** 173 unique CREs as of 4 May 2026. 
-- **Final sample:** 227 companies as of May 2026, covering two fiscal periods FY24/25 and FY23/24. Exploratory analysis and RAG analysis is conducted for this sample of 227 companies
+- **Final sample:** 227 companies as of May 2026, covering two fiscal periods FY24/25 and FY23/24. 
 - **Ground-truth sample:** comparison for 13 companies in FY23/24
   
 ---
