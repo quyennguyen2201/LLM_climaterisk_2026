@@ -13,7 +13,8 @@ This repository covers four main workflows:
 1. Download of New Zealand climate statements from the CRE search hub
 2. Exploratory analysis of the final sample
 3. Preliminary data analysis of climate risk disclosures using NLP
-4. Analysis of agentic RAG LLM-assisted results
+4. Analysis of agentic RAG results
+5. Benchmark RAG results with groundtruth
 
 For the full implementation of the agentic RAG pipeline, see: https://github.com/florentaden/agent-climate-disclosure
 
