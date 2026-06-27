@@ -86,7 +86,7 @@ cfg = load_config()
 | Script | Description |
 |--------|-------------|
 | `0-scrapping_disclosure.ipynb` | Scrapes all disclosure statements and saves to `01_pdfs_2026/` |
-| `1-explatorary_analysis.ipynb` | Exploratory analysis for 198 companies (May 2026, period 2024–2025) |
+| `1-sample_analysis.ipynb` | Exploratory analysis for the final sample 227 statements (May 2026, period 2024–2025) |
 | `2-nlp_analysis.ipynb` | Preliminary NLP-based analysis of climate risk disclosures |
 | `3-rag_result.ipynb` | LLM-assisted extraction of structured answers from PDFs |
 | `4-rag_benchmark.ipynb` | Benchmarking and result analysis of LLM outputs |
