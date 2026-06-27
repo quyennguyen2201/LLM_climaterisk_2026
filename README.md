@@ -3,7 +3,7 @@
 Replication repository for the following manuscript:
 
 > **Evaluating the scientific rigour of climate scenario analysis: LLM-assisted evidence from New Zealand's mandatory disclosures**
->> Quyen Nguyen, Florent Aden-Antoniow, Nicholas A. Cradock-Henry, Jack Drummond,  Rob Buxton, Ani Barr
+> Quyen Nguyen, Florent Aden-Antoniow, Nicholas A. Cradock-Henry, Jack Drummond,  Rob Buxton, Ani Barr
 > *Version: June 2026*
 
 ---
@@ -47,7 +47,14 @@ LLM_climaterisk_2026/
     ├── List_of_climate_scenarios_RAG_renamed.csv # Scenario name mapping
     └── List_of_mapped_models.csv                 # Climate model name mapping
 ```
+---
 
+## Analysis Versions
+- **Final Sample:** 227 companies as of May 2026, covering two fiscal periods FY24/25 and FY23/24. 
+- Exploratory analysis for 227 companies
+- LLM analysis for 227 companies
+- Ground-truth comparison for 13 companies in FY23/24
+  
 ---
 
 ## External Data
@@ -55,6 +62,7 @@ LLM_climaterisk_2026/
 **Raw PDF files:** `drive.google.com///` *(link to be updated)*
 
 The PDFs are New Zealand climate-related disclosure statements lodged by Climate Reporting Entities (CREs) with the Registrar of Financial Service Providers.
+
 
 ---
 
@@ -68,13 +76,7 @@ The PDFs are New Zealand climate-related disclosure statements lodged by Climate
 | `3-rag_result.ipynb` | LLM-assisted extraction of structured answers from PDFs |
 | `4-rag_benchmark.ipynb` | Benchmarking and result analysis of LLM outputs |
 
----
 
-## Analysis Versions
-- **Final Sample:** 227 companies as of May 2026, covering two fiscal periods FY24/25 and FY23/24. 
-- Exploratory analysis for 227 companies
-- LLM analysis for 227 companies
-- Ground-truth comparison for 13 companies in 2024–2025
 
 ---
 
