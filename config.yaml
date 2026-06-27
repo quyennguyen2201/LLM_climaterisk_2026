@@ -6,7 +6,9 @@
 paths:
   base_dir:          "C:/Users/QuyenN/OneDrive - ESNZ/Offline_work/2_GNS/19_LLM_ClimateRisk2026"
   analysis_dir:      "{base_dir}/5-Analysis2026"
+  scraping_dir:      "{base_dir}/3-Webscrapping & PDF disclosure"
   pdf_folder:        "{base_dir}/3-Webscrapping & PDF disclosure/pdfs_2026/pdfs"
+  chromedriver:      "{base_dir}/4-Github2026_LLM/chromedriver-win64/chromedriver.exe"
   fig_folder:        "{base_dir}/5-Analysis2026/figures"
 
   # Input tables
@@ -20,6 +22,10 @@ paths:
   rag_results_dir:       "{base_dir}/5-Analysis2026/rag_results_florent"
   benchmark_output_dir:  "{base_dir}/5-Analysis2026/benchmark_output"
   tables_dir:            "{base_dir}/5-Analysis2026/tables"
+
+scraping:
+  base_url:      "https://crd-app.companiesoffice.govt.nz"
+  target_years:  [2023, 2024, 2025, 2026]
 
 model:
   name:       "claude-sonnet-4-6"
