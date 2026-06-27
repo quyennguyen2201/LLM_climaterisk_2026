@@ -1,0 +1,28 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Project configuration — LLM Climate Risk 2026
+# Edit paths here; all notebooks read from this file.
+# ─────────────────────────────────────────────────────────────────────────────
+
+paths:
+  base_dir:     "C:/Users/QuyenN/OneDrive - ESNZ/Offline_work/2_GNS/19_LLM_ClimateRisk2026"
+  pdf_folder:   "{base_dir}/3-Webscrapping & PDF disclosure/pdfs_2026/pdfs"
+  analysis_dir: "{base_dir}/5-Analysis2026"
+  results_dir:  "{base_dir}/5-Analysis2026/llm_results"
+  fig_folder:   "{base_dir}/5-Analysis2026"
+  pdf_list:     "{base_dir}/5-Analysis2026/List_of_all_PDF_for_normal_companies.csv"
+  selected_pdf_list: "{base_dir}/5-Analysis2026/List_of_selected_PDF_forLLManalysis.csv"
+  mapped_models:     "{base_dir}/5-Analysis2026/List_of_mapped_models.csv"
+  instruction:  "{base_dir}/4-Github2026_LLM/LLM_climaterisk_2026/scripts/3-llm_Instruction.md"
+
+model:
+  name:       "claude-sonnet-4-6"
+  max_tokens: 8192
+
+chunking:
+  chunk_size:    60000   # characters (~15k tokens)
+  chunk_overlap: 2000
+
+analysis:
+  sample_n:       227
+  periods:        ["FY2024", "FY2025"]
+  benchmark_n:    13
