@@ -47,19 +47,30 @@ LLM_climaterisk_2026/
     ├── List_of_climate_scenarios_RAG_renamed.csv # Scenario name mapping
     └── List_of_mapped_models.csv                 # Climate model name mapping
 ```
+## Background: Climate-Related Disclosures in New Zealand
+
+In recognition of the ongoing impact of climate change, the New Zealand Government introduced a mandatory requirement for large entities to prepare and lodge annual climate-related disclosures. These entities are called **Climate Reporting Entities (CREs)** under the Financial Markets Conduct Act 2013.
+
+CREs must lodge climate statements or exemption notices with the Registrar of Financial Service Providers within 4 months of their balance date. Entities with a 31 December 2023 balance date were the first to file, with statements due by 30 April 2024.
+
+**CRE search hub:** https://crd-app.companiesoffice.govt.nz/dashboard/
+
+**NZ Climate Standard (NZCS 1):** https://www.xrb.govt.nz/standards/climate-related-disclosures/aotearoa-new-zealand-climate-standards/aotearoa-new-zealand-climate-standard-1/
+
+Around 200 New Zealand entities (CREs) are required to report, including large banks, insurers, management schemes and public listed issuers. These CRE must meet a threshold of reporting (e.g. >1 billion in AUM or >NZ$60 million in market cap, refer to the paper).
+
 ---
 
 ## Analysis Versions
-- **Final Sample:** 227 companies as of May 2026, covering two fiscal periods FY24/25 and FY23/24. 
-- Exploratory analysis for 227 companies
-- LLM analysis for 227 companies
-- Ground-truth comparison for 13 companies in FY23/24
+- **Number of CREs:** 173 unique CREs as of 4 May 2026. 
+- **Final sample:** 227 companies as of May 2026, covering two fiscal periods FY24/25 and FY23/24. Exploratory analysis and RAG analysis is conducted for this sample of 227 companies
+- **Ground-truth sample:** comparison for 13 companies in FY23/24
   
 ---
 
 ## External Data
 
-**Raw PDF files:** `` *(link to be updated)*
+**Raw PDF files:** `https://drive.google.com/drive/folders/1ZEM4f6etkYN_Tn6AS2uynkCWAflSQmf_?usp=drive_link` *(link to be updated)*
 
 The PDFs are New Zealand climate-related disclosure statements lodged by Climate Reporting Entities (CREs) with the Registrar of Financial Service Providers.
 
@@ -80,23 +91,3 @@ The PDFs are New Zealand climate-related disclosure statements lodged by Climate
 
 ---
 
-## Background: Climate-Related Disclosures in New Zealand
-
-In recognition of the ongoing impact of climate change, the New Zealand Government introduced a mandatory requirement for large entities to prepare and lodge annual climate-related disclosures. These entities are called **Climate Reporting Entities (CREs)** under the Financial Markets Conduct Act 2013.
-
-CREs must lodge climate statements or exemption notices with the Registrar of Financial Service Providers within 4 months of their balance date. Entities with a 31 December 2023 balance date were the first to file, with statements due by 30 April 2024.
-
-**CRE search hub:** https://crd-app.companiesoffice.govt.nz/dashboard/
-
-**NZ Climate Standard (NZCS 1):** https://www.xrb.govt.nz/standards/climate-related-disclosures/aotearoa-new-zealand-climate-standards/aotearoa-new-zealand-climate-standard-1/
-
-### Which entities are CREs?
-
-Around 200 New Zealand entities are required to report, including:
-
-- **Large registered banks, credit unions, and building societies** — total assets > $1 billion
-- **Large managers of registered investment schemes** — total assets under management > $1 billion
-- **Large licensed insurers** — total assets > $1 billion or annual gross premium income > $250 million
-- **Large listed issuers of quoted equity or debt securities** — equity issuers with market value > $60 million; debt issuers with face value of quoted debt > $60 million (growth market issuers excluded)
-
-Thresholds are calculated at the balance date of the two preceding accounting periods and adjusted periodically for CPI movements.
