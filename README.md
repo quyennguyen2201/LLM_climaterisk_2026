@@ -100,9 +100,7 @@ In recognition of the ongoing impact of climate change, the New Zealand Governme
 
 **NZ Climate Standard (NZCS 1):** https://www.xrb.govt.nz/standards/climate-related-disclosures/aotearoa-new-zealand-climate-standards/aotearoa-new-zealand-climate-standard-1/
 
-Around 200 CREs are required to report, including large banks, insurers, management schemes and public listed issuers. These CRE must meet a threshold of reporting (e.g. >1 billion in AUM or >NZ$60 million in market cap, refer to the paper).
-
-CREs must lodge climate statements or exemption notices with the Registrar of Financial Service Providers within 4 months of their balance date. 
+Around 200 CREs are required to report, including large banks, insurers, management schemes and public listed issuers. These CRE must meet a threshold of reporting (e.g. >1 billion in AUM or >NZ$60 million in market cap, refer to the paper). CREs must lodge climate statements or exemption notices with the CRE search hub within 4 months of their balance date. 
 
 **CRE search hub:** https://crd-app.companiesoffice.govt.nz/dashboard/
 
