@@ -14,18 +14,12 @@ paths:
   benchmark_result_folder: "{base_dir}/03_benchmark_rag_results"
   interim_folder:          "{base_dir}/04_interim_results"
   fig_folder:              "{base_dir}/05_final_results"
+  chromedriver: "{base_dir}/chromedriver.exe"
 
   # ── Interim / input files ───────────────────────────────────────────────────
   selected_pdf_list: "{base_dir}/04_interim_results/List_of_selected_PDF_forLLManalysis.csv"
   mapped_models:     "{base_dir}/04_interim_results/List_of_mapped_models.csv"
   scenario_rename:   "{base_dir}/04_interim_results/List_of_climate_scenarios_RAG_renamed.csv"
-  instruction:       "{base_dir}/00_scripts/3-llm_Instruction.md"
-
-  # ── External data (outside repo) — update if your layout differs ────────────
-  scraping_dir: "C:/Users/QuyenN/OneDrive - ESNZ/Offline_work/2_GNS/19_LLM_ClimateRisk2026/3-Webscrapping & PDF disclosure"
-  analysis_dir: "C:/Users/QuyenN/OneDrive - ESNZ/Offline_work/2_GNS/19_LLM_ClimateRisk2026/5-Analysis2026"
-  tables_dir:   "C:/Users/QuyenN/OneDrive - ESNZ/Offline_work/2_GNS/19_LLM_ClimateRisk2026/5-Analysis2026/tables"
-  chromedriver: "C:/Users/QuyenN/OneDrive - ESNZ/Offline_work/2_GNS/19_LLM_ClimateRisk2026/4-Github2026_LLM/chromedriver-win64/chromedriver.exe"
 
 scraping:
   base_url:     "https://crd-app.companiesoffice.govt.nz"
