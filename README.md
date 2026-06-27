@@ -72,10 +72,37 @@ Around 200 New Zealand entities (CREs) are required to report, including large b
 
 ## External Data
 
-**Raw PDF files:** `https://drive.google.com/drive/folders/1ZEM4f6etkYN_Tn6AS2uynkCWAflSQmf_?usp=drive_link` *(link to be updated)*
+**Raw PDF files:** `https://drive.google.com/drive/folders/1ZEM4f6etkYN_Tn6AS2uynkCWAflSQmf_?usp=drive_link`
 
 The PDFs are New Zealand climate-related disclosure statements lodged by Climate Reporting Entities (CREs) with the Registrar of Financial Service Providers.
 
+
+---
+
+## Configuration
+
+All paths and model settings are stored in [`config.yaml`](config.yaml). Before running any notebook, update `base_dir` to match your local environment — everything else is derived from it automatically.
+
+```yaml
+paths:
+  base_dir: "C:/Users/YourName/path/to/19_LLM_ClimateRisk2026"  # ← change this
+  analysis_dir:         "{base_dir}/5-Analysis2026"
+  pdf_folder:           "{base_dir}/3-Webscrapping & PDF disclosure/pdfs_2026/pdfs"
+  fig_folder:           "{base_dir}/5-Analysis2026/figures"
+  rag_results_dir:      "{base_dir}/5-Analysis2026/rag_results_florent"
+  benchmark_output_dir: "{base_dir}/5-Analysis2026/benchmark_output"
+  ...
+
+model:
+  name:       "claude-sonnet-4-6"
+  max_tokens: 8192
+```
+
+Each notebook loads config at the top via:
+```python
+from config_loader import load_config
+cfg = load_config()
+```
 
 ---
 
