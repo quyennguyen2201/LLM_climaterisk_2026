@@ -1,31 +1,36 @@
 # ─────────────────────────────────────────────────────────────────────────────
 # Project configuration — LLM Climate Risk 2026
-# Edit paths here; all notebooks read from this file.
+# Only edit base_dir; everything else is derived automatically.
 # ─────────────────────────────────────────────────────────────────────────────
 
 paths:
-  base_dir:          "C:/Users/QuyenN/OneDrive - ESNZ/Offline_work/2_GNS/19_LLM_ClimateRisk2026"
-  analysis_dir:      "{base_dir}/5-Analysis2026"
-  scraping_dir:      "{base_dir}/3-Webscrapping & PDF disclosure"
-  pdf_folder:        "{base_dir}/3-Webscrapping & PDF disclosure/pdfs_2026/pdfs"
-  chromedriver:      "{base_dir}/4-Github2026_LLM/chromedriver-win64/chromedriver.exe"
-  fig_folder:        "{base_dir}/5-Analysis2026/figures"
+  # ── Root directories (only change base_dir) ─────────────────────────────────
+  base_dir: "C:/Users/QuyenN/OneDrive - ESNZ/Offline_work/2_GNS/19_LLM_ClimateRisk2026"
+  repo_dir: "{base_dir}/4-Github2026_LLM/LLM_climaterisk_2026"
 
-  # Input tables
-  pdf_list:              "{base_dir}/5-Analysis2026/List_of_all_PDF_for_normal_companies.csv"
-  selected_pdf_list:     "{base_dir}/5-Analysis2026/tables/Table01_nlp_analysis_submitted_normal_firms_2024_2025.updated.rag.csv"
-  mapped_models:         "{base_dir}/5-Analysis2026/interim_results/List_of_mapped_models.csv"
-  scenario_rename:       "{base_dir}/5-Analysis2026/interim_results/list_of_climate_scenarios_RAG_renamed.csv"
-  instruction:           "{base_dir}/4-Github2026_LLM/LLM_climaterisk_2026/scripts/3-llm_Instruction.md"
+  # ── Repo folders (numbered) ─────────────────────────────────────────────────
+  scripts_dir:          "{repo_dir}/00_scripts"
+  pdf_folder:           "{repo_dir}/01_pdfs_2026"
+  rag_results_dir:      "{repo_dir}/02_full_rag_results"
+  benchmark_output_dir: "{repo_dir}/03_benchmark_rag_results"
+  interim_results_dir:  "{repo_dir}/04_interim_results"
+  fig_folder:           "{repo_dir}/05_final_results"
 
-  # Output directories
-  rag_results_dir:       "{base_dir}/5-Analysis2026/rag_results_florent"
-  benchmark_output_dir:  "{base_dir}/5-Analysis2026/benchmark_output"
-  tables_dir:            "{base_dir}/5-Analysis2026/tables"
+  # ── Interim / input files ───────────────────────────────────────────────────
+  selected_pdf_list: "{repo_dir}/04_interim_results/List_of_selected_PDF_forLLManalysis.csv"
+  mapped_models:     "{repo_dir}/04_interim_results/List_of_mapped_models.csv"
+  scenario_rename:   "{repo_dir}/04_interim_results/List_of_climate_scenarios_RAG_renamed.csv"
+  instruction:       "{repo_dir}/00_scripts/3-llm_Instruction.md"
+
+  # ── External data (outside repo) ────────────────────────────────────────────
+  scraping_dir: "{base_dir}/3-Webscrapping & PDF disclosure"
+  analysis_dir: "{base_dir}/5-Analysis2026"
+  chromedriver: "{base_dir}/4-Github2026_LLM/chromedriver-win64/chromedriver.exe"
+  tables_dir:   "{base_dir}/5-Analysis2026/tables"
 
 scraping:
-  base_url:      "https://crd-app.companiesoffice.govt.nz"
-  target_years:  [2023, 2024, 2025, 2026]
+  base_url:     "https://crd-app.companiesoffice.govt.nz"
+  target_years: [2023, 2024, 2025, 2026]
 
 model:
   name:       "claude-sonnet-4-6"

@@ -27,27 +27,29 @@ For the full implementation of the agentic RAG pipeline, see: https://github.com
 LLM_climaterisk_2026/
 ├── README.md
 ├── LICENSE
-│
 ├── config.yaml                                   # All paths and settings (edit base_dir here)
-├── scripts/                                      # Analysis notebooks (run in order)
+│
+├── 00_scripts/                                   # Analysis notebooks (run in order)
 │   ├── config_loader.py                          # Reads config.yaml; imported by all notebooks
-│   ├── 0-scrapping_climate_risk_disclosure.ipynb # Scrape PDFs from CRE search hub
+│   ├── 0-scrapping_disclosure.ipynb              # Scrape PDFs from CRE search hub
 │   ├── 1-explatorary_analysis.ipynb              # Exploratory analysis of the sample
 │   ├── 2-nlp_analysis.ipynb                      # NLP-based disclosure analysis
 │   ├── 3-rag_result.ipynb                        # LLM-assisted extraction (RAG)
 │   └── 4-rag_benchmark.ipynb                     # Benchmarking RAG outputs
 │
-├── full_rag_results/                             # LLM extraction outputs (234 JSON files)
-│   └── {COMPANY}_{YEAR}.json                    # One file per company-year
+├── 01_pdfs_2026/                                 # Downloaded disclosure PDFs
 │
-├── benchmark_rag_results/                        # Ground-truth comparison (13 JSON files)
-│   └── {COMPANY}_{YEAR}.json                    # Manually validated subset
+├── 02_full_rag_results/                          # LLM extraction outputs (one JSON per company-year)
 │
-└── interim_results/                              # Reference & mapping tables
-    ├── Included_PDF_only.csv                     # Final PDF sample list
-    ├── List_of_selected_PDF_forLLManalysis.csv   # PDFs selected for LLM analysis
-    ├── List_of_climate_scenarios_RAG_renamed.csv # Scenario name mapping
-    └── List_of_mapped_models.csv                 # Climate model name mapping
+├── 03_benchmark_rag_results/                     # Ground-truth comparison (13 JSON files)
+│
+├── 04_interim_results/                           # Reference & mapping tables
+│   ├── Included_PDF_only.csv
+│   ├── List_of_selected_PDF_forLLManalysis.csv
+│   ├── List_of_climate_scenarios_RAG_renamed.csv
+│   └── List_of_mapped_models.csv
+│
+└── 05_final_results/                             # Output figures and tables
 ```
 ## Background: Climate-Related Disclosures in New Zealand
 
@@ -83,15 +85,22 @@ The PDFs are New Zealand climate-related disclosure statements lodged by Climate
 
 All paths and model settings are stored in [`config.yaml`](config.yaml). Before running any notebook, update `base_dir` to match your local environment — everything else is derived from it automatically.
 
+Before running webscraping, makesure you download the equivalent chrome driver and update `chromedriver`.
+
 ```yaml
 paths:
-  base_dir: "C:/Users/YourName/path/to/19_LLM_ClimateRisk2026"  # ← change this
-  analysis_dir:         "{base_dir}/5-Analysis2026"
-  pdf_folder:           "{base_dir}/3-Webscrapping & PDF disclosure/pdfs_2026/pdfs"
-  fig_folder:           "{base_dir}/5-Analysis2026/figures"
-  rag_results_dir:      "{base_dir}/5-Analysis2026/rag_results_florent"
-  benchmark_output_dir: "{base_dir}/5-Analysis2026/benchmark_output"
-  ...
+  base_dir: "C:/Users/YourName/path/to/19_LLM_ClimateRisk2026"  # ← change this only
+  repo_dir: "{base_dir}/4-Github2026_LLM/LLM_climaterisk_2026"  # derived automatically
+
+  # Repo folders
+  pdf_folder:           "{repo_dir}/01_pdfs_2026"
+  rag_results_dir:      "{repo_dir}/02_full_rag_results"
+  benchmark_output_dir: "{repo_dir}/03_benchmark_rag_results"
+  fig_folder:           "{repo_dir}/05_final_results"
+
+  # External data
+  scraping_dir: "{base_dir}/3-Webscrapping & PDF disclosure"
+  chromedriver: "{base_dir}/4-Github2026_LLM/chromedriver-win64/chromedriver.exe"
 
 model:
   name:       "claude-sonnet-4-6"
