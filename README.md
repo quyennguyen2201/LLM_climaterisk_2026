@@ -51,18 +51,6 @@ LLM_climaterisk_2026/
 │
 └── 05_final_results/                             # Output figures and tables
 ```
-## Background: Climate-Related Disclosures in New Zealand
-
-In recognition of the ongoing impact of climate change, the New Zealand Government introduced a mandatory requirement for large entities to prepare and lodge annual climate-related disclosures. These entities are called **Climate Reporting Entities (CREs)** under the Financial Markets Conduct Act 2013.
-
-CREs must lodge climate statements or exemption notices with the Registrar of Financial Service Providers within 4 months of their balance date. Entities with a 31 December 2023 balance date were the first to file, with statements due by 30 April 2024.
-
-**CRE search hub:** https://crd-app.companiesoffice.govt.nz/dashboard/
-
-**NZ Climate Standard (NZCS 1):** https://www.xrb.govt.nz/standards/climate-related-disclosures/aotearoa-new-zealand-climate-standards/aotearoa-new-zealand-climate-standard-1/
-
-Around 200 New Zealand entities (CREs) are required to report, including large banks, insurers, management schemes and public listed issuers. These CRE must meet a threshold of reporting (e.g. >1 billion in AUM or >NZ$60 million in market cap, refer to the paper).
-
 ---
 
 ## Analysis Versions
@@ -89,19 +77,18 @@ Before running webscraping, makesure you download the equivalent chrome driver a
 
 ```yaml
 paths:
-  base_dir: "C:/Users/YourName/path/to/19_LLM_ClimateRisk2026"  # ← change this only
-  repo_dir: "{base_dir}/4-Github2026_LLM/LLM_climaterisk_2026"  # derived automatically
+  base_dir: "C:/Users/YourName/path/to/LLM_climaterisk_2026"  # ← change this only
 
-  # Repo folders
-  pdf_folder:              "{repo_dir}/01_pdfs_2026"
-  rag_results_folder:      "{repo_dir}/02_full_rag_results"
-  benchmark_result_folder: "{repo_dir}/03_benchmark_rag_results"
-  interim_folder:          "{repo_dir}/04_interim_results"
-  fig_folder:              "{repo_dir}/05_final_results"
+  # Repo folders (derived from base_dir)
+  pdf_folder:              "{base_dir}/01_pdfs_2026"
+  rag_results_folder:      "{base_dir}/02_full_rag_results"
+  benchmark_result_folder: "{base_dir}/03_benchmark_rag_results"
+  interim_folder:          "{base_dir}/04_interim_results"
+  fig_folder:              "{base_dir}/05_final_results"
 
-  # External data
-  scraping_dir: "{base_dir}/3-Webscrapping & PDF disclosure"
-  chromedriver: "{base_dir}/4-Github2026_LLM/chromedriver-win64/chromedriver.exe"
+  # External data (hardcoded absolute paths)
+  scraping_dir: "C:/Users/YourName/.../3-Webscrapping & PDF disclosure"
+  chromedriver: "C:/Users/YourName/.../chromedriver-win64/chromedriver.exe"
 
 model:
   name:       "claude-sonnet-4-6"
@@ -129,4 +116,14 @@ cfg = load_config()
 
 
 ---
+## Background: Climate-Related Disclosures in New Zealand
 
+In recognition of the ongoing impact of climate change, the New Zealand Government introduced a mandatory requirement for large entities to prepare and lodge annual climate-related disclosures. These entities are called **Climate Reporting Entities (CREs)** under the Financial Markets Conduct Act 2013.
+
+CREs must lodge climate statements or exemption notices with the Registrar of Financial Service Providers within 4 months of their balance date. Entities with a 31 December 2023 balance date were the first to file, with statements due by 30 April 2024.
+
+**CRE search hub:** https://crd-app.companiesoffice.govt.nz/dashboard/
+
+**NZ Climate Standard (NZCS 1):** https://www.xrb.govt.nz/standards/climate-related-disclosures/aotearoa-new-zealand-climate-standards/aotearoa-new-zealand-climate-standard-1/
+
+Around 200 New Zealand entities (CREs) are required to report, including large banks, insurers, management schemes and public listed issuers. These CRE must meet a threshold of reporting (e.g. >1 billion in AUM or >NZ$60 million in market cap, refer to the paper).
