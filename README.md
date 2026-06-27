@@ -28,7 +28,9 @@ LLM_climaterisk_2026/
 ├── README.md
 ├── LICENSE
 │
+├── config.yaml                                   # All paths and settings (edit base_dir here)
 ├── scripts/                                      # Analysis notebooks (run in order)
+│   ├── config_loader.py                          # Reads config.yaml; imported by all notebooks
 │   ├── 0-scrapping_climate_risk_disclosure.ipynb # Scrape PDFs from CRE search hub
 │   ├── 1-explatorary_analysis.ipynb              # Exploratory analysis of the sample
 │   ├── 2-nlp_analysis.ipynb                      # NLP-based disclosure analysis
