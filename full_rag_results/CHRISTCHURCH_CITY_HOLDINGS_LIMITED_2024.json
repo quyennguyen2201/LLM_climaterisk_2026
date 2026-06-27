@@ -1,0 +1,172 @@
+{
+  "source": "CHRISTCHURCH_CITY_HOLDINGS_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 672039,
+      "output_tokens": 5913,
+      "total_tokens": 677952,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 632998,
+        "ephemeral_5m_input_tokens": 39018,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Scenario One: System Transition | Orderly (<1.5°C)",
+        "Scenario Two: Slow Progress | Disorderly (~2°C)",
+        "Scenario Three: Hothouse World (>3°C)"
+      ],
+      "evidence": "Description of scenarios: Scenario One: System Transition | Orderly — New Zealand and the world reach net zero by 2050, driven through strong policies and rapid technology change. Scenario Two: Slow Progress | Disorderly — Progress towards decarbonisation is slow to 2030. New Zealand and the developed world commence their transition, but the developing world does not follow suit, and as such emissions still increase considerably. Scenario Three: Hothouse World — New Zealand and the world abandon net zero targets. There is continued reliance on fossil fuels into the future.",
+      "location_hint": "Strategy section, p.15-16 (page 8 of PDF)",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes by 2100 are described: 1.4°C (Orderly/System Transition, <1.5°C scenario), 2.7°C (Disorderly/Slow Progress, ~2°C scenario), and 4.4°C (Hothouse World, >3°C scenario). Temperature outcomes by 2050 are also given: 1.6°C, 2.0°C, and 2.4°C respectively.",
+      "evidence": "Global Temperature Increase by 2100: 1.4°C [Orderly], 2.7°C [Disorderly], 4.4°C [Hothouse World]. Global Temperature Increase by 2050: 1.6°C, 2.0°C, 2.4°C.",
+      "location_hint": "Strategy section, Description of scenarios table, p.15-16 (page 8 of PDF)",
+      "confidence": "high",
+      "notes": "No temperature overshoot language is used.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "The IPCC (Intergovernmental Panel on Climate Change) is explicitly named as the provider of the reference emissions reduction pathways. New Zealand sector-level scenarios (Property and Construction, Health, Retail, Energy sectors) are also named as sources. The external consultant Tonkin + Taylor supported the scenario analysis process.",
+      "evidence": "CCHL's scenarios include a set of statements and drivers that are plausibly consistent with a reference emissions reduction pathway from the Intergovernmental Panel on Climate Change (IPCC) Sixth Assessment Report (AR6). The assumptions underlying the reference pathways have been developed by the IPCC. ... CCHL elected to primarily draw from sector-level scenarios as these have been developed to support climate reporting entities to prepare climate-related disclosures in-line with the Aotearoa New Zealand Climate Standards.",
+      "location_hint": "Strategy section, p.13-14 (page 7 of PDF)",
+      "confidence": "high",
+      "notes": "The sector-level scenarios are referenced by sector name (Property and Construction, Health, Retail, Energy) but the specific organisations that produced them are not named.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "RCP: 1.9 (Lowest Emissions) [Orderly], 4.5 (Intermediate Emissions) [Disorderly], 8.5 (Highest Emissions) [Hothouse World]. SSP: SSP1 Sustainability [Orderly], SSP2 Middle of the Road [Disorderly], SSP5 Fossil-Fueled Development [Hothouse World].",
+      "location_hint": "Strategy section, Description of scenarios table, p.15-16 (page 8 of PDF)",
+      "confidence": "high",
+      "notes": "The document explicitly lists both SSP and RCP identifiers for each scenario. RCP1.9 is paired with SSP1, RCP4.5 with SSP2, and RCP8.5 with SSP5. RCP1.9 is not from the same CMIP5 family as SSP1 (which is CMIP6), so these are cross-generation pairings. However, the document presents them as paired without explicitly describing them as mixed from different families.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "CCHL elected to primarily draw from sector-level scenarios as these have been developed to support climate reporting entities to prepare climate-related disclosures in-line with the Aotearoa New Zealand Climate Standards. ... Change in severity and frequency of extreme weather events (acute hazards): Intergovernmental Panel on Climate Change AR6 and downscaled New Zealand projections.",
+      "location_hint": "Strategy section, p.13-14 (page 7 of PDF)",
+      "confidence": "high",
+      "notes": "The scenarios were developed by CCHL with support from Tonkin + Taylor, drawing on IPCC AR6 pathways, NZ sector-level scenarios, and downscaled New Zealand projections. The document explicitly mentions \"downscaled New Zealand projections\" for acute hazard drivers, and the scenarios were tailored to CCHL's operations and value chain.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "CCHL's scenario analysis process was conducted as a standalone exercise in FY24 with input from management, rather than integrated into our existing strategy processes. This process was supported by external consultants Tonkin + Taylor who have subject matter expertise in the area of climate change and scenario analysis.",
+      "location_hint": "Strategy section, p.13-14 (page 7 of PDF)",
+      "confidence": "high",
+      "notes": "The scenario development involved management input and external consultants (Tonkin + Taylor), and reviewed sector-level scenarios developed by NZ industries, but there is no language indicating participatory, co-created, deliberative, or stakeholder co-design processes.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No",
+      "evidence": "In FY24, CCHL developed three climate-related scenarios to help assess its climate-related risks and opportunities, and to help it understand the resilience of its business model and strategy under different levels of uncertainty.",
+      "location_hint": "Strategy section, p.13-14 (page 7 of PDF)",
+      "confidence": "high",
+      "notes": "The document describes three forward-looking scenarios (Orderly, Disorderly, Hothouse World) but does not describe a separate baseline or \"business as usual\" reference scenario against which the others are compared.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "IPCC AR6 (Sixth Assessment Report)"
+      ],
+      "evidence": "CCHL's scenarios include a set of statements and drivers that are plausibly consistent with a reference emissions reduction pathway from the Intergovernmental Panel on Climate Change (IPCC) Sixth Assessment Report (AR6). The assumptions underlying the reference pathways have been developed by the IPCC.",
+      "location_hint": "Strategy section, p.13-14 (page 7 of PDF)",
+      "confidence": "medium",
+      "notes": "No specific climate models (e.g. GCMs, IAMs) are named. The document references IPCC AR6 pathways and downscaled New Zealand projections, but does not name the underlying models used to produce those projections.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "Extreme weather events such as storms and tropical cyclones resulting in direct damage to assets and facilities, energy insecurity, increased operations and maintenance costs, and disruptions to operations and supply chains. ... Increased rainfall and flooding resulting in damage to assets, disruption to access to and from facilities, and increased operations and maintenance costs. ... Significant and ongoing damages from extreme weather events lead to massive compounding costs for the New Zealand government and large sectors of the economy.",
+      "location_hint": "Strategy section, Risk tables, p.23-24 (pages 11-12 of PDF)",
+      "confidence": "high",
+      "notes": "The scenario analysis explicitly includes damage and loss estimates from extreme events (acute physical risks) such as storms, flooding, fire weather, and coastal inundation, assessed across short, medium, and long-term horizons under each scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon price",
+        "sea level rise",
+        "population",
+        "GDP",
+        "economic costs and government funding",
+        "climate migration",
+        "behaviour change/consumer preferences",
+        "development of low carbon technologies",
+        "power infrastructure reliability",
+        "changes to urban form",
+        "regulation/compliance",
+        "change in severity and frequency of extreme weather events (acute hazards)",
+        "rainfall/flooding",
+        "fire weather",
+        "storm surge/coastal inundation",
+        "drought"
+      ],
+      "evidence": "Driver / Reference: Carbon price — Property and Construction Sector Scenarios / Current market carbon price via CommTrade*; Population — Property and Construction Sector Scenarios; GDP — Health Sector Scenarios; Economic costs and government funding — Health Sector Scenarios; Climate migration — Health Sector Scenarios; Behaviour change/consumer preferences — Retail Sector Scenarios; Development of low carbon technologies — All sector-level scenarios; Power infrastructure reliability — Energy Sector Scenarios; Changes to urban form — Property and Construction Sector Scenarios; Regulation/compliance — CCHL; Change in severity and frequency of extreme weather events (acute hazards) — Intergovernmental Panel on Climate Change AR6 and downscaled New Zealand projections; Change in severity and frequency of hazards, e.g. sea-level rise and average temperature change (chronic hazards) — Intergovernmental Panel on Climate Change AR6.",
+      "location_hint": "Strategy section, Driving Forces table, p.13-14 (page 7 of PDF)",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "Change in severity and frequency of extreme weather events (acute hazards): Intergovernmental Panel on Climate Change AR6 and downscaled New Zealand projections. Change in severity and frequency of hazards, e.g. sea-level rise and average temperature change (chronic hazards): Intergovernmental Panel on Climate Change AR6.",
+      "location_hint": "Strategy section, Driving Forces table, p.13-14 (page 7 of PDF)",
+      "confidence": "high",
+      "notes": "The scenarios draw on global IPCC AR6 pathways for chronic hazards, and downscaled New Zealand projections for acute hazards, indicating both global and regional/local scales are used.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short term: present day – 2030; Medium term: 2030 – 2050; Long term: 2050 – 2100. Rationales are explicitly provided for each time horizon.",
+      "evidence": "Time horizon / Year / Rationale: Short term / Present day – 2030 / Aligns with CCHL's near term capital allocation and funding cycle (three-year Statement of Intent period and 10 year forecasting for Council's Long Term Plan). Medium / 2030 – 2050 / Aligns with capital allocation for CCHL's capital planning to support future Long Term Plans of the Council. Long / 2050 – 2100 / Aligns with ownership and operation of critical infrastructure assets subject to the long-term impacts of climate change.",
+      "location_hint": "Strategy section, Time horizons table, p.19-20 (page 10 of PDF)",
+      "confidence": "high",
+      "notes": "The document explicitly states \"These time horizons were chosen as they align with CCHL's strategic planning horizons and capital deployment plans.\"",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "CCHL elected to primarily draw from sector-level scenarios as these have been developed to support climate reporting entities to prepare climate-related disclosures in-line with the Aotearoa New Zealand Climate Standards. Drawing from these sector-level scenarios enables more meaningful disclosure comparison for primary users of climate statements.",
+      "location_hint": "Strategy section, p.13-14 (page 7 of PDF)",
+      "confidence": "high",
+      "notes": "The justification is primarily that sector-level NZ scenarios align with the Aotearoa New Zealand Climate Standards and enable meaningful comparison for primary users. The IPCC AR6 pathways are used as the underlying reference without a separate explicit justification beyond their role as the standard scientific basis.",
+      "verification": null
+    }
+  ]
+}

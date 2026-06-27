@@ -1,0 +1,171 @@
+{
+  "source": "ARVIDA_GROUP_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1149266,
+      "output_tokens": 6629,
+      "total_tokens": 1155895,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 1087186,
+        "ephemeral_5m_input_tokens": 62055,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Hot House World",
+        "Delayed and Disorderly",
+        "Ambitious and Orderly"
+      ],
+      "evidence": "Hot House World (<3°C) | Delayed and Disorderly | Ambitious and Orderly (>1.5°C) | Reference scenarios: SSP3-7 | SSP2-4.5 | SSP1-1.9 | Temperature in 2100: 3.6 | 2.7 | 1.4",
+      "location_hint": "Climate Related Disclosures, Scenarios table, p.89",
+      "confidence": "high",
+      "notes": "Three scenarios are used: Hot House World (3.6°C, SSP3-7), Delayed and Disorderly (2.7°C, SSP2-4.5), and Ambitious and Orderly (1.4°C, SSP1-1.9).",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes by 2100 are described: 1.4°C (Ambitious and Orderly), 2.7°C (Delayed and Disorderly), and 3.6°C (Hot House World). No temperature overshoot is mentioned.",
+      "evidence": "\"This scenario aligns to a Paris Agreement-aligned transition scenario of 1.4°C by 2100\" / \"This scenario is a moderate-warming scenario, where the world reaches 2.7°C by 2100\" / \"This is a high-warming scenario where 3.6°C is reached by 2100.\"",
+      "location_hint": "Climate Related Disclosures, pp.90–93",
+      "confidence": "high",
+      "notes": "All three temperature outcomes are explicitly stated in the scenario descriptions. No overshoot language is used.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Yes. Two scenario providers are named: (1) Tonkin + Taylor (consultants who developed the health sector scenarios with Te Whatu Ora and ~30 other health sector participants); and (2) New Zealand Green Building Council (who led the construction and property sector scenarios).",
+      "evidence": "\"the Company jointly led a project, with Te Whatu Ora and around 30 other health sector participants, to develop a set of sector scenarios with consultants Tonkin + Taylor.\" / \"information from both the health sector work and the construction and property sector scenarios, lead by the New Zealand Green Building Council last year, was used as these two sectors reflect the Company's business.\"",
+      "location_hint": "Climate Related Disclosures, Scenarios section, p.89",
+      "confidence": "high",
+      "notes": "Tonkin + Taylor are the consultants for the health sector scenarios; the NZ Green Building Council led the construction/property sector scenarios. Arvida then combined both to develop its own scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "The scenario table lists SSP reference scenarios (SSP3-7, SSP2-4.5, SSP1-1.9), while the risk table separately references \"RCP 8.5\": \"New communities are designed to withstand the extreme climate scenarios of RCP 8.5.\" and \"The Company will continue to explore this further and consider a RCP 8.5 scenario.\"",
+      "location_hint": "Scenarios table p.89; Climate Risks table p.93; Climate Opportunities table p.94",
+      "confidence": "high",
+      "notes": "The main scenario framework uses SSP identifiers (SSP1-1.9, SSP2-4.5, SSP3-7), but RCP 8.5 is also explicitly referenced in the physical risk and opportunities sections for design/planning purposes, indicating a mix of SSP and RCP identifiers.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"the Company jointly led a project, with Te Whatu Ora and around 30 other health sector participants, to develop a set of sector scenarios with consultants Tonkin + Taylor... Through a series of workshops, the group developed three sector scenarios.\" / \"In developing the Company's own scenarios, information from both the health sector work and the construction and property sector scenarios, lead by the New Zealand Green Building Council last year, was used as these two sectors reflect the Company's business.\"",
+      "location_hint": "Climate Related Disclosures, Scenarios section, p.89",
+      "confidence": "high",
+      "notes": "Scenarios were specifically developed for the NZ health sector and NZ construction/property sector, then further adapted by Arvida for its own business context. This goes well beyond off-the-shelf use of standard global scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes",
+      "evidence": "\"the Company jointly led a project, with Te Whatu Ora and around 30 other health sector participants, to develop a set of sector scenarios with consultants Tonkin + Taylor. The Company's Head of Sustainability & Compliance was the Chair of the Technical Working Group and the Company's GM Strategy was part of the leadership group. Through a series of workshops, the group developed three sector scenarios.\"",
+      "location_hint": "Climate Related Disclosures, Scenarios section, p.89",
+      "confidence": "high",
+      "notes": "The health sector scenarios were co-developed through a collaborative, multi-stakeholder process involving Arvida, Te Whatu Ora, ~30 other health sector participants, and consultants Tonkin + Taylor, via a series of workshops. This is clearly participatory/co-produced scenario development.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No explicit baseline or reference scenario is described against which the three climate scenarios are compared. The scenario table does list \"Public reaction: Current policies\" as a characteristic of the Hot House World scenario, but this is a scenario attribute, not a standalone baseline.",
+      "evidence": "The scenario comparison table shows: \"Hot House World: Public reaction – Current policies | Delayed and Disorderly: Public reaction – Delayed | Ambitious and Orderly: Public reaction – Immediate and smooth\"",
+      "location_hint": "Scenarios table, p.89",
+      "confidence": "medium",
+      "notes": "No separate \"business as usual\" or \"no climate change\" baseline scenario is described. The Hot House World scenario implicitly represents a current-policies trajectory, but it is not labelled as a baseline.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "Motu Economic and Public Policy Research consumption-based greenhouse gas emissions input-output model"
+      ],
+      "evidence": "\"Emissions factors for purchased goods and services (except food) and capital goods were sourced from Motu and adjusted for inflation to 2007 when the research was conducted.\" / \"Consumption-based greenhouse gas emissions input-output model\". 2014. Obtained by Motu Economic and Public Policy Research from Statistics New Zealand, MBIE and MFE in 2013.\"",
+      "location_hint": "Metrics and Targets, p.96; Emissions Inventory Report, p.6",
+      "confidence": "medium",
+      "notes": "No climate models (GCMs) or integrated assessment models (IAMs) are named for the scenario analysis itself. The only named model is the Motu input-output model, used for emissions factor calculations in the GHG inventory, not for climate scenario modelling.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"Extreme weather events may result in increased capital costs associated with material damage to Arvida's assets and/or additional mitigation or adaptation measures. Also, there are increased operational costs associated with repairs and/or increased insurance premiums and/or disruption to supply chains.\" / \"During 2023, two severe weather events occurred: a significant rain event in late January 2023 that caused widespread flooding in Auckland... The final settlement for the material damage component of the insurance claim was $14.9 million with $9.2 million received in FY24.\"",
+      "location_hint": "Climate Risks table p.93; Current climate-related impacts p.88",
+      "confidence": "high",
+      "notes": "The scenario analysis explicitly includes damage/loss estimates from extreme weather events (floods, cyclones, wildfires, heatwaves). Actual financial impacts from past acute events are also quantified (e.g. $14.9m flood damage claim, $1.6m revenue reduction from cyclone Gabrielle).",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "GDP impacts",
+        "public funding",
+        "public reaction/policy response",
+        "technological change",
+        "physical risk",
+        "transition risk",
+        "health impacts",
+        "sea level rise",
+        "heat stress",
+        "extreme weather events (storms, floods, wildfires, heatwaves)",
+        "insurance premiums",
+        "supply chain disruption",
+        "property values in flood-prone areas",
+        "infectious diseases",
+        "socio-economic inequities"
+      ],
+      "evidence": "Scenario table: \"Impacts on GDP | Public funding | Public reaction | Technological change | Physical risk | Transition risk | Health impacts\" / Scenario narratives: \"severe and frequent weather events, sea level rise and heat stress, which damage assets and infrastructure, disrupt supply chains and increased costs and insurance premiums\" / \"In 2030, the average value of properties in flood-prone areas reduces by 36%.\"",
+      "location_hint": "Scenarios table and narrative descriptions, pp.89–93",
+      "confidence": "high",
+      "notes": "The scenario table explicitly lists GDP impacts, public funding, public reaction, technological change, physical risk, transition risk, and health impacts as scenario dimensions. The narrative descriptions add sea level rise, heat stress, extreme weather, insurance premiums, supply chain disruption, property values, and infectious diseases.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"Globally, there is extreme nationalism and geopolitical tension... In Aotearoa, there is increased nationalism, reduced public services and trust...\" / \"In developing the Company's own scenarios, information from both the health sector work and the construction and property sector scenarios, lead by the New Zealand Green Building Council last year, was used as these two sectors reflect the Company's business.\"",
+      "location_hint": "Scenario narratives, pp.90–93; Scenarios section, p.89",
+      "confidence": "high",
+      "notes": "Each scenario describes both global-level dynamics and specific New Zealand/Aotearoa-level impacts. The scenarios were developed with NZ-specific sector context (health sector and construction/property sector in NZ), making them both global and locally adapted.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short-term: 0–3 years; Medium-term: 3–10 years; Long-term: 10–30 years. Rationales are explicitly provided for each timeframe.",
+      "evidence": "\"S = Short term: 0-3 years – Construction timeframe for a stage in a retirement community, from project inception, planning and resource allocation, through to completion and occupation by residents. M = Medium term: 3-10 years – Estimated duration to develop a retirement village and the average tenure of an independent resident (8-9 years) living in the Company's retirement communities. L = Long-term: 10-30 years – Total useful life of a building or retirement community. However, the ability to modify and adjust several aspects, as part of refurbishments and regular maintenance, is a key factor in reducing the long-term timeframe.\" / \"Timeframes have been selected that align with the horizons of the Company's physical assets and business activities.\"",
+      "location_hint": "Timeframes table, p.89",
+      "confidence": "high",
+      "notes": "All three timeframes are explicitly defined and justified with reference to the company's specific business activities: construction stages (short), village development and resident tenure (medium), and building useful life (long).",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"In developing the Company's own scenarios, information from both the health sector work and the construction and property sector scenarios, lead by the New Zealand Green Building Council last year, was used as these two sectors reflect the Company's business.\" / \"Timeframes have been selected that align with the horizons of the Company's physical assets and business activities.\"",
+      "location_hint": "Climate Related Disclosures, Scenarios section, p.89",
+      "confidence": "high",
+      "notes": "The justification given is that the health sector and construction/property sector scenarios were chosen because \"these two sectors reflect the Company's business.\" The timeframe justification is also explicitly linked to the company's physical asset horizons and business activities.",
+      "verification": null
+    }
+  ]
+}

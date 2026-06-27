@@ -1,0 +1,182 @@
+{
+  "source": "FREIGHTWAYS_GROUP_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 978566,
+      "output_tokens": 7148,
+      "total_tokens": 985714,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 926106,
+        "ephemeral_5m_input_tokens": 52435,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "NGFS Orderly (Net Zero 2050 / RCP 1.9 / SSP1 Sustainability / CCC Tailwinds / IEA NZE)",
+        "NGFS Disorderly (Delayed Transition / RCP 2.6 / SSP1 Sustainability delayed / CCC Headwinds / IEA SDS)",
+        "NGFS Hot House World (Current Policies / RCP 8.5 / SSP5 Fossil Fuel Development / CCC Current Policy Reference / IEA STEPS)"
+      ],
+      "evidence": "Orderly: NGFS – Orderly theme / RCP 1.9 / SSP1: Sustainability / CCC: Tailwinds / IEA: NZE; Disorderly: NGFS – Disorderly theme / RCP 2.6 / SSP1: Sustainability (delayed) / CCC: Headwinds / IEA: SDS; Hot House World: NGFS – Hot House World theme / RCP 8.5 / SSP5: Fossil Fuel Development / CCC: Current Policy Reference / IEA: STEPS",
+      "location_hint": "Table 1, p.13-14",
+      "confidence": "high",
+      "notes": "Three NGFS-themed scenarios used, each with corresponding RCP, SSP, CCC and IEA alignments noted for reference.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Temperature outcomes are reported at 2050, not 2100: Orderly = 1.4°C (representing a 1.5°C-aligned scenario), Disorderly = 1.6°C, Hot House World = 3+°C. No explicit 2100 temperature targets are stated.",
+      "evidence": "Temperature outcomes (2050): 1.4°C [Orderly]; 1.6°C [Disorderly]; 3+°C [Hot House World]. Footnote 5: \"This is used to represent the 1.5 degree scenario required in NZ CS, as the rapid decarbonisation pathway considered in the Orderly scenario provides a scenario narrative consistent with the socio-economic, technological and climate drivers and outcomes of a 1.5 degree aligned scenario.\"",
+      "location_hint": "Table 1, p.13-14",
+      "confidence": "high",
+      "notes": "Temperature outcomes are given at 2050, not 2100. The Orderly scenario is described as representing a 1.5°C-aligned scenario. No temperature overshoot language is used.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers are explicitly named: IEA (International Energy Agency), NGFS (Network for Greening the Financial System), CCC (Hou Pou a Rangi Climate Change Commission), and IPCC (Intergovernmental Panel on Climate Change).",
+      "evidence": "\"Freightways relied on published models from the International Energy Agency ('IEA'), the Network for Greening the Financial System ('NGFS'), Hou Pou a Rangi Climate Change Commission ('CCC') and the Intergovernmental Panel on Climate Change ('IPCC'), without undertaking any in-house modelling.\"",
+      "location_hint": "Strategy section, p.13",
+      "confidence": "high",
+      "notes": "The NGFS archetypes are the primary framework used; IEA, CCC and IPCC are noted as broadly corresponding alignments.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "In the main scenario analysis: Orderly uses RCP 1.9 + SSP1; Disorderly uses RCP 2.6 + SSP1 (delayed); Hot House World uses RCP 8.5 + SSP5. In the Route and Premises Exposure Assessment (Appendix 3): \"Freightways have used RCP/SSP2.6; RCP/SSP4.5; RCP6.0, SSP7.0; and RCP/SSP8.5 for a stretch test of possible exposure.\" Footnote 30 notes: \"RCPs are scientifically based projections of plausible future climates for a region based upon the IPCC AR5 assessment, while the SSPs are based upon the AR6.\"",
+      "location_hint": "Table 1 p.13-14; Appendix 3 p.38",
+      "confidence": "high",
+      "notes": "The document explicitly lists both SSP and RCP identifiers. In the exposure assessment, RCP6.0 (AR5-based) is used alongside SSP7.0 (AR6-based), which are from different assessment report generations and not internally consistent scenario families.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"In 2024, Freightways engaged sustainability consultants, Tadpole, to assist with the development of climate scenarios for Freightways. Alongside the scenario development, Freightways participated in The Aotearoa Circle Transport Sector Climate Change Scenarios ('Transport Sector Scenarios'). As these workstreams occurred in parallel, the Freightways scenarios are modelled on and influenced by the Transport Sector Scenarios but are tailored to the Freightways business and its operation.\"",
+      "location_hint": "Strategy section, p.12",
+      "confidence": "high",
+      "notes": "The word \"tailored\" is explicitly used. Scenarios were adapted from the Transport Sector Scenarios to suit Freightways' specific business and operations.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes",
+      "evidence": "\"Alongside the scenario development, Freightways participated in The Aotearoa Circle Transport Sector Climate Change Scenarios ('Transport Sector Scenarios'). As these workstreams occurred in parallel, the Freightways scenarios are modelled on and influenced by the Transport Sector Scenarios but are tailored to the Freightways business and its operation.\"",
+      "location_hint": "Strategy section, p.12",
+      "confidence": "medium",
+      "notes": "Freightways participated in The Aotearoa Circle Transport Sector Scenarios (a public-private partnership), which implies collaborative/participatory development. However, the exact keywords \"participatory\", \"co-creat\", \"deliberat\", \"co-design\" are not used. The participation in a sector-wide collaborative scenario process is the basis for this answer.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "Yes — the \"Hot House World\" scenario (Current Policies / RCP 8.5) functions as a de facto baseline/reference scenario representing continuation of existing policies. Additionally, the Route and Premises Exposure Assessment is explicitly described as \"a baseline assessment.\"",
+      "evidence": "\"The Hot House World scenario reflects a continuation of existing climate policies, limited adoption of low-emissions technologies, and rising or plateauing emissions through mid-century.\" And: \"This assessment is considered a baseline assessment. Freightways expects to build on this analysis in future reporting periods.\"",
+      "location_hint": "Appendix 2 p.37; Risk Management section p.27",
+      "confidence": "medium",
+      "notes": "The document does not explicitly label any scenario as a \"baseline\" or \"reference scenario\" for comparison purposes in the main scenario analysis. The Hot House World scenario is described as a \"Current Policies\" scenario, which is commonly used as a reference. The \"baseline assessment\" language refers to the Route and Premises Exposure Assessment, not the scenario framework itself.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "NGFS (Network for Greening the Financial System) scenario models",
+        "IEA NZE (Net Zero Emissions by 2050)",
+        "IEA SDS (Sustainable Development Scenario)",
+        "IEA STEPS (Stated Policies Scenario)",
+        "NIWA climate change scenarios",
+        "CSIRO and Bureau of Meteorology climate projections",
+        "World Bank Group Climate Change Knowledge Portal",
+        "NZ SeaRise Programme"
+      ],
+      "evidence": "\"Freightways relied on published models from the International Energy Agency ('IEA'), the Network for Greening the Financial System ('NGFS'), Hou Pou a Rangi Climate Change Commission ('CCC') and the Intergovernmental Panel on Climate Change ('IPCC'), without undertaking any in-house modelling.\" And: \"For New Zealand, the climate and sea level rise projection data was sourced from the National Institute of Water and Atmospheric Research ('NIWA') and the NZ SeaRise Programme. For Australia, the climate and sea level rise projection data was sourced from the CSIRO and Bureau of Meteorology Australia, World Bank Group, and the IPCC.\"",
+      "location_hint": "p.13; Appendix 3 p.38",
+      "confidence": "high",
+      "notes": "No specific IAMs (e.g. REMIND, MESSAGE) are named. The document references scenario frameworks/data sources rather than specific computational models.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"An increase in the frequency and /or severity of extreme weather events, could result in physical damage to the Group's assets, including depots, vehicles, equipment, and inventory. Such events could lead to partial or total loss of property, interruption of site operations, and longer-term degradation of infrastructure resilience. Damage to inventory, particularly perishable or high-value goods, may result in immediate financial loss and disruption to customer commitments. The financial impacts of such events could include increased costs for repair, replacement, or clean-up; higher insurance premiums or uninsured losses; and potential impairment of fixed assets.\"",
+      "location_hint": "Table 2: Climate-related risks, p.17-18",
+      "confidence": "high",
+      "notes": "The scenario analysis explicitly includes anticipated financial damage/loss estimates from extreme weather events (acute physical risks) such as storms, flooding, heatwaves, and cyclones. However, these are qualitative assessments rather than quantified financial figures.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon pricing",
+        "policy reaction / regulatory ambition",
+        "speed of technology change / electrification / renewables deployment",
+        "consumer sentiment / behaviour change",
+        "physical risk severity (storms, flooding, heatwaves, cyclones)",
+        "transition risk severity",
+        "health impacts of physical risks",
+        "global transport emissions",
+        "freight mode sharing (rail, coastal shipping, road)",
+        "sea level rise",
+        "rainfall / wet days",
+        "hot days / heat stress",
+        "wind / tropical cyclone intensity",
+        "population",
+        "economic growth",
+        "carbon sequestration / afforestation / nature-based solutions",
+        "negative emissions technologies (BECCS, direct air capture)",
+        "insurance costs",
+        "fossil fuel price volatility"
+      ],
+      "evidence": "\"Each scenario incorporates varying policy and socioeconomic assumptions, including levels of international coordination, regulatory ambition, carbon pricing, population, and economic growth. Assumptions relating to carbon sequestration through afforestation and nature-based solutions, as well as the availability and scale-up of negative emissions technologies, vary across the scenarios.\" Table 1 includes: Policy reaction, Regional policy variation, Speed of technology change, Consumer sentiment/behaviour change, Physical risk severity, Transition risk severity, Health impacts of physical risks, Global transport emissions, Freight mode sharing. Appendix 3 includes: hot days, wet days, sea level rise, storm/wind intensity, tropical cyclone intensity.",
+      "location_hint": "Table 1 p.13-14; Appendix 2 p.37; Appendix 3 p.38-39",
+      "confidence": "high",
+      "notes": "Wide range of variables used across both the main scenario narratives and the physical exposure assessment.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "Global: \"Freightways relied on published models from the International Energy Agency ('IEA'), the Network for Greening the Financial System ('NGFS')... without undertaking any in-house modelling.\" Regional/local: \"For New Zealand, the climate and sea level rise projection data was sourced from the National Institute of Water and Atmospheric Research ('NIWA') and the NZ SeaRise Programme. For Australia, the climate and sea level rise projection data was sourced from the CSIRO and Bureau of Meteorology Australia, World Bank Group, and the IPCC.\" The scenarios are also described as \"tailored to the Freightways business and its operation.\"",
+      "location_hint": "p.12-13; Appendix 3 p.38",
+      "confidence": "high",
+      "notes": "The main scenario narratives use global frameworks (NGFS, IEA), while the physical exposure assessment uses regional/local data sources (NIWA for NZ, CSIRO/BoM for Australia) applied to specific routes and premises.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short term: FY26–FY30; Medium term: FY31–FY40; Long term: FY41–FY50. Rationale is partially provided: the time horizons are explained as necessary to capture the temporal and chronic nature of climate risk, but they are explicitly noted as NOT linked to strategic planning horizons or capital deployment plans.",
+      "evidence": "\"The analysis used short (FY26 – FY30), medium (FY31 – FY40), and long-term horizons (FY41 – FY50) to evaluate evolving transition and physical risks across Freightways diverse business units.\" And: \"These time horizon definitions are not linked to strategic planning horizons or capital deployment plans as Freightways does not adopt standardised time horizons across its broader strategic and capital deployment planning.\" And: \"These time frames differ from the likelihood ratings in the Group Risk Rating Matrix, which does not accommodate the temporal and chronic nature of climate risk.\"",
+      "location_hint": "p.13; p.17; p.27",
+      "confidence": "high",
+      "notes": "The document provides the time periods clearly. A partial rationale is given (to capture temporal/chronic nature of climate risk), but the document explicitly states these are not linked to strategic planning horizons.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"These were selected for their credibility, transparency, and acceptance in climate risk and disclosure frameworks.\"",
+      "location_hint": "Strategy section, p.13",
+      "confidence": "high",
+      "notes": "The justification is brief but explicit: credibility, transparency, and acceptance in climate risk and disclosure frameworks. No further elaboration is provided on why specific scenarios were chosen over alternatives.",
+      "verification": null
+    }
+  ]
+}

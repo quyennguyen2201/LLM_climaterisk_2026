@@ -1,0 +1,166 @@
+{
+  "source": "SOUTHLAND_BUILDING_SOCIETY_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 569362,
+      "output_tokens": 6194,
+      "total_tokens": 575556,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 520014,
+        "ephemeral_5m_input_tokens": 49331,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly (1.5°C)",
+        "Too Little, Too Late (>2°C)",
+        "Hot House (>3°C)"
+      ],
+      "evidence": "Scenario dimensions: Orderly 1.5oC | Too Little, Too Late >2oC | Hot House >3oC. Physical Impact: SSP1, RCP2.6 | SSP2, RCP4.5 | SSP5, RCP8.5. Transition Impact: NGFS: Orderly / CCC 'Tailwinds' | NGFS: Disorderly / CCC 'Headwinds' | NGFS: Hothouse / CCC 'Current policy'",
+      "location_hint": "Strategy – Climate scenario analysis / Scenario dimensions table, p.13",
+      "confidence": "high",
+      "notes": "Three overarching scenarios, each with physical (SSP/RCP) and transition (NGFS/CCC) sub-dimensions.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: 1.5°C (Orderly), >2°C / 2.7°C (Too Little Too Late), and >3°C / 4.4°C (Hot House). New Zealand-specific temperature outcomes are also given: 0.7°C (Orderly, equilibrium by 2090), 1.4°C (Too Little Too Late, by 2090). No explicit temperature overshoot language is used.",
+      "evidence": "Orderly: \"compared with a global temperature increase of 1.5oC.\" Too Little Too Late: \"Global warming exceeds 2.7oC, with New Zealand exceeding 1.4oC by 2090.\" Hot House: \"This lack of action see global temperature rise 4.4oC.\"",
+      "location_hint": "Scenario narratives, p.13-14",
+      "confidence": "high",
+      "notes": "The scenario dimensions table labels the three scenarios as 1.5°C, >2°C, and >3°C respectively. Narrative text provides more precise figures.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers are explicitly named: Climate Change Commission (CCC), National Institute of Water and Atmospheric Sciences (NIWA), Intergovernmental Panel on Climate Change (IPCC), and Network for Greening the Financial Sector (NGFS). The New Zealand Banking Association (NZBA) scenario narrative is also referenced.",
+      "evidence": "\"This first-pass risk assessment preceded the detailed New Zealand Banking Association (NZBA) scenario narrative, and relied on data and assumptions from the: • Climate Change Commission – CCC. • National Institute of Water and Atmospheric Sciences – NIWA. • Intergovernmental Panel on Climate Change – IPCC. • Network for Greening the Financial Sector (NGFS).\"",
+      "location_hint": "Strategy – Climate scenario analysis, p.12-13",
+      "confidence": "high",
+      "notes": "Transition scenarios are explicitly labelled as NGFS (Orderly/Disorderly/Hothouse) and CCC (Tailwinds/Headwinds/Current policy). Physical scenarios use SSP/RCP identifiers from IPCC.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "\"Physical Impact: SSP1, RCP2.6 | SSP2, RCP4.5 | SSP5, RCP8.5\"",
+      "location_hint": "Scenario dimensions table, p.13",
+      "confidence": "high",
+      "notes": "The document explicitly lists both SSP and RCP identifiers together (e.g. SSP1 paired with RCP2.6, SSP2 with RCP4.5, SSP5 with RCP8.5). These pairings are not from the same internally consistent CMIP6 scenario family — SSPs are from CMIP6 while RCPs are from CMIP5, making this a cross-generation mix.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"The scope of the climate scenario analysis considered SBS's operations, relative materiality, and focused on the regulatory and reputational elements of transition pathways, and physical risk pathways related to SBS's lending portfolio. As such, there is less reliance on emission abatement pathways, macroeconomic transitions, energy pathways, or nature-based solutions as these are not deemed material to the strategy and operations of the Group.\" And: \"The scenario dimensions were chosen as appropriate for two reasons: firstly, they align with scenarios used across sectors in New Zealand with good data availability, and to ensure alignment with the NZBA sector scenarios.\"",
+      "location_hint": "Strategy – Climate scenario analysis, p.12-13",
+      "confidence": "medium",
+      "notes": "The scenarios are adapted/tailored to SBS's specific operations and materiality (lending portfolio focus, NZ context), and SBS participated in NZBA scenario development. The scenario narratives include NZ-specific temperature and sea level rise projections. However, the document does not use the explicit words \"downscaled\", \"customised\" or \"tailored\" to describe the scenarios themselves.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "\"Scenario development was led by members of the Environmental Working Group, with involvement from Group Executive members. The GARC was kept informed through standing agenda papers and received an in-depth session on climate scenarios in November 2023. The SBS Board received an in-depth overview of climate scenarios prior to their approval.\"",
+      "location_hint": "Strategy – Climate scenario analysis, p.12-13",
+      "confidence": "medium",
+      "notes": "Scenario development was internal (Environmental Working Group + executives). SBS participated in the NZBA scenario development process, but no language of \"participatory\", \"co-creat\", \"deliberat\", \"co-design\", or \"stakeholder input\" from external stakeholders is used in relation to scenario development.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No explicit baseline or reference scenario is described against which the three climate scenarios are compared. The CCC 'Current policy' scenario under the Hot House transition dimension is the closest to a reference/current-policy scenario, but it is not framed as a formal baseline for comparison.",
+      "evidence": "\"Transition Impact: NGFS: Hothouse / CCC 'Current policy'\" (listed as the transition dimension of the Hot House scenario). The document also notes: \"Early work identified climate-related risks in line with the TCFD recommendations, with consideration of three climate scenarios at four different time horizons: present, 2030, 2050, and 2080.\"",
+      "location_hint": "Scenario dimensions table, p.13; Risk management, p.7",
+      "confidence": "medium",
+      "notes": "The \"Present\" time horizon serves as a current-state reference point, and CCC 'Current policy' is one of the transition sub-scenarios, but neither is explicitly described as a formal baseline scenario against which the others are compared.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "in-house model (SBS coastal inundation model)",
+        "third party risk data (flooding)"
+      ],
+      "evidence": "\"SBS, using in-house models, assessed the exposure of our lending book to coastal inundation events and projected this to 2080 under our three climate scenarios.\" And: \"SBS, using third party risk data, assessed flooding risk at present and projected this to 2080 under our three climate scenarios.\"",
+      "location_hint": "Climate impacts, p.10-11",
+      "confidence": "medium",
+      "notes": "No named climate models (e.g. CLIMADA, REMIND, GCMs) are identified. Only \"in-house models\" and unnamed \"third party risk data\" are mentioned. No IAMs or macroeconomic models are named.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"Sea level rise, Flooding - pluvial, Flooding - fluvial, Wildfire, Extreme weather\" are listed as physical risk types. Example risk: \"Extreme weather event leading to damage to head office or branch network.\" Also: \"While the Auckland Anniversary Weekend flood event and Cyclone Gabrielle... were two of the most destructive climate-related events in recent New Zealand history, impacting some SBS Members and FNL customers, they resulted in minimal impact to both SBS Bank and FNL.\"",
+      "location_hint": "Climate risk management integration, p.9; Climate impacts, p.10-11",
+      "confidence": "high",
+      "notes": "Acute physical risks (extreme weather events, flooding, wildfire) are explicitly included in the scenario analysis framework. Quantitative exposure estimates are provided for flooding (1% AEP events) across scenarios and time horizons.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "sea level rise",
+        "coastal inundation / flooding",
+        "insurance retreat",
+        "regulatory/policy changes (e.g. fuel taxation, vehicle import prohibition)",
+        "emissions pricing / carbon price",
+        "CO2 emissions reductions",
+        "transport sector decarbonisation",
+        "wildfire",
+        "extreme weather events"
+      ],
+      "evidence": "\"By 2050, the median sea level rise around New Zealand will average 0.23m, increasing to 0.46m by 2100 relative to 1986-2005 levels.\" / \"Sea level rise, Flooding - pluvial, Flooding - fluvial, Wildfire, Extreme weather\" / \"Insurance coverage rapidly retreats\" / \"Successive governments progressively increase taxation on fuel and introduce a prohibition on new and imported secondhand internal combustion vehicles by 2030.\" / \"emissions prices used follow the pricing guidance of the Climate Change Commission (2022 - $51/tonne).\"",
+      "location_hint": "Scenario narratives p.13-14; Climate risk management p.9; Emissions pricing p.16",
+      "confidence": "high",
+      "notes": "Variables are drawn from both physical and transition scenario dimensions.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"The 'Orderly scenario' represents a world where collective global action is agreed... compared with a global temperature increase of 1.5oC. New Zealand's average temperature increases until 2050 and reaches a new equilibrium at 0.7oC relative to 1986-2005... By 2050, the median sea level rise around New Zealand will average 0.23m.\" And: \"SBS, using in-house models, assessed the exposure of our lending book to coastal inundation events and projected this to 2080 under our three climate scenarios.\"",
+      "location_hint": "Scenario narratives p.13; Climate impacts p.10-11",
+      "confidence": "high",
+      "notes": "Global temperature outcomes are described for each scenario, and these are then localised to New Zealand-specific temperature and sea level rise projections. Physical risk modelling is further applied at the lending-book (property) level in New Zealand.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Four time horizons are used: Present (rolling), Short-term (2030), Medium-term (2050), Long-term (2080). Rationales are explicitly provided for each. Present: \"Current state assessment.\" 2030: \"Aligned with stress testing time horizons, insurance reassessment, and average vehicle loan terms.\" 2050: \"Aligned with emissions reductions targets, average term of residential loans, SBS growth strategy, and medium-term investments. Allows for assessment of insurance retreat risks, and strategic repositioning.\" 2080: \"Aligned with international emissions reduction targets, international banking sector climate scenario guidance, and long-term investments. Aligned with further materialisation of physical risks, allowing for strategic positioning across sectors.\"",
+      "evidence": "\"Time horizons: Present / Short-term / Medium-term / Long-term. Year Relative to 2022: Present – Rolling / 2030 / 2050 / 2080. Rationale: [as above]\"",
+      "location_hint": "Scenario dimensions table, p.13",
+      "confidence": "high",
+      "notes": "Rationales are explicitly stated for all four time horizons in the scenario dimensions table.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"The scenario dimensions were chosen as appropriate for two reasons: firstly, they align with scenarios used across sectors in New Zealand with good data availability, and to ensure alignment with the NZBA sector scenarios.\"",
+      "location_hint": "Strategy – Climate scenario analysis, p.12-13",
+      "confidence": "high",
+      "notes": "Two explicit reasons are given: (1) alignment with NZ cross-sector scenarios with good data availability; (2) alignment with NZBA sector scenarios. The scope of the analysis (focus on regulatory/reputational transition pathways and physical risk to lending portfolio) is also justified by materiality considerations.",
+      "verification": null
+    }
+  ]
+}

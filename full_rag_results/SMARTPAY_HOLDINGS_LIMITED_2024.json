@@ -1,0 +1,172 @@
+{
+  "source": "SMARTPAY_HOLDINGS_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 516642,
+      "output_tokens": 6244,
+      "total_tokens": 522886,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 474416,
+        "ephemeral_5m_input_tokens": 42208,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Net Zero 2050 (Orderly)",
+        "Delayed Transition (Disorderly)",
+        "Current Policies (Hot House)"
+      ],
+      "evidence": "Scenario: Net Zero 2050 / Delayed Transition / Current Policies — Category: Orderly / Disorderly / Hot House — Reference Scenarios: Network for Greening the Financial System (NGFS): Net Zero 2050 scenario, Orderly category / NGFS: Delayed Transition scenario, Disorderly category / NGFS: Current Policies scenario, Hot House World category",
+      "location_hint": "Strategy – Scenario Analysis, p.6",
+      "confidence": "high",
+      "notes": "Each scenario also references corresponding IPCC SSP/RCP and NZ Climate Change Commission scenarios as sub-references.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Net Zero 2050: 1.6°C by 2050, 1.4°C by 2100. Delayed Transition: 1.7°C by 2050, 1.7°C by 2100. Current Policies: 2.0°C by 2050, more than 3.0°C by 2100.",
+      "evidence": "\"An ambitious and coordinated transition to a low-emissions, climate-resilient future. Stringent climate policies, innovation, ambitious investment, and medium to high deployment of carbon removal solutions limit global warming to 1.6°C in 2050 and 1.4°C by 2100.\" / \"...limits global warming to 1.7°C in 2050 and 1.7°C by 2100.\" / \"Current emissions reduction policies are implemented. Current socio-economic trends continue, resulting in 2.0°C global warming by 2050 and more than 3.0°C by 2100.\"",
+      "location_hint": "Strategy – Scenario Analysis, p.6",
+      "confidence": "high",
+      "notes": "The Net Zero 2050 scenario shows temperature overshoot (peaks at 1.6°C in 2050, then falls to 1.4°C by 2100). The Delayed Transition scenario stabilises at 1.7°C.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple providers are explicitly named: (1) Network for Greening the Financial System (NGFS), (2) Intergovernmental Panel on Climate Change (IPCC), (3) New Zealand Climate Change Commission, and (4) KPMG New Zealand (developer of the retail-sector scenarios from which Smartpay's scenarios were adapted).",
+      "evidence": "\"Reference Scenarios: Network for Greening the Financial System (NGFS): Net Zero 2050 scenario, Orderly category / Intergovernmental Panel on Climate Change (IPCC): SSP1-1.9/RCP1.9 / New Zealand Climate Change Commission: Tailwinds\" ... \"The retail-sector scenarios were developed as a collaboration between major organisations in the New Zealand retail industry (including Smartpay) and KPMG New Zealand in 2023\"",
+      "location_hint": "Strategy – Scenario Analysis, p.6",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "No",
+      "evidence": "\"Intergovernmental Panel on Climate Change (IPCC): SSP1-1.9/RCP1.9 ... SSP1-2.6/RCP2.6 ... SSP3-7.0/RCP7.0\"",
+      "location_hint": "Strategy – Scenario Analysis, p.6",
+      "confidence": "high",
+      "notes": "Each scenario uses a paired SSP-RCP identifier from the same internally consistent IPCC scenario family (e.g. SSP1-1.9/RCP1.9). There is no mixing of SSPs and RCPs from different families.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"The scenarios were adapted from 'The Future of Retail: Integrated Climate Change Scenarios for New Zealand's Retail Sector'... Smartpay has utilised the scenario architecture from the retail-sector scenarios and added two additional parameters relevant to Smartpay. As Smartpay has significant operations in Australia, additional quantitative parameters that were added included change in mean air temperature and fraction of population annually exposed to wildfires in Australia. This allowed for a more fulsome scenario analysis at the entity level. No existing parameters were removed from the retail-sector scenarios.\"",
+      "location_hint": "Strategy – Scenario Analysis, p.6",
+      "confidence": "high",
+      "notes": "The scenarios were adapted from industry-level NZ retail scenarios, and further customised at the entity level by adding Australia-specific parameters.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes",
+      "evidence": "\"The retail-sector scenarios were developed as a collaboration between major organisations in the New Zealand retail industry (including Smartpay) and KPMG New Zealand in 2023, with the purpose to support strategic decision-making in retail businesses and those preparing climate-related disclosures in-line with the Aotearoa New Zealand Climate Standards.\" / \"Smartpay chose to analyse the retail-sector scenarios as it had significant involvement in their development as one of the project partners.\"",
+      "location_hint": "Strategy – Scenario Analysis, p.6",
+      "confidence": "high",
+      "notes": "Smartpay was a project partner in the collaborative development of the retail-sector scenarios with KPMG NZ and other major NZ retail industry organisations. This constitutes co-produced scenario development.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The document does not describe a separate baseline or reference scenario against which the three climate scenarios are compared. The three scenarios (Net Zero 2050, Delayed Transition, Current Policies) are used directly for risk and opportunity identification without a stated baseline comparator. Note that the \"Current Policies\" scenario could be interpreted as a de facto baseline, but it is not explicitly labelled or described as such.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "Climate Impact Explorer (Climate Analytics)"
+      ],
+      "evidence": "\"Climate Analytics. (2023). Climate Impact Explorer. www.climate-impact-explorer.climateanalytics.org\"",
+      "location_hint": "References – Scenario Analysis, p.26",
+      "confidence": "medium",
+      "notes": "The Climate Impact Explorer is cited as a reference tool for scenario analysis. No other named climate models or IAMs are mentioned. The document explicitly states \"No modelling was undertaken as part of this process\" at the entity level.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"Physical risks emanating from climate change can be event-driven (acute) such as increased severity of extreme weather events.\" ... Table 6 lists acute physical risks including: \"Increase in bushfires/wildfires\" (impacts: Merchants unable to trade, Damage of sites, Loss and damage of terminals, Increase in Merchant relief), \"Increase in pluvial (surface water) flooding\" (impacts: Merchants unable to trade, Damage of sites, Loss and damage of terminals, Increase in Merchant relief), \"Increase in localised power outages\".",
+      "location_hint": "Strategy – Scenario Analysis continued, Table 6, pp.10–11",
+      "confidence": "high",
+      "notes": "The document identifies and rates acute physical risks across scenarios and time horizons, including business impact descriptions. However, no quantified financial loss estimates are provided for these acute events; the document explicitly states \"No modelling was undertaken as part of this process.\"",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "consumer sentiment",
+        "macro-economic conditions",
+        "financial impact of supply chain disruptions",
+        "policy reaction to climate change",
+        "regional policy variation",
+        "speed of technology change",
+        "carbon dioxide removal",
+        "land-use and nature",
+        "global GDP per capita",
+        "NZ GDP % change",
+        "global population",
+        "New Zealand population",
+        "change in fraction of population annually exposed to wildfires in Australia",
+        "change in mean air temperature in Australia",
+        "sea level rise",
+        "precipitation patterns"
+      ],
+      "evidence": "\"Consumer sentiment... Macro-economic conditions... Financial impact of supply chain disruptions... Policy reaction to climate change... Regional policy variation... Speed of technology change... Carbon dioxide removal... Land-use and nature... Global GDP per capita by 2050... NZ GDP % change... Global population by 2050... New Zealand population by 2050... Change in fraction of population annually exposed to wildfires in Australia at 2100... Change in mean air temperature in Australia at 2050\" and \"chronic physical risks such as sea-level rise, changes in temperature and precipitation patterns\"",
+      "location_hint": "Strategy – Scenario Analysis continued, pp.7, 9",
+      "confidence": "high",
+      "notes": "Temperature is excluded from this list as the question asks for non-temperature variables. Mean air temperature in Australia is included as it is a regional/local variable distinct from global temperature.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"The retail-sector scenarios were developed at an industry level in New Zealand... The scope of the scenarios included New Zealand (including near-shore coastal shipping)... Smartpay has utilised the scenario architecture from the retail-sector scenarios and added two additional parameters relevant to Smartpay. As Smartpay has significant operations in Australia, additional quantitative parameters that were added included change in mean air temperature and fraction of population annually exposed to wildfires in Australia.\" The scenarios also reference global parameters: \"Global GDP per capita by 2050... Global population by 2050\" and global temperature outcomes.",
+      "location_hint": "Strategy – Scenario Analysis, pp.6–7",
+      "confidence": "high",
+      "notes": "The scenarios incorporate both global-level parameters (global GDP, global population, global temperature) and regional/local parameters (NZ GDP, NZ population, Australia mean air temperature, Australia wildfire exposure). The retail-sector scenarios were specifically developed for New Zealand context.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short-term: 1–3 years (2025–2026); Medium-term: 4–10 years (2027–2033); Long-term: 11–27 years (2034–2050); Very long-term: 28–77 years (2051–2100). Rationales are provided for each timeframe.",
+      "evidence": "\"Short-term: Next 1 - 3 years — During this period, Smartpay can reasonably anticipate and plan for climate-related risks and opportunities that may impact its business operations, financial performance, and strategy... Medium-term: Next 4 - 10 years — During this period, Smartpay can reasonably anticipate and plan for climate-related risks and opportunities that may impact Smartpay's business model, supply chains, and capital investments... Long-term: Next 11+ years — During this period, Smartpay can reasonably anticipate and plan for climate-related risks and opportunities that may impact its strategic decisions related to emissions reduction pathways, research and development, investment cycles, and potential disruptions in the value chain.\" Also: \"the time horizons Smartpay used in its entity-level analysis align to its strategic planning horizons and financial decision-making.\"",
+      "location_hint": "Strategy – Scenario Analysis continued, Table 5, p.9; Risk Management, p.21",
+      "confidence": "high",
+      "notes": "The document also breaks down the short-term into \"very short\" (within 1 year) and short (1–3 years), and the long-term into \"long\" (11–27 years) and \"very long\" (28–77 years) for risk assessment purposes. Rationales are explicitly provided for each timeframe in Table 5.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"Smartpay chose to analyse the retail-sector scenarios as it had significant involvement in their development as one of the project partners. While Smartpay is not a retailer, the impacts of climate change on the retail-sector are material for Smartpay as they occur within our value chain. As the retail-sector scenarios were developed at an industry level in New Zealand and are aligned with the External Reporting Board's requirements and supplementary guidance, Smartpay also chose to analyse these scenarios as this allows for more meaningful disclosure comparison for primary users of climate-related disclosures.\"",
+      "location_hint": "Strategy – Scenario Analysis, p.6",
+      "confidence": "high",
+      "notes": "Three explicit justifications are given: (1) Smartpay's significant involvement in developing the retail-sector scenarios as a project partner; (2) the retail sector's climate impacts are material to Smartpay's value chain; (3) alignment with the External Reporting Board's requirements and comparability for primary users of climate disclosures.",
+      "verification": null
+    }
+  ]
+}

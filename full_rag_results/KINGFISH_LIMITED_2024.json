@@ -1,0 +1,176 @@
+{
+  "source": "KINGFISH_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 842575,
+      "output_tokens": 6490,
+      "total_tokens": 849065,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 795987,
+        "ephemeral_5m_input_tokens": 46563,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly (1.5°C) — represented by NGFS RM NZ (Net Zero 2050)",
+        "Too Little Too Late (>2°C) — represented by NGFS RM NDC (Nationally Determined Contributions)",
+        "Hothouse (>3°C) — represented by NGFS RM CP (Current Policies)",
+        "IEA Net Zero Emissions by 2050",
+        "NGFS Net Zero 2050",
+        "IEA STEPS (Stated Policies Scenario)",
+        "NGFS NDCs",
+        "NGFS Current Policies",
+        "IEA APS (Announced Pledges Scenario)"
+      ],
+      "evidence": "Scenario analysis: Approach [...] IEA Net Zero Emissions by 2050 / NGFS Net Zero 2050 / IEA STEPS / NGFS NDCs* / NGFS Current Policies / IEA APS [...] Figure 4: Scenario datasets utilised to assess in various scenarios [...] Fisher Funds worked to select 3 plausible versions of the future [...] Scenario 1: Orderly (1.5°C) [...] Scenario 2: Too Little Too Late (>2°C) [...] Scenario 3: Hothouse (>3°C)",
+      "location_hint": "Page 11 (Figure 4), Pages 13–14 (Scenario Narratives)",
+      "confidence": "high",
+      "notes": "Three narrative scenarios (Orderly, Too Little Too Late, Hothouse) are the primary scenarios used; the six IEA/NGFS datasets are the underlying quantitative datasets mapped to those narratives. The document also references a \"Disorderly\" quadrant in Figure 4 but does not select a scenario for it.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: 1.5°C (Orderly/NGFS Net Zero 2050), >2°C / 2.6°C (Too Little Too Late/NGFS NDCs), and >3°C / ~3°C (Hothouse/NGFS Current Policies). Temperature overshoot is also mentioned: NGFS Net Zero 2050 allows no or low overshoot (<0.1°C) of 1.5°C in earlier years.",
+      "evidence": "\"NGFS Net Zero 2050 is an ambitious scenario that limits global warming to 1.5°C through stringent climate policies and innovation... Net CO2 emissions reach zero around 2050, giving at least a 50% chance of limiting global warming to below 1.5°C by the end of the century, with no or low overshoot (<0.1°C) of 1.5°C in earlier years.\" / \"NGFS NDCs... Emissions decline but lead nonetheless to 2.6°C of warming associated with moderate to severe physical risks.\" / \"NGFS Current Policies assume that only currently implemented policies are preserved... Emissions grow until 2080 leading to about 3°C of warming and severe physical risks.\"",
+      "location_hint": "Pages 13–14 (Scenario Narratives), Page 35 (Glossary)",
+      "confidence": "high",
+      "notes": "Overshoot is explicitly defined in the glossary: \"Overshoot is the term used by the IPCC to describe scenarios in which a specified global warming temperature level is exceeded — typically between 1.5 and 2°C — before returning to that level at some point in the future.\"",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers are explicitly named: NGFS (Network for Greening the Financial System), IEA (International Energy Agency), and FSC (Financial Services Council of New Zealand). ISS ESG is named as the data/analytics provider that implements the NGFS and IEA scenarios.",
+      "evidence": "\"The climate impact assessment within the ISS ESG solution contains climate scenario analysis and modelling using Network for Greening Financial Sector (NGFS) scenario data and the International Energy Agency (IEA).\" / \"Fisher Funds is using the FSC New Zealand Climate Scenario Narratives for the Financial Services Sector as a guide to help in developing consistent and comparable information.\"",
+      "location_hint": "Page 11",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "No",
+      "evidence": "The document references only NGFS and IEA scenarios. No SSP or RCP identifiers are mentioned anywhere in the document.",
+      "location_hint": "Pages 11–14, Glossary (Pages 34–35)",
+      "confidence": "high",
+      "notes": "The document does not use SSP or RCP terminology at all; scenarios are drawn entirely from NGFS and IEA frameworks.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"These narratives have been adjusted to reflect the investments of Kingfish for use in conjunction with the NGFS scenarios.\" / \"Fisher Funds has adopted the scenario narratives from the FSC guide... These narratives have been adjusted to reflect the investments of Kingfish for use in conjunction with the NGFS scenarios.\" / The IMT also adjusted the FSC's default short-term time horizon from 2025 to 2030: \"the IMT determined that 2025 is too short as a time horizon and Fisher Funds believes that more of these societal shifts (as referred to in the FSC document) may be seen by 2030.\"",
+      "location_hint": "Page 13 (Scenario Narratives), Page 11 (Time horizons)",
+      "confidence": "high",
+      "notes": "The FSC narratives were adapted/adjusted for Kingfish's specific investment context, and the time horizons were modified from the FSC defaults. The underlying NGFS quantitative data was used off-the-shelf via ISS ESG.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "The document describes the IMT (Investment Management Team) reviewing and participating in workshops on FSC narratives, but this is internal review rather than participatory or co-produced scenario development with external stakeholders: \"The IMT confirmed the time horizons to be used, reviewed the FSC climate scenario narratives, and participated in climate scenario narrative workshops which also supported their analysis of Kingfish.\"",
+      "location_hint": "Page 11",
+      "confidence": "high",
+      "notes": "No language such as \"participatory\", \"co-creat\", \"deliberat\", \"co-design\", \"stakeholder input\", or \"collaborative development\" appears in the document. The workshops mentioned are internal IMT workshops, not external stakeholder co-production.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No",
+      "evidence": "The document does not describe a baseline or reference scenario against which the climate scenarios are compared. The three scenarios (Orderly, Too Little Too Late, Hothouse) are presented as alternative plausible futures, not compared against a defined baseline. The term \"base year\" is used only in the context of emissions metrics, not as a climate scenario baseline.",
+      "location_hint": "Pages 11–14",
+      "confidence": "high",
+      "notes": "The \"base year\" referenced in the document (p.34 Glossary, p.28 Target scorecard) refers to the first financial year for metrics comparison, not a climate scenario baseline.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "NGFS REMIND-MAgPIE Model (NGFS RM)"
+      ],
+      "evidence": "\"NGFS RM* — NGFS REMIND-MagPIE Model which is recommended by NGFS for policy and decision-makers by focusing more on the economy and technologies in its modeling.\"",
+      "location_hint": "Page 35 (Glossary)",
+      "confidence": "high",
+      "notes": "ISS ESG is named as the analytics platform/solution used to run the scenario analysis, but it is a data provider rather than a named climate or IAM model. The REMIND-MAgPIE model is the only explicitly named IAM.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"Operational impacts were quantified by considering the costs of repairing assets damaged by tropical cyclones, river floods, coastal floods and wildfires, and the loss of income due to the associated organisational interruptions. The analysis also considered the impact of heat stress on labour productivity and the resulting potential increase in production costs.\"",
+      "location_hint": "Page 14",
+      "confidence": "high",
+      "notes": "The document explicitly quantifies damage/loss from acute physical risks (tropical cyclones, river floods, coastal floods, wildfires) at the operational level, and also estimates market-level impacts via GDP effects.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon price",
+        "sea level rise",
+        "rainfall",
+        "wind",
+        "droughts",
+        "floods",
+        "tropical cyclones",
+        "wildfires",
+        "heat stress",
+        "labour productivity",
+        "GDP / gross domestic product",
+        "carbon dioxide removal (CDR)",
+        "greenhouse gas emissions",
+        "fossil fuel use"
+      ],
+      "evidence": "\"This is matched by an increasing carbon price that reinforces low carbon behaviour change.\" / \"This includes irreversible changes like higher sea level rise.\" / \"Utilities (such as hydro, wind, and thermal generators) see variability in generation output and customer demand due to climate-related variations, such as regional rainfall and wind, plus temperature...\" / \"Operational impacts were quantified by considering the costs of repairing assets damaged by tropical cyclones, river floods, coastal floods and wildfires, and the loss of income due to the associated organisational interruptions. The analysis also considered the impact of heat stress on labour productivity...\" / \"estimating the revenue at risk due to nationwide effects on country gross domestic products (GDPs) due to the combined impact of droughts and heat stress on agricultural productivity, decrease in labour productivity, and human health effects.\"",
+      "location_hint": "Pages 13–15 (Scenario Narratives and Risk Table)",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "global",
+      "evidence": "\"The climate impact assessment within the ISS ESG solution contains climate scenario analysis and modelling using Network for Greening Financial Sector (NGFS) scenario data and the International Energy Agency (IEA).\" The scenarios are described in global terms (e.g., \"global energy sector\", \"global warming to 1.5°C\", \"worldwide\"). No mention of downscaling to regional or local level is made.",
+      "location_hint": "Pages 11, 13–14",
+      "confidence": "high",
+      "notes": "The physical risk assessment does reference New Zealand and global geographies for portfolio companies, but the underlying climate scenarios themselves are global NGFS/IEA scenarios with no explicit downscaling described.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short term: present to 2030; Medium term: present to 2040; Long term: present to 2050. Rationales are provided for each timeframe.",
+      "evidence": "\"Short term: present to 2030 — More or less aligns with short to medium-term investment time horizons for investors. Aligns with many interim targets of companies invested in. Captures the impact of climate change for investors who may have liquidation events in this timeframe. Medium term: present to 2040 — More or less aligns with short to medium-term investment horizons for investors. Captures the impact of climate change for investors who may have liquidation events in this timeframe. More likely to capture the impact of policy changes in countries around the world as they aim to set up frameworks to encourage decarbonisation. Long term: present to 2050 — More or less aligns with long-term investment horizons for investors. Captures the impact of climate change for investors who may have liquidation events in this timeframe. Captures the impact of climate change over a long time horizon where impacts are more likely to be present in the economy.\"",
+      "location_hint": "Page 12 (Scenario analysis: Time horizons selected)",
+      "confidence": "high",
+      "notes": "The document also notes that the short-term horizon was changed from the FSC default of 2025 to 2030, with the rationale that \"the IMT determined that 2025 is too short as a time horizon and Fisher Funds believes that more of these societal shifts may be seen by 2030.\"",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"Fisher Funds recognises that for investors to make informed decisions, it is useful for information on investment products from all providers to be comparable. The Financial Services Council (FSC) of New Zealand also recognises this and has created climate scenario narratives that can be adopted by the industry. Fisher Funds is using the FSC New Zealand Climate Scenario Narratives for the Financial Services Sector as a guide to help in developing consistent and comparable information.\" / \"Fisher Funds is satisfied that the FSC narratives have been suitably stated for use by financial services CREs. These narratives are underpinned by robust analysis and are therefore suitable (as adjusted for Fisher Funds) to use in this climate statement. Use of FSC narratives supports comparable and consistent disclosures in the industry which Fisher Funds also wishes to support to the extent appropriate.\" / \"NGFS REMIND-MagPIE Model which is recommended by NGFS for policy and decision-makers by focusing more on the economy and technologies in its modeling.\"",
+      "location_hint": "Pages 11, 13, 35",
+      "confidence": "high",
+      "notes": "The justification centres on: (1) industry comparability and consistency via FSC narratives; (2) the robustness of the FSC narratives' underlying analysis; (3) NGFS recommendation of the REMIND-MAgPIE model for policy and decision-makers.",
+      "verification": null
+    }
+  ]
+}

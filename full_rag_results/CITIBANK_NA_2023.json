@@ -1,0 +1,169 @@
+{
+  "source": "CITIBANK_NA_2023",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1167597,
+      "output_tokens": 6543,
+      "total_tokens": 1174140,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 1101152,
+        "ephemeral_5m_input_tokens": 66421,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly (1.5°C degree increase in global temperature)",
+        "Too Little Too Late (2-3°C degree increase in global temperature)",
+        "Hot House World (At least a 3°C degree increase in global temperature)"
+      ],
+      "evidence": "Citi NZ analysed a 1.5°C degree \"orderly\" scenario, a 3°C degrees \"hothouse world\" scenario, and a 2-3°C degrees \"too little too late\" scenario.",
+      "location_hint": "Section 3.2, p.12",
+      "confidence": "high",
+      "notes": "The three scenarios are explicitly named and described in the scenario narrative table in Section 3.2.1.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes by 2100 are described: 1.5°C (Orderly scenario), 2.7°C (Too Little Too Late scenario), and 4.4°C (Hot House World scenario). The scenarios are framed as \"at least 3°C\" for Hot House World, with the specific modelled value being 4.4°C.",
+      "evidence": "Increase in global temperature by 2100: The global temperature has increased by 1.5°C. / The global temperature has increased by 2.7°C. / The global temperature has increased by 4.4°C.",
+      "location_hint": "Section 3.2.1, p.13",
+      "confidence": "high",
+      "notes": "No temperature overshoot language is used. The Hot House World scenario is described as \"At least a 3°C degree increase in global temperature\" in the column header, with 4.4°C as the specific value.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers are named. The primary sources used to construct the scenarios are: (1) New Zealand Banking Association (NZBA) / Ernst & Young (NZBA Report: \"Climate scenario narratives for the banking sector\"), and (2) GIC and Ortec Finance (GIC Report). Additional reference sources consulted include: IPCC, IEA, NGFS (Central Banks and Supervisors Network for Greening the Financial System), and the Climate Change Commission.",
+      "evidence": "The New Zealand Banking Association (\"NZBA\"), the industry body for the banking sector in New Zealand, engaged Ernst & Young to produce a report titled \"Climate scenario narratives for the banking sector\"... Other example climate-related scenarios that were relevant to the banking sector were set out in reports published by the Intergovernmental Panel on Climate Change (\"IPCC\"), International Energy Agency (\"IEA\"), Central Banks and Supervisors Network for Greening the Financial System (\"NGFS\"), Climate Change Commission, and GIC and Ortec Finance (\"GIC Report\").",
+      "location_hint": "Section 3.2, p.12",
+      "confidence": "high",
+      "notes": "Citi NZ focused primarily on the NZBA Report and the GIC Report as the basis for constructing its three scenarios, as stated in Section 3.2.3.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "No",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The document does not mention SSP (Shared Socioeconomic Pathway) or RCP (Representative Concentration Pathway) identifiers anywhere. The scenarios are described using narrative names (Orderly, Too Little Too Late, Hot House World) derived from the NZBA and GIC reports, not from SSP/RCP families.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "The above climate-related scenarios were reviewed by Buddle Findlay and, with Citi NZ's input, were used to construct three climate-related scenarios that were analysed in the workshops. These three scenarios were revised to be in line with the risks and opportunities specific to Citi NZ and included the assumptions noted below... Citi NZ added further detail to the scenarios by making further and different assumptions, particularly more focus on Citi NZ's largest business lines.",
+      "location_hint": "Section 3.2, p.12",
+      "confidence": "high",
+      "notes": "The scenarios were explicitly \"revised to be in line with the risks and opportunities specific to Citi NZ\" and further customised with additional assumptions focused on Citi NZ's specific business lines and competitive dynamics. This goes beyond off-the-shelf use.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "In November 2023, Citi NZ engaged a law firm, Buddle Findlay, to facilitate three workshops with the CCO, the Strategy Working Group, relevant members of the Steering Committee and representatives from each business line to conduct scenario analysis.",
+      "location_hint": "Section 3.2, p.12",
+      "confidence": "high",
+      "notes": "The scenario development involved internal workshops facilitated by a law firm (Buddle Findlay) with internal staff. There is no mention of participatory, co-created, deliberative, co-design, or collaborative development with external stakeholders or the public.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The document does not describe a baseline or reference scenario against which the three climate scenarios are compared. The three scenarios (Orderly, Too Little Too Late, Hot House World) are presented as alternative futures, not as deviations from a defined baseline.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "Climate Risk Assessment and Scorecard (CRAS)",
+        "Global Heatmap (Citi's Climate Risk Heat Map)"
+      ],
+      "evidence": "Citi NZ adopts the climate risk heat map prepared for Citi globally (\"Global Heatmap\") to understand its credit exposure to vulnerable sectors... To help Citi understand the climate-related risk profiles of individual corporate clients, Citi has created a tool called the Climate Risk Assessment and Scorecard (\"CRAS\").",
+      "location_hint": "Section 4.1.1, p.37-38",
+      "confidence": "high",
+      "notes": "No formal climate models (e.g., CLIMADA, REMIND, MESSAGE, GCAM) or integrated assessment models (IAMs) or macroeconomic models are named. The CRAS and Global Heatmap are Citi's proprietary internal risk assessment tools, not standard climate/IAM models. The document does not name any external climate or economic models used in the scenario analysis itself.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "From now until 2100, New Zealand will experience a series of extreme weather shocks, which rise in frequency and severity over time, as temperatures rise... chronic risks due to rising temperatures impacting workplace productivity and acute risks due to extreme weather events will result in significant financial losses... Due to the extensive flooding and property damage caused by the severe weather events (i.e., the Auckland Anniversary weekend floods in January 2023 and Cyclone Gabrielle in February 2023), Citi NZ was unable to access the physical office building it leases in downtown Auckland.",
+      "location_hint": "Section 3.2.1, p.13; Section 3.1.1, p.11",
+      "confidence": "high",
+      "notes": "The scenario analysis explicitly includes acute physical risks (extreme weather events, floods, storms) and their financial consequences (financial losses, operational disruption, asset damage). However, the analysis is qualitative rather than quantitative — no specific dollar loss estimates are provided for acute events.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "extreme weather events (frequency and severity)",
+        "sea level rise",
+        "rainfall",
+        "storms",
+        "carbon price / emissions pricing",
+        "net-zero emissions year",
+        "energy pathways (renewable energy, fossil fuels, solar, biomass, electric vehicles)",
+        "carbon sequestration from afforestation",
+        "negative emissions technology",
+        "macroeconomic trends (cost of goods and services)",
+        "policy and regulatory changes",
+        "GHG emissions (biogenic methane, long-lived GHG)"
+      ],
+      "evidence": "Physical risks and opportunities result from climate change itself, including temperature, rainfall, storms, extreme events, and sea level rise... The New Zealand government will increase the carbon price in the Short Term... The rows relating to policy and socioeconomic assumptions, negative emissions technology, carbon sequestration from afforestation, energy pathways and macroeconomic trends describe the ways the world (including New Zealand) plans to reduce emissions in each scenario.",
+      "location_hint": "Section 3.2.1, pp.13-18; Section 3.3, p.20",
+      "confidence": "high",
+      "notes": "These variables are used to describe the scenario narratives and drive the risk/opportunity identification, though the analysis is qualitative rather than quantitative modelling of these variables.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "The rows relating to the increase in global temperature by 2100, the net-zero emissions year, extreme weather events, and physical and transition risks briefly describe each scenario narrative. The rows relating to policy and socioeconomic assumptions, negative emissions technology, carbon sequestration from afforestation, energy pathways and macroeconomic trends describe the ways the world (including New Zealand) plans to reduce emissions in each scenario... Citi NZ did not specifically exclude any parts of its value chain, as the scope of Citi NZ's scenario analysis covered Citi's activity in New Zealand. The effects on Citi NZ's suppliers, partners and clients in New Zealand were also considered.",
+      "location_hint": "Section 3.2.1, p.13; Section 3.2, p.12",
+      "confidence": "medium",
+      "notes": "The scenarios describe both global outcomes (global temperature by 2100, world net-zero year) and New Zealand-specific outcomes (NZ government policy, NZ ETS, NZ sectors). The scenarios are narrative-based rather than formally downscaled from global climate models, but they explicitly address both global and New Zealand-local contexts.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Four time horizons are defined: Immediate Term (3 years / 2025), Short Term (10 years / 2030), Medium Term (30 years / 2050), Long Term (50+ years / 2080+). Rationales are provided: Short Term (2030) and Medium Term (2050) align with Citi's global net-zero targets; Long Term (2080+) is based on the NZBA and GIC Report timeframes and the approximate expected useful life of Citi NZ's assets and infrastructure.",
+      "evidence": "Immediate Term: 3 years / 2025; Short Term: 10 years / 2030; Medium Term: 30 years / 2050; Long Term: 50+ years / 2080+. The Short Term and Medium Term timeframes (as defined in paragraph 3.2.2) align with Citi's 2030 and 2050 targets. This is because Citi is committed to achieving net zero GHG emissions by 2050, which is its Medium Term goal, and the interim 2030 targets are Citi's Short Term goals that are intended to assist Citi in achieving its 2050 net zero GHG emissions target. Citi NZ's Long Term goal of 2080+ is based on the timeframes in the NZBA and the GIC Report and the approximate expected useful life of Citi NZ's assets and infrastructure.",
+      "location_hint": "Section 3.2.2, p.19; Section 3.3.1, p.29",
+      "confidence": "high",
+      "notes": "Rationales are explicitly provided for Short, Medium and Long Term horizons. No explicit rationale is given for the Immediate Term (3 years / 2025).",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "After reviewing scenarios found in the NZBA Report, the GIC Report and reports published by the IPCC, IEA, NGFS, and Climate Change Commission, Citi NZ decided to focus on the NZBA Report and the GIC Report because it was the most relevant to the banking sector in New Zealand, incorporated scenarios from the IPCC, IEA, NGFS and the Climate Change Commission, and complied with the temperatures prescribed for undertaking scenario analysis in NZ CS 1. The GIC Report was useful in identifying further characteristics, risks, opportunities and impacts, and was the easiest to understand. The GIC Report discussed four scenarios, of which three are consistent with the NZBA Report and achieve fair presentation as required by NZ CS 3.",
+      "location_hint": "Section 3.2.3, p.19",
+      "confidence": "high",
+      "notes": "The justification is explicitly provided in Section 3.2.3 \"Relevance and Appropriateness of Chosen Scenarios\". Three reasons are given: (1) most relevant to the banking sector in New Zealand; (2) incorporated scenarios from IPCC, IEA, NGFS and Climate Change Commission; (3) complied with temperatures prescribed in NZ CS 1.",
+      "verification": null
+    }
+  ]
+}

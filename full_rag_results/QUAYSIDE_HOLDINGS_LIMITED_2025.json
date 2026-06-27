@@ -1,0 +1,178 @@
+{
+  "source": "QUAYSIDE_HOLDINGS_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1568908,
+      "output_tokens": 8040,
+      "total_tokens": 1576948,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 1489203,
+        "ephemeral_5m_input_tokens": 79678,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly (1.4°C at 2100)",
+        "Disorderly (2.6°C at 2100)",
+        "Hothouse (3.9°C at 2100)"
+      ],
+      "evidence": "SCENARIO | ORDERLY - 1.4°c at 2100 | DISORDERLY - 2.6°c at 2100 | HOTHOUSE - 3.9°c at 2100 ... REFERENCE SCENARIOS & PATHWAYS: NGFS: Net Zero 2050 / SSP1-1.9 / RCP 1.9 (NIWA RCP 2.6) / CCC Tailwinds | NGFS: Delayed Transition / SSP2-4.5 / RCP 4.5 (NIWA RCP 4.5) / CCC Headwinds | NGFS: Current Policies / SSP3-7.0 / RCP 8.5 (NIWA RCP 8.5) / CCC Current Policy Reference",
+      "location_hint": "Page 19, Overview of Quayside's Climate Scenarios table",
+      "confidence": "high",
+      "notes": "Three entity-level scenarios developed by Quayside, each referencing multiple underlying scenario frameworks (NGFS, SSP, RCP/NIWA, CCC).",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes by 2100 are described: 1.4°C (Orderly), 2.6°C (Disorderly), and 3.9°C (Hothouse). Mid-century (2050) global mean annual changes are also given: 1.6°C (2041–2060, Orderly), 2°C (Disorderly), and 2.5°C (Hothouse). New Zealand-specific temperature changes are also provided for each scenario.",
+      "evidence": "TEMPERATURE OUTCOMES: Global mean annual change: 2041-2060: 1.6°c / 2081-2100: 1.4°c [Orderly] | Global mean annual change: 2°c at 2050 / 2.6°c at 2100* [Disorderly] | Global mean annual change: 2.5°c at 2050 / 3.9°c at 2100* [Hothouse]",
+      "location_hint": "Page 20, Overview of Quayside's Climate Scenarios table – Temperature Outcomes row",
+      "confidence": "high",
+      "notes": "No explicit mention of temperature overshoot. NZ-specific temperature outcomes are also provided (e.g. NZ mean annual change 0.7°C at 2050 for Orderly; 2.8–3.1°C by 2081–2100 for Hothouse).",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers are explicitly named: NGFS (Network for Greening the Financial System), NIWA (National Institute of Water and Atmospheric Research), CCC (Climate Change Commission), and IPCC (referenced for SSP pathways). The document also references NZ sector scenarios from Financial Services, Agriculture, and Transport sectors.",
+      "evidence": "REFERENCE SCENARIOS & PATHWAYS: NGFS: Net Zero 2050 / SSP1-1.9 / RCP 1.9 (NIWA RCP 2.6) / CCC Tailwinds | NGFS: Delayed Transition / SSP2-4.5 / RCP 4.5 (NIWA RCP 4.5) / CCC Headwinds | NGFS: Current Policies / SSP3-7.0 / RCP 8.5 (NIWA RCP 8.5) / CCC Current Policy Reference ... based on NIWA downscaled CMIP6 datasets for SSP1-2.6, SSP2-4.5, and SSP3-7.0 (\"NIWA Projections\").",
+      "location_hint": "Page 19 (scenario table) and pages 25, 33 (NIWA Projections)",
+      "confidence": "high",
+      "notes": "NGFS provides the transition scenario archetypes; NIWA provides downscaled physical climate projections (CMIP6); CCC provides NZ-specific scenario narratives (Tailwinds, Headwinds, Current Policy Reference).",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "REFERENCE SCENARIOS & PATHWAYS: NGFS: Net Zero 2050 / SSP1-1.9 / RCP 1.9 (NIWA RCP 2.6) | NGFS: Delayed Transition / SSP2-4.5 / RCP 4.5 (NIWA RCP 4.5) | NGFS: Current Policies / SSP3-7.0 / RCP 8.5 (NIWA RCP 8.5) ... Above fully aligns with the \"Bypass to Breakdown\" Transport Sector Scenario, but deviates from the Agriculture and Financial Services sector \"Hothouse\" equivalent scenarios, as they are both based on SSP5-8.5. Notwithstanding the decision to align with the Agricultural Sector Scenarios, deviating in this respect was considered prudent for the reasons set out in Footnote 14.",
+      "location_hint": "Page 19, Reference Scenarios & Pathways row of the scenario table",
+      "confidence": "high",
+      "notes": "The document explicitly lists both SSP identifiers (SSP1-1.9, SSP2-4.5, SSP3-7.0) and RCP identifiers (RCP 1.9/2.6, RCP 4.5, RCP 8.5) in the same scenario table. Notably, for the Orderly scenario, SSP1-1.9 is paired with NIWA RCP 2.6 (not RCP 1.9), which is a cross-family pairing. The Hothouse scenario uses SSP3-7.0 with RCP 8.5, which are also from different families.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "Quayside developed three \"entity-level\" climate scenarios to systematically explore the potential physical and transition consequences of climate change for its business and to test the resilience of its strategy. In FY25, the underlying scenario drivers and driver outcomes were reviewed and further updated to reflect new insights and information. ... based on NIWA downscaled CMIP6 datasets for SSP1-2.6, SSP2-4.5, and SSP3-7.0 (\"NIWA Projections\").",
+      "location_hint": "Page 18 (scenario development description) and pages 25, 33 (NIWA downscaled projections)",
+      "confidence": "high",
+      "notes": "Scenarios are described as entity-level constructs built on top of reference scenarios (NGFS, SSP, RCP, CCC). Physical climate projections use NIWA downscaled CMIP6 data. The scenarios were also adapted to align with or deviate from NZ sector scenarios (Agriculture, Financial Services, Transport) for specific reasons explained in footnotes.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "Quayside developed three \"entity-level\" climate scenarios to systematically explore the potential physical and transition consequences of climate change for its business and to test the resilience of its strategy. In FY25, the underlying scenario drivers and driver outcomes were reviewed and further updated to reflect new insights and information.",
+      "location_hint": "Page 18, Climate Scenario Overview",
+      "confidence": "medium",
+      "notes": "No language such as \"participatory\", \"co-creat\", \"deliberat\", \"co-design\", or \"collaborative development\" is found in the document. The Board participated in workshops with external experts (Frontier Advisors and Onepointfive) to engage with scenario assumptions, but this is described as upskilling/review rather than co-production of scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "Yes. A \"systemic structural shifts (baseline)\" is described as the enduring operating context that forms the new forward operating environment for all assets. Additionally, the NGFS \"Current Policies\" scenario / SSP3-7.0 / RCP 8.5 / CCC Current Policy Reference serves as the reference pathway for the Hothouse scenario. The analytical scaffold also establishes a structural systemic baseline first, before tracing transition and cyclical overlays.",
+      "evidence": "Systemic structural shifts (baseline): the enduring operating context that forms the new forward operating environment for all assets—cumulative physical and transition pressures driving tighter lending and insurance standards, economic and sectoral re-weighting, and broader structural cost pressures. This baseline is established first, as short- to medium-term overlays operate within it. ... NGFS: Current Policies / SSP3-7.0 / RCP 8.5 (NIWA RCP 8.5) / CCC Current Policy Reference",
+      "location_hint": "Page 22 (systemic structural shifts baseline) and Page 19 (reference scenarios table)",
+      "confidence": "medium",
+      "notes": "The \"baseline\" in the analytical framework is a structural/systemic baseline used as a starting point for overlays, not a traditional \"no climate change\" reference scenario. The NGFS Current Policies / CCC Current Policy Reference is the closest to a conventional baseline scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "CMIP6 (via NIWA downscaled datasets)"
+      ],
+      "evidence": "Chronic climate hazards: long-term, typically gradual shifts in temperatures, rainfall, sea level, drought and related variables, based on NIWA downscaled CMIP6 datasets for SSP1-2.6, SSP2-4.5, and SSP3-7.0 (\"NIWA Projections\").",
+      "location_hint": "Pages 25 and 33, CRR/O drivers tables",
+      "confidence": "high",
+      "notes": "CMIP6 is the only named climate model ensemble. No IAMs or macroeconomic models (e.g. REMIND, MESSAGE, GCAM, NiGEM) are explicitly named. NGFS scenarios are referenced but the underlying IAMs are not named in this document.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "Acute climate hazards: short-term, heavy and extreme weather events, the frequency, intensity, duration, and spatial extent of which is increasing with climate change (e.g. storms, floods, landslides, heatwaves, and high-wind events). ... DQR1 (acute damage from rain/wind/storms): $117.2m / 25.0% of the Investment Portfolio. ... DQR2 (flood‑related damage/disruption): $89.7m / 18.9%. ... Real assets (property/Huakiwi): Given the geographic concentration of assets in this sleeve, an extreme Bay of Plenty event (e.g., 1:100 AEP) could temporarily reduce cashflows through downtime, abatements, or uninsured remedials.",
+      "location_hint": "Pages 22, 25, 33, 41",
+      "confidence": "high",
+      "notes": "The document explicitly includes damage/loss estimates from extreme events (acute physical risks), including value-at-risk figures for acute damage and flood-related damage/disruption, and references to 1:100 AEP events.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "rainfall patterns",
+        "sea level rise",
+        "drought frequency",
+        "storm frequency/intensity",
+        "floods",
+        "landslides",
+        "heatwaves",
+        "high-wind events",
+        "carbon price",
+        "access to capital and insurance",
+        "access to energy",
+        "access to labour",
+        "changing customer preferences",
+        "mitigation policy changes",
+        "adaptation policy changes",
+        "political changes",
+        "GDP",
+        "population growth",
+        "inflation",
+        "interest rates",
+        "technology change/adoption",
+        "ecological impacts (land usability, water availability, ecosystem services)"
+      ],
+      "evidence": "Chronic climate hazards: long-term, progressive changes in average climate conditions (e.g. temperature, rainfall patterns, sea level, drought frequency) ... Acute climate hazards: short-term, heavy and extreme weather events ... (e.g. storms, floods, landslides, heatwaves, and high-wind events). ... Market and technology drivers: Changing household and commercial customer preferences / Access to capital and insurance / Carbon price / Access to energy / Access to labour. Policy drivers: Political changes / Mitigation policy changes / Adaptation policy changes. ... GDP: declines moderately to sharply in the early transition ... Population: Global increase of 7% by 2050",
+      "location_hint": "Pages 22–23 (scenario drivers), pages 20–21 (scenario outcomes)",
+      "confidence": "high",
+      "notes": "The document provides an extensive list of physical, transition, and systemic scenario drivers beyond temperature.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "based on NIWA downscaled CMIP6 datasets for SSP1-2.6, SSP2-4.5, and SSP3-7.0 (\"NIWA Projections\"). ... Global mean annual change: 2041-2060: 1.6°c / 2081-2100: 1.4°c [Orderly] ... NZ mean annual change: 0.7°c at 2050 [Orderly] ... NZ mean annual change: 2031-2050: 0.9–1.1°C / 2081–2100: 2.8–3.1°C [Hothouse]",
+      "location_hint": "Pages 20 (temperature outcomes table), 25 and 33 (NIWA downscaled CMIP6)",
+      "confidence": "high",
+      "notes": "Global temperature outcomes are reported alongside New Zealand-specific (regional/local) downscaled projections from NIWA using CMIP6 datasets.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short term: 0–3 years; Medium term: 3–10 years; Long term: 10–35 years. Justification is provided: the horizons were chosen to preserve alignment with BOPRC's planning horizons while recognising the nature of long-lived assets. These replaced the horizons first disclosed in FY24.",
+      "evidence": "To preserve alignment with BOPRC's planning horizons, while recognising the nature of long-lived assets, Quayside has made minor adjustments to the time horizons used to assess CRR/Os. The updated horizons are: Short term: 0–3 years / Medium term: 3–10 years / Long term: 10–35 years. These replace the horizons first disclosed in FY24 (see page 15 of Quayside's FY24 disclosure).",
+      "location_hint": "Page 9, Risk Management section – Time horizon updates",
+      "confidence": "high",
+      "notes": "Justification is explicitly provided: alignment with BOPRC's planning horizons and recognition of long-lived assets. The horizons were updated from those used in FY24.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "Above fully aligns with the \"Bypass to Breakdown\" Transport Sector Scenario, but deviates from the Agriculture and Financial Services sector \"Hothouse\" equivalent scenarios, as they are both based on SSP5-8.5. Notwithstanding the decision to align with the Agricultural Sector Scenarios, deviating in this respect was considered prudent for the reasons set out in Footnote 14. ... See Footnote 13 which details the rationale for this approach. ... Quayside developed three \"entity-level\" climate scenarios to systematically explore the potential physical and transition consequences of climate change for its business and to test the resilience of its strategy.",
+      "location_hint": "Page 19 (scenario table footnote references), Page 18 (scenario development rationale)",
+      "confidence": "high",
+      "notes": "The document explicitly references footnotes (12, 13, 14) that detail the rationale for specific scenario pathway choices, including deviations from sector scenarios. The general rationale for developing entity-level scenarios is also stated (to explore physical and transition consequences and test strategy resilience). The specific content of footnotes 13 and 14 as they relate to scenario selection rationale is referenced but the full text of those footnotes (as numbered in the scenario table) appears to be in the endnotes section which references Port-level risks rather than scenario selection rationale — the scenario-selection footnotes may be in a section not fully retrieved.",
+      "verification": null
+    }
+  ]
+}

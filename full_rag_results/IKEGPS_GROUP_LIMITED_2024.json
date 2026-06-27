@@ -1,0 +1,161 @@
+{
+  "source": "IKEGPS_GROUP_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 796670,
+      "output_tokens": 6184,
+      "total_tokens": 802854,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 754728,
+        "ephemeral_5m_input_tokens": 41917,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "SSP1-1.9 (Optimistic)",
+        "SSP2-4.5 (Middle of the Road / MOR)",
+        "SSP3-7.0 (Regional Rivalry)"
+      ],
+      "evidence": "ikeGPS has chosen the following 3 scenarios as the lenses through which to assess our risks and opportunities. These are: SSP1-1.9 very low GHG emissions: CO2 emissions cut to net zero around 2050 — 1.5°C — Optimistic; SSP2-4.5 intermediate GHG emissions: CO2 emissions around current levels until 2050, then falling but not reaching net zero by 2100 — 2.7°C — Middle of the Road (MOR); SSP3-7.0 high GHG emissions: CO2 emissions double by 2100 — 3.6°C — Regional Rivalry",
+      "location_hint": "Page 7 (Strategy and Risk Management – Scenario analysis undertaken)",
+      "confidence": "high",
+      "notes": "The document also lists SSP1-2.6 and SSP5-8.5 in a summary table of all IPCC AR6 scenarios, but ikeGPS only selected three (SSP1-1.9, SSP2-4.5, SSP3-7.0) for its own analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes the following temperature outcomes by 2081–2100: SSP1-1.9: 1.4°C (very likely range 1.0–1.8°C); SSP1-2.6: 1.8°C (very likely range 1.3–2.4°C); SSP2-4.5: 2.7°C (very likely range 2.1–3.5°C); SSP3-7.0: 3.6°C (very likely range 2.8–4.6°C); SSP5-8.5: 4.4°C (very likely range 3.3–5.7°C). For the three selected scenarios: SSP1-1.9 ≈ 1.5°C, SSP2-4.5 ≈ 2.7°C, SSP3-7.0 ≈ 3.6°C. Temperature overshoot is noted for SSP1-1.9 (warming hits 1.5°C then dips back to 1.4°C).",
+      "evidence": "SSP1-1.9: 1.4°C (1.0–1.8); SSP1-2.6: 1.8°C (1.3–2.4); SSP2-4.5: 2.7°C (2.1–3.5); SSP3-7.0: 3.6°C (2.8–4.6); SSP5-8.5: 4.4°C (3.3–5.7). \"This first scenario is the only one that meets the Paris Agreement's goal of keeping global warming to around 1.5 degrees Celsius above preindustrial temperatures, with warming hitting 1.5C but then dipping back down and stabilizing around 1.4C by the end of the century.\"",
+      "location_hint": "Page 7 (Scenario table and SSP Scenario Summary)",
+      "confidence": "high",
+      "notes": "Temperature overshoot is explicitly described for SSP1-1.9.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "IPCC (Intergovernmental Panel on Climate Change) — specifically the Sixth Assessment Report (AR6)",
+      "evidence": "ikeGPS has used the climate change scenarios of the Intergovernmental Panel on Climate Change (IPCC) Sixth Assessment Report as the basis of our assessment.",
+      "location_hint": "Page 7 (Strategy and Risk Management – Scenario analysis undertaken)",
+      "confidence": "high",
+      "notes": "The footnote also references a Reuters article (reuters.com) as the source for the scenario summaries, but the underlying scenarios are explicitly attributed to the IPCC AR6.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "No",
+      "evidence": "ikeGPS has used the climate change scenarios of the Intergovernmental Panel on Climate Change (IPCC) Sixth Assessment Report as the basis of our assessment. [Only SSP identifiers are used: SSP1-1.9, SSP1-2.6, SSP2-4.5, SSP3-7.0, SSP5-8.5]",
+      "location_hint": "Page 7",
+      "confidence": "high",
+      "notes": "The document exclusively uses SSP scenarios from the IPCC AR6. No RCP identifiers are mentioned anywhere in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "No",
+      "evidence": "ikeGPS has used the climate change scenarios of the Intergovernmental Panel on Climate Change (IPCC) Sixth Assessment Report as the basis of our assessment.",
+      "location_hint": "Page 7",
+      "confidence": "high",
+      "notes": "No language such as \"downscaled\", \"adapted\", \"localised\", \"customised\", or \"tailored\" appears in the document. The IPCC AR6 SSP scenarios are used off-the-shelf.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "No language relating to participatory, co-created, deliberative, co-designed, or collaborative scenario development is present in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The document does not describe a baseline or reference scenario against which the climate scenarios are compared. A \"base year\" is mentioned in the GHG inventory context (FY24), but this is not a climate scenario baseline.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [],
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "No climate models, integrated assessment models (IAMs), or macroeconomic models are named in the document. The analysis relies on the IPCC AR6 SSP scenarios directly, without naming any underlying models.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "PR-001 - Longer term reduction in demand caused by extreme weather events: \"As extreme weather events begin to impact customer infrastructure above ground infrastructure becomes less economic. Impacting IKE in the following ways: - Reduction in revenue; and - loss of customers.\" PR-002 - Supply Chain and Business Operations disrupted by adverse weather events: \"Extreme weather events cause disruption to both the supply chains and business operations. Impacting IKE in the following ways: - disruption to key infrastructure; - increased costs and lead times as suppliers build resilience; and - operational disruption if access to offices and key systems are impacted\"",
+      "location_hint": "Pages 9–10 (Risks and Opportunities table)",
+      "confidence": "medium",
+      "notes": "Acute physical risks from extreme weather events are explicitly identified and their business impacts described qualitatively (revenue loss, supply chain disruption, operational disruption). However, no quantitative damage or loss estimates are provided — the document applied Adoption Provision 1 and 2 exempting it from quantitative financial impact disclosure.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "CO2 emissions / GHG emissions levels",
+        "socioeconomic factors / development and income growth",
+        "national security / food supply focus",
+        "fossil fuel use / energy-intensive lifestyles",
+        "sustainability practices / well-being focus",
+        "inequality",
+        "extreme weather frequency"
+      ],
+      "evidence": "SSP1-1.9: \"CO2 emissions cut to net zero around 2050. Societies switch to more sustainable practices, with focus shifting from economic growth to overall well-being. Investments in education and health go up. Inequality falls. Extreme weather is more common.\" SSP2-4.5: \"CO2 emissions hover around current levels before starting to fall mid-century... Socioeconomic factors follow their historic trends, with no notable shifts. Progress toward sustainability is slow, with development and income growing unevenly.\" SSP3-7.0: \"CO2 emissions roughly double from current levels by 2100. Countries become more competitive with one another, shifting toward national security and ensuring their own food supplies.\" SSP5-8.5: \"growth is fueled by exploiting fossil fuels and energy-intensive lifestyles.\"",
+      "location_hint": "Pages 7–8 (SSP Scenario Summary)",
+      "confidence": "medium",
+      "notes": "These variables are described qualitatively as scenario characteristics rather than as explicit quantitative drivers used in modelling. No specific carbon price, sea level rise, or rainfall variables are mentioned.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "global",
+      "evidence": "ikeGPS has used the climate change scenarios of the Intergovernmental Panel on Climate Change (IPCC) Sixth Assessment Report as the basis of our assessment. [All scenario descriptions refer to global CO2 emissions, global average temperatures, and global socioeconomic trends — e.g. \"By the end of the century, average temperatures have risen by 3.6C\", \"CO2 emissions roughly double from current levels by 2100\"]",
+      "location_hint": "Pages 7–8",
+      "confidence": "high",
+      "notes": "The IPCC AR6 SSP scenarios are global in scope. There is no mention of downscaling to regional or local level.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short-term: 1 year; Medium-term: 2–5 years; Long-term: 6–10 years. Rationale is provided: short-term aligns with the budget cycle, medium-term reflects the long-term forecast, and long-term aligns with the product lifecycle.",
+      "evidence": "In looking at the timeline used in our assessments we have aligned the short-term to a period that aligns with our budget cycle, the medium-term to a period that reflects our long-term forecast, and a long-term which aligns to our product lifecycle. Short: 1 Year; Medium: 2-5 Years; Long: 6-10 Years",
+      "location_hint": "Page 9 (Timelines section)",
+      "confidence": "high",
+      "notes": "Justification is explicitly provided for each time horizon, linking them to business planning cycles.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "No",
+      "evidence": "ikeGPS has chosen the following 3 scenarios as the lenses through which to assess our risks and opportunities.",
+      "location_hint": "Page 7",
+      "confidence": "high",
+      "notes": "The document states that three scenarios were chosen but does not provide an explicit justification for why SSP1-1.9, SSP2-4.5, and SSP3-7.0 were selected over the other available IPCC AR6 scenarios (e.g. SSP1-2.6 or SSP5-8.5). No rationale for the choice of the IPCC AR6 framework over alternatives (e.g. NGFS) is given either.",
+      "verification": null
+    }
+  ]
+}

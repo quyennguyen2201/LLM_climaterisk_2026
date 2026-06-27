@@ -1,49 +1,100 @@
-# LLM_climaterisk_2026
-This is the repo to update the data analysis of climate risk disclosure using LLM. 
+# LLM Climate Risk 2026
 
-### About Climate Related Disclosure 
-In recognition of the ongoing impact that climate change has on New Zealand the Government introduced a requirement for large entities to prepare and lodge annual climate-related disclosures (climate statements). These entities are called Climate Reporting Entities (CREs) under the Financial Markets Conduct Act 2013.  
+Replication repository for the following manuscript:
 
-The aim of requiring CREs to consider and report on climate-related risks and opportunities is to encourage a transition to a low-emissions future.
+> **Evaluating the scientific rigour of climate scenario analysis: LLM-assisted evidence from New Zealand's mandatory disclosures**
+> Quyen Nguyen, Florent Aden-Antoniow, Jack Drummond, Nicholas A. Cradock-Henry, Rob Buxton, Ani Barr
+> *Version: June 2026*
 
-CREs are required to lodge climate statements or exemption notices with the Registrar of Financial Service Providers within 4 months after the balance date of the entity. CREs with a balance date of 31 December 2023 will be the first to file their climate statements which are due by 30 April 2024.
+---
 
-The CRE search hub is this link: https://crd-app.companiesoffice.govt.nz/dashboard/
+## Overview
 
-The link to the disclousre is: https://www.xrb.govt.nz/standards/climate-related-disclosures/aotearoa-new-zealand-climate-standards/aotearoa-new-zealand-climate-standard-1/ 
+This repository covers four main workflows:
 
-### Which entities are Climate Reporting Entities (CREs): 
-Around 200 entities in New Zealand will be required to prepare and lodge climate statements or exemption notices. CREs are a subset of FMC reporting entities, and include: 
- - Large registered banks, credit unions, and building societies. Those with total assets of more than $1 billion. 
- - Large managers of registered investment schemes (other than restricted schemes). Those with greater than $1 billion in total assets under management. 
- - Large licensed insurers. Those with greater than $1 billion in total assets or annual gross premium income greater than $250 million. 
- - Large listed issuers of quoted equity securities or quoted debt securities. An equity issuer is large if the market price or fair value of all of its equity securities exceeds $60 million and a debt issuer is large if the face value of its quoted debt exceeds $60 million. Issuers listed on growth markets are excluded from the climate reporting entity definition. 
- 
-The thresholds for each entity are calculated as at the balance date of their 2 preceding accounting periods. These thresholds will be amended from time to time to reflect the movements in the consumers price index.
+1. Download of New Zealand climate statements from the CRE search hub
+2. Exploratory analysis of the final sample
+3. Preliminary data analysis of climate risk disclosures using NLP
+4. Analysis of agentic RAG LLM-assisted results
 
-### Change in regulations
-* 15 December 2022, the XRB issued Aotearoa New Zealand Climate Standards (NZ CS). 
-* 1 January 2023, the Climate Standard come into effective. 
-* 30 November 2023, the XRB conducted international alignment of climate reporting –and fidn that there is a high degree of interoperability between NZ CS and the TCFD recommendations and the ISSB standards
-* 1 January 2024, CREs are required to prepare climate statements and lodge them on this register.  
-* 27 October 2024, Mandatory assurance of Greenhouse Gas (GHG) emissions begins for reporting periods ending on or after this date
-* 2024 - 2025: Initial "Climate Statements" are published by early adopters and mandatory entities.
-* November 2024/2025: Amendments made to Adoption provisions (NZ CS 2), including extending provisions for Scope 3 GHG emissions to allow for better data quality.
-* Future (2026/2028): Potential changes in 2025 may adjust thresholds for reporting entities (e.g., changing to \(NZD550\) million market cap, possibly dropping to \(NZD250\) million later)
+For the full implementation of the agentic RAG pipeline, see: https://github.com/florentaden/agent-climate-disclosure
 
+---
 
-### Analysis versions
+## Repository Structure
 
-* `pdfs_2024` The first analysis was conducted in June 2024 for 35 companies (including 30 companies reported as of 7 May 2024 and 5 extra banks from 2022-2023). 
-* `pdfs_2026` The second analysis was conducted in May 2026 for 198 companies (across all target years in 2023-2026). This analysis now only includes a snapshot of 198 companies as of May 2026 for the period from 2024-2025. 
+```
+LLM_climaterisk_2026/
+├── README.md
+├── LICENSE
+│
+├── scripts/                                      # Analysis notebooks (run in order)
+│   ├── 0-scrapping_climate_risk_disclosure.ipynb # Scrape PDFs from CRE search hub
+│   ├── 1-explatorary_analysis.ipynb              # Exploratory analysis of the sample
+│   ├── 2-nlp_analysis.ipynb                      # NLP-based disclosure analysis
+│   ├── 3-rag_result.ipynb                        # LLM-assisted extraction (RAG)
+│   └── 4-rag_benchmark.ipynb                     # Benchmarking RAG outputs
+│
+├── full_rag_results/                             # LLM extraction outputs (234 JSON files)
+│   └── {COMPANY}_{YEAR}.json                    # One file per company-year
+│
+├── benchmark_rag_results/                        # Ground-truth comparison (13 JSON files)
+│   └── {COMPANY}_{YEAR}.json                    # Manually validated subset
+│
+└── interim_results/                              # Reference & mapping tables
+    ├── Included_PDF_only.csv                     # Final PDF sample list
+    ├── List_of_selected_PDF_forLLManalysis.csv   # PDFs selected for LLM analysis
+    ├── List_of_climate_scenarios_RAG_renamed.csv # Scenario name mapping
+    └── List_of_mapped_models.csv                 # Climate model name mapping
+```
 
-### Update of 2026 versions 
+---
 
-- Exploratory analysis for 198 companies as of May 2026 for the period from 2024 to 2025 
-- LLM analysis for 198 companies within 2024-2025 
-- Groundtruth comparison for 35 companies (17 companies with manual data) in 2024-2025 
+## Data
 
+**Raw PDF files:** `drive.google.com///` *(link to be updated)*
 
-### Scripts
-- `0-scrapping_climate_risk_disclosure.ipynb' to scrap all disclosure statement and saved to 'pdfs_2026'
-- `1-explatory_analysis.ipynb' to conduct exploratory analysis for 198 companies as of May 2026 for the period from 2024 to 2025 
+The PDFs are New Zealand climate-related disclosure statements lodged by Climate Reporting Entities (CREs) with the Registrar of Financial Service Providers.
+
+---
+
+## Scripts
+
+| Script | Description |
+|--------|-------------|
+| `0-scrapping_climate_risk_disclosure.ipynb` | Scrapes all disclosure statements and saves to `pdfs_2026/` |
+| `1-explatorary_analysis.ipynb` | Exploratory analysis for 198 companies (May 2026, period 2024–2025) |
+| `2-nlp_analysis.ipynb` | Preliminary NLP-based analysis of climate risk disclosures |
+| `3-rag_result.ipynb` | LLM-assisted extraction of structured answers from PDFs |
+| `4-rag_benchmark.ipynb` | Benchmarking and result analysis of LLM outputs |
+
+---
+
+## Analysis Versions
+- **Final Sample:** 227 companies as of May 2026, covering two fiscal periods FY24/25 and FY23/24. 
+- Exploratory analysis for 227 companies
+- LLM analysis for 227 companies
+- Ground-truth comparison for 13 companies in 2024–2025
+
+---
+
+## Background: Climate-Related Disclosures in New Zealand
+
+In recognition of the ongoing impact of climate change, the New Zealand Government introduced a mandatory requirement for large entities to prepare and lodge annual climate-related disclosures. These entities are called **Climate Reporting Entities (CREs)** under the Financial Markets Conduct Act 2013.
+
+CREs must lodge climate statements or exemption notices with the Registrar of Financial Service Providers within 4 months of their balance date. Entities with a 31 December 2023 balance date were the first to file, with statements due by 30 April 2024.
+
+**CRE search hub:** https://crd-app.companiesoffice.govt.nz/dashboard/
+
+**NZ Climate Standard (NZCS 1):** https://www.xrb.govt.nz/standards/climate-related-disclosures/aotearoa-new-zealand-climate-standards/aotearoa-new-zealand-climate-standard-1/
+
+### Which entities are CREs?
+
+Around 200 New Zealand entities are required to report, including:
+
+- **Large registered banks, credit unions, and building societies** — total assets > $1 billion
+- **Large managers of registered investment schemes** — total assets under management > $1 billion
+- **Large licensed insurers** — total assets > $1 billion or annual gross premium income > $250 million
+- **Large listed issuers of quoted equity or debt securities** — equity issuers with market value > $60 million; debt issuers with face value of quoted debt > $60 million (growth market issuers excluded)
+
+Thresholds are calculated at the balance date of the two preceding accounting periods and adjusted periodically for CPI movements.

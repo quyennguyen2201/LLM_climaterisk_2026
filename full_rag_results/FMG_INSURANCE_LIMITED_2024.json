@@ -1,0 +1,168 @@
+{
+  "source": "FMG_INSURANCE_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 518550,
+      "output_tokens": 6291,
+      "total_tokens": 524841,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 474415,
+        "ephemeral_5m_input_tokens": 44117,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly (Net Zero 2050)",
+        "Disorderly (Delayed Transition)",
+        "Hot House World (Current Policies)"
+      ],
+      "evidence": "The three scenarios can be summarised as: Orderly: an ambitious and co-ordinated transition aligned with a 1.5 degree warming trajectory... Disorderly: delayed action, followed by sudden and uncoordinated transformation, resulting in warming of less than 2 degrees... Hot House World - continuation of 2022 policy settings, leading to uncontrolled warming of more than 3 degrees.",
+      "location_hint": "Page 11",
+      "confidence": "high",
+      "notes": "These are FMG's entity-level scenarios, developed using the ICNZ scenario framework as the base architecture.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Orderly: 1.5°C by 2100 (1.6°C in 2050); Disorderly: 2.4°C by 2100 (1.8°C in 2050); Hot House World: more than 3°C by 2100 (2°C by 2050)",
+      "evidence": "Immediate, ambitious and coordinated transition to a low-emissions, climate-resilient future. Stringent climate policies, innovation, ambitious investment, and medium-to-high deployment of carbon removal solutions limit global warming to 1.6°C in 2050 and 1.5°C by 2100. Ambitious action is delayed to 2030, followed by sudden and uncoordinated economic transformation. Extensive, stringent and punitive but late government intervention, in combination with some deployment of carbon removal solutions, limits global warming to 1.8°C in 2050 and 2.4°C by 2100. Incremental and partial economic transformation takes place in-line with current policies and socio-economic trends. The world warms 2°C by 2050 and more than 3°C by 2100.",
+      "location_hint": "Page 11",
+      "confidence": "high",
+      "notes": "No temperature overshoot language is used; the Orderly scenario implies a slight overshoot and return to 1.5°C by 2100.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Yes. The primary scenario provider is the Insurance Council of New Zealand (ICNZ), with additional inputs from the Aotearoa Circle Agri-Sector Scenarios, the University of Exeter's 'No Time to Lose' report, and the Financial Services Council's Climate Scenario Narratives. The scenarios also align with NGFS (Network for Greening the Financial System) scenarios. KPMG assisted in development.",
+      "evidence": "Working with KPMG, FMG developed a series of Climate Scenarios aligned with those that were developed by the Insurance Council of New Zealand (ICNZ) and New Zealand Agriculture (NZ Ag)... Workshop attendees decided to use the ICNZ scenario framework as the architecture for FMG's entity-level scenarios. While the ICNZ scenarios were used as the base for FMG's climate-related scenarios, other climate-related work was incorporated... The Aotearoa Circle Agri-Sector Scenarios were consulted... Additional guidance was taken from the University of Exeter's 'No Time to Lose' report and the Financial Services Council's Climate Scenario Narratives for the Financial Services Sector.",
+      "location_hint": "Pages 10, 12",
+      "confidence": "high",
+      "notes": "Multiple providers are named. ICNZ is the primary framework provider; NGFS is referenced as an alignment framework in Figure 5.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "Shared Soci-economic Pathways (SSP): SSP1, SSP2, SSP3 ... Representative Concentration Pathway(RCP): RCP2.6, RCP4.5, RCP7.0 [both listed in Figure 5 as alignment frameworks for the three scenarios]. Also in the sea level rise table: Orderly Net Zero 2050 SSP1-2.6; Disorderly Delayed Transition SSP2-4.5; Hot House Current Policies SSP3-7.0.",
+      "location_hint": "Pages 12 and 14",
+      "confidence": "high",
+      "notes": "The document explicitly lists both SSP and RCP identifiers. In Figure 5 they are shown as separate alignment rows, and in the sea level rise table they are combined (e.g. SSP1-2.6, SSP2-4.5, SSP3-7.0). The combinations used (SSP1-RCP2.6, SSP2-RCP4.5, SSP3-RCP7.0) are broadly consistent pairings but SSPs and RCPs are from different generation frameworks (CMIP6 vs CMIP5), so this qualifies as a pick-and-mix.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "FMG hosted two Scenario Immersion Workshops to downscale the sector-level scenarios... Workshop attendees decided to use the ICNZ scenario framework as the architecture for FMG's entity-level scenarios. While the ICNZ scenarios were used as the base for FMG's climate-related scenarios, other climate-related work was incorporated to produce scenarios that best reflect the shape and nature of FMG's business.",
+      "location_hint": "Page 10",
+      "confidence": "high",
+      "notes": "The document explicitly uses the word \"downscale\" and describes a process of adapting ICNZ sector-level scenarios to FMG's entity-level context, incorporating additional sources to reflect FMG's specific business.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes",
+      "evidence": "In September 2023, a wider group was brought in to assist in the creation of the scenario narratives. FMG hosted two Scenario Immersion Workshops to downscale the sector-level scenarios. Workshop attendees were first immersed in the ICNZ sector scenarios to develop a common understanding of the scenarios. The attendees then reviewed the drivers of change (or 'drivers') included in the ICNZ sector scenarios for their relevance to FMG... In October 2023, FMG hosted two impacts and implications workshops. The purpose of these workshops was to interrogate FMG's risks and opportunities under each scenario.",
+      "location_hint": "Page 10",
+      "confidence": "medium",
+      "notes": "The document describes workshops with a \"wider group\" of internal representatives, which constitutes participatory/collaborative development, though the exact term \"co-produced\" or \"participatory\" is not used. The process involved multiple workshops with attendees reviewing and shaping the scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "Yes. The \"Hot House World\" / \"Current Policies\" scenario functions as a baseline/reference scenario, representing continuation of 2022 policy settings with no additional climate action.",
+      "evidence": "Hot House World - continuation of 2022 policy settings, leading to uncontrolled warming of more than 3 degrees... Incremental and partial economic transformation takes place in-line with current policies and socio-economic trends. The world warms 2°C by 2050 and more than 3°C by 2100. [Also in Figure 5: NGFS \"Current Policy settings\" aligns with Hot House; Climate Change Commission NZ \"Current Policy Reference\" aligns with Hot House]",
+      "location_hint": "Pages 11–12",
+      "confidence": "medium",
+      "notes": "The document does not explicitly label any scenario as a \"baseline\" or \"reference\" scenario, but the Hot House World / Current Policies scenario is aligned with \"Current Policy settings\" and \"Current Policy Reference\" in Figure 5, and represents a no-additional-action baseline.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "NIWA sea level rise research (applied by Finity Consulting)"
+      ],
+      "evidence": "To understand the increasing cost of flood claims related to Sea Level Rise (SLR) FMG worked with Finity Consulting, applying NIWA's research on SLR predictions for FMG scenarios.",
+      "location_hint": "Page 14",
+      "confidence": "medium",
+      "notes": "No named climate models (e.g. GCMs, IAMs) are explicitly identified. NIWA's research is referenced as the source of sea level rise predictions, applied by Finity Consulting. No other specific model names (e.g. CLIMADA, REMIND) are mentioned in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "The implications are twofold: chronic effects, such as the persistent rise in sea levels leading to the irreversible submersion of regions, and acute impacts stemming from meteorological phenomena, leading to more frequent and extreme weather events, such as what was experienced with Cyclone Gabrielle. The potential increased losses, as a result of changing weather patterns caused by climate change are further summarised above.",
+      "location_hint": "Page 13",
+      "confidence": "high",
+      "notes": "The document also includes a graph of losses from weather events (events >$5m) over 11 years (Figure 8), and discusses increased claims costs from more frequent and severe weather events. However, the quantitative scenario analysis focuses on sea level rise (chronic risk); acute risk financial quantification is noted as to be explored in future research.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "sea level rise",
+        "rainfall patterns",
+        "wind speed",
+        "flooding frequency and severity",
+        "wildfire likelihood",
+        "supply chain disruptions",
+        "macroeconomic conditions",
+        "policy reaction",
+        "technology change",
+        "carbon removal solutions deployment",
+        "land use change",
+        "forestry expansion"
+      ],
+      "evidence": "Wildfire: Increase in drought conditions and higher wind speed are expected to increase the likelihood of wildfires... Flooding: More intense rainfall is expected to result in an increase in frequency and severity of flooding events. Sea level rise: Ground water tables rise in response to increases in sea level... Wind: Extreme wind speed over the lower North Island and parts of the South Island is expected to increase by mid-century. Changing rainfall patterns: An increase in the west and south, less in east and north... [Also from scenario table: Financial impact of supply chain disruptions; Macroeconomic conditions; Policy reaction; Technology change]",
+      "location_hint": "Pages 11, 13",
+      "confidence": "high",
+      "notes": "These variables are used to characterise the scenarios and their physical/transition impacts, though not all are used as explicit quantitative drivers in the modelling.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "FMG hosted two Scenario Immersion Workshops to downscale the sector-level scenarios... [Sea level rise analysis:] FMG worked with Finity Consulting, applying NIWA's research on SLR predictions for FMG scenarios... Wind: Extreme wind speed over the lower North Island and parts of the South Island is expected to increase by mid-century. Changing rainfall patterns: An increase in the west and south, less in east and north.",
+      "location_hint": "Pages 10, 13, 14",
+      "confidence": "high",
+      "notes": "The scenarios are aligned with global frameworks (NGFS, SSPs, RCPs) but have been explicitly downscaled to sector and entity level for New Zealand/Aotearoa, with regional-specific physical risk projections (e.g. North Island, South Island wind; NZ sea level rise via NIWA).",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short-term: 2023–2025; Medium-term: 2026–2035; Long-term: 2036–2050. Rationale is partially provided: the timeframes are aligned with FMG's strategic planning cycles.",
+      "evidence": "Each scenario was considered over three time horizons: Short (2023-2025), Medium (2026-2035) and Long (2036-2050). The impact of climate change will be felt beyond these timeframes, the extent of which will be influenced by business decisions made over the next 10 years. FMG's strategic planning is broadly in line with these periods with current strategic objectives targeted for achievement by 2025. Strategy development currently underway within FMG is intended to re-set strategic objectives for the Mutual across the medium-term (i.e. out to 2030). Considerations for the longer-term (i.e. out to 2050) will also feature as part of this work.",
+      "location_hint": "Page 12",
+      "confidence": "high",
+      "notes": "The rationale given is alignment with FMG's strategic planning cycles. No deeper scientific or regulatory justification for the specific year boundaries is provided.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes — partial justification is provided. The ICNZ scenario framework was chosen because it was designed to challenge the insurance sector, and the Aotearoa Circle Agri-Sector Scenarios were incorporated to reflect agricultural industry outcomes relevant to FMG's rural insurance business.",
+      "evidence": "Working with KPMG, FMG developed a series of Climate Scenarios aligned with those that were developed by the Insurance Council of New Zealand (ICNZ) and New Zealand Agriculture (NZ Ag). These scenarios were designed to systematically explore the effects of a range of plausible future events under conditions of uncertainty. The ICNZ and NZ Ag scenarios were designed to challenge the insurance sector and agricultural sectors respectively. Bringing these together created a unique set of scenarios that present both challenges and opportunities across FMG's rural insurance portfolios.",
+      "location_hint": "Page 10",
+      "confidence": "medium",
+      "notes": "The justification is implicit rather than a formal statement of why these specific scenarios were chosen over alternatives. The rationale centres on sector relevance (insurance + agriculture) and FMG's rural insurance business model. No explicit comparison with alternative scenario frameworks is provided.",
+      "verification": null
+    }
+  ]
+}

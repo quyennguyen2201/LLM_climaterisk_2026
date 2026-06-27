@@ -1,0 +1,177 @@
+{
+  "source": "SUMMERSET_GROUP_HOLDINGS_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 838835,
+      "output_tokens": 7244,
+      "total_tokens": 846079,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 790025,
+        "ephemeral_5m_input_tokens": 48787,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly (1.5°C)",
+        "Disorderly (2.0°C)",
+        "Hot-house World (>3.0°C)"
+      ],
+      "evidence": "Table 4: Breakdown of key assumptions, archetypes, and emissions reduction pathways for our scenarios\nORDERLY 1.5°C | DISORDERLY 2.0°C | HOT-HOUSE WORLD 3.0°C\nLikely Temperature increase by 2100 (global): 1.0–1.8°C | 1.3–2.4°C | 2.8–4.6°C\nPathways: RCP 2.6 / SSP 1-1.9 / NGFS 'Net Zero 2050' / IEA 'Net Zero Emissions' / CCC 'Tailwinds' | RCP 2.6 / SSP 1-2.6 / NGFS 'Delayed Transition' / IEA 'Sustainable Development' / CCC 'Headwinds' | RCP 8.5 / SSP 3-7.0 / NGFS 'Current Policies' / IEA 'Stated Policies' / CCC 'Current Policies'",
+      "location_hint": "Page 19, Table 4 (Overview of Scenarios)",
+      "confidence": "high",
+      "notes": "Three named scenarios used: Orderly (1.5°C), Disorderly (2.0°C), and Hot-house World (>3.0°C). Each maps to multiple reference pathways from NGFS, IEA, CCC, RCP and SSP families.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: (1) Orderly: 1.0–1.8°C (targeting 1.5°C above pre-industrial levels); (2) Disorderly: 1.3–2.4°C (limited to between 1.5°C and 2.5°C above pre-industrial levels by 2100); (3) Hot-house World: 2.8–4.6°C (exceeding 2°C by 2050 and 3°C above pre-industrial levels by end of century). No temperature overshoot is explicitly described.",
+      "evidence": "Likely Temperature increase by 2100 (global): 1.0–1.8°C [Orderly] | 1.3–2.4°C [Disorderly] | 2.8–4.6°C [Hot-house World]. \"The world succeeds in limiting global warming to 1.5ºC above pre-industrial levels by the end of the century.\" / \"Average temperature increases are limited to between 1.5ºC and 2.5ºC above pre-industrial levels by 2100.\" / \"Average temperature increases exceed 2ºC by 2050 and 3ºC above pre-industrial levels by the end of the century.\"",
+      "location_hint": "Pages 19–20, Table 4 and scenario narratives",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers are explicitly named: NGFS (Network for Greening the Financial System), IEA (International Energy Agency), and CCC (Climate Change Commission). The XRB (External Reporting Board) sector-level scenario analysis processes (Construction and Property Sector, and Health Sector) are also named as the basis for scenario development. NIWA is referenced for climate projections data.",
+      "evidence": "Pathways: NGFS 'Net Zero 2050' / IEA 'Net Zero Emissions' / CCC 'Tailwinds' | NGFS 'Delayed Transition' / IEA 'Sustainable Development' / CCC 'Headwinds' | NGFS 'Current Policies' / IEA 'Stated Policies' / CCC 'Current Policies'. \"The scenarios created through both the Construction and Property Sector and Health Sector processes were developed in accordance with the XRB and other guidance on developing sector scenarios.\"",
+      "location_hint": "Pages 18–19, Table 4",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "Pathways: RCP 2.6 / SSP 1-1.9 / NGFS 'Net Zero 2050' / IEA 'Net Zero Emissions' / CCC 'Tailwinds' [Orderly 1.5°C] | RCP 2.6 / SSP 1-2.6 / NGFS 'Delayed Transition' / IEA 'Sustainable Development' / CCC 'Headwinds' [Disorderly 2.0°C] | RCP 8.5 / SSP 3-7.0 / NGFS 'Current Policies' / IEA 'Stated Policies' / CCC 'Current Policies' [Hot-house World 3.0°C]",
+      "location_hint": "Page 19, Table 4",
+      "confidence": "high",
+      "notes": "The document explicitly lists both RCP and SSP identifiers for each scenario. Notably, the Orderly scenario uses RCP 2.6 paired with SSP 1-1.9, and the Disorderly scenario also uses RCP 2.6 but paired with SSP 1-2.6. These are not from the same internally consistent scenario family (RCP 2.6 is from CMIP5 while SSP 1-1.9 and SSP 1-2.6 are from CMIP6/AR6).",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"In 2024 Summerset continued to run a stand-alone process for scenario analysis. This process involved a detailed breakdown, cross-examination and comparison of both relevant sector scenarios, with particular focus on archetypes, reference scenarios, driving forces, key assumptions and data. Once this comparison was completed Summerset then undertook an internal process to select the most relevant drivers from each sector scenario analysis. This included examining the drivers and their definitons, including redefining these drivers to be more Summerset-relevant as required. Following driver selection, scenarios and naratives were updated.\"",
+      "location_hint": "Page 18, Scenario Analysis section",
+      "confidence": "high",
+      "notes": "Scenarios were adapted from XRB sector-level scenarios (Construction and Property Sector, and Health Sector) through an internal process that redefined drivers to be \"more Summerset-relevant.\" This constitutes customisation beyond off-the-shelf use.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes",
+      "evidence": "\"Throughout 2023, and early 2024, Summerset participated in both the construction and property sector, and the health sector scenario creation processes.\" / \"Steps 1 and 2: Engage sector stakeholders and set focal questions, scope and timeframe for the scenario development process.\" / \"Throughout the scneario analysis process Summerset's Climate Working Group acted as the key mechanism for consulation, feedback and considerations. Supplementary to this was the additional inclusion of Summerset's Sustainability Forum as a key stakeholder from mid-2024 moving forward for all climate-related disclosures work programme deliverables.\" / \"Summerset was a contributing member to the creation of these scenarios [Health Sector scenarios].\"",
+      "location_hint": "Pages 18 and 23",
+      "confidence": "high",
+      "notes": "Summerset participated in sector-level scenario creation processes (construction/property and health sectors) involving sector stakeholder engagement. Internally, the Climate Working Group and Sustainability Forum were engaged as key stakeholders in the scenario development process.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "Yes — the Hot-house World (>3°C) scenario, aligned with NGFS 'Current Policies', IEA 'Stated Policies', and CCC 'Current Policies', functions as a reference/baseline scenario representing a world with no new climate policies beyond those currently in place. Additionally, the scenario analysis process explicitly references \"reference scenarios\" as a focus of comparison.",
+      "evidence": "\"In 2024 Summerset continued to run a stand-alone process for scenario analysis. This process involved a detailed breakdown, cross-examination and comparison of both relevant sector scenarios, with particular focus on archetypes, reference scenarios, driving forces, key assumptions and data.\" / Hot-house World pathways: \"NGFS 'Current Policies' / IEA 'Stated Policies' / CCC 'Current Policies'\" with \"Policy reaction: None – current policies.\"",
+      "location_hint": "Pages 18–19, Table 4",
+      "confidence": "medium",
+      "notes": "The document mentions \"reference scenarios\" as part of the comparison process but does not explicitly label any single scenario as a \"baseline.\" The Hot-house World scenario aligns with current-policies pathways, which typically serve as the reference/baseline in climate scenario analysis. The term \"reference scenarios\" appears in the methodology description but is not defined further.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "NIWA (downscaled climate projections)"
+      ],
+      "evidence": "\"Continued updating and incorporation of new climate projections (e.g. NIWA data set)\" / \"integration of the latest NIWA downscaled climate projections into our modelling and prior findings\"",
+      "location_hint": "Pages 22–23",
+      "confidence": "medium",
+      "notes": "NIWA is referenced as a data/projection source rather than a named climate model per se. No IAMs or macroeconomic models (e.g., REMIND, MESSAGE, GCAM, NiGEM) are explicitly named in the document. NIWA is New Zealand's National Institute of Water and Atmospheric Research.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes — acute physical risks (extreme weather events) are explicitly considered in the scenario analysis, but financial damage/loss estimates are not quantified due to data limitations.",
+      "evidence": "\"PR–01: The risk of increasing frequency and/or severity of extreme weather events... Extreme weather events could potentially lead to: damage to Summerset's portfolio of physical assets resulting in increasing capital costs and/or insurance premiums; an increase in operating expenditure due to rising costs associated with mitigation, resilience and/or adaptation (including third party costs). Anticipated financial quantified impact: Due to the absence of reliable data, we are presently unable to undertake quantification.\"",
+      "location_hint": "Page 22, Risks and Opportunities table (PR-01)",
+      "confidence": "high",
+      "notes": "Acute physical risks are explicitly included in the scenario analysis framework (storms, wind, flooding, wildfires). However, financial damage estimates are not provided — the document states they are unable to quantify at this stage. A qualitative example (Cyclone Gabrielle) is mentioned on page 45.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "sea level rise",
+        "rainfall / rainfall intensity",
+        "number of hot days",
+        "GDP impacts",
+        "policy reaction",
+        "technology change",
+        "behaviour change",
+        "physical risk severity",
+        "transition risk severity",
+        "socio-political instability",
+        "health impacts",
+        "carbon price / cost of carbon",
+        "electrification",
+        "embodied carbon",
+        "insurance premiums",
+        "drought",
+        "heatwaves",
+        "seasonal illness and diseases",
+        "changing precipitation patterns",
+        "storms, wind and flooding",
+        "wildfires"
+      ],
+      "evidence": "\"Weather pattern shifts occur, with increases across areas such as rainfall, sea level rise and the number of hot days.\" / Table 4 variables: \"Impacts on GDP / Policy reaction / Technology change / Behaviour change / Physical risk severity / Transition risk severity / Socio-political instability / Health impacts\" / \"There are significant changes in sea level rise, rainfall intensity and number of hot days, all of which drive heat-related issues such as illnesses, diseases and epidemics\" / \"Sustained higher temperatures / Sea level rise / Changing precipitation patterns / Changes to seasonal illness and/or diseases New Zealand experiences\" / \"Storms, wind and flooding / Wildfires\"",
+      "location_hint": "Pages 19–23, Table 4 and scenario narratives",
+      "confidence": "high",
+      "notes": "Variables are drawn from both the scenario narrative descriptions and the risk/opportunity tables. Carbon price is referenced separately as a \"cost of carbon\" metric used in project viability assessments (page 37).",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"integration of the latest NIWA downscaled climate projections into our modelling and prior findings\" / \"New village site selection and design standards modelled to meet or exceed RCP8.5 climate projection\" / The scenario narratives reference global temperature outcomes (e.g., \"1.0–1.8°C\" globally by 2100) alongside New Zealand-specific impacts (e.g., \"New Zealand still experiences extreme weather events\").",
+      "location_hint": "Pages 19–23",
+      "confidence": "medium",
+      "notes": "The scenarios use global temperature pathways (RCPs, SSPs, NGFS) as their foundation, but NIWA downscaled projections are referenced for local/regional application to Summerset's New Zealand portfolio. The scenario narratives also explicitly describe New Zealand-specific impacts.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Two sets of time horizons are used: (1) For scenario analysis: Short = Present (2023)–2030; Medium = 2031–2050; Long = 2051–2100. (2) For climate-related risks and opportunities: Short = 0–5 years; Medium = 5–10 years; Long = 10–30 years. Rationales are explicitly provided for both sets.",
+      "evidence": "Table 3: Time horizons for scenario analysis: Short: Present (2023)–2030 | Medium: 2031–2050 | Long: 2051–2100. \"The rationale for doing so is our scenario analysis incorporates the unkown and often changing long-term effects of climate change while risks and opportunities are considered on shorter time horizons to provide better alignment with Summerset's operational model.\" Table 5: Short (0–5 years): \"Aligns with the immediate priorities of our ten-year strategic focus. Additionally, it matches our approximate construction timeframes for new villages, our near-term sustainability targets (2028), and our financial strategy (primarily bond maturity horizons).\" Medium (5–10 years): \"Aligns with the medium-to-long-term priorities of our ten-year strategic focus.\" Long (10–30 years): \"Thinking long-term out to a 30-year horizon aligns with international emission reduction targets (Paris Agreement, 2050).\"",
+      "location_hint": "Pages 18–21, Tables 3 and 5",
+      "confidence": "high",
+      "notes": "Summerset explicitly uses two different sets of time horizons — one for scenario analysis (longer, out to 2100) and one for risk/opportunity identification (shorter, out to 30 years). Rationales are clearly stated for both sets.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"Why these scenarios: Our updated scenarios are very similar to the scenarios used for our first year's disclosures: they still include a 1.5ºC (Orderly) and >3ºC (Hot-house world) scenarios in line with the requirements of the XRB's New Zealand Climate Standards (NZCS). Additionally, Summerset still maintains the view that a middle perspective, which encompasses a balance of increased transition and physical risks, is the best third scenario. As such we have retained the approximately 2ºC (Disorderly) scenario to meet our disclosure requirement for a third scenario. All three scenarios present plausible futures for Summerset but each scenario demonstrates a different series of challenges and issues that we would have to navigate. Part of the rationale for not diverging significantly from the scenarios used in our first year's disclosures is to maintain continuity.\"",
+      "location_hint": "Page 18, \"Why these scenarios\" section",
+      "confidence": "high",
+      "notes": "The justification includes: (1) compliance with XRB New Zealand Climate Standards requirements for a 1.5°C and >3°C scenario; (2) the view that a middle (2°C) scenario best captures the balance of transition and physical risks; (3) continuity with prior year disclosures. The document also justifies the use of two sector scenarios (construction/property and health) due to Summerset's dual business nature as both a constructor and operator of retirement villages.",
+      "verification": null
+    }
+  ]
+}

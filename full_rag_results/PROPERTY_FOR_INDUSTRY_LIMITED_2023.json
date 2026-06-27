@@ -1,0 +1,167 @@
+{
+  "source": "PROPERTY_FOR_INDUSTRY_LIMITED_2023",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 920666,
+      "output_tokens": 6557,
+      "total_tokens": 927223,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 869508,
+        "ephemeral_5m_input_tokens": 51134,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "1.5°C 'Orderly' scenario",
+        "less than 2°C 'Disorderly' scenario",
+        "greater than 3°C 'Hot House World' scenario"
+      ],
+      "evidence": "Our scenario analysis considered a 1.5°C 'Orderly' scenario, a less than 2°C 'Disorderly' scenario, and a greater than 3°C 'Hot House World' scenario.",
+      "location_hint": "Strategy section, p.9",
+      "confidence": "high",
+      "notes": "These are sector-specific scenarios constructed by NZGBC and Beca Limited for the property and construction sector. The Climanomics platform also uses SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5 for physical risk assessment.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes by 2100 are described: 1.5°C above pre-industrial levels (Orderly scenario); less than 2°C above pre-industrial levels (Disorderly scenario); greater than 3°C above pre-industrial levels (Hot House World scenario). No temperature overshoot is mentioned.",
+      "evidence": "Our scenario analysis considered a 1.5°C 'Orderly' scenario, a less than 2°C 'Disorderly' scenario, and a greater than 3°C 'Hot House World' scenario. [...] The world successfully limits global warming to 1.5°C above pre-industrial temperatures. [...] succeeding in limiting global warming to below 2°C above pre-industrial levels by 2100. [...] Global warming reaches >3°C above pre-industrial levels by 2100.",
+      "location_hint": "Strategy/Sector Scenarios section, pp.9–12",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Yes. The scenario provider is explicitly named as the New Zealand Green Building Council (NZGBC) and Beca Limited (Beca).",
+      "evidence": "PFI's scenario analysis process involved using the climate scenarios constructed by the New Zealand Green Building Council (NZGBC) and Beca Limited (Beca) for the property and construction sector in 2023. [...] Beca Limited, Climate Scenarios for the Construction and Property Sector, Ngā Horopaki Āhuarangi mō te Rāngai Hanganga me ngā Whare, New Zealand Green Building Council (2023)",
+      "location_hint": "Strategy section, p.9",
+      "confidence": "high",
+      "notes": "S&P Global Climanomics and NIWA are also named as providers of physical risk data/models used alongside the main sector scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "No",
+      "evidence": "The Climanomics platform considers four Shared Socioeconomic Pathways (SSPs) that broadly align with the sector scenarios, including SSP1-2.6 (aligning with a 'Disorderly' scenario), SSP2-4.5 (sitting in between a 'Disorderly' and 'Hot House World' scenario), SSP3-7.0 and SSP5-8.5 (aligning with a 'Hot House World' scenario).",
+      "location_hint": "Strategy section, p.15",
+      "confidence": "high",
+      "notes": "Only SSP identifiers are mentioned; no RCP identifiers appear in the document. The SSPs used (SSP1-2.6, SSP2-4.5, SSP3-7.0, SSP5-8.5) are internally consistent SSP-RCF combinations from the same CMIP6 scenario family, not a pick-and-mix of separate SSP and RCP families.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "PFI's scenario analysis process involved using the climate scenarios constructed by the New Zealand Green Building Council (NZGBC) and Beca Limited (Beca) for the property and construction sector in 2023. [...] When reviewing the sector scenarios, PFI has assessed transition risk in a Hot House World scenario to be higher than anticipated by NZGBC and Beca. PFI has particularly focused on the impacts of extreme physical climate risks (extreme weather events, rainfall and flooding) driving increased demand for climate-resilient buildings among tenants, investors, funders and insurers.",
+      "location_hint": "Strategy section, p.9 (footnote 4)",
+      "confidence": "medium",
+      "notes": "The scenarios were constructed specifically for the New Zealand property and construction sector (industry-level customisation). PFI also adapted the Hot House World scenario by assessing transition risk as higher than the NZGBC/Beca baseline. The document does not use the exact words \"downscaled\" or \"localised\" but the scenarios are clearly sector- and country-specific adaptations.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes",
+      "evidence": "Along with other key stakeholders within the industry, we are pleased to have been involved in overseeing the development of these sector scenarios as part of the Technical Working Group created by NZGBC in 2022.",
+      "location_hint": "Strategy section, p.9",
+      "confidence": "medium",
+      "notes": "PFI participated in a Technical Working Group with other industry stakeholders to oversee the development of the sector scenarios. The document does not use the exact keywords \"participatory\", \"co-creat\", \"deliberat\", or \"co-design\", but the description of multi-stakeholder oversight of scenario development is consistent with co-production.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The document describes three climate scenarios (Orderly, Disorderly, Hot House World) but does not describe a separate baseline or reference scenario against which these are compared. A GHG emissions baseline year (2019) is mentioned for emissions accounting purposes, but this is not a climate scenario baseline.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "S&P Global Climanomics",
+        "NIWA extreme sea level flood maps"
+      ],
+      "evidence": "We have improved our understanding of physical climate risks to PFI-owned properties by assessing the following information: S&P Global Climanomics platform (used to assess a range of climate hazards as described below); and NIWA's extreme sea level flood maps (1%AEP and up to 2m sea-level rise) for Aotearoa and local Council hazard maps. [...] S&P Global Climanomics is a science-backed climate risk analytics platform that measures the financial risk of a range of climate hazards to physical assets.",
+      "location_hint": "Strategy section, p.15",
+      "confidence": "high",
+      "notes": "These are the named analytical platforms/models. The NZGBC/Beca sector scenarios are the primary scenario framework but are not described as a named climate model per se. A NZ consumption-based model (using StatsNZ data) is also mentioned for GHG emissions accounting.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "Increased severity and frequency of weather events (for example, flooding, storms and cyclones) could result in damage or accelerated deterioration of assets and impact the availability of insurance coverage for specific perils. This could lead to increased capital expenditure to upgrade properties to a climate-resilient standard, increased insurance costs, and increased costs to repair damage not covered by insurance. [...] PFI undertook an assessment of the vulnerability of PFI's properties to flood risk using S&P Global's Climanomics platform, which models the potential financial impact from climate-related expenses (e.g., clean up and repair costs) decreased revenue and / or business interruption. According to the Climanomics platform, the MAAL over a short, medium and long term time horizon (2020s through to 2090s) due to pluvial and fluvial flooding is anticipated to range between 0.16 - 0.85%",
+      "location_hint": "Strategy section p.14 (risk table) and Metrics and Targets section p.24",
+      "confidence": "high",
+      "notes": "The document explicitly includes modelled average annual loss (MAAL) estimates from flooding (acute physical risk) and temperature extremes, expressed as a percentage of asset value. Real-world acute events (Cyclone Gabrielle, Auckland floods) are also discussed with reference to actual damage and insurance claims.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon price",
+        "sea level rise",
+        "rainfall/flooding",
+        "electricity prices",
+        "insurance premiums",
+        "energy demand",
+        "land use change/forestry sequestration",
+        "building material costs",
+        "electricity grid decarbonisation",
+        "extreme weather events (storms, cyclones)"
+      ],
+      "evidence": "The shadow price of carbon increases dramatically to align with a 1.5°C trajectory, steadily rising up to $250/tCO2e by 2050 [...] In response to continued high intensity rainfall events, properties in floodplains [...] experience insurance retreat by 2050. The threat of late century sea level rise is being priced into property valuations [...] There is no initial increase in carbon price up to 2030, at which point price rapidly increases to reach $250/tCO2e by 2050 [...] The electricity sector is unprepared for the sudden shift in demand at 2030, which causes a delay in adequate expansion of the grid [...] Increasing frequency and severity of acute weather events, as well as longer term increases in baseline shifts (increasing temperatures and sea level rise)",
+      "location_hint": "Sector Scenarios section, pp.10–12",
+      "confidence": "high",
+      "notes": "Variables are drawn from the narrative scenario descriptions across all three scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "The Climanomics platform considers four Shared Socioeconomic Pathways (SSPs) [...] PFI has also assessed the risk of sea level rise to PFI's properties using NIWA's extreme coastal flood map, which identifies national and regional level flood hazard and exposure trends with rising sea levels [...] NIWA is a nationally recognised Crown Research Institute that provides climate expertise specific to New Zealand.",
+      "location_hint": "Strategy section, p.15",
+      "confidence": "high",
+      "notes": "The NZGBC/Beca sector scenarios are New Zealand-specific (national/local level). The S&P Global Climanomics platform uses global SSP pathways but applies them to specific properties. NIWA's flood maps provide national and regional level data. The scenarios thus operate at both global and regional/local scales.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short term: Present–2030; Medium term: 2031–2050; Long term: 2051–2100. Rationales are provided for each timeframe.",
+      "evidence": "HORIZON | PERIOD | DESCRIPTION: Short term | Present - 2030 | Within PFI's weighted average lease term (WALT) (1-6 years). Medium term | 2031 - 2050 | The period in which PFI anticipates spending major CAPEX at most properties (6-25 years). Long term | 2051 - 2100 | The life of a building (25+ years).",
+      "location_hint": "Strategy section, p.9–10",
+      "confidence": "high",
+      "notes": "Justifications are explicitly tied to PFI's business context: short term aligns with the weighted average lease term; medium term aligns with major CAPEX cycles; long term aligns with the life of a building.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "We consider the sector scenarios to be relevant to PFI, as many entities within the property and construction industry will face the same challenges resulting from climate change. [...] Based on the climate data available in the modelling, S&P Global's experience in real estate, and the ability of the platform to assess climate risks for specific properties, PFI considers this platform to be an appropriate model to estimate the physical risks to PFI's portfolio across a range of climate scenarios and time horizons. [...] NIWA is a nationally recognised Crown Research Institute that provides climate expertise specific to New Zealand. PFI considers this dataset to be an appropriate model to understand which of PFI's properties are located in regions that are at risk of sea level rise inundation.",
+      "location_hint": "Strategy section, pp.9 and 15",
+      "confidence": "high",
+      "notes": "Justifications are provided for each tool/scenario: sector relevance for NZGBC/Beca scenarios; real estate expertise and property-specific capability for Climanomics; New Zealand-specific climate expertise for NIWA.",
+      "verification": null
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "source": "AUCKLAND_INTERNATIONAL_AIRPORT_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 491545,
+      "output_tokens": 6034,
+      "total_tokens": 497579,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 448600,
+        "ephemeral_5m_input_tokens": 42928,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Scenario 1: Orderly (low-emission scenario – orderly and rapid transition)",
+        "Scenario 2: Disorderly (medium-emissions scenario – disorderly and delayed transition)",
+        "Scenario 3: Hothouse (high-emissions scenario – emissions continue to rise unabated)"
+      ],
+      "evidence": "The three scenarios represent an orderly and rapid transition (low-emission scenario), a disorderly and delayed transition (a medium-emissions scenario) and a hothouse world where emissions continue to rise unabated (a high-emissions scenario).",
+      "location_hint": "Scenario analysis section, p.10 (page 64 of Annual Report)",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: ~1.5°C (RCP2.6, Orderly/low-emission scenario), ~2.4°C (RCP4.5, Disorderly/medium-emissions scenario), and ~4.3°C (RCP8.5, Hothouse/high-emissions scenario). No explicit mention of temperature overshoot.",
+      "evidence": "Driving forces Temperature increase: ~4.3°c (RCP8.5) ... Driving forces Temperature increase: ~2.4°c (RCP4.5) ... Driving forces Temperature increase: ~1.5°c (RCP2.6)",
+      "location_hint": "Scenario driving forces table, p.11 (page 65 of Annual Report)",
+      "confidence": "high",
+      "notes": "The endpoint of scenarios is 2110, not 2100, but temperature figures are stated as scenario driving forces without a specific year reference.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "NIWA (National Institute of Water and Atmospheric Research) is named as the provider of Representative Concentration Pathway scenarios. The IPCC is also referenced in the context of RCP scenarios used for flood modelling. Sector-wide scenarios for property and construction, tourism and transport are also referenced but their provider is not explicitly named.",
+      "evidence": "Auckland Airport drew upon the National Institute of Water and Atmospheric Research's Representative Concentration Pathway scenarios... In 2023 Auckland Airport engaged Beca to conduct modelling of flooding and inundation risk using various levels of infrastructure intervention against the Intergovernmental Panel on Climate Change Representative Concentration Pathway (RCP) 2.6, 4.5 and 8.5",
+      "location_hint": "Relevance of scenarios section, p.10 (page 64); footnote p.7 (page 61)",
+      "confidence": "high",
+      "notes": "NIWA is explicitly named as the RCP scenario provider. The IPCC is referenced as the originator of the RCP framework used in Beca's flood modelling.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "No",
+      "evidence": "Auckland Airport drew upon the National Institute of Water and Atmospheric Research's Representative Concentration Pathway scenarios... Temperature increase: ~4.3°c (RCP8.5) ... Temperature increase: ~2.4°c (RCP4.5) ... Temperature increase: ~1.5°c (RCP2.6)",
+      "location_hint": "p.10-11 (pages 64-65 of Annual Report)",
+      "confidence": "high",
+      "notes": "Only RCP identifiers (RCP2.6, RCP4.5, RCP8.5) are used. No SSP identifiers are mentioned anywhere in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "Auckland Airport's scenarios are based on the property and construction, tourism and transport sector-wide scenarios that are deemed applicable as they represent the core parts of Auckland Airport's business, now and into the future. In addition to the sector-wide scenarios, Auckland Airport drew upon the National Institute of Water and Atmospheric Research's Representative Concentration Pathway scenarios, and bespoke modelling work that had been completed to understand the potential physical impacts of climate change on the airport precinct. The inputs for this modelling work were based on the Airport's operations, making the modelling appropriate for the purpose of scenario analysis.",
+      "location_hint": "Relevance of scenarios section, p.10 (page 64 of Annual Report)",
+      "confidence": "high",
+      "notes": "The scenarios are described as adapted from sector-wide scenarios and supplemented with bespoke (site-specific) physical modelling based on the Airport's own operations. The word \"bespoke\" is used explicitly.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "The three scenarios were developed by members of the Sustainability and Strategy teams with input from a subset of the ELT in a workshop format. No external specialists were used for scenario analysis.",
+      "location_hint": "Scenario analysis section, p.10 (page 64 of Annual Report)",
+      "confidence": "high",
+      "notes": "Scenarios were developed internally by staff with ELT input in a workshop. No participatory, co-design, deliberative, or stakeholder co-production language is used. External specialists were explicitly not used.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "Yes — a baseline/unconstrained forecast is referenced for financial quantification of transition risks. The FY23 corporate passenger forecast model is used as the base assumption, representing an unconstrained forecast if the airport was operating at maximum capacity.",
+      "evidence": "Financial impact reflects annualised figure of reduction in the 2050 net profit after tax (NPAT) from retail, car parking, transport licence fees and hotels if an emissions-related levy was introduced to aviation in New Zealand, compared to an unconstrained forecast if the airport was operating at maximum capacity",
+      "location_hint": "Transition risk section, p.15 (page 69 of Annual Report)",
+      "confidence": "medium",
+      "notes": "The document references an \"unconstrained forecast\" as a comparison baseline for financial quantification of transition risks, but does not describe a formal standalone baseline climate scenario. The baseline is a business-as-usual financial forecast rather than a named climate scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "Beca flood modelling (2023)",
+        "NIWA Representative Concentration Pathway scenarios"
+      ],
+      "evidence": "In 2023 Auckland Airport engaged Beca to conduct modelling of flooding and inundation risk using various levels of infrastructure intervention against the Intergovernmental Panel on Climate Change Representative Concentration Pathway (RCP) 2.6, 4.5 and 8.5... Auckland Airport drew upon the National Institute of Water and Atmospheric Research's Representative Concentration Pathway scenarios, and bespoke modelling work that had been completed to understand the potential physical impacts of climate change on the airport precinct.",
+      "location_hint": "Footnote p.7 (page 61); Relevance of scenarios p.10 (page 64)",
+      "confidence": "medium",
+      "notes": "No named IAMs or macroeconomic models (e.g. REMIND, MESSAGE, GCAM) are mentioned. Beca is an engineering consultancy engaged for flood/inundation modelling; the specific model name is not disclosed. NIWA's RCP scenarios are referenced but the underlying climate model is not named.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "Extreme weather events causing business interruption, operational delays and damage to infrastructure... Quantified anticipated financial impact: $0-$75m per event • Cost associated with a significant flooding event with a 100-year Annual Return Interval under RCP 2.6, 4.5 and 8.5 • Financial impacts to terminal, airfield, roading and car parks drawn from experience from the flooding event in January 2023 and extrapolated to flood modelling in 2110",
+      "location_hint": "Physical risk section, p.13 (page 67 of Annual Report)",
+      "confidence": "high",
+      "notes": "The document explicitly quantifies financial damage ($0–$75m per event) from acute physical risks (extreme weather/flooding events), including damage to terminal, airfield, roading and car parks.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "Price of carbon",
+        "Physical risk severity",
+        "Policy action",
+        "Technology development",
+        "Sea level rise"
+      ],
+      "evidence": "Driving forces Temperature increase: ~4.3°c (RCP8.5) Price of carbon: Minimal increase Physical risk severity: High Policy action: Minimal Technology development: Minimal... Considers the impact of sea level rise under each scenario",
+      "location_hint": "Scenario driving forces table, p.11 (page 65); Physical risk section, p.13 (page 67)",
+      "confidence": "high",
+      "notes": "These are the explicitly listed driving forces for each scenario. Sea level rise is also referenced as a variable in the physical risk quantification.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "Auckland Airport uses a combination of national, local and site-specific climate projections and scientific modelling of physical climate hazards to better understand risk to the business... Auckland Airport drew upon the National Institute of Water and Atmospheric Research's Representative Concentration Pathway scenarios, and bespoke modelling work that had been completed to understand the potential physical impacts of climate change on the airport precinct.",
+      "location_hint": "Risk management section, p.7 (page 61); Relevance of scenarios, p.10 (page 64)",
+      "confidence": "high",
+      "notes": "The document explicitly states use of \"national, local and site-specific\" projections, indicating both global/national RCP scenarios (from NIWA/IPCC) and localised/site-specific modelling (Beca flood modelling for the airport precinct).",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short term: Present day – 2035 (aligned with capital planning); Medium term: 2036 – 2050 (aligned with master planning); Long term: 2051 – 2110 (aligned with climate modelling). Rationales are provided for each timeframe.",
+      "evidence": "Auckland Airport uses the following definitions when referring to different planning timeframes: Short term Present day - 2035 Aligned with capital planning; Medium term 2036 - 2050 Aligned with master planning; Long term 2051 - 2110 Aligned with climate modelling",
+      "location_hint": "Climate-related risks and opportunities section, p.12 (page 66 of Annual Report)",
+      "confidence": "high",
+      "notes": "Justification is provided for each timeframe: short term aligns with capital planning, medium term with master planning, and long term with climate modelling. The overall scenario endpoint of 2110 is also justified as \"reflecting a long-term planning timeframe that is aligned with flood modelling.\"",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "Auckland Airport is confident that its climate scenarios are relevant and appropriate for assessing the resilience of our business model and strategy to climate-related risks and opportunities. Auckland Airport's scenarios are based on the property and construction, tourism and transport sector-wide scenarios that are deemed applicable as they represent the core parts of Auckland Airport's business, now and into the future. In addition to the sector-wide scenarios, Auckland Airport drew upon the National Institute of Water and Atmospheric Research's Representative Concentration Pathway scenarios, and bespoke modelling work that had been completed to understand the potential physical impacts of climate change on the airport precinct. The inputs for this modelling work were based on the Airport's operations, making the modelling appropriate for the purpose of scenario analysis.",
+      "location_hint": "Relevance of scenarios section, p.10 (page 64 of Annual Report)",
+      "confidence": "high",
+      "notes": "The justification is that the sector-wide scenarios cover the core parts of Auckland Airport's business (property/construction, tourism, transport), and the bespoke physical modelling is justified because its inputs were based on the Airport's own operations. TCFD guidance is also cited as the framework followed.",
+      "verification": null
+    }
+  ]
+}

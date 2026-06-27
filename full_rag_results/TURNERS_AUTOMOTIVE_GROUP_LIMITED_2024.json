@@ -1,0 +1,171 @@
+{
+  "source": "TURNERS_AUTOMOTIVE_GROUP_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "total_tokens": 865743,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 49866,
+        "cache_read": 808854,
+        "cache_creation": 0
+      },
+      "input_tokens": 858744,
+      "output_tokens": 6999
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "NGFS Orderly (Net Zero by 2050)",
+        "NGFS Disorderly (Delayed Transition, 1.6°C)",
+        "NGFS Hot house (Current Policies Hothouse World, 3°C+)",
+        "IPCC SSP1-1.9 (1.4°C)",
+        "IPCC SSP1-2.6 (1.8°C)",
+        "IPCC SSP5-8.5 (4.4°C)",
+        "NIWA RCP 1.9",
+        "NIWA RCP 2.6",
+        "NIWA RCP 4.5",
+        "NIWA RCP 8.5"
+      ],
+      "evidence": "❖ IPCC SSP 1- 1.9, 1.4 °C ❖ NIWA RCP 1.9 ❖ NGFS – Net Zero by 2050 ... ❖ IPCC SSP 1 – 2.6, 1.8°C ❖ NIWA RCP 2.6, 4.5 ❖ NGFS - Delayed Transition (1.6°C) ... ❖ IPCC SSP 5 – 8.5, 4.4°C ❖ NIWA RCP 8.5 ❖ NGFS - Current Policies Hothouse World – 3 °C+",
+      "location_hint": "Section 3, Strategy, p.6 (page 5 of PDF)",
+      "confidence": "high",
+      "notes": "NGFS scenarios are labelled Orderly, Disorderly, and Hot house. The IPCC SSP and NIWA RCP identifiers are explicitly listed alongside each NGFS scenario. The NGFS Orderly scenario corresponds to Net Zero by 2050; Disorderly to Delayed Transition; Hot house to Current Policies.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "1.4°C (IPCC SSP1-1.9 / NGFS Net Zero by 2050), 1.6°C (NGFS Delayed Transition), 1.8°C (IPCC SSP1-2.6), 4.4°C (IPCC SSP5-8.5), >3°C (NGFS Current Policies Hothouse World). Overshoot of net zero by 2050 target is mentioned for both Disorderly and Hot house scenarios.",
+      "evidence": "IPCC SSP 1- 1.9, 1.4 °C ... NGFS - Delayed Transition (1.6°C) ... IPCC SSP 1 – 2.6, 1.8°C ... IPCC SSP 5 – 8.5, 4.4°C ... NGFS - Current Policies Hothouse World – 3 °C+ ... No additional policies are introduced to curb emissions, and emissions continue to rise. Warming reaching >3°C. ... Slight overshoot of net zero by 2050 target. ... Overshoot of net zero by 2050 target.",
+      "location_hint": "Section 3, Strategy, p.6 (page 5 of PDF)",
+      "confidence": "high",
+      "notes": "Temperature outcomes are expressed as warming levels associated with each scenario. Overshoot language is used for both Disorderly (\"Slight overshoot of net zero by 2050 target\") and Hot house (\"Overshoot of net zero by 2050 target\").",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple providers are explicitly named: IPCC (Intergovernmental Panel on Climate Change), NGFS (Network for Greening the Financial System), and NIWA (National Institute of Water and Atmospheric Research, New Zealand).",
+      "evidence": "determine the global warming scenarios (IPCC and NGFS) and the strategic time horizons against which to test exposure to climate hazards. ... leveraging NIWA's downscaled climate change projections for New Zealand to assess physical impacts and the Network for Greening the Financial System (NGFS) data to assess Transition Risks",
+      "location_hint": "Section 3.3 and 3.4, Strategy, p.5–7",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "❖ IPCC SSP 1- 1.9, 1.4 °C ❖ NIWA RCP 1.9 ❖ NGFS – Net Zero by 2050 ... ❖ IPCC SSP 1 – 2.6, 1.8°C ❖ NIWA RCP 2.6, 4.5 ❖ NGFS - Delayed Transition (1.6°C) ... ❖ IPCC SSP 5 – 8.5, 4.4°C ❖ NIWA RCP 8.5 ❖ NGFS - Current Policies Hothouse World – 3 °C+",
+      "location_hint": "Section 3, Strategy, p.6 (page 5 of PDF)",
+      "confidence": "high",
+      "notes": "The document explicitly lists both SSP identifiers (IPCC SSP1-1.9, SSP1-2.6, SSP5-8.5) and RCP identifiers (NIWA RCP 1.9, RCP 2.6, RCP 4.5, RCP 8.5) within the same scenario framework. SSPs are from IPCC AR6 while RCPs are from an older generation (AR5), making this a cross-generation mix.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "leveraging NIWA's downscaled climate change projections for New Zealand to assess physical impacts ... TAG utilised in-depth sector related scenarios from The Aotearoa Circle Transport Sector Climate Scenarios to provide additional context.",
+      "location_hint": "Section 3.4, Strategy, p.7",
+      "confidence": "high",
+      "notes": "Two forms of localisation/customisation are evident: (1) NIWA's downscaled projections for New Zealand are used for physical risk assessment; (2) sector-specific scenarios from the Aotearoa Circle Transport Sector Climate Scenarios Working Group are used for additional context. The word \"downscaled\" is explicitly used.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "TAG actively participates in the Aotearoa Circle Transport Sector Climate Scenarios Working Group, enabling a wider perspective and insight into industry best practices. Deloitte facilitated an end-to-end scenario analysis and risk assessment process which were conducted through a series of workshops designed to enable Turners to...",
+      "location_hint": "Section 3.3, Strategy, p.5",
+      "confidence": "medium",
+      "notes": "TAG participates in a working group (Aotearoa Circle Transport Sector Climate Scenarios Working Group) which could imply some collaborative input, but the document does not use language such as \"participatory\", \"co-created\", \"co-designed\", \"deliberative\", or \"stakeholder input\" in the context of scenario development. The scenarios themselves are sourced from IPCC, NGFS, and NIWA — established providers — not co-produced by TAG.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No",
+      "evidence": "TAG assessed Transition risks referencing the scenarios provided by the Network for Greening the Financial System (NGFS), which include the Orderly, Disorderly and Hot house scenarios.",
+      "location_hint": "Section 3, Strategy, p.6",
+      "confidence": "medium",
+      "notes": "The document does not describe a separate baseline or reference scenario against which the climate scenarios are compared. The three NGFS scenarios (Orderly, Disorderly, Hot house) are presented as a range of plausible futures without a designated \"business as usual\" or \"no climate policy\" baseline. The Hot house / Current Policies scenario could be interpreted as a de facto baseline, but it is not explicitly labelled as such.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "NIWA downscaled climate change projections",
+        "NGFS Climate Scenarios Database"
+      ],
+      "evidence": "leveraging NIWA's downscaled climate change projections for New Zealand to assess physical impacts and the Network for Greening the Financial System (NGFS) data to assess Transition Risks ... No additional modelling was carried out beyond that reflected in the scenarios relied on above.",
+      "location_hint": "Section 3.4, Strategy, p.7; Section 3.3, p.5",
+      "confidence": "medium",
+      "notes": "No specific named climate models (e.g., GCMs, IAMs) are identified. The document references NIWA's downscaled projections and NGFS scenario data as the data sources, but does not name the underlying models (e.g., REMIND, MESSAGE, etc.). The document explicitly states \"No additional modelling was carried out beyond that reflected in the scenarios relied on above.\"",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "Extreme weather and wind events are expected to disrupt power and communications infrastructure, impacting TAG's ability to operate and generate revenue. Floods and landslips could cause site access impairment and to disrupt transport and logistics routes, which could negatively impact productivity, causing revenue loss. ... Extreme climate hazards could result in damage to Turners premises and vehicles, and result in increases to capital and operational expenditure — mainly due to the costs associated with asset replacement, remediation and upgrades.",
+      "location_hint": "Section 3.4, Key Physical Risks table, p.8",
+      "confidence": "high",
+      "notes": "The document explicitly discusses damage and financial impacts from acute physical events (extreme weather, wind events, floods, landslips). However, these are qualitative descriptions of anticipated impacts rather than quantified loss estimates. The document also references actual FY24 damage: \"Extreme winds in September caused damage to awnings at Turners Auto Retail Wellington Branch, with the costs of damage estimated at $16,000.\"",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "policy ambition/reaction (emissions policy)",
+        "technology change",
+        "carbon dioxide removals",
+        "regional policy variation",
+        "extreme weather events (wind, floods, landslips)",
+        "decarbonisation goals",
+        "resource scarcity"
+      ],
+      "evidence": "Policy ambition 1.4°C / Policy reaction Immediate and smooth / Technology change Fast change / Carbon Dioxide Removals Medium-high use / Regional policy variation Medium variation ... No additional policies are introduced to curb emissions, and emissions continue to rise. Warming reaching >3°C. ... Extreme weather and wind events are expected to disrupt power and communications infrastructure ... Floods and landslips could cause site access impairment",
+      "location_hint": "Section 3, Strategy, p.6 (scenario table) and p.8 (physical risks table)",
+      "confidence": "high",
+      "notes": "The scenario table explicitly lists policy ambition, policy reaction, technology change, carbon dioxide removals, and regional policy variation as scenario dimensions. Physical hazard variables (extreme weather, wind, floods, landslips) are used in the risk assessment. No explicit mention of sea level rise, rainfall, or carbon price as named variables.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "leveraging NIWA's downscaled climate change projections for New Zealand to assess physical impacts and the Network for Greening the Financial System (NGFS) data to assess Transition Risks ... IPCC SSP 1- 1.9, 1.4 °C ... IPCC SSP 5 – 8.5, 4.4°C ... NGFS - Current Policies Hothouse World – 3 °C+",
+      "location_hint": "Section 3.4, Strategy, p.7",
+      "confidence": "high",
+      "notes": "Global scenarios are used for transition risk (NGFS) and physical risk framing (IPCC SSPs), while NIWA's downscaled projections are used for regional/local (New Zealand) physical risk assessment.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short-term: 2024–2030; Medium-term: 2031–2040; Long-term: 2041–2050. Rationale is provided: the timeframes align with the varying operational cycles of TAG's divisions (automotive inventory turnover, insurance/finance contract durations of 3–4 years, and property leases of up to 20 years).",
+      "evidence": "TAG has established climate-related time horizons as follows: short-term (2024-2030), medium-term (2031-2040), and long-term (2041-2050) for its scenario analysis, risk assessment, strategic planning and capital deployment plans. These also align with New Zealand's transport sector dynamics. These timeframes were selected as these align with the varying timeframes our divisions operate within: The automotive division can quickly adapt to market changes due to rapid inventory turnover. Insurance and Finance divisions operate on short cycles, with the typical duration of finance contracts and insurance policies at inception being 3-4 years. TAG business premises (both owned and leased) are typically occupied for terms of up to 20 years.",
+      "location_hint": "Section 3.3, Strategy, p.5",
+      "confidence": "high",
+      "notes": "Explicit justification is provided for the chosen timeframes, linked to the operational cycles of each business division.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "This scenario is required as stipulated by XRB for \"a 1.5 degree Celsius climate related scenario\". TAG considers this to be a more plausible scenario than NGFS – Net Zero, and hence more relevant to ensure a meaningful range for TAG's risk assessment, modelling, and strategy. This upper scenario was selected as NIWA has metrics for NZ. NIWA will transition to SSP3-7.0 TAG is likely to also adopt this in next year's report.",
+      "location_hint": "Section 3, Strategy, p.6 (page 5 of PDF)",
+      "confidence": "high",
+      "notes": "Justification is provided for specific scenario choices: (1) the low-warming scenario is required by XRB regulation; (2) the Disorderly scenario is considered more plausible than NGFS Net Zero; (3) the upper (high-warming) scenario was selected because NIWA has metrics for New Zealand. The document also notes that NIWA will transition to SSP3-7.0 and TAG is likely to adopt this in the next report.",
+      "verification": null
+    }
+  ]
+}

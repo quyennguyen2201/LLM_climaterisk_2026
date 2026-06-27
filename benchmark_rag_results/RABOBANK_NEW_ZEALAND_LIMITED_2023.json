@@ -1,0 +1,185 @@
+{
+  "source": "RABOBANK_NEW_ZEALAND_LIMITED_2023",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "total_tokens": 794395,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "cache_creation": 0,
+        "cache_read": 742720,
+        "ephemeral_5m_input_tokens": 44986
+      },
+      "output_tokens": 6665,
+      "input_tokens": 787730
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly (1.5°C-aligned) – NGFS orderly 'net-zero 2050' / IPCC SSP1-1.9 / CCC 'Tailwinds'",
+        "Disorderly (other-aligned) – NGFS disorderly 'delayed 2°C' / IPCC SSP1-2.6 / CCC 'Headwinds'",
+        "Hot-house world (>3°C-aligned) – NGFS hot-house 'current policies' / IPCC SSP5-8.5 / CCC current policies"
+      ],
+      "evidence": "\"Orderly (1.5⁰C-aligned) ... Disorderly (other-aligned) ... Hot-house world (>3⁰C-aligned) ... Global physical and socioeconomic parameters: IPCC SSP1-1.9 / IPCC SSP1-2.6 / IPCC SSP5-8.5 ... New Zealand physical parameters: eg. NIWA RCP 2.6 / NIWA RCP 2.6 / NIWA RCP 8.5 ... Global transition and energy use: NGFS orderly 'net-zero 2050' scenario / NGFS disorderly 'delayed 2°C' / NGFS hot-house 'current policies' ... New Zealand transition pathways: Climate Change Commission (CCC) 'Tailwinds' / CCC 'Headwinds' / CCC current policies\"",
+      "location_hint": "Architecture of the Core Banking Group's Three Entity-Specific Scenarios, p.34–35",
+      "confidence": "high",
+      "notes": "Three entity-specific scenarios are used, each blending IPCC SSP, NIWA RCP, NGFS, and CCC sub-scenarios.",
+      "verification": 5,
+      "ani_notes": "1.5oC orderly scenario Disorderly Hothouse world"
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes by 2100 are described: ~1.4°C (Orderly/1.5°C-aligned), ~1.8°C (Disorderly), and ~4.4°C (Hot-house world/>3°C-aligned). The document notes that the 1.5°C scenario has a projected temperature of 1.4°C due to the limited number of available IPCC scenarios. No explicit temperature overshoot is described.",
+      "evidence": "\"Approximate warming at 2100: ~1.4°C [Orderly] / ~1.8°C [Disorderly] / ~4.4°C [Hot-house world] ... It should be noted that, due to the limited number of scenarios available and the nature of temperature projections being based on probabilities and ranges, this has led to our 1.5°C scenario having a projected temperature in 2100 of 1.4°C (which is the closest available IPCC scenario to 1.5°C).\"",
+      "location_hint": "Architecture of the Core Banking Group's Three Entity-Specific Scenarios, p.34–35",
+      "confidence": "high",
+      "notes": null,
+      "verification": 5,
+      "ani_notes": "Increase of global temperature by 2100 * 1.4o C * 1.8oC * 4.4oC"
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers are explicitly named: NGFS (Network for Greening the Financial System), IPCC (Intergovernmental Panel on Climate Change), NIWA (National Institute of Water and Atmospheric Research), and CCC (Climate Change Commission / He Pou a Rangi).",
+      "evidence": "\"For physical data, we have used the Intergovernmental Panel on Climate Change (IPCC) Shared Socioeconomic Pathway (SSP) scenarios. For transition data, we have used the Network for Greening the Financial System (NGFS) scenarios.\" and \"New Zealand physical parameters: eg. NIWA RCP 2.6 ... New Zealand transition pathways: Climate Change Commission (CCC) 'Tailwinds'\"",
+      "location_hint": "p.33 (scenario development description) and p.34–35 (scenario architecture table)",
+      "confidence": "high",
+      "notes": null,
+      "verification": 5,
+      "ani_notes": "Physical data; IPCC Shared Socio-Economic Pathway (SSP) Scenarios SSP1-1.9, SSP1-2.6 , SSP5-8.5 Transiiton data: NGFS scenarios  NZ physical prameters: NIWA RCP 2.6, 2.6, 8.5 NZ transition pathways: CCC tailwinds, headwinds and current polciies"
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "\"Global physical and socioeconomic parameters: IPCC SSP1-1.9 / IPCC SSP1-2.6 / IPCC SSP5-8.5 ... New Zealand physical parameters: eg. NIWA RCP 2.6 / NIWA RCP 2.6 / NIWA RCP 8.5\"",
+      "location_hint": "Architecture of the Core Banking Group's Three Entity-Specific Scenarios, p.34–35",
+      "confidence": "high",
+      "notes": "The document explicitly lists both SSP identifiers (IPCC SSP1-1.9, SSP1-2.6, SSP5-8.5) and RCP identifiers (NIWA RCP 2.6, RCP 8.5) within the same scenario architecture table, combining them across global and New Zealand physical parameters.",
+      "verification": 5,
+      "ani_notes": "Yes - they have mixed and picked"
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"Therefore, our own scenarios have been developed, as described below, through blending recognised and coherent scenarios on physical and transition risks together, incorporating relevant datapoints and elements. Narrative detail has then been added based on those datapoints and relevant information for our business.\"",
+      "location_hint": "p.33, Assessing Impacts and Developing Business Resilience Through Climate-Related Scenarios",
+      "confidence": "high",
+      "notes": "The scenarios are described as entity-specific, developed by blending IPCC SSP, NGFS, NIWA, and CCC data with added qualitative narratives tailored to the New Zealand agribusiness context. The document also notes that existing sectoral scenarios (New Zealand Banking Association and Aotearoa Circle's Agriculture Sector Climate Change Scenarios) were considered but rejected as insufficient.",
+      "verification": 5,
+      "ani_notes": "The Core Banking Group has synthesized 3 scenarios Use sectoral scenarios when advisable .Adopt 2 sets of sector scenarios such as NZ banking assoication as well as Aoterora Cirlce's Agriculture Sector Climate Change Scenarios but neither of them provided scenarios that best describes plausible futures for us. Alinged with RaboBank-wide level but develop their own scenarios"
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "\"The scenario development analysis and results involved engagement and governance at a number of levels of the business: Project leads (CSO and Senior Risk Advisor) – led and coordinated work and material creation. Subject matter experts (SMEs) – provided specialist input as required. A steering committee consisting of the Chief Risk Officer, Chief Financial Officer, General Manager Country Banking and project leads – provided direction, input and oversight. Executive committee approvals (via the Risk Management Committee or Leadership Team meetings) – these challenged and provided feedback and recommended approvals to the Board. Board – reviewed, discussed and approved scenario architecture. The Core Banking Group worked with consultancy Deloitte to assist with scenario development and assess the related Climate-Related Risks and Opportunities.\"",
+      "location_hint": "p.38–39, Conducting Scenario Analysis",
+      "confidence": "high",
+      "notes": "Scenario development was internal (with Deloitte as consultant) and involved internal governance levels. No language such as \"participatory\", \"co-creat\", \"deliberat\", \"co-design\", or \"stakeholder input\" from external parties is used in the context of scenario development.",
+      "verification": 1,
+      "ani_notes": "Developed their own since they are agirculture-bank sector (not checked)"
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No",
+      "evidence": "The document describes three scenarios (Orderly, Disorderly, Hot-house world) without designating any of them as a baseline or reference scenario against which the others are compared. The scenarios are described as exploring a \"range of plausible futures.\"",
+      "location_hint": "p.33–35, Assessing Impacts and Developing Business Resilience Through Climate-Related Scenarios",
+      "confidence": "medium",
+      "notes": "No explicit baseline or reference scenario is named. The Hot-house world scenario uses \"current policies\" as its policy assumption, which could be interpreted as a de facto baseline, but the document does not describe it as such.",
+      "verification": 5,
+      "ani_notes": "No mentions of baseline scenarios (Scenario Analysis Details / Appendix, p.58–59 models are listed (Q. check?)."
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "GCAM 5.3+ NGFS World Downscaled",
+        "GCAM 6.0 NGFS",
+        "IPCC WGI Interactive Atlas"
+      ],
+      "evidence": "\"Data sources: Physical: NIWA regional, high-intensity rainfall and sea-level rise projections and IPCC WGI Interactive atlas regional synthesis. Economic: GCAM 5.3+ NGFS World Downscaled and GCAM 6.0 NGFS (GDP only).\"",
+      "location_hint": "Scenario Analysis Details / Appendix, p.58–59",
+      "confidence": "high",
+      "notes": "GCAM (Global Change Analysis Model) is the IAM used for economic/transition data. The IPCC WGI Interactive Atlas is used for physical data. NIWA regional projections are also cited as a data source but are not a model per se.",
+      "verification": 5,
+      "ani_notes": "None (but they are there checked by F.)"
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"Rabobank's heatmaps capture both acute and chronic events... In order to identify these exposures, the Group uses Rabobank-developed heatmaps for acute physical risks (including cyclones, windstorms, riverine flooding, coastal flooding, heavy precipitation (or pluvial flooding), drought, wildfires, extreme heat).\" And in the scenario narratives: \"Degraded ecosystem services, frequent storms and on-farm damage and asset loss result in widespread default and presents liquidity risk, making agriculture a high-risk lending sector.\"",
+      "location_hint": "p.64–65 (Assets Vulnerable to Physical Risks Methodology) and p.38–39 (Hot-house world scenario narrative)",
+      "confidence": "high",
+      "notes": "The analysis explicitly includes acute physical risks (cyclones, floods, wildfires, etc.) in heatmaps and scenario narratives, with damage/loss framed in terms of credit risk and loan defaults. However, the scenario analysis itself is described as qualitative rather than quantitative for financial impact estimation.",
+      "verification": 5,
+      "ani_notes": "None (it is considered checked by F.)"
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "intense rainfall days",
+        "hot days",
+        "frost days",
+        "sea-level rise",
+        "global GHG emissions",
+        "global GDP",
+        "global population",
+        "global oil price",
+        "global agricultural demand",
+        "global CCS use",
+        "global carbon price",
+        "carbon dioxide removal (CDR)",
+        "regional policy variation",
+        "technology change"
+      ],
+      "evidence": "\"Global temperature / Intense rainfall days / Hot days / Frost days / Sea-level rise (with vertical land move) / Global GHG emissions / Global GDP / Global population / Global oil price / Global agricultural demand / Global CCS use / Global carbon price\" (from Scenario Analysis Datapoints tables); and \"CDR / Regional policy variation / Technology change\" (from scenario architecture table)",
+      "location_hint": "Scenario Analysis Datapoints, p.58–59; Architecture of the Core Banking Group's Three Entity-Specific Scenarios, p.34–35",
+      "confidence": "high",
+      "notes": null,
+      "verification": 5,
+      "ani_notes": "-International and national government climate policiies - Inclusion of agircutlure  in carbon pricing - Government investment in infrastruture - Carbon border adjustment mechanisms - Regulation of global financial market on climate risk - Low cost lending incentives to farmers to invest in emission mitigation/climate resilience technologies - Emission pricing capture methane-caused - Social prefernece on decarbonize natural fibre and protein - Weather events - Eco-systems services and water availability - Biodiversity and carbon credit markets - Growing consumer demand for sustainable agricuture products - Commodity prices - Competitive advantages for NZ farmer (higher premiums) - Economic instability (recessions) - Suply chain shocks - ESG requirements on import and exports -Glboal inflations and sprialling food prices - Wealth division - Domination of fewer and larger farming entities - Geopolitical unrest - Lack of consensus on who bears responsbility for climate related damage remediataion and retreat costs - Cllimate migrants"
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"Global physical and socioeconomic parameters: IPCC SSP1-1.9 / IPCC SSP1-2.6 / IPCC SSP5-8.5 ... New Zealand physical parameters: eg. NIWA RCP 2.6 / NIWA RCP 2.6 / NIWA RCP 8.5 ... Data sources: Physical: NIWA regional, high-intensity rainfall and sea-level rise projections and IPCC WGI Interactive atlas regional synthesis. Economic: GCAM 5.3+ NGFS World Downscaled and GCAM 6.0 NGFS (GDP only).\"",
+      "location_hint": "p.34–35 (scenario architecture) and p.58–59 (scenario analysis datapoints)",
+      "confidence": "high",
+      "notes": "The scenarios use both global-level data (IPCC SSPs, NGFS/GCAM) and New Zealand/regional-level data (NIWA regional projections, CCC pathways). The GCAM model is also described as \"NGFS World Downscaled.\"",
+      "verification": 5,
+      "ani_notes": "None (but they are there checked by F. p34)"
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short-term: now–2030; Medium-term: 2030–2050; Long-term: 2050–2100. Rationales are explicitly provided for each timeframe.",
+      "evidence": "\"Short-term: now – 2030 – to align with the existing 5-year horizons in strategic planning, Medium-Term Planning (MTP), Internal Capital Adequacy Assessment Process (ICAAP) and Funding Plan. During 2023, MTP horizon was extended to 2030 for asset growth by sector to align with Sector x Country Plans. Medium-term: 2030–2050 – to reflect the contractual maturity profile of the Core Banking Group's loan book. Long-term: 2050–2100 – to recognise the intergenerational nature of farming and growing in New Zealand, ensure understanding of the longer-term implications of climate impacts and guard against the historical trend of improved science leading to impacts being brought forward.\"",
+      "location_hint": "p.35, Summary of Scenario Time Horizons and Risk Profiles",
+      "confidence": "high",
+      "notes": "All three time horizons are explicitly justified with clear rationales linked to business planning cycles, loan book maturity, and the intergenerational nature of farming.",
+      "verification": 5,
+      "ani_notes": "Short-term: Now-2030  (5 year horizons in strategic planning )  Medium term: 2030-2050 (contratual maturity profile of the Core Bank Group)  Long term: 2050 -2100 (recognize the intergenerational nature of farming and growing in NZ)"
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"In developing our scenarios, the XRB's recommendation to use sectoral scenarios where advisable was considered both for efficiency and to aid comparability. As the only specialised agribusiness-focused bank operating in New Zealand, two sets of sector scenarios were relevant to us – the New Zealand Banking Association as well as Aotearoa Circle's Agriculture Sector Climate Change Scenarios. Neither of these provided us with the scenarios that best described plausible futures for us or in our view challenged our business sufficiently. The Core Banking Group also sought to align our climate scenarios with Rabobank to facilitate better reporting and analysis at a Rabobank-wide level. Therefore, our own scenarios have been developed, as described below, through blending recognised and coherent scenarios on physical and transition risks together, incorporating relevant datapoints and elements.\"",
+      "location_hint": "p.33, Assessing Impacts and Developing Business Resilience Through Climate-Related Scenarios",
+      "confidence": "high",
+      "notes": "The document provides explicit justification for why existing sectoral scenarios were rejected and why the blended IPCC/NGFS/NIWA/CCC approach was chosen, including alignment with Rabobank's global reporting and the need to adequately challenge the business.",
+      "verification": 5,
+      "ani_notes": "The Core Banking Group has synthesized 3 scenarios Use sectoral scenarios when advisable .Adopt 2 sets of sector scenarios such as NZ banking assoication as well as Aoterora Cirlce's Agriculture Sector Climate Change Scenarios but neither of them provided scenarios that best describes plausible futures for us. Alinged with RaboBank-wide level but develop their own scenarios (also p.34 there is a list of rationales for each model F.)"
+    }
+  ]
+}

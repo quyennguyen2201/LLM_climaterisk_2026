@@ -1,0 +1,172 @@
+{
+  "source": "MARLIN_GLOBAL_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1206724,
+      "output_tokens": 7077,
+      "total_tokens": 1213801,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 1138664,
+        "ephemeral_5m_input_tokens": 68036,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Scenario 1: Orderly (1.5°C) — aligned with NGFS Net Zero 2050",
+        "Scenario 2: Too Little Too Late (2°C–2.6°C) — aligned with NGFS Nationally Determined Contributions (NDCs)",
+        "Scenario 3: Hot House World (>3°C) — aligned with NGFS Current Policies"
+      ],
+      "evidence": "\"The following NGFS scenarios were used; Net Zero 2050 'Orderly', National Determined Contributions (NDCs) 'Too Little Too Late', and Current Policies 'Hothouse'.\" and \"Scenario 1: Orderly (1.5°C) ... Scenario 2: Too Little Too Late (2°C - 2.6°C) ... Scenario 3: Hot House World (>3°C)\"",
+      "location_hint": "Section 03 Strategy, p.22–23; Appendix 1, pp.56–65",
+      "confidence": "high",
+      "notes": "The FSC narrative names (Orderly, Too Little Too Late, Hot House World) are the primary scenario labels used, each mapped to a corresponding NGFS scenario. A \"Delayed Transition\" scenario is defined in the Glossary but does not appear to be one of the three scenarios used in the analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes by 2100 are described: (1) Orderly scenario: 1.4°C (min 1, max 1.8) globally by 2100, targeting 1.5°C; (2) Too Little Too Late scenario: 2.7°C (min 2.1, max 3.5) globally by 2100, with the NGFS NDC dataset projecting 2.6°C; (3) Hot House World scenario: 4.4°C globally by 2100 (labelled as >3°C scenario).",
+      "evidence": "\"Globally, average temperature increases reach 1.4°C (min 1, max 1.8) by 2100 (IPCC, 2021b). Limiting the increase in global temperatures to 1.5°C relative to 1850-1900 levels...\" | \"Globally, average temperature increases reach 2.7°C (min 2.1, max 3.5) by 2100 (IPCC, 2021b).\" | \"A leading driver of this physical risk is the increase in global average temperature, which reaches 2.4°C in the medium term, climbing to 4.4°C by 2100 (IPCC, 2021a).\"",
+      "location_hint": "Appendix 1, pp.58–65",
+      "confidence": "high",
+      "notes": "No explicit temperature overshoot language is used, though the Too Little Too Late scenario implies temporary overshoot before stabilisation.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Two scenario providers are explicitly named: (1) the Financial Services Council (FSC) — which developed the FSC Climate Scenario Narratives for the Financial Services Sector via its Scenario Analysis Committee and Working Group; and (2) the Network for Greening the Financial System (NGFS) — whose scenarios underpin the FSC narratives quantitatively.",
+      "evidence": "\"Fisher Funds has adopted the Financial Services Council (FSC) 'FSC Climate Scenario Narratives for the Financial Services Sector'... These narratives were developed by the FSC Scenario Analysis Committee and Working Group, a recognised industry body for New Zealand's funds management and insurance sectors.\" and \"The following NGFS scenarios were used; Net Zero 2050 'Orderly', National Determined Contributions (NDCs) 'Too Little Too Late', and Current Policies 'Hothouse'.\"",
+      "location_hint": "Appendix 1, p.56–57; Section 03 Strategy, p.22",
+      "confidence": "high",
+      "notes": "ISS ESG is also named as the data/analytics provider for quantitative scenario analysis, but is not a scenario developer per se.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "No",
+      "evidence": "\"The following NGFS scenarios were used; Net Zero 2050 'Orderly', National Determined Contributions (NDCs) 'Too Little Too Late', and Current Policies 'Hothouse'.\"",
+      "location_hint": "Section 03 Strategy, p.22; Appendix 1",
+      "confidence": "high",
+      "notes": "The document does not mention SSP or RCP identifiers at all. Only NGFS scenario names are used. There is no evidence of mixing SSP and RCP scenario families.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"Fisher Funds has adopted the Financial Services Council (FSC) 'FSC Climate Scenario Narratives for the Financial Services Sector'... These narratives were developed by the FSC Scenario Analysis Committee and Working Group, a recognised industry body for New Zealand's funds management and insurance sectors.\" and \"Fisher Funds elected the third scenario to be one more aligned with a more realistic New Zealand scenario, with greater exposure to medium-high physical risk and transition risk.\" The FSC narratives themselves incorporate New Zealand-specific data from NIWA, MfE, and CCC alongside global NGFS data.",
+      "location_hint": "Appendix 1, pp.56–57; pp.58–65",
+      "confidence": "medium",
+      "notes": "The scenarios are not described as \"downscaled\" in a technical climate-modelling sense, but the FSC narratives are explicitly adapted for the New Zealand financial services sector context, incorporating NZ-specific data (NIWA, MfE, CCC) alongside global NGFS parameters. Fisher Funds also made a deliberate choice to select a third scenario \"more aligned with a more realistic New Zealand scenario.\" This constitutes adaptation/localisation beyond off-the-shelf use.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "\"These narratives were developed by the FSC Scenario Analysis Committee and Working Group, a recognised industry body for New Zealand's funds management and insurance sectors.\"",
+      "location_hint": "Appendix 1, p.56–57",
+      "confidence": "high",
+      "notes": "The FSC scenarios were developed by an industry working group, but there is no language in the document indicating participatory, co-created, deliberative, or co-designed scenario development involving Fisher Funds or its stakeholders directly. Fisher Funds adopted the FSC narratives after a review.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No explicit baseline or reference scenario is described against which the three climate scenarios are compared. However, the document references a \"base year\" (FY2024) for metrics comparison, and the Hot House World (Current Policies) scenario functions implicitly as a high-end reference point.",
+      "evidence": "\"Base year: The first financial year that a climate-related disclosure relates to. This is a 12-month period against which future metrics can be measured and provides a historic point for comparison.\"",
+      "location_hint": "Glossary, p.75; Appendix 1",
+      "confidence": "medium",
+      "notes": "The \"base year\" is a metrics baseline (FY2024), not a climate scenario baseline. No scenario is explicitly labelled as a \"baseline\" or \"reference\" scenario against which the others are compared.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "ISS ESG proprietary emissions model / Climate Impact Report (CIR)",
+        "NGFS scenarios model (Network for Greening the Financial System)"
+      ],
+      "evidence": "\"The RI Team used the ISS ESG solution that produces the Climate Impact Report (CIR)... The analyses incorporate sectoral and regional emissions pathways, including Network for Greening the Financial System (NGFS). ISS ESG reviews and enhances its methodology as needed...\" and \"ISS ESG's solution was used to calculate the emissions profile of each Portfolio. The ISS ESG solution calculated the emissions profile of each portfolio using the ISS ESG proprietary methodology...\"",
+      "location_hint": "Section 03 Strategy, p.20–21; Appendix 3, p.72–73",
+      "confidence": "high",
+      "notes": "No specific named IAMs (e.g. REMIND, MESSAGE, GCAM) or macroeconomic models are identified. The document refers to ISS ESG's proprietary model and NGFS scenarios, but does not name the underlying IAMs used within NGFS.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"Physical risks: Acute, Chronic — Drought, Flood, Tropical Cyclone, Wildfire, Coastal Flood, Heat Stress... An increase in frequency and severity of weather events may impact business operations and supply chains more broadly.\" and \"Acute physical risk events will result in widespread displacement, reduced productivity due to temporary closures of workplaces and income losses from damage to assets.\" and \"NGFS scenarios share the same socioeconomic pathway, some fiscal components that are not accounting for example, estimated losses to GDP associated with potential acute events (for example, floods and wildfires).\"",
+      "location_hint": "Section 03 Strategy, p.26–27; Appendix 1, p.66–67",
+      "confidence": "high",
+      "notes": "Acute physical risks (floods, wildfires, tropical cyclones, coastal floods, drought, heat stress) are explicitly included in the scenario analysis and risk tables. However, the document also notes a limitation: NGFS scenarios do not fully account for estimated GDP losses from acute events.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon price",
+        "GDP (gross domestic product)",
+        "sea level rise",
+        "precipitation / rainfall",
+        "drought intensity",
+        "renewable energy rates",
+        "emissions pathways (GHG emissions)",
+        "population growth",
+        "technology adoption (EV fleet electrification, renewable electricity)",
+        "policy positions (emissions trading schemes, carbon taxes, NDCs)",
+        "snowfall / snow days",
+        "extreme weather event frequency and severity",
+        "flood risk",
+        "wildfire risk",
+        "storm surges"
+      ],
+      "evidence": "\"These three scenarios outlined below were chosen for being relevant and appropriate to assess the resilience of Fisher Funds investment model and strategy in relation to climate-related risks and opportunities as the underlying variables (for example, carbon prices, gross domestic product (GDP), policy positions) are widely available.\" and \"In 2030 the carbon price in New Zealand will reach NZ$140 per tonne of carbon... The median sea-level rise around New Zealand reaches 0.28m in the medium term... The long term also brings an overall increase in drought intensity... area-average increases of up to 40% [precipitation]...\"",
+      "location_hint": "Appendix 1, pp.56–67",
+      "confidence": "high",
+      "notes": "Variables are drawn from across the three scenario narratives in Appendix 1.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"NGFS models are applicable globally, across asset classes, geographies and GICs sectors our portfolios have exposure to.\" and \"In New Zealand, temperatures have increased, on average, by 1.0°C (min 0.5, max 1.7) by 2050 and 3.0°C (min 2.0, max 4.6) by 2100 (NIWA, 2023).\" and \"The median sea-level rise around New Zealand reaches 0.28m in the medium term, increasing to 0.79m in the long term (MfE, 2017).\"",
+      "location_hint": "Appendix 1, pp.58–67",
+      "confidence": "high",
+      "notes": "The scenarios use global NGFS data as the base, but are supplemented with New Zealand-specific regional data from NIWA, MfE, and CCC for temperature, sea level rise, precipitation, and other variables.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short term: present to 2030; Medium term: present to 2040; Long term: present to 2050. Rationales are provided for each timeframe.",
+      "evidence": "\"Short term: present to 2030 — More or less aligns with short- to medium-term investment time horizons for investors. Aligns with many interim targets of issuing entities. Captures the impact of climate change for investors who may have liquidation events in this timeframe. Medium term: present to 2040 — More or less aligns with short- to medium-term investment horizons for investors. Captures the impact of climate change for investors who may have liquidation events in this timeframe. More likely to capture the impact of policy changes in countries around the world as they aim to set up frameworks to encourage decarbonisation. Long term: present to 2050 — More or less aligns with long-term investment horizons for investors. Captures the impact of climate change for investors who may have liquidation events in this timeframe. Captures the impact of climate change over a long-term horizon where impacts are more likely to be present in the economy.\"",
+      "location_hint": "Appendix 1 — Time Horizons narratives, p.68–69",
+      "confidence": "high",
+      "notes": "The document also notes that the short-term horizon was amended from the FSC's default of 2025 to 2030, and the medium-term from 2030 to 2040, because the IMT determined 2025 was \"too short term in nature, given 2024 was defined as the base year.\" This constitutes an explicit justification for the timeframe choices.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"These three scenarios outlined below were chosen for being relevant and appropriate to assess the resilience of Fisher Funds investment model and strategy in relation to climate-related risks and opportunities as the underlying variables (for example, carbon prices, gross domestic product (GDP), policy positions) are widely available. Having visibility of this transparency allows Fisher Funds to better understand the assumptions.\" and \"NGFS models are applicable globally, across asset classes, geographies and GICs sectors our portfolios have exposure to. These are broadly aligned to the FSC scenario selection and are widely adopted by investment managers in New Zealand and globally. Aotearoa New Zealand Climate Standard (NZ CS 1.13) requires analysis of at a minimum a 1.5 degrees Celsius climate-related scenario and a 3 degrees Celsius or greater climate-related scenario and a third climate-related scenario. Fisher Funds elected the third scenario to be one more aligned with a more realistic New Zealand scenario, with greater exposure to medium-high physical risk and transition risk.\"",
+      "location_hint": "Appendix 1, pp.56–57",
+      "confidence": "high",
+      "notes": "Justifications include: (1) relevance and alignment with Fisher Funds' investment strategy; (2) transparency of underlying variables; (3) global applicability of NGFS models; (4) wide adoption by NZ and global investment managers; (5) regulatory requirement under NZ CS 1.13 to cover 1.5°C and ≥3°C scenarios; and (6) the third scenario chosen to reflect a more realistic NZ context.",
+      "verification": null
+    }
+  ]
+}

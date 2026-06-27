@@ -1,0 +1,169 @@
+{
+  "source": "NZX_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1134218,
+      "output_tokens": 6381,
+      "total_tokens": 1140599,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 1071260,
+        "ephemeral_5m_input_tokens": 62934,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly (1.5°C)",
+        "Too Little Too Late (>2°C)",
+        "Hot House (>3°C)"
+      ],
+      "evidence": "NZX evaluated climate-related risks were under three scenarios: Orderly (global average temperature increase is limited to 1.50°C by 2100), Too Little Too Late (global average temperature increases by over 2°C by 2100), and Hot House (global average temperature increases by over 3°C by 2100).",
+      "location_hint": "Section 3.2, p.136",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes by 2100 are described: (1) Orderly: global average temperature increase limited to 1.5°C (global: +1.4°C, min 1.0, max 1.8 by 2100 per IPCC); (2) Too Little Too Late: global average temperature increases by over 2°C (global: +2.7°C, min 2.1, max 3.5 by 2100 per IPCC); (3) Hot House: global average temperature increases by over 3°C (global: +4.4°C, min 3.3, max 5.7 by 2100 per IPCC).",
+      "evidence": "Orderly: Global: +1.6°C (min 1.2, max 2.0) by 2050, +1.4°C (min 1.0, max 1.8) by 2100 (IPCC). Too Little Too Late: Global: +2.0°C (min 1.6, max 2.5) by 2050, +2.7°C (min 2.1, max 3.5) by 2100 (IPCC). Hot House: Global: +2.4°C (min 1.9, max 3.0) by 2050, +4.4°C (min 3.3, max 5.7) by 2100 (IPCC).",
+      "location_hint": "Scenario assumption tables, pp.137–139",
+      "confidence": "high",
+      "notes": "No temperature overshoot language is used. New Zealand-specific temperature projections from NIWA are also provided alongside global figures.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "The Financial Services Council (FSC) is the primary scenario provider. The scenarios were originally developed by the FSC for the New Zealand financial services sector. Underlying data sources include NGFS (Network for Greening the Financial System), IPCC, NIWA, CCC (Climate Change Commission), IEA, NASA, and MfE.",
+      "evidence": "The scenario analysis process involved adapting the climate-related scenario narratives for the financial services sector in New Zealand developed by the Financial Services Council (FSC). NZX was not involved in the construction of sector-level scenarios but has used them at face value for our scenario analysis.",
+      "location_hint": "Section 3.2, p.136",
+      "confidence": "high",
+      "notes": "The FSC is the named provider of the sector-level scenario narratives. Multiple data providers (NGFS, IPCC, NIWA, CCC, IEA) underpin the scenario assumptions.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "No",
+      "evidence": "NASA. (2023). Projected Sea Level Rise Under Different SSP Scenarios. Retrieved from Sea Level Change: sealevel.nasa.gov/ipcc-ar6-sea-level-projection-tool?type=global. Nazarenko, L. S. (2022). Future Climate Change Under SSP Emission Scenarios With GISS-E2.1.",
+      "location_hint": "References section, p.140",
+      "confidence": "high",
+      "notes": "SSP identifiers are referenced in the bibliography (via NASA and Nazarenko sources) but no RCP identifiers are explicitly listed anywhere in the document. The document does not describe mixing SSP and RCP scenario families in its methodology.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "The scenario analysis process involved adapting the climate-related scenario narratives for the financial services sector in New Zealand developed by the Financial Services Council (FSC). NZX was not involved in the construction of sector-level scenarios but has used them at face value for our scenario analysis. Our Sustainability team then applied the sectoral scenario analysis to our core business lines, such as trading and listing activities... Below is a summary of the three scenario narratives, including additions and changes made by NZX to the FSC scenarios. Our scenario narratives consider the assumptions underlying pathway development over time, including emission pathways, social, technological, economic, environmental and policy assumptions and do not include the assumptions that are less relevant to our sector, such as carbon sequestration from afforestation and nature-based solutions.",
+      "location_hint": "Section 3.2, p.136",
+      "confidence": "high",
+      "notes": "NZX describes \"adapting\" the FSC scenarios and making \"additions and changes\" to them for its own business lines. The FSC scenarios themselves were developed for the New Zealand financial services sector, and NZX further tailored them by applying them to its core business lines and removing assumptions less relevant to its sector.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "No external partners or stakeholders were involved in the scenario analysis process.",
+      "location_hint": "Section 3.2, p.136",
+      "confidence": "high",
+      "notes": "The document explicitly states no external partners or stakeholders were involved. No participatory, co-creation, deliberative, or collaborative development language is used.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No",
+      "evidence": "NZX evaluated climate-related risks were under three scenarios: Orderly (global average temperature increase is limited to 1.50°C by 2100), Too Little Too Late (global average temperature increases by over 2°C by 2100), and Hot House (global average temperature increases by over 3°C by 2100).",
+      "location_hint": "Section 3.2, p.136",
+      "confidence": "high",
+      "notes": "The document describes three climate scenarios but does not designate any of them as a \"baseline\" or \"reference\" scenario against which the others are compared. All three are treated as distinct plausible futures.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "GCAM5.3+",
+        "GISS-E2.1",
+        "IEA Global Energy and Climate Model"
+      ],
+      "evidence": "Global: NGFS Net Zero by 2050 25.9 BtCO2e by 2030, -294.82 MtCO2e by 2050 using GCAM5.3+ (NGFS)... Nazarenko, L. S. (2022). Future Climate Change Under SSP Emission Scenarios With GISS-E2.1. Journal of Advances in Modeling Earth Systems... IEA. (2022). Global Energy and Climate Model.",
+      "location_hint": "Scenario assumption tables pp.137–139; References p.139–140",
+      "confidence": "high",
+      "notes": "GCAM5.3+ is explicitly named in the scenario assumption tables for all three scenarios. GISS-E2.1 and the IEA Global Energy and Climate Model appear in the references section. No modelling was undertaken by NZX itself; these models underpin the source data used.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "Risk Type: Acute. Wildfire. Risk that an extreme weather event leads to unplanned disruption to business operations resulting in adverse operational impact. Workforce displacement away from key office locations of the NZX Group and/or major suppliers. Damage to infrastructure, e.g. office damages due to water levels rise in Wellington. Risk of people unable to access office. Anticipated Financial Impacts: Reduced revenue, Increased costs, Stranded assets. Flood [also listed as an acute physical risk].",
+      "location_hint": "Climate-related risks table, p.143",
+      "confidence": "high",
+      "notes": "The scenario analysis explicitly identifies acute physical risks (wildfire, flood) with anticipated financial impacts including reduced revenue, increased costs, and stranded assets. However, no quantified damage/loss estimates are provided — impacts are described qualitatively.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon price",
+        "net emissions / emission pathways",
+        "GDP",
+        "global population",
+        "renewable electricity percentage",
+        "sea level rise",
+        "rainfall / precipitation patterns",
+        "drought intensity",
+        "snowfall",
+        "renewable energy percentage (primary energy)",
+        "transport electrification rate"
+      ],
+      "evidence": "Orderly (1.50°C) scenario assumptions: Emission pathways (Net emissions), Social (Global population), Technological (Percent of Renewable Electricity of Total Electricity Produced), Economic (GDP), Environmental (Average temperature increase), Policy (Carbon Price)... sea levels rise by 0.28m in the medium term and 0.79m in the long term... precipitation patterns change significantly, drought intensity increases, snowfall decreases.",
+      "location_hint": "Scenario assumption tables, pp.137–139",
+      "confidence": "high",
+      "notes": "Variables are drawn from the structured scenario assumption tables (emission pathways, social, technological, economic, environmental, policy dimensions) and the narrative descriptions of each scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "Environmental Average temperature increase: New Zealand: +0.7°C by 2050 (min 0.2, max 1.3), +0.7°C by 2100 (min 0.4, max 1.3) (National Institute of Water and Atmospheric Research (NIWA)). Global: +1.6°C (min 1.2, max 2.0) by 2050, +1.4°C (min 1.0, max 1.8) by 2100 (IPCC)... NIWA. (2023). Projected regional climate change hazards. Retrieved from: niwa.co.nz/adaptationtoolbox/regionalprojections",
+      "location_hint": "Scenario assumption tables, pp.137–139; References p.140",
+      "confidence": "high",
+      "notes": "Each scenario presents both global-level data (from IPCC, NGFS) and New Zealand-specific/regional data (from NIWA, CCC). NIWA's regional climate change hazard projections are explicitly cited.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short-term: 2024–2025; Medium-term: 2025–2030; Long-term: 2030–2050. Rationale is provided: time horizons are aligned to NZX Group's operational and strategic planning horizons (operational decision-making aligned with short- and medium-term; strategic planning aligned with long-term), and are also consistent with international emissions reductions targets.",
+      "evidence": "We aligned the time horizons through which we undertake the scenario analysis to the NZX Group's operational and strategic planning horizons, whereby operational decision-making is aligned with short- and medium-term horizons and strategic planning is aligned with long-term horizon. These are also consistent with international emissions reductions targets. The endpoint of our scenario analysis is 2050. Time horizons: Short-term (2024 – 2025), Medium-term (2025 – 2030), Long-term (2030 – 2050).",
+      "location_hint": "Section 3.2, p.136",
+      "confidence": "high",
+      "notes": "Justification is explicitly provided for the time horizon choices.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "We selected these three scenarios as we deemed them particularly relevant to the New Zealand context and the financial sector in which we operate, as well as to explore the possible risks we could be exposed to under ambitious transition scenarios that achieve global net-zero. These scenarios are well grounded in science and enable us to align us with the FSC's scenarios, facilitating within-sector comparability.",
+      "location_hint": "Section 3.2, p.136",
+      "confidence": "high",
+      "notes": "NZX provides three explicit reasons for scenario selection: (1) relevance to the New Zealand context and financial sector, (2) exploration of risks under ambitious transition/net-zero scenarios, and (3) scientific grounding and alignment with FSC scenarios for within-sector comparability.",
+      "verification": null
+    }
+  ]
+}

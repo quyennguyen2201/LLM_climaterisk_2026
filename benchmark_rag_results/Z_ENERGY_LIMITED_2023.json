@@ -1,0 +1,183 @@
+{
+  "source": "Z_ENERGY_LIMITED_2023",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "total_tokens": 899875,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "cache_creation": 0,
+        "cache_read": 842937,
+        "ephemeral_5m_input_tokens": 50179
+      },
+      "output_tokens": 6735,
+      "input_tokens": 893140
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Green Road (Net Zero 2050)",
+        "Road Block (Delayed Transition)",
+        "Hothouse"
+      ],
+      "evidence": "The three climate scenarios Z has developed are: Green Road – Net Zero 2050 orderly transition that limits global warming to 1.5°C. Rapid and just transition to a low carbon economy achieved through immediate implementation of stringent climate policies with good cooperation and coordination. Road Block – Delayed, disorderly transition that limits global warming to below 2°C. High regional variation on climate action around the globe. Domestic response is slow until after 2030. Reactive policy drives a more expensive and disorganised shift. Hothouse – Current Policies, 'hothouse' scenario that leads to global warming of over 3°C. Assumes only currently implemented policies are preserved, with a shift in emphasis on markets and technological solutions.",
+      "location_hint": "Strategy section, p.11 and p.12",
+      "confidence": "high",
+      "notes": "These are Z Energy's own internally developed scenarios, drawing on NGFS, IEA, IPCC and CCC archetypes. Earlier analysis also used BusinessNZ Energy Council scenarios 'Kea' and 'Tūī', and IPCC RCP2.6 and RCP4.5.",
+      "verification": 5,
+      "ani_notes": "Green Road (Net Zero 2050 orderly transition that limits global warming to 1.5°C)  Road Block (Delayed, disorderly transition that limits global warming to below 2°C) Hot House (Current policies)"
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: 1.5°C (Green Road), below 2°C (Road Block), and over 3°C (Hothouse). The physical risk assessment also references 1.5°C (RCP 2.6), 2.3°C (RCP 4.5), and 4.5°C (RCP 8.5).",
+      "evidence": "Global temperature outcomes: 1.5°C [Green Road], <2°C [Road Block], >3°C [Hothouse]. Also: \"A regional high-level assessment of the projected changes in climate indicators (sea-level rise, precipitation, wind and drought) was conducted across Z's assets from 2025, 2030 and 2040 under three climate scenarios of warming and associated impacts: 1.5 degrees Celsius (RCP 2.6); 2.3 degrees Celsius (RCP 4.5); and 4.5 degrees Celsius (RCP 8.5).\"",
+      "location_hint": "Scenario architecture table p.12; Physical risk assessment p.7",
+      "confidence": "high",
+      "notes": "No explicit mention of temperature overshoot. The 2.3°C and 4.5°C figures are from the 2022 physical risk assessment using RCP scenarios, not the 2023 scenario analysis.",
+      "verification": 5,
+      "ani_notes": "1.5oC by 2100 2oC by 2100 Over 3oC"
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers are explicitly named: NGFS (Network for Greening the Financial System), IEA (International Energy Agency), IPCC (Intergovernmental Panel on Climate Change), CCC (Climate Change Commission), and NIWA (National Institute of Water and Atmospheric Research). Deloitte was engaged to help select appropriate datasets.",
+      "evidence": "\"Z selected the Network for Greening the Financial System (NGFS) scenarios as the most suitable for drawing on for quantitative analysis... The scenario architecture and narratives were developed internally, drawing on the NGFS narratives for Net Zero 2050, Delayed Transition and Current Policies, and a broader set of climate scenarios produced by the International Energy Agency (IEA), Intergovernmental Panel on Climate Change (IPCC) and the Climate Change Commission (CCC) for qualitative descriptions, population demographics and socio-economic assumptions.\"",
+      "location_hint": "Strategy section, p.12",
+      "confidence": "high",
+      "notes": "The scenario architecture was developed internally by Z, drawing on these external providers. NIWA is also listed as a source for climate change projections for New Zealand in the scenario archetype table.",
+      "verification": 4,
+      "ani_notes": "Combined from the Business Energy Council (BEC) 2060 scenarios (Kea and Tūī), the United Nations Intergovernmental Panel on Climate Change (IPCC) representative concentration pathways (RCP2.6 and RCP4.5), the Climate Change Projections for New Zealand, second edition report from the Ministry for the Environment (MfE). NGFS, IEA , IPCC, CCC Tailwinds, NIWA Climate Change projections for New Zealand"
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "Scenario archetype table lists for each scenario: Green Road: \"IPCC RCP2.6 / SSP1\"; Road Block: \"IPCC RCP4.5 / SSP2\"; Hothouse: \"IPCC RCP8.5 / SSP3\". Also, the physical risk assessment references \"1.5 degrees Celsius (RCP 2.6); 2.3 degrees Celsius (RCP 4.5); and 4.5 degrees Celsius (RCP 8.5)\".",
+      "location_hint": "Scenario architecture table, p.12",
+      "confidence": "high",
+      "notes": "The document explicitly lists both RCP and SSP identifiers together (e.g. \"RCP2.6 / SSP1\"). While these are paired (RCP2.6 with SSP1, RCP4.5 with SSP2, RCP8.5 with SSP3), they are from different IPCC assessment cycles (AR5 RCPs and AR6 SSPs), which constitutes a mix of scenario families.",
+      "verification": 5,
+      "ani_notes": "Yes, they combined from mutliple"
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"The scenario architecture and narratives were developed internally, drawing on the NGFS narratives for Net Zero 2050, Delayed Transition and Current Policies, and a broader set of climate scenarios produced by the International Energy Agency (IEA), Intergovernmental Panel on Climate Change (IPCC) and the Climate Change Commission (CCC) for qualitative descriptions, population demographics and socio-economic assumptions.\" Also: \"The climate scenario analysis was focused on Z's domestic operations.\"",
+      "location_hint": "Strategy section, p.12",
+      "confidence": "high",
+      "notes": "Z developed its own scenario architecture and narratives internally, drawing on multiple international scenarios. The scenarios were tailored to Z's domestic (Aotearoa New Zealand) transport operations context, incorporating NZ-specific policy (NZ ETS, CCC pathways), NIWA regional climate projections, and Statistics NZ population projections. This goes well beyond off-the-shelf use.",
+      "verification": 5,
+      "ani_notes": "Self- developed three new temperature-aligned climate scenarios to assess its climate-related risks and opportunities and to further understand the resilience of its business model and strategy from above."
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "\"Tested and refined climate scenarios through small group interviews and discussions with key internal stakeholders identified in Step 2 and reviewed by ZLT and Z Board.\" Also: \"Z has been an active contributor and member of the Transport Sector Climate Scenarios Working Group in a process facilitated by the Aotearoa Circle. Z has also participated in integration workshops between the transport and energy sector workstreams to understand interdependencies between the sectors.\"",
+      "location_hint": "Strategy section, p.11–12",
+      "confidence": "medium",
+      "notes": "The scenario development involved internal stakeholder engagement and participation in an industry working group (Aotearoa Circle), but the document does not use language such as \"participatory\", \"co-created\", \"co-designed\", or \"deliberative\". The scenarios were developed internally by Z with Deloitte's assistance, not co-produced with external stakeholders.",
+      "verification": 1,
+      "ani_notes": "Yes - co produced with Business Energy Council?"
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "Yes — a baseline is described in the context of population/demographic assumptions, and the \"Hothouse\" (Current Policies) scenario functions as a de facto reference/baseline scenario. Additionally, baseline assumptions for population growth are explicitly noted as consistent across all three scenarios.",
+      "evidence": "\"Baseline assumptions such as population growth and demographic shifts are assumed to be consistent across the three climate scenarios and in accordance with Statistics New Zealand projections, adopting the approach taken by NGFS and IEA.\" The Hothouse scenario is described as: \"Current Policies, 'hothouse' scenario that leads to global warming of over 3°C. Assumes only currently implemented policies are preserved.\"",
+      "location_hint": "Scenario architecture table, p.12; scenario summary p.11",
+      "confidence": "medium",
+      "notes": "The document does not explicitly label a \"baseline scenario\" against which others are compared. However, the Hothouse/Current Policies scenario is structurally equivalent to a reference/baseline scenario (no new policies), and shared baseline assumptions for population are explicitly stated.",
+      "verification": 5,
+      "ani_notes": "Baseline assumptions such as population growth and demographic shifts are assumed to be consistent across the three climate scenarios and in accordance with Statistics New Zealand projections6, adopting the approach taken by NGFS and IEA."
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "NGFS Global Change Assessment Model (GCAM)",
+        "IEA model"
+      ],
+      "evidence": "\"Quantitative fuel demand projections for each scenario were developed through detailed analysis of energy demand for transport data from the NGFS Global Change Assessment Model (GCAM) (AU and NZ) and using the IEA model for comparative purposes.\"",
+      "location_hint": "Scenario architecture section, p.12",
+      "confidence": "high",
+      "notes": "The GCAM is explicitly named. The \"IEA model\" is referenced but not named more specifically. No macroeconomic or damage models (e.g. DICE, NiGEM) are named.",
+      "verification": 5,
+      "ani_notes": "Quantitative fuel demand projections for each scenario were developed through detailed analysis of energy demand for transport data from the NGFS Global Change Assessment Model (GCAM) (AU and NZ) and using the IEA model for comparative purposes."
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"This was followed by a financial impact assessment of potential climate-related physical risks, such as potential damage costs as a result of the main climate indicators applied in the physical risk assessment. The costs of extreme weather across Z's assets was also considered at this point.\" Also: \"Z estimates the collective impact of Cyclone Gabrielle and the Auckland Anniversary Floods to be approximately $7.4 million, with the majority of costs relating to lost revenue, additional shipping costs and the last-minute sale of an import cargo.\"",
+      "location_hint": "Risk Management section p.7; Current climate impacts p.10",
+      "confidence": "high",
+      "notes": "The document includes both a forward-looking financial impact assessment of potential damage costs from acute physical risks (extreme weather, flooding) and a quantified actual financial impact from 2023 extreme weather events (Cyclone Gabrielle and Auckland floods). The financial assessment concluded damage to assets is estimated to be minimal out to 2040.",
+      "verification": 5,
+      "ani_notes": "The costs of extreme weather across Z’s assets was also considered at this point."
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon price",
+        "oil price volatility",
+        "sea-level rise",
+        "precipitation",
+        "wind",
+        "drought",
+        "technology change (EV adoption)",
+        "fuel demand",
+        "customer attitudes and behaviour",
+        "macro-economic factors",
+        "access to finance and insurance",
+        "domestic policy response",
+        "regional variation"
+      ],
+      "evidence": "Scenario architecture table lists: \"Carbon price\", \"Oil price volatility\", \"Technology change\", \"Customer attitudes and behaviour\", \"Macro-economic factors\", \"Access to finance and insurance\", \"Domestic policy response\", \"Regional variation\", \"Severity of physical impact\", \"Severity of transition impacts\". Physical risk assessment: \"sea-level rise, precipitation, wind and drought\".",
+      "location_hint": "Scenario architecture table p.12; Physical risk assessment p.7",
+      "confidence": "high",
+      "notes": "Variables are drawn from both the transition scenario architecture table and the physical risk assessment section.",
+      "verification": 5,
+      "ani_notes": " carbon price; oil price volatility; technology change; customer attitude; macro economic factors; access to finance and insurance"
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"Z selected the Network for Greening the Financial System (NGFS) scenarios as the most suitable for drawing on for quantitative analysis. Key considerations for this selection included the availability of regional- or country-level data for Aotearoa New Zealand...\" Also: \"A regional high-level assessment of the projected changes in climate indicators (sea-level rise, precipitation, wind and drought) was conducted across Z's assets from 2025, 2030 and 2040 under three climate scenarios.\" NIWA Climate Change projections for New Zealand are also listed as a scenario archetype source.",
+      "location_hint": "Strategy section p.12; Risk Management p.7",
+      "confidence": "high",
+      "notes": "The scenarios draw on global models (NGFS/GCAM, IEA, IPCC) but are applied with regional/country-level data for New Zealand, and the physical risk assessment was conducted at a regional level across Z's New Zealand assets using NIWA projections.",
+      "verification": 5,
+      "ani_notes": "Regional variations in scenarios (medium - green road, high for road block and low- hot house world)"
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short-term: 2024–2028; Medium-term: 2029–2035; Long-term: 2036–2050. Rationales are explicitly provided for each timeframe.",
+      "evidence": "Time horizons table: \"Short-term: 2024–2028 – Aligns with current strategic cycle. Medium-term: 2029–2035 – Aligns with Z's enterprise strategic scenario analysis done as part of the development of its strategy. Long-term: 2036–2050 – Aligns with Ampol's target and Aotearoa New Zealand's domestic target under the Climate Change Response Act 2002.\"",
+      "location_hint": "Scenario architecture section, p.12",
+      "confidence": "high",
+      "notes": "All three timeframes have explicit rationales provided. The physical risk assessment used different time periods (2025, 2030, 2040), noted as aligning with Z's 2022 scenario analysis.",
+      "verification": 5,
+      "ani_notes": "Short-term: 2024-2028 (Aligns with current strategic cycle) Medium-term: 2029-2035 (Aligns with Z’s enterprise strategic scenario analysis done as part of the development of its strategy) Long term: 2036-2050 (Aligns with Ampol’s target and Aotearoa New Zealand’s domestic target under the Climate Change Response Act 2002.)"
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"Z selected the Network for Greening the Financial System (NGFS) scenarios as the most suitable for drawing on for quantitative analysis. Key considerations for this selection included the availability of regional- or country-level data for Aotearoa New Zealand, whether the data contained the required temperature pathways to comply with NZ CS 1 and whether the models contained metrics and data relevant to transport energy and fuel volumes.\"",
+      "location_hint": "Strategy section, p.12",
+      "confidence": "high",
+      "notes": "The justification is explicitly provided for the choice of NGFS scenarios. Three specific criteria are stated: (1) availability of regional/country-level NZ data, (2) compliance with NZ CS 1 temperature pathway requirements, and (3) relevance of metrics to transport energy and fuel volumes. Deloitte was engaged to assist with this selection process.",
+      "verification": 5,
+      "ani_notes": "Yes: - Z selected the Network for Greening the Financial System (NGFS) scenarios as the most suitable for drawing on for quantitative analysis."
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "source": "INFRATIL_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1175471,
+      "output_tokens": 7290,
+      "total_tokens": 1182761,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 1109270,
+        "ephemeral_5m_input_tokens": 66177,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Baseline (Transition)",
+        "Organised & Decisive",
+        "Delayed & Disorganised",
+        "Too Little, Too Late",
+        "SSP1-2.6 (Physical Baseline)",
+        "SSP2-4.5",
+        "SSP5-8.5"
+      ],
+      "evidence": "Transition Assessment Scenarios: Baseline, Organised & Decisive, Delayed & Disorganised, Too Little, Too Late. Physical Assessment Scenarios: Baseline (SSP1-2.6), SSP2-4.5, SSP5-8.5.",
+      "location_hint": "Section 02 Strategy, p.13 (summary table); Appendix 1 (p.40) and Appendix 2 (p.41)",
+      "confidence": "high",
+      "notes": "Two parallel sets of scenarios are used: Oxford Economics Transition Assessment Scenarios (4 scenarios) and Jupiter Intelligence Physical Assessment Scenarios (3 SSP scenarios). SSP1-2.6 serves as the physical baseline.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Transition Assessment Scenarios: Baseline = 3.1°C by 2100; Organised & Decisive = 1.5°C by 2100; Delayed & Disorganised = 1.7°C by 2100; Too Little, Too Late = 5.0°C by 2100. Physical Assessment Scenarios: SSP1-2.6 = ~1.8°C by 2100; SSP2-4.5 = ~2.7°C by 2100; SSP5-8.5 = ~4.4°C by 2100.",
+      "evidence": "Transition Assessment Scenarios: Global warming 1.9⁰C 2050; 3.1⁰C 2100 [Baseline]; 1.5⁰C 2050; 1.5⁰C 2100 [Organised & Decisive]; 1.7⁰C 2050; 1.7⁰C 2100 [Delayed & Disorganised]; 2.2⁰C 2050; 5.0⁰C 2100 [Too Little, Too Late]. Physical Assessment Scenarios: SSP1-2.6 Midpoint ~1.8ºC [2100]; SSP2-4.5 Midpoint ~2.7ºC [2100]; SSP5-8.5 Midpoint ~4.4ºC [2100].",
+      "location_hint": "Section 02 Strategy, p.13 (summary table); Appendix 1, p.40",
+      "confidence": "high",
+      "notes": "No explicit mention of temperature overshoot. The Too Little, Too Late scenario reaches 5.0°C by 2100, described as the threshold for mass extinction.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Oxford Economics (for Transition Assessment Scenarios) and Jupiter Intelligence (for Physical Assessment Scenarios). Underlying data sources include NGFS (Network for Greening the Financial System), IEA (International Energy Agency), and IPCC.",
+      "evidence": "\"We have chosen to use climate scenarios developed by Oxford Economics ('the Transition Assessment Scenarios') for our analysis of transition risks and opportunities, and a broadly aligned suite of scenarios underpin the Jupiter Intelligence ('Jupiter') platform that we are using for our analysis of physical climate risks ('the Physical Assessment Scenarios').\"",
+      "location_hint": "Section 02 Strategy, p.13",
+      "confidence": "high",
+      "notes": "Oxford Economics uses NGFS 4th vintage (REMIND-MAgPIE IAM), IEA World Energy Outlook 2023, and IPCC Special Report as underlying data sources. Jupiter Intelligence uses IPCC AR6 and CMIP6.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "No",
+      "evidence": "\"The SSPs build on the Representative Concentration Pathways ('RCPs') used in the previous IPCC AR5 report... Both the Transition Assessment Scenarios and Physical Assessment Scenarios pathways lie within the distribution of IPCC AR6 Shared Socioeconomic Pathways ('SSPs') and the associated warming in degrees Celsius by 2100.\" The physical scenarios are labelled SSP1-2.6, SSP2-4.5, SSP5-8.5 — these are SSP-RCP combined labels from the same IPCC AR6 family. The document also refers to \"SSP-RCP scenarios\" in Appendix 1.",
+      "location_hint": "Section 02 Strategy, p.13; Appendix 1, p.40",
+      "confidence": "medium",
+      "notes": "The document uses SSP-RCP combined labels (e.g. SSP1-2.6, SSP5-8.5) which are internally consistent IPCC AR6 scenario families. RCPs are mentioned only as historical context (IPCC AR5). The Transition Assessment Scenarios reference SSP3-7.0 for the Baseline. No mixing of standalone RCPs with SSPs from different families is described.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"Oxford Economics' Global Climate Service scenario assumptions reflect scientific and economic research from a range of recognised sources as well as its own bespoke analysis.\" Additionally, for the transition analysis: \"we used macroeconomic data extracted from Oxford Economics climate models supplemented by adjustments to other model inputs informed by the risks and opportunities in our qualitative climate transition assessments and the findings of our physical climate risk modelling.\" Also: \"We also made assumptions about company-specific, non-macroeconomic variables that are expected to be impacted by the different climate change scenarios.\"",
+      "location_hint": "Section 02 Strategy, p.13 and p.17",
+      "confidence": "medium",
+      "notes": "The scenarios are not described as \"downscaled\" or \"localised\" per se, but Oxford Economics' scenarios include bespoke analysis, and Infratil further customises inputs for company-specific factors. The Jupiter platform applies global models to specific geolocations at 90mx90m resolution. The customisation is primarily in the application of macroeconomic outputs to company-specific valuation models.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "\"Oversight of the scenario modelling exercise has been provided by Morrison employees and Infratil representatives who sit on the boards of our portfolio companies and other sector experts.\"",
+      "location_hint": "Section 02 Strategy, p.24",
+      "confidence": "medium",
+      "notes": "The document mentions oversight by Morrison employees, Infratil board representatives, and sector experts, but this is internal oversight rather than participatory or co-produced scenario development with external stakeholders. No language such as \"participatory\", \"co-creat\", \"deliberat\", \"co-design\", or \"collaborative development\" is used.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "Yes. Two baseline scenarios are described: (1) For transition analysis, the Oxford Economics \"Baseline\" scenario (equivalent to SSP3-7.0, 1.9°C by 2050 / 3.1°C by 2100, representing current policy trajectory with limited climate action); (2) For physical risk analysis, SSP1-2.6 in 2020 is used as the physical baseline.",
+      "evidence": "\"The Baseline scenario is intended to demonstrate a continuation of the current trajectory in terms of the global response to climate change.\" And: \"In this report, we detail the impacts from climate change observed between a SSP1-2.6 baseline (2020) and Jupiter's 'worst case' SSP5-8.5 scenario (in 2050) as this effectively 'book ends' the scenarios.\"",
+      "location_hint": "Section 02 Strategy, p.25 (transition baseline); p.18 (physical baseline)",
+      "confidence": "high",
+      "notes": "The transition Baseline scenario corresponds to Oxford Economics' \"Baseline\" (SSP3-7.0 nomenclature), while the physical baseline is SSP1-2.6 at 2020. Both are explicitly described as reference points for comparison.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "Oxford Economics Global Economic Model",
+        "Jupiter Intelligence ClimateScore Global platform",
+        "REMIND-MAgPIE (IAM)",
+        "CMIP6 (Coupled Model Intercomparison Project 6)"
+      ],
+      "evidence": "\"The climate scenarios are run on its fully integrated Global Economic Model that provides a rigorous and consistent structure for scenario analysis and forecasting.\" [Oxford Economics]; \"Jupiter Intelligence's ClimateScore Global platform uses climate scenarios and data from the Intergovernmental Panel on Climate Change Sixth Assessment Report ('IPCC AR6') and the most recent Coupled Model Intercomparison Project ('CMIP6').\"; \"REMIND (Regional Model of Investments and Development) MAgPIE (Model of Agricultural Production and its Impacts on the Environment) Integrated Assessment Model (IAM) outputs from the Network for Greening the Financial System (NGFS) 4th vintage (published November 2023)\"",
+      "location_hint": "Section 02 Strategy, p.13; Appendix 2, p.41",
+      "confidence": "high",
+      "notes": "Infratil also uses its own internal portfolio valuation models for the transition analysis, supplemented by Oxford Economics macroeconomic outputs.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"Jupiter has functionality to assess 'annual average loss' (AAL) for some, but not all, perils. It can assess Infratil's portfolio assets/sites that are exposed and vulnerable to flood and wildfire but cannot assess hail and extreme precipitation. AAL can be viewed akin to an annual insurance premium (with no profit margin).\" And: \"Based on the assessment of AAL associated with the At Risk assets under SSP5-8.5, Infratil's reasonable expectation is a proportionate AAL of up to $11 million. In other words, over a short-term 3-year period, Infratil's reasonable expectation is that the aggregate proportionate AAL in the 'worst case' scenario (SSP5-8.5) considered is up to $33 million; out to 2030 up to $66 million and out to 2050 up to $286 million.\"",
+      "location_hint": "Section 02 Strategy, p.17 and p.22",
+      "confidence": "high",
+      "notes": "Acute physical risks explicitly modelled include flood, wildfire, extreme precipitation, and hail. Annual Average Loss (AAL) estimates are provided for flood and wildfire. The document also uses a 1/100-year return period for acute perils.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon price",
+        "GDP growth",
+        "inflation/CPI",
+        "electricity prices",
+        "renewable energy demand",
+        "energy investment",
+        "electrification and electricity supply mix",
+        "energy efficiency",
+        "fossil fuel supply",
+        "carbon capture",
+        "circular economy assumptions",
+        "flood depth",
+        "wildfire probability",
+        "extreme precipitation",
+        "hail",
+        "wind speed",
+        "water stress",
+        "extreme heat days",
+        "extreme cold days",
+        "sea level rise (coastal flooding)",
+        "interest rates",
+        "maintenance capex",
+        "house price index"
+      ],
+      "evidence": "\"This data source is used for the (i) carbon pricing, (ii) electrification and electricity supply mix, and (iii) energy efficiency assumptions in the 'Net Zero' and 'Delayed Transition' scenarios.\" [Appendix 2]; \"Key modelling adjustments: GDP, CPI, Maintenance, Capex, Electricity prices, Renewable energy demand, Development cadence, Development margins, Interest rates, Generation volume\" [p.28]; Physical perils include: \"Extreme Heat, Extreme Cold, Water stress, Wildfire, Flood, Wind, Precipitation, Hail\" [p.19].",
+      "location_hint": "Appendix 2, p.41; Section 02 Strategy, p.19, p.28",
+      "confidence": "high",
+      "notes": "Variables span both the transition scenarios (macroeconomic and policy variables) and physical scenarios (climate perils). Sea level rise is implicitly included via \"coastal flooding (from sea level rise, tides, and storm surge)\" in the flood peril definition on p.19.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"Jupiter was selected by Infratil for its global capability, flexibility, credibility, and high resolution – the software can provide insights down to a 90mx90m grid cell resolution, with each of those points in the model having over 15,000 associated pieces of climate data.\" And: \"Oxford Economics' Global Climate Service scenario assumptions reflect scientific and economic research from a range of recognised sources as well as its own bespoke analysis. The climate scenarios are run on its fully integrated Global Economic Model.\"",
+      "location_hint": "Section 02 Strategy, p.13 and p.18",
+      "confidence": "high",
+      "notes": "The Oxford Economics transition scenarios are global in scope. The Jupiter physical risk platform uses global climate models (IPCC AR6/CMIP6) but applies them at very high local resolution (90mx90m grid cells) to specific asset geolocations, effectively providing both global and local/site-level analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short-term: 0–3 years (2023–2026); Medium-term: 3–10 years (2026–2033); Long-term: 10 years to 2050+. Rationales are explicitly provided for each timeframe.",
+      "evidence": "\"Short-term time horizon is defined as zero to three years (i.e. from 2023 to 2026), this broadly aligns to the budget cycle of Infratil and its businesses. Medium-term time horizon is defined as three to ten years (i.e. from 2026 to 2033). As part of the process of undertaking valuations for each portfolio company, we look to build a detailed financial forecast, typically for at least 10 years... Long-term time horizon is defined 10 years out to 2050, which aligns to our strategic investment horizon – we have owned Manawa Energy since 1994 (29 years) - as well as reflecting the long-term nature of our infrastructure assets, many of which are built to last for decades.\"",
+      "location_hint": "Section 02 Strategy, p.12",
+      "confidence": "high",
+      "notes": "Justifications are explicitly provided: short-term aligns to budget cycle; medium-term aligns to valuation forecast horizon and SBTi targets; long-term aligns to strategic investment horizon and infrastructure asset lifespans. Physical risk modelling uses 2020 as baseline, with analysis out to 2030 and 2050.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"The criteria underlying our choice of climate scenarios (for both the physical and transition components of our analysis) was that they need to be plausible but challenging scenarios from credible sources that are appropriate for a global portfolio. We have also considered the need to choose a range of scenarios that meet the regulatory reporting requirements (NZ CS 1 requires at least three scenarios, including a 1.5°C-aligned and ≥3.0°C scenario).\" For Jupiter specifically: \"Jupiter was selected by Infratil for its global capability, flexibility, credibility, and high resolution.\" And: \"Whilst both Jupiter and Oxford Economics are reputable, sophisticated platforms suitable for our global portfolio...\"",
+      "location_hint": "Section 02 Strategy, p.13–14",
+      "confidence": "high",
+      "notes": "Justifications include: (1) plausibility and challenge of scenarios; (2) credibility of sources; (3) appropriateness for a global portfolio; (4) regulatory compliance (NZ CS 1 requirements); (5) alignment with NZ national adaptation plan; (6) Jupiter's global capability, flexibility, credibility and high resolution; (7) Oxford Economics' integrated Global Economic Model for macroeconomic inputs.",
+      "verification": null
+    }
+  ]
+}

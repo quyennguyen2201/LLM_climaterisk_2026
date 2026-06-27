@@ -1,0 +1,174 @@
+{
+  "source": "FONTERRA_CO-OPERATIVE_GROUP_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 774525,
+      "output_tokens": 7735,
+      "total_tokens": 782260,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 709810,
+        "ephemeral_5m_input_tokens": 64697,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly (Net zero 2050)",
+        "Disorderly (Delayed transition)",
+        "Hothouse (Current policies)"
+      ],
+      "evidence": "Table 4 – Climate-related scenarios: Orderly (Net zero 2050) / Disorderly (Delayed transition) / Hothouse (Current policies). Scenario architecture: The Aotearoa Circle Tū-ā-pae / IPCC SSP1 / NGFS 'Net Zero Emissions' / RCP 1.9/2.6, SPANZ F, CCC Tailwinds; The Aotearoa Circle Tū-ā-hopo / IPCC SSP2 / NGFS 'Delayed Transition' / RCP 4.5, SPANZ B, CCC Headwinds; The Aotearoa Circle Tū-ā-tapape / IPCC SSP5 / NGFS 'Current Policies' / RCP 8.5, SPANZ D, CCC Current Policy",
+      "location_hint": "Table 4, p.132",
+      "confidence": "high",
+      "notes": "Each scenario also has a Māori name from The Aotearoa Circle: Tū-ā-pae (Orderly), Tū-ā-hopo (Disorderly), Tū-ā-tapape (Hothouse).",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Orderly: ~1.5°C by 2050 (with overshoot, expected to return to 1.5°C by 2100); Disorderly: 2°C by 2050; Hothouse: 3°C by 2050 with continued increase thereafter. Temperature overshoot is explicitly mentioned for the Orderly scenario.",
+      "evidence": "\"Due to the limited number of scenarios available and the nature of temperature projections being based on probabilities and ranges, this has led our 1.5°C scenario to have overshoot at 2050 before coming back down to 1.5°C by 2100 (which is the closest available IPCC scenario to 1.5°C).\" Also: \"The Hothouse scenario depicts a world where unchecked emissions and lack of climate policies lead to a rise in global temperatures of 3°C above pre-industrial levels by 2050, and a continued increase thereafter.\"",
+      "location_hint": "Table 4, pp.132–135",
+      "confidence": "high",
+      "notes": "Temperature outcomes are stated relative to 2050, not 2100, except for the Orderly scenario overshoot note which references 2100. The Hothouse scenario implies temperatures continue rising beyond 3°C after 2050.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple providers are explicitly named: The Aotearoa Circle (Agriculture Sector Climate Change Scenarios), IPCC, NGFS (Network for Greening the Financial System), He Pou a Rangi / Climate Change Commission (CCC), Ministry for the Environment (MfE), New Zealand Treasury, and International Energy Agency (IEA).",
+      "evidence": "\"Our climate scenarios use The Aotearoa Circle's Agriculture Sector Climate Change Scenarios as a foundation, which themselves draw on IPCC scenarios.\" Scenario architecture lists: NGFS 'Net Zero Emissions', NGFS 'Delayed Transition', NGFS 'Current Policies'. Data sources include: \"Intergovernmental Panel on Climate Change (IPCC) – RCP 2.6, 4.5, 8.5 from SSP Database\"; \"He Pou a Rangi, Climate Change Commission. (2021). Scenarios dataset for the Commission's 2021 Final Advice (output from ENZ model)\"; \"Ministry for the Environment – (2022). Interim guidance on the use of new sea-level rise projections\"; \"New Zealand Treasury. (2021). CBAx tool user guidance\"; \"International Energy Agency. (2022). Global energy and climate model.\"",
+      "location_hint": "pp.131–135, Table 4",
+      "confidence": "high",
+      "notes": "The primary scenario framework provider is The Aotearoa Circle, with IPCC and NGFS as the underlying global scenario providers. CCC, MfE, NZ Treasury and IEA provide specific data inputs.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "\"Scenario architecture: The Aotearoa Circle Tū-ā-pae / IPCC SSP1 / NGFS 'Net Zero Emissions' / RCP 1.9/2.6, SPANZ F, CCC Tailwinds; The Aotearoa Circle Tū-ā-hopo / IPCC SSP2 / NGFS 'Delayed Transition' / RCP 4.5, SPANZ B, CCC Headwinds; The Aotearoa Circle Tū-ā-tapape / IPCC SSP5 / NGFS 'Current Policies' / RCP 8.5, SPANZ D, CCC Current Policy.\" Data sources: \"Intergovernmental Panel on Climate Change (IPCC) – RCP 2.6, 4.5, 8.5 from SSP Database (Shared Socioeconomic Pathways) Scenario Explorer. SSP – 1,2,5 RCP 2.6, 4.5, 8.5 from SSP Database (Shared Socioeconomic Pathways) Scenario Explorer.\"",
+      "location_hint": "Table 4, pp.132–135",
+      "confidence": "high",
+      "notes": "The document explicitly lists both SSP identifiers (SSP1, SSP2, SSP5) and RCP identifiers (RCP 1.9/2.6, RCP 4.5, RCP 8.5) within the same scenario architecture table. SSP1 is paired with RCP 1.9/2.6, SSP2 with RCP 4.5, and SSP5 with RCP 8.5 — these pairings are broadly consistent with IPCC AR6 scenario families (SSP1-1.9/2.6, SSP2-4.5, SSP5-8.5), so they are not necessarily inconsistent cross-family combinations, but both SSP and RCP identifiers are explicitly listed together.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"In FY23, we worked with PwC to iterate The Aotearoa Circle's Agriculture Sector Climate Change Scenarios to incorporate elements relevant to the New Zealand dairy industry and our global operations and markets, noting that the sector scenarios were domestically focused and not specific to dairy. In FY24 we built on this work without the support of external consultants. Our Sustainability team held workshops with internal sustainability and business unit subject matter experts to iterate the drivers of change initially identified by The Aotearoa Circle in light of changes in the New Zealand context and emerging global macrotrends, so that the scenarios remained plausible for a dairy company of our international reach. Key changes made in FY24, versus the sector scenarios, include: Removing references to He Waka Eke Noa and pricing of agricultural emissions in the short term (no longer plausible due to Government policy). Adding references to climate-related litigation (an emerging risk). Adding details specific to the dairy industry. Adjusting the presentation of the scenarios to make them more accessible to business stakeholders.\"",
+      "location_hint": "p.131",
+      "confidence": "high",
+      "notes": "The scenarios were explicitly adapted/iterated from The Aotearoa Circle's Agriculture Sector Climate Change Scenarios to incorporate New Zealand dairy industry specifics and global operations context.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "\"Except for our engagement with the SAP as set out on page 129, external partners and stakeholders were not involved in the scenario analysis process in FY24.\" \"The process of scenario analysis was standalone in FY24, but nevertheless engaged a wide range of business stakeholders. To explore our strategic resilience to climate change, our Group Strategy team facilitated a workshop with senior leaders from across the value chain to test the Co-op's strategic and business resilience to three climate scenarios.\"",
+      "location_hint": "p.131–132",
+      "confidence": "high",
+      "notes": "Internal workshops with business stakeholders were held, and the Sustainability Advisory Panel (SAP) was engaged, but the document explicitly states external partners and stakeholders were not involved in the scenario analysis process in FY24. This does not meet the threshold of participatory or co-produced scenario development.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No explicit baseline or reference scenario is described against which the three climate scenarios are compared. However, the Hothouse scenario is aligned with a \"Current Policies\" pathway (CCC Current Policy Reference), which could be considered a de facto reference scenario.",
+      "evidence": "\"The Hothouse scenario depicts a world where unchecked emissions and lack of climate policies lead to a rise in global temperatures of 3°C above pre-industrial levels by 2050, and a continued increase thereafter.\" Scenario architecture for Hothouse: \"The Aotearoa Circle Tū-ā-tapape / IPCC SSP5 / NGFS 'Current Policies' / RCP 8.5, SPANZ D, CCC Current Policy\"",
+      "location_hint": "Table 4, p.132",
+      "confidence": "medium",
+      "notes": "No explicit \"baseline\" or \"reference\" scenario is named as such. The Hothouse/Current Policies scenario is the closest to a business-as-usual reference, but the document does not frame it explicitly as a baseline against which the others are compared.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "ENZ model (Climate Change Commission)",
+        "IEA Global energy and climate model",
+        "CBAx tool (NZ Treasury)",
+        "SSP Database (Shared Socioeconomic Pathways) Scenario Explorer",
+        "stochastic models",
+        "LandscapeDNA"
+      ],
+      "evidence": "\"He Pou a Rangi, Climate Change Commission. (2021). Scenarios dataset for the Commission's 2021 Final Advice (output from ENZ model).\" \"International Energy Agency. (2022). Global energy and climate model.\" \"New Zealand Treasury. (2021). CBAx tool user guidance.\" \"Intergovernmental Panel on Climate Change (IPCC) – RCP 2.6, 4.5, 8.5 from SSP Database (Shared Socioeconomic Pathways) Scenario Explorer.\" \"The methods used involved subject matter expert input (predominantly for the transitional risks), stochastic models and statistical analysis.\"",
+      "location_hint": "pp.135, 143",
+      "confidence": "medium",
+      "notes": "No major IAMs (e.g. REMIND, MESSAGE, GCAM) or physical climate models (e.g. CLIMADA) are named. The ENZ model is the Climate Change Commission's energy model. LandscapeDNA is mentioned in the context of water quality modelling for farms, not climate scenario analysis. \"Stochastic models\" are mentioned generically without naming specific models.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"Anticipated impacts have been assessed across animal stress, changing pasture growth, severe events (flooding) and farmer wellbeing, with flooding considered the acute climate hazard with the greatest potential negative impact on milk volumes. A reduction in milk volumes could in turn impact utilisation of manufacturing plants and could ultimately result in plant closures.\" Also: \"These acute climate events are expected to occur with low frequency but high impact. This implies that in most years there can be expected to be no or little impact, but there may be a large impact in some years.\" And: \"Damage or disruption to manufacturing sites caused by extreme weather (eg. flooding bushfire event). Impacts could include unplanned downtime for repairs, capacity issues at unimpacted sites due to redirected milk, and, in the most significant cases over the long term, unmet contracts or customer loss.\"",
+      "location_hint": "Table 5, p.136",
+      "confidence": "high",
+      "notes": "Acute physical risks (flooding, extreme weather events, cyclones) are explicitly discussed with anticipated impacts on milk supply, manufacturing disruption, and supply chain. Cyclone Gabrielle is cited as a real-world example with costs equivalent to approximately 1 cent of earnings per share.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "NZ carbon price",
+        "global population increase",
+        "NZ sea level rise",
+        "NZ extreme rainfall",
+        "NZ extreme heat (extreme heat days)",
+        "NZ emissions (MtCO2e)",
+        "electricity from renewable sources",
+        "global oil price",
+        "NZ native forestry (Mha)",
+        "policy reaction",
+        "technology advancements",
+        "customer/consumer behaviour change",
+        "socio-political instability"
+      ],
+      "evidence": "\"NZ carbon price / For 2050, per tonne: $277 / $369 / $356; NZ sea level rise / For 2050 relative to 2005: 0.20m / 0.22m / 0.32m; NZ extreme rainfall / For 2040 relative to 1990: +15% / +18% / +22%; NZ extreme heat / For 2040 relative to 1990: +15 days / +20 days / +30 days; NZ emissions / For 2050 relative to 2005: 6 MtCO2e / 24 MtCO2e / 40 MtCO2e; Electricity from renewable sources / By 2050: 98% / 96% / 92%; Global oil price/barrel / NZD in 2050: $43 / $89 / $157; NZ native forestry / For 2050 relative to 2020: 0.8Mha / 0.5Mha / 0.2Mha; Global population increase / For 2050 relative to 2020: 7% / 16% / 8%\"",
+      "location_hint": "Table 4 (continued), p.135",
+      "confidence": "high",
+      "notes": "These variables are explicitly quantified in the scenario table. Additional qualitative drivers include policy reaction, technology advancements, customer/consumer behaviour change, and socio-political instability.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"Our climate scenarios use The Aotearoa Circle's Agriculture Sector Climate Change Scenarios as a foundation, which themselves draw on IPCC scenarios.\" Scenario architecture draws on global frameworks (IPCC SSPs, NGFS, RCPs). Physical risk variables are localised to New Zealand: \"NZ sea level rise / For 2050 relative to 2005\"; \"NZ extreme rainfall / For 2040 relative to 1990\"; \"NZ extreme heat / For 2040 relative to 1990\". Data sources include \"Ministry for the Environment – (2022). Interim guidance on the use of new sea-level rise projections, (2018). Climate change projections for New Zealand.\" Also: \"assessment included climate-related risks and opportunities across our footprint and entire value chain, with a focus on physical risks within New Zealand, as opposed to globally given the materiality of our physical exposure in New Zealand.\"",
+      "location_hint": "pp.131–135, 142",
+      "confidence": "high",
+      "notes": "Global scenario frameworks (IPCC, NGFS) are used as the foundation, while physical risk variables are localised to New Zealand using MfE projections. Transition risks are assessed at a global scope.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short-term: 2025–2027 (3-year duration); Medium-term: 2028–2034 (7-year duration); Long-term: 2035–2050 (15-year duration). Rationales are explicitly provided for each timeframe.",
+      "evidence": "\"In FY24, we considered three time horizons when identifying and assessing climate-related risks and opportunities, in our climate scenarios and scenario analysis: Short-term: 2025-2027, in line with the Co-op's budget and business planning cycle (three-year duration); Medium-term: 2028-2034, in line with the ten-year outlook considered in a number of the Co-op's key strategic and financial processes (seven-year duration); Long-term: 2035-2050, extending to the Co-op's ambition to be net zero by 2050 (15-year duration).\"",
+      "location_hint": "Strategy – Time horizons, p.130",
+      "confidence": "high",
+      "notes": "Justifications are explicitly linked to: (1) the Co-op's budget and business planning cycle for short-term; (2) the ten-year outlook in key strategic and financial processes for medium-term; (3) the Co-op's net zero by 2050 ambition for long-term.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"Our climate scenarios use The Aotearoa Circle's Agriculture Sector Climate Change Scenarios as a foundation, which themselves draw on IPCC scenarios. The Orderly and Hothouse scenarios meet the NZ CS requirement to analyse a 1.5°C scenario and a 3°C or greater scenario, and the Disorderly scenario meets the NZ CS requirement for a third climate-related scenario (in this case, temperature rise is limited to 2°C above pre-industrial levels).\" Also: \"In FY23, we worked with PwC to iterate The Aotearoa Circle's Agriculture Sector Climate Change Scenarios to incorporate elements relevant to the New Zealand dairy industry and our global operations and markets, noting that the sector scenarios were domestically focused and not specific to dairy.\"",
+      "location_hint": "p.131",
+      "confidence": "high",
+      "notes": "The justification is twofold: (1) regulatory compliance — the scenarios meet the NZ CS (Aotearoa New Zealand Climate Standards) requirements for a 1.5°C, 3°C+, and third scenario; (2) relevance — The Aotearoa Circle's Agriculture Sector scenarios were chosen as a foundation because they are relevant to the New Zealand agricultural context, then adapted for the dairy industry and global operations.",
+      "verification": null
+    }
+  ]
+}

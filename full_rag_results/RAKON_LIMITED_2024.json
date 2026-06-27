@@ -1,0 +1,170 @@
+{
+  "source": "RAKON_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 930716,
+      "output_tokens": 6751,
+      "total_tokens": 937467,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 879245,
+        "ephemeral_5m_input_tokens": 51447,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Rapid Transition (IPCC SSP1-1.9 + IEA Net Zero Emissions by 2050)",
+        "Status Quo (IPCC SSP2-4.5 + IEA Stated Policies)",
+        "Limited Climate Action (IPCC SSP5-8.5)",
+        "SSP1-2.6 (used in ClimSystems local physical risk analysis for Rakon India)"
+      ],
+      "evidence": "The scenarios are: • Rapid Transition • Status Quo • Limited Climate Action ... Based on the following reference scenarios: IPCC SSP1-1.9 / IPCC SSP2-4.5 / IPCC SSP5-8.5 ... These climatic variables showed changes from the baseline (2005) defined in the IPCC Sixth Assessment Report for the following scenarios: SSP1-2.6 (slightly higher emissions than the Rapid Transition scenario) / SSP2-4.5 (emissions per the Status Quo scenario) / SSP5-8.5 (emissions per the Limited Climate Action scenario)",
+      "location_hint": "Pages 11, 13, 15",
+      "confidence": "high",
+      "notes": "Three main scenarios used for the global-level analysis; SSP1-2.6 is an additional scenario used only in the ClimSystems local physical risk report for Rakon India.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes by 2100 (relative to 1850–1900): 1.5°C (Rapid Transition), 2.7°C (Status Quo; IEA Stated Policies scenario leads to c. 2.4°C), and 4.4°C (Limited Climate Action). No temperature overshoot is mentioned.",
+      "evidence": "Rapid Transition: 1.5°C — \"Rapid transition to a low carbon world, limiting temperature increase to 1.5°C.\" Status Quo: 2.7°C — \"Resulting temperature increase of c. 2.7°C\" (IEA Stated Policies \"leading to a c. 2.4°C temperature increase\"). Limited Climate Action: 4.4°C — \"a resulting temperature increase of more than 4˚C.\" Footnote: \"change in average global temperature by 2100 relative to 1850–1900 (°C)\"",
+      "location_hint": "Page 11 (scenario overview table)",
+      "confidence": "high",
+      "notes": "No mention of temperature overshoot in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple providers are explicitly named: IPCC (Intergovernmental Panel on Climate Change), IEA (International Energy Agency), and GeSI-CDP (as the toolkit provider). ClimSystems is also named as the provider of the local physical risk report.",
+      "evidence": "\"We have undertaken a global level scenario analysis exercise to support our assessment, using the GeSI-CDP Scenario Analysis Toolkit as the underlying tool for our scenario analysis process for three scenarios.\" ... \"The Intergovernmental Panel on Climate Change (IPCC) is a body of the United Nations.\" ... \"The International Energy Agency (IEA) is an autonomous intergovernmental organisation\" ... \"We have started that process by engaging ClimSystems to provide a climate-related physical risk report for Rakon India's manufacturing facility.\"",
+      "location_hint": "Pages 10, 12, 15",
+      "confidence": "high",
+      "notes": "GeSI-CDP provided the scenario analysis toolkit; IPCC and IEA provided the underlying reference scenarios; ClimSystems provided the local physical risk analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "No",
+      "evidence": "\"The IPCC's sixth assessment reporting cycle provided SSP-RCP ('SSPX-Y') scenarios based on the Shared Socio-economic Pathways (SSPs), and partly informed by relevant Representative Concentration Pathways (RCPs) scenarios.\" The scenarios used are IPCC SSP1-1.9, SSP2-4.5, SSP5-8.5, and SSP1-2.6 — all from the same IPCC AR6 SSP-RCP family.",
+      "location_hint": "Pages 11–12",
+      "confidence": "high",
+      "notes": "The document only uses SSP-RCP scenarios from the IPCC AR6 family (SSP1-1.9, SSP2-4.5, SSP5-8.5, SSP1-2.6). No standalone RCP identifiers are used independently from SSPs. The document explains that SSP-RCP scenarios are internally consistent combinations.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"Part of maturing our approach to managing climate-related risks is to include additional consideration of local factors. We have started that process by engaging ClimSystems to provide a climate-related physical risk report for Rakon India's manufacturing facility. The report covers environmental, chronic and acute climatic variables, with some hazards and risks assessed for the current day and others modelled under future climate scenarios.\" Also: \"Expand scenario analysis and the global level assessment of climate change risks & opportunities to include local factors\"",
+      "location_hint": "Pages 4, 15",
+      "confidence": "medium",
+      "notes": "The main global scenarios are used off-the-shelf from IPCC/IEA via the GeSI-CDP toolkit. However, Rakon has begun adapting/localising the analysis for Rakon India's manufacturing facility via ClimSystems, which constitutes a localised/adapted element. The document does not use the word \"customised\" or \"downscaled\" explicitly for the main scenarios, but the ClimSystems work is described as a local adaptation.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "\"Scenario analysis is currently being conducted as a standalone exercise with input from several teams within the business. The Rakon board has noted the scenario narratives and outputs. The scenario analysis project team reports to the General Counsel and Company Secretary. We intend to increase engagement with internal stakeholders in future as we continue to build Rakon's capability in this area.\"",
+      "location_hint": "Page 10",
+      "confidence": "high",
+      "notes": "No language of participatory, co-created, deliberative, co-designed, or collaborative scenario development with external stakeholders is present. The document explicitly notes it is a standalone exercise and that broader stakeholder engagement is a future aspiration.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "Yes — a baseline of 2005 is referenced in the ClimSystems local physical risk analysis for Rakon India, defined in the IPCC Sixth Assessment Report.",
+      "evidence": "\"These climatic variables showed changes from the baseline (2005) defined in the IPCC Sixth Assessment Report for the following scenarios and time horizons: SSP1-2.6 / SSP2-4.5 / SSP5-8.5\"",
+      "location_hint": "Page 15",
+      "confidence": "medium",
+      "notes": "The baseline is only mentioned in the context of the ClimSystems local physical risk report for Rakon India. No separate baseline or \"business-as-usual\" scenario is described for the main global scenario analysis. The three main scenarios (Rapid Transition, Status Quo, Limited Climate Action) are compared against each other rather than against an explicit baseline.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "GeSI-CDP Scenario Analysis Toolkit",
+        "ClimSystems (climate risk management/physical risk modelling)"
+      ],
+      "evidence": "\"We have undertaken a global level scenario analysis exercise to support our assessment, using the GeSI-CDP Scenario Analysis Toolkit as the underlying tool for our scenario analysis process for three scenarios.\" ... \"We have started that process by engaging ClimSystems to provide a climate-related physical risk report for Rakon India's manufacturing facility. The report covers environmental, chronic and acute climatic variables, with some hazards and risks assessed for the current day and others modelled under future climate scenarios.\"",
+      "location_hint": "Pages 10, 15",
+      "confidence": "high",
+      "notes": "No specific IAMs (e.g., REMIND, MESSAGE, GCAM) or macroeconomic models (e.g., NiGEM) are named. The GeSI-CDP toolkit and ClimSystems are the named tools/models. IPCC and IEA are reference scenario sources, not models per se.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"The output from the ClimSystems report identified some physical risks for Rakon India (both acute and chronic) associated with climate driven events, such as high rainfall events and water scarcity, that may have significant impacts in future for some scenarios.\" Also: \"The report covers environmental, chronic and acute climatic variables, with some hazards and risks assessed for the current day and others modelled under future climate scenarios.\"",
+      "location_hint": "Page 15",
+      "confidence": "medium",
+      "notes": "Acute physical risks are identified and discussed (high rainfall events, extreme weather), but quantified financial damage/loss estimates are not provided. The document states: \"We are not currently in a position to make reasonable estimates of associated anticipated financial impacts.\" The analysis is qualitative rather than quantitative for damage/loss.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon price",
+        "emissions levels (GtCO2e)",
+        "energy demand",
+        "energy mix (low emissions electricity generation share)",
+        "forestry and afforestation",
+        "technology investment (solar PV and wind capacity)",
+        "global population",
+        "GDP/economic growth",
+        "high rainfall events",
+        "water scarcity",
+        "sea level rise",
+        "extreme weather events"
+      ],
+      "evidence": "\"Key Scenario Metrics: Carbon Price ... Energy demand ... Energy mix ... Forestry and Afforestation ... Technology investment\" (Appendix 1). \"physical risks for Rakon India (both acute and chronic) associated with climate driven events, such as high rainfall events and water scarcity\" (p.15). \"rising sea levels beyond the long term\" (p.29). \"Global emissions decline to around 22 GtCO₂e per annum by 2030\" / \"Global population: 8.0 billion 2030\" / \"World GDP assumed to grow at rate of c. 3.2% between 2030 & 2050\"",
+      "location_hint": "Pages 15, 26–28, 29",
+      "confidence": "high",
+      "notes": "Variables are drawn from Appendix 1 (scenario parameters and assumptions) and the scenario narratives in Appendix 2.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"We have undertaken a global level scenario analysis exercise to support our assessment.\" ... \"Part of maturing our approach to managing climate-related risks is to include additional consideration of local factors. We have started that process by engaging ClimSystems to provide a climate-related physical risk report for Rakon India's manufacturing facility.\" ... \"Expand scenario analysis and the global level assessment of climate change risks & opportunities to include local factors\"",
+      "location_hint": "Pages 10, 15",
+      "confidence": "high",
+      "notes": "The primary scenario analysis is global. A local/facility-level physical risk analysis has been conducted for Rakon India via ClimSystems, making the overall approach \"both\" global and regional/local.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short term: 1–3 years (approx. 2025); Medium term: 5–10 years (approx. 2030); Long term: >30 years (approx. 2050+). Rationales are explicitly provided for each timeframe.",
+      "evidence": "\"Short term: 1-3 years / Approx. year 2025 / Rationale: Aligns with Rakon's 3-year business planning horizon for strategy purposes. Medium term: 5-10 years / Approx. year 2030 / Rationale: Aligns with interim international emissions reduction targets / Aligns with Rakon's current capital expenditure time horizon of up to five years. Long term: >30 years / Approx. year 2050+ / Rationale: Aligns with international emissions reduction targets.\"",
+      "location_hint": "Page 12 (time horizons table)",
+      "confidence": "high",
+      "notes": "Rationales are explicitly stated for all three timeframes. The document also notes that physical impacts beyond 2050 are considered for higher emissions scenarios, with ClimSystems modelling extending to 2070.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"Key reasons for selecting the toolkit were: • CDP is a well-established and respected provider in the sustainability arena and has partnered with GeSI to deliver this toolkit for the specific purpose of enabling entities like Rakon to develop scenario analysis; and • Purchase of the scenario analysis toolkit enabled Rakon to access climate risks and opportunities disclosed by Rakon's global peers at sector level.\" ... \"Key reasons for selecting these reference climate scenarios for use by Rakon were: • reference sources for the scenarios are internationally recognised and widely used for this purpose; • as a Climate Reporting Entity with a global footprint, it is appropriate for Rakon to use scenarios that have international relevance and coverage; • the selected scenarios and associated temperature increases meet the XRB's requirements for scenarios as set out in NZ CS1, i.e., at a minimum, a 1.5 degrees Celsius climate-related scenario, a 3 degrees Celsius or greater climate-related scenario, and a third climate-related scenario; and • the selected scenarios have time horizons that cover the time horizons chosen by Rakon.\"",
+      "location_hint": "Pages 10, 12",
+      "confidence": "high",
+      "notes": "Justification is provided both for the toolkit choice (GeSI-CDP) and for the reference scenario choice (IPCC/IEA SSP scenarios).",
+      "verification": null
+    }
+  ]
+}

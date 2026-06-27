@@ -1,0 +1,169 @@
+{
+  "source": "ARGOSY_PROPERTY_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 626131,
+      "output_tokens": 6279,
+      "total_tokens": 632410,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 588706,
+        "ephemeral_5m_input_tokens": 37403,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Scenario One - Orderly",
+        "Scenario Two - Disorderly",
+        "Scenario Three - Hot House World"
+      ],
+      "evidence": "Argosy's three climate scenarios (\"Orderly\", \"Disorderly\" and \"Hot House World\") are summarised on pages 8 to 10. [...] Scenario One - Orderly [...] This scenario aligns with external scenarios: NGFS 'Net Zero 2050', IPCC SSP 1-1.9, IEA 'Net Zero Emissions', CCC 'Tailwinds', IPCC RCP 2.6 [...] Scenario Two - Disorderly [...] This scenario aligns with external scenarios: NGFS 'Delayed Transition', IPCC SSP 1-2.6, IEA 'Sustainable Development', CCC 'Headwinds', IPCC RCP 2.6 [...] Scenario Three - Hot House World [...] This scenario aligns with external scenarios: NGFS 'Current Policies', IPCC SSP 3-7.0, IEA 'Stated Policies', CCC 'Current Policies', IPCC RCP 8.5",
+      "location_hint": "Pages 7–10",
+      "confidence": "high",
+      "notes": "Each scenario is also aligned with multiple external reference scenarios from NGFS, IPCC, IEA, and CCC.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: 1.5°C (Scenario 1 - Orderly), <2.0°C (Scenario 2 - Disorderly), and >3.0°C (Scenario 3 - Hot House World), all by 2100. No temperature overshoot is mentioned.",
+      "evidence": "Scenario One: \"Global warming is limited to 1.5°C by 2100.\" Scenario Two: \"Atmospheric warming is limited to <2°C by 2100.\" Scenario Three: \"Atmospheric warming reaches >3°C by 2100.\"",
+      "location_hint": "Pages 7–9",
+      "confidence": "high",
+      "notes": "No mention of temperature overshoot in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Beca Limited (for the New Zealand Green Building Council). The scenarios are based on the \"Climate Scenarios for the Construction and Property Sector Ngā Horopaki Āhuarangi mō te Rāngai Hanganga me ngā Whare\", developed by Beca Limited for the New Zealand Green Building Council (issued in 2023). External reference scenarios are also cited from NGFS, IPCC, IEA, and CCC.",
+      "evidence": "The scenario analysis described in this report is based on the Climate Scenarios for the Construction and Property Sector Ngā Horopaki Āhuarangi mō te Rāngai Hanganga me ngā Whare, developed by Beca Limited for the New Zealand Green Building Council (issued in 2023).",
+      "location_hint": "Page 6",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "Scenario One aligns with: NGFS 'Net Zero 2050', IPCC SSP 1-1.9, IEA 'Net Zero Emissions', CCC 'Tailwinds', IPCC RCP 2.6. Scenario Two aligns with: NGFS 'Delayed Transition', IPCC SSP 1-2.6, IEA 'Sustainable Development', CCC 'Headwinds', IPCC RCP 2.6. Scenario Three aligns with: NGFS 'Current Policies', IPCC SSP 3-7.0, IEA 'Stated Policies', CCC 'Current Policies', IPCC RCP 8.5. The modelled AAD under RCP 2.6 corresponding to Scenario 1, RCP 4.5 corresponding to Scenario 2 and RCP 8.5 corresponding to Scenario 3.",
+      "location_hint": "Pages 7–10",
+      "confidence": "high",
+      "notes": "Both SSP and RCP identifiers are explicitly listed. Notably, Scenario 2 is aligned with IPCC SSP 1-2.6 but the physical risk modelling uses RCP 4.5 (not RCP 2.6), indicating a mix of scenario families. Scenario 1 uses SSP 1-1.9 and RCP 2.6; Scenario 3 uses SSP 3-7.0 and RCP 8.5 — these are not from the same internally consistent scenario family.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "The industry scenarios have each been adapted to better reflect Argosy's specific circumstances, while ensuring that they remain plausible and yet challenging.",
+      "location_hint": "Page 6",
+      "confidence": "high",
+      "notes": "The word \"adapted\" is explicitly used. The base scenarios were developed by Beca Limited for the NZ Green Building Council and then adapted by Argosy for its specific circumstances.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes",
+      "evidence": "Argosy, along with industry peers, contributed to the development of these scenarios.",
+      "location_hint": "Page 6",
+      "confidence": "medium",
+      "notes": "The document does not use the exact terms \"participatory\", \"co-created\", \"co-design\" or \"deliberative\", but explicitly states that Argosy and industry peers contributed to the development of the base scenarios (developed by Beca Limited for the NZ Green Building Council). This implies a form of collaborative/participatory development.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "No explicit baseline or reference scenario is described against which the three climate scenarios are compared. The document describes three plausible and challenging scenarios but does not define a \"business as usual\" or reference baseline scenario for comparison purposes.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "KatRisk SpatialKat",
+        "Moody's RMS Climate on Demand"
+      ],
+      "evidence": "Argosy has assessed financial impacts to its portfolio arising from the physical risks of climate change based on outputs from loss modelling carried out using KatRisk SpatialKat for flood and cyclone risks and Moody's RMS Climate on Demand for heat stress, sea level rise, water stress and wild fire risks.",
+      "location_hint": "Page 10",
+      "confidence": "high",
+      "notes": "These are catastrophe/physical risk models used for loss modelling. No integrated assessment models (IAMs) or macroeconomic models are named.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "The modelling covers flood, cyclone, wildfire, sea level rise, heat stress and water stress [...] The results are summarised in the three charts set out below showing modelled AAD under RCP 2.6 corresponding to Scenario 1, RCP 4.5 corresponding to Scenario 2 and RCP 8.5 corresponding to Scenario 3. The modelled AAD estimates vary between scenarios and the highest modelled AAD estimate is $925,000 per year (in respect of Scenario 3 in the year 2100).",
+      "location_hint": "Page 10",
+      "confidence": "high",
+      "notes": "Average Annual Damage (AAD) estimates are provided for floods, cyclone wind, sea level rise, and heat stress across all three scenarios and time periods (2020, 2030, 2050, 2100). Flooding, cyclones, and wildfires are explicitly identified as acute physical risks.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon price",
+        "sea level rise",
+        "rainfall/flood frequency",
+        "extreme weather event frequency and severity",
+        "cyclone wind",
+        "heat stress",
+        "water stress",
+        "wildfire",
+        "energy efficiency regulations",
+        "insurance premiums/retreat",
+        "electricity prices",
+        "construction costs/material prices"
+      ],
+      "evidence": "Scenario One: \"steadily increase the price of carbon to $250/tCO2e by 2050\" [...] \"Greater frequency of high intensity rainfall affects properties in floodplains\" [...] \"The long-term effects of baked in sea-level rise adversely affect coastal properties.\" Scenario Two: \"The carbon price rapidly increases after 2030 and reaches $250/tCO2e by 2050.\" [...] \"supply constraints, frequent blackouts, and fluctuating electricity prices.\" Scenario Three: \"the carbon price does not increase past $35/tCO2e to 2050.\" [...] \"The modelling covers flood, cyclone, wildfire, sea level rise, heat stress and water stress.\"",
+      "location_hint": "Pages 7–10",
+      "confidence": "high",
+      "notes": "Multiple non-temperature variables are used across the narrative scenarios and the physical risk modelling.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "The scenario analysis described in this report is based on the Climate Scenarios for the Construction and Property Sector Ngā Horopaki Āhuarangi mō te Rāngai Hanganga me ngā Whare, developed by Beca Limited for the New Zealand Green Building Council (issued in 2023). [...] The industry scenarios have each been adapted to better reflect Argosy's specific circumstances [...] Argosy has assessed financial impacts to its portfolio arising from the physical risks of climate change based on outputs from loss modelling carried out using KatRisk SpatialKat for flood and cyclone risks and Moody's RMS Climate on Demand for heat stress, sea level rise, water stress and wild fire risks.",
+      "location_hint": "Pages 6, 10",
+      "confidence": "medium",
+      "notes": "The scenarios reference global temperature outcomes and global external scenarios (NGFS, IPCC), but are also adapted for New Zealand's construction and property sector context, and the physical risk modelling is applied at the portfolio/property level. The document does not explicitly use the word \"downscaled\" but the scenarios are clearly applied at a local/industry level.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short term: 2025–2030; Medium term: 2030–2050; Long term: 2050–2100. Justification is provided: these timeframes are considered appropriate because they reflect the long-lived nature of both climate-related risks and opportunities and Argosy's property assets.",
+      "evidence": "Argosy defines short, medium and long term as follows: Short term: 2025 – 2030; Medium term: 2030 – 2050; Long term: 2050 – 2100. These time-frames differ from Argosy's conventional operational and strategic, budgeting and planning time horizons. However, they are considered appropriate as they reflect the long-lived nature of both climate-related risks and opportunities and Argosy's property assets. The identification of risks over longer time frames complements strategic, budgeting and planning time horizons by providing an opportunity to consider and address longer term climate-related risks and opportunities during internal capital deployment and funding decision making processes.",
+      "location_hint": "Page 6",
+      "confidence": "high",
+      "notes": "Justification is explicitly provided for why these timeframes were chosen.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes — partial justification is provided. The scenarios were chosen because they are based on industry-specific scenarios developed for the NZ construction and property sector, mandated by NZ CS 1, and because they are \"plausible and challenging\" scenarios that highlight climate risks. No explicit justification is provided for the choice of KatRisk SpatialKat or Moody's RMS Climate on Demand models.",
+      "evidence": "NZ CS 1 mandates scenario analysis based on three different climate change scenarios, each based on a set of plausible but challenging assumptions about the future. [...] The scenario analysis described in this report is based on the Climate Scenarios for the Construction and Property Sector Ngā Horopaki Āhuarangi mō te Rāngai Hanganga me ngā Whare, developed by Beca Limited for the New Zealand Green Building Council (issued in 2023). Argosy, along with industry peers, contributed to the development of these scenarios. The industry scenarios have each been adapted to better reflect Argosy's specific circumstances, while ensuring that they remain plausible and yet challenging.",
+      "location_hint": "Pages 2, 6",
+      "confidence": "medium",
+      "notes": "The justification for using these scenarios is primarily regulatory (mandated by NZ CS 1) and practical (industry-specific scenarios developed for the NZ construction and property sector). No explicit justification is given for why the specific physical risk models (KatRisk SpatialKat, Moody's RMS) were selected.",
+      "verification": null
+    }
+  ]
+}

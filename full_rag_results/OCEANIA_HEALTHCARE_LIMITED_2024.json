@@ -1,0 +1,168 @@
+{
+  "source": "OCEANIA_HEALTHCARE_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1011787,
+      "output_tokens": 7069,
+      "total_tokens": 1018856,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 955249,
+        "ephemeral_5m_input_tokens": 56514,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly (NGFS Net Zero 2050 / IPCC SSP1-1.9 / RCP2.6)",
+        "Disorderly (NGFS Delayed Transition / IPCC SSP1-2.6 / RCP4.5)",
+        "Hothouse world (NGFS Current Policies / IPCC SSP5-8.5 / RCP8.5)"
+      ],
+      "evidence": "Scenario name: Orderly | Disorderly | Hothouse world. Scenario archetype: NGFS Net Zero 2050 / IPCC SSP1-1.9 / RCP2.6 | NGFS Delayed Transition / IPCC SSP1-2.6 / RCP4.5 | NGFS Current Policies / IPCC SSP5-8.5 / RCP8.5",
+      "location_hint": "Page 15, Overview of Oceania's Climate Scenarios table",
+      "confidence": "high",
+      "notes": "Each scenario maps to both an NGFS archetype and IPCC SSP/RCP identifiers. Note 2 clarifies \"Oceania used SSP1/RCP1.9 narrative for transition risk testing\" for the Orderly scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: <1.5°C (Orderly), ~2°C (Disorderly), and >3°C (Hothouse world). The <1.5°C and ~2°C outcomes are referenced to warming above pre-industrial levels by 2100.",
+      "evidence": "Global temperature outcomes: <1.5°C [Orderly] | ~2°C [Disorderly] | >3°C [Hothouse world]. Note RCP2.6 formed the lower bound of the physical risk assessment and hence is associated with an Orderly scenario insofar as RCP2.6 is associated with a ~1.5°C warming above pre-industrial levels, by 2100. Our Disorderly scenario describes a hypothetical world where we succeed in limiting warming to approximately 2°C.",
+      "location_hint": "Page 15, scenario architecture table and footnotes",
+      "confidence": "high",
+      "notes": "No temperature overshoot language is used. The >3°C outcome for Hothouse world is not explicitly tied to a specific year in the table, but the footnote references 2100 for the other scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple providers are explicitly named: NGFS (Network for Greening the Financial System), IPCC (Intergovernmental Panel on Climate Change), NZGBC (New Zealand Green Building Council) via the Construction and Property Sector Scenarios (facilitated by Beca), and Tonkin+Taylor (facilitator of the Climate Scenarios for the Healthcare Sector).",
+      "evidence": "The Construction and Property Sector Scenarios aligned with the Network for Greening the Financial System (NGFS) archetypes of Orderly, Disorderly and Hothouse World. [...] Oceania participated as a member of the Technical Working Group in the development of climate scenarios on behalf of the construction and property sector coordinated by the New Zealand Green Business Council (NZGBC) and facilitated by Beca, in 2022-2023. [...] Oceania also participated as a member of the Technical Working Group in the development of climate scenarios on behalf of the healthcare sector, which were facilitated by Tonkin+Taylor (Climate Scenarios for the Healthcare Sector).",
+      "location_hint": "Pages 13–15",
+      "confidence": "high",
+      "notes": "The underlying scenario archetypes come from NGFS and IPCC; the sector-specific scenarios were developed by NZGBC/Beca (construction) and Tonkin+Taylor (healthcare).",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "Scenario archetype: NGFS Net Zero 2050 / IPCC SSP1-1.9 / RCP2.6 | NGFS Delayed Transition / IPCC SSP1-2.6 / RCP4.5 | NGFS Current Policies / IPCC SSP5-8.5 / RCP8.5. Note: \"Oceania used SSP1/RCP1.9 narrative for transition risk testing.\" and \"Note RCP2.6 formed the lower bound of the physical risk assessment...\"",
+      "location_hint": "Page 15, scenario architecture table and footnotes",
+      "confidence": "high",
+      "notes": "The document explicitly lists both SSP identifiers (SSP1-1.9, SSP1-2.6, SSP5-8.5) and RCP identifiers (RCP2.6, RCP4.5, RCP8.5) in the same scenario table. SSP1-1.9 is paired with RCP2.6 (transition vs physical risk testing), and SSP1-2.6 is paired with RCP4.5 — these are not from the same internally consistent scenario family (SSP1-2.6 and RCP4.5 are different forcing levels).",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "Oceania's climate scenarios draw on the Construction and Property Sector Scenarios, which cover entities with similar climate-related property risks. Oceania's climate scenarios then incorporate driving forces and critical uncertainties prioritised specifically to Oceania, allowing it to test the resilience of its business model and strategy to climate-related risks and opportunities.",
+      "location_hint": "Page 15, scenario architecture table description",
+      "confidence": "high",
+      "notes": "The scenarios are described as adapted from the NGFS archetypes and Construction and Property Sector Scenarios, with driving forces and critical uncertainties specifically prioritised for Oceania's context (care and retirement living). The scenario narratives also incorporate New Zealand-specific policy and market conditions.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes",
+      "evidence": "Oceania participated as a member of the Technical Working Group in the development of climate scenarios on behalf of the construction and property sector coordinated by the New Zealand Green Business Council (NZGBC) and facilitated by Beca, in 2022-2023. [...] Oceania also participated as a member of the Technical Working Group in the development of climate scenarios on behalf of the healthcare sector, which were facilitated by Tonkin+Taylor (Climate Scenarios for the Healthcare Sector). [...] Oceania's entity level scenario analysis process was conducted with input from management and SMEs across a series of workshops, with executive sponsorship from the CFO.",
+      "location_hint": "Pages 13–14",
+      "confidence": "high",
+      "notes": "Oceania participated in Technical Working Groups for both the construction/property and healthcare sector scenario development processes, indicating collaborative/participatory development. The entity-level process also involved multi-stakeholder workshops.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No explicit baseline or reference scenario is described against which the climate scenarios are compared. However, the \"Hothouse world\" scenario (NGFS Current Policies / SSP5-8.5 / RCP8.5) represents a \"no additional policies\" trajectory that functions implicitly as a high-warming reference point.",
+      "evidence": "Hothouse world scenario: The Hothouse world scenario describes a future where no additional policies are introduced to curb emissions, and emissions continue to rise and with warming reaching > 3° Celsius. This scenario assumes limited transition risks but extreme physical climate risks.",
+      "location_hint": "Page 18–19, Hothouse world scenario description",
+      "confidence": "medium",
+      "notes": "The document does not explicitly label any scenario as a \"baseline\" or \"reference\" scenario. The Hothouse world (current policies) scenario could be interpreted as a de facto baseline, but this is not stated explicitly.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": "No specific climate models or IAMs are named in the document. The document states that no additional modelling was undertaken beyond that used to create the NGFS archetype scenarios and the Construction and Property Sector Scenarios. NIWA is named as the source of a national coastal inundation dataset used in the physical risk assessment.",
+      "evidence": "Oceania has not undertaken additional modeling other than that used to create the NGFS archetype scenarios and that which was drawn on to develop the Construction and Property Sector Scenario. [...] A national coastal inundation dataset was sourced from NIWA and was used in this assessment. This dataset is based on the global IPCC AR6 projections and includes modelled inundation polygons, which include both sea level rise and extreme event (storm) related surges.",
+      "location_hint": "Page 15 (no additional modelling statement); Page 32 (NIWA dataset)",
+      "confidence": "high",
+      "notes": "No specific IAMs (e.g. REMIND, MESSAGE, GCAM) or climate models are named. NIWA is a data provider, not a model per se. The document relies on NGFS and IPCC AR6 outputs without naming the underlying models.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "1. Increasing frequency and intensity of extreme weather events including cyclones, storms and flooding. Physical (acute). Anticipated Impacts: Damage to assets including buildings, infrastructure and roading. Disruption from potential outages to power, water and communications. [...] Rising cost of remedial activity, operational costs including costs of financing and insurance (or retreat). Potential delays from, and disruption to, supply chain and development (build/construction) activity. Potential loss or delay in revenue.",
+      "location_hint": "Page 19–20, Climate-related risks table",
+      "confidence": "high",
+      "notes": "The document explicitly identifies acute physical risks (extreme weather events, cyclones, storms, flooding) and describes anticipated damage/loss impacts. Real-world examples (Auckland floods, Cyclone Gabrielle) are also cited as current climate impacts on page 12.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon price",
+        "sea level rise",
+        "rainfall intensity",
+        "coastal flooding",
+        "coastal erosion",
+        "river and surface flooding",
+        "electricity prices",
+        "policy/regulatory environment",
+        "technology change",
+        "behaviour change",
+        "regional policy variation",
+        "insurance availability/cost",
+        "labour market conditions",
+        "energy supply/grid renewables share"
+      ],
+      "evidence": "Regional policy variation | Severity of physical impact | Severity of transition impacts | Domestic policy response | Technology change | Behaviour change [...] A rising carbon price and government subsidies encourage the adoption of low-carbon building methods [...] Rising sea levels with risk of coastal inundation and erosion [...] Increasing frequency and intensity of rainfall [...] Electricity prices increase in the 2020s and 2030s due to pressures on grid capacity [...] A national coastal inundation dataset was sourced from NIWA and was used in this assessment. This dataset is based on the global IPCC AR6 projections and includes modelled inundation polygons, which include both sea level rise and extreme event (storm) related surges.",
+      "location_hint": "Pages 15–20, scenario architecture table and scenario narratives",
+      "confidence": "high",
+      "notes": "Variables are drawn from both the scenario architecture table and the narrative descriptions of each scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "A national coastal inundation dataset was sourced from NIWA and was used in this assessment. This dataset is based on the global IPCC AR6 projections and includes modelled inundation polygons, which include both sea level rise and extreme event (storm) related surges. [...] Oceania's climate scenarios draw on the Construction and Property Sector Scenarios, which cover entities with similar climate-related property risks. Oceania's climate scenarios then incorporate driving forces and critical uncertainties prioritised specifically to Oceania [...] Global energy grid shifts to renewables, with NZ's grid reaching near to 100% renewable by 2050.",
+      "location_hint": "Pages 15–16 (scenario narratives), Page 32 (NIWA dataset)",
+      "confidence": "medium",
+      "notes": "The scenario archetypes are global (NGFS/IPCC), but the physical risk assessment uses a national (New Zealand) coastal inundation dataset from NIWA based on IPCC AR6 projections, and the scenario narratives incorporate New Zealand-specific policy and market conditions. This constitutes both global and regional/local elements.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short-term: present day – 2030; Medium-term: 2030–2050; Long-term: 2050–2080 (with a note that the sector scenarios extended to 2100). Rationales are explicitly provided for each timeframe.",
+      "evidence": "Time horizons | Year | Rationale. Short-term | Present day – 2030 | Aligns with Oceania's near term capital allocation and funding cycle, Oceania's refurbishment cycles and process, near-term GHG reduction targets, and the need for global emissions to halve by 2030. Medium-term | 2030 – 2050 | Aligns with capital allocation for next wave of Oceania's funding strategy, home ownership trends, evolution of human capital elements, NZ and global net zero by 2050 ambitions. Long-term | 2050 – 2080 | Aligns with ownership and operation of long-lived assets subject to the long-term impacts of climate change, building conversion trends, and design lifespans. [Footnote: The long term time frame for the sector scenarios extended to 2100.]",
+      "location_hint": "Page 14–15, Time horizons table",
+      "confidence": "high",
+      "notes": "Rationales are explicitly provided for all three timeframes, linked to Oceania's strategic planning horizons and capital deployment plans. The physical risk exposure metric is reported out to 2090–2100 under RCP8.5 (page 31).",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "Oceania chose these three scenarios as they provided the opportunity to test a range of possible risks and opportunities under different levels of uncertainty. Oceania's climate scenarios draw on the Construction and Property Sector Scenarios, which cover entities with similar climate-related property risks. Oceania's climate scenarios then incorporate driving forces and critical uncertainties prioritised specifically to Oceania, allowing it to test the resilience of its business model and strategy to climate-related risks and opportunities.",
+      "location_hint": "Page 15, scenario architecture table description",
+      "confidence": "high",
+      "notes": "The justification is explicit: the three scenarios were chosen to test a range of risks/opportunities under different levels of uncertainty, drawing on sector-relevant scenarios and incorporating Oceania-specific driving forces. No specific justification is provided for the choice of individual models (no models are named).",
+      "verification": null
+    }
+  ]
+}

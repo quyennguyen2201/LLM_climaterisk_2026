@@ -1,0 +1,194 @@
+{
+  "source": "MOVE_LOGISTICS_GROUP_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1119708,
+      "output_tokens": 7426,
+      "total_tokens": 1127134,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 1056374,
+        "ephemeral_5m_input_tokens": 63310,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly – Net Zero by 2050 (~1.5°C) / Orderly – Fully Charged",
+        "Disorderly – Delayed Transition (~2°C) / Disorderly – Short Detour",
+        "Hot House World – Current Policies (~3°+C)",
+        "IPCC SSP1-1.9",
+        "IPCC SSP1-2.6",
+        "IPCC SSP2-4.5",
+        "IPCC Regional Rivalry SSP3-7.0",
+        "IPCC SSP5-8.5 (used in physical risk tables)",
+        "NGFS – Net Zero 2050",
+        "NGFS – Highway to Paris",
+        "NGFS – Delayed Transition",
+        "NGFS – Sudden wake-up call",
+        "NGFS – Current Policies",
+        "NIWA Downscaled SSP1-2.6",
+        "NIWA Downscaled SSP2-4.5",
+        "NIWA Downscaled SSP3-7.0",
+        "NIWA Downscaled RCP2.6",
+        "NIWA Downscaled RCP4.5",
+        "NIWA Downscaled RCP8.5"
+      ],
+      "evidence": "Orderly – Net Zero by 2050 (~1.5°C), Disorderly – Delayed Transition (~2°C) and Hot House World – Current Policies (~3°+C). [...] Orderly architecture: IPCC SSP1-1.9, NGFS - Net Zero 2050 and Highway to Paris, NIWA Downscaled SSP1-2.6, NGFS Downscaled. Disorderly architecture: IPCC SSP1-2.6, SSP2-4.5, NGFS - Delayed Transition and Sudden wake-up call, NIWA Downscaled SSP2-4.5, NGFS Downscaled. Hot House World architecture: IPCC Regional Rivalry SSP3-7.0, NGFS - Current Policies, NIWA Downscaled SSP3-7.0, NGFS Downscaled. [...] SSP5-8.5: Hot house world – SSP5-8.5 (NIWA downscaled 8.5). [...] downscaled NIWA climate hazard data provided for RCP2.6, RCP 4.5 and RCP 8.5 at future time horizons.",
+      "location_hint": "Pages 5, 7–8, 13–15, 18",
+      "confidence": "high",
+      "notes": "The three top-level MOVE scenarios each draw on multiple underlying IPCC SSP, NGFS, and NIWA downscaled scenarios. The physical risk tables reference SSP5-8.5 (NIWA downscaled 8.5) while the physical risk methodology section references RCP2.6, RCP4.5, and RCP8.5 from NIWA.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: ~1.5°C (Orderly – Net Zero by 2050), ~2°C (Disorderly – Delayed Transition), and ~3°C+ (Hot House World – Current Policies). The Hot House World narrative also states that by 2050 the global average temperature has risen by 2.5°C and is on track to exceed 3°C+. No explicit 2100 endpoint is stated, but the 3°C+ trajectory is described as continuing beyond 2050.",
+      "evidence": "Orderly – Net Zero by 2050 (~1.5°C), Disorderly – Delayed Transition (~2°C) and Hot House World – Current Policies (~3°+C). [...] By 2050, a lack of investment in infrastructure results in communities that are increasingly difficult and costly to serve. The global average temperature has risen by 2.5 degrees Celsius and is on track to exceed 3+ degrees Celsius of global surface temperature warming.",
+      "location_hint": "Pages 5 and 10",
+      "confidence": "high",
+      "notes": "Temperature targets are expressed as approximate values (~1.5°C, ~2°C, ~3°C+) rather than precise 2100 projections. The 2.5°C figure is a 2050 milestone in the Hot House World narrative.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers are explicitly named: (1) The Aotearoa Circle (Transport Sector Climate Change Scenarios); (2) IPCC (AR6 SSP scenarios); (3) NGFS (Network for Greening the Financial System); (4) NIWA (downscaled physical climate data).",
+      "evidence": "Our scenario analysis was based on the Transport Sector Climate Change Scenarios. [...] We agreed the key driving forces, choosing from a long list informed by the Transport Sector Climate Change Scenarios, prepared by the Aotearoa Circle. [...] IPCC SSP1-1.9 [...] NGFS - Net Zero 2050 and Highway to Paris [...] NIWA Downscaled SSP1-2.6, NGFS Downscaled [...] IPCC AR6, NIWA",
+      "location_hint": "Pages 5–7",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "SSP1-1.9: Orderly – SSP1-1.9 (NIWA downscaled 1.9) / SSP2-4.5: Disorderly – SSP2-4.5 (NIWA downscaled 4.5) / SSP5-8.5: Hot house world – SSP5-8.5 (NIWA downscaled 8.5) [...] downscaled NIWA climate hazard data provided for RCP2.6, RCP 4.5 and RCP 8.5 at future time horizons.",
+      "location_hint": "Pages 13, 15, 18",
+      "confidence": "high",
+      "notes": "The document explicitly uses both SSP identifiers (SSP1-1.9, SSP2-4.5, SSP3-7.0, SSP5-8.5) and RCP identifiers (RCP2.6, RCP4.5, RCP8.5) in different parts of the analysis. The physical risk methodology uses NIWA RCP data while the scenario architecture uses IPCC SSP labels, indicating a mix across scenario families.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "Our scenario analysis was based on the Transport Sector Climate Change Scenarios. A group of executives, general management and subject matter experts from across the business participated in several workshop sessions, facilitated by external consultants, to develop MOVE's entity level climate scenario analysis in 2024 and to refine and update the scenario narratives in 2025. [...] NIWA Downscaled SSP1-2.6, NGFS Downscaled [...] A scenario analysis refresh was conducted during FY25. This was undertaken in order to capture material macroeconomic and geopolitical changes, and to reflect emerging climate science and any updates to climate data sets.",
+      "location_hint": "Pages 5–7",
+      "confidence": "high",
+      "notes": "The scenarios are described as customised/adapted in multiple ways: (1) NIWA downscaling of global SSP/RCP scenarios to New Zealand; (2) entity-level scenario narratives developed through workshops with MOVE executives and SMEs; (3) annual refresh to incorporate macroeconomic and geopolitical changes; (4) sector-specific factors layered on top of global scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes",
+      "evidence": "A group of executives, general management and subject matter experts from across the business participated in several workshop sessions, facilitated by external consultants, to develop MOVE's entity level climate scenario analysis in 2024 and to refine and update the scenario narratives in 2025. [...] The political, social, and economic context of each of the key driving forces was explored, with participants working in groups and brainstorming potential developments under each scenario and time horizon.",
+      "location_hint": "Pages 5–6",
+      "confidence": "medium",
+      "notes": "The document describes internal workshop-based scenario development involving executives, general managers, and subject matter experts facilitated by external consultants. While the exact terms \"participatory\" or \"co-design\" are not used, the description of group workshops with multiple internal stakeholders and external facilitators is consistent with participatory/co-produced scenario development.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No explicit baseline or reference scenario is described against which the climate scenarios are compared. The Hot House World – Current Policies scenario is the closest to a reference scenario (representing continuation of current policies), but it is not explicitly labelled as a \"baseline\" for comparison purposes.",
+      "evidence": "Hot House World – Current Policies (~3°+C). [...] Under a Hot House World scenario, economic growth remains tied to fossil fuels and there is little to no transition risk in the short, medium and long-term.",
+      "location_hint": "Pages 5, 10",
+      "confidence": "medium",
+      "notes": "The document does not use the term \"baseline\" or \"reference scenario.\" The Hot House World scenario represents current policies but is presented as one of three equally weighted scenarios rather than a baseline comparator.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "NIWA (downscaled climate hazard data)",
+        "IPCC AR6 (scenario framework)",
+        "NGFS scenarios (transition/energy pathways)",
+        "ISO14091 (physical climate risk methodology)",
+        "Ministry for the Environment NCCRA (National Climate Change Risk Assessment framework)"
+      ],
+      "evidence": "IPCC AR6, NIWA [...] downscaled NIWA climate hazard data provided for RCP2.6, RCP 4.5 and RCP 8.5 at future time horizons. [...] MOVE's physical climate change risk assessment approach aligns with the ISO14091 climate risk methodology and the Ministry for the Environment's National Climate Change Risk Assessment (NCCRA) process and framework.",
+      "location_hint": "Pages 7, 18",
+      "confidence": "medium",
+      "notes": "No specific named climate models (e.g. GCMs, IAMs like REMIND or MESSAGE) are identified. NIWA is named as the provider of downscaled climate hazard data. ISO14091 and NCCRA are methodological frameworks rather than models per se. IPCC AR6 and NGFS are scenario frameworks/providers.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "Increasing incidence and severity of extreme weather events [...] PR10: Excessive flooding and high winds, reducing access to sites, presenting a risk of delivery delays and revenue loss (due to contract penalties and/or eroded customer base). [...] Delayed investment into critical infrastructure and resilience results in increased costs associated with damage remediation caused by increasingly frequent and intense extreme weather events. In the short to medium term, the damage caused to roads, rail and ports leads to increased disruption to freight networks and safety risks to operators.",
+      "location_hint": "Pages 9–10, 13–14",
+      "confidence": "high",
+      "notes": "The scenario analysis explicitly includes acute physical risks (extreme weather events, flooding, high winds) and their impacts on operations and revenue. However, the assessment is qualitative rather than quantified monetary damage estimates.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon price",
+        "sea level rise",
+        "heat stress",
+        "pluvial flooding",
+        "extreme weather event frequency and intensity",
+        "oil price",
+        "renewable energy capacity",
+        "government policy/regulation",
+        "technology adoption rate (zero-carbon transport)",
+        "geopolitical stability",
+        "GDP/economic activity",
+        "inflation",
+        "supply chain disruption",
+        "energy demand",
+        "extreme heat (hot days)",
+        "high winds",
+        "over-slips and under-slips (landslides)",
+        "inundation"
+      ],
+      "evidence": "carbon price (USD/TCO2e) of $22.42 rises to $461.45 by 2035 [...] Impacts such as heat stress and sea level rise are felt widely [...] Increasing frequency and intensity of pluvial flooding [...] Increasing number of hot days [...] Excessive flooding and high winds [...] The surging oil price [...] Installed renewable energy generating capacity rapidly increases [...] Acute climate impacts: Climate events occur at current frequency and intensity / Increasing frequency and severity of events / Frequent damage to large parts of the transport infrastructure network",
+      "location_hint": "Pages 8–10, 14",
+      "confidence": "high",
+      "notes": "Variables are drawn from both the scenario narratives and the key driving forces table. Carbon price is explicitly quantified in the Disorderly scenario narrative.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "IPCC SSP1-1.9 [global] [...] NIWA Downscaled SSP1-2.6, NGFS Downscaled [regional/local] [...] downscaled NIWA climate hazard data provided for RCP2.6, RCP 4.5 and RCP 8.5 at future time horizons. [...] key updates to global and downscaled climate data sets",
+      "location_hint": "Pages 7, 17–18",
+      "confidence": "high",
+      "notes": "The scenario architecture explicitly layers global IPCC/NGFS scenarios with NIWA downscaled data for New Zealand physical climate hazards. The scenario summary diagram shows a hierarchy from \"Global climate and socioeconomics\" through to \"NZ physical and transition impacts\" and \"Entity-specific analysis.\"",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Three time horizons are used: Short-term (present–2030), Medium-term (2030/2031–2050), Long-term (2050/2051–2080). Rationale is explicitly provided: time horizons were chosen to align with asset design life, asset renewal cycles, and strategic planning horizons. A sector review of climate disclosures to align with peers was also cited. For transition risk specifically, a 30-year horizon is used with short-term = 5 years, medium-term = 5–15 years, long-term = 15–30 years.",
+      "evidence": "MOVE's scenario analysis was performed over three timeframes: short-term (present-2030), medium-term (2030-2050), and long-term (2050-2080). The time horizons were chosen to align with our asset design life and strategic planning horizons. [...] Physical risks were considered at three-time horizons (2030, 2050, and 2080). The decision to adopt these time horizons was informed by a sector review of climate disclosures to align with MOVE's peers; the design life of MOVE's fixed and mobile assets; asset renewal cycles; and MOVE's long-term, strategic planning horizons. [...] Transition risks were identified, then categorised as Policy and Legal, Technology, Market, and Reputation risks, and assessed using an urgency and time-to-impact scale over a 30-year time horizon. Within this timeframe the short-term is 5 years into the future, medium-term is 5-15 years, and long-term is 15-30 years.",
+      "location_hint": "Pages 5, 18",
+      "confidence": "high",
+      "notes": "The physical risk and scenario analysis time horizons (to 2080) differ slightly from the transition risk time horizon (30 years from present). Both are explicitly justified.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "These three scenarios were chosen because they cover a plausible range of futures and, therefore, are useful to test and identify a range of physical and transition risks and opportunities under different levels of uncertainty. [...] The decision to adopt these time horizons was informed by a sector review of climate disclosures to align with MOVE's peers; the design life of MOVE's fixed and mobile assets; asset renewal cycles; and MOVE's long-term, strategic planning horizons.",
+      "location_hint": "Pages 5, 18",
+      "confidence": "high",
+      "notes": "The justification for scenario choice focuses on coverage of a plausible range of futures and utility for identifying risks and opportunities. The justification for time horizons is more detailed, citing peer alignment, asset design life, renewal cycles, and strategic planning horizons.",
+      "verification": null
+    }
+  ]
+}

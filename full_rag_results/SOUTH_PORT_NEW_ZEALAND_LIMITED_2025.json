@@ -1,0 +1,170 @@
+{
+  "source": "SOUTH_PORT_NEW_ZEALAND_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 579015,
+      "output_tokens": 6423,
+      "total_tokens": 585438,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 530317,
+        "ephemeral_5m_input_tokens": 48680,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly (Net Zero 2050)",
+        "Disorderly (Delayed Transition)",
+        "Hot House (Current Policy)"
+      ],
+      "evidence": "South Port opted for three scenarios as per the overview in the table opposite. The 'Orderly' (Net Zero 2050) scenario has an emphasis on transition risks... Conversely, the 'Hot house' (Current Policy) scenario focuses on physical risks... The 'Disorderly' (Delayed Transition) scenario is the third climate-related scenario and shows a mix of both transition and physical risk. | Orderly (Net Zero 2050) | Disorderly (Delayed Transition) | Hot House (Current Policy)",
+      "location_hint": "Section 2 / Strategy, p.4–5",
+      "confidence": "high",
+      "notes": "Each scenario is also mapped to NGFS equivalents: NGFS Net Zero 2050, NGFS Delayed Transition, NGFS Current Policy.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature targets are described: 1.5°C (Orderly/Net Zero 2050), 2.0°C (Disorderly/Delayed Transition), and 3.0°C (Hot House/Current Policy). No explicit mention of temperature overshoot.",
+      "evidence": "Orderly (Net Zero 2050) | Disorderly (Delayed Transition) | Hot House (Current Policy) | Policy Ambition | 1.5°C | 2.0°C | 3.0°C",
+      "location_hint": "Scenario Overview table, p.5",
+      "confidence": "high",
+      "notes": "The table explicitly lists Policy Ambition temperatures for each scenario. No overshoot language is used.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "NGFS (Network for Greening the Financial System) is implicitly the scenario provider, referenced by name in the pathways table. KPMG (in partnership with the Aotearoa Circle) is also named as the provider of transport sector-specific scenarios that South Port's scenarios are aligned with.",
+      "evidence": "Pathways: RCP2.6 / SSP1-1.9 / NGFS Net Zero 2050 | RCP2.6 / SSP1-2.6 / NGFS Delayed Transition | RCP8.5 / SSP3-7.0 / NGFS Current Policy ... the generated scenario narratives closely align with the transport sector-specific scenarios developed by the consultancy firm KPMG, in partnership with the Aotearoa Circle, in direct collaboration with primary sectoral stakeholders.",
+      "location_hint": "Scenario Overview table, p.5; and p.4",
+      "confidence": "high",
+      "notes": "NGFS is named in the pathways column of the scenario table. KPMG/Aotearoa Circle are named as the source of the transport sector scenarios that South Port's scenarios are aligned with.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "Pathways: RCP2.6 / SSP1-1.9 / NGFS Net Zero 2050 | RCP2.6 / SSP1-2.6 / NGFS Delayed Transition | RCP8.5 / SSP3-7.0 / NGFS Current Policy",
+      "location_hint": "Scenario Overview table, p.5",
+      "confidence": "high",
+      "notes": "The document explicitly lists both RCP identifiers (RCP2.6, RCP8.5) and SSP identifiers (SSP1-1.9, SSP1-2.6, SSP3-7.0) in the same scenario table. For example, the Orderly scenario uses RCP2.6 alongside SSP1-1.9, which are not from the same internally consistent scenario family (RCP2.6 is from CMIP5; SSP1-1.9 is from CMIP6).",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "South Port's generated scenarios are not only specifically tailored for maximum and targeted applicability to South Port's business model, but are also aligned with the transport sector scenarios. ... The scope of the analysis was focused on the Port's immediate geographic terrain and the domestic trade structure.",
+      "location_hint": "Section 2 / Strategy, p.4",
+      "confidence": "high",
+      "notes": "The document explicitly uses the word \"tailored\" and describes the scenarios as being customised for South Port's business model and geographic context (Southland region), while also being aligned with NGFS and KPMG/Aotearoa Circle transport sector scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "No external stakeholders or partners were involved in the scenario analysis process. The assessment involved collaborative workshops with internal stakeholders, including the ELT and other relevant roles.",
+      "location_hint": "Section 2 / Strategy, p.4",
+      "confidence": "high",
+      "notes": "The document explicitly states no external stakeholders were involved. Internal workshops were held, but these do not constitute participatory or co-produced scenario development with external parties. The alignment with KPMG/Aotearoa Circle scenarios was done after the fact, not through co-design.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No explicit baseline or reference scenario is described against which the three climate scenarios are compared. The Hot House (Current Policy) scenario could be interpreted as a de facto baseline, but it is not labelled as such in the document.",
+      "evidence": "South Port opted for three scenarios as per the overview in the table opposite. The 'Orderly' (Net Zero 2050) scenario has an emphasis on transition risks... Conversely, the 'Hot house' (Current Policy) scenario focuses on physical risks... The 'Disorderly' (Delayed Transition) scenario is the third climate-related scenario and shows a mix of both transition and physical risk.",
+      "location_hint": "Section 2 / Strategy, p.4",
+      "confidence": "medium",
+      "notes": "No scenario is explicitly labelled as a \"baseline\" or \"reference\" scenario. The Hot House (Current Policy) scenario represents a no-policy-action world, which is functionally similar to a baseline, but this framing is not used in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "GZA Scope 3 Calculator"
+      ],
+      "evidence": "categories are derived from the United States Environmentally-Extended Input-Output model by the US EPA (calculations via GZA Scope 3 Calculator workbook), which was applied to calculate emissions based on expenses",
+      "location_hint": "GHG Emissions Inventory section, p.9",
+      "confidence": "medium",
+      "notes": "The GZA Scope 3 Calculator is named for GHG accounting purposes, not for climate scenario modelling. No climate models (e.g. GCMs, IAMs) are explicitly named for the scenario analysis itself. The document references NGFS scenarios and RCP/SSP pathways but does not name the underlying climate or IAMs used to generate them.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "Sea level rise, storm and tide surges impacting operations and damaging ships, infrastructure and equipment. Medium/Long-term ... Significant costs of repairs and operational downtime. ... South Port completed a Sea Level Rise and Extreme Sea Level Exposure study relating to South Port owned assets during FY25. In light of this study, South Port has updated its working assessment, and currently estimates that under a hot house scenario, up to 13.8% of our assets and business activities are vulnerable to climate-related physical risk.",
+      "location_hint": "Climate-Related Risks and Opportunities table, p.6; Climate-Related Metrics, p.12",
+      "confidence": "high",
+      "notes": "The document explicitly identifies storm surges, tide surges, and high-wind days as acute physical risks, and quantifies asset vulnerability (up to 13.8% of assets) under extreme sea level scenarios. Financial impacts (costs of repairs, operational downtime, reduced revenues) are also described qualitatively.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "sea level rise",
+        "storm surge",
+        "tide surge",
+        "rainfall",
+        "wind (high-wind days)",
+        "carbon cost / fossil fuel taxes",
+        "freight mode share",
+        "cargo volumes",
+        "agricultural output",
+        "land use change",
+        "insurance premiums",
+        "fuel technology adoption (synthetic fuels / green ammonia)",
+        "demand for diesel",
+        "demand for fossil fuels"
+      ],
+      "evidence": "Increased sea level rise and rainfall results in disruption to on-land freight routes... Sea level rise, storm and tide surges impacting operations and damaging ships, infrastructure and equipment... An increase in the number of high-wind days... Increasing cost of carbon associated with fossil fuel taxes... Freight mode share: Significant shift from road to rail and coastal shipping... lower agricultural output from Southland due to land use changes and reduced import of petrol-based products... Industrial and commercial demand for diesel decreases in Southland...",
+      "location_hint": "Scenario Overview table p.5; Climate-Related Risks and Opportunities table p.6",
+      "confidence": "high",
+      "notes": "Variables are drawn from both the scenario overview table and the risks/opportunities table. The document uses these variables qualitatively rather than as quantified model inputs.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "The scope of the analysis was focused on the Port's immediate geographic terrain and the domestic trade structure. ... South Port completed a Sea Level Rise and Extreme Sea Level Exposure study relating to South Port owned assets during FY25. ... the generated scenario narratives closely align with the transport sector-specific scenarios developed by the consultancy firm KPMG, in partnership with the Aotearoa Circle ... Pathways: RCP2.6 / SSP1-1.9 / NGFS Net Zero 2050 [global scenarios]",
+      "location_hint": "Section 2 / Strategy, p.4–5; Climate-Related Metrics, p.12",
+      "confidence": "medium",
+      "notes": "The scenarios use global RCP/SSP/NGFS pathways as their foundation, but the analysis is applied locally (Port's immediate geographic terrain, Southland region). A specific sea level rise and storm surge study was conducted for South Port's assets at Bluff, indicating local/regional application. The document does not use the word \"downscaled\" explicitly.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short-term: Now–2030; Medium-term: 2031–2040; Long-term: 2041–2050. Rationales are explicitly provided for all three timeframes.",
+      "evidence": "SHORT TERM: Now – 2030. Aligns with the remaining useful life of some critical assets. Additionally, it is indicative of the New Zealand Government's level of decarbonisation ambition. MEDIUM TERM: 2031 – 2040. Aligns with the lifecycle of our assets and corresponds with the timeframe when dynamics of a dominant scenario will be materially entrenched. LONG TERM: 2041 - 2050. Long-term horizon out to 2050 aligns with international emission reduction targets (Paris Agreement, 2050). It represents the last stage of total institutionalisation of preceding legislative/economic/policy dynamics. These timelines are linked to our strategic planning horizons for capital expenditure.",
+      "location_hint": "Climate-Related Risks and Opportunities / Time Horizons, p.4",
+      "confidence": "high",
+      "notes": "All three timeframes are explicitly justified with reference to asset lifecycles, NZ Government decarbonisation ambition, and the Paris Agreement 2050 target.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "The adopted scenarios were preferred for two reasons: First, the scenarios expose South Port's business model to maximum plausible physical/transitional risks and thus explore South Port's strategic resilience to both abrupt and systemic manifestations of climate-related forces. Such an experimental exposure provides an optimal tool to stress-test South Port's business and processes. Secondly, the scenarios maximise intra-sectoral alignment and comparability within the sector, as the generated scenario narratives closely align with the transport sector-specific scenarios developed by the consultancy firm KPMG, in partnership with the Aotearoa Circle, in direct collaboration with primary sectoral stakeholders.",
+      "location_hint": "Section 2 / Strategy, p.4",
+      "confidence": "high",
+      "notes": "Two explicit reasons are given: (1) maximum plausible risk exposure for stress-testing, and (2) alignment with transport sector scenarios developed by KPMG/Aotearoa Circle.",
+      "verification": null
+    }
+  ]
+}

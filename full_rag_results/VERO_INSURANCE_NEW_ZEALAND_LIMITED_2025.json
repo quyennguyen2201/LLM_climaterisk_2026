@@ -1,0 +1,177 @@
+{
+  "source": "VERO_INSURANCE_NEW_ZEALAND_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "total_tokens": 1212335,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 65207,
+        "cache_read": 1139696,
+        "cache_creation": 0
+      },
+      "input_tokens": 1204928,
+      "output_tokens": 7407
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly scenario: Net-zero 2050 (1.5°C, SSP 1, RCP 2.6)",
+        "Disorderly scenario: Delayed transition (>2°C, SSP 2, RCP 4.5)",
+        "Hot House world scenario: Current policies (>3°C, SSP 3, RCP 7.0)"
+      ],
+      "evidence": "Scenario: » Orderly scenario, 1.5°C (ICCP SSP 1, RCP 2.6) » Disorderly scenario, 2°C (ICCP SSP 2, RCP 4.5) » Hot House world scenario, 3+°C (ICCP SSP 3, RCP 7.0)",
+      "location_hint": "Table 4, p.13; Scenario descriptions p.14",
+      "confidence": "high",
+      "notes": "The three scenarios are also described in Appendix 4 (p.41) as derived from the ICNZ Shared Sector Scenarios: Orderly transition, Disorderly transition, and Hot House world.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: 1.5°C (Orderly scenario), >2°C (Disorderly scenario), and >3°C / 3+°C (Hot House world scenario). No temperature overshoot is explicitly mentioned.",
+      "evidence": "Orderly scenario: Net-zero 2050 — 1.5°C SSP 1, RCP 2.6 ... Disorderly scenario: Delayed transition — >2°C SSP 2, RCP 4.5 ... Hot House world scenario: Current policies — >3°C SSP 3, RCP 7.0",
+      "location_hint": "Scenario descriptions, p.14; Table 4, p.13",
+      "confidence": "high",
+      "notes": "The document notes that \"Climate scenarios have been considered over three distinct time horizons based on years (2030, 2040, and 2050). The endpoints are based on years rather than temperature outcomes.\" Temperature labels are used as scenario identifiers rather than precise 2100 projections.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "The scenario provider is explicitly named as the Insurance Council of New Zealand (ICNZ), through its Shared Climate Scenarios Initiative (June 2022). The Climate Change Commission (CCC) scenarios were also used to inform policy assumptions within each scenario.",
+      "evidence": "The climate scenarios and narratives we referred to in our analysis were based on the ICNZ Shared Climate Scenarios Initiative (June 2022). ... Scenarios were designed by starting with the Shared Sector Scenarios developed by the Insurance Council of New Zealand ... One key update was the use of the Climate Change Commission (CCC) scenarios provided to Central Government as part of their advice on the Fourth Emissions budget for our policy assumptions.",
+      "location_hint": "p.12 (CSA process); Appendix 4, p.41",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "Orderly scenario, 1.5°C (ICCP SSP 1, RCP 2.6) ... Disorderly scenario, 2°C (ICCP SSP 2, RCP 4.5) ... Hot House world scenario, 3+°C (ICCP SSP 3, RCP 7.0) ... For the Hot House world scenario, we elected to use SSP 3-7.0 because we did not have physical climate layers for the SSP5-8.5 scenario. RCP7.0 is also becoming more widely used in scenario analysis compared to RCP 8.5 because RCP 8.5 produces temperature outcomes that are arguably too extreme.",
+      "location_hint": "Table 4, p.13; Appendix 4, p.41",
+      "confidence": "high",
+      "notes": "The document explicitly lists both SSP and RCP identifiers for each scenario (e.g. SSP 1 with RCP 2.6, SSP 2 with RCP 4.5, SSP 3 with RCP 7.0). The document also notes that SSP 3-7.0 was chosen for the Hot House world scenario instead of SSP5-8.5, indicating deliberate mixing of scenario families. SSP and RCP are from different IPCC assessment frameworks (AR6 SSPs vs AR5 RCPs), so this constitutes a pick-and-mix approach.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "The climate scenarios and narratives we referred to in our analysis were based on the ICNZ Shared Climate Scenarios Initiative (June 2022). These were further developed into specific scenarios relevant to Vero with input from internal business stakeholders and an external consultancy to ensure they are relevant and appropriate scenarios in the context of Vero. ... Scenarios were designed by starting with the Shared Sector Scenarios developed by the Insurance Council of New Zealand, and from this, derived entity-specific scenarios.",
+      "location_hint": "p.12 (CSA process); Appendix 4, p.41",
+      "confidence": "high",
+      "notes": "The scenarios were adapted from the ICNZ Shared Sector Scenarios into entity-specific scenarios for Vero, with input from internal stakeholders and an external consultancy. CCC scenarios were also incorporated to inform policy assumptions. This goes beyond off-the-shelf use.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "The climate scenarios and narratives we referred to in our analysis were based on the ICNZ Shared Climate Scenarios Initiative (June 2022). These were further developed into specific scenarios relevant to Vero with input from internal business stakeholders and an external consultancy to ensure they are relevant and appropriate scenarios in the context of Vero.",
+      "location_hint": "p.12",
+      "confidence": "medium",
+      "notes": "The document mentions \"input from internal business stakeholders\" in scenario development, but does not use language such as \"participatory\", \"co-created\", \"deliberative\", \"co-design\", or \"collaborative development\" with external stakeholders. The scenario development appears to be an internal process with external consultancy support, not a participatory or co-produced process with broader stakeholders.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "Yes. A present-day baseline is used for physical risk modelling. The AAL analysis projects climate impacts \"before any strategic responses, and while holding all other assumptions constant\" to isolate the climate impact. The NIWA coastal inundation model also references a \"baseline risk\" (present-day). Additionally, the CCC \"Reference scenario\" is used to inform the Hot House world scenario policy assumptions.",
+      "evidence": "The AAL analysis projects climate impacts for exposures as at a point in time, before any strategic responses, and while holding all other assumptions constant (i.e. without anticipating changes in business mix, future population or the built environment over time) to isolate the impact of the climate on expected claims. ... We determined present day AAL and counts of buildings exposed to a range of natural perils by running Vero's inforce exposures through Finity's Finperils modelling suite. We then overlaid a series of climate layers for the required SSPs and time horizons.",
+      "location_hint": "Appendix 4, p.41–42",
+      "confidence": "medium",
+      "notes": "The document describes a present-day baseline AAL against which future scenario AALs are compared (e.g. \"an increase of between 19% and 26% in AAL from weather-related perils by 2050\"). This is an implicit baseline rather than a named standalone baseline scenario. The CCC \"Reference scenario\" is also mentioned as informing the Hot House world policy assumptions.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "Finity's Finperils modelling suite (physical risk/insurance loss modelling)",
+        "JBA flood model (riverine and surface water flood)",
+        "NIWA coastal inundation model",
+        "NIWA storm model",
+        "MRI-ESM2 (single GCM for flood climate layers)",
+        "ACCESS-CM2 (GCM ensemble for coastal inundation and storm)",
+        "EC-Earth3 (GCM ensemble)",
+        "NorESM2-MM (GCM ensemble)",
+        "GFDL-ESM4 (GCM ensemble)",
+        "AWI-CM1-1-MR (GCM ensemble)",
+        "CNRM-CM6-1 (GCM ensemble)"
+      ],
+      "evidence": "Physical model source: Flood (riverine, surface water) — JBA — Single GCM — MRI-ESM2; Coastal inundation — NIWA — 6 GCM ensemble — ACCESS-CM2, EC-Earth3, NorESM2-MM, GFDL-ESM4, AWI-CM1-1-MR, CNRM-CM6-1; Storm — NIWA, ERA — 6 GCM ensemble — ACCESS-CM2, EC-Earth3, NorESM2-MM, GFDL-ESM4, AWI-CM1-1-MR, CNRM-CM6-1 ... We determined present day AAL and counts of buildings exposed to a range of natural perils by running Vero's inforce exposures through Finity's Finperils modelling suite.",
+      "location_hint": "Appendix 4, p.42–43",
+      "confidence": "high",
+      "notes": "ERA (reanalysis data) is also listed as a hazard/climate layer source for storm alongside NIWA. Finity Consulting Pty was the external consultancy engaged for the CSA.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "Analysis of physical risk indicates an increase of between 19% and 26% in AAL from weather-related perils (flood, storm, and coastal inundation) by 2050. ... We use models to measure the impact of climate-related physical risk on our portfolios from extreme weather events. ... We measure projected losses from extreme weather events as 'average annual loss' (AAL). AAL is the financial loss we expect in a year for an insured risk or portfolio due to insured losses.",
+      "location_hint": "p.15; Table 4, p.13",
+      "confidence": "high",
+      "notes": "The scenario analysis explicitly quantifies projected financial losses (AAL) from extreme weather events (flood, storm, coastal inundation) — all acute physical risks — across three scenarios and three time horizons (2030, 2040, 2050).",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "Sea level rise",
+        "Coastal inundation",
+        "Surface water flooding / rainfall intensity",
+        "Riverine flooding",
+        "Storm wind / storm frequency and severity",
+        "Emissions pricing / carbon price",
+        "Energy prices",
+        "Greenhouse gas concentrations (RCP)",
+        "Government policy / regulatory settings",
+        "Reinsurance costs",
+        "Insurance market intervention"
+      ],
+      "evidence": "The increase in risk is predominantly due to: Coastal inundation, with sea level rise being the main driver. More frequent and intense bursts of surface water flooding, particularly in the South Island. ... Emissions pricing increases in a smooth but steep upwards trajectory. Low-emissions energy alternatives are accessible for most industries. Energy price increases result in higher inflation. ... Scope of assessment: Flood (surface, riverine), Storm wind (storms and ex-tropical cyclones), Coastal inundation.",
+      "location_hint": "p.14–15; Table 4, p.13",
+      "confidence": "high",
+      "notes": "Physical variables include sea level rise, flood frequency/intensity, storm frequency/severity, and coastal inundation. Transition variables include emissions pricing, energy prices, and government policy settings. These are drawn from both the physical risk modelling and the scenario narratives.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "Projections from global climate models relate to specific climate variables rather than losses from insured perils. ... Flood climate layers use a single General Circulation Model (GCM), which means the results are subject to sometimes significant bias due to the coarse model resolution (compared to complex local terrain). ... Results are summarised at postcode level for reporting purposes, but modelling is conducted at building level. ... Severe weather is strongly determined from the background state of the climate, such that projections are useful for inferring the nature of weather events that might emerge over large regional areas.",
+      "location_hint": "Appendix 4, p.41–43",
+      "confidence": "high",
+      "notes": "Global climate models (GCMs) provide the climate layers, which are then applied to New Zealand-specific physical risk models (JBA flood model, NIWA coastal inundation and storm models) at building and postcode level. This constitutes both global and regional/local downscaling.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short term = 2030, Medium term = 2040, Long term = 2050. Rationales are explicitly provided for all three timeframes.",
+      "evidence": "Timeframes: Short term = 2030 (Aligned with Suncorp Group's net zero target for Scope 1 and 2 emissions, and within the 3–5-year business planning window used for business planning and funding considerations). Medium term = 2040 (An interim timeframe between the short term and long-term horizons, aligned with medium term time horizon at Suncorp Group). Long term = 2050 (Aligned with the NZ Government's stated ambition to be Net-zero by 2050).",
+      "location_hint": "Table 4, p.13",
+      "confidence": "high",
+      "notes": "The document also notes: \"Climate scenarios have been considered over three distinct time horizons based on years (2030, 2040, and 2050). The endpoints are based on years rather than temperature outcomes.\" Justifications are clearly provided for each timeframe.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "For the Hot House world scenario, we elected to use SSP 3-7.0 because we did not have physical climate layers for the SSP5-8.5 scenario. RCP7.0 is also becoming more widely used in scenario analysis compared to RCP 8.5 because RCP 8.5 produces temperature outcomes that are arguably too extreme. ... RCP 2.6 has been selected as it is in line with a less than 2°C increase in temperature, which reflects the upper boundary of the Paris Agreement aim, and it aligns with the ICNZ Shared Climate Scenarios for the Insurance Sector.",
+      "location_hint": "Appendix 4, p.41; Table 4 footnote 12, p.13",
+      "confidence": "high",
+      "notes": "Justification is provided for the choice of SSP 3-7.0 over SSP5-8.5 for the Hot House world scenario (data availability and temperature extremity), and for RCP 2.6 (alignment with Paris Agreement and ICNZ Shared Climate Scenarios). The overall scenario framework is also justified by alignment with the ICNZ Shared Climate Scenarios Initiative.",
+      "verification": null
+    }
+  ]
+}

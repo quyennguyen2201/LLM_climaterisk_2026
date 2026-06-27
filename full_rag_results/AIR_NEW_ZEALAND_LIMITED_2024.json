@@ -1,0 +1,174 @@
+{
+  "source": "AIR_NEW_ZEALAND_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 820049,
+      "output_tokens": 6438,
+      "total_tokens": 826487,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 774299,
+        "ephemeral_5m_input_tokens": 45725,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Scenario 1: 'Ambitious' scenario (SSP1-1.9)",
+        "Scenario 2: 'Steady' scenario (SSP2-4.5)",
+        "Scenario 3: 'Delayed' scenario (SSP3-7.0)"
+      ],
+      "evidence": "The three scenarios Air New Zealand used for its scenario analysis are described below. The starting point for each scenario is one of the Intergovernmental Panel on Climate Change's (IPCC's) Shared Socioeconomic Pathways (SSPs)... SCENARIO 1: 'Ambitious' scenario... aligned to SSP1-1.9... SCENARIO 2: 'Steady' scenario... SSP 2-4.5... SCENARIO 3: 'Delayed' scenario... SSP 3-7.0",
+      "location_hint": "Section 3.1, p.10",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes by 2100 are described: 1.5°C (Ambitious/SSP1-1.9), 2.7°C (Steady/SSP2-4.5), and 3.6°C (Delayed/SSP3-7.0). No temperature overshoot is mentioned.",
+      "evidence": "'AMBITIOUS' (1.5⁰C BY 2100) Very low GHG emissions through global collaboration, sustainable practices, accelerated technology progress, and stringent climate policies limiting warming to 1.5⁰C. SSP 1-1.9 | 'STEADY' (2.7⁰C BY 2100) Moderate GHG emissions result from a balance between global development, environmental protection, and gradual advancements in climate policy. SSP 2-4.5 | 'DELAYED' (3.6⁰C BY 2100) High GHG emissions and limited global climate mitigation efforts due to limited cooperation. SSP 3-7.0",
+      "location_hint": "Section 3.1, p.11 (diagram)",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "IPCC (Intergovernmental Panel on Climate Change)",
+      "evidence": "The starting point for each scenario is one of the Intergovernmental Panel on Climate Change's (IPCC's) Shared Socioeconomic Pathways (SSPs), which are a set of illustrative emissions scenarios developed in the IPCC's 6th Assessment Report.",
+      "location_hint": "Section 3.1, p.10",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "No",
+      "evidence": "IPCC Scenarios: Shared Socioeconomic Pathways (SSPs), aligned with Representative Concentration Pathways (RCPs). 'DELAYED' (3.6⁰C BY 2100)... SSP 3-7.0 | 'STEADY' (2.7⁰C BY 2100)... SSP 2-4.5 | 'AMBITIOUS' (1.5⁰C BY 2100)... SSP 1-1.9",
+      "location_hint": "Section 3.1, p.11",
+      "confidence": "high",
+      "notes": "The document notes SSPs are \"aligned with\" RCPs, but only SSP identifiers are used as the scenario labels. There is no mixing of SSP and RCP identifiers from different scenario families; the SSPs used (SSP1-1.9, SSP2-4.5, SSP3-7.0) are internally consistent IPCC AR6 scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "The scenarios were developed by making selections across four sets of parameters: global climate and socioeconomic pathways; global energy pathways; New Zealand-specific impacts; and aviation-specific developments.",
+      "location_hint": "Section 3.1, p.11",
+      "confidence": "high",
+      "notes": "The IPCC SSPs are used as a starting point, but the scenarios are customised with New Zealand-specific and aviation-specific parameters. Appendix A details specific assumptions for technology pathways, government policy, socioeconomic pathways, energy pathways, and NZ physical/climate impacts. The document also notes \"Macroeconomic trends are defined with reference to the SSPs, but the scenario analysis did not use underlying macroeconomic inputs such as GDP or population growth. Instead, external, independent industry sources were used.\"",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "The Steering Committee was the primary governance mechanism for the scenario analysis. The Steering Committee consisted of the CSCAO, the Chief Operational Integrity and Safety Officer, and senior leaders from the Legal, Finance, Network Strategy and Sustainability teams... A working team facilitated the overall process and undertook the analysis. This included external consulting support from WSP New Zealand, Accenture New Zealand, and Risk Frontiers. This process included input and oversight from the Board, including approval of the scenarios for analysis.",
+      "location_hint": "Section 3.1, p.9",
+      "confidence": "high",
+      "notes": "The scenario development was an internal process with external consulting support. No language such as \"participatory\", \"co-creat\", \"deliberat\", \"co-design\", or \"stakeholder input\" in the context of scenario development is present. External consultants (WSP New Zealand, Accenture New Zealand, Risk Frontiers) were engaged but in a consulting capacity, not co-production.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No",
+      "evidence": "These scenarios refer to possible future states of the world developed by the airline to test the resilience of its current business model and strategy, and identify potential climate-related risks and opportunities. The scenarios do not represent predictions or forecasts.",
+      "location_hint": "Section 3.1, p.10",
+      "confidence": "high",
+      "notes": "No explicit baseline or reference scenario is described against which the three climate scenarios are compared. The three scenarios (Ambitious, Steady, Delayed) are presented as alternative futures, not compared against a no-climate-change baseline.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "ERA5 and ERA5-Land reanalysis (ECMWF)",
+        "CanESM5 (Canadian Earth System Model version 5)",
+        "EC-Earth3 (EC-Earth Consortium)",
+        "MIROC6"
+      ],
+      "evidence": "Global climate and socioeconomic impacts: IPCC (2022), Sixth Assessment Report for SSPs. Muñoz-Sabater et al. (2019) ERA5 and ERA5-Land reanalysis, European Centre for Medium Range Weather Forecasting (ECMWF). Canadian Centre for Climate Modelling and Analysis (2019), The Canadian Earth System Model version 5 (CanESM5). Döscher et al. (2022), The EC-Earth3 Earth system model for the CMIP6, EC-Earth Consortium. Shiogama et al. (2019), MIROC6 model output prepared for CMIP6 ScenarioMIP, MIROC Team",
+      "location_hint": "Appendix A, p.48",
+      "confidence": "high",
+      "notes": "These are the climate models used for the physical risk model. The document also references a transition risk model but does not name a specific IAM or macroeconomic model for it.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "A physical risk model... analysed the future frequency and severity of acute weather events at the domestic and international airports which Air New Zealand flies to. This included the frequency of severe heat, fog, wind, thunderstorms, rain, ice and snow that has occurred each year since 1990, and projected occurrences out to 2100... Increased frequency and severity of storms may also increase the likelihood of damage to aircraft, potentially increasing maintenance costs and disrupting scheduling... The risk of weather-related damage to 'immovable' physical assets could increase due to the combination of more frequent and / or severe weather events, potentially increasing costs.",
+      "location_hint": "Section 3.1, p.11; Section 3.3, p.14",
+      "confidence": "high",
+      "notes": "The document explicitly discusses damage to aircraft (maintenance costs, out-of-service periods) and immovable physical assets (buildings, contents) from acute weather events. However, it notes that \"the associated financial impact is unlikely to be material to Air New Zealand\" in the short-term. Quantified financial loss estimates are not provided.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon price / emissions pricing",
+        "SAF (Sustainable Aviation Fuel) availability and price",
+        "green hydrogen availability and cost",
+        "renewable electricity supply and cost",
+        "sea level rise",
+        "rainfall",
+        "thunderstorms",
+        "wind speeds",
+        "heat",
+        "fog",
+        "ice and snow",
+        "aviation demand (leisure, corporate, cargo)",
+        "government policy support",
+        "technology development pathways",
+        "carbon sequestration cost"
+      ],
+      "evidence": "The scenarios were developed by making selections across four sets of parameters: global climate and socioeconomic pathways; global energy pathways; New Zealand-specific impacts; and aviation-specific developments... Longer-term shifts in underlying climate patterns such as average temperature, rainfall and sea level rise... This included the frequency of severe heat, fog, wind, thunderstorms, rain, ice and snow... A transition risk model... analysed the potential risks and opportunities from further emissions pricing, changes to NGA and SAF adoption time frames, and competitive impacts of airfare pricing changes.",
+      "location_hint": "Section 3.1, p.11; Section 3.3, p.14-15; Appendix A, p.48",
+      "confidence": "high",
+      "notes": "Variables are drawn from multiple sections of the document including the scenario description, physical risk model, transition risk model, and Appendix A.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "The scenarios were developed by making selections across four sets of parameters: global climate and socioeconomic pathways; global energy pathways; New Zealand-specific impacts; and aviation-specific developments... A physical risk model... analysed the future frequency and severity of acute weather events at the domestic and international airports which Air New Zealand flies to... New Zealand physical and climate impacts: same sources as Global climate and socioeconomic impacts above; Ministry for the Environment (2018), Climate Change Projections for New Zealand.",
+      "location_hint": "Section 3.1, p.11; Appendix A, p.48",
+      "confidence": "high",
+      "notes": "The scenarios use global IPCC SSPs as a starting point, but are explicitly adapted to include New Zealand-specific and airport-level (local) physical risk analysis. The physical risk model assessed specific domestic and international airports.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short-term: 0–5 years; Medium-term: 5–18 years; Long-term: 18+ years. Rationales are explicitly provided for each timeframe. The overall scenario analysis covers 2024–2100.",
+      "evidence": "Short-term: 0-5 years, which aligns with strategic and network planning time horizons for the airline's five-year financial plan, which incorporates capital deployment plans; Medium-term: 5-18 years, which aligns with decisions about fleet planning and aircraft lease and purchases, and generally represent the airline's longest capital deployment horizons, excluding property; Long-term: 18 years and beyond, which would include the airline's 2050 Target time frame and the time-period over which the airline expects the greatest physical impacts of climate change to occur.",
+      "location_hint": "Section 3.2, p.12",
+      "confidence": "high",
+      "notes": "Justification is explicitly provided for each time horizon, linking them to the airline's business planning cycles (5-year financial plan, fleet planning/aircraft leases, and the 2050 net zero target). The scenario analysis itself spans 2024–2100, with transition risk analysis focused on 2024–2050.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "The physical risk model was considered appropriate and relevant to assessing the resilience of Air New Zealand's business model and strategy to climate-related risks and opportunities because it combined data from a range of external, peer-reviewed models. This combination of models was chosen for several reasons, including that they: include a range of possible temperature changes for a given amount of carbon dioxide emissions; are produced by reputable research groups; are independent from one another; provide access to a range of scenarios; and include a range of relevant and detailed variables required for physical climate risk analysis in the aviation sector... The model was deemed appropriate and relevant to assessing the resilience of Air New Zealand's business model and strategy to climate-related risks and opportunities because it leveraged leading independent data sources, and it was aligned with the airline's scenario analysis goals and principles.",
+      "location_hint": "Section 3.1, p.11",
+      "confidence": "high",
+      "notes": "Justification is provided for both the physical risk model and the transition risk model. For the scenario selection principles, the document also states the airline sought \"to select plausible, internally consistent scenarios; to ensure scenarios were sufficiently differentiated to produce insights on a breadth of plausible futures; and to adopt at least three scenarios, including one 1.5°C aligned, one >3°C and at least one other scenario.\"",
+      "verification": null
+    }
+  ]
+}

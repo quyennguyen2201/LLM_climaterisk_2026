@@ -1,0 +1,179 @@
+{
+  "source": "RESTAURANT_BRANDS_NEW_ZEALAND_LIMITED_2023",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 520955,
+      "output_tokens": 7097,
+      "total_tokens": 528052,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 476461,
+        "ephemeral_5m_input_tokens": 44476,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "SSP1-1.9 (1.5°C)",
+        "SSP1-2.6 (1.5–2.0°C)",
+        "SSP2-4.5 (<3°C)",
+        "SSP3-7.0 (<4°C)"
+      ],
+      "evidence": "For the climate scenario modelling, the Group has selected three Shared Socioeconomic Pathways (SSP) from the Intergovernmental Panel on Climate Change (IPCC) framework. The three selected SSPs are: SSP1-1.9 scenario assuming the global warming will be capped at 1.5°C*. SSP2-4.5 scenario assuming the global warming will be limited to 3°C*. SSP3-7.0 scenario assuming the global warming will be limited to 4°C*. [...] Consequently, we've obtained physical hazards data for scenario SSP1-2.6 (1.5-2.0°C) as an additional layer of stress testing under our most optimistic scenario.",
+      "location_hint": "p.14 (scenario analysis section) and p.23 (methodology section)",
+      "confidence": "high",
+      "notes": "Three primary scenarios are SSP1-1.9, SSP2-4.5, SSP3-7.0. SSP1-2.6 is used as a proxy for physical risk modelling under the first scenario because robust data was unavailable for all regions under SSP1-1.9.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes by 2100 (relative to pre-industrial levels 1850–1900): 1.5°C under SSP1-1.9; less than 3°C under SSP2-4.5; exceeding 3°C (limited to 4°C) under SSP3-7.0. No temperature overshoot is explicitly described.",
+      "evidence": "SSP1-1.9 (1.5°C): Low emissions scenario with net zero emissions by ~2050. Global warming is limited to 1.5°C by 2100. SSP2-4.5 (<3°C): Intermediate scenario with current emissions levels until ~2050. Global warming is limited to 3°C by 2100. SSP3-7.0 (<4°C): High emissions scenario with emissions to double by ~2100. Global warming is exceeding 3°C by 2100. * By 2100 compared to the pre-industrial levels (1850-1900)",
+      "location_hint": "p.14",
+      "confidence": "high",
+      "notes": "The SSP3-7.0 label says \"<4°C\" but the narrative says \"exceeding 3°C by 2100\". No overshoot language is used.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "IPCC (Intergovernmental Panel on Climate Change), specifically from the AR6 Working Group (WGIII) report. KPMG is also named as a provider of an industry-specific scenario framework used for transition risk assessment.",
+      "evidence": "For the climate scenario modelling, the Group has selected three Shared Socioeconomic Pathways (SSP) from the Intergovernmental Panel on Climate Change (IPCC) framework. [...] IPCC scenarios from AR6 Working Group (WGIII) report. [...] Restaurant Brands participated in the 'Retail Sector Shared Scenarios Project' led by KPMG which included several large NZ retail companies. The outcome of this collaborative work was the \"Integrated Climate Change Scenarios for New Zealand Retail Sector Report\" published by KPMG in September 2023.",
+      "location_hint": "p.14 and p.23",
+      "confidence": "high",
+      "notes": "IPCC is the primary scenario provider for the SSP framework. KPMG provided an industry-specific NZ retail sector scenario report used as a foundation for transition risk assessment.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "The Appendix (p.35) lists hazard scores referencing both SSP identifiers (SSP1-2.6, SSP2-4.5, SSP3-7.0, SSP5-8.5) and RCP identifiers (RCP 2.6, RCP 4.5, RCP 8.5) for different perils. For example: \"Tropical Cyclone zones (100 year return period). The Tropical Cyclone projections are based on published model run results of the High-Resolution Forecast-Oriented Low Ocean Resolution (HiFLOR) model... RCP 4.5, RCP 8.5\" and \"River Flood zones (100 & 500 year return period)... RCP 4.5, RCP 8.5\" while Precipitation Stress uses \"SSP1-2.6, SSP2-4.5, SSP3-7.0, SSP5-8.5\".",
+      "location_hint": "Appendix, p.35",
+      "confidence": "high",
+      "notes": "The Marsh physical risk assessment appendix explicitly lists both SSP and RCP identifiers for different hazard types, indicating a mix of scenario families is used in the underlying physical risk data.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "Restaurant Brands participated in the 'Retail Sector Shared Scenarios Project' led by KPMG which included several large NZ retail companies. The outcome of this collaborative work was the \"Integrated Climate Change Scenarios for New Zealand Retail Sector Report\" published by KPMG in September 2023. The report provided useful guidance and a foundation for our assessment of climate-related transition risks. [...] We have elected to use SSP1-2.6 (1.6°C) as a proxy for physical risk modelling under the first scenario on the basis that robust data was unavailable for all our regions under SSP1-1.9 (1.5°C).",
+      "location_hint": "p.23–24",
+      "confidence": "medium",
+      "notes": "The scenarios are adapted in two ways: (1) KPMG produced an industry-specific NZ retail sector scenario report used as a foundation; (2) SSP1-2.6 was substituted as a proxy for SSP1-1.9 due to data availability. The document does not use the exact words \"customised\", \"downscaled\", or \"localised\" but describes adaptations made to standard scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes",
+      "evidence": "Restaurant Brands participated in the 'Retail Sector Shared Scenarios Project' led by KPMG which included several large NZ retail companies. The outcome of this collaborative work was the \"Integrated Climate Change Scenarios for New Zealand Retail Sector Report\" published by KPMG in September 2023.",
+      "location_hint": "p.23",
+      "confidence": "medium",
+      "notes": "The document describes participation in a collaborative project with multiple NZ retail companies led by KPMG. The exact words \"participatory\", \"co-creat\", \"co-design\" are not used, but \"collaborative work\" and \"participated\" indicate co-production. The KPMG report was used as a foundation for transition risk assessment.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "Yes — a \"current\" baseline is used in the physical risk assessment tables, showing current exposure levels against which future scenario projections (2030, 2040, 2050) are compared.",
+      "evidence": "A summary of the Group's current exposure and risk index changes under the three scenarios by 2030, 2040 and 2050 are shown in the table below. [The table shows \"Current\" column alongside SSP1-2.6, SSP2-4.5, and SSP3-7.0 projections for each hazard type, e.g. FLUVIAL (RIVER) FLOOD EXPOSURE: Current 12%, then projected changes under each scenario.]",
+      "location_hint": "p.24–27",
+      "confidence": "medium",
+      "notes": "A \"current\" baseline is used in the physical risk tables. There is no separately named \"baseline scenario\" or \"reference scenario\" in the transition risk analysis, but the current state serves as the comparison point for physical risk exposure.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "HiFLOR (High-Resolution Forecast-Oriented Low Ocean Resolution model, NOAA GFDL)",
+        "CMIP5 global climate models",
+        "CORDEX (local high-resolution climate models)",
+        "ALOS elevation model",
+        "NATHAN hazard zones (Munich Re)",
+        "JBA Risk Management flood depth data"
+      ],
+      "evidence": "Tropical Cyclone projections are based on published model run results of the High-Resolution Forecast-Oriented Low Ocean Resolution (HiFLOR) model at the NOAA Geophysical Fluid Dynamics Laboratory (GFDL). [...] River Flood zones... The flood projections follow a hybrid method using the output from the latest high-resolution CMIP5 global climate model runs and global land surface models... using flood depth data from JBA Risk Management. [...] Sea-level rise zones were modelled on the basis of high-resolution elevation data from the ALOS elevation model and sea-level rise projections from climate models. [...] Relevant heat parameters are modelled on the basis of ERA5/ECMWF atmospheric reanalysis data (~25 km horizontal resolution) for the reference period and data from latest high-resolution local (CORDEX) and global (CMIP5) climate models for the future.",
+      "location_hint": "Appendix, p.35",
+      "confidence": "high",
+      "notes": "These models are referenced in the Marsh physical risk assessment appendix. No IAMs or macroeconomic models are named.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "Some risks such as surface flood exposure are relevant across all four regions, and others such as wildfire weather stress or tropical cyclone exposure are more relevant or ranked higher only in some of our regions. [...] Hawaii, including Guam and Saipan, is the only region where some stores are exposed to high or extreme tropical cyclones (Zones 4 and 5). [...] Short-term gains from low production costs and minimal transition impacts for businesses will be outweighed by considerably increased physical impacts from more frequent and severe weather events, rising sea levels and extended disruptions to business operations.",
+      "location_hint": "p.24–27 (physical risk tables), p.15 (SSP3-7.0 narrative)",
+      "confidence": "medium",
+      "notes": "The document includes exposure percentages for acute physical hazards (fluvial flood, flash flood, tropical cyclones, fire weather stress) across scenarios and time horizons. However, explicit financial damage/loss estimates from these events are not provided — the document notes that financial impact modelling is deferred to 2024. The analysis covers risk exposure and severity rankings rather than quantified damage estimates.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "sea level rise",
+        "precipitation stress / heavy rainfall",
+        "fluvial (river) flood exposure",
+        "pluvial (flash/surface) flood exposure",
+        "fire weather stress",
+        "wildfire exposure",
+        "tropical cyclone exposure",
+        "storm surge",
+        "heat stress",
+        "drought stress",
+        "cold stress",
+        "GHG emissions levels",
+        "consumer sentiment / preferences",
+        "technology change",
+        "policy and regulatory change",
+        "insurance costs",
+        "borrowing costs"
+      ],
+      "evidence": "GROUP MAIN CLIMATE HAZARDS SUMMARY: FLUVIAL (RIVER) FLOOD EXPOSURE, PRECIPITATION STRESS, FIRE WEATHER STRESS, SEA LEVEL RISE (BY 2100) [...] PLUVIAL (FLASH/SURFACE) FLOOD EXPOSURE, TROPICAL CYCLONE EXPOSURE, WILDFIRE EXPOSURE [...] Policies and consumer sentiment: immediate rapid change towards more aggressive policies and responsible consumption. Technology change: fast. [...] The availability or the cost of insurance [as a transition risk].",
+      "location_hint": "p.14 (scenario summaries), p.24–27 (physical risk tables), p.29 (transition risk table)",
+      "confidence": "high",
+      "notes": "Physical variables are drawn from the Marsh physical risk assessment. Socioeconomic/transition variables are described qualitatively in the scenario narratives.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "The three selected SSPs are from the Intergovernmental Panel on Climate Change (IPCC) framework [global]. [...] Relevant heat parameters are modelled on the basis of ERA5/ECMWF atmospheric reanalysis data (~25 km horizontal resolution) for the reference period and data from latest high-resolution local (CORDEX) and global (CMIP5) climate models for the future. [...] The detailed breakdown showing the % of locations exposed to climate hazard by region under each scenario [regional/local breakdown by NZ, AU, HA, CA].",
+      "location_hint": "p.14 (global IPCC SSPs), p.24–27 (regional breakdowns), p.35 (Appendix with CORDEX local models)",
+      "confidence": "high",
+      "notes": "The scenarios are based on global IPCC SSPs, but the physical risk assessment applies them at a regional/local level (store-by-store across NZ, AU, Hawaii, California), using both global (CMIP5) and local (CORDEX) climate models.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short term: 2024–2030 (~5–6 years); Medium term: 2031–2040 (~15 years); Long term: 2041–2050 (~25 years). Rationale is provided.",
+      "evidence": "The Group has used the following timeframe for its climate scenario modelling: Short term: 2024-2030 (5-6 years). Medium term: 2031-2040 (~15 years). Long term: 2041-2050 (~25 years). The periods were selected to follow the timelines and milestones commonly used by various climate modelling initiatives and insurers. The 5-, 15- and 25-year horizon was also used with a view towards alignment with typical franchise and lease tenures, and main Group strategic and operational cycles.",
+      "location_hint": "p.14",
+      "confidence": "high",
+      "notes": "Rationale is explicitly provided: alignment with climate modelling initiatives, insurers, franchise and lease tenures, and Group strategic/operational cycles.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "The three chosen scenarios provide a spectrum of possible outcomes and pathways - from organised rapid transition to net zero under the SSP1-1.9 scenario, to the \"hot house / current policies\" scenario SSP3-7.0. [...] The periods were selected to follow the timelines and milestones commonly used by various climate modelling initiatives and insurers. The 5-, 15- and 25-year horizon was also used with a view towards alignment with typical franchise and lease tenures, and main Group strategic and operational cycles. [...] We have elected to use SSP1-2.6 (1.6°C) as a proxy for physical risk modelling under the first scenario on the basis that robust data was unavailable for all our regions under SSP1-1.9 (1.5°C).",
+      "location_hint": "p.14 and p.24",
+      "confidence": "high",
+      "notes": "Justification is provided for: (1) the choice of three SSPs as covering a spectrum of outcomes; (2) the time horizons chosen; and (3) the substitution of SSP1-2.6 for SSP1-1.9 due to data availability. No explicit justification is given for why IPCC SSPs were chosen over other frameworks (e.g. NGFS).",
+      "verification": null
+    }
+  ]
+}

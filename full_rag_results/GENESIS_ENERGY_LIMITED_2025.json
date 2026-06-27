@@ -1,0 +1,176 @@
+{
+  "source": "GENESIS_ENERGY_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1258501,
+      "output_tokens": 7225,
+      "total_tokens": 1265726,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 1190995,
+        "ephemeral_5m_input_tokens": 67481,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Coordinated transformation",
+        "Green tape",
+        "Delayed transformation",
+        "Hot house"
+      ],
+      "evidence": "\"Overview of our climate-related scenarios: Coordinated transformation | Green tape | Delayed transformation | Hot house\"",
+      "location_hint": "Section 6.1, p.18",
+      "confidence": "high",
+      "notes": "These are Genesis' four proprietary climate scenarios, developed using reference scenarios from NIWA, IPCC, IEA, CCC, BCG, Transpower, Treasury and MBIE.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Four temperature outcomes at 2100 are described: 1.5°C (Coordinated transformation), 2.2°C (Green tape), 2.6°C (Delayed transformation), and 3.3°C (Hot house, described as >3°C).",
+      "evidence": "\"°C warming at 2100: 1.5°C [Coordinated transformation] | 2.2°C [Green tape] | 2.6°C [Delayed transformation] | 3.3°C [Hot house]\" and \"The hot house scenario (>3°C) presents a scenario where physical risks are extremely high.\"",
+      "location_hint": "Section 6.1, p.18",
+      "confidence": "high",
+      "notes": "The Coordinated transformation scenario also notes \"minimal overshoot of the goal to limit warming to 1.5 degrees.\" No explicit temperature overshoot language beyond this.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers are explicitly named: NIWA, IPCC, IEA (International Energy Agency), Climate Change Commission (CCC), Aotearoa Circle, BCG (Boston Consulting Group), Transpower, Treasury, and MBIE.",
+      "evidence": "\"We used the driving forces identified in step 3, the latest climate change scenarios for New Zealand published by NIWA, the latest climate modelling published by the Climate Change Commission and the Energy Sector Climate Scenarios published by Aotearoa Circle to refresh our climate scenarios.\" And from Appendix I: \"NIWA climate change scenarios for New Zealand | IPCC – Representative Concentration Pathway (RCP) | IPCC – Shared Socioeconomic Pathway (SSP) | International Energy Agency (IEA) Climate Scenarios | Climate Change Commission (CCC) 2021 | Climate Change Commission (CCC) 2024 | BCG | Transpower – Whakamana I Te Mauri Hiko | Treasury carbon pricing | MBIE – electricity demand and generation (EDGS) scenarios\"",
+      "location_hint": "Section 6.1, p.17; Appendix I, p.59",
+      "confidence": "high",
+      "notes": "Genesis developed its own four scenarios using these multiple reference providers as inputs.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "\"Pathways: RCP 2.6 / SSP 1-1.9 [Coordinated transformation] | RCP 4.5 / SSP 4-3.4 [Green tape] | RCP 4.5 / SSP 2-4.5 [Delayed transformation] | RCP 8.5 / SSP 3-7.0 [Hot house]\"",
+      "location_hint": "Section 6.1, p.18; Appendix I, p.59",
+      "confidence": "high",
+      "notes": "The document explicitly lists both RCP and SSP identifiers for each scenario. Notably, the Green tape scenario pairs RCP 4.5 with SSP 4-3.4, which are not from the same internally consistent scenario family (RCP 4.5 is typically associated with SSP 2-4.5, not SSP 4-3.4). This constitutes a pick-and-mix approach.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"We used the driving forces identified in step 3, the latest climate change scenarios for New Zealand published by NIWA, the latest climate modelling published by the Climate Change Commission and the Energy Sector Climate Scenarios published by Aotearoa Circle to refresh our climate scenarios. This analysis resulted in changes to our three existing scenarios and the creation of a new scenario.\" And: \"The narratives and data sets used to develop the Energy Sector Climate Scenarios were reviewed and incorporated into our existing scenarios where applicable. We combined the results of various models for some data points, such as carbon pricing and electricity supply and demand forecasts, to ensure our scenarios represented a range of plausible outcomes. For this reason, some data points are not the same as those disclosed in the Energy Sector scenarios.\" Also: \"Based on NIWA downscaled data the projected mean decrease in annual rainfall for the Tongariro area is 6.1%...\"",
+      "location_hint": "Section 6.1, p.17; Appendix I, p.57-59; p.22",
+      "confidence": "high",
+      "notes": "Scenarios are clearly customised for the New Zealand energy sector context, combining multiple reference models and using NIWA downscaled data for local physical risk analysis. The document explicitly states data points differ from the source Energy Sector scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "\"In September 2024, the Strategy team held three workshops with senior leaders from across the business to identify risks and opportunities, review and update underlying planning assumptions and refine and update Gen35. The strategy team utilised the outputs of these workshops to update and refresh the driving forces used in the development of our scenarios.\"",
+      "location_hint": "Section 6.1, p.17",
+      "confidence": "medium",
+      "notes": "The scenario development involved internal workshops with senior leaders and subject matter experts, but there is no mention of participatory, co-created, deliberative, or co-designed processes with external stakeholders. The scenarios were reviewed internally by \"risk owners and subject matter experts within the business.\"",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "Yes — the CCC 2024 \"Reference scenario\" is listed as a reference model for the Delayed transformation and Hot house scenarios. Additionally, the MBIE EDGS \"Constraint\" scenario and Transpower \"Business as usual\" scenario are referenced. However, no single standalone baseline scenario is explicitly described as the primary comparator against which all other scenarios are measured.",
+      "evidence": "\"Climate Change Commission (CCC) 2024: HTHS [Coordinated transformation] | LTHS [Green tape] | HTLS [Delayed transformation] | Reference scenario [Hot house]\" and \"Transpower – Whakamana I Te Mauri Hiko: Accelerated electrification | Mobilise to decarbonise | Measured action | Business as usual\"",
+      "location_hint": "Appendix I, p.59",
+      "confidence": "medium",
+      "notes": "The document references a CCC \"Reference scenario\" and \"Business as usual\" scenarios from BCG and Transpower as inputs to the Hot house and Delayed transformation scenarios, but does not explicitly designate a single baseline scenario against which all others are compared.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "CCC EB4 modelling",
+        "BCG modelling",
+        "Transpower Whakamana I Te Mauri Hiko",
+        "NIWA climate change scenarios for New Zealand",
+        "MBIE EDGS (electricity demand and generation scenarios)"
+      ],
+      "evidence": "\"CCC EB4 modelling, BCG modelling and Transpower data.\" And from Appendix I: \"NIWA climate change scenarios for New Zealand | IPCC – Representative Concentration Pathway (RCP) | IPCC – Shared Socioeconomic Pathway (SSP) | International Energy Agency (IEA) Climate Scenarios | Climate Change Commission (CCC) 2021 | Climate Change Commission (CCC) 2024 | BCG | Transpower – Whakamana I Te Mauri Hiko | Treasury carbon pricing | MBIE – electricity demand and generation (EDGS) scenarios\"",
+      "location_hint": "Section 6.1, p.17 (footnote 21); Appendix I, p.59",
+      "confidence": "high",
+      "notes": "No specific named climate models (e.g. GCMs, IAMs like REMIND or MESSAGE) are mentioned. The document references scenario frameworks and modelling outputs from various organisations rather than named computational models.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"More frequent and intense rain / cyclone events cause damage to hydro assets and/or related infrastructure, resulting in increased capital expenditure costs and/or lower generation volumes and earnings.\" And: \"In FY25 we completed further analysis of our exposure to flooding and heat/bush fire risk for specific assets.\" And: \"Loss of structural integrity of generation and ancillary infrastructure could result in increased operating and capital expenditure costs and/or loss of generation revenue. Damaged electricity transmission lines, communication networks or road access could impact generation revenue and increase operating and capital expenditure costs.\"",
+      "location_hint": "Section 5.1, p.15; Section 6.3, p.29",
+      "confidence": "high",
+      "notes": "The analysis is qualitative rather than quantitative (the document states \"No quantitative modelling was undertaken\" for scenario analysis in FY25), but damage and loss estimates from acute physical risks (flooding, cyclones, bushfires) are explicitly described.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon price (ETS NZD/t)",
+        "global carbon price (USD/t)",
+        "electricity demand (TWh)",
+        "retail gas demand (PJ)",
+        "rainfall / precipitation",
+        "dry days",
+        "hydro inflows",
+        "sea level rise",
+        "storm frequency and intensity",
+        "technology adoption (EVs, solar, batteries, CCS)",
+        "renewable energy deployment",
+        "gas pricing",
+        "afforestation / carbon sequestration",
+        "EV market share",
+        "policy and regulatory settings"
+      ],
+      "evidence": "\"ETS 171 NZD/t (2030) ... ETS 309 NZD/t (2050) ... Global carbon price 303 USD/t (2030) ... Global carbon price 651 USD/t (2050) ... Electricity demand ~50 TWh / ~60 TWh / ~65 TWh ... Retail gas demand ~41 PJ / ~20 PJ / ~0 PJ ... Based on NIWA downscaled data the projected mean decrease in annual rainfall for the Tongariro area is 6.1% and 7.4% for the Waikaremoana area and the mean increase in number of dry days is 8.4 and 7.8 respectively ... Some localised NbS initiatives, such as community-based conservation and restoration projects, are implemented to address local adaptation challenges such as sea level rise in the long-term.\"",
+      "location_hint": "Section 6.1, pp.19-22; Appendix I, pp.57-59",
+      "confidence": "high",
+      "notes": "A wide range of non-temperature variables are used across the scenarios, spanning physical climate variables and socioeconomic/policy drivers.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"Our climate scenarios incorporate global trends which are expected to impact the New Zealand energy sector such as the cost and availability of alternative technologies.\" And: \"Based on NIWA downscaled data the projected mean decrease in annual rainfall for the Tongariro area is 6.1% and 7.4% for the Waikaremoana area and the mean increase in number of dry days is 8.4 and 7.8 respectively.\" And: \"We also completed a review of public information (e.g. flood maps, NIWA climate projections)\"",
+      "location_hint": "Section 6.1, p.17; p.22 (footnotes 23-25)",
+      "confidence": "high",
+      "notes": "The scenarios incorporate both global-level climate and socioeconomic trends (using IPCC RCPs/SSPs and IEA scenarios) and regionally/locally downscaled physical climate data from NIWA for specific New Zealand hydro catchment areas (Tongariro, Waikaremoana, Tekapo).",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short: 1–5 years (to 2030); Medium: 6–15 years (to 2040); Long: 16–25 years (to 2050). Physical risks to generation assets are considered through to 2100. Rationales are explicitly provided for each timeframe.",
+      "evidence": "\"TERM | PERIOD | RATIONALE: Short | 1-5 years (2030) | Aligns with the time horizon used for Genesis' operating plan and closely aligns with our FY28 goals which we refer to as our '8 by 28'. Medium | 6-15 years (2040) | Closely aligns with the time horizon used for Genesis' corporate strategy (Gen35) which looks out to 2035 and our net zero 2040 SBT. Long | 16-25 years (2050) | Aligns with the Intergovernmental Panel on Climate Change (IPCC) findings that to limit the temperature increase to 1.5C above pre-industrial levels, emissions would have to peak now and reduce by around half by 2030, and globally net zero emissions need to be attained by 2050. The only exception to this is the length of time considered for physical risks to our generation assets which is considered through to 2100 to align with their useful lives.\"",
+      "location_hint": "Section 5.5, p.16",
+      "confidence": "high",
+      "notes": "Rationales are explicitly stated for all three timeframes and are linked to internal planning horizons (operating plan, Gen35 strategy, SBT) and IPCC findings.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"Rationale for selecting the scenario: The coordinated transformation (1.5°C) recognises that a swift highly regulated, globally aligned approach is now required in order to limit global warming to 1.5 degrees... The coordinated transformation scenario aligns with New Zealand's commitment to achieving net zero by 2050. This scenario aligns with the requirements of NZ CS. The green tape (2.2°C) scenario considers a world where New Zealand decarbonises faster than some other nations. However, this results in higher transition costs initially and slower technology development due to a fragmented response to climate change. The delayed transformation (2.6°C) scenario tests the impact in a world where New Zealand is slow to regulate and transition to a low emissions future... The hot house scenario (>3°C) presents a scenario where physical risks are extremely high. This scenario aligns with the requirements of NZ CS.\"",
+      "location_hint": "Section 6.1, p.18",
+      "confidence": "high",
+      "notes": "Explicit rationale is provided for each of the four scenarios in the overview table. The justification references alignment with NZ regulatory requirements (NZ CS), NZ government commitments (net zero 2050), and the need to test a range of plausible futures including high physical risk and high transition risk scenarios.",
+      "verification": null
+    }
+  ]
+}

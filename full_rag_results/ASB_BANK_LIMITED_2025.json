@@ -1,0 +1,171 @@
+{
+  "source": "ASB_BANK_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1182336,
+      "output_tokens": 7306,
+      "total_tokens": 1189642,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 1115297,
+        "ephemeral_5m_input_tokens": 67015,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Scenario 1 (\"1.5°C\") – Orderly",
+        "Scenario 2 (\"2°C\") – Too little too late",
+        "Scenario 3 (\"3°C\") – Hot house"
+      ],
+      "evidence": "Scenario 1 (\"1.5°C\") Orderly | Scenario 2 (\"2°C\") Too little too late | Scenario 3 (\"3°C\") Hot house",
+      "location_hint": "Strategy – Our scenario analysis process, p.44-45 (document page 22)",
+      "confidence": "high",
+      "notes": "Three scenarios are presented in a table with their climate/socio-economic and energy/emission pathway parameters. Each scenario is named with a temperature label and a descriptive title.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: 1.5°C (Scenario 1 – Orderly), >2°C (Scenario 2 – Too little too late), and >3°C (Scenario 3 – Hot house). The document also notes that under Scenario 2, \"global temperatures exceed 2.7°C by 2100\". No explicit temperature overshoot language is used, but the >2°C and >3°C labels imply outcomes above those thresholds.",
+      "evidence": "The narratives used below describe the pathways to certain global temperature outcomes (1.5°C, >2°C, >3°C), and the events predicted to occur along the way. [...] Although national policy targets are met, global temperatures exceed 2.7°C by 2100, causing food security issues...",
+      "location_hint": "Strategy – Scenario narratives used, p.42-43 and p.44-45 (document pages 21-22)",
+      "confidence": "high",
+      "notes": "The three scenarios target 1.5°C, >2°C, and >3°C. The Scenario 2 narrative specifically mentions temperatures exceeding 2.7°C by 2100 in the long-term description.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple providers are explicitly named: NZBA (New Zealand Banking Association) for the sector-level scenario base; IPCC (Intergovernmental Panel on Climate Change) for SSP parameters; NIWA for RCP parameters; CCC (Climate Change Commission) for socio-economic parameters; NGFS (Network for Greening the Financial System) for energy/emission pathway parameters; and IEA (International Energy Agency) for energy/emission pathway parameters.",
+      "evidence": "Scenario 1 (\"1.5°C\") Orderly: Climate and Socio-economic parameters: IPCC SSP1-1.9 / NIWA RCP2.6 / CCC 'Tailwinds'; Energy and emission pathway parameters: NGFS Net Zero 2050 / IEA Net Zero Emissions. [...] By using the NZBA sector scenarios as a basis to build ASB specific narratives on, we believe the narratives used in our analysis retain the distinctive, consistent, and comparable qualities required of them. The NZBA scenarios were chosen in FY24 as the baseline because they represent the most relevant downscaling...",
+      "location_hint": "Strategy – Our scenario analysis process, p.44-45 (document page 22)",
+      "confidence": "high",
+      "notes": "The primary scenario framework is from NZBA, which itself draws on IPCC, NIWA, CCC, NGFS, and IEA parameters.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "Scenario 1 (\"1.5°C\") Orderly: IPCC SSP1-1.9 / NIWA RCP2.6 / CCC 'Tailwinds'; Scenario 2 (\"2°C\") Too little too late: IPCC SSP2-4.5 / NIWA RCP4.5 / CCC 'Headwinds'; Scenario 3 (\"3°C\") Hot house: IPCC SSP5-8.5 / NIWA RCP8.5 / CCC 'Current Policy reference'",
+      "location_hint": "Strategy – scenario table, p.44-45 (document page 22)",
+      "confidence": "high",
+      "notes": "The document explicitly lists both SSP identifiers (from IPCC) and RCP identifiers (from NIWA) within the same scenario parameters. SSP1-1.9 is paired with RCP2.6, SSP2-4.5 with RCP4.5, and SSP5-8.5 with RCP8.5. While these are broadly consistent in warming level, they come from different scenario families (CMIP6 SSPs vs. CMIP5 RCPs), constituting a pick-and-mix approach.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "By using the NZBA sector scenarios as a basis to build ASB specific narratives on, we believe the narratives used in our analysis retain the distinctive, consistent, and comparable qualities required of them. [...] Through our downscaling process, ASB has applied the relevant narratives to our business model and strategy. [...] This year we used NIWA and RMS New Zealand data to downscale to undertake specific quantitative analysis.",
+      "location_hint": "Strategy – Our scenario analysis process, p.42-43 (document page 21) and Scenario analysis assumptions, p.90-91 (document page 45)",
+      "confidence": "high",
+      "notes": "The document explicitly uses the terms \"downscaling\" and \"tailored\" and describes a process of adapting NZBA sector-level scenarios to ASB's specific business model and New Zealand context. NIWA and RMS New Zealand data were used for quantitative downscaling.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "Our scenario analysis working group brought together teams from across the business to build and analyse the climate scenarios to derive ASB specific impacts, risks, and opportunities.",
+      "location_hint": "Strategy – Governance of scenario analysis, p.42-43 (document page 21)",
+      "confidence": "high",
+      "notes": "The scenario development was internal (cross-functional team) with support from external consultants (Proxima Consulting). There is no mention of participatory, co-created, deliberative, co-designed, or stakeholder-input-driven scenario development with external parties.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "Yes – partially. The CCC Demonstration Path (ERP2) is used as a reference scenario specifically for the Dairy sector Financed Emissions intensity reduction target. The NZBA scenarios are described as the \"baseline\" for ASB's scenario narratives. However, there is no explicit standalone \"business-as-usual\" baseline scenario against which all three climate scenarios are compared.",
+      "evidence": "The Climate Change Commission (CCC) Demonstration Path (ERP2) has been used as a reference scenario for our Dairy sector Financed Emissions intensity reduction target. [...] The NZBA scenarios were chosen in FY24 as the baseline because they represent the most relevant downscaling and we consider they continue to be appropriate.",
+      "location_hint": "Strategy – Our Dairy sector target and portfolio, p.30-31 (document page 15); Strategy – Our scenario analysis process, p.42-43 (document page 21)",
+      "confidence": "medium",
+      "notes": "The word \"baseline\" is used to describe the NZBA scenarios as the starting point for ASB's own scenario development, not as a separate reference scenario for comparison. The CCC Demonstration Path is used as a reference for the dairy target only. No explicit business-as-usual or no-policy-change baseline scenario is described for the main scenario analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "RMS New Zealand Inland Flood HD Model (Moody's RMS)",
+        "NIWA climate projections"
+      ],
+      "evidence": "Inland flooding risk is assessed for the majority of ASB's home lending portfolio using property-level flood depth and expected building damage estimates sourced from Moody's RMS [...] The RMS New Zealand Inland Flood HD Model captures sources of flood risk including pluvial and fluvial flooding [...] This year we used NIWA and RMS New Zealand data to downscale to undertake specific quantitative analysis. [...] We have made further progress in improving risk data for rural areas by integrating new climate projections, produced by NIWA in 2024, into our analysis of heat stress and drought in Aotearoa New Zealand.",
+      "location_hint": "Strategy – Quantitative analysis on climate-related risks, p.50-51 (document page 25); Other information – Home lending inland flooding methodology, p.90-91 (document page 45)",
+      "confidence": "high",
+      "notes": "No IAMs or macroeconomic models are named. The document references IPCC, NGFS, IEA, and CCC as scenario parameter sources, but these are not models used directly by ASB. The two explicitly named models used for quantitative analysis are the RMS New Zealand Inland Flood HD Model and NIWA climate projections.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "Inland flooding risk is assessed for the majority of ASB's home lending portfolio using property-level flood depth and expected building damage estimates sourced from Moody's RMS, for Average Recurrence Intervals (ARI) of 1-in-100, 1-in-250, and 1-in-500. [...] The DR is defined as the ratio of the expected loss from flood damage (before any insurance terms are applied) to the replacement cost of an asset, such as a building and its contents. The home lending inland flooding metric reflects DR greater than or equal to 0.5% in a 1-in-100 flood event.",
+      "location_hint": "Strategy – Quantitative analysis on climate-related risks, p.50-51 (document page 25); Other information – Home lending inland flooding methodology, p.90-91 (document page 45)",
+      "confidence": "high",
+      "notes": "The document explicitly includes damage ratio (DR) estimates from acute flood events (1-in-100, 1-in-250, 1-in-500 ARI events) for the home lending portfolio. This constitutes quantitative damage/loss estimates from extreme events (acute physical risks).",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "sea level rise",
+        "flood frequency and severity",
+        "drought",
+        "livestock heat stress",
+        "coastal inundation",
+        "agricultural yield losses",
+        "emissions pricing (agricultural)",
+        "insurance coverage and affordability",
+        "policy and regulatory changes (land use, emissions trading scheme)",
+        "technology adoption (electrification, agri-tech)",
+        "consumer preferences",
+        "energy costs",
+        "socio-economic pathways (SSP)",
+        "Representative Concentration Pathways (RCP)"
+      ],
+      "evidence": "The sector scenarios map out different global and domestic climate, socio-economic, policy and technology pathways within the scenarios. [...] Our rural analysis focuses on four key hazards identified through previous scenario analysis: drought, livestock heat stress, coastal inundation, and inland flooding. [...] This included new analysis on inland flooding and coastal inundation, based on different Representative Concentration Pathways (RCP) over multiple time horizons. [...] sea level rise starts to increase property flooding [...] high emissions pricing and high operational costs [...] The acceleration of climate-related policies and standards being introduced such as land use, agricultural emissions pricing, the Natural Hazards Insurance Act...",
+      "location_hint": "Strategy – scenario narratives and anticipated impacts, p.44-51 (document pages 22-25)",
+      "confidence": "high",
+      "notes": "Variables are drawn from both the scenario narratives and the quantitative risk analysis sections. The list reflects variables explicitly mentioned in the document as drivers of scenario outcomes.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "The NZBA scenarios were chosen in FY24 as the baseline because they represent the most relevant downscaling and we consider they continue to be appropriate. Through our downscaling process, ASB has applied the relevant narratives to our business model and strategy. [...] This year we used NIWA and RMS New Zealand data to downscale to undertake specific quantitative analysis. [...] The sector scenarios map out different global and domestic climate, socio-economic, policy and technology pathways within the scenarios. [...] ASB has preferred the domestic pathway parameters where relevant.",
+      "location_hint": "Strategy – Our scenario analysis process, p.42-43 (document page 21); Scenario analysis assumptions, p.90-91 (document page 45)",
+      "confidence": "high",
+      "notes": "The scenarios use global parameters (IPCC SSPs, NGFS, IEA) as well as New Zealand/regional downscaled parameters (NIWA RCPs, CCC pathways, RMS New Zealand model). The document explicitly describes a downscaling process to apply global scenarios to the New Zealand and ASB-specific context.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short term: 5 years (to ~2030); Medium term: 25 years (to ~2050); Long term: 50+ years (to ~2080+). A partial rationale is provided: \"There is meaningful differentiation in outcomes in these three periods and they broadly build on the timeframes considered in our strategy process.\" The document also notes that climate scenario time horizons differ from ASB's strategic planning horizons (Short <1 year, Medium 1-5 years, Long 5-10 years).",
+      "evidence": "ASB has chosen to consider short-, medium- and long-term horizons in its scenario analysis process. There is meaningful differentiation in outcomes in these three periods and they broadly build on the timeframes considered in our strategy process. [...] Short term: 5 years / 2030; Medium term: 25 years / 2050; Long term: 50+ years / 2080+. [...] ASB's strategic planning horizons (Short (<1 year), Medium (1-5 years) and Long (5-10 years)) are different than those used for climate scenario analysis (Short (5 years), Medium (25 years), Long (50+ years)).",
+      "location_hint": "Strategy – Our scenario analysis process, p.42-43 (document page 21); Selected anticipated impacts – Our planning horizons, p.46-49 (document page 23)",
+      "confidence": "high",
+      "notes": "The rationale given is brief: \"meaningful differentiation in outcomes\" and alignment with strategy process timeframes. The document does not provide a more detailed justification for the specific durations chosen (5, 25, 50+ years).",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "The NZBA scenarios were chosen in FY24 as the baseline because they represent the most relevant downscaling and we consider they continue to be appropriate. Through our downscaling process, ASB has applied the relevant narratives to our business model and strategy. This has challenged our thinking and is plausible to the decision-makers in our business. By using the NZBA sector scenarios as a basis to build ASB specific narratives on, we believe the narratives used in our analysis retain the distinctive, consistent, and comparable qualities required of them.",
+      "location_hint": "Strategy – Our scenario analysis process, p.42-43 (document page 21)",
+      "confidence": "high",
+      "notes": "The justification focuses on: (1) NZBA scenarios represent the most relevant downscaling for New Zealand; (2) they retain distinctive, consistent, and comparable qualities; (3) they are plausible to decision-makers; and (4) they were chosen in FY24 and continue to be considered appropriate. No specific justification is provided for the choice of NIWA or RMS models beyond their use for downscaling quantitative analysis.",
+      "verification": null
+    }
+  ]
+}

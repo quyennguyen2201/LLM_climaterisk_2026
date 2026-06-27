@@ -1,0 +1,176 @@
+{
+  "source": "SMARTPAY_HOLDINGS_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 884850,
+      "output_tokens": 7274,
+      "total_tokens": 892124,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 837144,
+        "ephemeral_5m_input_tokens": 47681,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Net Zero 2050 (Orderly)",
+        "Delayed Transition (Disorderly)",
+        "Current Policies (Hot House)"
+      ],
+      "evidence": "Table 6: Scenarios | Scenario: Net Zero 2050 | Delayed Transition | Current Policies | Category: Orderly | Disorderly | Hot House | Reference Scenarios: Network for Greening the Financial System (NGFS): Net Zero 2050 scenario, Orderly category; Intergovernmental Panel on Climate Change (IPCC): SSP1-1.9; New Zealand Climate Change Commission: Tailwinds | Network for Greening the Financial System (NGFS): Delayed Transition scenario, Disorderly category; Intergovernmental Panel on Climate Change (IPCC): SSP1-2.6; New Zealand Climate Change Commission: Headwinds | Network for Greening the Financial System (NGFS): Current Policies scenario, Hot House World category; Intergovernmental Panel on Climate Change (IPCC): SSP3-7.0; New Zealand Climate Change Commission: Current Policy Reference",
+      "location_hint": "Table 6, p.7",
+      "confidence": "high",
+      "notes": "Each scenario draws on three reference scenario families: NGFS, IPCC SSPs, and NZ Climate Change Commission scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes by 2100 are described: 1.4°C (Net Zero 2050/Orderly), 1.8°C (Delayed Transition/Disorderly), and 3.6°C (Current Policies/Hot House). Temperature outcomes at 2050 are also given: 1.6°C, 1.7°C, and 2.1°C respectively.",
+      "evidence": "Global temperature outcome at 2050: 1.6 °C | 1.7 °C | 2.1 °C; Global temperature outcome at 2100: 1.4 °C | 1.8 °C | 3.6 °C",
+      "location_hint": "Table 6, p.7",
+      "confidence": "high",
+      "notes": "No mention of temperature overshoot language. The Net Zero 2050 scenario shows a temperature peak at 2050 (1.6°C) that falls to 1.4°C by 2100, which implies overshoot, but this is not explicitly described as such in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers are explicitly named: (1) Network for Greening the Financial System (NGFS), (2) Intergovernmental Panel on Climate Change (IPCC), (3) New Zealand Climate Change Commission (CCC), and (4) KPMG New Zealand (developer of the retail sector scenarios from which Smartpay's scenarios were adapted).",
+      "evidence": "Reference Scenarios: Network for Greening the Financial System (NGFS): Net Zero 2050 scenario, Orderly category; Intergovernmental Panel on Climate Change (IPCC): SSP1-1.9; New Zealand Climate Change Commission: Tailwinds [...] The retail sector scenarios were developed as a collaboration between major organisations in the New Zealand retail industry (including Smartpay) and KPMG New Zealand in 2023",
+      "location_hint": "Table 6, p.7; Scenario Analysis section, p.6",
+      "confidence": "high",
+      "notes": "The primary scenario framework used by Smartpay was adapted from KPMG NZ's retail sector scenarios, which themselves reference NGFS, IPCC, and NZ CCC scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "No",
+      "evidence": "Network for Greening the Financial System (NGFS): Net Zero 2050 scenario, Orderly category; Intergovernmental Panel on Climate Change (IPCC): SSP1-1.9 [...] Intergovernmental Panel on Climate Change (IPCC): SSP1-2.6 [...] Intergovernmental Panel on Climate Change (IPCC): SSP3-7.0",
+      "location_hint": "Table 6, p.7",
+      "confidence": "high",
+      "notes": "The document only references SSP identifiers (SSP1-1.9, SSP1-2.6, SSP3-7.0) from the IPCC. No RCP identifiers are mentioned anywhere in the document. Therefore there is no pick-and-mix of SSPs and RCPs.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "The scenarios were adapted from 'The future of retail: Integrated Climate Change Scenarios for New Zealand's Retail Sector' [...] The scenario architecture and temperature pathways have been adapted from the retail sector scenarios to allow for consistency and enable comparability with other climate reporting entities who have used these scenarios in their analysis. [...] To develop Smartpay's entity-level scenarios for FY25, Smartpay first identified the driving forces included in the retail sector scenarios that will have the greatest influence in shaping and impacting our business model and strategy. These driving forces are outlined in Table 5. Smartpay then used the retail sector scenarios to inform and develop narratives relevant for each driving force for each scenario.",
+      "location_hint": "Scenario Analysis section, p.6",
+      "confidence": "high",
+      "notes": "The scenarios were explicitly adapted from industry-level (NZ retail sector) scenarios, and further customised at the entity level by selecting relevant driving forces and developing entity-specific narratives. The word \"adapted\" is used explicitly.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes",
+      "evidence": "The retail sector scenarios were developed as a collaboration between major organisations in the New Zealand retail industry (including Smartpay) and KPMG New Zealand in 2023, with the purpose to support strategic decision-making in retail businesses and those preparing climate-related disclosures in-line with the Aotearoa New Zealand Climate Standards. Smartpay chose to utilise the retail sector scenarios as Smartpay had significant involvement in their development as one of the project partners.",
+      "location_hint": "Scenario Analysis section, p.6",
+      "confidence": "high",
+      "notes": "The document describes a collaborative development process involving multiple industry organisations and KPMG NZ. Smartpay was a project partner. While the exact keywords \"participatory\" or \"co-design\" are not used, the description of collaborative development with multiple industry stakeholders clearly meets the intent of this question.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No explicit standalone baseline/reference scenario is described. However, the \"Current Policies\" (Hot House) scenario, referencing NGFS Current Policies and IPCC SSP3-7.0, functions as the high-warming reference point against which the other scenarios are implicitly compared.",
+      "evidence": "Scenario: Current Policies | Category: Hot House | Reference Scenarios: Network for Greening the Financial System (NGFS): Current Policies scenario, Hot House World category; Intergovernmental Panel on Climate Change (IPCC): SSP3-7.0; New Zealand Climate Change Commission: Current Policy Reference",
+      "location_hint": "Table 6, p.7",
+      "confidence": "medium",
+      "notes": "The document does not explicitly label any scenario as a \"baseline\" or \"reference\" scenario against which others are compared. The Current Policies scenario is described as representing current policy continuation, which is a common baseline approach, but this is not explicitly stated as such.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "not_found"
+      ],
+      "evidence": "Smartpay undertook climate change scenario analysis as a standalone process, rather than integrated within Smartpay's existing business strategy processes. No modelling was undertaken as part of the process. [...] All sector level modelling has been adopted from the retail sector scenarios. No modelling has occurred at the entity level.",
+      "location_hint": "Scenario Analysis Process, p.8; Scenario Analysis, p.6",
+      "confidence": "high",
+      "notes": "The document explicitly states no modelling was undertaken. No specific climate models, IAMs, or macroeconomic models are named. Sector-level modelling was adopted from the KPMG NZ retail sector scenarios, but no model names are cited.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "Physical Risks: Risks related to the physical impacts of climate change. Physical risks emanating from climate change can be event-driven (acute) such as increased severity of extreme weather events. [...] Smartpay's exposure to flooding was also assessed at the site level using publicly available online tools and resources [...] Physical climate change impacts may cause disruptions to our supply chain. Climate change impacts such as increasingly frequent and severe extreme weather events, sea-level rise and rising temperatures are expected to impact global supply chains as global surface temperatures rise. These impacts may increase Smartpay's exposure to supply chain disruptions, particularly in relation to our Smartpay's single terminal supplier and the sea freighting of terminals from Hong Kong to New Zealand and Australia. Disruptions that may materially impact Smartpay include events where our terminals are lost or destroyed in transit",
+      "location_hint": "p.9-10, p.15",
+      "confidence": "high",
+      "notes": "Acute physical risks (extreme weather events, flooding) are explicitly considered and assessed at the site level. However, no quantified financial damage/loss estimates are provided for acute events — the analysis is qualitative in nature. The document uses Adoption Provision 2 (anticipated financial impacts), meaning quantified financial impacts are not required.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon price",
+        "GDP per capita",
+        "sea level rise",
+        "extreme precipitation events",
+        "mean annual temperature change in New Zealand",
+        "global ambition",
+        "technological change",
+        "market conditions",
+        "macroeconomic conditions",
+        "consumer behaviour",
+        "cost and availability of insurance",
+        "exposure to legal action",
+        "labour market",
+        "finance availability",
+        "shareholder/investor expectations",
+        "Director & Officer liabilities",
+        "compliance requirements",
+        "changing consumer attitudes",
+        "changing employee attitudes",
+        "product/packaging/sales technology"
+      ],
+      "evidence": "Carbon price at 2050: $277 NZD | $369 NZD | $186 NZD [...] Global GDP per capita at 2050: $34,148 USD per capita | $34,148 USD per capita | $17,224 USD per capita [...] Median sea-level rise in New Zealand at 2100: 0.39m | 0.60m | 1.08m [...] Extreme precipitation events lasting 3hrs at 2050: 1 in 67 years | 1 in 62 years | 1 in 53 years [...] Mean annual temperature change in New Zealand at 2050: 1.46 °C | 1.61 °C | 1.90 °C",
+      "location_hint": "Table 5 and Table 6, p.6-7",
+      "confidence": "high",
+      "notes": "The document provides both quantitative variables (carbon price, GDP, sea level rise, precipitation frequency, temperature) and qualitative driving forces (market conditions, consumer behaviour, insurance availability, legal exposure, etc.).",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "Reference Scenarios: Network for Greening the Financial System (NGFS): Net Zero 2050 scenario [...] Intergovernmental Panel on Climate Change (IPCC): SSP1-1.9 [...] [global level] AND: Mean annual temperature change in New Zealand at 2050: 1.46 °C | 1.61 °C | 1.90 °C; Median sea-level rise in New Zealand at 2100: 0.39m | 0.60m | 1.08m; Extreme precipitation events lasting 3hrs at 2050: 1 in 67 years | 1 in 62 years | 1 in 53 years [New Zealand/regional level] AND: Smartpay's exposure to flooding was also assessed at the site level using publicly available online tools and resources [site/local level]",
+      "location_hint": "Table 6, p.7; Risk Management, p.15",
+      "confidence": "high",
+      "notes": "The scenarios use global reference scenarios (NGFS, IPCC SSPs) but also include New Zealand-specific physical variables (temperature, sea level rise, precipitation) and site-level flood assessments, indicating both global and regional/local scales are used.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short-term: 0–3 years (2024–2026); Medium-term: 4–10 years (2027–2033); Long-term: 11–77 years (2034–2100). Rationales are provided for each timeframe.",
+      "evidence": "Table 7: Time Horizons | Short-term: Next 0 - 3 years, 2024 – 2026. During this period, Smartpay can reasonably anticipate and plan for climate-related risks and opportunities that may impact its business operations, financial performance, and strategy. This time period may include some immediate physical and transition risks. There can be a strong focus on operational mitigation and efficiency. | Medium-term: Next 4 – 10 years, 2027 - 2033. During this period, Smartpay can reasonably anticipate and plan for climate-related risks and opportunities that may impact Smartpay's business model, supply chains, and capital investments. This period allows for considering more substantial changes to the business strategy and adapting to a changing climate landscape. Strong focus on strategic decision-making to support capital decisions on mitigation, investment in adaptation measures, and continued operational efficiency. | Long-term: Next 11 – 77 years, 2034 – 2100. During this period, Smartpay can reasonably anticipate and plan for climate-related risks and opportunities that may impact its strategic decisions related to emissions reduction pathways, research and development, investment cycles, and potential disruptions in the value chain. [...] the time horizons Smartpay used in its entity level analysis align to Smartpay's own strategic planning horizons and financial decision-making.",
+      "location_hint": "Table 7, p.9",
+      "confidence": "high",
+      "notes": "Rationales are explicitly provided for each timeframe, linked to Smartpay's strategic planning horizons and financial decision-making. The document also notes that the retail sector scenarios stretch to 2050, but Smartpay's entity-level horizons were aligned to its own planning cycles.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "Smartpay chose to utilise the retail sector scenarios as Smartpay had significant involvement in their development as one of the project partners. While Smartpay is not a retailer itself, the impacts of climate change on the retail sector are material for Smartpay as they occur within Smartpay's value chain and Smartpay's business model and strategy is dependent on retail trade. As the retail sector scenarios were developed at an industry level in New Zealand and are aligned with the External Reporting Board's requirements and supplementary guidance, Smartpay also chose to utilise these scenarios as this allows for more meaningful disclosure comparison for primary users of climate statements.",
+      "location_hint": "Scenario Analysis section, p.6",
+      "confidence": "high",
+      "notes": "Three explicit justifications are provided: (1) Smartpay's significant involvement in developing the retail sector scenarios as a project partner; (2) the retail sector's materiality to Smartpay's value chain and business model; and (3) alignment with XRB requirements enabling meaningful comparability with other climate reporting entities.",
+      "verification": null
+    }
+  ]
+}

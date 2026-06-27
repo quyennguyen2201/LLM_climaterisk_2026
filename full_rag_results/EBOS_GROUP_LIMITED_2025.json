@@ -1,0 +1,171 @@
+{
+  "source": "EBOS_GROUP_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 494753,
+      "output_tokens": 6101,
+      "total_tokens": 500854,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 451971,
+        "ephemeral_5m_input_tokens": 42764,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "RCP 2.6 / SSP1 (1.5°C scenario)",
+        "RCP 4.5 / SSP2 (2°C scenario)",
+        "RCP 8.5 / SSP5 (3°C scenario)"
+      ],
+      "evidence": "\"The analysis considered three scenarios based on Representative Concentration Pathways (RCPs) and Shared Socioeconomic Pathways (SSPs) sourced from the Intergovernmental Panel on Climate Change (IPCC) Fifth Assessment Report (Table 1). Our 1.5-degree Celsius scenario is based on RCP 2.6 and our 3-degree scenario on RCP 8.5. For our third scenario we have chosen a 2-degree scenario based on RCP 4.5.\"",
+      "location_hint": "Section 3.2, p.6-7",
+      "confidence": "high",
+      "notes": "Each RCP is paired with an SSP: RCP 2.6 with SSP1, RCP 4.5 with SSP2, RCP 8.5 with SSP5.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: (1) >1.5°C with limited overshoot (Paris Agreement goal achieved) under RCP 2.6; (2) >2°C and ≤3°C under RCP 4.5; (3) >3°C under RCP 8.5. Temperature overshoot is mentioned for the 1.5°C scenario (\"limited overshoot\").",
+      "evidence": "\"Global temperature outcomes: >1.5 °C with limited overshoot (Paris Agreement goal achieved). / >2°C and <= 3°C / >3 °C\"",
+      "location_hint": "Table 1, p.7",
+      "confidence": "high",
+      "notes": "Temperature overshoot is explicitly mentioned for the RCP 2.6 scenario as \"limited overshoot\".",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "IPCC (Intergovernmental Panel on Climate Change), specifically the Fifth Assessment Report",
+      "evidence": "\"The analysis considered three scenarios based on Representative Concentration Pathways (RCPs) and Shared Socioeconomic Pathways (SSPs) sourced from the Intergovernmental Panel on Climate Change (IPCC) Fifth Assessment Report (Table 1).\"",
+      "location_hint": "Section 3.2, p.6",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "\"The analysis considered three scenarios based on Representative Concentration Pathways (RCPs) and Shared Socioeconomic Pathways (SSPs) sourced from the Intergovernmental Panel on Climate Change (IPCC) Fifth Assessment Report (Table 1). Our 1.5-degree Celsius scenario is based on RCP 2.6 and our 3-degree scenario on RCP 8.5. For our third scenario we have chosen a 2-degree scenario based on RCP 4.5.\" Combined with Table 1 showing: RCP 2.6 paired with SSP1, RCP 4.5 with SSP2, RCP 8.5 with SSP5.",
+      "location_hint": "Section 3.2, p.6-7",
+      "confidence": "high",
+      "notes": "The document explicitly lists both RCP identifiers (from IPCC AR5) and SSP identifiers (from IPCC AR6) and pairs them together. RCPs are from the Fifth Assessment Report while SSPs are from a different generation of IPCC scenarios, making this a cross-generation mix. The document explicitly names both SSP and RCP identifiers in the same scenario table.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"Develop bespoke narratives to contextualise analysis\" and \"As our strategy continues to develop, we are evaluating climate hazards under each scenario impacting the Group's operations across Australia and New Zealand (Table 2) using historical data and forward-looking projections from local data sources (e.g. NIWA for New Zealand and Bureau of Meteorology and CSIRO for Australia).\"",
+      "location_hint": "Section 3.2 / Figure 3, p.8 and p.16",
+      "confidence": "medium",
+      "notes": "The document describes developing \"bespoke narratives to contextualise analysis\" and using local data sources (NIWA, Bureau of Meteorology, CSIRO) to evaluate hazards for Australia and New Zealand specifically. This indicates adaptation/localisation beyond off-the-shelf use, though the base scenarios remain IPCC RCPs/SSPs.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "\"Overseen by the Board and managed by the ESG Steering Committee, a scenario analysis was undertaken in consultation with external advisors and a selection of internal management stakeholders.\"",
+      "location_hint": "Section 3.2, p.6",
+      "confidence": "medium",
+      "notes": "The scenario analysis involved external advisors and internal management stakeholders, but there is no language indicating participatory, co-created, deliberative, or co-designed scenario development with broader stakeholders. The process appears to be a standard internal/consultant-led exercise.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The document does not describe a baseline or reference scenario against which the three climate scenarios (RCP 2.6, 4.5, 8.5) are compared. The three scenarios are presented as a range of possible futures, not compared against a no-climate-change baseline.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "global climate model projections (unnamed, used via insurer's Climate Resilience Tracker)"
+      ],
+      "evidence": "\"The Climate Resilience Tracker combines 'engineering data from site visits with the latest insights into climate change' and 'evaluates climate change impacts on perils using three climate change scenarios (RCP 2.6 RCP 4.5 and RCP 8.5) and global climate model projections for two future periods: short-term (2021-2040), and long-term (2041-2060)'.\" and \"We did not undertake any modelling.\"",
+      "location_hint": "Section 3.4.1, p.11; Section 3.2, p.8",
+      "confidence": "medium",
+      "notes": "No specific named climate models or IAMs are identified. The document explicitly states \"We did not undertake any modelling.\" Global climate model projections are referenced only through the insurer's Climate Resilience Tracker tool, which is not named as a specific model.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"The Climate Resilience Tracker... focusses on event-driven climate risks (Flood, Hail, Wildfire and Wind)... Table 5 provides a summary of the June 2025 report covering 35 key facilities.\" Table 5 shows: Flood – 8 sites, 15.3% exposed value; Hail – 5 sites, 35.4% exposed value; Wildfire – 4 sites, 20.3% exposed value; Wind – 3 sites, 9.5% exposed value. Also: \"50 – 100% of our business activities, represented by our value chain, are exposed to two key physical risks, being damage to EBOS assets/stock from extreme weather events, and disruption to supply chain from extreme weather events.\"",
+      "location_hint": "Section 3.4.1, p.11-12; Table 5, p.11",
+      "confidence": "high",
+      "notes": "The document provides exposure estimates (number of sites and % of insured value) for acute physical risks including flood, hail, wildfire, and wind. These are exposure/loss estimates rather than modelled financial damage figures, but they do constitute damage/loss estimates from extreme events.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "GHG emissions trajectory",
+        "sea level rise",
+        "rainfall/precipitation intensity",
+        "heatwaves",
+        "bushfire/wildfire frequency",
+        "drought frequency and duration",
+        "wind speed (tropical cyclones, storms)",
+        "energy pathways (renewables vs fossil fuels)",
+        "carbon price (internal, AU$40/tonne)",
+        "green technology adoption",
+        "deforestation/land use",
+        "negative emissions technologies (bioenergy with carbon capture and storage)",
+        "trade protectionism",
+        "population growth/immigration",
+        "urbanisation"
+      ],
+      "evidence": "\"The below table shows projected climate hazards arising from all climate scenarios assessed in the scenario analysis to date. [including] Heatwaves, Temperature, Bushfires, Drought, Precipitation, Wind, Sea-level rise\" and Table 1 includes: \"Global GHG trajectory\", \"Energy pathways\", \"Nature-based solutions\", \"Negative emissions technologies\", \"Political context\", \"Social context\", \"Technological context\", \"Economic context\"",
+      "location_hint": "Table 1 p.7; Table 2 p.8-9; Section 3.5 p.13",
+      "confidence": "high",
+      "notes": "Variables span both physical climate hazards (Table 2) and socioeconomic/transition drivers (Table 1). Internal carbon price of AU$40/tonne is also used as a scenario variable for investment decisions.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"The analysis considered three scenarios based on Representative Concentration Pathways (RCPs) and Shared Socioeconomic Pathways (SSPs) sourced from the Intergovernmental Panel on Climate Change (IPCC) Fifth Assessment Report\" [global] and \"we are evaluating climate hazards under each scenario impacting the Group's operations across Australia and New Zealand (Table 2) using historical data and forward-looking projections from local data sources (e.g. NIWA for New Zealand and Bureau of Meteorology and CSIRO for Australia)\" [regional/local]",
+      "location_hint": "Section 3.2, p.6; Section 3.2, p.8",
+      "confidence": "high",
+      "notes": "The base scenarios are global IPCC RCPs/SSPs, but hazard projections are evaluated at a regional/local level using NIWA (NZ), Bureau of Meteorology and CSIRO (Australia), and the insurer's Climate Resilience Tracker which uses global climate model projections applied to specific facility locations.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Two sets of time horizons are used: (1) For the original FY23 scenario analysis: short-term = 1–3 years to 2025, medium-term = 3–10 years to 2050, long-term = 10–30 years to 2050. (2) For FY25 risk assessment: short-term = 3 years to 2029, medium-term = 2029 to 2030, long-term = 2031 to 2050. Rationale is provided for the FY25 horizons.",
+      "evidence": "\"For this analysis, short-term was defined as 1-3 years to 2025, medium-term as 3-10 years to 2050 and long-term as 10-30 years to 2050.\" and \"Management evaluated potential impacts of the risks over three time horizons. These time horizons align with published information, insurer assessments and internal strategic planning horizons: Short-term (3 years to 2029), Medium-term (2029 to 2030), Long-term (2031 to 2050). EBOS undertakes an annual strategic business review for a 3-year period which aligns with the short-term horizon. Medium and long-term horizons particularly apply to capital projects that could have an economic and technical life of up to 20 years (up to 50 years for real estate).\"",
+      "location_hint": "Section 3.2, p.6; Section 3.3.1, p.8",
+      "confidence": "high",
+      "notes": "Rationale is explicitly provided for the FY25 risk assessment time horizons (alignment with strategic planning, capital project lifespans, and property lease terms). The original FY23 scenario analysis time horizons are stated but without explicit rationale in the FY25 document.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"We selected these scenarios as they outline a broad range of possible and generally well-documented futures over multiple horizons that encompass the whole Group's operations.\"",
+      "location_hint": "Section 3.2, p.6",
+      "confidence": "high",
+      "notes": "The justification is brief but explicit: the scenarios were chosen because they cover a broad range of possible futures, are well-documented, span multiple time horizons, and encompass all of the Group's operations.",
+      "verification": null
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "source": "SOUTHERN_CROSS_MEDICAL_CARE_SOCIETY_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 705961,
+      "output_tokens": 5935,
+      "total_tokens": 711896,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 665639,
+        "ephemeral_5m_input_tokens": 40299,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly",
+        "Too Little, Too Late",
+        "Hothouse"
+      ],
+      "evidence": "We developed four climate scenario narratives, using conditions assumed to exist under three temperature scenarios: \"Orderly\", \"Too Little, Too Late\" and \"Hothouse\".",
+      "location_hint": "Section 2 – Strategy, p.13",
+      "confidence": "high",
+      "notes": "The document says \"four climate scenario narratives\" but only three named temperature scenarios. The four narratives are the three scenarios applied across three time horizons, with the fourth being a variant. The three named scenarios are Orderly, Too Little Too Late, and Hothouse.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: 1.5°C (Orderly), >2°C / 2.7°C (Too Little, Too Late), and >3°C / 4.4°C (Hothouse) by 2100.",
+      "evidence": "Orderly 1.5C ... Too Little, Too Late >2C ... Hothouse >3C ... [Orderly] is consistent with net zero by 2050, limiting global warming to 1.5 degrees C. ... [Too Little, Too Late] Globally temperatures warm by 2.7 degrees C by 2100. ... [Hothouse] Ongoing fossil fuel use sees emissions continue to rise throughout the 21st century, leading to 4.4 degrees C of warming at the end of the century.",
+      "location_hint": "Appendix 1 (p.28) and Appendix 2 (p.29)",
+      "confidence": "high",
+      "notes": "Specific temperature values by 2100 are given for all three scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "The Financial Services Council (FSC) is the primary scenario provider, with underlying data from IPCC, NGFS, IEA, NIWA, and CCC.",
+      "evidence": "Each scenario was created using conditions assumed to exist under each scenario, over three time-horizons (short, medium and long term), as described in the Climate Scenario Narratives for the Financial Services Sector report prepared by the Financial Services Council (dated 9 June 2023) (FSC sector scenarios). This report was prepared to assist participants in the life insurance, health insurance and fund management sectors with climate scenario analysis, and the scenarios were therefore considered appropriate to the Society, as a health insurer.",
+      "location_hint": "Section 2 – Strategy, p.13; Appendix 2, p.29",
+      "confidence": "high",
+      "notes": "The FSC scenarios themselves draw on IPCC SSPs, NGFS pathways, IEA scenarios, NIWA RCPs, and CCC pathways as listed in Appendix 2.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "Global Climate Parameters: IPCC SSP 1 / IPCC SSP2 / IPCC SSP3-7.0 ... NZ-specific Climate Parameters: NIWA RCP2.6 / NIWA RCP4.5 / NIWA RCP8.5",
+      "location_hint": "Appendix 2, p.29",
+      "confidence": "high",
+      "notes": "The document explicitly lists both SSP identifiers (for global parameters) and RCP identifiers (for NZ-specific parameters), combining them across the same scenarios. SSPs and RCPs are from different IPCC assessment generations and are not from the same internally consistent scenario family.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "This report was prepared to assist participants in the life insurance, health insurance and fund management sectors with climate scenario analysis, and the scenarios were therefore considered appropriate to the Society, as a health insurer. The Society was a participant in the Financial Service Council working group that developed the scenarios and created the report. Our scenarios were created with the help of specialist external advisers (Finity Consulting Pty Ltd), and with input from an internal working group made up of representatives from across the business (Society Working Group).",
+      "location_hint": "Section 2 – Strategy, p.13",
+      "confidence": "medium",
+      "notes": "The scenarios were adapted for the financial services/health insurance sector context (FSC sector scenarios), and the Society further tailored them with specialist advisers and an internal working group. The document does not use the exact words \"downscaled\" or \"customised\" but describes a clear adaptation process for the health insurance sector and NZ context, including NZ-specific climate parameters from NIWA and CCC.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes",
+      "evidence": "The Society was a participant in the Financial Service Council working group that developed the scenarios and created the report. Our scenarios were created with the help of specialist external advisers (Finity Consulting Pty Ltd), and with input from an internal working group made up of representatives from across the business (Society Working Group). ... Step 2: Identified key stakeholders to form the Society Working Group to engage with and help develop the climate scenarios and identify climate-related risks to the Society's business strategy. Step 3: Drafted scenarios and met with the Society Working Group. Step 5: Tested and refined climate scenarios through small group interviews, including a meeting with the Society's Chief Medical Officer, and discussions with the Society Working Group.",
+      "location_hint": "Section 2 – Strategy, p.13",
+      "confidence": "high",
+      "notes": "The Society participated in the FSC working group that developed the base scenarios, and also used an internal working group (Society Working Group) with stakeholder input to develop and refine their own scenarios. This constitutes participatory/co-produced scenario development.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No",
+      "evidence": "We developed four climate scenario narratives, using conditions assumed to exist under three temperature scenarios: \"Orderly\", \"Too Little, Too Late\" and \"Hothouse\".",
+      "location_hint": "Section 2 – Strategy, p.13",
+      "confidence": "medium",
+      "notes": "The document does not describe a separate baseline or reference scenario against which the three climate scenarios are compared. Impacts are assessed relative to annual cost of claims (as at FY23), but this is a financial baseline, not a climate scenario baseline. The three scenarios are compared against each other rather than against a no-climate-change baseline.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "Generate Zero"
+      ],
+      "evidence": "We did not undertake any additional climate modelling beyond that which is embedded in the FSC sector scenarios. ... In FY25 we implemented a new GHG data platform (Generate Zero) which enables us to record our GHG emissions with greater efficiency and accuracy.",
+      "location_hint": "Section 2 – Strategy, p.13; Section 4 – Metrics and Targets, p.20",
+      "confidence": "medium",
+      "notes": "Generate Zero is a GHG data platform, not a climate model or IAM. No climate models or IAMs are explicitly named in the document. The document states no additional climate modelling was undertaken beyond what is embedded in the FSC sector scenarios, and the underlying models used in those FSC scenarios are not named.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "Business disruption due to extreme weather, including more storms, flooding and heat waves, with associated risks of power blackout. Limited impact in all three scenarios, over short to medium term. More likely in long term but still limited impact, noting that the Society does not cover emergency presentations. Short-term impacts on our business operations. For example, our ability to process claims and policies may be temporarily affected. Impacts are expected to be manageable, as part of our normal business continuity processes.",
+      "location_hint": "Appendix 3, p.30",
+      "confidence": "high",
+      "notes": "The scenario analysis explicitly includes consideration of damage/disruption from extreme weather events (storms, flooding, heat waves, power blackouts). The analysis is qualitative rather than quantitative in terms of loss estimates.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon price",
+        "emissions trading schemes",
+        "carbon taxes",
+        "low emission technology adoption",
+        "electric vehicle adoption",
+        "renewable energy",
+        "electricity costs",
+        "price inflation",
+        "government policy/legislation",
+        "air quality",
+        "allergens",
+        "extreme weather events (storms, flooding, heat waves)",
+        "power supply/blackouts",
+        "demographic changes",
+        "socio-economic changes"
+      ],
+      "evidence": "This includes greater stringency and scope of mandatory climate reporting, emissions trading schemes and carbon taxes around the world... Global emissions decline rapidly, driven in part by an increase in carbon pricing... investment in low emission and emission abatement technology. This includes a rapid take up of electronic vehicles... electricity costs still rise by 20% over the medium term... Business disruption due to extreme weather, including more storms, flooding and heat waves, with associated risks of power blackout... Changing air quality has an impact on prevalence of lung disease... Complex mix of demographic and socio-economic changes, across the private and public health systems.",
+      "location_hint": "Appendix 1 (p.28), scenario narratives table (p.14), Appendix 3 (p.30)",
+      "confidence": "high",
+      "notes": "Multiple non-temperature variables are used to characterise the scenarios across physical and transition risk dimensions.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "Global Climate Parameters: IPCC SSP 1 / IPCC SSP2 / IPCC SSP3-7.0 ... NZ-specific Climate Parameters: NIWA RCP2.6 / NIWA RCP4.5 / NIWA RCP8.5 ... NZ-specific Emission Pathways: CCC Tailwinds / CCC Headwinds / CCC Current Policy Reference",
+      "location_hint": "Appendix 2, p.29",
+      "confidence": "high",
+      "notes": "The scenarios use both global parameters (IPCC SSPs, NGFS, IEA) and NZ-specific/regional parameters (NIWA RCPs, CCC pathways), indicating both global and regional/local scale inputs.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short term: 1–3 years; Medium term: 5–10 years; Long term: 30 years (2050+). Rationales are provided for each.",
+      "evidence": "Short Term: 1-3 years — The Society's strategic planning horizon and the short-term horizon defined in the FSC scenarios. Medium Term: 5-10 years — The medium-term horizon defined in FSC scenarios. Long Term: 30 years — The long-term horizon defined in FSC scenarios.",
+      "location_hint": "Section 2 – Strategy, p.13–14",
+      "confidence": "high",
+      "notes": "The document provides brief justifications for each time horizon, linking them to the Society's strategic planning horizon and the FSC sector scenario definitions. The document also notes that the short-term horizon may be extended to 5 years at the next review.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "This report was prepared to assist participants in the life insurance, health insurance and fund management sectors with climate scenario analysis, and the scenarios were therefore considered appropriate to the Society, as a health insurer. The Society was a participant in the Financial Service Council working group that developed the scenarios and created the report.",
+      "location_hint": "Section 2 – Strategy, p.13",
+      "confidence": "high",
+      "notes": "The justification is that the FSC sector scenarios were specifically designed for the life insurance, health insurance and fund management sectors, making them appropriate for the Society as a health insurer. The Society's participation in the FSC working group that developed the scenarios is also cited as a reason for their appropriateness.",
+      "verification": null
+    }
+  ]
+}

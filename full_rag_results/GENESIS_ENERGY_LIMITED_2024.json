@@ -1,0 +1,173 @@
+{
+  "source": "GENESIS_ENERGY_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1015740,
+      "output_tokens": 6757,
+      "total_tokens": 1022497,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 961088,
+        "ephemeral_5m_input_tokens": 54627,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Green tape",
+        "Energy transformation",
+        "Hot house"
+      ],
+      "evidence": "\"Using the process outlined in this section we developed three plausible but distinctly different future scenarios (Green tape, Energy transformation and Hot house as described on pages 22-24) to test the resilience of our business model and strategy\"",
+      "location_hint": "Section 7.2, p.21",
+      "confidence": "high",
+      "notes": "Each scenario is also associated with an RCP and SSP pathway: Green tape = RCP 2.6 / SSP 1 / Orderly (Net Zero 2050); Energy transformation = RCP 4.5 / SSP 2 / Disorderly (Delayed transition); Hot house = RCP 8.5 / SSP 5 / Hot house (Current policies).",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: 1.5°C (Green tape), 2.0°C (Energy transformation), and >3°C (Hot house) by 2100. No temperature overshoot is mentioned.",
+      "evidence": "\"Policy ambition: 1.5°C / 2.0°C / >3.0°C\" and \"leading to severe physical climate change impacts and a global temperature rise of >3°C by 2100.\"",
+      "location_hint": "Section 7.2, pp.22 and 25",
+      "confidence": "high",
+      "notes": "The 1.5°C target is explicitly linked to the Paris Agreement. The >3°C outcome is explicitly stated as being by 2100.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple providers are referenced. The scenarios were developed internally with guidance from PwC and West Nine Consulting Limited. Reference data was drawn from: IPCC (AR6), IEA (Global Energy and Climate Model / Net Zero by 2050), Climate Change Commission (NZ), Ministry for the Environment (NZ), IIASA (SSP Database), and others.",
+      "evidence": "\"We engaged PwC and West Nine Consulting Limited to guide and support the development of the scenarios and the scenario analysis.\" And Appendix I lists: \"Intergovernmental Panel on Climate Change. (2021). Sixth Climate Change Assessment Report. International Energy Agency. (2022). Global Energy and Climate Model. ... International Institute for Applied Systems Analysis. (2018). SSP Database (Shared Socioeconomic Pathways) Scenario Explorer.\"",
+      "location_hint": "Section 7.2, p.21; Appendix I, p.67",
+      "confidence": "high",
+      "notes": "The scenarios were custom-built by Genesis with PwC and West Nine Consulting, drawing on multiple external data sources.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "\"Pathways: RCP 2.6 / SSP 1 / Orderly (Net Zero 2050) | RCP 4.5 / SSP 2 / Disorderly (Delayed transition) | RCP 8.5 / SSP 5 / Hot house (Current policies)\"",
+      "location_hint": "Section 7.2, p.22",
+      "confidence": "high",
+      "notes": "The document explicitly lists both RCP and SSP identifiers for each scenario. RCP 2.6 is from CMIP5/AR5 while SSP1 is from CMIP6/AR6 — these are not from the same internally consistent scenario family. The document pairs them together for each scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"During FY23 we undertook scenario analysis to help identify material climate-related risks and opportunities... We engaged PwC and West Nine Consulting Limited to guide and support the development of the scenarios and the scenario analysis. The scenarios were reviewed by these experts and business stakeholders to ensure coherency, plausibility and that they were sufficiently challenging enough to test the business model and strategy under difficult circumstances.\"",
+      "location_hint": "Section 7.2, p.21",
+      "confidence": "high",
+      "notes": "The scenarios were custom-developed for Genesis' specific business context (New Zealand energy sector), drawing on multiple reference sources including NZ-specific data (NIWA, Climate Change Commission, MfE, MBIE). The scenarios include NZ-specific physical projections (e.g. West Coast rainfall, North Island wind speeds, NZ hydro inflows). They are not used off-the-shelf from a single provider.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "\"Key internal stakeholders identified and prioritised climate-related risks and opportunities... We engaged PwC and West Nine Consulting Limited to guide and support the development of the scenarios and the scenario analysis. The scenarios were reviewed by these experts and business stakeholders to ensure coherency, plausibility...\"",
+      "location_hint": "Section 7.2, p.21",
+      "confidence": "medium",
+      "notes": "The scenario development involved internal stakeholders and external consultants (PwC, West Nine Consulting), but there is no explicit language of \"participatory\", \"co-created\", \"deliberative\", \"co-design\", or \"collaborative development\" with external stakeholders or communities. The process appears to be internally driven with expert consultant support.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No explicit baseline or reference scenario is described against which the climate scenarios are compared. However, the \"Hot house\" scenario (RCP 8.5 / SSP 5 / \"Current policies\") could be interpreted as a current-policies reference scenario.",
+      "evidence": "\"Hot house: Greenhouse gas emissions continue to increase. Government response based on adaptation, not mitigation... RCP 8.5 / SSP 5 / Hot house (Current policies)\"",
+      "location_hint": "Section 7.2, p.22",
+      "confidence": "medium",
+      "notes": "The document does not explicitly label any scenario as a \"baseline\" or \"reference\" scenario. The Hot house scenario is labelled \"Current policies\" which is a common reference scenario framing, but it is not explicitly described as a baseline against which the others are compared.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "IEA Global Energy and Climate Model",
+        "IIASA SSP Database (Shared Socioeconomic Pathways) Scenario Explorer",
+        "Climate Change Commission Scenarios Dataset"
+      ],
+      "evidence": "\"International Energy Agency. (2022). Global Energy and Climate Model. ... International Institute for Applied Systems Analysis. (2018). SSP Database (Shared Socioeconomic Pathways) Scenario Explorer. ... Climate Change Commission. (2021). Scenarios Dataset Final Advice: Global Energy and Climate Model.\"",
+      "location_hint": "Appendix I, p.67",
+      "confidence": "high",
+      "notes": "No IAMs (e.g. REMIND, MESSAGE) or macroeconomic models (e.g. NiGEM) are explicitly named. The document also references \"analysis using international climate models\" in the exposure analysis section but does not name specific climate models. The document states \"No quantitative modelling was undertaken\" for the scenario analysis itself.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"More frequent intense rain events and flooding have the potential to: Cause loss of civil integrity of generation and ancillary infrastructure (e.g. dams, spillways, storage ponds) resulting in loss of generation revenue... Damage electricity transmission lines, communication networks or road access, which could impact generation revenue and increase operating and capital expenditure costs.\" And: \"Extreme events occur (precipitation of up to one metre of rainfall in 48 hours localised to one area in the country)... Flooding occurs in many areas across the country, creating landslides and disrupting transportation and communications.\"",
+      "location_hint": "Section 7.3, p.36; Scenario description (Hot house), p.25",
+      "confidence": "high",
+      "notes": "The scenario analysis explicitly includes acute physical risks (extreme rainfall, flooding, tropical cyclones, extreme wind events) and their potential damage to infrastructure. However, the analysis is qualitative — the document states \"No quantitative modelling was undertaken.\"",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "precipitation/rainfall",
+        "snow days",
+        "river flows/hydro inflows",
+        "wind speed",
+        "tropical cyclone frequency and intensity",
+        "drought frequency",
+        "sea level rise",
+        "carbon/emissions price",
+        "electricity demand",
+        "coal demand",
+        "technology adoption (EV, solar, batteries, hydrogen)",
+        "government policy ambition",
+        "access to capital and insurance",
+        "customer preference change",
+        "demand change"
+      ],
+      "evidence": "\"Rain increases by up to 30% over a year but falls on fewer days with heavier rain and less snow (snow days per year reduce by 30 days)... Droughts intensify and become more frequent over time... Average (monthly) wind speeds increase to 22–27 knots... Tropical cyclones become more frequent, intense, and push south... Ministry for the Environment. (2022). Interim guidance on the use of new sea-level rise projections... The internal emissions price is a key input in calculating the wholesale electricity price path...\"",
+      "location_hint": "Section 7.2, pp.22-25; Appendix I, p.67; Section 8.6, p.64",
+      "confidence": "high",
+      "notes": "Sea level rise is referenced in the source data (MfE guidance) but not explicitly quantified in the scenario narratives. Carbon price is used as an internal metric but is not explicitly varied across scenarios in the narrative.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"The physical impact of climate change on these assets has been considered out to 2100 using the three Representative Concentration Pathways used in our scenarios\" and scenario descriptions include both global references (e.g. \"Global coal demand falls rapidly during the 2030's\") and New Zealand/regional specifics (e.g. \"The largest changes in precipitation occur on the West Coast in the winter season, with an average increase up to 40% by 2090. Snow days per year reduce by 30 days or more by 2090... Most significant increases occur in the southern half of the North Island, and throughout the South Island.\").",
+      "location_hint": "Section 7.2, pp.22-25; Section 6.1, p.18",
+      "confidence": "high",
+      "notes": "The scenarios use global RCP/SSP frameworks but include NZ-specific physical projections sourced from NIWA and MfE. The exposure analysis also uses \"international climate models\" applied to NZ generation assets.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short: 1–5 years (to 2029); Medium: 6–15 years (to 2039); Long: 16–26 years (to 2050). Physical risks to generation assets are considered out to 2100. Rationales are explicitly provided for each timeframe.",
+      "evidence": "\"Short: 1-5 years (2029) — Aligns with the time horizon used for Genesis' operating plan. Medium: 6-15 years (2039) — Closely aligns with the time horizon used for Genesis' corporate strategy (Gen35) which looks out to 2035 and our commitment to net zero 2040 science-based target. Long: 16-26 years (2050) — Aligns with the Intergovernmental Panel on Climate Change (IPCC) findings that to limit the temperature increase to 1.5°C above pre-industrial levels, emissions would have to peak now and reduce by around half by 2030, and globally net zero emissions need to be attained by 2050. The only exception to this was the length of time considered for physical risks to our generation assets which was considered through to 2100 to align with their useful lives.\"",
+      "location_hint": "Section 6.1, p.18",
+      "confidence": "high",
+      "notes": "Rationales are clearly provided for all three timeframes, linking them to internal planning horizons (operating plan, Gen35 strategy, net zero 2040 SBT) and IPCC findings. The 2100 extension for physical risks is justified by asset useful lives.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"The Green tape (1.5°C) and the Hot house (>3°C) scenarios were chosen as they align with the requirements of the Aotearoa New Zealand Climate Standards. The Energy transformation (2.0°C) scenario is considered the most challenging and plausible scenario for our business because it has high transition risks and moderate physical risks. In comparison Green tape focuses on transitional risks and Hot house focuses on physical risks. The Energy transformation scenario is considered relevant, as it aligns with International Energy Agency (IEA) reference scenarios. By utilising these three scenarios, we tested the resilience of our business strategy with a broad range of climate-related risks and opportunities.\"",
+      "location_hint": "Section 7.2, p.26",
+      "confidence": "high",
+      "notes": "The justification covers: regulatory compliance (NZ Climate Standards), business relevance (most challenging/plausible), alignment with IEA reference scenarios, and breadth of risk coverage.",
+      "verification": null
+    }
+  ]
+}

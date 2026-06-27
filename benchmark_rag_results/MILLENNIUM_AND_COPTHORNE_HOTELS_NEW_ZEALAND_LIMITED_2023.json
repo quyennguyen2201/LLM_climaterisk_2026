@@ -1,0 +1,177 @@
+{
+  "source": "MILLENNIUM_AND_COPTHORNE_HOTELS_NEW_ZEALAND_LIMITED_2023",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "total_tokens": 578330,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "cache_creation": 0,
+        "cache_read": 522930,
+        "ephemeral_5m_input_tokens": 49911
+      },
+      "output_tokens": 5472,
+      "input_tokens": 572858
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "1.5°C scenario",
+        "2.0°C scenario",
+        "3.0°C scenario"
+      ],
+      "evidence": "\"1.5°C scenario ... A 1.5 degree scenario assumes that a pathway to global sustainability is achievable ... 2.0°C scenario ... A 2.0 degree scenario assumes that a pathway to global sustainability is not achievable ... 3.0°C scenario ... A 3.0 degree scenario assumes that the wider environment is seriously degraded\"",
+      "location_hint": "Page 3–4",
+      "confidence": "high",
+      "notes": "Three temperature-based scenarios are used: 1.5°C, 2.0°C, and 3.0°C. No SSP or RCP labels are used.",
+      "verification": 5,
+      "ani_notes": "None but scenarios are mentioned."
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: 1.5°C (most optimistic), 2.0°C (disorderly/higher emissions), and 3.0°C (\"hot house world\"). No explicit 2100 endpoint is stated; the scenarios are framed around global warming levels rather than a specific year. Temperature overshoot is implicitly noted: \"in the near term, global warming is more likely than not to reach 1.5°C even under the very low GHG emission scenario.\"",
+      "evidence": "\"Global warming will continue to increase in the near term (2021–2040) mainly due to increased cumulative CO2 emissions. In the near term, global warming is more likely than not to reach 1.5°C even under a very low GHG emission scenario and likely or very likely to exceed 1.5°C under higher emissions scenarios\"",
+      "location_hint": "Pages 2–4",
+      "confidence": "high",
+      "notes": "The document does not explicitly tie temperature outcomes to the year 2100; it uses warming levels as scenario labels. Overshoot is implied for the 1.5°C scenario.",
+      "verification": 5,
+      "ani_notes": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple providers are named: IPCC (International Panel on Climate Change), NIWA (National Institute of Water and Atmospheric Research), The Aotearoa Circle, and the Ministry for the Environment (MfE).",
+      "evidence": "\"For our 2023 scenario modelling, we have used data from the International Panel on Climate Change (IPCC) 5th and 6th Assessment Reports and the AR6 Synthesis Report: Climate Change 2023 ... We have also had regard to some of the scenario modelling data which was developed and used by The Aotearoa Circle and the Climate Change scenarios for New Zealand published by the National Institute of Water and Atmospheric Research (NIWA) ... We have also referred to the Ministry for the Environment's 'Aotearoa New Zealand climate change projections guidance'.\"",
+      "location_hint": "Page 2",
+      "confidence": "high",
+      "notes": "Four distinct providers are explicitly named.",
+      "verification": 5,
+      "ani_notes": "International Panel on Climate Change (IPCC) 5th and 6th Assessment Reports and the AR6 Synthesis Report: Climate Change 20236 which was published by the IPCC in March 2023 The Aotearoa Circle7 and the Climate Change scenarios for New Zealand published by the National Institute of Water and Atmospheric Research (NIWA)8 including their New Zealand findings from the IPCC 5th Assessment Report9. We have also referred to the Ministry for the Environment’s Aotearoa New Zealand climate changeprojections guidance"
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "No",
+      "evidence": "The document uses temperature-based scenarios (1.5°C, 2.0°C, 3.0°C) and references IPCC AR5 and AR6 reports, but does not explicitly list SSP or RCP identifiers anywhere in the document.",
+      "location_hint": "Pages 2–4",
+      "confidence": "high",
+      "notes": "No SSP or RCP labels appear in the document. Scenarios are described purely by temperature level.",
+      "verification": 1,
+      "ani_notes": "Yes - they have mixed and picked"
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "No",
+      "evidence": "\"our scenario analysis was done on a basic level internally, is a narrative-driven analysis but not fully detailed.\"",
+      "location_hint": "Page 2",
+      "confidence": "high",
+      "notes": "The document does not use language such as \"downscaled\", \"adapted\", \"localised\", \"customised\", or \"tailored\". The scenarios are described as internally developed narrative analyses drawing on IPCC, NIWA, and MfE data, but no explicit customisation or adaptation methodology is described.",
+      "verification": 5,
+      "ani_notes": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "No language such as \"participatory\", \"co-creat\", \"deliberat\", \"co-design\", \"stakeholder input\", or \"collaborative development\" appears in relation to scenario development. The document states the scenario analysis was \"done on a basic level internally\".",
+      "location_hint": "Page 2",
+      "confidence": "high",
+      "notes": "A stakeholder engagement framework is described (page 8) but it is not linked to scenario development.",
+      "verification": 5,
+      "ani_notes": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No",
+      "evidence": "No explicit baseline or reference scenario is described against which the three climate scenarios are compared. The document notes \"2023 is our base year\" in the context of GHG emissions reporting, not as a climate scenario baseline.",
+      "location_hint": "Pages 2–4",
+      "confidence": "high",
+      "notes": "The three scenarios (1.5°C, 2.0°C, 3.0°C) are presented as standalone scenarios, not compared against a \"business as usual\" or reference scenario.",
+      "verification": 5,
+      "ani_notes": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [],
+      "evidence": "No specific climate models, IAMs, or macroeconomic models are named. The document references IPCC AR5 and AR6 reports and NIWA scenarios but does not name any underlying models (e.g., CLIMADA, REMIND, MESSAGE, GCAM, etc.).",
+      "location_hint": "Page 2",
+      "confidence": "high",
+      "notes": "The only tool named is \"Toitu emanage\" which is used for GHG emissions calculation, not climate scenario modelling.",
+      "verification": 5,
+      "ani_notes": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"Responses to extreme weather events such as flooding / natural disasters ... Building maintenance costs: Maintenance costs are likely to increase in at least two ways – there will be the costs of conducting maintenance and repairs after an event ... Revenue loss: Weather events and natural disasters can lead to revenue loss in several ways. Damage to the property may mean that guests may need to be moved to other rooms while repairs are carried out and future reservations may need to cancelled for a period of time if repairs are ongoing.\"",
+      "location_hint": "Pages 3–4",
+      "confidence": "high",
+      "notes": "Damage and loss from extreme events (flooding, storms, extreme heat days) are discussed qualitatively across all three scenarios. However, the document explicitly states that financial impacts have not yet been quantified: \"The financial impact of the scenario assessments we have done to date is yet to be quantified.\"",
+      "verification": 5,
+      "ani_notes": "None (but they have mentioned extreme weather events and flooding, F.)"
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "sea level rise",
+        "rainfall",
+        "extreme weather events / flooding",
+        "storms / cyclones / hurricanes",
+        "extreme heat days",
+        "fire weather indices",
+        "GHG emissions / carbon pricing",
+        "energy costs",
+        "insurance premiums",
+        "population growth"
+      ],
+      "evidence": "\"physical risks are those relating to the physical impacts of climate change, including via temperature, rainfall, storms, extreme weather events, and sea-level rise ... A 3.0 degree scenario assumes that the wider environment is seriously degraded with continued global warming intensifying the global water cycle resulting in more dramatic climate events (wet and dry), more variable or extreme events such as storms, cyclones or hurricanes, a reduction in the ability of land and ocean carbon sinks to absorb emissions and further global mean sea-level rise ... For New Zealand, the number of extreme heat days could increase to between 15 to 30 additional such days and in certain area of New Zealand there will be changes to rainfall patterns and flooding is likely to increase. Fire weather indices are also projected to increase in many parts of the country\"",
+      "location_hint": "Pages 2–5",
+      "confidence": "high",
+      "notes": "Variables are drawn from both physical and transition risk categories across the three scenarios.",
+      "verification": 5,
+      "ani_notes": "None (but many variables are mentioned, F.)."
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"For our 2023 scenario modelling, we have used data from the International Panel on Climate Change (IPCC) 5th and 6th Assessment Reports ... We have also had regard to some of the scenario modelling data which was developed and used by The Aotearoa Circle and the Climate Change scenarios for New Zealand published by the National Institute of Water and Atmospheric Research (NIWA) including their New Zealand findings from the IPCC 5th Assessment Report. We have also referred to the Ministry for the Environment's 'Aotearoa New Zealand climate change projections guidance'.\"",
+      "location_hint": "Page 2",
+      "confidence": "medium",
+      "notes": "The document draws on both global IPCC data and New Zealand-specific data from NIWA and MfE. However, no explicit downscaling methodology is described; the NZ-specific data is referenced as a source rather than a formal downscaling exercise.",
+      "verification": 5,
+      "ani_notes": "None (but it is stated that the scale is both, F.)."
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Near Term: 2023–2030; Mid Term: 2031–2050; Long Term: 2051 onwards. No explicit rationale for these specific timeframes is provided.",
+      "evidence": "\"For our 2023 modelling, we have defined the Near Term as being 2023 to 2030, Mid Term to be 2031 to 2050 and Long Term to be 2051 onwards.\"",
+      "location_hint": "Page 3",
+      "confidence": "high",
+      "notes": "The timeframes are stated but no justification is given for why these specific periods were chosen.",
+      "verification": 5,
+      "ani_notes": "None (but they have mentioned the time frames in footnote 11, F.)."
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "No",
+      "evidence": "\"As 2023 is our base year, our scenario analysis was done on a basic level internally, is a narrative-driven analysis but not fully detailed. The financial impact of the scenario assessments we have done to date is yet to be quantified. With the information we have gathered as part of the GHG assessment and audit, we expect to do more detailed work in 2024 and to provide more detailed analysis as part of future disclosures. Future analysis will incorporate external advice.\"",
+      "location_hint": "Page 2",
+      "confidence": "high",
+      "notes": "The document lists the data sources used (IPCC, NIWA, Aotearoa Circle, MfE) but provides no explicit justification for why these specific sources or temperature-level scenarios were chosen over alternatives.",
+      "verification": 5,
+      "ani_notes": null
+    }
+  ]
+}

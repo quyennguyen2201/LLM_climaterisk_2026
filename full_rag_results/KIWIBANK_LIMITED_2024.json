@@ -1,0 +1,170 @@
+{
+  "source": "KIWIBANK_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 990921,
+      "output_tokens": 7144,
+      "total_tokens": 998065,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 934853,
+        "ephemeral_5m_input_tokens": 56044,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly",
+        "Too Little, Too Late",
+        "Hothouse"
+      ],
+      "evidence": "We consider that the three scenarios identified - \"Orderly\", \"Too Little, Too Late\" and \"Hothouse\" – allow for a range of possible climate futures, with different levels of transition risk and physical risk present in each scenario.",
+      "location_hint": "p.18, Scenario analysis section",
+      "confidence": "high",
+      "notes": "The document also references the RBNZ Climate Stress Test scenario (NGFS Phase III Delayed Transition + Current Policies) as a separate exercise, but the three named scenarios above are Kiwibank's own FY24 scenario analysis framework.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes by 2100 are described: 1.4°C (Orderly scenario, stabilising at 1.4°C by 2100); 2.7°C (Too Little, Too Late scenario, reaching 2.7°C by 2100); and 4.7°C (Hothouse scenario, reaching 4.7°C by 2100). The NZ CS minimum requirement is scenarios aligned to 1.5°C, 3°C or greater, and a third of the entity's choosing.",
+      "evidence": "Orderly: \"Stabilising at 1.4°C by 2100.\" Too little, too late: \"Reaching 2.7°C by 2100.\" Hothouse: \"Reaching 4.7°C by 2100.\" Also: \"The NZ CS require analysis of, at a minimum, scenarios aligned to 1.5 degrees, to 3 degrees or greater, and a third scenario of an entity's choosing.\"",
+      "location_hint": "p.20, Climate scenario frameworks table; p.18, Scenario analysis section",
+      "confidence": "high",
+      "notes": "No temperature overshoot language is used. The Orderly scenario stabilises at 1.4°C (below the 1.5°C NZ CS minimum threshold).",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers are explicitly named: IPCC (Intergovernmental Panel on Climate Change), NGFS (Network for Greening the Financial System), IEA (International Energy Agency), CCC (He Pou a Rangi – Climate Change Commission), NZBA (Te Rangapū Pēke – New Zealand Banking Association), NIWA (National Institute of Water and Atmospheric Research), and Manatū Mō Te Taiao – Ministry for the Environment.",
+      "evidence": "Key data sources table: \"He Pou a Rangi - Climate Change Commission (CCC) — Aotearoa New Zealand climate scenarios, including domestic energy pathways; International Energy Agency (IEA) — Global energy pathways; Intergovernmental Panel on Climate Change (IPCC) — Representative Concentration Pathways (RCPs), Shared Socio-economic Pathways (SSPs), average global temperature and average global sea level rise; Manatū Mō Te Taiao - Ministry for the Environment — Passenger vehicle travel, rainfall, sea level rise and sector emissions pathways; National Institute of Water and Atmospheric Research (NIWA) — Hot days data; Network for Greening the Financial System (NGFS) — Policy and technology pathways; Te Rangapū Pēke - New Zealand Banking Association (NZBA) — Banking sector climate scenarios.\"",
+      "location_hint": "p.19-20, Table 8 (Key data sources)",
+      "confidence": "high",
+      "notes": "Kiwibank developed its own scenarios in-house using these sources as inputs, with the NZBA sector-level scenarios as the primary launching point.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "Climate scenario frameworks table explicitly lists both RCP and SSP identifiers for each scenario: Orderly uses RCP 1.9 and SSP1; Too Little, Too Late uses RCP 4.5 and SSP2; Hothouse uses RCP 8.5 and SSP5. These are drawn from different IPCC assessment report generations (RCPs from AR5, SSPs from AR6) and combined with NGFS, IEA and CCC pathways.",
+      "location_hint": "p.20, Climate scenario frameworks table",
+      "confidence": "high",
+      "notes": "The document explicitly lists both SSP and RCP identifiers in the same scenario framework table. RCPs and SSPs originate from different IPCC assessment cycles (AR5 and AR6 respectively) and are not from the same internally consistent scenario family, though they are paired by approximate warming level.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"We developed our scenarios with in-house expertise, drawing on knowledge and experience from across Kiwibank to ensure our scenarios were firmly situated in the Kiwibank context... We combined elements of the NZBA scenario frameworks with our own selections from international scenario archetypes, pathways and projections.\" Also: \"The basis for development of our scenarios was the sector-level scenarios developed, with our input, by the NZBA. Those sector scenarios were developed with the characteristics of the Aotearoa New Zealand banking sector in mind.\"",
+      "location_hint": "p.18, Scenario analysis / Method section",
+      "confidence": "high",
+      "notes": "Kiwibank explicitly describes combining and adapting elements from multiple international scenario frameworks (IPCC, NGFS, IEA) with domestic NZ pathways (CCC, NZBA) and its own in-house selections to create scenarios tailored to the NZ banking context and Kiwibank's specific lending portfolio.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "\"We conducted our first climate scenario analysis process in compliance with the NZ CS in FY24. We developed our scenarios with in-house expertise, drawing on knowledge and experience from across Kiwibank to ensure our scenarios were firmly situated in the Kiwibank context. No external partners or stakeholders were involved.\"",
+      "location_hint": "p.18, Scenario analysis / Method section",
+      "confidence": "high",
+      "notes": "The document explicitly states \"No external partners or stakeholders were involved.\" Internal workshops with Kiwibank staff were used to analyse scenarios, but this does not constitute external participatory or co-produced scenario development.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No explicit baseline or reference scenario is described against which the three climate scenarios are compared. However, the RBNZ Climate Stress Test used the NGFS Current Policies scenario as its physical risk baseline.",
+      "evidence": "\"The scenario narrative was based on the Network for Greening the Financial System Phase III Delayed Transition scenario for transition risk, and the Current Policies scenario for physical risk.\" Also, the three main scenarios (Orderly, Too Little Too Late, Hothouse) are described as representing a range of possible futures without a designated baseline comparator.",
+      "location_hint": "p.10-11, RBNZ Climate Stress Test section; p.18-21, Scenario analysis section",
+      "confidence": "medium",
+      "notes": "No formal \"baseline\" or \"reference\" scenario is explicitly named for the main FY24 scenario analysis. The NGFS Current Policies scenario is used in the RBNZ stress test context for physical risk, which could be interpreted as a reference point, but it is not framed as a baseline for comparison purposes in the main scenario analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "Moody's RMS (probabilistic inland flood models)",
+        "Moody's EDF-X"
+      ],
+      "evidence": "\"Physical credit risks - home and commercial property lending: We are using third-party data from Moody's RMS and NIWA... Transition credit risks - business lending: We used Moody's EDF-X tool to identify and assess transition risks connected to our business lending.\" Also: \"We used Moody's RMS' probabilistic inland flood models, in combination with Valocity property data, to obtain Flood Risk Scores for our Current Home Lending Securities.\"",
+      "location_hint": "p.29-30, Table 12 (Tools and methods); p.43, Inland flood risk section",
+      "confidence": "high",
+      "notes": "No integrated assessment models (IAMs) or macroeconomic models (e.g. REMIND, NiGEM, GCAM) are named. The document explicitly states \"We did not undertake quantitative modelling to inform the construction or analysis of our scenarios in FY24.\" Moody's RMS and EDF-X are used for physical and transition credit risk analysis respectively, not for scenario construction.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"In FY24, we assessed the exposure of our Current Home Lending Securities and Current Home Lending to inland flood risk, including the severity of damage that our Current Home Lending Securities could sustain... The flood scores reflect the severity of potential damage to our Current Home Lending Securities, using a Mean Damage Ratio. A Mean Damage Ratio indicates the percentage of the property potentially damaged by flooding, as a proportion of its estimated insurable value.\" Also, the RBNZ stress test \"included a delayed and divergent government policy response, physical climate impacts nationwide as well as specific extreme flooding events in Auckland.\"",
+      "location_hint": "p.43, Inland flood risk section; p.10, RBNZ Climate Stress Test section",
+      "confidence": "high",
+      "notes": "Damage/loss estimates from acute physical events (flooding) are included via Mean Damage Ratios and Annual Exceedance Probabilities for coastal and inland flooding. However, the document notes that financial impacts (probability of default, loss given default) have not yet been fully modelled: \"We have not yet assessed the potential financial impacts of these types of flood risk in relation to our home lending.\"",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "sea level rise",
+        "rainfall",
+        "hot days",
+        "sector emissions pathways",
+        "passenger vehicle travel",
+        "energy pathways (global and domestic)",
+        "policy and technology pathways",
+        "carbon prices",
+        "insurance behaviour",
+        "housing market conditions",
+        "economic composition",
+        "banking regulation",
+        "government decisions"
+      ],
+      "evidence": "Key data sources table: \"Manatū Mō Te Taiao - Ministry for the Environment — Passenger vehicle travel, rainfall, sea level rise and sector emissions pathways; National Institute of Water and Atmospheric Research (NIWA) — Hot days data.\" Scenario narratives include: \"High carbon prices and strong incentivisation of sustainable industries\" (Orderly); drivers of change include \"Government decisions, Banking regulation, Social circumstances, Insurance behaviour, Housing market, Economic composition.\"",
+      "location_hint": "p.19-20, Table 8 (Key data sources); p.20-21, Drivers of change and scenario narratives",
+      "confidence": "high",
+      "notes": "Variables are drawn from multiple data sources and used qualitatively in scenario narratives. The scenario analysis was primarily qualitative; quantitative modelling was not undertaken in FY24.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"Our scenarios are based on generally accepted scenario archetypes including global pathways developed by the Intergovernmental Panel on Climate Change, policy and technology pathways developed by the Network for Greening the Financial System, energy pathways developed by the International Energy Agency, and domestic pathways developed by the Climate Change Commission.\" Also, NIWA data is used for NZ-specific coastal flood risk, and the scenario narratives explicitly describe Aotearoa New Zealand-specific outcomes (e.g. \"Severe societal and economic regression for the majority of Aotearoa New Zealand\").",
+      "location_hint": "p.18, Scenario analysis section; p.19-21, scenario frameworks and narratives",
+      "confidence": "high",
+      "notes": "Global scenario archetypes (IPCC RCPs/SSPs, NGFS, IEA) are combined with domestic NZ-specific pathways (CCC, NIWA, Ministry for the Environment) and NZ-specific narrative elements, making the scenarios both global and regional/local in scope.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Three time horizons are used: Short term (Kiwibank label: \"Immediate term\"): 2025–2029; Medium term (Kiwibank label: \"Short term\"): 2030–2049; Long term: 2050–2079. A fourth NZBA horizon (2080 and beyond) was deliberately excluded. Rationale is provided for these timeframes.",
+      "evidence": "\"Immediate term: 2025 – 2029 (Kiwibank short term); Short term: 2030 – 2049 (Kiwibank medium term); Long term: 2050 - 2079 (Kiwibank long term). We elected not to apply the fourth NZBA time horizon (2080 and beyond) because we anticipated a loss of relevance beyond 2079 for internal stakeholders involved in scenario analysis for the first time in FY24.\" Also: \"These time horizons align with the time horizons in the banking sector scenarios developed by Te Rangapū Pēke – New Zealand Banking Association (NZBA)... Our medium- and long-term climate horizons broadly span the longest period of term of our home loans, which can be up to around 30 years.\"",
+      "location_hint": "p.19, Time horizons section; p.10, Climate change time horizons section",
+      "confidence": "high",
+      "notes": "Justification is explicitly provided: time horizons align with NZBA sector scenarios, the short-term aligns with Kiwibank's strategic/capital planning horizons, and the medium/long-term spans the typical term of home loans (~30 years). The exclusion of the 2080+ horizon is also explicitly justified.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"We consider that the scenarios we used are relevant and appropriate to assessing the resilience of Kiwibank's business model and strategy to climate-related risks and opportunities because: The basis for development of our scenarios was the sector-level scenarios developed, with our input, by the NZBA. Those sector scenarios were developed with the characteristics of the Aotearoa New Zealand banking sector in mind. Using them as a basis also supports comparability with other bank disclosures. Our scenarios are based on generally accepted scenario archetypes including global pathways developed by the Intergovernmental Panel on Climate Change, policy and technology pathways developed by the Network for Greening the Financial System, energy pathways developed by the International Energy Agency, and domestic pathways developed by the Climate Change Commission. We consider that the three scenarios identified - 'Orderly', 'Too Little, Too Late' and 'Hothouse' – allow for a range of possible climate futures, with different levels of transition risk and physical risk present in each scenario.\"",
+      "location_hint": "p.18, Scenario analysis section (Our scenario framework choices)",
+      "confidence": "high",
+      "notes": "Kiwibank provides an explicit, multi-part justification covering: (1) alignment with NZ banking sector context via NZBA; (2) use of internationally recognised scenario archetypes; (3) coverage of a range of climate futures with varying transition and physical risk levels; and (4) comparability with other bank disclosures.",
+      "verification": null
+    }
+  ]
+}

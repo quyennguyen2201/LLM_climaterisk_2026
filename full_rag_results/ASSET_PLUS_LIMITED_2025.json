@@ -1,0 +1,179 @@
+{
+  "source": "ASSET_PLUS_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 677612,
+      "output_tokens": 5900,
+      "total_tokens": 683512,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 639465,
+        "ephemeral_5m_input_tokens": 38123,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Sustainability 1.5°C (SSP1-RCP1.9)",
+        "Middle of the road 2-3°C (SSP2-RCP4.5)",
+        "Regional rivalry >3°C (SSP3-RCP7.0)"
+      ],
+      "evidence": "Sustainability 1.5°C | SSP1-RCP1.9 / Middle of the road 2-3°C | SSP2-RCP4.5 / Regional rivalry >3°C | SSP3-RCP7.0",
+      "location_hint": "Strategy section, p.11 (page 5 of PDF)",
+      "confidence": "high",
+      "notes": "Three scenarios are explicitly named and mapped to IPCC SSP/RCP identifiers in a comparison table.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes by 2100 are described: less than 1.5°C (Sustainability scenario), 2–3°C (Middle of the road scenario), and more than 3°C (Regional rivalry scenario). No temperature overshoot language is used.",
+      "evidence": "2100 temperature change: Less than 1.5°C | 2-3°C | More than 3°C",
+      "location_hint": "Strategy section, scenario comparison table, p.11 (page 5 of PDF)",
+      "confidence": "high",
+      "notes": "Temperature outcomes are explicitly listed in the scenario comparison table. No overshoot language found.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "IPCC (Intergovernmental Panel on Climate Change) is the primary scenario provider, with supplementary data from the International Energy Agency (IEA) and the Network for Greening the Financial System (NGFS).",
+      "evidence": "Asset Plus' scenarios have been developed using the latest science from the Intergovernmental Panel on Climate Change (IPCC): the peak global body for assessing the science related to climate change... Additionally, scenario data was selected from other sources, including the International Energy Agency (IEA) and the Network for Greening the Financial System (NGFS), in order to complement the IPCC scenarios.",
+      "location_hint": "Strategy section, p.13 (page 6 of PDF)",
+      "confidence": "high",
+      "notes": "All three providers are explicitly named.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "No",
+      "evidence": "IPCC scenario: SSP1-RCP1.9 | SSP2-RCP4.5 | SSP3-RCP7.0",
+      "location_hint": "Strategy section, scenario comparison table, p.11 (page 5 of PDF)",
+      "confidence": "high",
+      "notes": "Each scenario pairs an SSP with its corresponding RCP from the same IPCC AR6 internally consistent scenario family (SSP1-RCP1.9, SSP2-RCP4.5, SSP3-RCP7.0). There is no mixing across families.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "The scenario analysis has built upon the AR6 IPCC climate scenarios to enable further regional and sectoral specificity. Additionally, scenario data was selected from other sources, including the International Energy Agency (IEA) and the Network for Greening the Financial System (NGFS), in order to complement the IPCC scenarios... This approach has enabled Asset Plus to develop scenarios that provide information relevant to our operating environment.",
+      "location_hint": "Strategy section, p.13 (page 6 of PDF)",
+      "confidence": "medium",
+      "notes": "The document describes building upon IPCC AR6 scenarios with additional data sources for \"regional and sectoral specificity,\" which constitutes adaptation beyond off-the-shelf use. However, the document also states \"Modelling has not been undertaken for the scenarios,\" suggesting the customisation is primarily in data selection and framing rather than quantitative modelling.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "Once the climate scenarios were adopted, various Centuria and Centuria NZ staff were engaged to gain diverse perspectives and inputs through a risk and opportunity workshop.",
+      "location_hint": "Strategy section, p.13 (page 6 of PDF)",
+      "confidence": "medium",
+      "notes": "The scenarios themselves were adopted from IPCC and then used in internal workshops. Staff were engaged to identify risks and opportunities under the scenarios, but there is no evidence of participatory or co-produced scenario development using keywords such as \"participatory\", \"co-creat\", \"deliberat\", \"co-design\", or \"collaborative development\" in the context of scenario creation.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No",
+      "evidence": "The IPCC's baseline scenarios are Sustainability, Middle of the road, Regional rivalry, Inequality and Fossil-fuelled development. Asset Plus has adopted the IPCC scenario names for its climate scenarios.",
+      "location_hint": "Strategy section, p.13 (page 6 of PDF)",
+      "confidence": "medium",
+      "notes": "The document mentions \"IPCC's baseline scenarios\" as a reference to the full set of IPCC scenarios, but Asset Plus does not describe a separate baseline or reference scenario against which its three chosen climate scenarios are compared. The three scenarios are used in parallel, not against a defined baseline.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "Global Climate Model (GCM)",
+        "Regional Climate Model (RCM)",
+        "ClimSystems Climate Insights platform"
+      ],
+      "evidence": "Assessments utilise climate data provided by ClimSystems through their Climate Insights platform and modelling methods consistent with IPCC protocols. Asset Plus' property at Munroe Lane has been assessed for physical exposure to climate change across the following categories using downscaled Global Climate Model (GCM) and where available, Regional Climate Model (RCM) projections.",
+      "location_hint": "Risk management section, p.23 (page 11 of PDF)",
+      "confidence": "high",
+      "notes": "GCM and RCM are model types rather than specific named models. ClimSystems' Climate Insights platform is the named data/modelling tool. No IAMs or macroeconomic models are named. The document also states \"Modelling has not been undertaken for the scenarios\" (referring to the three climate scenarios), but physical risk assessments do use GCM/RCM projections.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "Asset Plus' property at Munroe Lane has been assessed for physical exposure to climate change across the following categories using downscaled Global Climate Model (GCM) and where available, Regional Climate Model (RCM) projections: River flood, Extreme rainfall, Sea level rise, Water scarcity, Wildfire, Heat stress, Cold spell, Windstorm",
+      "location_hint": "Risk management section, p.23 (page 11 of PDF)",
+      "confidence": "medium",
+      "notes": "The document explicitly includes acute physical risk categories (river flood, extreme rainfall, wildfire, windstorm) in the physical risk assessment. However, the assessment concludes \"there are no current material impacts from physical climate-related risks,\" and no quantified damage/loss estimates are provided — the assessment is qualitative in nature.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "sea level rise",
+        "cost of carbon",
+        "peak emissions year",
+        "net zero year",
+        "population",
+        "net forest loss",
+        "global consumption",
+        "global collaboration",
+        "climate policy",
+        "nature based carbon sequestration",
+        "technology change",
+        "GDP per capita",
+        "energy efficiency",
+        "materials decarbonisation",
+        "river flood",
+        "extreme rainfall",
+        "water scarcity",
+        "wildfire",
+        "heat stress",
+        "cold spell",
+        "windstorm"
+      ],
+      "evidence": "2100 sea level rise: 0.5 metres | 0.6 metres | 0.7 metres; 2050 cost of carbon (USD): >$100/tonne | $40/tonne | <$20/tonne; Peak emissions year; Net zero by; 2100 population; 2050 net forest loss; Global consumption; Global collaboration; Climate policy; Nature based carbon sequestration; Technology change... The NGFS and IPCC data were utilised across all scenarios to provide direct comparisons, including temperature increase, cost of carbon by 2050, peak emissions year, GDP per capita, population change and inequality... providing data on topics such as national gross domestic product (GDP), energy efficiency and materials decarbonisation.",
+      "location_hint": "Strategy section, scenario comparison table p.11 (page 5 of PDF); p.12–13 (page 6 of PDF); Risk management p.23 (page 11 of PDF)",
+      "confidence": "high",
+      "notes": "Variables drawn from both the scenario comparison table and the physical risk assessment categories.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "The scenario analysis has built upon the AR6 IPCC climate scenarios to enable further regional and sectoral specificity... Asset Plus' property at Munroe Lane has been assessed for physical exposure to climate change across the following categories using downscaled Global Climate Model (GCM) and where available, Regional Climate Model (RCM) projections.",
+      "location_hint": "Strategy section p.13 (page 6 of PDF); Risk management section p.23 (page 11 of PDF)",
+      "confidence": "high",
+      "notes": "The three climate scenarios are based on global IPCC AR6 scenarios, while the physical risk assessments use downscaled GCM and RCM projections at the property/local level.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short term: 0–2 years; Medium term: 3–10 years; Long term: greater than 10 years. Rationales are provided for each timeframe. The scenario analysis itself uses a timeframe of 2050.",
+      "evidence": "Short (0-2 years): Aligns with the immediate strategic planning priorities for Asset Plus' assets including leasing, capital expenditure and debt management. Medium (3-10 years): Aligns with typical lease terms, asset hold periods, capital expenditure and financial modelling horizons. Long (greater than 10 years): Aligns with major development or capital expenditure life cycle planning.",
+      "location_hint": "Strategy section, Time horizons – CREs table, p.16 (page 8 of PDF)",
+      "confidence": "high",
+      "notes": "Explicit rationales are provided for all three time horizons, linked to business planning cycles. The overall scenario analysis timeframe is 2050.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "Asset Plus' scenarios have been developed using the latest science from the Intergovernmental Panel on Climate Change (IPCC): the peak global body for assessing the science related to climate change... the IPCC releases updated future climate scenarios developed by scientific, economic, technological and policy experts, which set the global standard for climate scenarios... The scenario analysis has built upon the AR6 IPCC climate scenarios to enable further regional and sectoral specificity. Additionally, scenario data was selected from other sources, including the International Energy Agency (IEA) and the Network for Greening the Financial System (NGFS), in order to complement the IPCC scenarios... This approach has enabled Asset Plus to develop scenarios that provide information relevant to our operating environment, allowing us to better identify the climate-related risks and opportunities that the business may face in the future.",
+      "location_hint": "Strategy section, p.13 (page 6 of PDF)",
+      "confidence": "high",
+      "notes": "The justification cites the IPCC as the \"peak global body\" setting the \"global standard for climate scenarios,\" and explains that IEA and NGFS data were added to provide regional and sectoral specificity relevant to Asset Plus' operating environment.",
+      "verification": null
+    }
+  ]
+}

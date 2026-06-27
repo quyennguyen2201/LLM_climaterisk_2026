@@ -1,0 +1,173 @@
+{
+  "source": "MAINFREIGHT_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1201382,
+      "output_tokens": 6713,
+      "total_tokens": 1208095,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 1136349,
+        "ephemeral_5m_input_tokens": 65008,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly Transition",
+        "Disorderly Transition",
+        "Business As Usual (BAU)"
+      ],
+      "evidence": "\"three scenarios have been chosen and modelled here... Our Climate Scenarios: Orderly Transition... Disorderly Transition... Business as Usual (BAU)... Scenario Explorer Data: Net Zero 2050 / Delayed Transition / Current Policies\"",
+      "location_hint": "Section: Climate Scenarios, p.32–33",
+      "confidence": "high",
+      "notes": "The three scenarios correspond to NGFS Phase 4 labels: Net Zero 2050 (Orderly Transition), Delayed Transition (Disorderly Transition), and Current Policies (BAU). All are built on SSP2.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes by 2100 (67th percentile): Orderly Transition = 1.5°C (narrative says 1.45°C); Disorderly Transition = 1.8°C (narrative says 1.77°C); Business As Usual = 3.0°C (narrative says above 3°C). No temperature overshoot is explicitly described.",
+      "evidence": "\"Global Mean Temperature increase by 2100 (67th Percentile): 1.5°C [Orderly], 1.8°C [Disorderly], 3.0°C [BAU]... Two of our scenarios meet the Paris Agreement goal of <2°C by 2100, but compare the effects of a smooth and delayed transition. Our third scenario leads to a hot house world, where emissions continue to rise into the long term above 3°C by 2100.\"",
+      "location_hint": "Table 1, p.33; narrative p.32",
+      "confidence": "high",
+      "notes": "The narrative on p.32 gives more precise figures: 1.45°C (Orderly) and 1.77°C (Disorderly). The table on p.33 rounds these to 1.5°C and 1.8°C respectively.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "NGFS (Network for Greening the Financial System), with data hosted by IIASA (International Institute for Applied Systems Analysis)",
+      "evidence": "\"External data was sourced from the NGFS Phase 4 Scenario Explorer, using the REMIND-MAgPIE 3.2-4.6 model... All scenario data was accessed through: NGFS Phase 4 Scenario Explorer hosted by IIASA and uses REMIND-MAgPIE 3.2-4.6 inputs\"",
+      "location_hint": "p.32 and Table 1, p.33",
+      "confidence": "high",
+      "notes": "NGFS is explicitly named as the scenario provider; IIASA hosts the explorer. The glossary also confirms NGFS = Network for Greening the Financial System.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "No",
+      "evidence": "\"All three scenarios are based on the 'Middle of the Road' Shared Socioeconomic Pathway (SSP2)... External data was sourced from the NGFS Phase 4 Scenario Explorer, using the REMIND-MAgPIE 3.2-4.6 model\"",
+      "location_hint": "p.32",
+      "confidence": "high",
+      "notes": "Only SSP identifiers are mentioned (SSP2). No RCP identifiers appear anywhere in the document. There is no mixing of scenario families.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"Each scenario has been built from this same starting point and explores how varying levels of physical and transition risk could lead to different climate futures... The variation between our three scenarios comes from the level of policy coordination over the short, medium and long term, as well as technology availability... Developing scientific research and climate data will be incorporated, where appropriate, into adaptations of our scenario analysis.\"",
+      "location_hint": "p.32; p.45 (Next Steps)",
+      "confidence": "medium",
+      "notes": "The scenarios are built on NGFS Phase 4 data but are described as being constructed/adapted by Mainfreight with their own narrative framing, transportation-sector-specific variables (e.g. transportation energy mix), and custom scenario names. The document also references future \"adaptations of our scenario analysis.\" However, the word \"customised\" or \"downscaled\" is not used explicitly.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "No language such as \"participatory\", \"co-creat\", \"deliberat\", \"co-design\", \"stakeholder input\", or \"collaborative development\" appears in relation to scenario development. The document states: \"External data was sourced from the NGFS Phase 4 Scenario Explorer.\"",
+      "location_hint": "p.32",
+      "confidence": "high",
+      "notes": "Scenarios were sourced from NGFS and adapted internally. No evidence of participatory or co-produced scenario development with external stakeholders.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "Yes — the \"Business As Usual (BAU)\" scenario functions as a baseline/reference scenario, corresponding to the NGFS \"Current Policies\" scenario, against which the two transition scenarios are compared.",
+      "evidence": "\"Our final scenario Business As Usual (BAU) is the most broadly impactful. Here, there is little to no effective coordination over the short, medium and longer terms... No new policies enacted... Consistently very low [carbon price]... Scenario Explorer Data: Current Policies\"",
+      "location_hint": "p.33, Table 1",
+      "confidence": "medium",
+      "notes": "The BAU scenario is described as a \"current policies\" trajectory and is explicitly contrasted with the two transition scenarios. It is not labelled a \"baseline\" in the document, but it serves that function as the no-new-policy reference case.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "REMIND-MAgPIE 3.2-4.6",
+        "MAGICCv7.5.3",
+        "Swiss RE CatNet"
+      ],
+      "evidence": "\"External data was sourced from the NGFS Phase 4 Scenario Explorer, using the REMIND-MAgPIE 3.2-4.6 model... Surface Temperature (°K) NGFS Phase IV Scenarios using REMIND-MAgPIE 3.2-4.6 MAGICCv7.5.3|67.0th Percentile... The primary input to our modelling was a natural and climate hazard assessment provided by Gallagher (formerly Crombie Lockwood) with licensed use of the Swiss RE CatNet software.\"",
+      "location_hint": "p.32; Table 16, p.46; p.35 and p.40",
+      "confidence": "high",
+      "notes": "REMIND-MAgPIE is the IAM used for scenario data; MAGICCv7.5.3 is the climate model used to derive temperature outcomes; Swiss RE CatNet is the physical hazard assessment tool.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"Across our operating regions, 250 sites were assessed against seven physical risks, generating over 1,800 individual values... [Table showing NZ$ damage estimates by scenario, region and event type including Flood, Storm Surge, Wildfire, Windstorm]... Total [long-term, BAU]: 17,729,848 [NZ$]\"",
+      "location_hint": "p.35 (Climate Impact Accrual), p.37 (Future Physical Impacts to Assets), p.40 (Models & Methodologies)",
+      "confidence": "high",
+      "notes": "The document explicitly quantifies financial damage/loss estimates from acute physical risks (flood, storm surge, wildfire, windstorm) across all three scenarios and three time horizons, broken down by region and event type.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon price",
+        "transportation energy",
+        "transportation energy mix",
+        "investment in energy supply",
+        "carbon sequestration",
+        "net emissions",
+        "sea level rise",
+        "flood",
+        "storm surge",
+        "wildfire",
+        "windstorm",
+        "drought",
+        "increased precipitation",
+        "oil price / fuel price",
+        "renewable energy investment"
+      ],
+      "evidence": "\"Carbon Price: Steady increase from 2020 [Orderly] / Steep increase from 2030 [Disorderly] / Consistently very low [BAU]... Transportation Energy... Transportation Energy Mix... Investment in Energy Supply... Carbon Sequestration... [Table showing chronic and acute risks:] Drought, Increased Precipitation, Sea Level Rise, Flood, Storm Surge, Wildfire, Windstorm\"",
+      "location_hint": "Table 1, p.33; p.35 (Climate Impact Accrual table)",
+      "confidence": "high",
+      "notes": "Variables are drawn from both the transition scenario table (Table 1) and the physical risk assessment tables.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"External data was sourced from the NGFS Phase 4 Scenario Explorer, using the REMIND-MAgPIE 3.2-4.6 model... [Table 16:] Surface Temperature (°K) NGFS Phase IV Scenarios using REMIND-MAgPIE 3.2-4.6 MAGICCv7.5.3|67.0th Percentile [global]... The primary input to our modelling was a natural and climate hazard assessment provided by Gallagher (formerly Crombie Lockwood) with licensed use of the Swiss RE CatNet software. This provided an evaluation of all major hazard classes for over 250 sites around the world... [Regional chronic risk ratings table showing Americas, Asia, Australia, Europe, New Zealand]\"",
+      "location_hint": "p.32 (global NGFS scenarios); p.35, p.38, p.40 (site/regional physical hazard assessment)",
+      "confidence": "high",
+      "notes": "The transition scenario data is global (NGFS/REMIND-MAgPIE), while the physical risk assessment uses site-level and regional data (Swiss RE CatNet, Gallagher) applied to 250 individual branch locations across five regions.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short Term: 2023–2030; Medium Term: 2030–2040; Long Term: 2040–2050. The document states these are linked to strategic planning horizons and capital deployment plans (per the disclosure index), but does not provide a detailed narrative justification for the specific year boundaries chosen.",
+      "evidence": "\"For each of the assessed risks and opportunities we have compared their likely consequence across three time horizons between 2023 (the year of our first Climate Risk Report) and 2050. 1. Short Term: 2023 – 2030 2. Medium Term: 2030 – 2040 3. Long Term: 2040 – 2050\"",
+      "location_hint": "Risk Management section, p.29",
+      "confidence": "high",
+      "notes": "The disclosure index (p.49) references that the definitions are \"linked to its strategic planning horizons and capital deployment plans\" (clause 14a, p.29), but the actual text on p.29 only states the time periods without explaining why those specific boundaries were chosen. The start year (2023) is explained as the year of the first Climate Risk Report.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"External data was sourced from the NGFS Phase 4 Scenario Explorer, using the REMIND-MAgPIE 3.2-4.6 model, as this had a broad range of temperature outcomes and, is the only NGFS model which integrates potential future damages from physical risks. The variation between our three scenarios comes from the level of policy coordination over the short, medium and long term, as well as technology availability. These scenarios were selected in order to capture a range of assumptions about uncertain futures. Two of our scenarios meet the Paris Agreement goal of <2°C by 2100, but compare the effects of a smooth and delayed transition. Our third scenario leads to a hot house world, where emissions continue to rise into the long term above 3°C by 2100.\"",
+      "location_hint": "Climate Scenarios section, p.32",
+      "confidence": "high",
+      "notes": "Two explicit justifications are given: (1) REMIND-MAgPIE was chosen because it \"had a broad range of temperature outcomes\" and \"is the only NGFS model which integrates potential future damages from physical risks\"; (2) the three scenarios were chosen to \"capture a range of assumptions about uncertain futures\" spanning <2°C and >3°C outcomes.",
+      "verification": null
+    }
+  ]
+}

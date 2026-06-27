@@ -1,0 +1,171 @@
+{
+  "source": "METLIFECARE_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 932053,
+      "output_tokens": 6779,
+      "total_tokens": 938832,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 881254,
+        "ephemeral_5m_input_tokens": 50773,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly Net Zero 2050",
+        "Disorderly Delayed Transition",
+        "Hot House World Current Policies"
+      ],
+      "evidence": "In line with the requirements of NZCS 1, two of our scenarios included an 'Orderly' scenario (with a temperature outcome of 1.5ºC), and a 'Hot House World' scenario (3ºC or greater). Our third 'Disorderly' scenario presents an intermediate pathway where transition and physical risk are both serious challenges. ... Orderly Net Zero 2050 | Disorderly Delayed Transition | Hot House World Current Policies",
+      "location_hint": "p.8, Table 3",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: 1.5°C (Orderly Net Zero 2050), less than 2.0°C (Disorderly Delayed Transition), and greater than 3.0°C (Hot House World Current Policies). The document notes the long-term horizon is 2050, not 2100, and that under the Hot House World scenario a global average temperature greater than 3°C is reached by 2050.",
+      "evidence": "Orderly Net Zero 2050: Policy ambition 1.5°C ... Disorderly Delayed Transition: Policy ambition <2.0°C ... Hot House World Current Policies: Policy ambition >3.0°C ... Lack of a coordinated effort to reduce emissions has led to a global average temperature greater than 3oC by 2050.",
+      "location_hint": "p.8, Table 3 and scenario narrative",
+      "confidence": "high",
+      "notes": "The document uses 2050 as the long-term horizon rather than 2100, so temperature outcomes are framed relative to 2050. No explicit 2100 temperature targets are stated.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple providers are named: NGFS (Network for Greening the Financial System) for emissions reduction pathways; New Zealand Green Building Council (NZGBC) for the Construction and Property sector scenarios that underpin Metlifecare's scenarios; IEA (International Energy Agency) for energy pathways; and the Climate Change Commission (CCC) for New Zealand-specific data.",
+      "evidence": "Original source of emissions reduction pathway is NGFS Net-Zero 2050. ... Same as for Construction and Property Sector Orderly Scenario (see pg. 19 of the NZGBC report). ... IEA: Net Zero Emissions ... CCC: Tailwinds ... Original basis for energy pathways is the Climate Change Commission's Electricity Market Modelling Datasets 2021.",
+      "location_hint": "p.8 Table 3; p.30 Appendix B",
+      "confidence": "high",
+      "notes": "The NZGBC (New Zealand Green Building Council) developed the Construction and Property sector scenarios that Metlifecare's company-level scenarios are largely based on. NGFS is the original source of emissions reduction pathways.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "Orderly Net Zero 2050 — Pathways: RCP: 2.6, SSP1-1.9 ... Disorderly Delayed Transition — Pathways: RCP: 2.6, SSP1-2.6 ... Hot House World Current Policies — Pathways: RCP: 8.5, SSP3-7.0",
+      "location_hint": "p.8, Table 3",
+      "confidence": "high",
+      "notes": "The document explicitly lists both RCP and SSP identifiers for each scenario. For example, the Orderly scenario uses RCP 2.6 alongside SSP1-1.9, and the Hot House scenario uses RCP 8.5 alongside SSP3-7.0. RCP 2.6 is from the CMIP5 generation while SSP1-1.9 and SSP1-2.6 are from CMIP6, indicating mixing of scenario families.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "Our scenarios largely drew from the underlying assumptions and data sets that informed the Construction and Property sector scenarios... Our company-level scenarios were collaboratively developed with key internal stakeholders, who provided input on assumptions specific to Metlifecare's operations and activities. Once developed, participants had an additional opportunity to provide feedback to ensure the scenarios were specific to Metlifecare.",
+      "location_hint": "p.7",
+      "confidence": "high",
+      "notes": "Metlifecare developed company-level scenarios adapted from the NZGBC Construction and Property sector scenarios, with customisation for Metlifecare's specific operations, activities, and time horizons. The document also notes they used different time horizons than the sector scenarios to align with Metlifecare's planning cycles.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes",
+      "evidence": "Our scenarios largely drew from the underlying assumptions and data sets that informed the Construction and Property sector scenarios, which were developed by a working group led by the New Zealand Green Building Council, with participation by Metlifecare representatives. We also participated in and took learnings from the Healthcare sector scenario development. Our company-level scenarios were collaboratively developed with key internal stakeholders, who provided input on assumptions specific to Metlifecare's operations and activities.",
+      "location_hint": "p.7",
+      "confidence": "high",
+      "notes": "The document describes collaborative development with internal stakeholders and participation in a working group led by the NZGBC. The process included stakeholder engagement workshops and iterative feedback from the Executive Team and Board.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No explicit standalone baseline or reference scenario is described. However, the enterprise risk management framework is used as a baseline for materiality assessment of climate impacts.",
+      "evidence": "In considering impacts, Metlifecare's enterprise risk management framework (which includes operating, financial, health and safety, legal, people, brand/reputation and strategic criteria) was used as the baseline. Further assessment was then carried out using more qualitative considerations including the business model, supply and value chains, products and services and access to capital.",
+      "location_hint": "p.10",
+      "confidence": "medium",
+      "notes": "The document does not describe a separate \"baseline\" or \"current policies\" scenario used as a comparator against which other scenarios are measured, though the Hot House World scenario is described as reflecting \"current policies.\" The enterprise risk management framework is used as a baseline for materiality assessment only.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "WSP New Zealand Ltd (qualitative physical Climate Risk Assessment)",
+        "Climate Change Commission Electricity Market Modelling Datasets 2021"
+      ],
+      "evidence": "A qualitative physical Climate Risk Assessment (CCRA) was conducted by WSP New Zealand Ltd. on a sample of Metlifecare sites... Original basis for energy pathways is the Climate Change Commission's Electricity Market Modelling Datasets 2021.",
+      "location_hint": "p.17; p.30 Appendix B",
+      "confidence": "medium",
+      "notes": "No named IAMs or global climate models (e.g., REMIND, MESSAGE, GCAM) are explicitly cited. WSP New Zealand Ltd conducted the physical risk assessment. The Climate Change Commission's Electricity Market Modelling Datasets are referenced for energy pathways. NGFS scenarios are referenced but no underlying model names are given.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "Extreme weather events such as storms, high winds, and flooding increase the risk of damage and disruption, and the frequency of power and water outages due to insufficient national infrastructure. • Accessibility and operation of Metlifecare's villages is disrupted... • Damaged infrastructure from storms or flooding may leave residents at risk of illness from contamination or lack of water. • Unsafe conditions may result in evacuations of impacted villages. • Construction and development projects may be disrupted due to damage and/or supply chain delays.",
+      "location_hint": "p.11, Table 5",
+      "confidence": "high",
+      "notes": "The document describes qualitative impacts from extreme weather events (acute physical risks) including damage to infrastructure, disruption to operations, and evacuation. However, no quantitative damage/loss estimates are provided; the analysis is qualitative in nature.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "emissions reduction pathways",
+        "electricity grid emissions intensity (kgCO2/kWh)",
+        "carbon sequestration from afforestation and nature-based solutions",
+        "energy pathways",
+        "policy and regulatory change",
+        "technology adoption (negative emissions technology, renewable energy)",
+        "insurance costs and availability",
+        "supply chain availability and costs",
+        "building standards and materials",
+        "population demographics (ageing population)",
+        "macroeconomic trends",
+        "extreme weather event frequency and intensity",
+        "heatwave frequency and intensity",
+        "water and food scarcity"
+      ],
+      "evidence": "Pathways: RCP: 2.6, SSP1-1.9, IEA: Net Zero Emissions, CCC: Tailwinds ... Reduction in electricity grid emissions (kgCO2/kWh) ... Reliance on carbon sequestration through afforestation and nature-based solutions ... Extreme weather events such as storms, high winds, and flooding ... Increased frequency and intensity of heatwaves ... Water or food scarcity during periods of drought ... Insurers retreat from insuring villages in flood prone and coastal areas.",
+      "location_hint": "p.8 Table 3; p.10-12 Table 5; p.29-31 Appendix B",
+      "confidence": "high",
+      "notes": "Variables are drawn from both the scenario narratives and the underlying assumptions in Appendix B.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "Our scenarios largely drew from the underlying assumptions and data sets that informed the Construction and Property sector scenarios... The policy and socioeconomic assumptions and macroeconomic trends described in Metlifecare's company-level scenarios are largely based on the Construction and Property Sector Orderly Scenario... Metlifecare's assets are located throughout New Zealand, with a high proportion in the North Island and predominantly Auckland, Waikato and Bay of Plenty. All are variously exposed to both physical and transition risk. ... A qualitative physical Climate Risk Assessment (CCRA) was conducted by WSP New Zealand Ltd. on a sample of Metlifecare sites, representing the various New Zealand regions occupied by Metlifecare.",
+      "location_hint": "p.7; p.19-20; p.30 Appendix B",
+      "confidence": "medium",
+      "notes": "The scenarios draw on global pathways (NGFS, IEA, SSPs/RCPs) but are applied in a New Zealand context with New Zealand-specific data (CCC datasets, NZGBC sector scenarios). The physical risk assessment was conducted at a site level across New Zealand regions. The document does not explicitly describe formal downscaling of global climate models.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short-term: 2024–2029 (0–5 years), aligned with Metlifecare's 5-year planning cycle. Medium-term: 2030–2040 (6–15 years), informing planning within the next 15 years. Long-term: 2041–2050 (16–25 years), informing planning within the next 25 years. Rationale is explicitly provided.",
+      "evidence": "While our scenarios aligned with the same pathways and projections used in the Construction and Property sector scenarios, we have elected to use different time horizons than those of the Construction and Property sector. We believe it is important to align the horizons with the planning timeframes used in Metlifecare's business modelling, strategic planning, capital deployment and asset management decisions. Having considered variables such as strategy development, capital allocation and the long-term perspective of physical climate change impacts, we concluded that 2050 was a more relevant upper boundary for a long-term horizon than 2100. Short-term: 0-5 years, Aligned with Metlifecare's 5-year planning cycle. Medium-term: 6-15 years, Informing Metlifecare's planning within the next 15 years. Long-term: 16-25 years, Informing Metlifecare's planning within the next 25 years.",
+      "location_hint": "p.7, Figure 4",
+      "confidence": "high",
+      "notes": "The rationale for the time horizons is explicitly stated: alignment with business planning cycles, strategic planning, capital deployment, and asset management decisions. The choice of 2050 as the upper boundary (rather than 2100) is also justified.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "In line with the requirements of NZCS 1, two of our scenarios included an 'Orderly' scenario (with a temperature outcome of 1.5ºC), and a 'Hot House World' scenario (3ºC or greater). Our third 'Disorderly' scenario presents an intermediate pathway where transition and physical risk are both serious challenges. We believe all three scenarios present a sound range of plausible climate futures, with each scenario describing different challenges that Metlifecare would face and therefore enabling the appropriate development of mitigations and adaptation strategies.",
+      "location_hint": "p.8",
+      "confidence": "high",
+      "notes": "The justification includes: (1) regulatory compliance with NZCS 1 requirements for a 1.5°C scenario and a 3°C+ scenario; (2) the belief that the three scenarios present a sound range of plausible climate futures; and (3) that each scenario describes different challenges enabling appropriate mitigation and adaptation strategies. The choice to align with NZGBC Construction and Property sector scenarios is also justified as grounding Metlifecare's scenarios in shared sector assumptions.",
+      "verification": null
+    }
+  ]
+}

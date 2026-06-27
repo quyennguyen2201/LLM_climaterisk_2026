@@ -1,0 +1,175 @@
+{
+  "source": "STEEL__TUBE_HOLDINGS_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 784344,
+      "output_tokens": 7486,
+      "total_tokens": 791830,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 740283,
+        "ephemeral_5m_input_tokens": 44037,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly – Net Zero by 2050 (1.4°C)",
+        "Disorderly – Delayed Transition (1.6°C)",
+        "Hothouse – Current Policies (3°C+)",
+        "SSP 1 – 1.9 (1.4°C)",
+        "SSP 1 – 2.6 (1.8°C)",
+        "SSP 5 – 8.5 (4.4°C)",
+        "RCP 1.9",
+        "RCP 2.6",
+        "RCP 8.5"
+      ],
+      "evidence": "We chose the Network for Greening the Financial System (NGFS) scenarios for our analysis primarily due to the availability of regional or country-specific data for New Zealand, and the inclusion of temperature pathways necessary for compliance with NZ CS 1. The scenario architecture and narratives were developed internally, adopting NGFS narratives for Net Zero 2050, Delayed Transition, and Hothouse - Current Policies. Additionally, we incorporated a broader set of climate scenarios from the SSP (Shared Socioeconomic Pathway) Scenarios, the Intergovernmental Panel on Climate Change (IPCC) and qualitative descriptions, population demographics and socio-economic assumptions. [...] IPCC SSP: SSP 1 – 1.9, 1.4°C / SSP 1 – 2.6, 1.8°C / SSP 5 – 8.5, 4.4°C; NIWA RCP: RCP 1.9 / RCP 2.6 / RCP 8.5; NGFS Scenarios: Orderly – Net Zero by 2050 / Disorderly – Delayed Transition / Hothouse – Current Policies",
+      "location_hint": "Page 5–6 (Approach to Scenario Analysis and Climate Scenario Architecture table)",
+      "confidence": "high",
+      "notes": "The three NGFS scenarios are the primary narrative scenarios; the SSP and RCP scenarios are used as the underlying physical climate data sources mapped to each narrative.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: 1.5°C (Orderly/Net Zero 2050, with policy ambition of 1.4°C and no or low overshoot <0.1°C); below 2°C (Disorderly/Delayed Transition, policy ambition 1.6°C, 67% chance of limiting to below 2°C); and approximately 3°C+ (Hothouse/Current Policies, emissions grow until 2080 leading to about 3°C of warming). The SSP architecture also references 4.4°C for SSP 5–8.5.",
+      "evidence": "Orderly – Net Zero by 2050: Global Warming limited to 1.5°C by the end of 2100 [...] Net CO2 emissions reach zero around 2050, giving at least a 50% chance of limiting global warming to below 1.5°C by the end of the century, with no or low overshoot (< 0.1°C) of 1.5°C in earlier years. Disorderly – Delayed Transition: Global warming limited to 2°C by the end of 2100 [...] to ensure a 67% chance of limiting global warming to below 2°C. Hothouse – Current Policies: Global warming reaches 3°C of warming by the end of 2100 [...] Emissions grow until 2080 leading to about 3°C of warming and severe physical risks. IPCC SSP: SSP 5 – 8.5, 4.4°C",
+      "location_hint": "Pages 6 and 12 (Climate Scenario Architecture table and Appendix 1)",
+      "confidence": "high",
+      "notes": "Temperature overshoot is explicitly mentioned for the Orderly scenario: \"no or low overshoot (< 0.1°C) of 1.5°C in earlier years\".",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple providers are explicitly named: (1) Network for Greening the Financial System (NGFS) for the Orderly, Disorderly and Hothouse narrative scenarios; (2) Intergovernmental Panel on Climate Change (IPCC) for the SSP scenarios (AR6) and RCP scenarios (AR5); (3) NIWA for the RCP data used in the scenario architecture.",
+      "evidence": "We chose the Network for Greening the Financial System (NGFS) scenarios for our analysis [...] For the purposes of our CRA, we adopted the shared socioeconomic scenarios (SSP) provided by the Intergovernmental Panel on Climate Change Sixth Assessment Report (IPCC AR6) [...] The SSPs build upon the Representative Concentration Pathways (RCPs) from the IPCC Fifth Assessment Report (IPCC AR5). [...] NIWA RCP: RCP 1.9 / RCP 2.6 / RCP 8.5",
+      "location_hint": "Pages 5–6 (Approach to Scenario Analysis) and Page 12 (Appendix 1)",
+      "confidence": "high",
+      "notes": "NIWA is listed as the source for the RCP data in the scenario architecture table on page 6.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "For the purposes of our CRA, we adopted the shared socioeconomic scenarios (SSP) provided by the Intergovernmental Panel on Climate Change Sixth Assessment Report (IPCC AR6) to assess Steel & Tube's evolving risk profile. The SSPs build upon the Representative Concentration Pathways (RCPs) from the IPCC Fifth Assessment Report (IPCC AR5). We use the RCP scenarios (that are aligned to the SSP scenarios) from the IPCC AR5 for climate metrics that had not yet been developed within the IPCC AR6 models.",
+      "location_hint": "Page 12 (Appendix 1: Methodology)",
+      "confidence": "high",
+      "notes": "The document explicitly states that SSPs (from IPCC AR6) and RCPs (from IPCC AR5) are both used. The RCPs are described as \"aligned to the SSP scenarios\" and used only where AR6 metrics were not yet available, so they are treated as complementary rather than fully independent families. However, both SSP and RCP identifiers are explicitly listed together in the scenario architecture table (page 6), meeting the criterion for a Yes answer.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "The scenario architecture and narratives were developed internally, adopting NGFS narratives for Net Zero 2050, Delayed Transition, and Hothouse - Current Policies. Additionally, we incorporated a broader set of climate scenarios from the SSP (Shared Socioeconomic Pathway) Scenarios, the Intergovernmental Panel on Climate Change (IPCC) and qualitative descriptions, population demographics and socio-economic assumptions. [...] The Climate Risk Steering Committee participated in a scenario analysis workshop to define \"how climate change could plausibly affect our business model and strategy, what should we do and when\". This information was then used by the group to identify our driving forces, using the STEEP analysis (social, technological, economic, environmental, and political categories) as provided by the XRB Staff Guidance on Entity Scenario Development. The output of the analysis for each climate scenario was consolidated and scenario narratives were drafted.",
+      "location_hint": "Page 5 (Approach to Scenario Analysis)",
+      "confidence": "high",
+      "notes": "The document explicitly states that narratives were \"developed internally\" by adapting NGFS narratives and incorporating additional SSP/IPCC data, and that a STEEP analysis was used to build company-specific scenario narratives. This constitutes customisation/adaptation beyond off-the-shelf use. The word \"downscaled\" is not used, but \"developed internally\" and the internal workshop process clearly indicate adaptation for local/industry context.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "Steel & Tube conducted its scenario analysis as a standalone process [...] The Climate Risk Steering Committee participated in a scenario analysis workshop to define \"how climate change could plausibly affect our business model and strategy, what should we do and when\". This information was then used by the group to identify our driving forces, using the STEEP analysis [...] A staged approach was taken to develop board knowledge and understanding, with full board engagement during the introduction of climate-related disclosures.",
+      "location_hint": "Page 5 (Approach to Scenario Analysis)",
+      "confidence": "high",
+      "notes": "The scenario development involved internal stakeholders (Climate Risk Steering Committee, Senior Leadership Team, board) and external consultants (Deloitte), but there is no mention of participatory, co-created, deliberative, or co-designed processes with external stakeholders or the public. The process is described as a \"standalone\" internal process.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No explicit baseline or reference scenario is described. The \"Hothouse – Current Policies\" scenario functions implicitly as a business-as-usual reference, but it is not labelled as a baseline against which the other scenarios are compared.",
+      "evidence": "Hothouse Current Policies: Assumes that only currently implemented policies are preserved, leading to high physical risks. Emissions grow until 2080 leading to about 3°C of warming and severe physical risks.",
+      "location_hint": "Page 12 (Appendix 1)",
+      "confidence": "medium",
+      "notes": "The document does not use the word \"baseline\" or \"reference scenario\". The Hothouse/Current Policies scenario is a plausible future state, not explicitly framed as a baseline for comparison. Answer is effectively \"No\" for a formally described baseline scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "IPCC AR6 (SSP models)",
+        "IPCC AR5 (RCP models)"
+      ],
+      "evidence": "For the purposes of our CRA, we adopted the shared socioeconomic scenarios (SSP) provided by the Intergovernmental Panel on Climate Change Sixth Assessment Report (IPCC AR6) to assess Steel & Tube's evolving risk profile. The SSPs build upon the Representative Concentration Pathways (RCPs) from the IPCC Fifth Assessment Report (IPCC AR5). We use the RCP scenarios (that are aligned to the SSP scenarios) from the IPCC AR5 for climate metrics that had not yet been developed within the IPCC AR6 models. [...] Steel & Tube conducted its scenario analysis as a standalone process, and we have not undertaken any modelling.",
+      "location_hint": "Pages 5 and 12 (Approach to Scenario Analysis and Appendix 1)",
+      "confidence": "medium",
+      "notes": "No specific named climate models (e.g. CLIMADA, REMIND, GCAM) are mentioned. The document references the IPCC AR6 SSP framework and IPCC AR5 RCP framework as data sources, and explicitly states \"we have not undertaken any modelling.\" NIWA is listed as the source for RCP data in the scenario architecture table but no specific NIWA model is named.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "Physical Risk: Business disruption from extreme weather. Extreme weather events could result in damage to assets, business interruption and operational delays. These weather events may also impact on customer projects with delays and reduced demand for steel [...] Increased extreme weather events could: Cause damage to buildings and worksites; Close or damage transportation routes necessary for our people to come to work, and to deliver and receive goods; Disrupt supply chains nationwide, with associated costs; Reduce revenue due to an inability to deliver customer orders; Cause customers to pause or delay projects, resulting in decreased demand for Steel & Tube's products; Increase the cost of insurance, repairs, maintenance and asset replacement; Increase capital expenditure to upgrade properties to a climate-resilient standard",
+      "location_hint": "Page 8 (Climate-related Risks and Opportunities)",
+      "confidence": "high",
+      "notes": "The document describes damage and loss impacts from extreme weather events (acute physical risks) including asset damage, business interruption, supply chain disruption, revenue loss, and increased insurance/maintenance costs. However, no quantified financial loss estimates are provided (the entity used NZ CS 2 adoption provisions to exempt financial impact disclosures in this first reporting period).",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon prices",
+        "sea level rise",
+        "extreme weather events",
+        "CDR (carbon dioxide removal)",
+        "policy ambition/regulation",
+        "technology change",
+        "regional policy variation",
+        "population demographics",
+        "socio-economic assumptions",
+        "GDP",
+        "access to finance/insurance",
+        "embodied carbon demand"
+      ],
+      "evidence": "Additionally, we incorporated a broader set of climate scenarios from the SSP (Shared Socioeconomic Pathway) Scenarios, the Intergovernmental Panel on Climate Change (IPCC) and qualitative descriptions, population demographics and socio-economic assumptions. [...] CDR (carbon dioxide removal): Medium-high use / Low-medium use / Low use; Regional Policy Variation: Medium variation / High variation / Low variation; Technology Change: Fast change / Slow/fast change / Slow change [...] The availability of CDR technologies is assumed to be low pushing carbon prices higher than in Net Zero 2050. [...] This includes irreversible changes like higher sea level rise. [...] Impacts are creating large GDP destruction.",
+      "location_hint": "Pages 5–6 (Scenario Architecture table) and Page 12 (Appendix 1)",
+      "confidence": "high",
+      "notes": "The scenario architecture table explicitly lists Policy Reaction, Technology Change, CDR use, and Regional Policy Variation as scenario dimensions. Sea level rise, carbon prices, GDP destruction, and extreme weather events are mentioned in the scenario descriptions.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "We chose the Network for Greening the Financial System (NGFS) scenarios for our analysis primarily due to the availability of regional or country-specific data for New Zealand, and the inclusion of temperature pathways necessary for compliance with NZ CS 1. [...] NIWA RCP: RCP 1.9 / RCP 2.6 / RCP 8.5 [...] For the purposes of our CRA, we adopted the shared socioeconomic scenarios (SSP) provided by the Intergovernmental Panel on Climate Change Sixth Assessment Report (IPCC AR6)",
+      "location_hint": "Pages 5–6 (Approach to Scenario Analysis and Climate Scenario Architecture)",
+      "confidence": "high",
+      "notes": "The document uses global IPCC SSP/RCP scenarios as the base, but explicitly states that NGFS was chosen for \"availability of regional or country-specific data for New Zealand\" and NIWA RCP data is listed in the scenario architecture table, indicating regional/local downscaling is also incorporated.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short-term: present day to 2030; Medium-term: 2030 to 2050; Long-term: 2050 to 2100. Rationale is provided: time horizons were determined on the basis of Steel & Tube's asset and product design life, its asset management regime, and its longer-term business strategy.",
+      "evidence": "Risk and Scenario Time Horizons: Short-term: Present day to 2030; Medium-term: 2030 to 2050; Long-term: 2050 to 2100. The time horizons for these scenarios were determined on the basis of Steel & Tube's asset and product design life, its asset management regime, and its longer-term business strategy.",
+      "location_hint": "Page 5 (Approach to Scenario Analysis – Risk and Scenario Time Horizons table)",
+      "confidence": "high",
+      "notes": "The rationale is explicitly stated and linked to asset/product design life, asset management regime, and longer-term business strategy.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "We chose the Network for Greening the Financial System (NGFS) scenarios for our analysis primarily due to the availability of regional or country-specific data for New Zealand, and the inclusion of temperature pathways necessary for compliance with NZ CS 1.",
+      "location_hint": "Page 5 (Approach to Scenario Analysis)",
+      "confidence": "high",
+      "notes": "The justification is explicit and two-fold: (1) availability of regional/country-specific data for New Zealand, and (2) inclusion of temperature pathways required for compliance with NZ CS 1 (the Aotearoa New Zealand Climate Standard). No separate justification is provided for the choice of IPCC SSP/RCP scenarios beyond their use as the underlying physical climate data framework.",
+      "verification": null
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "source": "VERO_INSURANCE_NEW_ZEALAND_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "total_tokens": 1061809,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 61620,
+        "cache_read": 993814,
+        "cache_creation": 0
+      },
+      "input_tokens": 1055457,
+      "output_tokens": 6352
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly scenario, 1.5°C (RCP 2.6)",
+        "Disorderly scenario, 2°C (RCP 4.5)",
+        "Hot house world scenario, 3+°C (RCP 6.0)",
+        "Hot house world scenario, 3+°C (RCP 8.5)"
+      ],
+      "evidence": "Scenario: →Orderly scenario, 1.5°C (RCP 2.6)* →Disorderly scenario, 2°C (RCP 4.5) →Hot house world scenario, 3+°C (RCP 6.0, and 8.5) ... * RCP = Representative Concentration Pathway – which represents different concentrations of greenhouse gases in the atmosphere.",
+      "location_hint": "Table 4, p.8 (Using scenario analysis)",
+      "confidence": "high",
+      "notes": "RCP 8.5 is used only for physical risk analysis; RCP 6.0 is used for both physical and transitional risk. The scenarios are sourced from the ICNZ Shared Climate Scenarios Initiative (June 2022).",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: 1.5°C (Orderly/net-zero 2050, RCP 2.6), >2°C (Disorderly/delayed transition, RCP 4.5), and >3°C (Hot house world/current policies, RCP 6.0 and RCP 8.5). No explicit temperature overshoot is mentioned.",
+      "evidence": "Orderly scenario, 1.5°C (RCP 2.6) ... Disorderly scenario, 2°C (RCP 4.5) ... Hot house world scenario, 3+°C (RCP 6.0, and 8.5)",
+      "location_hint": "Table 4, p.8; Scenario Descriptions, p.9",
+      "confidence": "high",
+      "notes": "The document labels these as 1.5°C, >2°C, and >3°C respectively. No explicit mention of temperature overshoot.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "ICNZ (Insurance Council of New Zealand) — specifically the ICNZ Shared Climate Scenarios Initiative (June 2022)",
+      "evidence": "The climate scenarios and narratives we referred to in our analysis were based on the ICNZ Shared Climate Scenarios Initiative (June 2022).",
+      "location_hint": "CCSA process, step 3, p.8; also cited as source on p.9",
+      "confidence": "high",
+      "notes": "ICNZ = Insurance Council of New Zealand. The scenarios are explicitly attributed to this initiative.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "No",
+      "evidence": "Orderly scenario, 1.5°C (RCP 2.6)* →Disorderly scenario, 2°C (RCP 4.5) →Hot house world scenario, 3+°C (RCP 6.0, and 8.5) ... * RCP = Representative Concentration Pathway – which represents different concentrations of greenhouse gases in the atmosphere.",
+      "location_hint": "Table 4, p.8",
+      "confidence": "high",
+      "notes": "The document only uses RCP identifiers (RCP 2.6, 4.5, 6.0, 8.5). No SSP identifiers are mentioned anywhere in the document. There is no mixing of SSP and RCP families.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "The climate scenarios and narratives we referred to in our analysis were based on the ICNZ Shared Climate Scenarios Initiative (June 2022). ... In FY24 we undertook a CCSA exercise purely focused on New Zealand, together with AA Insurance Limited and Vero Liability Insurance Limited.",
+      "location_hint": "p.8 (CCSA process); p.9 (Scenario Descriptions)",
+      "confidence": "medium",
+      "notes": "The ICNZ Shared Climate Scenarios Initiative is itself a New Zealand insurance-industry-specific adaptation of broader climate scenarios, with narratives tailored to the NZ general insurance sector (e.g., references to NZ government policy, managed retreat, NZ GI sector outcomes). The scenarios are not described as \"downscaled\" or \"customised\" in those exact words, but they are clearly industry- and country-specific narratives built on RCP pathways. The CCSA was also \"purely focused on New Zealand.\"",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "The climate scenarios and narratives we referred to in our analysis were based on the ICNZ Shared Climate Scenarios Initiative (June 2022).",
+      "location_hint": "p.8",
+      "confidence": "medium",
+      "notes": "The document does not describe any participatory, co-created, deliberative, or co-designed scenario development process. Vero adopted pre-existing ICNZ scenarios. The ICNZ initiative itself may have involved industry collaboration, but this is not described in the document. No keywords such as \"participatory\", \"co-creat\", \"deliberat\", \"co-design\", or \"collaborative development\" appear in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "Yes — a \"today\" baseline is used for physical risk, against which percentage changes in Average Annual Loss (AAL) are measured across future time horizons under different RCP scenarios.",
+      "evidence": "Table 5. Percentage changes in average annual losses under different climate scenarios ... [columns show AAL change for 2030s, 2050s, 2090s relative to current] ... Projected loss contribution of each weather peril (RCP 4.5) [chart shows \"Today\" as starting point]",
+      "location_hint": "Table 5 and chart, p.10",
+      "confidence": "medium",
+      "notes": "The document uses \"today\" as an implicit baseline for physical risk (AAL percentage changes). There is no explicitly named \"baseline scenario\" or \"reference scenario\" in the text, but the AAL table and chart clearly use current conditions as the reference point. The glossary defines \"Baseline\" only in the context of emissions reduction targets, not climate scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "flood model (unnamed, new sophisticated model)"
+      ],
+      "evidence": "We use models to measure the expected physical damage to our portfolios from extreme weather events. ... We also continue to expand our knowledge about flood risk, so we can provide sustainable premiums for our customers. To support this, we have invested in a new, more sophisticated flood model to enable us to assess and price flood risk more accurately.",
+      "location_hint": "p.10 (Physical risk section); p.12 (Planning for the transition)",
+      "confidence": "low",
+      "notes": "The document refers to physical risk models and a \"new, more sophisticated flood model\" but does not name any specific climate model, IAM, or macroeconomic model (e.g., no CLIMADA, REMIND, NiGEM, etc. are named). Aon was engaged to assist with physical and transition risk analysis but no specific model names are provided.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "We measure projected losses from extreme weather events as 'average annual loss' (AAL). AAL is the financial loss we expect in a year for an insured risk or portfolio due to damage from extreme weather events. ... Our FY24 physical risk analysis focused on flooding and wind damage from storms, due to the effect climate change may have on these events in the future.",
+      "location_hint": "p.10 (Physical risk section, Table 5)",
+      "confidence": "high",
+      "notes": "The document explicitly quantifies percentage changes in Average Annual Loss (AAL) from extreme weather events (floods and storms) under different RCP scenarios and time horizons. This is a direct financial loss estimate from acute physical risks.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "sea level rise",
+        "rainfall intensity",
+        "flood frequency (river, surface, coastal)",
+        "storm wind/ex-tropical cyclones",
+        "greenhouse gas concentrations (RCP)",
+        "vertical land movement"
+      ],
+      "evidence": "Rising sea levels and vertical movements in land will also affect coastal flooding. ... For extreme rainfall, we expect significant increases in the intensity of short-duration rainfall in storms (a 10-15% increase per degree of further warming). ... Our FY24 physical risk analysis focused on flooding and wind damage from storms ... Scope of assessment: →Flood (surface, coastal and riverine) →Storm wind (storms and ex-tropical cyclones) ... the representative concentration pathway (RCP) scenarios reflect how concentrated emissions may be in future years",
+      "location_hint": "p.8 (Table 4), p.10 (Physical risk section)",
+      "confidence": "high",
+      "notes": "For transition risk, the document also references policy changes, EV adoption, carbon economy shifts, and reinsurance costs, but these are risk outcomes rather than scenario-driving variables per se.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "regional/local",
+      "evidence": "In FY24 we undertook a CCSA exercise purely focused on New Zealand, together with AA Insurance Limited and Vero Liability Insurance Limited. ... The climate scenarios and narratives we referred to in our analysis were based on the ICNZ Shared Climate Scenarios Initiative (June 2022). [Scenario narratives describe New Zealand-specific government, councils, communities, and insurance sector outcomes.]",
+      "location_hint": "p.8 (CCSA process); p.9 (Scenario Descriptions)",
+      "confidence": "medium",
+      "notes": "The ICNZ scenarios are New Zealand-specific narratives applied to NZ insurance portfolios. The underlying RCP pathways are global, but the scenario analysis and narratives are explicitly focused on New Zealand. The document does not explicitly state \"downscaled\" but the application is clearly regional/local (NZ).",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Physical risk: Short = 2025; Medium = 2030s (2020–2040); Long = 2050s (2040–2060); Very long = 2090s (2080–2100). Transitional risk: Short = 2025; Medium = 2030 (2026–2035); Long = 2050 (2036–2050). Rationales are explicitly provided for each timeframe.",
+      "evidence": "Timeframes [Physical risk]: 2025 – short (aligned with business planning, funding, and operational risk timeframes); 2030s (2020-2040) – medium (aligned with timeframes for net-zero targets, and strategic risks); 2050s (2040-2060) – long (aligned with NZ Government stated ambition to be net-zero by 2050); 2090s (2080-2100) – very long (provides longer term perspective of physical risk changes). [Transitional risk]: 2025 – short (aligned with business planning, funding, and operational risk timeframes); 2030 (2026-2035) – medium (aligned with timeframes for net-zero targets, and strategic risks); 2050 (2036-2050) – long (aligned with NZ Government stated ambition to be net-zero by 2050)",
+      "location_hint": "Table 4, p.8",
+      "confidence": "high",
+      "notes": "Rationales are explicitly stated for each timeframe in Table 4. Physical risk includes an additional \"very long\" 2090s horizon not present in the transitional risk analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes — the document states that the scenarios were based on the ICNZ Shared Climate Scenarios Initiative, and the CCSA process followed the TCFD six-step process. The timeframe rationales are explicitly justified. However, no explicit justification is provided for why the ICNZ scenarios specifically were chosen over other scenario sets.",
+      "evidence": "The climate scenarios and narratives we referred to in our analysis were based on the ICNZ Shared Climate Scenarios Initiative (June 2022). ... The process we followed in FY24 was based on the Taskforce on Climate-related Financial Disclosures (TCFD) six-step process for applying scenario analysis. ... 2025 – short (aligned with business planning, funding, and operational risk timeframes); 2030s (2020-2040) – medium (aligned with timeframes for net-zero targets, and strategic risks); 2050s (2040-2060) – long (aligned with NZ Government stated ambition to be net-zero by 2050); 2090s (2080-2100) – very long (provides longer term perspective of physical risk changes)",
+      "location_hint": "p.8 (CCSA process, Table 4)",
+      "confidence": "medium",
+      "notes": "The document names the ICNZ Shared Climate Scenarios Initiative as the source and explains the TCFD process followed, and provides rationales for timeframe choices. However, it does not explicitly justify why the ICNZ scenarios were chosen over alternatives (e.g., NGFS, IPCC AR6 scenarios). The justification is implicit (industry-specific NZ scenarios) rather than explicitly stated.",
+      "verification": null
+    }
+  ]
+}

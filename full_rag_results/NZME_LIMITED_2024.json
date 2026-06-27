@@ -1,0 +1,167 @@
+{
+  "source": "NZME_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 902529,
+      "output_tokens": 7216,
+      "total_tokens": 909745,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 853640,
+        "ephemeral_5m_input_tokens": 48864,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Deep Decarbonisation (Ref: SSP1-2.6)",
+        "Status Quo (Ref: SSP2-4.5)",
+        "Carbon Insensitive (Ref: SSP5-8.5)"
+      ],
+      "evidence": "Carbon Insensitive Ref: SSP5-8.5 / Status Quo Ref: SSP2-4.5 / Deep Decarbonisation Ref: SSP1-2.6 ... We reviewed and refreshed the three climate scenarios developed in 2023, to build in more entity-specific drivers and conditions.",
+      "location_hint": "Figure 1, p.30-31",
+      "confidence": "high",
+      "notes": "Three scenarios are named with their SSP reference codes. The foundation also references RCPs from the IPCC 6th Assessment.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes by 2100 are described: (1) Deep Decarbonisation (SSP1-2.6): global warming kept well below 2°C (global parameter: 1.3–2.4°C); NZ average warming by 2099: 1.45°C. (2) Status Quo (SSP2-4.5): global warming reaches about 3°C (global parameter: 2.1–3.5°C); NZ average warming by 2099: 3.27°C. (3) Carbon Insensitive (SSP5-8.5): global warming reaches around 4°C (global parameter listed as 1.3–2.4°C in the table, likely a document error); NZ average warming by 2099: 4.7°C.",
+      "evidence": "\"Global warming is kept well below 2°C by the end of the century.\" [Deep Decarbonisation] / \"By the end of the century, global warming reaches about 3°C, worsening environmental and social challenges.\" [Status Quo] / \"by the end of the century, global warming reaches around 4°C, leading to severe environmental and social challenges.\" [Carbon Insensitive] | Figure 2: Warming by 2100: Deep Decarbonisation 1.3 - 2.4°C; Status Quo 2.1 - 3.5°C; Carbon Insensitive 1.3 - 2.4°C [note: likely a document error for Carbon Insensitive]",
+      "location_hint": "Figure 1 (p.30) and Figure 2 (p.31)",
+      "confidence": "high",
+      "notes": "The Figure 2 table shows \"1.3–2.4°C\" for both Deep Decarbonisation and Carbon Insensitive under \"Warming by 2100\", which appears to be a document error for the Carbon Insensitive column. The narrative text clearly states ~4°C for Carbon Insensitive. NZ-specific warming figures are also provided.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple providers are named: IPCC (Intergovernmental Panel on Climate Change) for the RCP and SSP scenario foundations; NIWA for temperature change data; NZ Government (New Zealand Climate Projections) for extreme weather data; SPANZ (Shared Climate Policy Assumptions for New Zealand) for regulatory/policy data. Oxygen Consulting was engaged to support the scenario analysis process.",
+      "evidence": "\"The foundation of these scenarios utilise the representative concentration warming pathways (\"RCPs\") established by the Intergovernmental Panel on Climate Change (\"IPCC\") 6th assessment and the Shared Socio-economic Pathways (\"SSP\") scenarios.\" / \"Temperature change (IPCC 6th Assessment report; NIWA); Extreme weather (New Zealand Climate Projections, NZ Government); GDP, Population growth, Urbanisation, and Technology (Shared Socio-economic Pathways, IPCC 6th Assessment report); Regulatory/Policy (Shared Climate Policy Assumptions for New Zealand (SPANZ); Transportation (NZ Transport Sector Scenarios); Consumer sentiment (NZ Retail Sector Scenarios).\" / \"In 2024 the CRD Working Group engaged Oxygen Consulting to support our scenario analysis.\"",
+      "location_hint": "p.29-30",
+      "confidence": "high",
+      "notes": "Multiple providers named. IPCC is the primary scenario framework provider; NIWA, NZ Government, SPANZ provide supporting data. Oxygen Consulting is the consulting firm that supported the analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "\"The foundation of these scenarios utilise the representative concentration warming pathways (\"RCPs\") established by the Intergovernmental Panel on Climate Change (\"IPCC\") 6th assessment and the Shared Socio-economic Pathways (\"SSP\") scenarios.\" The three scenarios are then referenced as SSP1-2.6, SSP2-4.5, and SSP5-8.5.",
+      "location_hint": "p.29-31",
+      "confidence": "medium",
+      "notes": "The document explicitly mentions both RCPs and SSPs as the foundation of the scenarios. However, the three named scenarios are all SSP-based (SSP1-2.6, SSP2-4.5, SSP5-8.5). The RCP reference appears to be a general methodological statement rather than a specific mixing of RCP and SSP identifiers. The SSP scenarios (e.g. SSP1-2.6) already embed a radiative forcing pathway (the \"2.6\" in SSP1-2.6 refers to W/m² forcing, analogous to RCP2.6), so these are internally consistent SSP-RCP combinations from IPCC AR6. The document does not appear to mix standalone RCP scenarios with standalone SSP scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"We reviewed and refreshed the three climate scenarios developed in 2023, to build in more entity-specific drivers and conditions. The foundation of these scenarios utilise the representative concentration warming pathways (\"RCPs\") established by the Intergovernmental Panel on Climate Change (\"IPCC\") 6th assessment and the Shared Socio-economic Pathways (\"SSP\") scenarios. New Zealand and industry-specific reference data was overlayed to these scenarios, to develop detailed narratives and parameters to evaluate our climate-related risks and opportunities in 2024.\"",
+      "location_hint": "p.29-30",
+      "confidence": "high",
+      "notes": "The scenarios are explicitly described as adapted/customised: NZ-specific and industry-specific data was overlaid on the IPCC SSP/RCP foundations, and entity-specific drivers and conditions were built in. Figure 3 also shows entity-specific scenario narratives tailored to NZME's media business context.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "\"In 2024 the CRD Working Group engaged Oxygen Consulting to support our scenario analysis. We reviewed and refreshed the three climate scenarios developed in 2023, to build in more entity-specific drivers and conditions.\" / \"Members of the Executive Management Team as well as the CRD Working Group were involved in the scenario analysis and the development of management activities to address different risks and opportunities.\"",
+      "location_hint": "p.29, p.33",
+      "confidence": "high",
+      "notes": "The scenario development involved internal management (CRD Working Group, Executive Management Team) and an external consultant (Oxygen Consulting), but there is no mention of participatory, co-created, deliberative, or stakeholder-collaborative scenario development processes.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No explicit baseline or reference scenario is described against which the climate scenarios are compared. The \"Status Quo\" scenario (SSP2-4.5) represents a middle-of-the-road pathway but is not explicitly labelled as a baseline for comparison purposes.",
+      "evidence": "\"Aotearoa NZ and the world follow existing trends, with uneven progress across countries... By the end of the century, global warming reaches about 3°C, worsening environmental and social challenges. [Status Quo / Ref: SSP2-4.5]\"",
+      "location_hint": "Figure 1, p.30",
+      "confidence": "medium",
+      "notes": "The \"Status Quo\" scenario could be interpreted as a de facto baseline (business-as-usual), but the document does not explicitly describe it as a baseline or reference scenario against which the others are compared. The three scenarios are presented as parallel alternatives.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "not_found"
+      ],
+      "evidence": "No specific climate models, IAMs, or macroeconomic models are named in the document. The document references data sources (IPCC 6th Assessment Report, NIWA, NZ Government Climate Projections, SPANZ, NZ Transport Sector Scenarios, NZ Retail Sector Scenarios) but does not name any specific models such as CLIMADA, REMIND, MESSAGE, GCAM, etc.",
+      "location_hint": "p.29-31",
+      "confidence": "high",
+      "notes": "No named climate models or IAMs are identified in the document. Only data sources and scenario frameworks are referenced.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"Increased severity of extreme weather / Physical — Business continuity and climate change effects - Risk of physical damage to office, print plant or transmission equipment, impacting our ability to operate, access systems, broadcast, transmit or deliver content to our customers through our media channels... Direct revenue loss from papers not delivered, content not able to be produced, content not distributed, NZME people unable to access sites/perform work duties, potential brand damage. Costs associated with insurance excess and damage to uninsured sites and equipment requiring repair or replacement.\"",
+      "location_hint": "Table 1, p.34",
+      "confidence": "high",
+      "notes": "The document explicitly includes damage and loss estimates from extreme weather events (acute physical risks), including direct revenue loss, insurance costs, and equipment damage costs. These are assessed under the \"Status Quo / Carbon Intensive\" scenarios in the short term.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "extreme weather events (frequency and severity)",
+        "population growth",
+        "urbanisation",
+        "GDP",
+        "technological change",
+        "climate policy/regulation",
+        "transportation",
+        "consumer sentiment",
+        "sea level rise",
+        "precipitation/heavy rainfall",
+        "number of very hot days (>30°C per year)"
+      ],
+      "evidence": "\"The scenarios considered time horizons out to the end of this century (2100), supported by source data on the key trends over this period including: Temperature change (IPCC 6th Assessment report; NIWA); Extreme weather (New Zealand Climate Projections, NZ Government); GDP, Population growth, Urbanisation, and Technology (Shared Socio-economic Pathways, IPCC 6th Assessment report); Regulatory/Policy (Shared Climate Policy Assumptions for New Zealand (SPANZ); Transportation (NZ Transport Sector Scenarios); Consumer sentiment (NZ Retail Sector Scenarios).\" / Figure 2 parameters include: \"Extreme weather events\", \"Population by 2100\", \"Urbanisation at 2100\", \"Technological change\", \"Number of very hot days >30°C per year to 2099\", \"Heavy rainfall (99th percentile) per annum\", \"Climate policy\", \"Transportation\", \"Consumer sentiment\"",
+      "location_hint": "p.30-31",
+      "confidence": "high",
+      "notes": "A wide range of non-temperature variables are used across both global and NZ-specific scenario parameters.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"Figure 2: NZME's 2024 Scenario parameters – global and New Zealand context\" with both \"Global Issues\" and \"Aotearoa NZ Trends\" parameters. / \"New Zealand and industry-specific reference data was overlayed to these scenarios, to develop detailed narratives and parameters.\" / Source data includes \"Temperature change (IPCC 6th Assessment report; NIWA); Extreme weather (New Zealand Climate Projections, NZ Government)\"",
+      "location_hint": "p.29-31",
+      "confidence": "high",
+      "notes": "The scenarios explicitly include both global parameters (from IPCC SSP/RCP frameworks) and New Zealand-specific/local parameters (from NIWA, NZ Government Climate Projections, SPANZ, etc.).",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Four time horizons are defined: Short-term (1–3 years), Medium-term (4–10 years), Long-term (11–30 years), and Very long-term (31–75 years). Rationales are provided for each, aligned to specific business planning cycles and asset lifecycles.",
+      "evidence": "\"Short-term: Next 1-3 years (aligned with business planning) Focus on managing immediate risks such as disruptions to operations due to extreme weather events... Medium-term: Next 4-10 years (aligned with asset management and publication life) Focus on transitional risks such as regulatory changes... Long-term: Next 11 - 30 years (aligned with investor relations and radio stream life) During this time, physical risks such as sea level rise, changes in temperature and precipitation patterns... Very long-term: Next 31-75 years (out to the end of the century) During this time, physical risks such as sea level rise, changes in temperature and precipitation patterns, and other impacts of climate change will become more pronounced. Adaptation will be a key focus.\" / \"In 2024, we added a further time horizon of Very Long Term (30-75 years). Adding this fourth time horizon for the scenarios meant that our assessment covered the full period to the end of the century to align with the time horizons of the climate scenarios.\"",
+      "location_hint": "p.33",
+      "confidence": "high",
+      "notes": "Rationales are explicitly provided for each time horizon, aligned to business planning cycles (short-term), asset management and publication life (medium-term), investor relations and radio stream life (long-term), and end-of-century climate scenario alignment (very long-term).",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"We evaluated the most ambitious and worst-case scenarios, to ensure that we stress tested all material risks or opportunities that might plausibly eventuate in the years to 2100. Taking this conservative approach also allows us to consider an environment where the physical impacts escalate much faster than anticipated, and/or the corresponding transitional impacts are put in place more rapidly, and to test our ability to respond.\"",
+      "location_hint": "p.30",
+      "confidence": "medium",
+      "notes": "The justification is partial — it explains why the most ambitious and worst-case scenarios were selected (to stress-test all material risks), but does not provide a detailed rationale for the specific choice of SSP1-2.6, SSP2-4.5, and SSP5-8.5 over other possible scenarios. No justification is provided for the choice of data sources or models.",
+      "verification": null
+    }
+  ]
+}

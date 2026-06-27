@@ -1,0 +1,181 @@
+{
+  "source": "VECTOR_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "total_tokens": 495436,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 45554,
+        "cache_read": 443060,
+        "cache_creation": 0
+      },
+      "input_tokens": 488630,
+      "output_tokens": 6806
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly Decarbonisation",
+        "Disorderly Decarbonisation",
+        "Hothouse"
+      ],
+      "evidence": "Vector developed three group climate scenarios, as outlined in the adjacent table... Orderly decarbonisation • Limits global average temperature to 1.5ºC warmer by 2100 (RCP 1.9) ... Disorderly decarbonisation • Global average temperature 2.7ºC warmer by 2100 (RCP 4.5) ... Hothouse • Global average temperature 4.4ºC warmer by 2100 (RCP 8.5)",
+      "location_hint": "Strategy section, p.11-12",
+      "confidence": "high",
+      "notes": "Three named scenarios used across physical and transitional analysis. The Hothouse scenario is excluded from transitional modelling but included in physical scenario analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes by 2100 are described: 1.5°C (Orderly Decarbonisation, SSP1-1.9); 2.7°C (Disorderly Decarbonisation, SSP2-4.5); 4.4°C (Hothouse, SSP5-8.5). Intermediate milestones are also given: Orderly peaks at 1.6°C by 2050 then declines to 1.4°C by 2100; Disorderly reaches 2.0°C by 2050 and 2.7°C by 2100; Hothouse reaches 2.4°C by 2050 and 4.4°C by 2100.",
+      "evidence": "Under the orderly decarbonisation scenario... global temperatures peak around 1.6ºC by 2050 and then decline to 1.4ºC by 2100... Under the disorderly decarbonisation scenario... global temperatures to reach 2.0ºC by 2050, and 2.7ºC by 2100... under the hothouse scenario GHG emissions triple by 2075 and global temperatures reach 2.4ºC by 2050 and 4.4ºC by 2100.",
+      "location_hint": "Strategy section, p.11-12",
+      "confidence": "high",
+      "notes": "The scenario table on p.11 lists 1.5°C for Orderly (RCP 1.9), 2.7°C for Disorderly (RCP 4.5), and 4.4°C for Hothouse (RCP 8.5). The narrative on p.12 provides additional intermediate milestones. No temperature overshoot language is used explicitly, though the Orderly scenario peaks at 1.6°C before declining to 1.4°C.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Two scenario providers are explicitly named: IPCC (Intergovernmental Panel on Climate Change) for physical analysis, and NGFS (Network for Greening the Financial System) for transitional analysis.",
+      "evidence": "Vector developed three group climate scenarios, as outlined in the adjacent table, which adapt data from the Intergovernmental Panel on Climate Change (IPCC) Assessment Report Six [5] for physical analysis, and the Network for Greening the Financial System (NGFS) [6] (an international network of central banks and supervisory authorities including the Reserve Bank of New Zealand) for transitional analysis.",
+      "location_hint": "Strategy section, p.11",
+      "confidence": "high",
+      "notes": "Both providers are explicitly named with their full names and acronyms. IPCC AR6 is used for physical risk; NGFS is used for transitional risk.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "Orderly decarbonisation • Limits global average temperature to 1.5ºC warmer by 2100 (RCP 1.9) ... • SSP 1-1.9 | Disorderly decarbonisation • Global average temperature 2.7ºC warmer by 2100 (RCP 4.5) ... • SSP 2-4.5 | Hothouse • Global average temperature 4.4ºC warmer by 2100 (RCP 8.5) ... • SSP 5-8.5",
+      "location_hint": "Strategy section, p.11",
+      "confidence": "high",
+      "notes": "The document explicitly lists both SSP identifiers (SSP1-1.9, SSP2-4.5, SSP5-8.5) and RCP identifiers (RCP 1.9, RCP 4.5, RCP 8.5) for each scenario. However, these are actually from the same IPCC AR6 scenario families — SSP1-1.9 corresponds to RCP1.9, SSP2-4.5 to RCP4.5, and SSP5-8.5 to RCP8.5. The document uses both labels for the same scenarios rather than mixing incompatible families, but both SSP and RCP identifiers are explicitly listed together.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "Vector developed three group climate scenarios, as outlined in the adjacent table, which adapt data from the Intergovernmental Panel on Climate Change (IPCC) Assessment Report Six [5] for physical analysis, and the Network for Greening the Financial System (NGFS) [6]... These group scenarios were initially developed by Vector's management, informed by existing scenario modelling for asset management, globally recognised scenarios, and engagement with the wider electricity distribution and transmission sector in New Zealand.",
+      "location_hint": "Strategy section, p.11",
+      "confidence": "high",
+      "notes": "The document explicitly states that Vector \"adapt[s] data\" from IPCC AR6 and NGFS, and that the scenarios were \"developed by Vector's management\" informed by global scenarios and NZ sector engagement. Physical modelling is also applied specifically to Auckland-region assets, further indicating local adaptation.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "These group scenarios were initially developed by Vector's management, informed by existing scenario modelling for asset management, globally recognised scenarios, and engagement with the wider electricity distribution and transmission sector in New Zealand. The scenarios were revisited in FY2025 and were considered to remain plausible and appropriate future pathways that are fit for purpose.",
+      "location_hint": "Strategy section, p.11",
+      "confidence": "medium",
+      "notes": "Scenarios were developed by Vector's management with engagement with the wider NZ electricity sector, but there is no explicit language of \"participatory\", \"co-created\", \"deliberative\", \"co-design\", or \"stakeholder input\" in the context of scenario development. The engagement described is informational rather than co-production.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No",
+      "evidence": "Scenarios represent plausible descriptions of how the future may develop based on a set of assumptions, including both physical and transitional climate-related risks in an integrated manner. Scenarios are used to prepare for uncertain future impacts of climate change and test the resilience of Vector's business model and the Symphony strategy.",
+      "location_hint": "Strategy section, p.13",
+      "confidence": "medium",
+      "notes": "No explicit baseline or reference scenario is described against which the three climate scenarios are compared. The document describes three forward-looking scenarios (Orderly, Disorderly, Hothouse) without a named \"business as usual\" or \"no-change\" baseline. Historical trends are referenced in some metrics but not as a formal baseline scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "ClimSystems (extreme wind analysis and coastal inundation)",
+        "Customer Scenario Model (Vector internal, electricity load forecasting)",
+        "Gas Customer Scenario Modelling (Vector internal)",
+        "Industry Working Group - Gas Transition Modelling",
+        "Flood model (Vector/University of Auckland)",
+        "Landslip model (University of Auckland Department of Civil and Environmental Engineering)",
+        "Fire/dry year model (Earth Sciences NZ / NIWA)"
+      ],
+      "evidence": "In FY2022 Vector commissioned ClimSystems to conduct extreme wind analysis, and analyse coastal inundation... In FY2024 the University of Auckland's Department of Civil and Environmental Engineering conducted a land instability assessment... Vector quantitatively and qualitatively studies physical risk, working with the University of Auckland's Department of Civil and Environmental Engineering, Earth Sciences NZ (formerly NIWA) and ClimSystems.",
+      "location_hint": "Strategy section, p.14; Risk management section, p.24",
+      "confidence": "medium",
+      "notes": "No standard IAMs (e.g. REMIND, MESSAGE, GCAM) or macroeconomic models (e.g. NiGEM) are named. The models referenced are physical impact models and Vector's own internal scenario models. ClimSystems is the only named external modelling firm for physical analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "Drawing on our group scenarios, Vector conducts detailed physical modelling of both acute and chronic impacts... All scenarios highlight an increase in extreme weather events because of climate change compared with historical trends, with the most severe impacts in the hothouse scenario. Key impacts are customer outages, reputational risks and regulatory risks/fines from those outages, public safety risks, and asset costs (via either repair or reinforcing) to Vector's network... We have put forward approximately $300 million worth of projects for inclusion in Vector's FY2025 electricity asset management plan.",
+      "location_hint": "Strategy section, p.14; Risk 3 section, p.19",
+      "confidence": "high",
+      "notes": "The document explicitly models acute physical risks including flooding, wind, cyclones, coastal inundation, landslip, and wildfire. Damage/loss estimates are expressed in terms of asset costs, outages, and capital expenditure requirements (e.g. ~$300 million in projects). Flood modelling identifies 12 zone substations at risk. Wind-speed models project increased unplanned outages and repair expenditure.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "precipitation / rainfall",
+        "wind speed",
+        "coastal inundation / sea level",
+        "flood depth",
+        "landslip risk",
+        "fire risk / wildfire",
+        "electric vehicle uptake",
+        "solar/battery uptake",
+        "demand-side control / demand response",
+        "energy efficiency",
+        "gas to electricity switching",
+        "customer growth / population growth",
+        "industrial decarbonisation",
+        "gas prices",
+        "GHG emissions levels",
+        "regulatory policy settings",
+        "pre-storm water levels",
+        "elevation topology (LiDAR)",
+        "ground surface roughness and infiltration"
+      ],
+      "evidence": "our flood modelling is largely dependent on precipitation forecasts, pre-storm water levels, elevation topology based on light detection and ranging (LiDAR) scans, ground surface roughness and infiltration... Our wind modelling does not have spatial resolution... it only includes transitional customer impacts, such as electric vehicle uptake, industrial decarbonisation, new point loads, population growth, demand response, solar/battery uptake, and energy efficiency... gas network scenario models are highly sensitive to the current and future policy and regulatory framework, future gas prices, availability, and customer sentiment towards fossil fuels.",
+      "location_hint": "Strategy section, p.13-15",
+      "confidence": "high",
+      "notes": "A wide range of physical and transitional variables are used across different models. Physical variables include precipitation, wind speed, coastal inundation, flood depth, landslip, and fire risk. Transitional variables include EV uptake, solar/battery, demand response, energy efficiency, gas switching, population growth, and gas prices/policy.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "Vector developed three group climate scenarios... which adapt data from the Intergovernmental Panel on Climate Change (IPCC) Assessment Report Six [5] for physical analysis... Physical climate modelling highlights that electrical assets in the Auckland region are exposed to the various physical impacts of climate change... In FY2022 Vector commissioned ClimSystems to conduct extreme wind analysis, and analyse coastal inundation... Our flood modelling scenario analysis conducted in FY2024 considered 113 zone substations out to the year 2100.",
+      "location_hint": "Strategy section, p.11, 14, 19",
+      "confidence": "high",
+      "notes": "The overarching scenarios are based on global IPCC AR6 and NGFS frameworks (global level), but physical modelling is applied locally to Auckland-region assets (zone substations, overhead lines, etc.), constituting a regional/local downscaling. The document explicitly states physical modelling is conducted for the Auckland region.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short term: 0–5 years; Medium term: 5–10 years; Long term: 10–30 years. Rationale is explicitly provided for each timeframe.",
+      "evidence": "We use the time horizons below in our scenario analysis and physical and transitional risks and opportunities assessment. As explained below, each time horizon has been selected because of its link to our asset planning horizons and capital deployment plans: Short term (0-5 years), to reflect typical business planning and regulated price path cycles which sets Vector's regulated revenue streams; Medium term (5-10 years), to allow for our asset management plans for gas and electricity networks that detail capital and operational expenditure forecasts over a 10-year period; Long term (10-30 years), to account for longer impacts over existing and future planned assets and business activities.",
+      "location_hint": "Risk management section, p.24-25",
+      "confidence": "high",
+      "notes": "All three timeframes are explicitly defined and justified with reference to business planning cycles, regulated price paths, and asset management plan horizons. Physical modelling also extends to 2100 in some cases (e.g. flood and wind models).",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "We consider that the IPCC scenarios [5] are best suited for New Zealand physical risk impact analysis because of their data availability. Likewise, we consider that the NGFS scenarios are relevant to Vector's assessments as they capture the customer burden on an unmanaged transition... The chosen scenarios are appropriate to Vector as they allow us to assess the resilience of our business strategy against different potential futures that could emerge as part of the energy transition.",
+      "location_hint": "Strategy section, p.11, 13",
+      "confidence": "high",
+      "notes": "Vector provides explicit justification for both the IPCC AR6 scenarios (data availability for NZ physical risk) and NGFS scenarios (capturing customer burden of unmanaged transition). The overall scenario set is also justified as enabling resilience testing across different potential futures relevant to the energy transition.",
+      "verification": null
+    }
+  ]
+}

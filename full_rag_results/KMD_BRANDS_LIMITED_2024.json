@@ -1,0 +1,184 @@
+{
+  "source": "KMD_BRANDS_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 710342,
+      "output_tokens": 7459,
+      "total_tokens": 717801,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 650735,
+        "ephemeral_5m_input_tokens": 59589,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "NGFS Net Zero 2050 (Orderly, 1.5°C)",
+        "NGFS Delayed Transition (Disorderly, 1.7°C)",
+        "NGFS Current Policies (Hot House World, 3°C+)",
+        "IPCC SSP1-1.9 (1.4°C)",
+        "IPCC SSP1-2.6 (1.8°C)",
+        "IPCC SSP5-8.5 (4.4°C)",
+        "NIWA RCP1.9",
+        "NIWA RCP2.6",
+        "NIWA RCP4.5",
+        "NIWA RCP8.5"
+      ],
+      "evidence": "Table 1: Pathway overview and key assumptions\\nORDERLY | DISORDERLY | HOT HOUSE WORLD\\nNGFS: Net Zero 2050 (1.5°C) | Delayed Transition (1.7°C) | Current Policies (3°C+)\\nIPCC: SSP 1-1.9, 1.4°C | SSP 1-2.6, 1.8°C | SSP 5-8.5, 4.4°C\\nNIWA: RCP 1.9 | RCP 2.6, 4.5 | RCP 8.5",
+      "location_hint": "Section 3.3.3, Table 1, p.9",
+      "confidence": "high",
+      "notes": "Three overarching narrative scenarios (Orderly, Disorderly, Hot House World) are each mapped to NGFS, IPCC SSP, and NIWA RCP equivalents. RCP 4.5 is used for the physical risk rating exercise under the Disorderly scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "1.4°C (Orderly/SSP1-1.9), 1.6°C–1.8°C (Disorderly/SSP1-2.6, with slight overshoot of Paris target), 3°C+ and 4.4°C (Hot House World/SSP5-8.5). Temperature overshoot is mentioned for the Disorderly scenario.",
+      "evidence": "NGFS: Net Zero 2050 (1.5°C) | Delayed Transition (1.7°C) | Current Policies (3°C+)\\nIPCC: SSP 1-1.9, 1.4°C | SSP 1-2.6, 1.8°C | SSP 5-8.5, 4.4°C\\nPolicy ambition: 1.4°C | 1.6°C | 3°C+\\n\\nAlso: \"Temperature estimate range 1.6°C by 2060, 1.4°C by 2100: IPCC AR6 report – Summary for Policymakers\"\\n\\nAnd: \"There is a slight overshoot of the Paris target, but long-term physical risk is limited.\"",
+      "location_hint": "Section 3.3.3, Table 1, p.9",
+      "confidence": "high",
+      "notes": "The document lists both NGFS and IPCC temperature outcomes. The Orderly scenario targets 1.4°C (IPCC) / 1.5°C (NGFS). The Disorderly scenario is 1.7°C (NGFS) / 1.8°C (IPCC) with a noted slight overshoot. The Hot House World is 3°C+ (NGFS) / 4.4°C (IPCC SSP5-8.5).",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple providers are explicitly named: NGFS (Network for Greening the Financial System), IPCC (Intergovernmental Panel on Climate Change), and NIWA (National Institute of Water and Atmospheric Research). The NGFS GCAM global dataset was also used.",
+      "evidence": "\"We chose the three NGFS scenarios detailed in Table 1 to explore the physical and transition-related impacts over each time horizon... We adopted the shared socioeconomic pathways (SSP) provided by the Intergovernmental Panel on Climate Change Sixth Assessment Report (IPCC AR6) to assess KMD Brands' evolving risk profile. The global data sets that informed the KMD Brands scenario analysis included the IPCC AR6 dataset and the Network for Greening the Financial System (NGFS) GCAM global data set. The SSPs build upon the Representative Concentration Pathways (RCPs) from the IPCC Fifth Assessment Report (IPCC AR5).\"",
+      "location_hint": "Section 3.3.3, p.9",
+      "confidence": "high",
+      "notes": "NIWA is listed in Table 1 as the source for RCP scenarios. NGFS and IPCC are the primary scenario framework providers.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "\"We adopted the shared socioeconomic pathways (SSP) provided by the Intergovernmental Panel on Climate Change Sixth Assessment Report (IPCC AR6)... The SSPs build upon the Representative Concentration Pathways (RCPs) from the IPCC Fifth Assessment Report (IPCC AR5). We used the RCP scenarios (that are aligned to the SSP scenarios) from IPCC AR5 for climate metrics that have not yet been developed within the IPCC AR6 models.\" And Table 1 lists both SSP identifiers (SSP1-1.9, SSP1-2.6, SSP5-8.5) and RCP identifiers (RCP1.9, RCP2.6, RCP4.5, RCP8.5). Also: \"For the physical risk rating exercise, it was agreed to use the SSP 2, RCP 4.5 degree scenario.\"",
+      "location_hint": "Section 3.3.3, p.9; Section 4.1.1, p.15",
+      "confidence": "high",
+      "notes": "The document explicitly uses both SSP (from IPCC AR6) and RCP (from IPCC AR5) identifiers. The physical risk assessment uses RCP2.6, RCP4.5, and RCP8.5 data, while transition risk assessment uses SSP1-1.9. The document acknowledges RCPs are used for metrics not yet developed in AR6 models, and that SSPs and RCPs are \"aligned\" but they are from different assessment report generations.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"Given KMD Brands' global reach, we took the high-level scenario architecture and learnings, and scenario outputs, from the Retail Sector Scenario Analysis and expanded on the relevant parts to encompass the global footprint of our operations, with more focus on our specific business model (encompassing both retail and wholesale channels) and by making additional or differentiated assumptions where needed. We selected these scenarios as being most relevant and appropriate to assess the resilience of our business model and strategy as they are easily comparable to other retailers, which encouraged us to select pathways aligned with the Retail Sector Scenario Analysis where it made sense to do so, but tailored in places representative of the global, rather than New Zealand specific, focus of our business, and utilising more up to date data.\"",
+      "location_hint": "Section 3.3.3, p.9",
+      "confidence": "high",
+      "notes": "The scenarios were adapted from the KPMG Retail Sector Scenario Analysis, with additional or differentiated assumptions made to reflect KMD Brands' global business model. The word \"tailored\" is explicitly used. Also, driving forces from the Retail Sector Scenario Analysis were adjusted: \"a number were adjusted to reflect the drivers most relevant to KMD Brands.\"",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "\"The scenario analysis process involved a series of learning sessions and workshops with KMD Brands subject-matter experts across multiple regions (including Australasia, Southeast Asia, Europe and the Americas)... KMD Brands appointed a Steering Committee (Steer Co) of senior leaders to provide oversight and make decisions throughout the process.\"",
+      "location_hint": "Section 3.3.1, p.8",
+      "confidence": "medium",
+      "notes": "The process involved internal workshops with subject-matter experts and a Steering Committee, but there is no mention of participatory, co-created, deliberative, or co-designed scenario development with external stakeholders. The scenarios were adapted from NGFS/IPCC frameworks with internal expert input, not co-produced with external parties.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No explicit baseline or reference scenario is described against which the climate scenarios are compared. The document uses three scenarios (Orderly, Disorderly, Hot House World) as a range of plausible futures without designating one as a baseline.",
+      "evidence": "\"The aim of conducting a risk assessment based on scenario analysis is not to predict the most likely outcomes of climate change, but instead, is part of a process for systematically exploring the effects of a range of plausible and challenging future events under conditions of uncertainty, to build a better understanding of the potential impacts on our strategy.\"",
+      "location_hint": "Section 3.3.1, p.8",
+      "confidence": "medium",
+      "notes": "The document does reference a FY19 base year for GHG emissions targets, but this is not a climate scenario baseline. No scenario is explicitly designated as a \"baseline\" or \"reference\" scenario for comparison purposes.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "NGFS GCAM (Global Change Analysis Model)"
+      ],
+      "evidence": "\"The global data sets that informed the KMD Brands scenario analysis included the IPCC AR6 dataset and the Network for Greening the Financial System (NGFS) GCAM global data set.\"",
+      "location_hint": "Section 3.3.3, p.9",
+      "confidence": "high",
+      "notes": "GCAM (Global Change Analysis Model) is the only named model. The document also references IPCC AR6 and AR5 datasets but does not name specific climate models (e.g., GCMs) beyond GCAM. A GIS analysis is also mentioned but no specific GIS model is named.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"Extreme weather events: Increase in intensity of average wind speed and number of windy days. Increase in intensity and frequency of cyclone events. • Closure of factories, warehouses and stores impacting production timelines, distribution and sale of product. • Damage to inventory and raw materials resulting in write offs and loss of revenue... Wildfire: Increase in wildfire events due to increasing temperatures, lower rainfall and drought conditions. • Inventory loss, store fit out damage, loss of revenue... Pluvial and fluvial flooding: Increasing frequency and intensity of pluvial flooding due to increasing extreme, rare rainfall events. • Damage to warehouse and store inventory causing loss of revenue.\"",
+      "location_hint": "Section 3.4, Table 2, p.11",
+      "confidence": "high",
+      "notes": "The scenario analysis explicitly includes damage and loss estimates (inventory loss, store fit-out damage, loss of revenue, write-offs) from acute physical risks such as extreme weather events, wildfires, cyclones, and flooding. However, these are qualitative/descriptive rather than quantified financial loss estimates.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon removal/sequestration",
+        "carbon border adjustment mechanisms",
+        "carbon taxes",
+        "rainfall patterns",
+        "precipitation",
+        "extreme rainfall events",
+        "pluvial and fluvial flooding",
+        "wildfire frequency",
+        "cyclone intensity and frequency",
+        "wind speed",
+        "sea level rise",
+        "hot days (days exceeding 30°C)",
+        "drought conditions",
+        "consumer preferences",
+        "technology change",
+        "regional policy variation",
+        "decarbonisation investment",
+        "import tariffs and duties",
+        "insurance costs",
+        "resource scarcity",
+        "water scarcity"
+      ],
+      "evidence": "\"These scenarios represent three plausible futures under which the emissions concentration in the Earth's atmosphere, the corresponding global earth surface temperatures and resulting climate hazard impacts are linked to political, social and economic conditions. We then examined the impact of each potential future across key driving forces material to KMD Brands including access to materials, changing consumer attitudes and societal expectations, logistics and access to markets, macro-economic conditions and the physical impacts of climate hazards.\" Table 1 includes: Carbon removal, Technology change, Regional policy variation. Table 2 includes: extreme weather events, wildfire, increased temperatures, pluvial and fluvial flooding, changes in rainfall patterns. Also: \"sea level rise makes it impractical to have retail stores in historically significant business zones.\"",
+      "location_hint": "Section 3.3.3 Table 1, Section 3.4 Table 2, p.9-11",
+      "confidence": "high",
+      "notes": "The document covers both physical variables (rainfall, flooding, wildfire, sea level rise, hot days, cyclones) and socioeconomic/transition variables (carbon price/taxes, policy, technology change, consumer preferences).",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"The global data sets that informed the KMD Brands scenario analysis included the IPCC AR6 dataset and the Network for Greening the Financial System (NGFS) GCAM global data set.\" And: \"We have conducted an initial high level Geographic Information System (GIS) analysis which considers the impacts by key geographic region of two climate hazards, being hot days and precipitation, on key retail store, warehouse and owned manufacturing locations from our asset registers (Asset Locations).\" Also footnote 1: \"at the time of conducting the scenario analysis, there was no available downscaled data for the SSP3 — 7.0 scenario which would impact the ability to use this scenario for the physical risk assessment process.\"",
+      "location_hint": "Section 3.3.3, p.9; Section 5.3.1, p.19",
+      "confidence": "high",
+      "notes": "The primary scenario framework uses global datasets (IPCC AR6, NGFS GCAM). However, the GIS analysis applies climate hazard data at a regional/local level (by key geographic region, specific asset locations). The mention of \"downscaled data\" for SSP3-7.0 also confirms that downscaling was considered and used where available.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short-term: Present day to 2030; Medium-term: 2031 to 2040; Long-term: 2041 to 2050. Rationale is provided: time horizons are consistent with the tenure of retail store leases, the useful life of key IT systems, and the usual cycle of the KMD Brands purchase cycle.",
+      "evidence": "\"We aligned with the time horizons adopted in the Retail Sector Scenario Analysis. These time horizons are consistent with the tenure of our profile of retail store leases, the useful life of key IT systems, and the usual cycle of the KMD Brands purchase cycle. The time horizons selected were: • Short-term is defined as Present day to 2030 • Medium-term is defined as 2031 to 2040 • Long-term is defined as 2041 to 2050.\"",
+      "location_hint": "Section 3.3.2, p.9",
+      "confidence": "high",
+      "notes": "Justification is explicitly provided. The time horizons are also aligned with the Retail Sector Scenario Analysis. The document notes that the period 2050–2100 is not covered by this analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"We selected these scenarios as being most relevant and appropriate to assess the resilience of our business model and strategy as they are easily comparable to other retailers, which encouraged us to select pathways aligned with the Retail Sector Scenario Analysis where it made sense to do so, but tailored in places representative of the global, rather than New Zealand specific, focus of our business, and utilising more up to date data.\" Also: \"The global warming scenarios selected by KMD Brands differ from those chosen in the Retail Sector Scenario Analysis. This is because at the time of conducting the scenario analysis, there was no available downscaled data for the SSP3 — 7.0 scenario which would impact the ability to use this scenario for the physical risk assessment process. For the physical risk rating exercise, it was agreed to use the SSP 2, RCP 4.5 degree scenario to allow for a better comparison to provide a clearer low, middle and high ground for emissions pathways.\"",
+      "location_hint": "Section 3.3.3, p.9",
+      "confidence": "high",
+      "notes": "The document provides explicit justification for scenario selection: comparability with other retailers, alignment with the Retail Sector Scenario Analysis, global applicability, and data availability (noting SSP3-7.0 was excluded due to lack of downscaled data). The rationale for using RCP scenarios from AR5 is also given: \"for climate metrics that have not yet been developed within the IPCC AR6 models.\"",
+      "verification": null
+    }
+  ]
+}

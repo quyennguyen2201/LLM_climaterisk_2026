@@ -1,0 +1,180 @@
+{
+  "source": "SYNLAIT_MILK_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1257862,
+      "output_tokens": 7645,
+      "total_tokens": 1265507,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 1186784,
+        "ephemeral_5m_input_tokens": 71054,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly (SSP1-1.9, NGFS Net Zero by 2050, CCC Tailwinds)",
+        "Disorderly (SSP1-2.6 / SSP2-4.5, NGFS Delayed Transition, NIWA RCP2.6, CCC Headwinds)",
+        "Hot House World (SSP5-8.5, NGFS Current Policies, NIWA RCP8.5, CCC Current Policies)",
+        "SSP1-1.9",
+        "SSP1-2.6",
+        "SSP2-4.5",
+        "SSP5-8.5",
+        "RCP2.6",
+        "RCP4.5",
+        "RCP8.5"
+      ],
+      "evidence": "\"To assess our exposure to transition risks, we adopted the SSP1-1.9; SSP2-2.6; and SSP5-8.5 scenarios. To assess our exposure to physical risks, we adopted the RCP2.6, RCP4.5 and RCP8.5 scenarios down-scaled from AR5... These then fed into our three Synlait scenarios (Orderly, Disorderly and Hot House World)... ORDERLY – PRESENT TO 2030: Network for Greening the Financial System (NGFS) - Net zero by 2050; Shared socioeconomic pathway SSP1-1.9, 1.4˚C; Climate Change Commision - Tailwinds. DISORDERLY – 2030 TO 2050: NGFS - Delayed Transition (1.8˚C); SSP1-2.6, 1.8˚C; NIWA RCP2.6; Climate Change Commision - Headwinds. HOT HOUSE WORLD – 2050 TO 2100: NGFS - Current Policies - Hothouse World (3˚C+); IPCC SSP5-28.5, 4.4˚C; NIWA RCP8.5; Climate Change Commision - Current Policies\"",
+      "location_hint": "Section 2.2, p.28-29; Appendix 4, p.57",
+      "confidence": "high",
+      "notes": "The three overarching Synlait scenarios (Orderly, Disorderly, Hot House World) each draw on multiple underlying SSP/RCP/NGFS/CCC scenarios. Also note: p.36 states SSP1-2.6; SSP2-4.5; and SSP5-8.5 for physical risk assessment, while p.28 states SSP1-1.9; SSP2-2.6; and SSP5-8.5 for transition risks — there is some inconsistency in the document's own labelling.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "1.4°C (Orderly/SSP1-1.9), 1.8°C (Disorderly/SSP1-2.6), 3°C+ (Hot House World/SSP5-8.5, also described as 4.4°C). Temperature overshoot is mentioned for the Disorderly and Hot House World scenarios.",
+      "evidence": "\"1.4°C is the IPCC's best estimate for long-term (2081-2100) warming (high confidence)... DISORDERLY – 2030 TO 2050: NGFS - Delayed Transition (1.8˚C); SSP1-2.6, 1.8˚C... HOT HOUSE WORLD – 2050 TO 2100: NGFS - Current Policies - Hothouse World (3˚C+); IPCC SSP5-28.5, 4.4˚C... Slight overshoot of net zero by 2050 target... Overshoot of net zero by 2050 target.\"",
+      "location_hint": "Section 2.2, p.29; Appendix 4, p.57",
+      "confidence": "high",
+      "notes": "The document references both 3°C+ and 4.4°C for the Hot House World scenario. Overshoot language is used for both Disorderly and Hot House World scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple providers are explicitly named: IPCC (Intergovernmental Panel on Climate Change) for SSP scenarios; NIWA for downscaled RCP data; NGFS (Network for Greening the Financial System) for transition scenario narratives; Climate Change Commission (CCC) for New Zealand-specific scenarios (Tailwinds, Headwinds, Current Policies); and The Aotearoa Circle for sector-level scenario guidance.",
+      "evidence": "\"The global warming futures are evaluated against the scenarios provided by the Intergovernmental Panel for Climate Change (IPCC)... The SSPs are from the Intergovernmental Panel on Climate Change Sixth Assessment Report (IPCC AR6). We applied the RCP scenarios... from the IPCC AR5... The availability of data from NIWA... The driving forces were analysed based on the political, social and economic context for Synlait with reference to the NGFS global warming scenarios... The guidance provided by The Aotearoa Circle for the purpose of sector level scenario analysis.\"",
+      "location_hint": "p.28, p.34, p.36, p.57",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "\"To assess our exposure to transition risks, we adopted the SSP1-1.9; SSP2-2.6; and SSP5-8.5 scenarios. To assess our exposure to physical risks, we adopted the RCP2.6, RCP4.5 and RCP8.5 scenarios down-scaled from AR5, as this was the only New Zealand down-scaled data available at the time of assessment for the purposes of a physical risk assessment... The SSPs are from the Intergovernmental Panel on Climate Change Sixth Assessment Report (IPCC AR6). The SSPs build upon the Representative Concentration Pathways (RCPs) from the IPCC Fifth Assessment Report (IPCC AR5). We applied the RCP scenarios (that are aligned to the SSP scenarios) from the IPCC AR5 for climate metrics that have not yet been developed within the IPCC AR6 models.\"",
+      "location_hint": "p.28, p.34",
+      "confidence": "high",
+      "notes": "The document explicitly uses SSPs (from IPCC AR6) for transition risk assessment and RCPs (from IPCC AR5) for physical risk assessment. The document acknowledges these are from different assessment report generations but states the RCPs used are \"aligned to the SSP scenarios\".",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"To assess our exposure to physical risks, we adopted the RCP2.6, RCP4.5 and RCP8.5 scenarios down-scaled from AR5, as this was the only New Zealand down-scaled data available at the time of assessment for the purposes of a physical risk assessment. The reason we used down-scaled climate data for our physical risk assessment is due to the regional variations in climate impacts... The driving forces were adapted from The Aotearoa Circle's Agricultural Sector Climate Change Scenarios... These driving forces were analysed based on the political, social and economic context for Synlait with reference to the NGFS global warming scenarios. The scenario narratives were then defined based on the information captured.\"",
+      "location_hint": "p.28, p.36",
+      "confidence": "high",
+      "notes": "The scenarios are customised in two ways: (1) RCP data is downscaled to New Zealand by NIWA; (2) the narrative driving forces are adapted from The Aotearoa Circle's Agricultural Sector scenarios and tailored to Synlait's specific political, social and economic context.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes",
+      "evidence": "\"Synlait engaged Deloitte to assist with the risk assessment scenario analysis... we worked with Deloitte to identify and engage subject matter experts who are best positioned to provide insight and commentary on climate risks and opportunities... An SME group was established to ensure inputs and outputs of the risk assessment process were relevant and usable for Synlait. This included representation from all areas of the organisation at various levels of seniority. Driving forces: Synlait's subject matter experts agreed the key driving forces of change that were used to help develop the scenarios.\"",
+      "location_hint": "p.34, p.36",
+      "confidence": "medium",
+      "notes": "The document describes a workshop-based process with internal subject matter experts (SMEs) from across the organisation who co-developed the scenario narratives and driving forces. The exact terms \"participatory\", \"co-creat\", \"deliberat\", \"co-design\" are not used, but the process clearly involves collaborative development with internal stakeholders. Confidence is medium because the specific keywords are absent.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No explicit baseline or reference scenario is described against which the climate scenarios are compared. However, a historical baseline period (1995–2014) is referenced for sea level rise projections.",
+      "evidence": "\"Sea level rise decadal timeseries: Time horizons are estimated as median 10-year periods relative to the (1995-2014) baseline. The historical baseline period is the final ten years of the historical period (1995-2014) simulated by all climate models before the SSPs are applied from 2015 onwards.\"",
+      "location_hint": "p.58 (Glossary)",
+      "confidence": "medium",
+      "notes": "The document does not describe a formal \"baseline scenario\" (e.g. a no-climate-change or business-as-usual scenario) against which the three warming scenarios are compared. The 1995–2014 baseline is a technical reference period for sea level rise data, not a scenario baseline.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "Deloitte's model (for risk assessment/materiality analysis)",
+        "GCM (Global Climate Model, referenced in glossary for wind speed and precipitation timeseries)",
+        "RCM (Regional Climate Model, referenced in glossary for annual timeseries)"
+      ],
+      "evidence": "\"The results of the climate risk assessment were run through Deloitte's model to determine the most material risks by climate hazard, risk type, risk area and risk receptor... GCM annual timeseries: Time horizons are estimated as annual time series from 2020 to 2100 for monthly average and maximum wind speed and as annual timeseries from 2020 to 2099 for maximum 1-day and maximum 5-day precipitation amounts... RCM annual timeseries: Time horizons for all metrics are estimated as annual timeseries from 2020 to 2100.\"",
+      "location_hint": "p.34, p.58 (Glossary)",
+      "confidence": "medium",
+      "notes": "No specific named IAMs (e.g. REMIND, MESSAGE, GCAM) or macroeconomic models are identified. \"Deloitte's model\" is referenced but not further described. GCM and RCM are referenced in the glossary as data sources but no specific model names (e.g. NIWA's specific GCM) are given.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"Increasing occurrence of extreme weather events may disrupt key logistics and supply chain delivery routes and pose challenges for Synlait increasing the risk of product spoilage, raising inventory storage costs, causing reputation damage, logistical disruptions, and limiting product availability... Increasing occurrence of extreme weather events and number of hot days may cause asset damage, disrupt inbound supply chain, challenge workforce availability, and disrupt plant operations. This may necessitate inventory write-offs and higher capital expenditure, and impact productivity and revenue... Landslides, coastal inundation, and extreme weather events globally may disrupt logistics and shipping and prevent Synlait from shipping product to market.\"",
+      "location_hint": "Section 2.3, p.30",
+      "confidence": "high",
+      "notes": "The scenario analysis explicitly includes damage and loss estimates (asset damage, inventory write-offs, revenue loss, increased capital expenditure) from acute physical risks such as extreme weather events, flooding, landslides, and coastal inundation. However, the assessment is qualitative rather than quantitative.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon price / ETS (Emissions Trading Scheme)",
+        "CDR (CO₂ removal)",
+        "policy ambition",
+        "technology change",
+        "regional policy variation",
+        "sea level rise",
+        "storm surge",
+        "wind speed",
+        "precipitation (rainfall)",
+        "cyclones",
+        "drought",
+        "flooding",
+        "hot days",
+        "carbon border adjustment mechanisms",
+        "consumer behaviour / demand"
+      ],
+      "evidence": "\"GCM annual timeseries: Time horizons are estimated as annual time series from 2020 to 2100 for monthly average and maximum wind speed and as annual timeseries from 2020 to 2099 for maximum 1-day and maximum 5-day precipitation amounts. GCM single years: For storm surge there are two future periods... Time horizons for cyclones are estimated for when each scenario reaches a 2-degree warming state... Sea level rise decadal timeseries... CDR (CO₂ removal)... Policy ambition... Technology change... Regional policy variation... Intermittent government intervention in the Emissions Trading Scheme results in a volatile and relatively low carbon price... The introduction of carbon border adjustment mechanisms has been delayed... changing consumer behaviour (demand/preferences/expectations)\"",
+      "location_hint": "p.29, p.36, p.57, p.58",
+      "confidence": "high",
+      "notes": "Variables are drawn from both the physical risk side (sea level rise, storm surge, wind, precipitation, cyclones, drought, flooding, hot days) and the transition/socioeconomic side (carbon price, CDR, policy ambition, technology change, consumer behaviour).",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"To assess our exposure to physical risks, we adopted the RCP2.6, RCP4.5 and RCP8.5 scenarios down-scaled from AR5, as this was the only New Zealand down-scaled data available at the time of assessment for the purposes of a physical risk assessment. The reason we used down-scaled climate data for our physical risk assessment is due to the regional variations in climate impacts... The global warming futures are evaluated against the scenarios provided by the Intergovernmental Panel for Climate Change (IPCC).\"",
+      "location_hint": "p.28, p.34",
+      "confidence": "high",
+      "notes": "Global IPCC SSP scenarios are used for transition risk assessment, while NIWA-downscaled RCP data (regional/local New Zealand level) is used for physical risk assessment.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short: Current Day – 2025; Medium: 2025 – 2035; Long: 2035 – 2050. Rationales are provided for each timeframe, linking them to strategic planning horizons.",
+      "evidence": "\"Timeframe Definitions and Alignments: Short – Current Day - 2025: Aligns with and incorporates our corporate strategy and short-term sustainability goals (such as our science-based targets). Medium – 2025 - 2035: Aligns with our 10-year asset planning cycle and capital deployment plans. Long – 2035 - 2050: Aligns with our long-term strategic planning cycles.\"",
+      "location_hint": "Section 2.2, p.28",
+      "confidence": "high",
+      "notes": "The document also uses a longer horizon of 2050–2100 in the scenario architecture table (p.29) for the Hot House World scenario, though the formal time horizon definitions only go to 2050. Justifications are explicitly provided for each timeframe.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"We believe these scenarios are relevant and appropriate to assessing the resilience of Synlait's business model and strategy to respond to climate-related risks and opportunities because they align with the guidance provided by The Aotearoa Circle for the purpose of sector level scenario analysis; the availability of data from NIWA; alignment with NZCS1 standard (paragraph 13) and comparability of the result with peers... The rationale for adopting the mentioned climate scenarios was: The guidance provided by The Aotearoa Circle for the purpose of sector level scenario analysis. The availability of data from NIWA. Alignment with NZCS1 standard (paragraph 13). Comparability of the result with peers. This ensured we met the requirement for assessing, at a minimum, a 1.5 degrees Celsius climate-related scenario, a 3 degrees celsius or greater climate related scenario, and a third climate-related scenario.\"",
+      "location_hint": "p.28, p.36",
+      "confidence": "high",
+      "notes": "The justification for using downscaled RCP data for physical risks is also explicitly stated: \"The reason we used down-scaled climate data for our physical risk assessment is due to the regional variations in climate impacts.\"",
+      "verification": null
+    }
+  ]
+}

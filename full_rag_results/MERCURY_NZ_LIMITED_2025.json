@@ -1,0 +1,193 @@
+{
+  "source": "MERCURY_NZ_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 733091,
+      "output_tokens": 7116,
+      "total_tokens": 740207,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 688870,
+        "ephemeral_5m_input_tokens": 44199,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Teal Scenario (1.5°C)",
+        "Purple Scenario (2.5°C)",
+        "Amber Scenario (3°C)",
+        "Maroon Scenario (3+°C)",
+        "SSP1-1.9",
+        "SSP4-3.4",
+        "SSP2-4.5",
+        "SSP3-7.0",
+        "RCP2.6",
+        "RCP4.5",
+        "RCP8.5",
+        "CCC Tailwinds",
+        "CCC Further Technology Change",
+        "CCC Headwinds",
+        "CCC Current Policy Representation",
+        "NGFS Net Zero 2050",
+        "NGFS Delayed Transition",
+        "NGFS Nationally Determined Contributions",
+        "NGFS Current Policies"
+      ],
+      "evidence": "Reference scenarios/data sources: SSP1-1.9, RCP2.6, CCC Tailwinds, NGFS Net Zero 2050 | SSP4-3.4, RCP4.5, CCC Further Technology Change, NGFS Delayed Transition | SSP2-4.5, RCP4.5, CCC Headwinds, NGFS Nationally Determined Contributions | SSP3-7.0, RCP8.5, CCC Current Policy Representation, NGFS Current Policies. The four proprietary scenarios are: Teal (1.5°C), Purple (2.5°C), Amber (3°C), Maroon (3+°C).",
+      "location_hint": "Page 12, Scenario Analysis table",
+      "confidence": "high",
+      "notes": "Mercury uses four proprietary named scenarios (Teal, Purple, Amber, Maroon) each informed by multiple reference scenarios from IPCC SSPs, RCPs, CCC, and NGFS.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Four temperature outcomes by 2100 are described: 1.5°C (Teal, with overshoot to 1.6°C), 2.5°C (Purple), 3°C (Amber), and 3+°C (Maroon). Specific modelled temperature increases (2081–2100, relative to 1850–1900) are: 1.4°C (after overshoot to 1.6°C), 2.2°C, 2.7°C, and 3.6°C respectively.",
+      "evidence": "\"TEAL SCENARIO: Global temperature increases are limited to 1.5 degrees by 2100 (after an overshoot to 1.6 degrees). PURPLE SCENARIO: Global temperature increases are limited to 2.5 degrees by 2100. AMBER SCENARIO: Global temperature increases are limited to 3 degrees by 2100. MAROON SCENARIO: Global temperature increases by 3+ degrees by 2100.\" Key datapoints: \"Temperature increase (2081–2100, relative to 1850–1900): 1.4°C (after an overshoot to 1.6°C) | 2.2°C | 2.7°C | 3.6°C\"",
+      "location_hint": "Page 12, Our Scenarios",
+      "confidence": "high",
+      "notes": "Temperature overshoot is explicitly mentioned for the Teal scenario (overshoot to 1.6°C before returning to 1.5°C).",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers are explicitly named: IPCC (for SSPs and RCPs), Network for Greening the Financial System (NGFS), Climate Change Commission (CCC) New Zealand, Ministry for the Environment (New Zealand), NIWA, and Stats NZ. Third-party consultants also contributed to initial scenario development.",
+      "evidence": "\"Shared Socioeconomic Pathways (SSPs) in the IPCC Sixth Assessment Report on Climate Change... Representative Concentration Pathways (RCPs) in the IPCC Fifth Assessment Report on Climate Change and Ministry for the Environment and NIWA Climate Change Projections for New Zealand... Climate Change Commission Long Term Scenarios to meet the 2050 target... Network for Greening the Financial System (NGFS) Scenarios and analysis... Climate Change Projections for New Zealand from NIWA, the Ministry for the Environment and Stats NZ...\"",
+      "location_hint": "Page 16, Datasets and Models Used",
+      "confidence": "high",
+      "notes": "The four proprietary scenarios (Teal, Purple, Amber, Maroon) were developed internally with support from third-party consultants, but the reference scenarios underpinning them come from the named providers above.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "\"Reference scenarios/data sources: SSP1-1.9, RCP2.6, CCC Tailwinds, NGFS Net Zero 2050 | SSP4-3.4, RCP4.5, CCC Further Technology Change, NGFS Delayed Transition | SSP2-4.5, RCP4.5, CCC Headwinds, NGFS Nationally Determined Contributions | SSP3-7.0, RCP8.5, CCC Current Policy Representation, NGFS Current Policies\"",
+      "location_hint": "Page 12, Scenario Analysis table",
+      "confidence": "high",
+      "notes": "The document explicitly lists both SSP identifiers (from IPCC AR6) and RCP identifiers (from IPCC AR5) side by side as reference sources for each scenario. SSPs and RCPs come from different IPCC assessment report generations and are not from the same internally consistent scenario family. For example, Teal uses both SSP1-1.9 (AR6) and RCP2.6 (AR5).",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"We have a single, integrated set of scenarios to explore a range of plausible futures... The climate aspects of these scenarios were initially developed with support from third party consultants and continue to be refined by our Climate Working Group. We collaborated with external stakeholders, including through the Energy and Telecommunications Sector climate-related scenarios development, to test and validate our scenarios, risks and opportunities and identify any gaps in our analysis.\" Also: \"Climate Change Projections for New Zealand from NIWA, the Ministry for the Environment and Stats NZ, including localised precipitation and wet day projections, which supported the identification and assessment of CRROs.\"",
+      "location_hint": "Page 15, Scenario Development Process; Page 16, Datasets and Models Used",
+      "confidence": "high",
+      "notes": "Mercury developed four proprietary named scenarios (Teal, Purple, Amber, Maroon) that are customised for New Zealand context, using reference scenarios as inputs rather than applying them off-the-shelf. The scenarios incorporate localised NZ-specific data (NIWA projections, CCC scenarios) and were refined through internal workshops and external stakeholder collaboration. The document also notes the replacement of the Blue scenario with a new Purple scenario to better capture specific local/geopolitical dynamics.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes",
+      "evidence": "\"We collaborated with external stakeholders, including through the Energy and Telecommunications Sector climate-related scenarios development, to test and validate our scenarios, risks and opportunities and identify any gaps in our analysis.\" And: \"This process included multiple workshops with internal subject matter experts across business units...\"",
+      "location_hint": "Page 15, Scenario Development Process",
+      "confidence": "medium",
+      "notes": "The document describes collaboration with external stakeholders and cross-functional workshops, which is consistent with participatory/co-produced scenario development. However, the exact terms \"participatory\", \"co-creat\", \"deliberat\", \"co-design\" are not used verbatim. The collaboration is described as testing and validating rather than co-creating from scratch.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No explicit baseline or reference scenario is described against which the four climate scenarios are compared. However, the NGFS \"Current Policies\" scenario and CCC \"Current Policy Representation\" scenario serve as the high-warming reference point (Maroon scenario, 3+°C).",
+      "evidence": "\"We have a single, integrated set of scenarios to explore a range of plausible futures in order to assess the resilience of our business model and strategy to climate-related risks and opportunities. In line with NZ CS, we consider four scenarios: one limiting global temperature increase to 1.5˚C, one exceeding 3˚C, and two that assess alternative pathways for New Zealand's transition to a low-carbon future.\"",
+      "location_hint": "Page 15, Scenario Development Process",
+      "confidence": "medium",
+      "notes": "No scenario is explicitly labelled as a \"baseline\" or \"reference\" scenario for comparison purposes. The document describes four scenarios as a range of plausible futures. The Maroon scenario (NGFS Current Policies / CCC Current Policy Representation) could be interpreted as a current-policy baseline, but this is not explicitly stated as such.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "IPCC AR6 SSP framework",
+        "IPCC AR5 RCP framework",
+        "NGFS Scenarios",
+        "CCC Long Term Scenarios",
+        "NIWA Climate Change Projections",
+        "BERL economic modelling",
+        "Transpower growth forecasts",
+        "EECA projections"
+      ],
+      "evidence": "\"Key sources included: Shared Socioeconomic Pathways (SSPs) in the IPCC Sixth Assessment Report on Climate Change... Representative Concentration Pathways (RCPs) in the IPCC Fifth Assessment Report on Climate Change and Ministry for the Environment and NIWA Climate Change Projections for New Zealand... Climate Change Commission Long Term Scenarios... Network for Greening the Financial System (NGFS) Scenarios and analysis... Climate Change Projections for New Zealand from NIWA, the Ministry for the Environment and Stats NZ... economic modelling from BERL (Business and Economic Research Limited)...\" Also: \"We did not undertake our own modelling in the construction of our scenarios.\"",
+      "location_hint": "Page 16, Datasets and Models Used",
+      "confidence": "high",
+      "notes": "No specific named IAMs (e.g., REMIND, MESSAGE, GCAM) or physical climate models (e.g., CLIMADA) are mentioned. The document references scenario frameworks and data sources rather than specific computational models. Mercury explicitly states it did not undertake its own modelling.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"RISK TYPE: Acute Physical... ASSESSMENT METHODOLOGY: We considered several impact pathways to assess the risk based on internal data and historical climate events - transmission line failure, transformer failure due to flooding, compromised units or stations, and catastrophic cascade dam failure. For transmission line failure, we modelled the impact of the transmission line connecting to our largest hydro station failing. Lost generation revenue was calculated by multiplying average output by wholesale prices and a 1.5-month outage period. For transformer failure due to flooding, we used a similar approach, extending the outage period to 3.5 months for conservatism... ANTICIPATED IMPACT RANGE: Significant: $7.5m-75m annualised over the short to long-term.\"",
+      "location_hint": "Page 7, Climate-Related Risks",
+      "confidence": "high",
+      "notes": "The document explicitly identifies an \"Acute Physical\" risk type and provides financial quantification of damage from extreme events including transmission line failure, transformer failure due to flooding, and storm events causing asset damage.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon price",
+        "renewable energy percentage of total consumption",
+        "technology change (fast/slow)",
+        "negative emissions technologies use",
+        "average number of hot days",
+        "precipitation/rainfall (dry days, wet days)",
+        "sea level rise",
+        "storm frequency/intensity",
+        "electricity demand",
+        "wholesale electricity prices",
+        "geopolitical tensions",
+        "supply chain constraints",
+        "labour availability",
+        "renewable energy development pace"
+      ],
+      "evidence": "\"Key datapoints – global impacts: Temperature increase... Technology change: Fast/Fast/Slow/Slow. Negative emissions technologies: Medium–high use / Medium use / Low–medium use / Low use. Key datapoints – New Zealand impacts: Average number of hot days (above 25°C) (for the period 2031–50, average across regions): 25/27/27/30 hot days. Renewable energy percentage of total consumption in 2050: 89%/87%/74%/46%.\" Also: \"localised precipitation and wet day projections... sea level rise... carbon price... storm events...\"",
+      "location_hint": "Page 12, Scenario Analysis table; Page 16, Datasets and Models Used; Page 24, Risk Management",
+      "confidence": "high",
+      "notes": "Variables are drawn from both the scenario datapoints table (p.12) and the broader risk/opportunity descriptions throughout the document.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"Shared Socioeconomic Pathways (SSPs) in the IPCC Sixth Assessment Report on Climate Change to inform our consideration of global socioeconomic changes and data points such as global temperature changes. Representative Concentration Pathways (RCPs) in the IPCC Fifth Assessment Report on Climate Change and Ministry for the Environment and NIWA Climate Change Projections for New Zealand to inform our consideration of New Zealand-specific impacts under different pathways... Climate Change Projections for New Zealand from NIWA, the Ministry for the Environment and Stats NZ, including localised precipitation and wet day projections...\"",
+      "location_hint": "Page 16, Datasets and Models Used",
+      "confidence": "high",
+      "notes": "The scenarios use both global-level data (IPCC SSPs, NGFS) and New Zealand/regional-level data (NIWA localised projections, CCC NZ scenarios, Ministry for the Environment NZ projections). The document explicitly distinguishes \"Key datapoints – global impacts\" from \"Key datapoints – New Zealand impacts\" in the scenario table.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Four time horizons are used: Current (less than 1 year), Short-term (1 to 3 years), Medium-term (3 to 10 years), Long-term (10 to 30 years). Rationales are provided for each, aligned to business planning cycles.",
+      "evidence": "\"OUR TIME HORIZONS FOR SCENARIO ANALYSIS AND CRROS ALIGN WITH OUR BUSINESS PLANNING AND STRATEGY PROCESSES: CURRENT: LESS THAN 1 YEAR – Aligning to immediate planning and operational considerations. SHORT-TERM: 1 TO 3 YEARS – Aligning with our 3-year business planning cycle. MEDIUM-TERM: 3 TO 10 YEARS – Aligning with our strategy and strategic scenarios. LONG-TERM: 10 TO 30 YEARS – Aligning with the expected useful life of new generation development.\"",
+      "location_hint": "Page 6, Climate-Related Risks and Opportunities",
+      "confidence": "high",
+      "notes": "Justification is explicitly provided for each time horizon, linking them to specific business planning processes (3-year planning cycle, strategy horizon, and asset useful life for generation development).",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"These scenarios have been selected to reflect a range of plausible futures across macro drivers, such as geopolitical tensions, technology advancements and inequity within New Zealand. We have chosen to have four scenarios so that we do not default to a central or 'most likely' pathway when considering what could occur in the future.\" Also: \"In line with NZ CS, we consider four scenarios: one limiting global temperature increase to 1.5˚C, one exceeding 3˚C, and two that assess alternative pathways for New Zealand's transition to a low-carbon future.\"",
+      "location_hint": "Page 15, Scenario Development Process",
+      "confidence": "high",
+      "notes": "The justification covers: (1) alignment with NZ Climate Standards (NZ CS); (2) desire to cover a range of plausible futures across macro drivers; (3) deliberate choice of four scenarios to avoid defaulting to a central/most likely pathway. The choice of reference datasets is also justified in the Datasets and Models Used section by explaining what each source informs.",
+      "verification": null
+    }
+  ]
+}

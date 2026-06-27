@@ -1,0 +1,172 @@
+{
+  "source": "WINTON_LAND_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "total_tokens": 924232,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 55434,
+        "cache_read": 862725,
+        "cache_creation": 0
+      },
+      "input_tokens": 918181,
+      "output_tokens": 6051
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly 1.5°C Scenario",
+        "Disorderly 2.0°C Scenario",
+        "Hot House >3.0°C Scenario"
+      ],
+      "evidence": "\"The scenarios considered by Winton were an 'Orderly' 1.5°C scenario, a 'Disorderly' 2.0°C scenario and a 'Hot House' >3.0°C scenario.\"",
+      "location_hint": "Scenario analysis section, p.10",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: +1.5°C above pre-industrial levels (Orderly scenario); +2.0°C above pre-industrial levels by 2100 (Disorderly scenario); and >+3.0°C above pre-industrial levels by 2100 (Hot House scenario). No temperature overshoot is mentioned.",
+      "evidence": "\"Global warming +1.5°C above pre-industrial levels ... Global warming +2.0°C above pre-industrial levels ... Global warming +3.0°C above pre-industrial levels\" and \"Global average temperature rises to greater than 3°C above pre-industrial levels by 2100.\"",
+      "location_hint": "Description of scenarios table, p.11",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple providers are named: (1) New Zealand Green Building Council (NZGBC) — published the sector scenarios for property and construction; (2) Beca Limited (Beca) — developed the scenarios on behalf of NZGBC; (3) IPCC (Intergovernmental Panel on Climate Change) AR6 — source for physical risk modelling; (4) NIWA (National Institute of Water and Atmospheric Research) — regional climate models for New Zealand; (5) MfE (New Zealand Ministry for the Environment) — framework (MfE 2019).",
+      "evidence": "\"The New Zealand Green Building Council (NZGBC) published scenarios for the property and construction sector in 2023 that were developed by Beca Limited (Beca) in consultation with the Technical Working group created by NZGBC in 2022... Physical risks are based on modelling from the Intergovernmental Panel on Climate Change (IPPC) Sixth Assessment Report (AR6), regional climate models developed for New Zealand, by the National Institute of Water and Atmospheric Research (NIWA) and the New Zealand Ministry for the Environment framework (MfE 2019).\"",
+      "location_hint": "Scenario analysis section, p.10",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "No",
+      "evidence": "The document does not mention SSP or RCP identifiers at all. Scenarios are described as \"Orderly 1.5°C\", \"Disorderly 2.0°C\", and \"Hot House >3.0°C\" without reference to SSP or RCP labels.",
+      "location_hint": "Scenario analysis section, p.10–11",
+      "confidence": "high",
+      "notes": "No SSP or RCP identifiers appear anywhere in the document; therefore no pick-and-mix is possible.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"Winton referred to NZGBC sector guidance and created an entity-level scenario narrative to develop a comprehensive list of climate-related risks and opportunities over the short, medium, and long-term.\" And: \"The FY24 analysis was reviewed in conjunction with the work internally completed on transition planning. Minor adjustments were made to reflect the evolving business, which now encompasses retirement and commercial entities.\"",
+      "location_hint": "Scenario analysis section, p.10",
+      "confidence": "medium",
+      "notes": "Winton used NZGBC sector guidance as a base and created an entity-level narrative on top of it, and made minor adjustments in FY25. The document does not use the exact words \"downscaled\", \"customised\" or \"tailored\", but the creation of an entity-level narrative from sector guidance constitutes adaptation beyond off-the-shelf use.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "The document states the NZGBC scenarios were \"developed by Beca Limited (Beca) in consultation with the Technical Working group created by NZGBC in 2022.\" Winton itself did not co-produce the scenarios; it adopted the NZGBC sector guidance.",
+      "location_hint": "Scenario analysis section, p.10",
+      "confidence": "medium",
+      "notes": "The NZGBC scenarios were developed with a Technical Working Group, but this was not Winton's own participatory process. No language such as \"participatory\", \"co-creat\", \"deliberat\", \"co-design\", or \"stakeholder input\" is used in relation to Winton's own scenario development.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "Yes. A baseline risk assessment representing 1.1°C of global warming is described. It was used as the starting point against which the three climate scenarios were compared.",
+      "evidence": "\"It consisted of three stages: an initial risk screening of a master list comprising over 30 risks and opportunities, a baseline risk assessment representing 1.1°C of global warming, and a scenario analysis of three potential scenarios.\"",
+      "location_hint": "Risk section, p.18",
+      "confidence": "high",
+      "notes": "The baseline is described as representing current warming of 1.1°C above pre-industrial levels, forming the foundation for the subsequent scenario analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "IPCC AR6 (Sixth Assessment Report)",
+        "NIWA regional climate models",
+        "MfE 2019 framework",
+        "Toitū eManage (GHG calculation software)"
+      ],
+      "evidence": "\"Physical risks are based on modelling from the Intergovernmental Panel on Climate Change (IPPC) Sixth Assessment Report (AR6), regional climate models developed for New Zealand, by the National Institute of Water and Atmospheric Research (NIWA) and the New Zealand Ministry for the Environment framework (MfE 2019).\" And: \"All emissions were calculated using Toitū eManage with emissions factors.\"",
+      "location_hint": "Scenario analysis section, p.10; Metrics section, p.19",
+      "confidence": "high",
+      "notes": "No IAMs or macroeconomic models (e.g. REMIND, MESSAGE, GCAM) are named. Toitū eManage is a GHG accounting tool, not a climate model per se, but is the only named computational model used.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"Adapting to the physical impacts of climate change and mitigating the impact of chronic and acute physical risks is embedded in Winton's business model.\" And the scenario analysis explicitly includes: \"Increased storminess and extreme winds\", \"River and pluvial flooding: changes in frequency and magnitude\", \"Coastal and estuarine flooding: increasing persistence, frequency and magnitude\", with potential impacts including \"Supply chain disruption could impact construction and commercial and retirement operations, leading to delays or loss of revenue\" and \"Disruption to power supply could cause loss of revenue at commercial facilities.\"",
+      "location_hint": "Strategy section, p.15; Scenario analysis, p.12",
+      "confidence": "medium",
+      "notes": "Acute physical risks (storms, flooding, extreme winds) are explicitly included in the scenario analysis with qualitative descriptions of potential financial impacts (revenue loss, cost increases). However, no quantified damage/loss estimates are provided — the document states financial impacts have not been quantified (Adoption Provision 2).",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "extreme rainfall",
+        "extreme heat days",
+        "sea level rise",
+        "carbon price",
+        "population increases",
+        "policy reaction",
+        "technology change",
+        "behaviour change",
+        "physical risk severity",
+        "transition risk severity",
+        "socio-political instability",
+        "electricity supply/grid decarbonisation",
+        "emission grid factors"
+      ],
+      "evidence": "\"EXTREME RAINFALL: 15% increase in extreme rainfall / 20% increase in extreme rainfall / 22% increase in extreme rainfall. EXTREME HEAT (>25°C): +15 more extreme heat days / +20 more extreme heat days / +30 more extreme heat days. SEA LEVEL RISE: 0.20 metres / 0.22 metres / 0.32 metres. CARBON PRICE: $277 NZD per tonne / $369 NZD per tonne / $35 NZD per tonne. POPULATION INCREASES... POLICY REACTION... TECHNOLOGY CHANGE... BEHAVIOUR CHANGE... PHYSICAL RISK SEVERITY... TRANSITION RISK SEVERITY... SOCIO-POLITICAL INSTABILITY...\"",
+      "location_hint": "Description of scenarios table, p.11",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"Physical risks are based on modelling from the Intergovernmental Panel on Climate Change (IPPC) Sixth Assessment Report (AR6), regional climate models developed for New Zealand, by the National Institute of Water and Atmospheric Research (NIWA) and the New Zealand Ministry for the Environment framework (MfE 2019).\"",
+      "location_hint": "Scenario analysis section, p.10",
+      "confidence": "high",
+      "notes": "The IPCC AR6 provides global-level modelling, while NIWA provides regional climate models developed specifically for New Zealand. Both scales are used.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Two sets of time horizons are used: (1) Risk assessment: Short-term 1–5 years, Medium-term 5–10 years, Long-term 10–100 years. (2) Scenario analysis: Short-term 1–5 years, Medium-term 5–10 years, Long-term 10–25 years. A rationale is provided for the scenario analysis time horizons: they were adapted to align with the NZGBC sector scenario guidance (a 2050 view) and to better align with entity-level business planning and investment timeframes.",
+      "evidence": "\"For its risk assessment, Winton considered time horizons out to 2100. For the scenario analysis, it adapted the time horizons to align with the NZGBC sector scenario guidance as a 2050 view and better align with entity-level business planning and investment timeframes. Scenario analysis time horizons: SHORT-TERM: 1-5 years, MEDIUM-TERM: 5-10 years, LONG-TERM: 10-25 years.\" And for risk assessment: \"SHORT-TERM: 1-5 years, MEDIUM-TERM: 5-10 years, LONG-TERM: 10-100 years\"",
+      "location_hint": "Scenario analysis section, p.10; Risk section, p.18",
+      "confidence": "high",
+      "notes": "A rationale is explicitly provided for the scenario analysis time horizons (alignment with NZGBC guidance and business planning). No separate rationale is given for the risk assessment time horizons beyond the statement that they were \"deemed suitable.\"",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"The New Zealand Green Building Council (NZGBC) published scenarios for the property and construction sector in 2023 that were developed by Beca Limited (Beca) in consultation with the Technical Working group created by NZGBC in 2022. Winton referred to NZGBC sector guidance and created an entity-level scenario narrative to develop a comprehensive list of climate-related risks and opportunities over the short, medium, and long-term.\"",
+      "location_hint": "Scenario analysis section, p.10",
+      "confidence": "medium",
+      "notes": "The justification is implicit rather than a formal statement of rationale: Winton chose the NZGBC sector guidance because it was specifically developed for the property and construction sector, making it relevant to Winton's business. No explicit statement such as \"we chose these scenarios because...\" is provided, but the sector-specific relevance is clearly implied.",
+      "verification": null
+    }
+  ]
+}

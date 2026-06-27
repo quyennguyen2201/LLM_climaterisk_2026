@@ -1,0 +1,171 @@
+{
+  "source": "THE_HOLLARD_INSURANCE_COMPANY_PTY_LTD_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 828604,
+      "output_tokens": 6562,
+      "total_tokens": 835166,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 782619,
+        "ephemeral_5m_input_tokens": 45961,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "NGFS Net-Zero 2050 (Orderly)",
+        "NGFS Delayed Transition (Disorderly)",
+        "NGFS Current Policies (Hot House World)"
+      ],
+      "evidence": "\"This led to the adoption of the Orderly (NGFS Net-Zero 2050), Disorderly (NGFS Delayed Transition) and Hot House World (NGFS Current Policies) scenarios.\"",
+      "location_hint": "p.13, Climate scenario analysis section",
+      "confidence": "high",
+      "notes": "Three NGFS scenarios are used, mapped to SSP/RCP combinations: Orderly [SSP1-RCP1.9], Disorderly [SSP2-RCP4.5], Hot House World [SSP3-RCP7.0].",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: Orderly scenario – average 1.4°C (ranging from 1.0 to 1.8°C) [SSP1-RCP1.9]; Disorderly scenario – average 2.7°C (ranging from 2.1 to 3.5°C) [SSP2-RCP4.5]; Hot House World scenario – average 3.6°C (ranging from 2.8 to 4.6°C) [SSP3-RCP7.0]. No explicit mention of temperature overshoot.",
+      "evidence": "\"Orderly average temp 1.4°C (ranging from 1.0 to 1.8°C) [SSP1 - RCP 1.9] Disorderly average temp 2.7°C (ranging from 2.1 to 3.5°C) [SSP2 - RCP 4.5] Hot House World average temp 3.6°C (ranging from 2.8 to 4.6°C) [SSP3 - RCP 7.0]\"",
+      "location_hint": "p.12, Table 2. scenario analysis",
+      "confidence": "high",
+      "notes": "The document also references NZ CS 1 requirement for \"a 1.5 degrees Celsius climate-related scenario, a three degrees Celsius or greater climate-related scenario, and a third climate-related scenario.\" The temperatures are described as averages, not explicitly stated as 2100 endpoints, but are consistent with NGFS scenario projections. No overshoot language found.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Yes. The scenario provider is explicitly named as the Network for Greening the Financial System (NGFS). The IPCC is also cited as an internationally recognised source.",
+      "evidence": "\"adopting three climate scenarios (see top row headings in Table 2. scenario analysis) from internationally recognised sources, such as the IPCC and the Network for Greening the Financial System (NGFS).\"",
+      "location_hint": "p.11, Climate scenario analysis section",
+      "confidence": "high",
+      "notes": "The three named scenarios (NGFS Net-Zero 2050, NGFS Delayed Transition, NGFS Current Policies) are all explicitly NGFS scenarios. IPCC is mentioned as a source for projections/models but the scenarios themselves are NGFS-branded.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "\"Inclusion of a balanced spread of the scenarios: low (average 1.5 degrees Celsius, [SSP1- RCP 1.9]), medium (average 2.7 degrees Celsius, [SSP2 – RCP 4.5]), and high warming (average 3.6 degrees Celsius, [SSP3 – RCP 7.0]) scenarios.\"",
+      "location_hint": "p.13, Climate scenario analysis section",
+      "confidence": "medium",
+      "notes": "The document explicitly lists both SSP and RCP identifiers together (SSP1-RCP1.9, SSP2-RCP4.5, SSP3-RCP7.0). These pairings (e.g. SSP1 with RCP1.9, SSP2 with RCP4.5, SSP3 with RCP7.0) are drawn from the IPCC AR6 scenario matrix and are internally consistent pairings within that framework. However, the document presents them as separate SSP and RCP labels, meeting the literal criterion of listing both identifiers. Whether these are truly \"pick-and-mix\" across families is debatable — they are standard IPCC AR6 pairings — but the document does explicitly list both SSP and RCP identifiers.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "No",
+      "evidence": "\"adopting three climate scenarios (see top row headings in Table 2. scenario analysis) from internationally recognised sources, such as the IPCC and the Network for Greening the Financial System (NGFS).\"",
+      "location_hint": "p.11, Climate scenario analysis section",
+      "confidence": "high",
+      "notes": "No language such as \"downscaled\", \"adapted\", \"localised\", \"customised\", or \"tailored\" is used in relation to the scenarios themselves. The scenarios are adopted off-the-shelf from NGFS. The external advisory team referenced multiple data sources (NIWA, NASA-NEX, WMO, Climate Change Commission) for projections, but this is described as referencing projections from multiple models, not customising the scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "\"The external climate advisory team facilitated more than 10 Climate Workshops with the CRD WG to test our exposure and vulnerability to climate-related physical and transition risks by adopting three climate scenarios...\"",
+      "location_hint": "p.11, Climate scenario analysis section",
+      "confidence": "high",
+      "notes": "No language such as \"participatory\", \"co-creat\", \"deliberat\", \"co-design\", \"stakeholder input\", or \"collaborative development\" is found in relation to scenario development. The workshops were used to test exposure and vulnerability using pre-existing NGFS scenarios, not to co-produce new scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "No baseline or reference scenario is described against which the three climate scenarios are compared. The document uses three NGFS scenarios (Orderly, Disorderly, Hot House World) without designating any of them as a baseline or reference case.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "IPCC Representative Concentration Pathways",
+        "NASA-NEX",
+        "World Meteorological Organisation",
+        "NIWA (New Zealand's National Institute for Weather and Atmospheric Research)",
+        "Climate Change Commission"
+      ],
+      "evidence": "\"the external climate advisory team referenced a range of projections from multiple models: Intergovernmental Panel for Climate Change (IPCC) - Representative Concentration Pathways, NASA-NEX, World Meteorological Organisation, New Zealand's National Institute for Weather and Atmospheric Research (NIWA) and Climate Change Commission.\"",
+      "location_hint": "p.6, Disclaimer section",
+      "confidence": "medium",
+      "notes": "These are described as sources of projections referenced by the external advisory team, not as specific named climate models (e.g. GCMs or IAMs). No specific model names such as CLIMADA, REMIND, MESSAGE, GCAM, etc. are mentioned. The IPCC RCPs and NASA-NEX are data/projection sources rather than models per se.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"Acute physical hazards: extreme rain and flood, bushfires, storms, and cyclones... The key finding of Hollard's climate risk assessment is that extreme weather events may lead to an increase cost of claims, increased insurance product pricing, and related non-renewals, resulting in market contractions and revenue loss.\"",
+      "location_hint": "p.13, Physical climate-related risks section",
+      "confidence": "medium",
+      "notes": "The analysis explicitly includes acute physical hazards and their financial impacts (increased claims costs, pricing, non-renewals, revenue loss). However, the analysis is qualitative rather than quantitative — no specific loss/damage dollar estimates are provided. The document notes HNZ has invoked adoption provisions exempting it from disclosing quantified financial impacts.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "extreme rain and floods",
+        "cyclones and storms",
+        "storm surges",
+        "bushfires",
+        "sea level rise",
+        "greenhouse gas emissions",
+        "decarbonisation policies",
+        "infrastructure resilience investment",
+        "market signals",
+        "credit and liquidity risks",
+        "GDP"
+      ],
+      "evidence": "\"Physical climate-related risks describe the effect of increasing in frequency and severity of physical hazards such as extreme rain and floods, cyclones and storms, storm surges, bushfires, and sea level rise.\" and \"Chronic physical hazards: rising sea-level, and increasing in temperature\" and \"climate projections...are based on assumptions about future greenhouse gas emissions associated with human activity and other policy choices.\"",
+      "location_hint": "p.13, Physical climate-related risks section; p.6, Disclaimer",
+      "confidence": "medium",
+      "notes": "The document describes physical hazard variables used in the risk assessment. Socioeconomic variables (GDP, policy, market signals) are described qualitatively in the scenario narrative table. No explicit carbon price or oil price variables are mentioned.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"the external climate advisory team referenced a range of projections from multiple models: Intergovernmental Panel for Climate Change (IPCC) - Representative Concentration Pathways, NASA-NEX, World Meteorological Organisation, New Zealand's National Institute for Weather and Atmospheric Research (NIWA) and Climate Change Commission.\"",
+      "location_hint": "p.6, Disclaimer section",
+      "confidence": "medium",
+      "notes": "The scenarios themselves (NGFS) are global, but the projections referenced include New Zealand-specific sources (NIWA, Climate Change Commission), suggesting some regional/local data was incorporated. The document does not explicitly state that global scenarios were downscaled, but the inclusion of NIWA and NZ Climate Change Commission data implies a local dimension.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short-term: Present day – 2030; Medium-term: 2030–2040; Long-term: 2040–2050. The time horizons are 20-year averages around the nominated year (2030 = average of 2020–2039; 2050 = average of 2040–2059). Rationale is provided: the time horizons were selected based on \"the tenure of HNZ's existing partnerships, and its strategic planning timeframe.\"",
+      "evidence": "\"HNZ selected 2030, 2040, 2050 as the time horizons for climate scenario analysis, based on the tenure of HNZ's existing partnerships, and its strategic planning timeframe. The time horizons are 20-year averages around the nominated year, that is, 2030 is the average of 2020 to 2039, 2050 is the average of 2040 to 2059.\"",
+      "location_hint": "p.13, Climate scenario analysis section",
+      "confidence": "high",
+      "notes": "The scenario table (Table 2) uses \"Short-term: Present day - 2030\", \"Medium-term: 2030 - 2040\", and \"Long-term: 2040 - 2050\". A brief rationale is given (partnership tenure and strategic planning timeframe).",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"When determining the global warming scenarios, HNZ considered: • Industry specificity: ensuring our climate scenario analysis is aligned to the industry bodies, and to be easily compared with peers, as per XRB guidance. This led to the adoption of the Orderly (NGFS Net-Zero 2050), Disorderly (NGFS Delayed Transition) and Hot House World (NGFS Current Policies) scenarios. • The requirements of NZ CS 1: NZ CS 1 requires climate reporting entity to adopt a minimum of three warming scenarios, namely: 'at a minimum, a 1.5 degrees Celsius climate-related scenario, a three degrees Celsius or greater climate-related scenario, and a third climate-related scenario'. • Inclusion of a balanced spread of the scenarios: low (average 1.5 degrees Celsius, [SSP1- RCP 1.9]), medium (average 2.7 degrees Celsius, [SSP2 – RCP 4.5]), and high warming (average 3.6 degrees Celsius, [SSP3 – RCP 7.0]) scenarios.\"",
+      "location_hint": "p.13, Climate scenario analysis section",
+      "confidence": "high",
+      "notes": "Three explicit justifications are provided: (1) industry alignment and peer comparability per XRB guidance; (2) regulatory compliance with NZ CS 1 requirements; (3) inclusion of a balanced spread of low, medium and high warming scenarios.",
+      "verification": null
+    }
+  ]
+}

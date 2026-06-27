@@ -1,0 +1,174 @@
+{
+  "source": "THE_CO-OPERATIVE_BANK_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1108671,
+      "output_tokens": 7595,
+      "total_tokens": 1116266,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 1046125,
+        "ephemeral_5m_input_tokens": 62522,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly Transition (1.5°C)",
+        "Too Little, Too Late (>2°C)",
+        "Hot House (>3°C)"
+      ],
+      "evidence": "Climate scenario architecture: Scenario | Orderly Transition 1.5°C | Too Little, Too Late >2°C | Hot House >3°C ... Key assumption: A future world where timely, coordinated, and collective action has been taken to transition to a low-carbon future, achieving net-zero emissions by 2050. | A future world where global action to reduce emissions was left too late and resulting efforts were insufficient to avert substantial climate change. | A future world characterised by high levels of climate-related physical risk, as limited efforts were made to transition to a low-carbon economy.",
+      "location_hint": "Strategy section, p.13",
+      "confidence": "high",
+      "notes": "Three scenarios used for FY25 climate scenario analysis. Also referenced as NZBA Orderly, NZBA Too Little Too Late, NZBA Hot House in modelling context.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: 1.5°C (Orderly Transition scenario), >2°C (Too Little, Too Late scenario), and >3°C (Hot House scenario) by 2100. The Hot House scenario also specifies intermediate temperatures: over 2.4°C by 2050 and over 4.4°C by 2100.",
+      "evidence": "Orderly scenario: \"limits global warming to 1.5°C by 2100.\" Hot House: \"Average global temperatures increase by over 2.4°C by 2050 and by over 4.4°C by 2100.\" The scenario architecture table lists: Orderly Transition 1.5°C | Too Little, Too Late >2°C | Hot House >3°C.",
+      "location_hint": "Strategy p.13 (scenario architecture table); Appendix A p.38 (Orderly narrative) and p.40 (Hot House narrative)",
+      "confidence": "high",
+      "notes": "No explicit temperature overshoot language used. The >3°C label in the table is supplemented by the specific 4.4°C figure in the Hot House narrative.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers are explicitly named: NZBA (New Zealand Banking Association), IPCC (Intergovernmental Panel on Climate Change), NGFS (Network for Greening the Financial System), IEA (International Energy Agency), NIWA (National Institute of Water and Atmospheric Research), CCC (New Zealand Climate Change Commission), FSC (Financial Services Council), and MfE (Ministry for the Environment).",
+      "evidence": "Climate scenario architecture table lists: Global climate & socio-economic parameters: IPCC SSP1-1.9, IPCC SSP1-2.6, IPCC SSP2-4.5, IPCC SSP5-8.5, IPCC SSP3-7.0; Global energy & emission pathway parameters: Network for Greening the Financial System (NGFS) Net Zero 2050, International Energy Agency (IEA) Net Zero Emissions by 2050, NGFS NDCs, IEA APS, NGFS Current Policies, IEA STEPS; New Zealand-specific climate parameters: NIWA RCP 2.6, CCC 'Tailwinds', NIWA RCP4.5, CCC 'Headwinds', NIWA RCP8.5, CCC 'Current Policy Reference'. Data sources also include: \"NZBA Climate Scenario Narratives – High level climate scenarios used as the basis for our climate risk modeling.\"",
+      "location_hint": "Strategy p.13 (scenario architecture table); Appendix B p.41 (data sources)",
+      "confidence": "high",
+      "notes": "The overarching scenario framework is based on the NZBA 'Climate scenario narratives for the banking sector', with additional inputs from FSC, MfE, IPCC, NGFS, IEA, NIWA, and CCC.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "Climate scenario architecture table explicitly lists both SSP identifiers (IPCC SSP1-1.9, IPCC SSP1-2.6, IPCC SSP2-4.5, IPCC SSP5-8.5, IPCC SSP3-7.0) and RCP identifiers (NIWA RCP 2.6, NIWA RCP4.5, NIWA RCP8.5) within the same scenario framework. SSPs are used for global climate & socio-economic parameters while RCPs are used for New Zealand-specific climate parameters.",
+      "location_hint": "Strategy p.13 (climate scenario architecture table)",
+      "confidence": "high",
+      "notes": "The document explicitly lists both SSP and RCP identifiers within the same scenario architecture table. SSPs come from IPCC (global parameters) and RCPs come from NIWA (NZ-specific parameters). These are from different generations of IPCC scenario families (AR5 RCPs vs AR6 SSPs), though they are broadly aligned by temperature outcome within each of the three scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"The three climate scenarios developed and used by The Co-operative for the purposes of climate scenario analysis are described below. These narratives are amended slightly from those used and disclosed in FY24, with updates including impacts for life insurance. The climate scenario narratives are qualitative and exploratory in nature, informed by international and national datasets.\" Also: \"Scenario data and assumptions (scenario architecture) qualitatively re-assessed and narratives re-drafted to reflect stakeholder feedback and tested with internal stakeholders as part of climate risk deep dive.\" And: \"New driving forces and critical uncertainties presented by previously unmodelled physical drivers of heat, drought, wind and wildfire explored qualitatively as part of deep dive.\"",
+      "location_hint": "Appendix A p.38; Strategy p.12 (scenario analysis refresh process steps)",
+      "confidence": "high",
+      "notes": "The scenarios are described as \"developed and used by The Co-operative\" and are adapted from the NZBA banking sector scenarios with NZ-specific parameters (NIWA RCPs, CCC pathways) and customised narratives for the Co-operative's specific business context including life insurance impacts.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "\"Gaps and findings presented to internal stakeholders to determine scope of scenario analysis refresh.\" \"Scenario data and assumptions (scenario architecture) qualitatively re-assessed and narratives re-drafted to reflect stakeholder feedback and tested with internal stakeholders as part of climate risk deep dive.\" \"Updated climate scenarios, risks and opportunities were reviewed as part of a transition planning workshop with SLT to assess the resilience of our business model and strategy.\"",
+      "location_hint": "Strategy p.12 (scenario analysis refresh process steps)",
+      "confidence": "medium",
+      "notes": "The scenario development involved internal stakeholder engagement and workshops, but this is internal consultation rather than participatory/co-produced development with external stakeholders. No language such as \"participatory\", \"co-creat\", \"deliberat\", \"co-design\", or \"collaborative development\" with external parties is used.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "Yes. A baseline is referenced in the context of flood risk analysis (current baseline geo-spatial floodplain files) and credit stress testing provides a baseline credit risk exposure. The RBNZ Climate Stress Test Scenario is used for benchmarking. The NGFS Current Policies scenario also functions as a reference/baseline for the Hot House scenario.",
+      "evidence": "\"CoreLogic Flood Map Ambiental Flood Files – Current baseline geo-spatial floodplain files and future scenario floodplain files for assessing flood risk.\" \"Credit stress testing – An approach that incorporates top-down econometric models to estimate credit risk losses on the current portfolio... While not directly related to climate risk assessment, this provides useful insights in terms of understanding the baseline credit risk exposure and, when combined with other methods, how climate-related risks and opportunities further impact The Co-operative's credit risk exposure.\" \"RBNZ Climate Stress Test Scenarios – Additional scenario used to test our current portfolio exposure. RBNZ Climate Stress Test Results – Results used for benchmarking of analysis and outcomes.\"",
+      "location_hint": "Risk Management p.27; Appendix B p.41",
+      "confidence": "medium",
+      "notes": "There is no single explicitly labelled \"baseline scenario\" against which all three climate scenarios are compared. However, a current baseline for flood risk and a credit stress test baseline are described. The NGFS Current Policies scenario is used in the Hot House scenario architecture, which could be considered a policy baseline.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "Beta regression",
+        "Generalised Additive Models (GAM)",
+        "CoreLogic Flood Map Ambiental Flood Files (geospatial flood model)",
+        "NIWA RiskScape (flood fragility methodology)"
+      ],
+      "evidence": "\"The modelling approaches selected were Beta regression and Generalised Additive Models (GAM). GAMs are powerful statistical models that allow for the modelling of complex non-linear relationships between variables (which we often see in econometric relationships); its key advantages include flexibility, interpretability, robustness and automatic variable selection.\" Also: \"NIWA RiskScape: Flood Fragility Methodology – Additional source for comparing property depth/damage curves and damage ratio outcomes.\" And: \"CoreLogic Flood Map Ambiental Flood Files – Current baseline geo-spatial floodplain files and future scenario floodplain files for assessing flood risk.\"",
+      "location_hint": "Appendix B p.41-42",
+      "confidence": "high",
+      "notes": "No IAMs (e.g. REMIND, MESSAGE) or macroeconomic models (e.g. NiGEM) are named. The modelling is primarily econometric (Beta regression, GAM) and geospatial (CoreLogic, NIWA RiskScape). Luma Analytics is named as the third-party modeller in FY24.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"Flood risk analysis was then used to extract flood depths and depth damage curves which are the basis for measuring property risk, lending exposure at risk and LVR outcomes from potential extreme weather events under different climate scenarios.\" \"An estimation of expected credit losses arising from chronic and acute transition risks (including increasing costs of transition in an Orderly scenario or increasing costs from frequent and severe weather events in a Hot House scenario).\" \"Flood damage relating to a Wairoa property in FY25 led to a loss of $86,687 due to the property being [damaged].\" \"Flood risks from a 1-in-20 year, 1-in-50 year, 1-in-100 year and 1-in-200 year flood event were assessed against the amount of lending provided.\"",
+      "location_hint": "Appendix B p.42; Strategy p.17; Metrics p.35",
+      "confidence": "high",
+      "notes": "The scenario analysis explicitly models damage/loss from extreme flood events (acute physical risks) including projected LGD impacts from 2025 to 2080, and also reports an actual flood damage loss of $86,687 in FY25.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon price",
+        "sea level rise",
+        "flood risk (fluvial, pluvial, tidal)",
+        "extreme weather events / storm frequency",
+        "GDP / economic growth",
+        "unemployment",
+        "property prices / land values",
+        "insurance pricing / insurability",
+        "heat stress",
+        "drought",
+        "wind",
+        "wildfire",
+        "mortality and morbidity rates",
+        "managed retreat",
+        "electricity generation and supply"
+      ],
+      "evidence": "\"carbon price which rises to $138 per tonne\" (Orderly scenario); \"The rate of sea-level rise will be gradual to 2050\" (Orderly); \"Communities are forced out of their homes from repeated surface flooding or coastal inundation from sea-level rise\" (Hot House); \"GDP is unconstrained by the transition to a low-carbon economy yet falls over the medium to long term due to increasing disruptions caused by extreme weather events\" (Hot House); \"Significant impacts from economic transition (i.e., unemployment, resource reallocation, growth slow-down, business defaults and property price falls)\"; \"analysis of the physical impacts from heat, drought, wind and wildfire using MfE's Aotearoa New Zealand climate projections\"; \"Mortality and morbidity rates will increase and change\" (Too Little, Too Late); \"widespread insurance repricing, particularly in coastal storm and inland flood zones.\"",
+      "location_hint": "Strategy p.17; Appendix A p.38-40; Risk Management p.27",
+      "confidence": "high",
+      "notes": "Variables are drawn from both the qualitative scenario narratives and the quantitative modelling inputs.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"Global climate & socio-economic parameters: IPCC SSP1-1.9, IPCC SSP1-2.6, IPCC SSP2-4.5, IPCC SSP5-8.5, IPCC SSP3-7.0 ... New Zealand-specific climate parameters: National Institute of Water and Atmospheric Research (NIWA) RCP (representative concentration pathway) 2.6 ... CCC 'Tailwinds'.\" Also: \"The analyses we performed, therefore, are based on national and international assumptions and datasets and overlaying these with our internal information and sectoral level scenario analysis.\" And: \"analysis of the physical impacts from heat, drought, wind and wildfire using MfE's Aotearoa New Zealand climate projections over three temperature-aligned climate scenarios.\"",
+      "location_hint": "Strategy p.13 (scenario architecture table); Appendix B p.43; Risk Management p.27",
+      "confidence": "high",
+      "notes": "The scenario architecture explicitly distinguishes between global parameters (IPCC SSPs, NGFS, IEA) and New Zealand-specific parameters (NIWA RCPs, CCC pathways, MfE projections). Geospatial flood modelling is also conducted at a local/property level across the NZ mortgage portfolio.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short term: 10 years (~2030); Medium term: 30 years (~2050); Long term: 50+ years (~2080+). Rationale is provided: the time horizons are based on the NZBA's sectoral climate scenario analysis and are considered appropriate for business context, comparability, and the NZ residential mortgage lending portfolio. The longer horizon also allows for consideration of long-term life insurance impacts.",
+      "evidence": "\"We consider the following time horizons for the purposes of identifying climate-related risks and opportunities. These time horizons are based on the NZBA's sectoral climate scenario analysis. We consider this appropriate for our business context, to achieve comparability while also using baseline assumptions applicable to the wider New Zealand context we operate in (particularly our residential mortgage lending portfolio). The longer time horizon also allows for further consideration of the long-term impacts on life insurance. Horizon | Coverage & duration* | Short term | 10 years (~2030) | Medium term | 30 years (~2050) | Long term | 50+ years (~2080+) | * Year relative to 2022\"",
+      "location_hint": "Strategy p.14",
+      "confidence": "high",
+      "notes": "The document also notes that these climate time horizons differ from the entity's strategic planning cycles (short-term: up to 3 years; medium-term: up to 5 years; long-term: up to 10 years). MfE projections use slightly different periods: short-term (2021-2040), medium-term (2041-2060), long-term (2081-2099), referred to by midpoints 2030, 2050, 2090.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"These time horizons are based on the NZBA's sectoral climate scenario analysis. We consider this appropriate for our business context, to achieve comparability while also using baseline assumptions applicable to the wider New Zealand context we operate in (particularly our residential mortgage lending portfolio). The longer time horizon also allows for further consideration of the long-term impacts on life insurance.\" Also: \"Our first climate scenario analysis took place in FY24, following our involvement with the New Zealand Banking Association's (NZBA) 'Climate scenario narratives for the banking sector', published in June 2023.\" And: \"The review identified that the analysis could be enhanced by: Assessing the driving forces and critical uncertainties specific to the Co-operative Life insurance business, using insights from the Financial Services Council (FSC) climate scenarios. Considering the risk of physical climate drivers not previously modelled, including heat, drought, wind and wildfire.\"",
+      "location_hint": "Strategy p.12-14",
+      "confidence": "medium",
+      "notes": "The justification is primarily for the time horizons (NZBA alignment, business context, comparability, NZ mortgage portfolio, life insurance). The choice of NZBA scenarios as the base is explained by the entity's involvement with the NZBA. The FSC scenarios were added for life insurance relevance. However, there is no explicit justification for the choice of specific statistical models (Beta regression, GAM).",
+      "verification": null
+    }
+  ]
+}

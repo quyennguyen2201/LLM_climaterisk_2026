@@ -1,0 +1,168 @@
+{
+  "source": "METLIFECARE_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 818643,
+      "output_tokens": 6988,
+      "total_tokens": 825631,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 753541,
+        "ephemeral_5m_input_tokens": 65083,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly Net Zero 2050",
+        "Disorderly Delayed Transition",
+        "Hot House World Current Policies"
+      ],
+      "evidence": "\"In line with the requirements of NZCS 1, two of our scenarios included an 'Orderly' scenario (with a temperature outcome of 1.5°C), and a 'Hot House World' scenario (3°C or greater). Our third 'Disorderly' scenario presents an intermediate pathway where transition and physical risk are both serious challenges.\"\n\nTable 3 lists: Orderly Net Zero 2050 | Disorderly Delayed Transition | Hot House World Current Policies",
+      "location_hint": "Page 10, Table 3",
+      "confidence": "high",
+      "notes": "Each scenario is mapped to multiple pathway frameworks: RCP, SSP, IEA, and CCC (NZ Climate Change Commission).",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: 1.5°C (Orderly), <2.0°C (Disorderly), and >3.0°C (Hot House World). The physical risk assessment also references ~4°C rise by 2100 under RCP8.5.",
+      "evidence": "\"Orderly Net Zero 2050 – Policy ambition: 1.5°C; Disorderly Delayed Transition – Policy ambition: <2.0°C; Hot House World Current Policies – Policy ambition: >3.0°C\" and \"Each location was evaluated for exposure and vulnerability under the RCP8.5 scenario (a Hot House World of ~4°C rise by 2100)\"",
+      "location_hint": "Page 10 (Table 3) and Page 23",
+      "confidence": "high",
+      "notes": "No explicit mention of temperature overshoot. The Disorderly scenario states \"Countries successfully keep global warming below the 2°C threshold by 2050, avoiding climate tipping points.\"",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers are named: NGFS (Network for Greening the Financial System) as the original source of emissions reduction pathways; IPCC (for RCP and SSP frameworks); IEA (International Energy Agency); CCC (New Zealand Climate Change Commission); and NZGBC (New Zealand Green Building Council) for the Construction and Property sector scenarios that Metlifecare's scenarios are largely based on.",
+      "evidence": "\"Original source of emissions reduction pathway is NGFS Net-Zero 2050... NGFS Disorderly... NGFS Hot House World.\" Footnotes: \"RCP: Representation Concentration Pathway https://www.ipcc.ch/assessment-report/ar6/\"; \"SSP: Shared Socio-economic Pathways https://www.ipcc.ch/assessment-report/ar6/\"; \"IEA: International Energy Agency\"; \"CCC: New Zealand Climate Change Commission reference scenarios\"; \"The Construction and Property scenarios [NZGBC website] published in 2023, were developed and designed for sector participants to use when conducting scenario analysis.\"",
+      "location_hint": "Pages 9–10 (footnotes 5–9) and Appendix C (page 43)",
+      "confidence": "high",
+      "notes": "NGFS is the original source of emissions reduction pathways; NZGBC developed the sector-level scenarios that Metlifecare's company-level scenarios are largely based on.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "\"Orderly Net Zero 2050 – Pathways: RCP: 2.6 / SSP: 1-1.9 / IEA: Net Zero Emissions / CCC: Tailwinds; Disorderly Delayed Transition – Pathways: RCP: 2.6 / SSP: 1-2.6 / IEA: Sustainable Development / CCC: Headwinds; Hot House World Current Policies – Pathways: RCP: 8.5 / SSP: 3-7.0 / IEA: Net Zero Emissions / CCC: Current Policies\"",
+      "location_hint": "Page 10, Table 3",
+      "confidence": "high",
+      "notes": "The document explicitly lists both RCP and SSP identifiers for each scenario. RCP 2.6 is paired with SSP 1-1.9 (Orderly) and SSP 1-2.6 (Disorderly), and RCP 8.5 is paired with SSP 3-7.0 (Hot House World). These are not all from the same internally consistent scenario family — for example, RCP 2.6 is from CMIP5 while SSPs are from CMIP6.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"Our scenarios largely drew from the underlying assumptions and data sets that informed the Construction and Property sector scenarios... Our company-level scenarios were collaboratively developed with key internal stakeholders, who provided input on assumptions specific to Metlifecare's operations and activities.\" And: \"While our scenarios aligned with the same pathways and projections used in the Construction and Property sector scenarios, we have elected to use different time horizons than those of the Construction and Property sector. We believe it is important to align the horizons with the planning timeframes used in Metlifecare's business modelling, strategic planning, capital deployment and asset management decisions.\"",
+      "location_hint": "Pages 9–10",
+      "confidence": "high",
+      "notes": "Scenarios were adapted from NGFS/NZGBC sector scenarios with company-specific assumptions and different time horizons tailored to Metlifecare's planning cycles. The word \"tailored\" is not used explicitly, but the adaptation is clearly described.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes",
+      "evidence": "\"Our company-level scenarios were collaboratively developed with key internal stakeholders, who provided input on assumptions specific to Metlifecare's operations and activities.\" And: \"Our scenarios largely drew from the underlying assumptions and data sets that informed the Construction and Property sector scenarios, which were developed by a working group led by the New Zealand Green Building Council, with participation by Metlifecare representatives. We also participated in and took learnings from the Healthcare sector scenario development in FY24.\"",
+      "location_hint": "Page 9",
+      "confidence": "high",
+      "notes": "The document describes collaborative development with internal stakeholders and participation in sector-level working groups. The word \"co-produced\" is not used, but \"collaboratively developed\" and \"participation\" are explicitly stated.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No",
+      "evidence": "No explicit baseline or reference scenario against which the three climate scenarios are compared is described. The document uses the enterprise risk management framework \"as the baseline\" for materiality assessment, but this is not a climate scenario baseline: \"Metlifecare's enterprise risk management framework (which includes operating, financial, health and safety, legal, people, brand/reputation and strategic criteria) was used as the baseline.\"",
+      "location_hint": "Page 12",
+      "confidence": "medium",
+      "notes": "The \"Hot House World Current Policies\" scenario could be interpreted as a business-as-usual/current policies scenario, but it is not explicitly described as a baseline against which the other scenarios are compared. The document does not use the term \"baseline scenario\" in the context of scenario analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": "No specific climate models or integrated assessment models (IAMs) are named in the document. The scenario frameworks referenced are NGFS, IPCC AR6 (RCP/SSP), IEA, and CCC, but no underlying model names (e.g., REMIND, MESSAGE, GCAM) are cited.",
+      "evidence": "\"Original source of emissions reduction pathway is NGFS Net-Zero 2050... NGFS Disorderly... NGFS Hot House World.\" \"RCP: Representation Concentration Pathway https://www.ipcc.ch/assessment-report/ar6/\" \"SSP: Shared Socio-economic Pathways https://www.ipcc.ch/assessment-report/ar6/\" \"IEA: International Energy Agency\" \"CCC: New Zealand Climate Change Commission reference scenarios\"",
+      "location_hint": "Pages 9–10 (footnotes), Appendix C (page 43)",
+      "confidence": "high",
+      "notes": "No IAMs or climate models are named. Only scenario frameworks/providers are cited. The physical risk assessment used NIWA data but no specific model is named.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "No",
+      "evidence": "\"Adoption Provision 2: Anticipated financial impacts – provides an exemption from the requirement to provide quantitative information when describing our current climate-related impacts. A qualitative description of the anticipated financial impacts is provided.\" The physical risk assessment identifies exposure to extreme weather events qualitatively but does not provide damage or loss estimates: \"Preliminary analysis for 2050–2100 indicates minimal risk from sea-level rise and geophysical hazards. However, further work is needed on assessing potential exposure to precipitation, temperature, and wind-related hazards within our nearer-term timeframe.\"",
+      "location_hint": "Pages 2, 26",
+      "confidence": "high",
+      "notes": "Acute physical risks (extreme weather events, heatwaves) are identified and discussed qualitatively, but no quantitative damage or loss estimates are provided. The entity has applied an adoption provision exempting it from quantitative financial impact disclosure.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "emissions reduction pathways",
+        "electricity grid emissions (kgCO2/kWh)",
+        "carbon sequestration from afforestation and nature-based solutions",
+        "energy pathways",
+        "policy and regulatory change",
+        "macroeconomic trends",
+        "sea-level rise",
+        "precipitation/rainfall",
+        "wind",
+        "earth/geophysical hazards",
+        "insurance availability and cost",
+        "supply chain availability",
+        "technology adoption (negative emissions technology, renewable energy)",
+        "building standards and materials"
+      ],
+      "evidence": "\"Ten physical hazards were assessed over five categories - sea-level rise, rain, wind, temperature and earth.\" \"Reduction in electricity grid emissions (kgCO2/kWh)...\" \"Reliance on carbon sequestration through afforestation and nature-based solutions...\" \"The policy and socioeconomic assumptions and macroeconomic trends...\" \"Preliminary analysis for 2050–2100 indicates minimal risk from sea-level rise and geophysical hazards. However, further work is needed on assessing potential exposure to precipitation, temperature, and wind-related hazards...\"",
+      "location_hint": "Pages 23, 26, Appendix C (pages 43–44)",
+      "confidence": "high",
+      "notes": "Variables are drawn from both the physical risk assessment (hazard categories) and the scenario narrative assumptions (policy, energy, macroeconomic).",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"Our scenarios largely drew from the underlying assumptions and data sets that informed the Construction and Property sector scenarios\" (global/national frameworks via NGFS, IPCC, IEA). For physical risk: \"Each location was evaluated for exposure and vulnerability under the RCP8.5 scenario (a Hot House World of ~4°C rise by 2100)... The assessment used relevant guidance as well as publicly available climate change data from NIWA and town and city councils, with the results captured in a location-specific physical risk register.\"",
+      "location_hint": "Pages 9, 23",
+      "confidence": "high",
+      "notes": "The scenario narratives draw on global frameworks (NGFS, IPCC, IEA) and national NZ frameworks (CCC). The physical risk assessment uses locally sourced data from NIWA and local councils, applied at a site-specific level across New Zealand.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short-term: 2025–2029 (0–5 years); Medium-term: 2030–2040 (6–15 years); Long-term: 2041–2050 (16–25 years). Rationale is explicitly provided.",
+      "evidence": "\"Time horizons for assessing climate-related risks and opportunities: Short-term 0-5 years (2025-2029) – Aligned with Metlifecare's 5-year planning cycle; Medium-term 6-15 years (2030-2040) – Informing Metlifecare's planning within the next 15 years; Long-term 16-25 years (2041-2050) – Informing Metlifecare's planning within the next 25 years.\" And: \"We believe it is important to align the horizons with the planning timeframes used in Metlifecare's business modelling, strategic planning, capital deployment and asset management decisions. Having considered variables such as strategy development, capital allocation and the long-term perspective of physical climate change impacts, we concluded that 2050 was a more relevant upper boundary for a long-term horizon than 2100.\"",
+      "location_hint": "Page 9",
+      "confidence": "high",
+      "notes": "Justification is explicitly provided: time horizons are aligned with Metlifecare's 5-year planning cycle and business modelling. The choice of 2050 (rather than 2100) as the long-term boundary is also explicitly justified.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"In line with the requirements of NZCS 1, two of our scenarios included an 'Orderly' scenario (with a temperature outcome of 1.5°C), and a 'Hot House World' scenario (3°C or greater). Our third 'Disorderly' scenario presents an intermediate pathway where transition and physical risk are both serious challenges. We believe all three scenarios present a sound range of plausible climate futures, with each scenario describing different challenges that Metlifecare would face and therefore enabling the appropriate development of mitigations and adaptation strategies.\" And: \"Our scenarios largely drew from the underlying assumptions and data sets that informed the Construction and Property sector scenarios... Alignment with these sector scenarios grounds Metlifecare's company-level scenarios in the shared assumptions across the sectors.\"",
+      "location_hint": "Pages 9–10",
+      "confidence": "high",
+      "notes": "Justification is provided on two grounds: (1) compliance with NZCS 1 requirements for a 1.5°C, 3°C+, and intermediate scenario; and (2) alignment with sector-level scenarios developed by NZGBC to ground assumptions in shared sector frameworks. The choice to use NGFS-based pathways is implicit through the NZGBC sector scenario alignment rather than explicitly justified.",
+      "verification": null
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "source": "DOWNER_EDI_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1050179,
+      "output_tokens": 7169,
+      "total_tokens": 1057348,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 994386,
+        "ephemeral_5m_input_tokens": 55767,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Low climate change scenario (NGFS – Orderly, net zero 2050, 1.5°C; IPCC SSP1/RCP2.6, ~1.8°C)",
+        "Medium climate change scenario (NGFS – Disorderly, delayed transition, 2°C; IPCC SSP2/RCP4.5, ~2.7°C)",
+        "High climate change scenario (NGFS – Current policies, 3°C; IPCC SSP3/RCP7.0, ~3.6°C)"
+      ],
+      "evidence": "Climate scenarios used in FY25 | Scenario name: Low climate change scenario / Medium climate change scenario / High climate change scenario | Scenario inputs: NGFS – Orderly, net zero 2050 (1.5°C) / IPCC – 1.8°C; Shared Socioeconomic Pathway (SSP) 1; Representative Concentration Pathway (RCP) 2.6 | NGFS – Disorderly, delayed transition (2°C) / IPCC – 2.7°C; Shared Socioeconomic Pathway (SSP) 2; Representative Concentration Pathway (RCP) 4.5 | NGFS – Current policies (3°C) / IPCC – 3.6°C; Shared Socioeconomic Pathway (SSP) 3; Representative Concentration Pathway (RCP) 7.0",
+      "location_hint": "p.63, also detailed on p.222",
+      "confidence": "high",
+      "notes": "Each of the three named scenarios uses two inputs: one from NGFS (for transition risks) and one from IPCC AR6 (for physical risks).",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: 1.5°C (Low scenario, NGFS Orderly net zero 2050) / ~1.8°C (Low scenario, IPCC SSP1/RCP2.6); 2°C rising to ~2.7°C by end of century (Medium scenario, NGFS Disorderly delayed transition / IPCC SSP2/RCP4.5); 3°C–3.6°C by 2100 (High scenario, NGFS Current policies / IPCC SSP3/RCP7.0).",
+      "evidence": "\"As a result, global warming reaches 2.0°C, and could rise to approximately 2.7°C by the end of the century.\" / \"Without additional measures, global temperatures rise to between 3°C and 3.6°C by 2100.\" / NGFS Orderly net zero 2050 = 1.5°C; IPCC SSP1/RCP2.6 = ~1.8°C.",
+      "location_hint": "p.63 (scenario table), p.222 (basis of preparation table)",
+      "confidence": "high",
+      "notes": "No temperature overshoot language is used. The 1.5°C scenario is described as reaching or approaching net zero in 2050 with no overshoot mentioned.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Two scenario providers are explicitly named: (1) Network for Greening the Financial System (NGFS) and (2) Intergovernmental Panel on Climate Change (IPCC), specifically the IPCC Sixth Assessment Report.",
+      "evidence": "\"Downer used the following data sources in constructing our scenarios: Network for Greening the Financial System (NGFS) Climate Scenarios; Intergovernmental Panel on Climate Change (IPCC) Sixth Assessment Report.\"",
+      "location_hint": "p.62 (Scenario analysis section); also p.221 (Basis of Preparation)",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "\"Low climate change scenario, SSP 1; RCP 2.6 [...] Medium climate change scenario, SSP 2; RCP 4.5 [...] High climate change scenario, SSP 3; RCP 7.0\" — these are IPCC AR6 scenario inputs used alongside NGFS scenarios. The document also notes: \"Downer replaced the 'SSP 5/RCP 8.5' scenario previously utilised for analysis of physical risks with the SSP 3/RCP 7.0 scenario.\"",
+      "location_hint": "p.222 (IPCC Scenario inputs table); p.223 (Basis of Preparation)",
+      "confidence": "high",
+      "notes": "The document explicitly lists both SSP and RCP identifiers together (e.g. SSP1/RCP2.6, SSP2/RCP4.5, SSP3/RCP7.0). These are IPCC AR6 scenario combinations. Note that in IPCC AR6, SSPs and RCPs are used together as internally consistent pairs (e.g. SSP1-2.6), so these are not necessarily \"mixed\" from different families — they are the standard AR6 pairings. However, the document does explicitly list both SSP and RCP identifiers, meeting the literal criterion for this question.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "No",
+      "evidence": "\"Downer used the following data sources in constructing our scenarios: Network for Greening the Financial System (NGFS) Climate Scenarios; Intergovernmental Panel on Climate Change (IPCC) Sixth Assessment Report. Key considerations in the scenario selection included the availability of data specific to Australia and New Zealand, whether the scenarios aligned with the temperature pathways required by NZ CS 1, and whether they included information relevant to Downer's operations.\"",
+      "location_hint": "p.62",
+      "confidence": "high",
+      "notes": "The scenarios are used off-the-shelf from NGFS and IPCC AR6. The selection criteria mention availability of data specific to Australia and New Zealand, but there is no language indicating the scenarios were downscaled, adapted, localised, customised or tailored. The document notes that financial values were converted to AUD and adjusted for inflation, but this is a financial conversion, not a scenario customisation.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "\"The scenario analysis was undertaken through several sessions of consultation with Downer's subject matter experts, such as the Executive General Manager Sustainability and Environment and the Group Manager Climate & Sustainability.\"",
+      "location_hint": "p.62",
+      "confidence": "high",
+      "notes": "The scenario analysis involved internal consultation with Downer subject matter experts and was conducted with Deloitte as an external partner. There is no language indicating participatory, co-created, deliberative, co-designed, or collaborative scenario development with external stakeholders or communities.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No",
+      "evidence": "\"For FY25, Downer has used three scenarios to assess its exposure to physical and transition risks and climate-related opportunities, providing a balanced view of potential impacts across prioritised climate-related risks and opportunities.\"",
+      "location_hint": "p.62",
+      "confidence": "high",
+      "notes": "No explicit baseline or reference scenario is described against which the three climate scenarios are compared. The three scenarios (Low, Medium, High) are used as a range of plausible futures, not compared against a defined baseline/business-as-usual scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "No specific climate models or IAMs are named"
+      ],
+      "evidence": "\"Downer used the following data sources in constructing our scenarios: Network for Greening the Financial System (NGFS) Climate Scenarios; Intergovernmental Panel on Climate Change (IPCC) Sixth Assessment Report.\"",
+      "location_hint": "p.62, p.221",
+      "confidence": "high",
+      "notes": "The document names NGFS and IPCC AR6 as data sources/scenario providers, but does not name any specific climate models (e.g. CLIMADA, REMIND, MESSAGE, GCAM) or integrated assessment models. No macroeconomic models are named either.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"Tropical Cyclone Alfred resulted in delays in work, shortened programs and lost construction days for Downer's northern New South Wales and southern Queensland regions, particularly across the Transport segment. This translated into reduced revenue for the period, as well as additional costs for remediation and repair. Overall, this resulted in current year impacts of approximately $5-15 million in aggregate.\" Also: \"The revenues from the response to acute and chronic physical impacts this period amounted to approximately $150 million for Downer.\"",
+      "location_hint": "p.68–69",
+      "confidence": "high",
+      "notes": "The document includes both current-year financial impacts from acute physical events (Cyclone Alfred: $5–15M loss; storm/flood response revenue: ~$150M) and projected future impacts from extreme weather events across all scenarios and time horizons.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon price",
+        "electricity prices",
+        "gas and liquid fuel prices",
+        "renewable energy investment/adoption",
+        "extreme rainfall frequency and intensity",
+        "extreme heat / hot days",
+        "bushfire days",
+        "sea level rise",
+        "precipitation / chronic rainfall",
+        "technology change pace",
+        "policy and regulatory environment",
+        "international cooperation level",
+        "energy mix (fossil fuels vs renewables)"
+      ],
+      "evidence": "\"A steady, but sharp increasing carbon price is experienced.\" / \"Electricity prices are expected to decrease from the medium term and into the long term, while the price for gas and liquid fuels is expected to increase.\" / \"Extreme rain can damage roads and rail lines through flooding, erosion and landslides\" / \"Bushfires increase government spending through damage to infrastructure\" / \"Extreme heat may soften asphalt\" / \"sea level rise\" (mentioned as a chronic physical risk) / \"Carbon prices remain stagnant through to 2030, and then rise rapidly but not uniformly across jurisdictions.\"",
+      "location_hint": "pp.49, 63, 67–69",
+      "confidence": "high",
+      "notes": "Variables are drawn from both the scenario narratives and the risk/opportunity analysis sections.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"Key considerations in the scenario selection included the availability of data specific to Australia and New Zealand, whether the scenarios aligned with the temperature pathways required by NZ CS 1, and whether they included information relevant to Downer's operations.\" / \"The largest projected increase in extreme rain frequency is projected for South Australia, while the highest increase in intensity is for Southland region in New Zealand, in the long-term time horizon.\" / \"The highest projected increase in extreme hot days is concentrated in the Northern Territory, progressively growing from 2030 to 2070. The highest projected temperature increase is for Tasmania, reaching a maximum temperature rise of 8.1°C in the long-term horizon.\"",
+      "location_hint": "p.62, p.68–69",
+      "confidence": "medium",
+      "notes": "The scenarios are based on global NGFS and IPCC AR6 frameworks, but the physical risk analysis includes region-specific projections for Australian states and New Zealand regions (e.g. South Australia, Tasmania, Northern Territory, Southland NZ). The document does not explicitly state that global models were formally downscaled, but the outputs are applied at a regional/local level.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Physical risks: Short term = 2030, Medium term = 2050, Long term = 2070. Transition risks and opportunities: Short term = 2030, Medium term = 2040, Long term = 2050. Rationale is provided for these timeframes.",
+      "evidence": "\"Each scenario was considered over the following time horizons: Physical risks: Short term (2030), Medium term (2050), Long term (2070). Transition risks and opportunities: Short term (2030), Medium term (2040), Long term (2050). These timeframes were informed in consultation with Deloitte. These timeframes do not align with timeframes used in general internal risk management processes... The long-term transition risk and opportunity time frame of 2050 was chosen to align with the imperative of the Paris Agreement to reach Net Zero by 2050... With regards to physical risks and opportunities, it is expected that exposure to these will surpass the 2050 timeframe due to the time lag of the impact of a reduction in carbon emissions on temperature increases, and a longer time frame was deemed to provide more meaningful analysis.\"",
+      "location_hint": "p.62 (Scenario analysis section); p.221 (Basis of Preparation)",
+      "confidence": "high",
+      "notes": "Justification is explicitly provided: transition long-term horizon of 2050 aligns with Paris Agreement net-zero imperative; physical long-term horizon of 2070 reflects the time lag of emissions reductions on temperature and the need for more meaningful analysis beyond 2050.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"Key considerations in the scenario selection included the availability of data specific to Australia and New Zealand, whether the scenarios aligned with the temperature pathways required by NZ CS 1, and whether they included information relevant to Downer's operations. Downer believes that the chosen scenarios are suitable to test its business model and strategy against the climate-related risks and opportunities.\" Also from the detailed basis table: \"This scenario was chosen as an input to model an economy where the world, including Australia and New Zealand, rapidly and uniformly decarbonises, to demonstrate potential high-end transition risk exposure to inform strategy.\" / \"Downer's view is that the IPCC SSP3-7.0 scenario presents a more likely future and is being more widely utilised by Governments and organisations. As such, we have opted to replace the IPCC SSP5-8.5 scenario with SSP3-7.0 for this year's scenario analysis.\"",
+      "location_hint": "p.62 (Scenario analysis); p.222 (Basis of Preparation table)",
+      "confidence": "high",
+      "notes": "Justification is provided at both the overall level (data availability for Australia/NZ, NZ CS 1 alignment, relevance to operations) and at the individual scenario level (each scenario's \"Basis\" column in the table on p.222 explains why it was chosen). The replacement of SSP5-8.5 with SSP3-7.0 is also explicitly justified.",
+      "verification": null
+    }
+  ]
+}

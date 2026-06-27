@@ -1,0 +1,160 @@
+{
+  "source": "GREEN_CROSS_HEALTH_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 462719,
+      "output_tokens": 5012,
+      "total_tokens": 467731,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 422228,
+        "ephemeral_5m_input_tokens": 40474,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly scenario (1.5°C warming)",
+        "Disorderly scenario (2.0°C warming)",
+        "Hot house scenario (3.0°C warming)"
+      ],
+      "evidence": "A description of the three scenarios is summarised in the table below. Scenario One: Orderly scenario (1.5˚C warming), Scenario Two: Disorderly scenario (2.0˚C warming), Scenario Three: Hot house scenario (3.0˚C warming)",
+      "location_hint": "Page 3, Strategy section",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes by 2100 are described: 1.5°C warming (Orderly scenario), 2.0°C warming (Disorderly scenario), and 3.0°C warming (Hot house scenario). No temperature overshoot is mentioned.",
+      "evidence": "A first scenario of a 1.5˚C increase in global temperatures by 2100 was assessed... A second scenario of a 2.0˚C increase in global temperatures by 2100 was assessed... A third scenario of a 3.0˚C increase in global temperatures by 2100 was assessed",
+      "location_hint": "Page 2, Strategy section",
+      "confidence": "high",
+      "notes": "No mention of temperature overshoot.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple providers are named: Thinkstep-anz (external specialist who conducted the analysis), relying on IPCC, NIWA, Stats NZ data, and Retail Sector Scenarios developed by Aotearoa Circle.",
+      "evidence": "Source: Thinkstep-anz who has relied on IPCC, NIWA, Stats NZ data, and Retail Sector Scenarios developed by Aotearoa Circle.",
+      "location_hint": "Page 3, scenario table footnote",
+      "confidence": "high",
+      "notes": "Thinkstep-anz is the primary scenario developer/analyst; IPCC, NIWA, Stats NZ, and Aotearoa Circle are the underlying data/scenario sources.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "No",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The document does not mention SSP or RCP identifiers at all. Scenarios are described only by temperature outcome labels (Orderly/Disorderly/Hot house) and degrees of warming.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "The scenario analysis considers sector-relevant assumptions underlying emissions reduction pathways over time, including environmental, socioeconomic and macroeconomic assumptions. Assumptions that are less relevant to the sectors in which the Company operates, such as carbon sequestration from afforestation and nature-based solutions, are not included in the scenario analysis.",
+      "location_hint": "Page 3, Strategy section",
+      "confidence": "medium",
+      "notes": "The document describes sector-specific filtering of assumptions (removing irrelevant ones) and use of Retail Sector Scenarios developed by Aotearoa Circle, suggesting adaptation for local/industry context. The word \"customised\" or \"downscaled\" is not used explicitly, but sector-relevant tailoring is described.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "No language such as \"participatory\", \"co-creat\", \"deliberat\", \"co-design\", \"stakeholder input\", or \"collaborative development\" appears in the document. The scenario analysis was conducted by Management with support from external specialist Thinkstep-anz.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The document describes three climate scenarios (Orderly, Disorderly, Hot house) but does not describe a separate baseline or reference scenario against which these are compared.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [],
+      "evidence": "The scenario analysis was conducted as a standalone analysis by Management with support from external specialist Thinkstep-anz. No modelling was undertaken.",
+      "location_hint": "Page 3, Strategy section",
+      "confidence": "high",
+      "notes": "The document explicitly states \"No modelling was undertaken.\" No climate models, IAMs, or macroeconomic models are named.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "Physical Risk: Flooding: frequency and magnitude — Relative sea-level rise, changes in extremes: high intensity and persistence of rainfall — Temporary site closures, equipment or stock damage",
+      "location_hint": "Page 4, Strategy (continued) risk/opportunity table",
+      "confidence": "medium",
+      "notes": "The document identifies flooding as an acute physical risk and describes potential impacts (temporary site closures, equipment or stock damage), but does not provide quantified financial loss estimates. The scenario likelihood is rated \"Low\" across all three scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "extreme rainfall (days per annum)",
+        "extreme heat days (>25°C)",
+        "sea level rise (metres)",
+        "carbon price (NZD per tonne)",
+        "population increases (New Zealand and global)",
+        "renewable energy (% of NZ grid)"
+      ],
+      "evidence": "Extreme rainfall: 11 days per annum / Sea level rise: 0.22 metres / Carbon price: $277 NZD per tonne / Population increases: 16% increase in New Zealand population, 7% global population increase / Renewable energy: 100% renewable energy on New Zealand grid by 2030",
+      "location_hint": "Page 3, scenario table",
+      "confidence": "high",
+      "notes": "Variables are drawn from the scenario table covering environmental, policy, social, and technology dimensions.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "regional/local",
+      "evidence": "Source: Thinkstep-anz who has relied on IPCC, NIWA, Stats NZ data, and Retail Sector Scenarios developed by Aotearoa Circle. [Scenario variables include] 16% increase in New Zealand population, 7% global population increase... 100% renewable energy on New Zealand grid by 2030",
+      "location_hint": "Page 3, scenario table and footnote",
+      "confidence": "medium",
+      "notes": "The scenarios use New Zealand-specific data (NIWA, Stats NZ, NZ population, NZ grid) and are based on Retail Sector Scenarios developed by Aotearoa Circle, indicating a regional/local (New Zealand) focus. Global population figures are also referenced but the primary framing is New Zealand-specific.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short-term: 0–3 years; Medium-term: 3–10 years; Long-term: beyond 10 years. No explicit rationale for these timeframes is provided.",
+      "evidence": "These have been categorised into the short-term (0-3 years), medium-term (3-10 years) and long-term (beyond 10 years). During strategic planning and when making decisions regarding capital allocation, the Company considers all three timeframes.",
+      "location_hint": "Page 3, Strategy section",
+      "confidence": "high",
+      "notes": "The timeframes are defined and applied consistently throughout the document, but no explicit justification for why these specific periods were chosen is provided.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "These three scenarios were selected as being most relevant to the sectors in which the Company operates and are in use by a number of other companies, both nationally and internationally. The scenario analysis considers sector-relevant assumptions underlying emissions reduction pathways over time, including environmental, socioeconomic and macroeconomic assumptions. Assumptions that are less relevant to the sectors in which the Company operates, such as carbon sequestration from afforestation and nature-based solutions, are not included in the scenario analysis.",
+      "location_hint": "Page 3, Strategy section",
+      "confidence": "high",
+      "notes": "The justification is brief: scenarios were chosen for sector relevance and because they are in use by other companies nationally and internationally. No deeper methodological justification is provided.",
+      "verification": null
+    }
+  ]
+}

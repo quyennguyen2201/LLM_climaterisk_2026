@@ -1,0 +1,175 @@
+{
+  "source": "HALLENSTEIN_GLASSON_HOLDINGS_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 687973,
+      "output_tokens": 6365,
+      "total_tokens": 694338,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 646857,
+        "ephemeral_5m_input_tokens": 41094,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "NGFS Orderly: Net Zero 2050 (1.4°C)",
+        "NGFS Disorderly: Delayed Transition (1.6°C)",
+        "NGFS Hot House World: Current Policies (+3.0°C)"
+      ],
+      "evidence": "NGFS ARCHITECTURES: — Orderly: Net Zero 2050 (1.4°C) — Disorderly: Delayed Transition (1.6°C) — Hot House World: Current Policies (+3.0°C)",
+      "location_hint": "Scenario Analysis section, p.8",
+      "confidence": "high",
+      "notes": "The document also notes that the scenario table maps these to RCPs (1.9, 2.6, 8.5), SSPs (SSP1, SSP3, SSP5), CCC (Tailwinds, Headwinds, Current Policy Reference) and IEA (NZE, SDS, STEPS) equivalents.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: 1.5°C (Net Zero 2050, mapped to 1.4°C in NGFS architecture), 1.6°C (Delayed Transition), and +3.0°C (Current Policies). No explicit temperature overshoot is mentioned.",
+      "evidence": "Our scenario analysis work details three climate scenarios; a 1.5°C global warming scenario, a 3.0°C or greater global warming scenario, and a third temperature scenario of HGH's choosing (Disorderly Transition)... NGFS ARCHITECTURES: — Orderly: Net Zero 2050 (1.4°C) — Disorderly: Delayed Transition (1.6°C) — Hot House World: Current Policies (+3.0°C)",
+      "location_hint": "p.7 and p.8",
+      "confidence": "high",
+      "notes": "The document refers to the scenarios as 1.5°C, 1.6°C, and +3.0°C. The NGFS architecture table shows 1.4°C for Net Zero 2050, while the narrative text rounds this to 1.5°C to meet XRB requirements.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "NGFS (Network for Greening the Financial System)",
+      "evidence": "HGH chose to conduct the scenario analysis using the NGFS (Network for Greening the Financial System) framework. The decision to use this framework and the following three scenarios was guided by XRB's requirements and the importance of making efforts to align with the retail sector work we participated in, where possible.",
+      "location_hint": "Scenario Analysis section, p.8",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "No",
+      "evidence": "NET ZERO 2050: NGFS — ORDERLY THEME / RCP 1.9 / SSP1: Sustainability ... DELAYED TRANSITION: NGFS — DISORDERLY THEME / RCP 2.6 / SSP3: Regional Rivalry ... CURRENT POLICIES: NGFS — HOT HOUSE WORLD THEME / RCP 8.5 / SSP5: Fossil Fuel Development",
+      "location_hint": "Scenario table, p.8",
+      "confidence": "high",
+      "notes": "Both SSP and RCP identifiers are listed in the scenario table, but each scenario uses internally consistent pairings from the same NGFS scenario family (e.g., RCP 1.9 with SSP1, RCP 2.6 with SSP3, RCP 8.5 with SSP5). There is no mixing across scenario families.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "In 2023 HGH participated in the New Zealand retail sector scenario analysis project. We have aligned with this sector work where possible and relevant in developing our own scenario analysis... The above time horizons and rationale have been guided by the retail sector work and found to be applicable to HGH.",
+      "location_hint": "p.7 and p.8",
+      "confidence": "medium",
+      "notes": "The NGFS scenarios were adapted/applied in the context of the NZ retail sector scenario analysis project. The document does not use the exact words \"downscaled\", \"customised\" or \"tailored\", but describes aligning with sector-specific work and developing scenario narratives specific to the retail industry context in New Zealand and Australia. The scenario narratives themselves are written with retail-sector-specific content.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes",
+      "evidence": "The scenario planning process outlined above has had the full backing and participation of the Executive team. The Sustainability Committee and Board of Directors had oversight of the process with regular updates. Participation in the retail sector scenario analysis in 2023 provided access to expertise within KPMG. HGH also engaged the external sustainability consulting firm, Tadpole Consulting Limited, to support and facilitate the creation of our climate-related disclosures, including the development and delivery of the scenario analysis process, in line with XRB guidelines.",
+      "location_hint": "p.9",
+      "confidence": "medium",
+      "notes": "The document describes participation of the Executive team and engagement of external consultants (KPMG, Tadpole Consulting) in the scenario development process. The six-step governance process also includes \"Engage Key Personnel & Stakeholders\" as step 1. However, the exact keywords \"participatory\", \"co-creat\", \"deliberat\", \"co-design\" are not used.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The document does not describe a separate baseline or reference scenario against which the three climate scenarios are compared. The three NGFS scenarios (Net Zero 2050, Delayed Transition, Current Policies) are presented as the full set of scenarios used, with no explicit baseline.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "GCAM 6.0",
+        "MESSAGEix-GLOBIOM 1.1",
+        "NGFS REMIND-MAgPIE 3.2-4.6",
+        "SSP Database IIASA-WiC Model - SSP1",
+        "SSP Database IIASA-WiC Model - SSP3",
+        "SSP Database IIASA-WiC Model - SSP5"
+      ],
+      "evidence": "SOCIO-ECONOMIC DATA PARAMETERS: — Shared Socioeconomic Pathways (SSPs) in the IPCC Sixth Assessment Report on Climate Change: — SSP Database IIASA-WiC Model - SSP1 — SSP Database IIASA-WiC Model - SSP3 — SSP Database IIASA-WiC Model - SSP5 — NGFS Models — GCAM 6.0 — MESSAGEix-GLOBIOM 1.1 — NGFS REMIND-MAgPIE 3.2-4.6 Model",
+      "location_hint": "Appendix: Data and Sources, p.20",
+      "confidence": "high",
+      "notes": "These are listed as data sources in the Appendix. The document also references NGFS climate explorer, NIWA, NASA Sea Level Change Portal, and IPCC as physical data sources, but these are data providers rather than models per se.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "Physical - acute: Significant increase in the quantum and severity of weather events impacting supply chains. Severe weather events such as floods, fires and storms significantly impact transport and logistics operations and infrastructure. This can result in challenges to delivery, inability to unload, store and distribute HGH's products. Natural disasters can interrupt the production of raw materials, shipping logistics, and overall supply chain continuity. [Scenario: Current Policies – Long term]",
+      "location_hint": "Climate-Related Physical and Transition Risks table, p.12",
+      "confidence": "high",
+      "notes": "The document identifies acute physical risks (floods, fires, storms) and their anticipated impacts on supply chains and operations. However, HGH has elected to use NZ CS 2 Adoption Provision 2 and has not formally quantified the financial impacts of these risks.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "policy reaction / regulatory changes",
+        "speed of technology change",
+        "customer sentiment / behaviour change",
+        "physical risk severity",
+        "transition risk severity",
+        "supply chain impacts",
+        "commodity prices",
+        "carbon dioxide removal (CDR) availability",
+        "carbon price",
+        "sea level rise",
+        "energy prices",
+        "consumer behaviour / preferences",
+        "geopolitics",
+        "natural resources availability"
+      ],
+      "evidence": "PHYSICAL DATA PARAMETERS: — Network for Greening the Financial System (NGFS) climate explorer — National Institute of Water and Atmospheric Research (NIWA) — National Aeronautics and Space Administration (NASA) Sea Level Change Portal — Intergovernmental Panel on Climate Change (IPCC) ... The output of the above process resulted in the identification of nine climate-related driving forces ('drivers'): 1. Consumer behaviour / preferences 2. Brand reputation / social license to operate 3. Emerging technology / innovation 4. Data privacy and security 5. Domestic and global economic dynamics 6. Sourcing and supply chain barriers 7. Natural resources 8. Regulatory changes / government approach to climate change 9. Geopolitics",
+      "location_hint": "Appendix p.20 and Risk Management section p.11-12",
+      "confidence": "medium",
+      "notes": "The scenario table on p.8 explicitly lists policy reaction, regional policy variation, speed of technology change, customer sentiment/behaviour change, physical risk severity, transition risk severity, risk of surpassing tipping points, and supply chain impacts as scenario dimensions. The appendix lists sea level rise (NASA portal) and physical climate data (NIWA, IPCC) as data sources. Carbon price is mentioned in scenario narratives.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "The NGFS scenarios are global, have good data availability for Australia and New Zealand, are evolving, and are widely used by key partners in the retail sector value chain... PHYSICAL DATA PARAMETERS: — Network for Greening the Financial System (NGFS) climate explorer — National Institute of Water and Atmospheric Research (NIWA) — National Aeronautics and Space Administration (NASA) Sea Level Change Portal — Intergovernmental Panel on Climate Change (IPCC)",
+      "location_hint": "p.9 and Appendix p.20",
+      "confidence": "medium",
+      "notes": "The NGFS scenarios are explicitly described as global. However, physical data parameters include NIWA (New Zealand's national institute for atmospheric research), indicating some regional/local data was used. The document also references \"good data availability for Australia and New Zealand\" suggesting regional application of global scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short term: 2024–2030; Medium term: 2031–2040; Long term: 2041–2050. Rationale is explicitly provided for each time horizon.",
+      "evidence": "The time horizons considered, for each scenario are as follows: — Short: 2024-2030 — Medium: 2031-2040 — Long: 2041-2050. The endpoints of each time horizon are determined by a year (2030, 2040, 2050). The short-term horizon is designed to explore the Group's readiness to rapidly transform our business. The medium-term is designed to explore HGH's resilience to an especially condensed and disruptive transition that takes place during this period. The long-term helps to explore how the collective failure to reduce emissions might steadily erode value in the long term while physical impacts of climate change escalate. The above time horizons and rationale have been guided by the retail sector work and found to be applicable to HGH.",
+      "location_hint": "Scenario Analysis section, p.8",
+      "confidence": "high",
+      "notes": "The rationale for each time horizon is explicitly stated and linked to the three NGFS scenarios: Net Zero 2050 sees most change in the short term, Delayed Transition in the medium term, and Current Policies in the long term.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "HGH chose to conduct the scenario analysis using the NGFS (Network for Greening the Financial System) framework. The decision to use this framework and the following three scenarios was guided by XRB's requirements and the importance of making efforts to align with the retail sector work we participated in, where possible. The NGFS scenarios are global, have good data availability for Australia and New Zealand, are evolving, and are widely used by key partners in the retail sector value chain (as well as many New Zealand climate reporting entities (CRE's). Net Zero 2050 allows HGH to test our short-term preparedness to respond to transition-related risks under fast but planned decarbonisation. Delayed Transition maximises and explores highly disruptive transition risks in the medium term by providing the most abrupt transition/deceleration of emissions and explores HGH's resilience to these. Current Policies help to support considerations around the escalation of physical impacts of climate change and how the collective failure to reduce emissions might steadily erode value in the long-term.",
+      "location_hint": "Scenario Analysis section, p.8-9",
+      "confidence": "high",
+      "notes": "The document provides explicit justification for both the framework choice (NGFS) and each individual scenario, including alignment with XRB requirements, sector alignment, data availability, and the specific analytical purpose each scenario serves.",
+      "verification": null
+    }
+  ]
+}

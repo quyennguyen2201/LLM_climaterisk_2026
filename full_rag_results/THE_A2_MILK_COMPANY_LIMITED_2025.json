@@ -1,0 +1,171 @@
+{
+  "source": "THE_A2_MILK_COMPANY_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1130226,
+      "output_tokens": 6974,
+      "total_tokens": 1137200,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 1066312,
+        "ephemeral_5m_input_tokens": 63890,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Low emissions pathway, 1.5°C warming",
+        "Medium emissions pathway, 2°C warming",
+        "High emissions pathway, >3°C warming"
+      ],
+      "evidence": "\"The following three climate-related scenarios were developed to illustrate a wide range of climate-related risks and opportunities which might impact the Company over different time horizons, and are believed to be relevant to the material climate-related risks and opportunities that the Company may face in the case of the three emissions pathways and warming scenarios by 2050: Low emissions pathway, 1.5°C warming; Medium emissions pathway, 2°C warming; High emissions pathway, >3°C warming.\"",
+      "location_hint": "p.13, Climate scenarios section",
+      "confidence": "high",
+      "notes": "Each scenario is also mapped to an Aotearoa Circle Agri Sector scenario: Tū-ā-pae (Orderly: Net Zero 2050), Tū-ā-hopo (Disorderly: Delayed transition), and Tū-ā-tapape (Hot house: Current policies) respectively.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes three temperature outcomes, all framed as targets by 2050 (not 2100): 1.5°C warming (low emissions pathway), 2°C warming (medium emissions pathway), and >3°C warming (high emissions pathway). The high emissions scenario references warming reaching 3°C higher by 2080. No explicit 2100 temperature targets are stated.",
+      "evidence": "\"Low emissions pathway, 1.5°C warming; Medium emissions pathway, 2°C warming; High emissions pathway, >3°C warming.\" And for the high scenario: \"The Tū-ā-tapape scenario describes a world in which emissions continue to rise unabated as no additional climate change policies are introduced. Fossil fuel use continues to increase, and so global CO₂ emissions continue to rise and warming is expected to reach 3°C higher by 2080.\"",
+      "location_hint": "p.13 (scenario list), p.20 (Tū-ā-tapape description)",
+      "confidence": "high",
+      "notes": "Temperature targets are expressed relative to 2050, not 2100. No temperature overshoot language is used.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers are explicitly named: (1) IPCC (Intergovernmental Panel on Climate Change) — for combined SSPs and RCPs; (2) IEA (International Energy Agency) — Global Energy and Climate Model Scenarios; (3) Aotearoa Circle — New Zealand Aotearoa Circle Agri Sector Climate Change Scenarios.",
+      "evidence": "\"The scenarios are aligned with widely accepted models, including those from the Intergovernmental Panel on Climate Change's (IPCC) combined Shared Socioeconomic Pathways (SSPs) and Representative Concentration Pathways (RCPs), the International Energy Agency (IEA), Global Energy and Climate Model Scenarios, and the New Zealand Aotearoa Circle Agri Sector Climate Change Scenarios (Aotearoa Circle).\"",
+      "location_hint": "p.13, Climate scenarios section",
+      "confidence": "high",
+      "notes": "Physical risk data is sourced via Munich Re Climate Change subscription; transition risk data from IEA scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "Scenario 1 (Low): \"Physical Dataset: For the Physical Risk modelling, data from SSP1 – RCP2.6 is used via Munich Re physical risk subscription data.\" Scenario 2 (Medium): \"Physical Dataset: For the Physical Risk modelling, data from SSP2 – RCP4.5 is used via Munich Re physical risk subscription data.\" Scenario 3 (High): \"Physical Dataset: For the Physical Risk modelling, data from SSP5 – RCP8.5 is used via Munich Re physical risk subscription data.\"",
+      "location_hint": "pp.15, 17, 19 — Key features boxes for each scenario",
+      "confidence": "high",
+      "notes": "The document explicitly lists both SSP and RCP identifiers together (SSP1–RCP2.6, SSP2–RCP4.5, SSP5–RCP8.5). These are cross-scenario-family pairings (SSPs are from CMIP6/AR6; RCPs are from CMIP5/AR5), which constitutes a pick-and-mix approach. The document also notes that RCP1.9 was preferred for Scenario 1 but RCP2.6 was used instead due to data availability.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"Scenario Selection: As noted above, the scenarios were selected and tailored specifically to the Company after considering guidance from the IPCC combined SSPs and RCPs, the IEA, Global Energy and Climate Model Scenarios, and the Aotearoa Circle.\" And: \"The developed scenarios draw strongly from the Agri Circle Sector Scenarios developed by the Aotearoa Circle... The only material differences between the Company scenarios and sector scenarios relate to specific Company value chains and business operations, which are noted in this Climate Statement where relevant.\"",
+      "location_hint": "p.14, Methods and assumptions / Relationship to sector scenarios",
+      "confidence": "high",
+      "notes": "The scenarios are described as \"tailored specifically to the Company.\" Carbon price pathways are also \"tailored considerations of the pass through of carbon costs from the relevant on-farm and processing facilities as modelled specifically for the Company.\"",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "\"Engaged key internal stakeholders to update the Company's climate scenarios and refine climate-related risks and opportunities.\" And: \"Stakeholder Engagement: Assumptions are based on engagement with internal stakeholders, including the Finance team, Risk and Supply Chain team, key members of the ELT, the CLSO, the CFO, and the CEO and other relevant members of the ELT from time to time.\"",
+      "location_hint": "p.12 (scenario process), p.14 (assumptions)",
+      "confidence": "high",
+      "notes": "Stakeholder engagement is limited to internal stakeholders. No language such as \"participatory\", \"co-creat\", \"deliberat\", \"co-design\", or \"collaborative development\" with external parties is used. The Aotearoa Circle scenarios are adopted/adapted rather than co-produced with the company.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No explicit baseline or reference scenario is described against which the three climate scenarios are compared. The document uses FY24 actuals as a data baseline for financial modelling, and FY21 as the base year for emissions targets, but no \"business-as-usual\" or reference climate scenario is formally defined.",
+      "evidence": "\"The climate-related scenarios assume future sales volumes, unit prices, and cost of goods sold (COGS) derived from business projections based on Company emissions data from FY24, with an assumption of price elasticity for the Company's products based on engagement with internal stakeholders.\"",
+      "location_hint": "p.14, Assumptions used in Scenario models and analysis",
+      "confidence": "medium",
+      "notes": "The High Emissions Pathway (>3°C) could be interpreted as a de facto \"current policies\" scenario (aligned with IEA STEPS and Tū-ā-tapape), but it is not explicitly labelled as a baseline or reference scenario against which the others are compared.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "Munich Re Climate Change Edition (Location Risk Intelligence)",
+        "IEA Global Energy and Climate Model",
+        "IEA Net Zero by 2050 Scenario (NZE)",
+        "IEA Announced Pledges Scenario (APS)",
+        "IEA Stated Policies Scenario (STEPS)"
+      ],
+      "evidence": "\"The external datasets used were sourced from Munich Re Climate Change subscription for physical risk data (described further below) and the IEA scenarios for transition risk data.\" And scenario key features list: \"Transition Dataset: International Energy Agency (IEA) Net Zero by 2050 Scenario (NZE)\"; \"Transition Dataset: International Energy Agency (IEA) Announced Pledges Scenario (APS)\"; \"Transition Dataset: International Energy Agency (IEA) Stated Policies Scenario (STEPS).\"",
+      "location_hint": "p.14 (methods), pp.15, 17, 19 (scenario key features)",
+      "confidence": "high",
+      "notes": "No IAMs (e.g. REMIND, MESSAGE) or macroeconomic models (e.g. NiGEM) are named. The IEA Global Energy and Climate Model is the underlying model for the IEA scenarios. Munich Re's platform is a physical risk data/modelling tool rather than a climate model per se.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"Increased acute adverse weather events, particularly in New Zealand due to the proportion of the Company's production in this geography in this scenario, including storms and floods which may result in farm damage/disruption, loss of productivity, decreased milk supply, or compromised milk quality. The Company may also face impacts on processing operations from acute weather events including damage to infrastructure compromising milk collection and processing or access to energy, or distribution of products.\"",
+      "location_hint": "p.24, Scenario 3: High emissions pathway to 2050 — Acute weather impacts",
+      "confidence": "high",
+      "notes": "Acute physical risks (storms, floods) are explicitly included in the scenario analysis alongside chronic risks (heat stress, drought). However, the company has not disclosed quantified anticipated financial impacts, relying on an adoption provision under NZCS 2.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon price",
+        "drought",
+        "heat stress / temperature-humidity index (THI)",
+        "flooding / storms",
+        "water availability / water shortages",
+        "energy pathways (renewable energy share)",
+        "land use",
+        "consumer demand for low-carbon products",
+        "carbon border adjustments",
+        "food prices",
+        "trade barriers / market access"
+      ],
+      "evidence": "\"Carbon Price Pathways: The climate-related scenarios assume subsequent carbon price pathways and tailored considerations of the pass through of carbon costs from the relevant on-farm and processing facilities.\" \"Increased temperature-humidity index (THI) and drought affect the Company's supply chain in Australia and the USA.\" \"Water shortages impact pasture growth and processing capacity.\" \"Energy supply is mostly decarbonised, with 98% of electricity from renewable sources.\" \"Increased acute adverse weather events, particularly in New Zealand... including storms and floods.\"",
+      "location_hint": "pp.14–20, scenario descriptions and key features",
+      "confidence": "high",
+      "notes": "Variables are drawn from both physical risk (drought, heat stress, flooding, water availability) and transition risk (carbon price, energy pathways, consumer demand, trade barriers) dimensions of the scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"The climate-related scenarios were informed by location-based modelling to cover all material geographies. The physical risk modelling is considered appropriate as Munich Re is a worldwide reinsurer with experience in modelling relevant risks in relevant geographies.\" And: \"The physical risk modelling is based on a detailed risk score assessment of the raw milk supplier regions and locations (by coordinates).\"",
+      "location_hint": "p.14 (Modelling Approach), p.26 (Risk Management section)",
+      "confidence": "high",
+      "notes": "The scenarios use global SSP/RCP frameworks and IEA global scenarios as the overarching structure, but physical risk modelling is applied at a location-based (regional/local) level using Munich Re data for specific supplier regions and coordinates in New Zealand, Australia, and the USA.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short term: up to 5 years; Medium term: 5 to 15 years; Long term: 15+ years (to 2050 maximum). The rationale is partially explained — the time horizons are linked to the company's strategic planning horizons and capital deployment plans, with the long-term maximum of 2050 aligning with the company's net zero targets.",
+      "evidence": "\"For both scenario analysis and the identification of climate-related risks and opportunities, the 'short term' is defined as up to 5 years, 'medium term' is defined as 5 to 15 years, and 'long term' is defined as 15+ years (to 2050 maximum).\" And: \"The Company strategy includes medium-term measures of success, where medium-term is defined as FY27+... This target period covers the short to long term in the three time horizons used in climate-related risk and opportunity assessment. Capital deployment plans are developed with specificity in the short-term time horizon.\"",
+      "location_hint": "p.21 (risk/opportunity section), p.27 (time horizons detail)",
+      "confidence": "high",
+      "notes": "The rationale is partially provided — the horizons are linked to strategic planning and capital deployment, and the 2050 maximum aligns with net zero targets. However, no detailed explanation is given for why 5 years and 15 years were chosen as the specific cut-off points.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"These scenarios were chosen for their relevance to a2MC's operations, geographic exposure, and sector-specific risks and opportunities. They capture both transition risks (e.g. policy, technology and market shifts) and physical risks (e.g. extreme weather and chronic climate impacts), enabling a comprehensive analysis of potential disruptions and adaptations. The scenarios are aligned with widely accepted models, including those from the Intergovernmental Panel on Climate Change's (IPCC) combined Shared Socioeconomic Pathways (SSPs) and Representative Concentration Pathways (RCPs), the International Energy Agency (IEA), Global Energy and Climate Model Scenarios, and the New Zealand Aotearoa Circle Agri Sector Climate Change Scenarios (Aotearoa Circle). The Aotearoa Circle scenarios are specifically designed for companies operating in the agriculture sector, such as a2MC. The chosen scenarios are therefore considered by the Company to be relevant and useful in assessing the resilience of the Company's business model, inform strategy, and to identify climate-related risks and opportunities.\"",
+      "location_hint": "p.13, Climate scenarios section; also p.26, Risk Management section",
+      "confidence": "high",
+      "notes": "The justification covers: (1) relevance to operations and geographic exposure; (2) sector-specific applicability (Aotearoa Circle designed for agriculture); (3) coverage of both transition and physical risks; (4) alignment with widely accepted models. For Munich Re physical risk modelling, the justification given is that \"Munich Re is a worldwide reinsurer with experience in modelling relevant risks in relevant geographies.\"",
+      "verification": null
+    }
+  ]
+}

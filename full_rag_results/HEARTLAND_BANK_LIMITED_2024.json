@@ -1,0 +1,175 @@
+{
+  "source": "HEARTLAND_BANK_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 576602,
+      "output_tokens": 6242,
+      "total_tokens": 582844,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 528609,
+        "ephemeral_5m_input_tokens": 47975,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly",
+        "Too Little, Too Late",
+        "Hot House"
+      ],
+      "evidence": "Heartland selected three scenarios (known as the \"Orderly\", \"Too Little, Too Late\", and \"Hot House\"), which were developed by the New Zealand Banking Association (NZBA). [...] Reference scenarios: NZBA's Orderly scenario: IPCC SSP1-1.9 / Climate Change Commission – 'Tailwinds'; NZBA's Too Little, Too Late Scenario: IPCC SSP2-4.5 / 'Climate Change Commission – Headwinds'; NZBA's Hothouse scenario: IPCC SSP5-8.5 / 'Climate Change Commission - Current Policy Reference'",
+      "location_hint": "Strategy section, p.7",
+      "confidence": "high",
+      "notes": "The three NZBA scenarios are each mapped to IPCC SSP reference scenarios and Climate Change Commission scenarios. The document also references a 2021 scenario analysis using \"an extreme yet plausible, but not 'worst-case', scenario\" but this is not named separately.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: 1.5°C (Orderly scenario), >2°C and <3°C (Too Little, Too Late scenario), and >3°C (Hot House scenario). No explicit mention of temperature overshoot.",
+      "evidence": "Policy trajectory (temperature): 1.5°C [Orderly] / >2°C and <3°C [Too Little, Too Late] / >3°C [Hot House]",
+      "location_hint": "Strategy section, scenario table, p.7",
+      "confidence": "high",
+      "notes": "These are described as \"policy trajectory (temperature)\" outcomes, not explicitly stated as 2100 targets, but are consistent with standard scenario framing.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "The New Zealand Banking Association (NZBA) is the primary scenario provider. The IPCC (SSP scenarios) and the New Zealand Climate Change Commission are also explicitly named as reference scenario sources.",
+      "evidence": "Heartland selected three scenarios (known as the \"Orderly\", \"Too Little, Too Late\", and \"Hot House\"), which were developed by the New Zealand Banking Association (NZBA). [...] Reference scenarios: NZBA's Orderly scenario: IPCC SSP1-1.9 / Climate Change Commission – 'Tailwinds'; NZBA's Too Little, Too Late Scenario: IPCC SSP2-4.5 / 'Climate Change Commission – Headwinds'; NZBA's Hothouse scenario: IPCC SSP5-8.5 / 'Climate Change Commission - Current Policy Reference'",
+      "location_hint": "Strategy section, p.7",
+      "confidence": "high",
+      "notes": "NZBA developed the three named scenarios; IPCC and Climate Change Commission scenarios are used as reference/underpinning scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "No",
+      "evidence": "Reference scenarios: NZBA's Orderly scenario: IPCC SSP1-1.9 / NZBA's Too Little, Too Late Scenario: IPCC SSP2-4.5 / NZBA's Hothouse scenario: IPCC SSP5-8.5. Commonwealth Scientific and Industrial Research Organisation (CSIRO) – RCP 2.6",
+      "location_hint": "Strategy section p.7; References p.44",
+      "confidence": "medium",
+      "notes": "The main scenario analysis uses only SSPs (SSP1-1.9, SSP2-4.5, SSP5-8.5). RCP 2.6 appears only in the references list as a CSIRO source document, not as a scenario used in the analysis itself. Jupiter Intelligence tool uses RCP 8.5 for property risk scoring (footnote), but this is a separate tool, not part of the main scenario analysis framework. There is no explicit mixing of SSP and RCP families within a single internally consistent scenario analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "These scenarios were then further customised and developed to be relevant and specific to Heartland, with a particular focus on the potential impact on property backed mortgage lending, transport, infrastructure/civil engineering, small and midsize enterprises, and the agriculture sector. [...] Using three customised scenarios (each with a separate narrative for New Zealand and Australia)...",
+      "location_hint": "Strategy section, p.8",
+      "confidence": "high",
+      "notes": "The document explicitly uses the word \"customised\" and describes how the NZBA scenarios were adapted for Heartland's specific portfolios and for both New Zealand and Australian contexts.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "Once customised, the narratives for each scenario were agreed upon by a working group comprising senior leaders from across Heartland, including representation from the Sustainability Committee.",
+      "location_hint": "Strategy section, p.8",
+      "confidence": "medium",
+      "notes": "The scenario customisation involved an internal working group of senior leaders, not external stakeholders or a participatory/co-design process. No language such as \"participatory\", \"co-creat\", \"deliberat\", \"co-design\", or \"stakeholder input\" from external parties is used.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No explicit baseline or reference scenario is described against which the three climate scenarios are compared. However, the Climate Change Commission's \"Current Policy Reference\" scenario is referenced as the underpinning for the Hot House scenario.",
+      "evidence": "NZBA's Hothouse scenario: IPCC SSP5-8.5 / 'Climate Change Commission - Current Policy Reference'",
+      "location_hint": "Strategy section, scenario table, p.7",
+      "confidence": "medium",
+      "notes": "The \"Current Policy Reference\" is listed as a reference scenario for the Hot House scenario, but it is not explicitly described as a standalone baseline against which the other scenarios are compared. No formal \"business as usual\" or \"no climate policy\" baseline scenario is separately defined.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "ENZ model (Climate Change Commission)",
+        "CMIP6",
+        "CMIP5",
+        "Jupiter Intelligence",
+        "IEA Global Energy and Climate Model"
+      ],
+      "evidence": "No modelling has been undertaken for New Zealand other than using the Climate Change commission dataset. [...] The World Bank – Climate Change Knowledge Portal (CMIP6 and CMIP5) [...] Climate Change Commission Scenarios dataset for the Commission's 2021 Final Advice (output from ENZ model) [...] International Energy Agency. (2022). Global Energy and Climate Model. [...] Employed climate-risk modelling software Jupiter Intelligence to understand Heartland's exposure to climate hazards into the future",
+      "location_hint": "Appendix 1 p.32; References p.44; p.2",
+      "confidence": "medium",
+      "notes": "CMIP6/CMIP5 and the IEA Global Energy and Climate Model appear in the references list. The ENZ model is used for NZ scenario data. Jupiter Intelligence is used for property-level climate risk scoring. These are not all used directly in the scenario analysis — some are reference sources only.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "Damage from severe climatic events, including closure of infrastructure, could result in losses which could lead to loan defaults. (Physical) [...] In assessing the adequacy of capital held in respect of operational risk, Heartland Bank has considered a scenario for physical climate-related risks. The scenario is an extreme but plausible climate-related event relating to severe flooding and storm damage within the Auckland region. [...] wide-ranging acute and chronic physical climate impacts such as nearly yearlong droughts, temperatures which pose risks to fatalities, and floods.",
+      "location_hint": "Strategy p.10; Risk Management p.30; Appendix 1 p.33",
+      "confidence": "high",
+      "notes": "The document explicitly discusses acute physical risks (floods, storms, droughts, cyclones, bushfires) and their potential financial impacts including loan defaults and capital adequacy considerations. However, quantified damage/loss estimates are not provided due to adoption provisions exempting financial impact disclosures in the first reporting period.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon price",
+        "EV uptake / electric vehicle adoption",
+        "sea level rise",
+        "flooding",
+        "drought",
+        "storm frequency/severity",
+        "bushfires",
+        "cyclones",
+        "biodiversity loss",
+        "insurance premiums",
+        "renewable energy adoption",
+        "fossil fuel phase-out",
+        "emissions pricing (ETS)",
+        "technology advancements (e.g. methane vaccine, EV trucks)",
+        "GDP growth"
+      ],
+      "evidence": "This is matched by an increasing carbon price that incentivises the adoption of low emission alternatives [...] Sea levels also rise leading to inundation of low-lying houses and river-floods [...] These include drought in key rural agricultural areas of New Zealand [...] wide-ranging acute and chronic physical climate impacts. These include nearly yearlong droughts, temperatures which pose risks to fatalities, cyclones, biodiversity loss and floods. [...] Renewable energy becomes the primary source of power generation [...] the same percentage change in certain transitional changes such as EV take up, new technology (EV Trucks, methane vaccines etc)",
+      "location_hint": "Appendix 1 pp.32–33; Strategy p.7",
+      "confidence": "high",
+      "notes": "Variables are described qualitatively within scenario narratives rather than as quantified model inputs.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "The scenarios used maps out different global and domestic climate, socio-economic, policy and technology outcomes to each scenario narrative. An inherent limitation of this is a variance that occurs between global and domestic outcomes driven by the differences in modelling approaches used to calculate the scenario parameters, alongside variances in the way New Zealand and Australia are predicted to react to climate change versus the rest of the world. [...] Using three customised scenarios (each with a separate narrative for New Zealand and Australia)",
+      "location_hint": "Appendix 2 p.42; Strategy p.8",
+      "confidence": "high",
+      "notes": "The scenarios are based on global reference scenarios (IPCC SSPs) but have been adapted with separate narratives for New Zealand and Australia, indicating both global and regional/local application. Jupiter Intelligence is also used for property-level (local) climate risk scoring.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Four time horizons are used: Immediate (1 year / 2024), Short Term (3 years / 2026), Medium Term (7 years / 2030), and Long Term (30 years / 2050+). Rationales are explicitly provided for each.",
+      "evidence": "Immediate / Short Term / Medium term / Long Term | Time Horizon: 1 Year / 3 / 7 / 30 Year | 2024 / 2026 / 2030 / 2050+ | Rationale for selection: Provides a current state assessment and the ability to address immediate transitional and acute physical risks and opportunities. / Aligns with maximum fixed rate interest periods for Online Home Loans. / Broadly aligns with the average term of Business Loans. / Aligns with the maximum term of the majority of Heartland's credit exposures. Aligns with maximum loan terms for Online Home Loans and Rural lending, and the vast majority of the expected 'term' of Heartland's Reverse Mortgage portfolio. Also aligns with long-term international and domestic emission reduction targets and long-term science-aligned emission reduction timeframes.",
+      "location_hint": "Strategy section, p.8",
+      "confidence": "high",
+      "notes": "All four time horizons have explicit rationales tied to Heartland's loan product terms and emission reduction targets.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "Heartland selected three scenarios (known as the \"Orderly\", \"Too Little, Too Late\", and \"Hot House\"), which were developed by the New Zealand Banking Association (NZBA). These scenarios were used to align with others in the banking sector to improve comparability. These scenarios were also used to challenge Heartlands resilience against the varying transitional impacts that arise in the \"Orderly\" and \"Too Little, Too Late\", Scenarios as well as look to understand the potential physical impacts in their extremes in the \"Too Little, Too Late\" and \"Hot House\" scenario.",
+      "location_hint": "Strategy section, p.7",
+      "confidence": "high",
+      "notes": "Two explicit justifications are given: (1) alignment with the banking sector for comparability, and (2) the scenarios' ability to challenge resilience across both transitional and physical risk dimensions.",
+      "verification": null
+    }
+  ]
+}

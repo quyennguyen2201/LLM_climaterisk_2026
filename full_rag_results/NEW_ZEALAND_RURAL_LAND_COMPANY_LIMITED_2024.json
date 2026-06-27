@@ -1,0 +1,173 @@
+{
+  "source": "NEW_ZEALAND_RURAL_LAND_COMPANY_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1097984,
+      "output_tokens": 6627,
+      "total_tokens": 1104611,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 1039157,
+        "ephemeral_5m_input_tokens": 58802,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Tū-ā-pae 1.5°C",
+        "Tū-ā-hopo 2.0°C",
+        "Tū-ā-tapape 3.0°C"
+      ],
+      "evidence": "In accordance with the requirements of NZ CS1, three future climate scenarios were assessed each of which represent an alternative potential future: • Tū-ā-pae a 1.5 degrees Celsius climate-related scenario (Mandatory Scenario) • Tū-ā-hopo a 2 degrees Celsius climate related scenario (NZL Selected Scenario) • Tū-ā-tapape a 3 degrees Celsius or greater climate related scenario (Mandatory Scenario)",
+      "location_hint": "Section 3.4, p.14",
+      "confidence": "high",
+      "notes": "All three scenarios are sourced from the Aotearoa Circle (agriculture sector specific). Scenario names are in te reo Māori.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: 1.5°C (Tū-ā-pae), 2.0°C (Tū-ā-hopo), and 3.0°C (Tū-ā-tapape). The 3°C scenario notes warming is expected to reach 3°C high by 2080, not 2100. No explicit 2100 endpoint or temperature overshoot is mentioned.",
+      "evidence": "Tū-ā-pae represents a world defined by a smooth transition to net zero CO₂ by 2050. Global warming is limited to 1.5°C through stringent climate policies and innovation. [...] Tū-ā-hopo represents a world with little policy action until after 2030 after which strong, rapid action is implemented to limit warming to 2°C. [...] Tū-ā-tapape scenario describes a world in which emissions continue to rise unabated as no additional climate change policies are introduced. Fossil fuel use continues to increase, and so global CO₂ emissions continue to rise and warming is expected to reach 3°C high by 2080.",
+      "location_hint": "Section 3.5, p.16 (Table 3)",
+      "confidence": "high",
+      "notes": "The document does not explicitly state temperature outcomes by 2100; the 3°C scenario references 2080 as the endpoint for that warming level. No temperature overshoot language is used.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple providers are named: (1) Aotearoa Circle (agriculture sector-specific scenario definitions/source for all three narrative scenarios); (2) IPCC (global climate models underpinning the scenarios); (3) NIWA and the Deep South National Science Challenge (downscaled 2024 climate projections for New Zealand).",
+      "evidence": "Scenario definition/source: Aotearoa Circle (agriculture sector specific) [for all three scenarios]. [...] we assessed a range of possible future climate conditions based on global scenarios developed by the Intergovernmental Panel on Climate Change (IPCC). [...] we also reviewed specific downscaled 2024 climate projections for Aotearoa New Zealand, produced by NIWA and the Deep South National Science Challenge.",
+      "location_hint": "Section 3.4–3.5, pp.13–16",
+      "confidence": "high",
+      "notes": "The Aotearoa Circle is the direct source of the three narrative scenarios; IPCC provides the underlying global models; NIWA and Deep South National Science Challenge provide the downscaled NZ projections.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "No",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The document does not explicitly list any SSP or RCP identifiers. The scenarios are described by temperature outcome (1.5°C, 2°C, 3°C) and sourced from the Aotearoa Circle. No mixing of SSP and RCP families is described.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "we also reviewed specific downscaled 2024 climate projections for Aotearoa New Zealand, produced by NIWA and the Deep South National Science Challenge. These regionally tailored projections offered higher-resolution insights into likely changes in temperature, rainfall, drought frequency, and other key climate variables across different parts of the country. [...] we leveraged and built on the sector-specific scenario definitions developed by the Aotearoa Circle for New Zealand's agriculture sector.",
+      "location_hint": "Section 3.4, p.13–14",
+      "confidence": "high",
+      "notes": "Two forms of customisation are evident: (1) downscaled regional projections from NIWA/Deep South for New Zealand; (2) sector-specific (agriculture) scenario narratives from the Aotearoa Circle, described as \"regionally tailored projections\".",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "This foundational work brought together key industry stakeholders to support climate reporting entities and foster greater alignment and comparability in climate-related disclosures.",
+      "location_hint": "Section 3.4, p.14",
+      "confidence": "medium",
+      "notes": "The Aotearoa Circle scenario development involved \"key industry stakeholders\", which could imply a collaborative process, but the document does not use explicit co-production language such as \"participatory\", \"co-creat\", \"deliberat\", \"co-design\", or \"collaborative development\" in relation to NZL's own scenario development. NZL adopted pre-existing Aotearoa Circle scenarios rather than co-producing new ones.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The document describes three forward-looking climate scenarios (1.5°C, 2°C, 3°C) but does not describe a separate baseline or reference scenario against which these are compared. The Tū-ā-tapape 3°C scenario (current policies) could be interpreted as a de facto baseline, but it is not explicitly labelled as such.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "IPCC global climate models (unnamed specific models)",
+        "NIWA downscaled climate projections",
+        "Deep South National Science Challenge climate projections"
+      ],
+      "evidence": "we assessed a range of possible future climate conditions based on global scenarios developed by the Intergovernmental Panel on Climate Change (IPCC). These models incorporate the latest science and data to represent a spectrum of emissions pathways and associated warming outcomes over the coming decades. In addition to global models, we also reviewed specific downscaled 2024 climate projections for Aotearoa New Zealand, produced by NIWA and the Deep South National Science Challenge.",
+      "location_hint": "Section 3.4, p.13",
+      "confidence": "medium",
+      "notes": "No specific named climate models (e.g. CMIP6 models, specific IAMs) are identified. The document refers generically to IPCC global models and NIWA/Deep South downscaled projections without naming individual models.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "NZL's portfolio is exposed to physical climate risks, with assets located across various regions of New Zealand. These regions are projected to experience a range of both acute risks (e.g., storms, flooding, and droughts) and chronic risks (e.g., rising temperatures, biodiversity loss, and water stress). [...] More frequent and severe extreme weather events impact lessee ability to conduct operations, increased damage to capital assets. Unanticipated or premature write-downs, devaluations or conversion to liabilities resulting from these impacts could leave lessees with increased liabilities, challenging their ability to meet commercial obligations.",
+      "location_hint": "Section 5.4.1 (p.34–35) and Table 4 (p.20–21)",
+      "confidence": "high",
+      "notes": "The document explicitly discusses damage to capital assets and financial impacts from acute physical risks (storms, flooding, droughts, extreme weather events). However, quantified loss estimates are not provided; the analysis is qualitative.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon price",
+        "rainfall",
+        "drought frequency",
+        "water stress",
+        "sea level rise",
+        "storm frequency/strength",
+        "global population",
+        "NZ population",
+        "dairy herd size",
+        "livestock herd size",
+        "horticulture and arable land area",
+        "exotic forestry land area",
+        "native forestry land area",
+        "carbon price path (NZU prices)",
+        "electricity prices"
+      ],
+      "evidence": "These regionally tailored projections offered higher-resolution insights into likely changes in temperature, rainfall, drought frequency, and other key climate variables across different parts of the country. [...] 2050 carbon price: $277 Per tonne NZD / $369 Per tonne NZD / $35 Per tonne NZD [...] Global Population increase (relative to 2022): 7% / 16% / 8% [...] There are irreversible changes such as ice sheet loss and sea level rise. [...] exploring how climate change may impact the frequency and strength of storms that make landfall in New Zealand [...] other factors including water stress",
+      "location_hint": "Section 3.4 (p.13), Section 3.5 Table 3 (p.16–17), Section 3.6 (p.19)",
+      "confidence": "high",
+      "notes": "Carbon price, population, agricultural sector metrics, and physical climate variables are all explicitly listed in the scenario tables and narrative text.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "we assessed a range of possible future climate conditions based on global scenarios developed by the Intergovernmental Panel on Climate Change (IPCC). These models incorporate the latest science and data to represent a spectrum of emissions pathways and associated warming outcomes over the coming decades. In addition to global models, we also reviewed specific downscaled 2024 climate projections for Aotearoa New Zealand, produced by NIWA and the Deep South National Science Challenge. These regionally tailored projections offered higher-resolution insights into likely changes in temperature, rainfall, drought frequency, and other key climate variables across different parts of the country.",
+      "location_hint": "Section 3.4, p.13",
+      "confidence": "high",
+      "notes": "The document explicitly uses both global IPCC models and downscaled regional/local projections for New Zealand produced by NIWA and the Deep South National Science Challenge.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short-term: 1–5 years (2025–2029); Medium-term: 6–10 years (2030–2034); Long-term: 10+ years (2034+, including 2050). Rationales are provided for each timeframe.",
+      "evidence": "Table 2: Time Horizons considered for Climate Risk and Opportunity Identification. Time Frame | Time Interval | Years | Relevant Business Process. Short-term | 1–5 years | 2025–2029 | Operational planning timeframes relevant for Board's budget + business planning cycle. Medium-term | 6–10 years | 2030–2034 | In line with NZL long-term strategic planning. More certainty of climatic impact and policy settings over these time frames. Long-term | 10+ years | 2034+ | Longer term strategy planning. Lifespan relevant timeframe for significant assets such as property and tenancy agreements, in line with strategic outlook of Board and tenants, including 2050 Net Zero ambitions.",
+      "location_hint": "Section 3.4, Table 2, p.15",
+      "confidence": "high",
+      "notes": "Rationales are explicitly provided for each timeframe, linked to business planning cycles, strategic planning, asset lifespans, and 2050 Net Zero ambitions.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "To ensure a robust and consistent approach, we leveraged and built on the sector-specific scenario definitions developed by the Aotearoa Circle for New Zealand's agriculture sector. This foundational work brought together key industry stakeholders to support climate reporting entities and foster greater alignment and comparability in climate-related disclosures. By adopting these widely recognised scenarios, we are aligning our analysis with best practices, supporting regulatory readiness, and reinforcing the credibility of our climate risk assessments.",
+      "location_hint": "Section 3.4, p.13–14",
+      "confidence": "high",
+      "notes": "The justification cites: (1) robustness and consistency; (2) sector-specificity for agriculture; (3) alignment with best practices; (4) regulatory readiness (NZ CS1 requirements); (5) credibility. The document also notes the scenarios were mandatory under NZ CS1 (1.5°C and 3°C) with the 2°C scenario being NZL's own selection.",
+      "verification": null
+    }
+  ]
+}

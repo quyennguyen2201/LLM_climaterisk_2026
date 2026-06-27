@@ -1,0 +1,178 @@
+{
+  "source": "LIVESTOCK_IMPROVEMENT_CORPORATION_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1168280,
+      "output_tokens": 7017,
+      "total_tokens": 1175297,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 1105436,
+        "ephemeral_5m_input_tokens": 62819,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly (Net Zero 2050 – limit temperature rise to 1.5°C with overshoot)",
+        "Disorderly (Delayed transition – limit temperature rise to 2°C)",
+        "Hothouse (Hothouse world – temperature rise >3°C)"
+      ],
+      "evidence": "\"The Aotearoa Circle created three climate scenarios for the sector, which help meet the prescribed temperature scenarios as set out in NZ CS 1: −Orderly, temperature rise limited to 1.5°C (mandated) −Disorderly, temperature rise limited to 2°C −Hothouse, temperature rise increases past 3°C (mandated)\"",
+      "location_hint": "Section: Scenario analysis, p.15–16",
+      "confidence": "high",
+      "notes": "Scenarios are based on the Aotearoa Circle Agriculture Sector Scenarios, adapted for LIC's dairy sector context.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: 1.5°C (with overshoot) under the Orderly scenario; 2°C under the Disorderly scenario; and >3°C (exceeding 3°C by 2080) under the Hothouse scenario. Temperature overshoot is explicitly mentioned for the 1.5°C scenario.",
+      "evidence": "\"Orderly: Net Zero 2050 – Limit temperature rise to 1.5°C (with overshoot) … Disorderly: Delayed transition – Limit temperature rise to 2°C … Hothouse world – Temperature rise >3°C … with 2050 being the endpoint, with the exception of Hothouse where the temperature continues to increase beyond 2050 to exceed 3oC by 2080\"",
+      "location_hint": "Table 3, p.16–17",
+      "confidence": "high",
+      "notes": "The Hothouse endpoint is 2080 (>3°C), not 2100, but this is the closest reference to a long-run temperature outcome.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "The Aotearoa Circle (specifically its Agriculture Sector Climate Change Scenarios) is the primary scenario provider. The IPCC, New Zealand Climate Change Commission, and Ministry for the Environment are also named as providers of underlying climate data and models used within the scenarios.",
+      "evidence": "\"The Aotearoa Circle Agriculture Sector Scenarios were used as the foundation for developing LIC's climate-related scenarios for this report.\" Key climate scenarios and models used include: \"Intergovernmental Panel on Climate Change (IPCC) Representative Concentration Pathway (RCP) 2.6/SSP-1 … Scenarios dataset for the Climate Change Commission's 2021 Final Advice: Tailwinds data set … Ministry for the Environment 2018 Climate change projections for NZ … Ministry for the Environment 2022 Interim guidance on the use of new sea-level rise projections\"",
+      "location_hint": "p.15–16, Table 3",
+      "confidence": "high",
+      "notes": "Multiple providers named: Aotearoa Circle (primary), IPCC, NZ Climate Change Commission, Ministry for the Environment.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "\"Key climate scenarios and models used: • Intergovernmental Panel on Climate Change (IPCC) Representative Concentration Pathway (RCP) 2.6/SSP-1 … • IPCC RCP 4.5/SSP-2 … • IPCC RCP 8.5/SSP-5\"",
+      "location_hint": "Table 3, p.16",
+      "confidence": "high",
+      "notes": "The document explicitly lists both RCP and SSP identifiers together (e.g. RCP 2.6/SSP-1, RCP 4.5/SSP-2, RCP 8.5/SSP-5). RCP 2.6 is from CMIP5 and SSP1 is from CMIP6 — these are from different scenario generations, indicating a pick-and-mix approach.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"LIC has adapted the Aotearoa Circle Agri-sector scenarios to reflect LIC's role in the dairy sector specifically. This process involved analysis by management of the Aotearoa Circle scenarios, which LIC's Chief Executive was directly involved in developing, together with workshops with both SLT and the Board to develop impact pathways specific to LIC. These outputs were then integrated with narrative specific to LIC to shape the scenario narratives … Key differences between Aotearoa Circle's scenario narratives and LIC's scenario narratives relate to focussing primarily on changes relevant to LIC's role within the dairy sector and technology developments.\"",
+      "location_hint": "p.16",
+      "confidence": "high",
+      "notes": "The document explicitly uses the word \"adapted\" and describes a customisation process involving management workshops and Board review to tailor the Aotearoa Circle sector scenarios to LIC's specific dairy sector context.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "\"LIC did not enlist the help of external partners and no external stakeholders were involved, with the exception of elected directors, who are farmer shareholders in LIC. LIC intends to seek the views and input of external stakeholders in future reporting periods when reporting processes are more developed.\"",
+      "location_hint": "p.15",
+      "confidence": "high",
+      "notes": "The document explicitly states no external stakeholders were involved in LIC's scenario development process. The CEO's participation in the Aotearoa Circle's Agriculture Sector Scenarios development is noted, but LIC's own scenario adaptation was an internal process.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No explicit baseline or reference scenario is described against which the three climate scenarios are compared. The document references a \"Current policy reference data set\" from the Climate Change Commission as one of the underlying data sources for the Hothouse scenario, but this is not framed as a standalone baseline scenario for comparison purposes.",
+      "evidence": "\"IPCC RCP 8.5/SSP-5 • Scenarios dataset for the Climate Change Commission's 2021 Final Advice: Current policy reference data set\"",
+      "location_hint": "Table 3, p.16",
+      "confidence": "medium",
+      "notes": "The \"Current policy reference data set\" is listed as a data source for the Hothouse scenario, not as a separate baseline scenario. No explicit baseline/reference scenario is described for comparison purposes.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "IPCC RCP 2.6/SSP-1",
+        "IPCC RCP 4.5/SSP-2",
+        "IPCC RCP 8.5/SSP-5",
+        "Climate Change Commission 2021 Final Advice: Tailwinds data set",
+        "Climate Change Commission 2021 Final Advice: Headwinds data set",
+        "Climate Change Commission 2021 Final Advice: Current policy reference data set",
+        "Ministry for the Environment 2018 Climate change projections for NZ",
+        "Ministry for the Environment 2022 Interim guidance on the use of new sea-level rise projections"
+      ],
+      "evidence": "\"Key climate scenarios and models used: • Intergovernmental Panel on Climate Change (IPCC) Representative Concentration Pathway (RCP) 2.6/SSP-1 • Scenarios dataset for the Climate Change Commission's 2021 Final Advice: Tailwinds data set • Ministry for the Environment 2018 Climate change projections for NZ • Ministry for the Environment 2022 Interim guidance on the use of new sea-level rise projections • IPCC RCP 4.5/SSP-2 • Scenarios dataset for the Climate Change Commission's 2021 Final Advice: Headwinds data set … • IPCC RCP 8.5/SSP-5 • Scenarios dataset for the Climate Change Commission's 2021 Final Advice: Current policy reference data set\"",
+      "location_hint": "Table 3, p.16",
+      "confidence": "high",
+      "notes": "No named IAMs (e.g. REMIND, MESSAGE) or macroeconomic models are mentioned. The listed items are scenario datasets and projection guidance documents rather than named climate models per se.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"Acute risk factors are those related to more frequent and intense extreme climate events such as heatwaves, droughts, bushfires, floods and storms … Weather events caused disruption to LIC production and services, damage to LIC assets and disrupted farmer operations, resulting in cancellation or delay to LIC services. For example, South Island flooding impacted some farmers during September 2023 … In the previous year, there was a $0.15m claim for repairs relating to a lightning strike on 29 January 2023 … Supply chain and distribution disruption: Increasing frequency and severity of extreme weather events impacting LIC's supply chain, which may result in a major business disruption, increased operating costs and/or an inability to meet customer requirements\"",
+      "location_hint": "p.12–13, 22",
+      "confidence": "high",
+      "notes": "The document includes both qualitative descriptions of acute physical risk impacts and some financial figures (e.g. $0.15m insurance claim from a weather event). However, forward-looking damage/loss estimates from acute events within the scenario analysis are described qualitatively rather than quantitatively.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "sea level rise",
+        "water stress",
+        "storm damage",
+        "rainfall/precipitation patterns",
+        "drought",
+        "carbon/emissions pricing (farmgate emissions pricing)",
+        "energy pathways (renewable energy share)",
+        "carbon sequestration and afforestation",
+        "dairy herd size",
+        "consumer preferences / market demand",
+        "carbon border adjustments",
+        "insurance costs",
+        "access to capital/funding",
+        "technology adoption (methane inhibitors, gene editing)",
+        "global population growth"
+      ],
+      "evidence": "\"Ministry for the Environment 2022 Interim guidance on the use of new sea-level rise projections … The physical impacts of climate change have increased water stress in some regions. Storm damage still poses high risks … Potential for decrease in productivity and output of the dairy sector due to changes in mean rainfall and temperature, seasonality, weather extremes … Agricultural emissions are priced at the farm level in the early 2020s … Energy supply is mostly decarbonised, with 98% of electricity from renewable sources … There is widespread use of carbon capture and storage (CCS) globally … Carbon-border adjustments have shrunk NZ's animal product exports … Access to funding/capital is difficult with insurers and banks unwilling to lend to those highly exposed to physical climate risks\"",
+      "location_hint": "Table 3, p.16–19; p.21",
+      "confidence": "high",
+      "notes": "Variables are drawn from both the scenario narrative tables and the risk/opportunity tables throughout the document.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"The climate scenario analysis was focused on LIC's New Zealand operations. International factors were considered where material, such as consumables manufactured offshore or shipping of product sold to international markets … While they are shaped by global and New Zealand scenario methods and assumptions … Ministry for the Environment 2018 Climate change projections for NZ … Ministry for the Environment 2022 Interim guidance on the use of new sea-level rise projections\"",
+      "location_hint": "Table 3, p.17; p.19",
+      "confidence": "high",
+      "notes": "Global IPCC RCP/SSP scenarios are used as the foundation, supplemented by New Zealand-specific climate projections and sea-level rise guidance from the Ministry for the Environment, making the analysis both global and regional/local in scope.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short-term: to 2026/27 (next 3 years); Medium-term: 2027–2035; Long-term: 2036–2050 (with Hothouse extending beyond 2050 to exceed 3°C by 2080). The short-term horizon is explicitly justified by alignment with LIC's three-year plan cycle. No explicit rationale is provided for the medium- and long-term boundaries beyond the 2050 net-zero endpoint.",
+      "evidence": "\"Short-term – risk over the next 3 years to 2026/27, in line with LIC's three-year plan cycle −Medium-term – risk within the horizon from 2027 to 2035 −Long-term – risk within the time horizon from 2036 to 2050 … Short (to 2026/27), medium (2027-2035) and long (2036-2050) term, with 2050 being the endpoint, with the exception of Hothouse where the temperature continues to increase beyond 2050 to exceed 3oC by 2080\"",
+      "location_hint": "p.20 (risk horizons); Table 3, p.17",
+      "confidence": "high",
+      "notes": "Only the short-term horizon is explicitly justified (aligned to LIC's 3-year plan cycle). The medium and long-term boundaries are stated but not separately justified beyond the overall 2050 endpoint.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"LIC determined that the Aotearoa Circle Agriculture Sector Scenarios were the most relevant and appropriate starting point because they have been created specifically for agribusinesses operating in New Zealand's agricultural sector, including LIC. Moreover, the scenarios were aligned to the temperature requirements in NZ CS 1, including to have a 1.5 degree scenario, a 3 degree or greater scenario, and a third climate-related scenario.\"",
+      "location_hint": "p.15",
+      "confidence": "high",
+      "notes": "Two explicit justifications are given: (1) the scenarios were created specifically for NZ agribusinesses including LIC; and (2) they align with the mandatory temperature scenario requirements under NZ CS 1.",
+      "verification": null
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "source": "IAG_NEW_ZEALAND_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1112968,
+      "output_tokens": 7412,
+      "total_tokens": 1120380,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 1049753,
+        "ephemeral_5m_input_tokens": 63191,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly – Net Zero 2050",
+        "Disorderly – Delayed Transition",
+        "Hot House – Current Policies"
+      ],
+      "evidence": "Table 2 – Scenario descriptions: Orderly – Net Zero 2050 | Disorderly – Delayed Transition | Hot House – Current Policies. Scenario description: An ambitious and coordinated transition aligned with a 1.5°C warming trajectory | Delayed action, followed by sudden and uncoordinated transformation, landing at <2.0°C | Continuation of current policy settings, leading to uncontrolled warming of 3°C+",
+      "location_hint": "Table 2, p.7",
+      "confidence": "high",
+      "notes": "These are IAG New Zealand's entity-level scenarios, adopted from the ICNZ scenarios. Each scenario is also mapped to NGFS, SSP, SPANZ, RCP, and CCC pathway equivalents.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: 1.5°C (Orderly – Net Zero 2050), below 2.0°C (Disorderly – Delayed Transition), and 3°C+ (Hot House – Current Policies). RCP ranges are also given: RCP 2.6 (0.3°C to 1.8°C), RCP 4.5 (0.7°C to 3.3°C), RCP 6.0 (1.2°C to 4.3°C). Climate tipping points are mentioned in the Hot House scenario.",
+      "evidence": "\"An ambitious and coordinated transition aligned with a 1.5°C warming trajectory\" | \"Delayed action, followed by sudden and uncoordinated transformation, landing at <2.0°C\" | \"Continuation of current policy settings, leading to uncontrolled warming of 3°C+\" | \"RCP: RCP 2.6 (0.3°C to 1.8°C)\" | \"RCP: RCP 4.5 (0.7°C to 3.3°C)\" | \"RCP: RCP 6.0 (1.2°C to 4.3°C)\" | \"Climate tipping points were breached in the early 2040s resulting in irreversible impacts\"",
+      "location_hint": "Table 2 and Pathways footnote, p.7",
+      "confidence": "high",
+      "notes": "No explicit reference to a specific 2100 endpoint beyond the scenario labels; the temperature outcomes are framed as trajectory targets rather than year-2100 projections. RCP ranges are provided as pathway equivalents.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers are explicitly named: NGFS (Network for Greening the Financial Sector), ICNZ (Insurance Council of New Zealand / Te Kāhui Inihua o Aotearoa), CCC (Climate Change Commission), and the SPANZ (Adjusted Shared Policy Assumptions New Zealand) framework. SSPs and RCPs are also referenced as inputs.",
+      "evidence": "\"IAG New Zealand was involved in creating the Insurance Council of New Zealand | Te Kāhui Inihua o Aotearoa insurance sector climate scenarios (ICNZ scenarios) in FY22 and those scenarios continue to be used as a basis for our own entity-level scenarios.\" | \"Pathways: Network for Greening Financial Sector (NGFS), Shared Socio-economic Pathways (SSP), Adjusted Shared Policy Assumptions New Zealand (SPANZ), Representative Concentration Pathway (RCP), Climate Change Commission (CCC). The NGFS approach was predominantly used to support the creation of the ICNZ scenarios and the SSP scenarios were used as an input\"",
+      "location_hint": "Section 1.3, p.6; Table 2 footnote 10, p.7",
+      "confidence": "high",
+      "notes": "The primary scenario framework is the ICNZ scenarios (co-created with IAG NZ), underpinned predominantly by NGFS, with SSP, RCP, SPANZ, and CCC as additional pathway references.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "\"NGFS: Net Zero 2050 (1.5°C) SSP: SSP1: Sustainability SPANZ: F: 100% Smart RCP: RCP 2.6 (0.3°C to 1.8°C) CCC: Tailwinds | NGFS: Delayed transition (<2.0°C) SSP: SSP2: Middle of the Road SPANZ: A: Kicking and Screaming RCP: RCP 4.5 (0.7°C to 3.3°C) CCC: Headwinds | NGFS: Current policy (3+°C) SSP: SSP5: Fossil-Fuelled Development SPANZ: D: Homo Economicus RCP: RCP 6.0 (1.2°C to 4.3°C) CCC: Current policy reference. Note: RCP 7.0 was used in this scenario in lieu of RCP6.0 to capture a broader range of potential physical impacts within our resilience testing.\"",
+      "location_hint": "Table 2 Pathways, p.7",
+      "confidence": "high",
+      "notes": "The document explicitly lists both SSP identifiers (SSP1, SSP2, SSP5) and RCP identifiers (RCP 2.6, RCP 4.5, RCP 6.0/7.0) as pathway equivalents for each scenario. SSP1 is not from the same internally consistent family as RCP 2.6 in the CMIP6 framework; they are drawn from different generation scenario families (CMIP5 vs CMIP6). Additionally, RCP 7.0 is substituted for RCP 6.0 in the Hot House scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"IAG New Zealand was involved in creating the Insurance Council of New Zealand | Te Kāhui Inihua o Aotearoa insurance sector climate scenarios (ICNZ scenarios) in FY22 and those scenarios continue to be used as a basis for our own entity-level scenarios. For FY25, IAG New Zealand reviewed and refreshed our climate scenarios for relevance and plausibility so they appropriately test the resilience of our business. Changes included reflecting current government adaptation policies and increased inequality assumptions over time. The scenario refresh builds on our FY24 scenario analysis which leveraged the physical risk models underpinning our insurance and reinsurance risk assessments, with overlays applied to reflect the projected physical risk changes across a range of natural peril types.\"",
+      "location_hint": "Section 1.3, p.6",
+      "confidence": "high",
+      "notes": "The scenarios are explicitly described as entity-level adaptations of the ICNZ sector scenarios, with further customisation for Aotearoa New Zealand context (government adaptation policies, inequality assumptions, natural peril overlays). The ICNZ scenarios themselves were co-created with IAG NZ involvement.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes",
+      "evidence": "\"IAG New Zealand was involved in creating the Insurance Council of New Zealand | Te Kāhui Inihua o Aotearoa insurance sector climate scenarios (ICNZ scenarios) in FY22 and those scenarios continue to be used as a basis for our own entity-level scenarios.\" | \"The refresh was informed by IAG New Zealand's transition planning process, alongside engagement with IAG Group on the development of Group-wide scenario narratives, as well as by retesting the scenarios with the Climate Working Group.\"",
+      "location_hint": "Section 1.3, p.6",
+      "confidence": "medium",
+      "notes": "The document states IAG NZ was \"involved in creating\" the ICNZ sector scenarios (implying collaborative/co-produced development with the Insurance Council of New Zealand), and the FY25 refresh involved engagement with IAG Group and the internal Climate Working Group. The exact term \"co-produced\" or \"participatory\" is not used, but the description of joint creation with ICNZ and internal stakeholder retesting is consistent with co-production.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No explicit baseline or reference scenario is described against which the three climate scenarios are compared. The \"Hot House – Current Policies\" scenario is described as a continuation of current policy settings, which functions implicitly as a high-warming reference case, but it is not labelled as a baseline.",
+      "evidence": "\"Continuation of current policy settings, leading to uncontrolled warming of 3°C+\" | \"NGFS: Current policy (3+°C) SSP: SSP5: Fossil-Fuelled Development SPANZ: D: Homo Economicus RCP: RCP 6.0 (1.2°C to 4.3°C) CCC: Current policy reference\"",
+      "location_hint": "Table 2, p.7",
+      "confidence": "medium",
+      "notes": "The CCC pathway label \"Current policy reference\" for the Hot House scenario suggests it may serve as a reference/baseline, but the document does not explicitly describe any scenario as a \"baseline\" against which others are compared.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "vendor flood models",
+        "council flood studies",
+        "reinsurance catastrophe models",
+        "actuarial loss reserving models",
+        "technical pricing models",
+        "capital models"
+      ],
+      "evidence": "\"Our flood model relies upon vendor models and council flood studies – whichever is of better quality in a particular region.\" | \"Tools used as part of this impact assessment include capital modelling, reinsurance catastrophe modelling, actuarial loss reserving and technical pricing models.\"",
+      "location_hint": "Section 3.1, p.15; Physical risk metric methodology, p.23",
+      "confidence": "medium",
+      "notes": "No named IAMs, GCMs, or macroeconomic models (e.g. CLIMADA, REMIND, NiGEM) are identified by name. Only generic categories of models are described. The \"vendor models\" for flood risk are not named.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"There were 32 recognised weather-related events during FY25. The total gross claims cost from recognised weather-related events in FY25 was $132 million, which was partially offset by $26 million positive claims reserve releases from prior periods, resulting in a net impact before reinsurance of $106 million. Reinsurance recoveries of $34 million resulted in a net claims cost of $72 million recognised in FY25.\" | \"Recognised weather-related events are catastrophe coded events including storms, floods, cyclones, wind and wildfires.\"",
+      "location_hint": "Section 1.4, p.8",
+      "confidence": "high",
+      "notes": "The document provides explicit dollar-value damage/loss estimates from acute physical risk events (weather-related catastrophes). Forward-looking scenario analysis also identifies \"Increasing Natural Perils Costs\" as a material physical risk with anticipated financial impacts.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "sea level rise",
+        "flood frequency and severity",
+        "storm frequency and severity",
+        "cyclone frequency and severity",
+        "wildfire risk",
+        "wind and rain damage",
+        "liquefaction risk",
+        "tsunami risk",
+        "GDP per capita",
+        "fossil fuel reliance",
+        "decarbonisation of energy/transport/industry sectors",
+        "government policy/emissions budgets",
+        "technology adoption",
+        "inequality",
+        "insurance premiums",
+        "reinsurance costs",
+        "natural perils costs"
+      ],
+      "evidence": "\"The potential for a step-change in coastal hazards (driven by sea level rise approaching the threshold levels around which our coastal communities have been designed)\" | \"Changes to the impacts from ex-tropical cyclones... Changes to the physical size, longevity and intensity of severe convective storms... Emergence of wildfire risk... Potential non-linear responses to compounding wind and rain damage... Increased liquefaction risk driven by rising groundwater levels impacted by sea level rise in coastal areas... Increased tsunami risk driven by rising sea levels.\" | \"Economic growth is high, combined with material-intensive production and consumption patterns and a strong reliance on abundant fossil fuel resources.\" | \"further reductions to GDP per capita\" | \"Changes included reflecting current government adaptation policies and increased inequality assumptions over time.\"",
+      "location_hint": "Table 2 p.7; Section 5.1.2 physical risk modelling limitations p.20; Section 1.3 p.6",
+      "confidence": "medium",
+      "notes": "Many of these variables appear in scenario narratives or as physical risk modelling considerations rather than as explicit quantified scenario drivers. Carbon price is not mentioned as a variable.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"The physical risk modelling approach is limited by the lack of region-specific, high-quality scientific literature addressing likely future trends in severe weather in a changing climate in Aotearoa New Zealand.\" | \"Our flood model relies upon vendor models and council flood studies – whichever is of better quality in a particular region. Flood modelling is uncertain in Aotearoa New Zealand as there is regional variation in the quality and availability of elevation data and local flood studies.\" | \"NGFS: Net Zero 2050 (1.5°C) SSP: SSP1: Sustainability... RCP: RCP 2.6 (0.3°C to 1.8°C)\"",
+      "location_hint": "Section 5.1.2 p.20; Physical risk metric methodology p.23; Table 2 p.7",
+      "confidence": "medium",
+      "notes": "The scenario pathways (NGFS, SSP, RCP) are global in origin, but the scenario narratives and physical risk modelling are applied at the Aotearoa New Zealand level, with regional flood modelling using local council flood studies. The document acknowledges limitations in region-specific scientific literature.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short-term: 2025–2027; Medium-term: 2028–2035; Long-term: 2036–2050. Rationales are provided for all three timeframes.",
+      "evidence": "\"Short-term 2025-2027: Aligns with our rolling three-year strategic planning and budget cycle outlook, which incorporates capital deployment decisions. Medium-term 2028-2035: The medium-term timeframe captures our interim climate-related targets and the Aotearoa New Zealand government's emissions budgets. It also aligns with our strategic risk profile, which influences decision making and capital deployment in the short and medium-term. Long-term 2036-2050: The long-term timeframe is aligned to the ICNZ scenarios.\"",
+      "location_hint": "Table 3, p.7",
+      "confidence": "high",
+      "notes": "All three timeframes are explicitly justified: short-term aligns with the 3-year business planning cycle; medium-term aligns with interim targets and NZ government emissions budgets; long-term aligns with the ICNZ scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"IAG New Zealand was involved in creating the Insurance Council of New Zealand | Te Kāhui Inihua o Aotearoa insurance sector climate scenarios (ICNZ scenarios) in FY22 and those scenarios continue to be used as a basis for our own entity-level scenarios. For FY25, IAG New Zealand reviewed and refreshed our climate scenarios for relevance and plausibility so they appropriately test the resilience of our business.\" | \"The NGFS approach was predominantly used to support the creation of the ICNZ scenarios and the SSP scenarios were used as an input, noting that other data sources were also considered as part of these processes where appropriate.\" | \"Analysis conducted during the development of the ICNZ scenarios determined that energy pathways, carbon sequestration from afforestation; and negative emissions technology do not have a material impact on the insurance sector.\"",
+      "location_hint": "Section 1.3, p.6; Table 2 footnote 10, p.7; footnote 5, p.6",
+      "confidence": "medium",
+      "notes": "The justification is partially implicit: scenarios were chosen because they were developed specifically for the NZ insurance sector (ICNZ), are based on NGFS (a recognised financial sector standard), and were refreshed for \"relevance and plausibility\" to test business resilience. The document does not provide a detailed comparative justification for why these specific scenarios were preferred over alternatives.",
+      "verification": null
+    }
+  ]
+}

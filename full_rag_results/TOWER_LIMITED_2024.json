@@ -1,0 +1,178 @@
+{
+  "source": "TOWER_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1178604,
+      "output_tokens": 7156,
+      "total_tokens": 1185760,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 1114840,
+        "ephemeral_5m_input_tokens": 63739,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly 1.5°C (Net Zero 2050)",
+        "Disorderly >2°C (Delayed Transition)",
+        "Hothouse >3°C (Current Policies)"
+      ],
+      "evidence": "Tower's scenario architecture: Parameters | Orderly 1.5ºC | Disorderly >2ºC | Hothouse >3ºC ... Global physical risk pathway parameters: Network for Greening the Financial System (NGFS) Net Zero 2050 | NGFS Delayed Transition | NGFS Current Policies",
+      "location_hint": "Page 13, Scenario architecture table",
+      "confidence": "high",
+      "notes": "The three scenarios are Tower's own labels built on ICNZ/NGFS frameworks. Each scenario also maps to RCP and SSP identifiers and NZ-specific pathways.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes temperature outcomes primarily as 2050 warming targets, not 2100. Orderly scenario: policy ambition <1.5°C (end-of-century), 2050 warming 1.6°C (NZ) / 1.8°C (Pacific). Disorderly scenario: policy ambition <2.0°C, 2050 warming 1.8°C (NZ) / 2.0°C (Pacific). Hothouse scenario: policy ambition +3.0°C, 2050 warming 2.0°C (NZ and Pacific). The Orderly scenario explicitly states \"International and domestic policy settings aim to limit total warming by end-of-century to less than 1.5°C.\"",
+      "evidence": "Orderly: \"Policy ambition: 2050 warming: <1.5°C / 1.6°C ... International and domestic policy settings aim to limit total warming by end-of-century to less than 1.5°C.\" Disorderly: \"Policy ambition: 2050 warming: <2.0°C / 1.8°C\" Hothouse: \"Policy ambition: 2050 warming: +3.0°C / +2.0°C ... Any policy changes are insufficient to limit total warming to 2.0°C.\"",
+      "location_hint": "Pages 14–16, scenario summaries",
+      "confidence": "high",
+      "notes": "Temperature outcomes are expressed as 2050 warming levels, with the Orderly scenario also referencing an end-of-century target of <1.5°C. No explicit 2100 temperature figures are given for Disorderly or Hothouse beyond the policy ambition labels (>2°C and >3°C).",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple providers are explicitly named: (1) NGFS (Network for Greening the Financial System) — the foundational global scenario framework; (2) ICNZ (Insurance Council of New Zealand) — the industry-level scenarios built on NGFS; (3) IPCC (Intergovernmental Panel on Climate Change) — for SSP pathways; (4) NZ Treasury, Climate Change Commission (CCC), and SPANZ — for NZ-specific pathway parameters. KPMG facilitated the entity-level scenario development process.",
+      "evidence": "\"Tower's climate change scenarios build upon the ICNZ scenarios which were based, in turn, on the Network for Greening the Financial System (NGFS) scenarios.\" and \"In 2023 Tower engaged KPMG to facilitate the entity-level scenario development and analysis process...\"",
+      "location_hint": "Pages 12–13",
+      "confidence": "high",
+      "notes": "The primary scenario architecture originates from NGFS, adapted by ICNZ for the NZ insurance sector, and further adapted by Tower with KPMG facilitation.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "\"Global emissions and socioeconomic pathway parameters: Representative Concentration Pathway (RCP) 2.6 / Intergovernmental Panel on Climate Change (IPCC) Shared Socioeconomic Pathway (SSP) 1-2.6 | RCP4.5 / IPCC SSP2-4.5 | RCP7.0 / IPCC SSP3-7.0\"",
+      "location_hint": "Page 13, scenario architecture table",
+      "confidence": "high",
+      "notes": "The document explicitly lists both RCP identifiers (RCP2.6, RCP4.5, RCP7.0) and SSP identifiers (SSP1-2.6, SSP2-4.5, SSP3-7.0) side by side. While these are broadly aligned (e.g. RCP2.6 with SSP1-2.6), they are listed as separate parameters drawn from different frameworks (RCPs from older IPCC AR5 framework, SSPs from AR6), which constitutes a pick-and-mix approach. Additionally, the Hothouse scenario uses RCP7.0 paired with SSP3-7.0, and the Hot House NZ data tables use RCP6.0 — a further inconsistency.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"Tower's climate change scenarios use, as a base, the same framework architecture, quantitative and qualitative parameters, and narrative storylines as the ICNZ scenarios. However, they were adapted to better reflect our business operations, focusing on: • The potential physical impacts of climate change in the Pacific, given our geographic distribution. • Navigating financial markets during disruption to highlight possible impacts on our investment portfolio.\"",
+      "location_hint": "Page 12, Scenario development section",
+      "confidence": "high",
+      "notes": "The document explicitly states the ICNZ scenarios were \"adapted\" for Tower's specific business operations, geographic distribution (Pacific), and investment portfolio. NZ-specific pathway parameters (CCC, SPANZ, NZ Treasury) were also incorporated.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes",
+      "evidence": "\"Tower's climate scenarios are based on the Insurance Council of New Zealand's (ICNZ) shared climate scenarios for the insurance sector. In 2022, Tower participated in a New Zealand insurance industry initiative to co-design these industry scenarios.\"",
+      "location_hint": "Page 12, Scenario development section",
+      "confidence": "high",
+      "notes": "The document explicitly uses the term \"co-design\" in relation to the 2022 ICNZ industry initiative. Additionally, the entity-level scenario development involved workshops with a cross-functional group of executives and senior leaders facilitated by KPMG.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No explicit standalone baseline/reference scenario is described. However, the Hothouse scenario (NGFS Current Policies / CCC 'Current Policy Reference') functions as a de facto reference scenario representing continuation of current policies, and historical baselines (1986–2006 and 1996–2006) are used as reference periods for physical risk data.",
+      "evidence": "\"Current climate policies in New Zealand and abroad are sporadic and weak. Any policy changes are insufficient to limit total warming to 2.0°C. The hot house, current policies scenario was designed to explore how the collective failure to cut emissions might steadily erode value in the long term.\"",
+      "location_hint": "Page 16, Hot house scenario description; Pages 43–45, scenario data tables",
+      "confidence": "medium",
+      "notes": "No scenario is explicitly labelled as a \"baseline\" or \"reference scenario.\" The Hothouse/Current Policies scenario is the closest equivalent. Physical data uses 1986–2006 and 1996–2006 historical baselines for comparison.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "NGFS Climate Impact Explorer",
+        "NASA Sea Level Change Portal (IPCC AR6 Sea-Level Rise Projections)",
+        "World Bank Climate Change Knowledge Portal (CMIP5)",
+        "OECD Env-Growth (SSP GDP projections)"
+      ],
+      "evidence": "\"NGFS Climate impact explorer. 'Absolute change in air temperature in New Zealand. RCP 2.6'.\" / \"The IPCC AR6 Sea-Level Rise Projections. SSP1-2.6 2020, 2030 and 2050 Fiji (Suva). Retrieved from: Sea Level Projection Tool – NASA Sea Level Change Portal\" / \"Climate change knowledge portal (World bank). Projected Days with Heat Index Exceeding 35°c – Fiji RCP2.6.\" / \"FIJI GDP, OECD Env-Growth – SSP1.\"",
+      "location_hint": "Pages 43–45, scenario data tables (Appendix 2)",
+      "confidence": "high",
+      "notes": "No named IAMs (e.g. REMIND, MESSAGE, GCAM) or macroeconomic models (e.g. NiGEM) are cited. The document references data tools/portals rather than underlying climate models by name. A \"top down\" modelling approach is described for anticipated impacts but no specific model name is given.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"Expected Damage from River Flooding (% change vs 2015 baseline) Pacific: -8.4% / 23.7% / 38.3% — NGFS Climate impact explorer. 'Relative change in annual expected damage from river floods in Fiji. RCP 2.6'.\" Also: \"Financial and operational impacts from increased frequency and severity of weather events across NZ and the Pacific.\" And historical: \"$38m net impact to Tower, excluding reinsurance reinstatement... 10,057 claims of $208 million from the Auckland and upper North Island weather event and Cyclone Gabrielle alone.\"",
+      "location_hint": "Pages 11, 24, and 43–45 (scenario data tables)",
+      "confidence": "high",
+      "notes": "The scenario data tables explicitly include \"Expected Damage from River Flooding\" as a quantified variable across all three scenarios and time horizons. Acute physical risks (extreme weather events, flooding, cyclones) are central to the scenario analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "sea level rise",
+        "precipitation",
+        "snowfall",
+        "NZ land exposed to flooding",
+        "expected damage from river flooding",
+        "labour productivity due to heat stress",
+        "temperature days above 35°C",
+        "days above 25°C",
+        "carbon price",
+        "GDP",
+        "population",
+        "EV adoption rate (travel by EVs)",
+        "carbon dioxide removal",
+        "technology change",
+        "policy reaction/ambition",
+        "regional policy variation",
+        "market access and trade settings",
+        "land use",
+        "global governance and institutions"
+      ],
+      "evidence": "\"Physical climate changes (RCP 2.6): Average NZ temperature... Labour productivity due to heat stress... NZ land exposed to flooding... Snowfall... Sea level rise NZ... Days above 25°C... Social, economic factors: NZ GDP... NZ population... Carbon price... Travel by EVs (light passenger vehicles)...\" and \"Expected Damage from River Flooding... Precipitation (Median)... Mean Sea Level Rise... Temperature Days Above 35.0°C...\"",
+      "location_hint": "Pages 43–45, scenario data tables (Appendix 2)",
+      "confidence": "high",
+      "notes": "Variables are drawn from both physical risk data and socioeconomic/transition data across the NZ and Pacific scenario tables.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"Tower's climate change scenarios build upon the ICNZ scenarios which were based, in turn, on the Network for Greening the Financial System (NGFS) scenarios.\" [global] and scenario data tables provide country/region-specific data: \"ORDERLY: NET ZERO 2050 – NEW ZEALAND\" and \"ORDERLY: NET ZERO 2050 – PACIFIC\" with NZ-specific temperature, sea level rise, flooding, snowfall, GDP, population, and carbon price data, as well as Pacific-specific data using Fiji as an index.",
+      "location_hint": "Pages 13, 43–45",
+      "confidence": "high",
+      "notes": "The scenarios use global NGFS/IPCC frameworks as the base, but are applied at the regional/local level with NZ-specific and Pacific-specific data drawn from sources like the NZ Ministry for the Environment, NZ Treasury, and Climate Change Commission.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short: 2023–2025; Medium: 2026–2035; Long: 2036–2050. Rationale is partially provided: the time horizons were selected to align with the ICNZ scenarios and are stated to be independent of Tower's business strategy and planning cycles (which are based on a three-year forward-looking view).",
+      "evidence": "\"Alongside the development of our three scenarios, Tower selected three time horizons to assess the related risks and opportunities. These time horizons were selected to align with the ICNZ scenarios and are independent of our business strategy and planning cycles, which are based on a three-year forward-looking view and reviewed annually. Time horizon | Period: Short | 2023-2025 / Medium | 2026-2035 / Long | 2036-2050\"",
+      "location_hint": "Page 17, Climate-related risks and opportunities section",
+      "confidence": "high",
+      "notes": "A rationale is given (alignment with ICNZ scenarios; independence from business planning cycles), but no deeper justification is provided for why 2050 was chosen as the long-term endpoint rather than, say, 2100.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"Rationale for selection [Orderly 1.5ºC]: Most commonly used scenario by financial institutions globally. Aligned with scenarios already selected by ICNZ for the General Insurance Sector (and other sectors). Meets XRB's requirement for a 1.5ºC aligned scenario. [Disorderly >2ºC]: Commonly used scenario by financial institutions globally. Aligned with scenarios already selected by ICNZ for the General Insurance Sector (and other sectors). Meets XRB's requirements for a third climate-related scenario. [Hothouse >3ºC]: Commonly used scenario by financial institutions globally. Aligned with scenarios already selected by ICNZ for the General Insurance Sector (and other sectors). Meets XRB's requirements for a >3ºC scenario.\"",
+      "location_hint": "Page 13, Scenario architecture table — Rationale for selection column",
+      "confidence": "high",
+      "notes": "The justification is explicit and covers three reasons for each scenario: (1) common use by financial institutions globally, (2) alignment with ICNZ industry scenarios, and (3) meeting XRB regulatory requirements.",
+      "verification": null
+    }
+  ]
+}

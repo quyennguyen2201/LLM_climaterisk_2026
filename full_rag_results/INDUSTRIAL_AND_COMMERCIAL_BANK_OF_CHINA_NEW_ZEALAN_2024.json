@@ -1,0 +1,173 @@
+{
+  "source": "INDUSTRIAL_AND_COMMERCIAL_BANK_OF_CHINA_NEW_ZEALAN_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1028350,
+      "output_tokens": 6864,
+      "total_tokens": 1035214,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 968231,
+        "ephemeral_5m_input_tokens": 60096,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly (1.5°C)",
+        "Too Little, Too Late (>2°C)",
+        "Hot House World (>3°C)"
+      ],
+      "evidence": "Three Scenarios for ICBC NZ: 'Scenario Orderly' ... Average temperature rise by 2081-2100: +1.4°C ... 'Too Little, Too Late' ... Average temperature rise by 2081-2100: +2.7°C ... 'Hot House' ... Average temperature rise by 2081-2100: +4.4°C",
+      "location_hint": "Strategy section, p.11 (page 10 of PDF); Appendix pp.29-33",
+      "confidence": "high",
+      "notes": "Each scenario is aligned to reference scenarios: Orderly → IPCC SSP1-1.9/SSP1-2.6, NGFS Net Zero 2050, IEA Net Zero Emissions by 2050, NIWA RCP2.6, CCC 'Tailwinds'; Too Little Too Late → IPCC SSP2-4.5, NGFS NDCs, IEA Announced Pledges, NIWA RCP4.5, CCC 'Headwinds'; Hot House → IPCC SSP5-baseline, NGFS Current Policies, IEA STEPS, NIWA RCP8.5, CCC 'Current Policy Reference'.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes by 2081–2100: +1.4°C (Orderly, described as limiting warming to 1.5°C with limited overshoot), +2.7°C (Too Little, Too Late), and +4.4°C (Hot House). Temperature overshoot is mentioned for the Orderly scenario.",
+      "evidence": "Average temperature rise by 2081-2100: +1.4°C ... temperature rise is limited to 1.5°C, with limited overshoot. ... Average temperature rise by 2081-2100: +2.7°C ... Average temperature rise by 2081-2100: +4.4°C",
+      "location_hint": "Strategy section, p.11 (page 10 of PDF)",
+      "confidence": "high",
+      "notes": "The document uses the period 2081–2100 as the reference window for temperature outcomes, not strictly 2100. Temperature overshoot is explicitly mentioned only for the Orderly scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers are explicitly named: IPCC (SSP pathways from AR6), NGFS (Network for Greening the Financial System), IEA (International Energy Agency), NIWA (National Institute of Water and Atmospheric Research), CCC (Climate Change Commission), IIASA (International Institute for Applied Systems Analysis), and Ministry for the Environment (MfE). The scenarios were developed with support from PwC and built on the New Zealand Banking Association's (NZBA) sector scenarios.",
+      "evidence": "IIASA SSP Database. (Version 2.0). [SSP1-1.9; SSP2-4.5; SSP5-baseline]. NGFS Scenario Explorer, Phase V, Version 1.24.2. Net Zero 2050 Scenario; NDCs Scenario; Current Policies Scenario. Model: REMIND-MAgPIE 3.3-4.8. International Energy Agency (IEA). (2024). Global Energy and Climate Model. Climate Change Commission (CCC) (2021). India tonu nei: a low emissions future for Aotearoa... Ministry for the Environment. (2024). Aotearoa New Zealand Climate Change Projections.",
+      "location_hint": "Appendix, p.34 (Data sources for Key Assumptions Across Scenario Narrative)",
+      "confidence": "high",
+      "notes": "ICBC NZ's own scenarios were built on NZBA sector scenarios and tailored with support from PwC consultants. Multiple external providers supply the underlying reference data.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "Orderly: IPCC SSP1-1.9 / SSP1-2.6 ... NIWA RCP2.6 ... Too Little, Too Late: IPCC SSP2-4.5 ... NIWA RCP4.5 ... Hot House: IPCC SSP5-baseline ... NIWA RCP8.5",
+      "location_hint": "Strategy section, p.11 (page 10 of PDF); Appendix pp.29–32",
+      "confidence": "high",
+      "notes": "The document explicitly lists both SSP identifiers (from IPCC AR6) and RCP identifiers (from NIWA) within the same scenario architecture. SSPs and RCPs are from different generations of the IPCC scenario framework and are not from the same internally consistent scenario family.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "ICBC NZ's climate-related scenario narratives were built on the foundation of the New Zealand Banking Association's sector scenarios. ICBC NZ developed climate-related scenarios that align with the banking sector, yet are tailored to our specific context, business model, strategy, and portfolio. ... These scenarios are based on high-quality data and have been specifically tailored to the financial sector and ICBC NZ's unique position within it.",
+      "location_hint": "Strategy section, p.9 (page 8 of PDF)",
+      "confidence": "high",
+      "notes": "The document explicitly uses the word \"tailored\" and describes the scenarios as adapted from NZBA sector scenarios to reflect ICBC NZ's specific context, business model, strategy, and portfolio. New Zealand-specific climate projections (NIWA RCPs) and local transition pathways (CCC scenarios) are also incorporated.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "Through a series of interactive workshops, the following key inputs to developing scenario narratives were identified or developed... The bank's RMC facilitated the climate-related scenario narrative development process, involving key stakeholders from across the ICBC NZ Banking Group. The ICBC NZ Board was informed of the outcome of this exercise.",
+      "location_hint": "Strategy section, p.10 (page 9 of PDF); p.9 (page 8 of PDF)",
+      "confidence": "medium",
+      "notes": "The document describes internal workshops and involvement of internal stakeholders, but does not use language such as \"participatory\", \"co-creat\", \"deliberat\", \"co-design\", or \"collaborative development\" with external parties. The process appears to be internally driven with external consultant (PwC) support, not a participatory or co-produced process with external stakeholders.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "Yes — a hypothetical \"baseline without climate change\" is referenced in the GDP modelling notes, against which GDP losses are expressed. Additionally, the NGFS \"Current Policies\" scenario (aligned to the Hot House scenario) functions as a high-emissions reference, and the IIASA SSP5-baseline is used as a reference pathway.",
+      "evidence": "GDP loss is expressed relative to a hypothetical baseline without climate change. Losses calculated as the sum of Chronic physical, Acute physical (cyclone/drought/flood/heatwave), and Transition losses.",
+      "location_hint": "Appendix, p.35 (Modelling – Updated GDP Modelling notes)",
+      "confidence": "medium",
+      "notes": "The \"hypothetical baseline without climate change\" is used specifically for GDP loss calculations. The document does not describe a standalone baseline scenario narrative in the same way as the three main scenarios; it is referenced only in the modelling notes.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "REMIND-MAgPIE 3.3-4.8",
+        "NiGEM NGFS v1.23.2 (Climate Analytics)",
+        "IEA Global Energy and Climate Model",
+        "NZSeaRise"
+      ],
+      "evidence": "NGFS Scenario Explorer, Phase V, Version 1.24.2. Net Zero 2050 Scenario; NDCs Scenario; Current Policies Scenario. Model: REMIND-MAgPIE 3.3-4.8. ... The IAM selected is NIGEM NGFS v1.23.2[Climate Analytics] for NGFS Phase 4 data (Acute physical losses), and REMIND-MAgPIE 3.3-4.8 for NGFS Phase 5 data (Chronic physical losses, and Transition losses). ... International Energy Agency. (2024). Global Energy and Climate Model. ... NZSeaRise, data taken from site 1233 (Auckland CBD)",
+      "location_hint": "Appendix pp.34–37 (Modelling sections and data sources)",
+      "confidence": "high",
+      "notes": "REMIND-MAgPIE and NiGEM are IAMs used via the NGFS scenario framework. The IEA Global Energy and Climate Model is used for energy/emission pathways. NZSeaRise is a sea level rise projection tool specific to New Zealand.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "GDP loss is expressed relative to a hypothetical baseline without climate change. Losses calculated as the sum of Chronic physical, Acute physical (cyclone/drought/flood/heatwave), and Transition losses. ... NGFS also provides country-level estimates of climate change's impacts on GDP. For New Zealand, acute physical impacts are projected to be large, primarily due to droughts affecting the primary sector.",
+      "location_hint": "Appendix pp.35–36 (Modelling – Updated GDP Modelling)",
+      "confidence": "high",
+      "notes": "Acute physical losses from cyclones, droughts, floods, and heatwaves are explicitly quantified in GDP terms using NGFS Phase 4 data via the NiGEM model. The 90th percentile losses are selected for acute variables.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon price",
+        "sea level rise",
+        "rainfall / precipitation",
+        "GDP",
+        "renewable energy share",
+        "global emissions (CO2)",
+        "global population",
+        "extreme temperature events frequency",
+        "drought frequency and severity",
+        "flood frequency",
+        "storm frequency",
+        "heatwave frequency",
+        "insurance costs",
+        "fossil fuel use"
+      ],
+      "evidence": "Extreme rainfall levels, temperature increases, and global and New Zealand carbon prices are some of the data values updated for each scenario. ... Carbon price in 2025 (2010 USD/tCO2) ... Renewable energy share of total final consumption ... Global GDP ... Domestic GDP ... Annual global emissions CO2 ... Global population ... Likely occurrence of a 60 yr extreme temp event ... 92th percentile rainfall depth increase ... Sea level rise projections for New Zealand ... Increasingly devastating climate-related events, such as floods, storms, droughts and heatwaves occur",
+      "location_hint": "Strategy section p.9 (page 8); Appendix pp.29–37",
+      "confidence": "high",
+      "notes": "Variables are drawn from multiple sources including NGFS, IIASA, IEA, NIWA, MfE, and NZSeaRise. Both global and New Zealand-specific variables are used.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "Scenario Architecture: comprises global and local reference scenarios, representing different socioeconomic and physical climate outcomes... New-Zealand-Specific climate projections: NIWA RCP4.5 ... New Zealand-specific transition pathway: CCC 'Headwinds' ... NZSeaRise, data taken from site 1233 (Auckland CBD), assuming the sea level rise will be similar across the country.",
+      "location_hint": "Strategy section p.11 (page 10); Appendix pp.29–37",
+      "confidence": "high",
+      "notes": "The scenario architecture explicitly combines global reference scenarios (IPCC SSPs, NGFS, IEA) with New Zealand-specific climate projections (NIWA RCPs) and local transition pathways (CCC scenarios). Sea level rise projections are also localised to Auckland/New Zealand via NZSeaRise.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Four time horizons are used: (1) Immediate term: 1–2 years, endpoint 2025; (2) Short term: 3–7 years, endpoint 2030; (3) Medium/Long term: 8–27 years, endpoint 2050; (4) Long term: 28–50+ years, endpoint 2080. Rationales are explicitly provided for each.",
+      "evidence": "Time period 1-2 years / 2025 / Rationale: Aligns with the bank's annual risk appetite review. 3-7 years / 2030 / Aligns with the bank's strategy review cycle. 8-27 years / 2050 / Aligns with NZBA sector scenario timeframes, New Zealand legislation i.e. Climate Change Response (Zero Carbon) Amendment Act 2019 (Zero Carbon Act), and timescale for climate change. 28 — 50+ years / 2080 / Aligns with NZBA sector scenario timeframes, New Zealand legislation i.e. Climate Change Response (Zero Carbon) Amendment Act 2019 (Zero Carbon Act), and timescale for climate change.",
+      "location_hint": "Strategy section, p.10 (page 9 of PDF)",
+      "confidence": "high",
+      "notes": "Rationales are explicitly stated for all four time horizons, linking them to internal business cycles (risk appetite review, strategy review) and external frameworks (NZBA sector scenarios, Zero Carbon Act).",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "ICBC NZ believes the chosen scenarios are relevant and appropriate to assessing the resilience of its business model and strategy to climate-related risks and opportunities. These scenarios are based on high-quality data and have been specifically tailored to the financial sector and ICBC NZ's unique position within it.",
+      "location_hint": "Strategy section, p.9 (page 8 of PDF)",
+      "confidence": "high",
+      "notes": "The justification is brief but explicit: scenarios are described as relevant, appropriate, based on high-quality data, and tailored to the financial sector and ICBC NZ's unique position. The document also notes that scenarios were built on NZBA sector scenarios and updated with the most current science data (e.g., MfE 2024, NGFS Phase V).",
+      "verification": null
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "source": "EROAD_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1029015,
+      "output_tokens": 6445,
+      "total_tokens": 1035460,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 969656,
+        "ephemeral_5m_input_tokens": 59336,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Coordinated Decarbonisation",
+        "A World Divided",
+        "Hot-House"
+      ],
+      "evidence": "\"Through these workshops, three plausible scenarios were developed - Coordinated Decarbonisation, A World Divided, and Hot House - covering the period from 2024 to 2050.\"",
+      "location_hint": "Strategy / Scenario Analysis section, p.13–14",
+      "confidence": "high",
+      "notes": "Each scenario is mapped to multiple reference pathways: IPCC SSPs, NGFS, IEA, NIWA RCPs, and CCC scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes by 2100 are described: 1.5°C (Coordinated Decarbonisation), 2.2°C (A World Divided), and 4.1°C (Hot-House). The Coordinated Decarbonisation scenario notes \"limited overshoot\" and a peak of 1.6°C in 2050. The Hot-House scenario notes the Paris Agreement 1.5°C target is breached in 2030 and 2°C is crossed in 2045.",
+      "evidence": "\"Global average temperature rise limited to 1.5 degrees Celsius by 2100 ... Global average temperature rise of 2.2 degrees Celsius by 2100 ... Global average temperature rise of 4.1 degrees Celsius by 2100\"",
+      "location_hint": "Scenario table, p.14",
+      "confidence": "high",
+      "notes": "Temperature overshoot is mentioned for the Coordinated Decarbonisation scenario: \"temperature increase is limited to below 1.5°C, with limited overshoot.\" The Hot-House narrative also notes 1.5°C breached in 2030 and 2°C crossed in 2045.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers are explicitly named: IPCC (Intergovernmental Panel on Climate Change), NGFS (Network for Greening the Financial System), IEA (International Energy Agency), NIWA (National Institute of Water and Atmospheric Research), and CCC (Climate Change Commission). PwC NZ supported the scenario development process.",
+      "evidence": "\"Glossary: IPCC - Intergovernmental Panel on Climate Change; SSP - Shared Socioeconomic Pathways; NGFS - Network for Greening the Financial System; IEA - International Energy Agency; NIWA - National Institute of Water and Atmospheric Research; RCP - Representative Concentration Pathways; CCC - Climate Change Commission\"",
+      "location_hint": "Scenario table / Glossary, p.14",
+      "confidence": "high",
+      "notes": "PwC NZ supported the scenario development process but is not a scenario data provider per se. The reference scenario providers are IPCC, NGFS, IEA, NIWA, and CCC.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "\"IPCC SSP1-1.9 (with SSP1-2.6 where data unavailable); NGFS Net Zero 2050; IEA Net Zero Emissions by 2050 (NZE); NIWA RCP2.6; CCC 'Tailwinds' ... IPCC SSP4-3.4 (with SSP2-4.5 where data unavailable); NGFS Fragmented World; IEA Announced Pledges (APS); NIWA RCP4.5; CCC 'Headwinds' ... IPCC SSP3-7.0 (with SSP5-8.5 where data unavailable); NGFS Current Policies; IEA Stated Policies (STEPS); NIWA RCP8.5; CCC 'Current Policy Reference'\"",
+      "location_hint": "Scenario table, p.14",
+      "confidence": "high",
+      "notes": "The document explicitly lists both SSP identifiers (from IPCC) and RCP identifiers (from NIWA) within the same scenario framework. SSPs and RCPs are from different scenario generations and are not from the same internally consistent family, confirming a pick-and-mix approach.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"The scenarios are specifically tailored to EROAD's business context and informed by assumptions about EROAD's driving forces.\"",
+      "location_hint": "Scenario Analysis section, p.12",
+      "confidence": "high",
+      "notes": "The document explicitly uses the word \"tailored\" to describe the scenarios. They were constructed using existing reference scenarios (IPCC, NGFS, IEA, NIWA, CCC) but adapted to EROAD's specific business context, markets (NZ, Australia, North America), and driving forces.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes",
+      "evidence": "\"EROAD's climate scenario analysis in FY24 was supported by PwC NZ and involved cross-functional participation from across the business and value chain. Between October 2023 and March 2024, the scenario development process included a series of workshops and continuous feedback with key internal stakeholders, including representatives from inbound logistics, product development, operations and manufacturing (including supply chain), sales, marketing, finance, legal, and People & Capability.\"",
+      "location_hint": "Scenario Analysis Process, p.13",
+      "confidence": "medium",
+      "notes": "The document describes cross-functional workshops with internal stakeholders and continuous feedback, which constitutes participatory/collaborative development. However, the exact terms \"participatory\", \"co-creat\", \"deliberat\", \"co-design\" are not used verbatim. The process involved internal stakeholders only, not external stakeholders beyond PwC NZ as advisor.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No",
+      "evidence": "\"They are not forecasts or specific predictions of future events, but rather strategic tools designed to challenge EROAD's and our Board's business-as-usual assumptions and support informed decision-making.\"",
+      "location_hint": "Scenario Analysis section, p.12",
+      "confidence": "medium",
+      "notes": "The document references \"business-as-usual assumptions\" as something the scenarios are designed to challenge, but no explicit baseline or reference scenario is defined against which the three climate scenarios are formally compared. The NGFS \"Current Policies\" scenario used in the Hot-House scenario could be considered a de facto baseline, but it is not explicitly described as such.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "Watershed (emission monitoring software)"
+      ],
+      "evidence": "\"Obtained an understanding of the calculation methodology, assumptions and estimates used and performed a walkthrough of the Watershed (emission monitoring software) system.\"",
+      "location_hint": "Appendix 2: GHG Assurance, p.33",
+      "confidence": "medium",
+      "notes": "Watershed is an emissions monitoring/accounting tool, not a climate or integrated assessment model. No climate models (e.g., GCMs, IAMs like REMIND, MESSAGE, GCAM) are named in the document. The document references IPCC SSPs, NGFS, IEA, and NIWA RCPs as scenario frameworks but does not name the underlying models used to generate them.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"An increase in the frequency and severity of extreme weather events may cause to damage to third party technology infrastructure and services that EROAD relies on... An increase in the frequency and severity of extreme weather events, especially in key distribution and manufacturing locations, could lead to long-term damage and disruption to key infrastructure essential to move product to market... An increase in the frequency and severity of extreme weather events, specifically flooding, could lead to increased damage to stored hardware and warehousing resulting in increased operational and capital expenditure...\"",
+      "location_hint": "Climate-related risks and opportunities table, p.15",
+      "confidence": "high",
+      "notes": "The scenario analysis explicitly includes damage and disruption from extreme weather events (acute physical risks) such as flooding, storms, and heatwaves. Quantitative damage estimates are also referenced in the scenario narratives (e.g., \"economic damages due to river flooding have increased by half in Australia compared to 2015\"). However, EROAD itself notes it cannot currently quantify the financial impacts of these risks.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon price",
+        "sea level rise",
+        "rainfall / extreme rainfall",
+        "storm frequency and severity",
+        "flooding",
+        "heatwaves",
+        "drought",
+        "EV adoption / electric vehicle uptake",
+        "oil prices",
+        "insurance costs",
+        "policy and regulatory changes (e.g. emissions regulations, CBAM)",
+        "technology change",
+        "behaviour change",
+        "socio-political instability",
+        "supply chain disruption"
+      ],
+      "evidence": "\"Physical risks: result from the physical impacts of climate change, including changes in temperature, rainfall patterns, storms, extreme weather events, and sea-level rise. Transition risks: relate to the transition to a low-emissions, climate-resilient economy, including policy, legal, technological, market, and reputational changes linked to climate mitigation and adaptation.\" And: \"Carbon prices are gradually ratcheted up out to 2035... Global oil prices fluctuate wildly but continue to trend upwards... Policies incentivising EV uptake are repealed...\"",
+      "location_hint": "Risk table p.15; Scenario narratives Appendix 3, pp.36–39",
+      "confidence": "high",
+      "notes": "Variables are drawn from both the risk table definitions and the detailed scenario narratives in Appendix 3.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"The boundary for EROAD's scenario analysis was the whole EROAD group organisation, including our subsidiaries, focusing on our core markets in New Zealand, North America and Australia as well as manufacturing sites and change to geographies.\" And the scenario narratives reference both global-level outcomes (e.g., global temperature rise, global emissions) and region-specific impacts (e.g., \"Storms on the scale of Cyclone Gabrielle hit New Zealand back-to-back in 2027 and 2028\", \"Devastating floods hit parts of East and Southeast Asia\").",
+      "location_hint": "Geography section p.14; Scenario narratives Appendix 3, pp.36–39",
+      "confidence": "medium",
+      "notes": "The scenarios use global reference frameworks (IPCC SSPs, NGFS, IEA) but the narratives are applied at a regional/local level for EROAD's key markets (NZ, Australia, North America). There is no explicit mention of formal \"downscaling\" of global climate models, but the scenario narratives incorporate region-specific impacts.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short term: 1–3 years (up to 2028); Medium term: 3–10 years (up to 2035); Long term: 10–30 years (2050 end point). Rationales are provided for each timeframe.",
+      "evidence": "\"Short term: 1-3 years (up to 2028); Medium term: 3-10 years (up to 2035); Long term: 10-30 years (2050 end point). Time horizons refer to EROAD's financial year and align with XRB requirements for analysis at three points in time: short, medium and long-term. These time periods link closely to EROAD business planning processes focus (1-3 years), medium term strategic focus (3-10 years), GHG emissions targets for 2033. 2050 as an end date is long enough to capture a range of potential transition and physical risks and aligns with 2050 Net Zero targets set by New Zealand and internationally.\"",
+      "location_hint": "Time Horizons section, p.14–15",
+      "confidence": "high",
+      "notes": "Justification is explicitly provided: short term aligns with business planning, medium term with strategic focus and 2033 GHG targets, and long term with 2050 Net Zero targets and XRB requirements.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"When preparing our FY24 report, there were no completed sector-specific scenarios available to inform our analysis. While we serve a diverse customer base, EROAD's telematics focus aligns us more closely with the telecommunications sector. However, at the time of reporting, telecommunications sector scenario analysis was still at an early stage. Accordingly, our FY24 scenario analysis was conducted independently, in line with XRB guidance, and supported by PwC NZ using robust processes and publicly available climate data. For FY25, relevant sector-level scenarios became available in New Zealand. We reviewed reports for both the transport and telecommunications sectors and found no material new issues that required changes to our previous scenario analysis.\"",
+      "location_hint": "Scenario Analysis section, p.12–13",
+      "confidence": "medium",
+      "notes": "The justification is partially implicit: the document explains why sector-specific scenarios were not used (unavailable at time of FY24 reporting) and why the existing scenarios remain valid for FY25. The document also states scenarios \"Spanning a range of warming trajectories, they enable evaluation of potential physical and transition risks and opportunities\" as a rationale for the three-scenario approach. However, there is no explicit statement of why specific SSP/RCP/NGFS/IEA pathways were chosen over alternatives.",
+      "verification": null
+    }
+  ]
+}

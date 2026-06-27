@@ -1,0 +1,171 @@
+{
+  "source": "AA_INSURANCE_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_token_details": {
+        "cache_creation": 0,
+        "ephemeral_1h_input_tokens": 53056,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_read": 820486
+      },
+      "input_tokens": 873565,
+      "output_tokens": 6725,
+      "total_tokens": 880290
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly: Net Zero 2050",
+        "Disorderly: Delayed Transition",
+        "Hot House World: Current Policies"
+      ],
+      "evidence": "Scenario narratives: Orderly: Net Zero 2050* | Disorderly: Delayed Transition | Hot House World: Current Policies",
+      "location_hint": "Page 9, Table of scenario narratives",
+      "confidence": "high",
+      "notes": "Each scenario is mapped to RCP, NGFS, SSP and CCC pathways. The three scenarios are used for both physical and transition analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: 1.5°C (Net Zero 2050 / NGFS Net Zero 2050), less than 2.0°C (Delayed Transition), and 3°C+ by 2100 (Current Policies / Hot House World). No temperature overshoot is explicitly described.",
+      "evidence": "NGFS pathway: Net Zero 2050 (1.5°C) | Delayed Transition (<2.0°C) | Current Policy (3°C+) ... Climate policies are sporadic and weak, with current policy settings leading to uncontrolled warming of 3°C+ by 2100.",
+      "location_hint": "Page 9, scenario narratives table",
+      "confidence": "high",
+      "notes": "The document also notes: \"We understand that limiting warming to 1.5°C is looking less plausible as times goes on. However, we have included this scenario to meet the disclosure requirements of NZ CS1.\"",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple providers are named: Aon (external adviser providing climate modelling and expertise), Insurance Council of New Zealand (ICNZ) (scenarios developed alongside ICNZ in June 2022 for the NZ General Insurance sector), and the data sources drawn from: RCP, NGFS, SSP, and the Climate Change Commission (CCC).",
+      "evidence": "We sought external advice from Aon, a leading global professional services firm with a strong New Zealand presence, to help us explore three scenarios. Their Climate Risk Advisory team provided specialist climate modelling and expertise. As a New Zealand-based General Insurer, we consider the scenarios relevant and appropriate for our business because they align with those developed alongside the Insurance Council of New Zealand (ICNZ) in June 2022 for the New Zealand General Insurance sector. The data sources used to construct these scenarios were largely drawn from several global frameworks; Representative Concentration Pathway (RCP), Network for Greening the Financial System (NGFS), Shared Socio-economic Pathway (SSP) and the Climate Change Commission (CCC).",
+      "location_hint": "Page 8, Scenarios used section",
+      "confidence": "high",
+      "notes": "Aon is the primary external adviser/modeller; ICNZ developed the sector scenarios; RCP, NGFS, SSP and CCC are the underlying data/framework sources.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "RCP pathway: RCP 2.6 | RCP 4.5 | RCP 6.0, RCP 8.5 ... SSP pathway: SSP1: Sustainability | SSP2: Middle of the Road | SSP5: Fossil-Fuelled Development",
+      "location_hint": "Page 9, scenario narratives table",
+      "confidence": "high",
+      "notes": "The document explicitly lists both RCP identifiers (RCP 2.6, 4.5, 6.0, 8.5) and SSP identifiers (SSP1, SSP2, SSP5) as separate rows in the same scenario table, mapped to the same three narrative scenarios. RCPs are from CMIP5 and SSPs from CMIP6 — these are not from the same internally consistent scenario family. For example, SSP5 (Fossil-Fuelled Development) is paired with RCP 6.0/8.5 under the Hot House World scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "they align with those developed alongside the Insurance Council of New Zealand (ICNZ) in June 2022 for the New Zealand General Insurance sector ... For our transition analysis, we matched our short, medium and long term horizons with the General Insurance sector scenarios. For physical analysis, we adapted the timeframes used to longer, average timeframes to the end of the century, as this is when the physical impacts of climate change diverge significantly depending on the pathway followed.",
+      "location_hint": "Page 8, Scenarios used section",
+      "confidence": "medium",
+      "notes": "The scenarios were developed specifically for the New Zealand General Insurance sector (with ICNZ), and timeframes were adapted for the physical analysis. The scenario narratives also include NZ-specific elements (e.g. NZ insurance industry, NZ adaptation). However, the word \"customised\" or \"downscaled\" is not used explicitly — the adaptation is described as aligning with sector-specific scenarios and adjusting timeframes.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "We sought external advice from Aon, a leading global professional services firm with a strong New Zealand presence, to help us explore three scenarios. Their Climate Risk Advisory team provided specialist climate modelling and expertise. As a New Zealand-based General Insurer, we consider the scenarios relevant and appropriate for our business because they align with those developed alongside the Insurance Council of New Zealand (ICNZ) in June 2022 for the New Zealand General Insurance sector.",
+      "location_hint": "Page 8, Scenarios used section",
+      "confidence": "medium",
+      "notes": "The document describes using externally developed scenarios (by Aon and ICNZ) and conducting internal workshops to assess risks, but there is no explicit language of \"participatory\", \"co-created\", \"deliberative\", \"co-design\", or \"stakeholder input\" in the scenario development process itself.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "Yes — a present-day baseline is used for the physical analysis. The physical analysis uses present-day portfolios (as at 30 June 2023) as the baseline against which future AAL changes are measured across scenarios and time horizons. The \"Hot House World: Current Policies\" scenario also functions as a reference/baseline for policy comparison.",
+      "evidence": "Our physical analysis looked at how our view of risk, measured through Average Annual Loss (AAL), could change in the short, medium and long terms under the three scenarios. AAL is the financial loss we expect in a year for an insured risk or portfolio due to damage from extreme weather events ... Aon helped us perform this analysis by overlaying climate modelling on top of our present-day portfolios and estimating future AAL across the different time horizons and scenarios. The analysis used portfolio data as at 30 June 2023.",
+      "location_hint": "Page 10, Physical analysis section",
+      "confidence": "medium",
+      "notes": "The document uses present-day portfolios as the baseline for physical analysis. The \"Current Policies\" scenario (RCP 6.0/8.5) also serves as a reference scenario. The CCC pathway also includes a \"Current Policy Reference\" label. However, the document does not explicitly use the word \"baseline scenario\" in a formal sense.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "Aon climate modelling (unnamed specific model)"
+      ],
+      "evidence": "Aon helped us perform this analysis by overlaying climate modelling on top of our present-day portfolios and estimating future AAL across the different time horizons and scenarios ... The models we used in our physical analysis do not take into account potential future macroeconomic changes such as inflation and they are based on assumptions such as extrapolation of available data and the location of motor vehicles.",
+      "location_hint": "Page 10, Physical analysis section",
+      "confidence": "low",
+      "notes": "The document refers to \"climate modelling\" and \"models\" used by Aon but does not name any specific climate model, IAM, or macroeconomic model (e.g. no CLIMADA, REMIND, GCAM, etc. are named). Only Aon's Climate Risk Advisory team is identified as the modelling provider.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "Our physical analysis looked at how our view of risk, measured through Average Annual Loss (AAL), could change in the short, medium and long terms under the three scenarios. AAL is the financial loss we expect in a year for an insured risk or portfolio due to damage from extreme weather events. The scope of this analysis covered: portfolios: home and contents, motor; perils: flooding (surface water, coastal inundation and riverine), storm (fronts and ex-tropical cyclones).",
+      "location_hint": "Page 10, Physical analysis section",
+      "confidence": "high",
+      "notes": "The analysis explicitly quantifies Average Annual Loss (AAL) from extreme weather events (flooding, storms, cyclones) — these are acute physical risks. Specific percentage changes in AAL are provided (e.g. surface water flooding AAL could increase between 36% under RCP 2.6 and 158% under RCP 8.5).",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "GHG emissions trajectory",
+        "sea level rise (mean sea level)",
+        "vertical land movement",
+        "surface water flooding",
+        "riverine flooding",
+        "coastal inundation",
+        "storm frequency/intensity (fronts and ex-tropical cyclones)",
+        "wind damage",
+        "technology advancement (carbon dioxide removals)",
+        "natural resources",
+        "economy/trade",
+        "social inequality",
+        "adaptation policy",
+        "government policy",
+        "insurance industry dynamics"
+      ],
+      "evidence": "The scope of this analysis covered: perils: flooding (surface water, coastal inundation and riverine), storm (fronts and ex-tropical cyclones) ... Projections around the rise in both mean sea level and vertical land movement along the coast add considerably to the amount of physical damage this peril is expected to cause ... Technology advancement: Fast. Medium use of carbon dioxide removals ... Natural resources ... Economy/trade ... Social ... Adaptation ... The world halves GHG emissions by 2030 and reaches net-zero emissions around 2050.",
+      "location_hint": "Pages 9–10, scenario narratives table and physical analysis section",
+      "confidence": "high",
+      "notes": "The scenario table on page 9 includes qualitative dimensions: policy reaction, physical impacts, technology advancement, natural resources, economy/trade, social, adaptation, and insurance industry. The physical analysis on page 10 uses sea level rise, vertical land movement, and storm/flood perils as quantitative drivers.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "The data sources used to construct these scenarios were largely drawn from several global frameworks; Representative Concentration Pathway (RCP), Network for Greening the Financial System (NGFS), Shared Socio-economic Pathway (SSP) and the Climate Change Commission (CCC) ... Aon helped us perform this analysis by overlaying climate modelling on top of our present-day portfolios and estimating future AAL across the different time horizons and scenarios ... The modelling suggests that Australian East Coast lows, Southern Ocean lows and tropical cyclones forming in the central Pacific Ocean may become less frequent towards the end of the century. This means that New Zealand should experience fewer of these systems as the climate warms.",
+      "location_hint": "Pages 8 and 10",
+      "confidence": "medium",
+      "notes": "The scenarios draw on global frameworks (RCP, NGFS, SSP) but are applied to New Zealand specifically, with Aon overlaying climate modelling on NZ portfolios and the scenario narratives describing NZ-specific outcomes. The physical analysis references NZ-specific weather systems and perils. The document does not use the word \"downscaled\" explicitly, but the application is clearly localised to New Zealand.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Transition analysis: Short = Present day–2025; Medium = 2026–2035; Long = 2036–2050. Physical analysis: Short = 2025 (assumed present day); Medium = 2030s (2020–2040 average); Long = 2050s (2040–2060 average); Very long = 2090s (2080–2100 average). Rationale is partially provided: physical timeframes extend to end of century because \"this is when the physical impacts of climate change diverge significantly depending on the pathway followed.\"",
+      "evidence": "Table 2: Scenarios and time horizons used in our FY24 CCSA: Transition / Physical: Short: Present day – 2025 / 2025 (assumed present day); Medium: 2026-2035 / 2030s (2020-2040 average); Long: 2036-2050 / 2050s (2040-2060 average); Very long: N/A / 2090s (2080-2100 average) ... For physical analysis, we adapted the timeframes used to longer, average timeframes to the end of the century, as this is when the physical impacts of climate change diverge significantly depending on the pathway followed.",
+      "location_hint": "Page 8, Table 2 and surrounding text",
+      "confidence": "high",
+      "notes": "A rationale is given for why physical timeframes extend further than transition timeframes. No explicit rationale is given for the specific transition timeframe boundaries (e.g. why short ends at 2025 or long ends at 2050).",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "As a New Zealand-based General Insurer, we consider the scenarios relevant and appropriate for our business because they align with those developed alongside the Insurance Council of New Zealand (ICNZ) in June 2022 for the New Zealand General Insurance sector. ... We understand that limiting warming to 1.5°C is looking less plausible as times goes on. However, we have included this scenario to meet the disclosure requirements of NZ CS1.",
+      "location_hint": "Page 8, Scenarios used section; Page 9, footnote",
+      "confidence": "high",
+      "notes": "Two justifications are provided: (1) the scenarios are relevant and appropriate because they align with the NZ General Insurance sector scenarios developed with ICNZ; (2) the 1.5°C scenario is included specifically to meet NZ CS1 disclosure requirements, even though it is acknowledged as less plausible.",
+      "verification": null
+    }
+  ]
+}

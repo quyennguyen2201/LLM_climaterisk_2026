@@ -1,0 +1,197 @@
+{
+  "source": "KIWIBANK_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 914364,
+      "output_tokens": 8129,
+      "total_tokens": 922493,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 864879,
+        "ephemeral_5m_input_tokens": 49460,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly (1.4°C at 2100)",
+        "Too Little, Too Late (2.7°C at 2100)",
+        "Hothouse World (4.4°C at 2100)",
+        "IPCC SSP1-1.9 (Sustainability – Taking the Green Road)",
+        "IPCC SSP2-4.5 (Middle of the Road)",
+        "IPCC SSP5-8.5 (Fossil Fuelled Development)",
+        "NGFS Orderly – Net Zero 2050",
+        "NGFS Too Little, Too Late – Fragmented World",
+        "NGFS Hot House World – Current Policies",
+        "SPANZ – 100% Smart",
+        "SPANZ – Kicking, Screaming",
+        "SPANZ – Homo Economicus",
+        "New Zealand Climate Projections Dataset (SSP1-2.6)",
+        "New Zealand Climate Projections Dataset (SSP2-4.5)",
+        "New Zealand Climate Projections Dataset (SSP3-7.0)",
+        "SSP5-8.5H+ (coastal flood risk analysis)"
+      ],
+      "evidence": "Scenario inputs: Orderly – 1.4°C at 2100 / Too Little, Too Late – 2.7°C at 2100 / Hothouse World – 4.4°C at 2100. Global climate and socio-economics: IPCC Sustainability – Taking the Green Road SSP 1-1.9 / IPCC Middle of the Road SSP2-4.5 / IPCC Fossil Fuelled Development SSP5-8.5. Global energy and emissions: NGFS Orderly – Net Zero 2050 / NGFS Too Little, Too Late – Fragmented World / NGFS Hot House World – Current Policies. Aotearoa New Zealand physical impacts: New Zealand Climate Projections Dataset (SSP1-2.6) / New Zealand Climate Projections Dataset (SSP2-4.5) / New Zealand Climate Projections Dataset (SSP3-7.0). Aotearoa New Zealand transition and socio-economic factors: NGFS Orderly – Net Zero 2050 / SPANZ – 100% Smart / NGFS Too Little, Too Late – Fragmented World / SPANZ – Kicking, Screaming / NGFS Hot House World – Current Policies / SPANZ – Homo Economicus.",
+      "location_hint": "Table 5, p.14-15",
+      "confidence": "high",
+      "notes": "Kiwibank's three bespoke scenarios (Orderly, Too Little Too Late, Hothouse World) are built from multiple underlying scenario inputs from IPCC, NGFS, SPANZ and NIWA. The SSP5-8.5H+ scenario is used separately for coastal flood risk analysis (p.31).",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes by 2100: 1.4°C (Orderly), 2.7°C (Too Little, Too Late), and 4.4°C (Hothouse World). The Orderly scenario notes a temperature overshoot: global climate action halts temperature rise at 1.5°C and reverses it to 1.4°C. The Too Little, Too Late scenario notes the global average temperature rises 1.5°C above pre-industrial levels by 2030.",
+      "evidence": "Scenario inputs: Orderly – 1.4°C at 2100 / Too Little, Too Late – 2.7°C at 2100 / Hothouse World – 4.4°C at 2100. Note 10: \"Kiwibank's Orderly scenario has a projected temperature of 1.4°C, which is based on the closest available IPCC Representative Concentration Pathway (RCP) to 1.5°C.\" And from the Orderly narrative: \"global climate action halts temperature rise at 1.5°C and reverses it to 1.4°C.\"",
+      "location_hint": "p.14-15 (Table 5 and Table 6); p.36 (Orderly narrative)",
+      "confidence": "high",
+      "notes": "The Orderly scenario implies a temperature overshoot to 1.5°C before reversing to 1.4°C by 2100. The Too Little, Too Late scenario reaches 1.5°C by 2030 but ends at 2.7°C by 2100.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers are explicitly named: (1) IPCC (Intergovernmental Panel on Climate Change); (2) NGFS (Network for Greening the Financial System); (3) NIWA (National Institute of Water and Atmospheric Research – Taihoro Nukurangi™); (4) SPANZ (Shared Climate Policy Assumptions for New Zealand); (5) NZBA (New Zealand Banking Association – Te Rangapū Pēke); (6) Deloitte (for bespoke CGE modelling).",
+      "evidence": "\"Intergovernmental Panel on Climate Change (IPCC)... Used to inform how different greenhouse gas emissions scenarios could affect our global climate... Network for Greening the Financial System (NGFS)... Used to inform how physical and transition risks could evolve in different futures... National Institute of Water and Atmospheric Research – Taihoro Nukurangi™ (NIWA™)... Used for climate hazard projections for Aotearoa New Zealand... New Zealand Banking Association – Te Rangapū Pēke (NZBA) Climate scenario narratives for the banking sector... Used to inform our decisions on driving forces, critical uncertainties, time horizons, SSPs, and the general trajectory of our three distinct scenarios.\"",
+      "location_hint": "Table 20, p.35 (Key data sources used in scenario analysis)",
+      "confidence": "high",
+      "notes": "All providers are explicitly named in the key data sources table on p.35.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "\"Note that Kiwibank's Orderly scenario has a projected temperature of 1.4°C, which is based on the closest available IPCC Representative Concentration Pathway (RCP) to 1.5°C.\" And: \"We relied on SSP1-2.6 data for our Orderly scenario because downscaled SSP 1-1.9 data for New Zealand was not available during our scenario analysis process.\" The document also uses SSP1-1.9, SSP2-4.5, SSP5-8.5 (IPCC) alongside SSP1-2.6, SSP2-4.5, SSP3-7.0 (NZ Climate Projections Dataset) and references RCP in footnote 10.",
+      "location_hint": "p.14, footnotes 10, 14, 15 (Table 5)",
+      "confidence": "high",
+      "notes": "The document explicitly references both SSP identifiers (SSP1-1.9, SSP2-4.5, SSP5-8.5, SSP1-2.6, SSP3-7.0) and RCP (footnote 10 references \"IPCC Representative Concentration Pathway (RCP) to 1.5°C\"). The NZ downscaled data uses different SSP numbers than the global IPCC SSPs used for the same scenarios, indicating mixing across scenario families.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"We designed them for Kiwibank's unique context and lending portfolio composition. This meant focusing on factors impacting home and business lending customers and their assets in the Aotearoa New Zealand market. They are based on generally accepted scenario archetypes (see Table 5 on page 15). We have not modified these archetypes, but we have drawn specific elements from them to ensure we have relevant information for Aotearoa New Zealand's context and our driving forces.\" Also: \"We relied on SSP1-2.6 data for our Orderly scenario because downscaled SSP 1-1.9 data for New Zealand was not available during our scenario analysis process.\" And: \"Bespoke Deloitte D.Climate CGE Modelling for each of our three scenarios... Used for Aotearoa New Zealand economic projections.\"",
+      "location_hint": "p.12 (scenario relevance justification); p.14 (footnotes 14, 15); p.35 (Table 20)",
+      "confidence": "high",
+      "notes": "The scenarios are described as designed for Kiwibank's unique context, drawing specific elements from standard archetypes. Downscaled NZ-specific data was used for physical impacts, and bespoke CGE modelling was commissioned from Deloitte for NZ economic projections. The document explicitly uses the word \"downscaled\" in footnotes 14 and 15.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "\"We built and analysed new scenarios in FY25. This was a stand-alone process and not integrated with our strategy processes. We engaged an external consultant (Deloitte) to help with scenario development and analysis, including providing data and modelling, facilitating scenario workshops and contributing to scenario narrative writing. We currently intend to refresh our scenarios at least every three years. No other external partners or stakeholders were involved.\"",
+      "location_hint": "p.12",
+      "confidence": "high",
+      "notes": "The document explicitly states \"No other external partners or stakeholders were involved.\" Internal workshops were held with senior bank staff, but these are not participatory/co-produced in the sense of external stakeholder or community involvement. The process was internal with Deloitte as the only external party.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No explicit standalone baseline scenario is described. However, the Orderly narrative references \"house prices continue to decline over the period relative to baseline,\" implying a baseline exists within the modelling context but it is not formally described as a reference scenario against which the three climate scenarios are compared.",
+      "evidence": "\"However, house prices continue to decline over the period relative to baseline.\" (Orderly narrative, p.36). No formal baseline or reference scenario is defined in the scenario analysis methodology sections.",
+      "location_hint": "p.36 (Orderly narrative)",
+      "confidence": "medium",
+      "notes": "The word \"baseline\" appears once in the Orderly narrative in passing, suggesting the CGE model uses an implicit baseline for comparison. However, no dedicated baseline/reference scenario is formally described or named in the scenario analysis framework.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "Deloitte D.Climate CGE (Computable General Equilibrium) model",
+        "Moody's RMS probabilistic inland flood models",
+        "NZ SeaRise maps"
+      ],
+      "evidence": "\"Bespoke Deloitte D.Climate CGE Modelling for each of our three scenarios... Used for Aotearoa New Zealand economic projections. This modelling estimates the economic impact of conditions that could flow from transition and chronic physical climate change events, at a macroeconomic level.\" And: \"We used Moody's RMS™ probabilistic inland flood models, in combination with Valocity™ property data, to allocate Flood Risk Scores for our Home Lending Securities and Home Lending Exposure.\" And: \"NZ SeaRise maps (sea level rise and vertical land movement projections for Aotearoa New Zealand) Used to understand how sea level rise could affect coastal areas differently around the country.\"",
+      "location_hint": "p.35 (Table 20); p.47",
+      "confidence": "high",
+      "notes": "The Deloitte D.Climate CGE model is the primary macroeconomic model. Moody's RMS is used for flood risk credit analysis. NZ SeaRise maps are used for sea level rise projections. NIWA's New Zealand Climate Projections Dataset is a data source rather than a model per se.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "No — acute physical impacts are explicitly excluded from the macroeconomic modelling. However, flood risk exposure (as a form of acute physical risk) is assessed separately for home lending, though without financial impact quantification.",
+      "evidence": "\"Damage functions were embedded into the overall macroeconomic projections for each scenario. These captured the economic impacts that could flow from chronic physical climate change impacts, but excluded acute physical impacts.\" And: \"We have not assessed the potential financial impacts of these types of flood risk in relation to our home lending.\"",
+      "location_hint": "p.12 (scenario analysis methodology); p.31 (flood risk)",
+      "confidence": "high",
+      "notes": "The CGE model explicitly excludes acute physical impacts. Flood risk exposure is assessed (percentage of properties at risk) but financial damage/loss estimates from acute events are not quantified. The scenario narratives qualitatively describe extreme weather events but these are not modelled quantitatively.",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "Sea level rise",
+        "Hot days",
+        "Wet days",
+        "Drought",
+        "Rainfall intensity",
+        "GDP (Gross Domestic Product)",
+        "Unemployment rate",
+        "Interest rates (Official Cash Rate)",
+        "Household income",
+        "Investment",
+        "Consumption",
+        "Exports",
+        "Imports",
+        "Employment",
+        "Consumer Price Index",
+        "Wage Price Index",
+        "House Price Index",
+        "Labour Income",
+        "Shadow Emissions Price (carbon price)",
+        "Population",
+        "Construction Industry Output",
+        "Heavy Manufacturing Industry Output",
+        "Light Manufacturing Industry Output",
+        "Services Industry Output",
+        "Insurance availability and affordability",
+        "Carbon border taxes"
+      ],
+      "evidence": "\"We used quantitative modelling to inform our narratives as to: Environmental projections, such as sea level rise, hot days, wet days and drought. Socio-economic projections, such as Gross Domestic Product (GDP), unemployment rates, interest rates and household income.\" Variables measured were: \"Real Gross Domestic Product (GDP)... Investment... Consumption... Exports... Imports... Employment... Unemployment rate... Official Cash Rate (OCR)... Consumer Price Index... Wage Price Index... House Price Index... Labour Income... Shadow Emissions Price (Aotearoa New Zealand)... Population... Construction Industry Output... Heavy Manufacturing Industry Output... Light Manufacturing Industry Output... Services Industry Output.\"",
+      "location_hint": "p.12; p.35 (Table 20)",
+      "confidence": "high",
+      "notes": "The 18 variables measured by the Deloitte D.Climate CGE model are explicitly listed in Table 20 on p.35. Environmental variables (sea level rise, hot days, wet days, drought) are also listed on p.12.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"We relied on SSP1-2.6 data for our Orderly scenario because downscaled SSP 1-1.9 data for New Zealand was not available during our scenario analysis process.\" Global inputs: \"IPCC Sustainability – Taking the Green Road SSP 1-1.9 / IPCC Middle of the Road SSP2-4.5 / IPCC Fossil Fuelled Development SSP5-8.5.\" NZ-level inputs: \"New Zealand Climate Projections Dataset (SSP1-2.6) / New Zealand Climate Projections Dataset (SSP2-4.5) / New Zealand Climate Projections Dataset (SSP3-7.0).\" And: \"NZ SeaRise maps (sea level rise and vertical land movement projections for Aotearoa New Zealand) Used to understand how sea level rise could affect coastal areas differently around the country.\"",
+      "location_hint": "p.14 (Table 5, footnotes 14-15); p.35 (Table 20)",
+      "confidence": "high",
+      "notes": "Global IPCC SSPs and NGFS scenarios are used for global climate and energy/emissions inputs. Downscaled NZ-specific data (NIWA NZ Climate Projections Dataset, NZ SeaRise maps) are used for physical impacts at the national/regional level. The Deloitte CGE model provides NZ macroeconomic projections.",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short term: 2025–2030; Medium term: 2031–2050; Long term: 2051–2100. Rationale is provided: the short-term climate horizon aligns with Kiwibank's short- and medium-term strategic and capital deployment planning horizons; the medium-term climate horizon reflects the typical maximum term of home loans (~30 years); the long-term horizon was extended by 21 years to 2100 in FY25 for deeper future insight. Both medium- and long-term climate horizons exceed typical strategic planning horizons, but are considered useful to inform shorter-range strategic choices.",
+      "evidence": "\"Our short-term climate horizon aligns with our short- and medium-term strategic and capital deployment planning time horizons. Our medium-term climate horizon reflects the typical maximum term of our home loans. This year, we extended our long-term climate horizon by 21 years, to 2100, for deeper future insight. Both our medium- and long-term climate horizons exceed our typical strategic and capital deployment planning time horizons. We consider that integration of a longer-term view of climate risks and opportunities can inform our shorter-range strategic choices and capital deployment.\"",
+      "location_hint": "p.8 (Fig. 3 and surrounding text)",
+      "confidence": "high",
+      "notes": "Rationale is explicitly provided for all three time horizons. The strategic planning horizons are also disclosed: Short term: 2026 (1 year); Medium term: 2027–2030 (2–5 years); Long term: 2031–2035 (6–10 years).",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"We consider that the scenarios we used are relevant and appropriate to assessing the resilience of Kiwibank's business model and strategy to climate risks and opportunities because: We designed them for Kiwibank's unique context and lending portfolio composition. This meant focusing on factors impacting home and business lending customers and their assets in the Aotearoa New Zealand market. They are based on generally accepted scenario archetypes (see Table 5 on page 15). We have not modified these archetypes, but we have drawn specific elements from them to ensure we have relevant information for Aotearoa New Zealand's context and our driving forces. The three scenarios (\"Orderly\", \"Too Little, Too Late\" and \"Hothouse World\") create a range of possible climate futures, with different levels of physical risk and transition risk present in each.\" And for the model: \"We consider the model chosen to be appropriate because it models a range of economic factors relevant to Kiwibank.\"",
+      "location_hint": "p.12",
+      "confidence": "high",
+      "notes": "Explicit justification is provided for both the scenario choices and the model choice. The document also explains why specific SSP substitutions were made (e.g., SSP1-2.6 used instead of SSP1-1.9 because downscaled NZ data was unavailable for the latter).",
+      "verification": null
+    }
+  ]
+}

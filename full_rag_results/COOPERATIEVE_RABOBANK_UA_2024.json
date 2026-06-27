@@ -1,0 +1,177 @@
+{
+  "source": "COOPERATIEVE_RABOBANK_UA_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1094771,
+      "output_tokens": 7519,
+      "total_tokens": 1102290,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 1030558,
+        "ephemeral_5m_input_tokens": 64190,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly (1.5°C-aligned) – NZ Banking Group entity-specific scenario referencing IPCC SSP1-1.9, NIWA RCP 2.6, NGFS orderly 'net-zero 2050', CCC 'Tailwinds'",
+        "Disorderly (other-aligned) – NZ Banking Group entity-specific scenario referencing IPCC SSP1-2.6, NIWA RCP 2.6, NGFS disorderly 'delayed 2°C', CCC 'Headwinds'",
+        "Hot-house world (>3°C-aligned) – NZ Banking Group entity-specific scenario referencing IPCC SSP5-8.5, NIWA RCP 8.5, NGFS hot-house 'current policies', CCC current policies",
+        "NGFS Net Zero 2050 (used in Rabobank global stress test)",
+        "NGFS Fragmented World (used in Rabobank global stress test)",
+        "NGFS Current Policies (used in Rabobank global stress test)"
+      ],
+      "evidence": "\"Architecture of NZ Banking Group's Three Entity-Specific Scenarios: Orderly (1.5°C-aligned) … Disorderly (other-aligned) … Hot-house world (>3°C-aligned) … Global physical and socioeconomic parameters: IPCC SSP1-1.9 / IPCC SSP1-2.6 / IPCC SSP5-8.5 … New Zealand physical parameters: eg. NIWA RCP 2.6 / NIWA RCP 2.6 / NIWA RCP 8.5 … Global transition and energy use: NGFS orderly 'net-zero 2050' scenario / NGFS disorderly 'delayed 2°C' / NGFS hot-house 'current policies' … New Zealand transition pathways: Climate Change Commission (CCC) 'Tailwinds' / CCC 'Headwinds' / CCC current policies … In 2024, Rabobank conducted a global climate scenario stress test on three NGFS scenarios (Net Zero 2050, Fragmented World and Current Policies).\"",
+      "location_hint": "Page 32–33 (Architecture table) and page 46 (stress test)",
+      "confidence": "high",
+      "notes": "NZ Banking Group uses three entity-specific synthesised scenarios for its own scenario analysis, plus Rabobank uses three NGFS scenarios for global stress testing. The entity-specific scenarios blend IPCC SSP, NIWA RCP, NGFS, and CCC pathways.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes at 2100 are described: ~1.4°C (Orderly scenario, noted as the closest available IPCC scenario to 1.5°C), ~1.8°C (Disorderly scenario), and ~4.4°C (Hot-house world scenario). The document also references a 1.5°C goal with limited/no overshoot as Rabobank's overall ambition.",
+      "evidence": "\"Approximate warming at 2100: ~1.4°C [Orderly] / ~1.8°C [Disorderly] / ~4.4°C [Hot-house world] … It should be noted that, due to the limited number of scenarios available and the nature of temperature projections being based on probabilities and ranges, this has led to NZ Banking Group's 1.5°C scenario having a projected temperature in 2100 of 1.4°C (which is the closest available IPCC scenario to 1.5°C).\"",
+      "location_hint": "Page 32–33 (Architecture table) and page 31 (scenario narrative)",
+      "confidence": "high",
+      "notes": "No explicit temperature overshoot language beyond the note that 1.4°C is the closest available IPCC scenario to 1.5°C.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers are explicitly named: IPCC (Intergovernmental Panel on Climate Change), NGFS (Network for Greening the Financial System), NIWA (National Institute of Water and Atmospheric Research), and CCC (Climate Change Commission / He Pou a Rangi).",
+      "evidence": "\"For physical data, the Intergovernmental Panel on Climate Change (IPCC) Shared Socioeconomic Pathway (SSP) scenarios were referenced. For transition data, the Network for Greening the Financial System (NGFS) scenarios were referenced.\" … \"New Zealand physical parameters: eg. NIWA RCP 2.6 / NIWA RCP 2.6 / NIWA RCP 8.5 … New Zealand transition pathways: Climate Change Commission (CCC) 'Tailwinds' / CCC 'Headwinds' / CCC current policies\"",
+      "location_hint": "Page 31 (scenario development text) and page 32–33 (Architecture table)",
+      "confidence": "high",
+      "notes": "All four providers are explicitly named in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "\"Global physical and socioeconomic parameters: IPCC SSP1-1.9 / IPCC SSP1-2.6 / IPCC SSP5-8.5 … New Zealand physical parameters: eg. NIWA RCP 2.6 / NIWA RCP 2.6 / NIWA RCP 8.5\"",
+      "location_hint": "Page 32–33 (Architecture table)",
+      "confidence": "high",
+      "notes": "The document explicitly lists both SSP identifiers (SSP1-1.9, SSP1-2.6, SSP5-8.5) and RCP identifiers (RCP 2.6, RCP 8.5) within the same scenario architecture table. SSPs and RCPs are from different IPCC assessment report generations (AR6 and AR5/CMIP5 respectively), representing a mix of scenario families. Notably, SSP1-1.9 is paired with NIWA RCP 2.6 for the Orderly scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"NZ Banking Group's own scenarios were developed to be relevant and appropriate for assessing the resilience of NZ Banking Group's business model and strategy, as described below, through blending recognised and coherent scenarios on physical and transition risks together, incorporating relevant datapoints and elements. Narrative detail has then been added based on those datapoints and relevant information for the business.\" … \"the three scenarios that were developed speak more specifically to NZ Banking Group's circumstances as an agriculture-focused bank and create an appropriate level of challenge and plausibility as laid out in the rationale.\"",
+      "location_hint": "Page 31 (scenario development section)",
+      "confidence": "high",
+      "notes": "The scenarios are explicitly described as entity-specific, blended from multiple standard scenario sources (IPCC SSP, NGFS, NIWA RCP, CCC), and tailored to NZ Banking Group's circumstances as an agriculture-focused bank. NIWA data provides regional downscaling for New Zealand physical parameters.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "\"The 2023 scenario development analysis and results involved engagement and governance at a number of levels of the business: Project Leads (CSO and Senior Risk Advisor) – led and coordinated work and material creation. Subject matter experts – provided specialist input as required. A steering committee consisting of the CRO, CFO, General Manager Country Banking and Project Leads – provided direction input and oversight. Executive committee approvals (via the RMC or Leadership Team meetings) – challenged and provided feedback and recommended approvals to the Board. Board – reviewed, discussed and approved scenario architecture. NZ Banking Group worked with consultancy Deloitte to assist with scenario development and assess the Climate-Related Risks and Opportunities.\"",
+      "location_hint": "Page 37 (Conducting Scenario Analysis section)",
+      "confidence": "high",
+      "notes": "Scenario development involved internal governance layers and external consultancy (Deloitte), but no language of participatory, co-created, deliberative, co-designed, or stakeholder-collaborative development with external parties (e.g. customers, communities, civil society) is present.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No explicit standalone baseline/reference scenario is described. However, the \"Hot-house world\" scenario (NGFS \"current policies\") functions implicitly as a high-physical-risk reference, and the document references a \"worst-case scenario\" used in Rabobank's C&E risk heatmaps for physical risk identification.",
+      "evidence": "\"To identify exposures, Rabobank has chosen to rely on a worst-case scenario for climate change using various trajectories for Greenhouse Gas concentrations spanning a period up to 2100. From a physical risk perspective, using a worst-case scenario better serves discussions on mitigating actions to be taken than more favourable assumptions.\"",
+      "location_hint": "Page 66 (Assets Vulnerable to Physical Risks Methodology)",
+      "confidence": "medium",
+      "notes": "No scenario is explicitly labelled as a \"baseline\" or \"reference\" scenario against which the others are compared. The three scenarios are presented as a range of plausible futures rather than deviations from a baseline. The \"worst-case\" reference is used only for the C&E heatmap methodology, not for the main scenario analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": [
+        "GCAM 5.3+ NGFS World Downscaled",
+        "GCAM 6.0 NGFS",
+        "IPCC WGI Interactive Atlas"
+      ],
+      "evidence": "\"Data sources: Physical: NIWA regional, high-intensity rainfall and sea-level rise projections and IPCC WGI Interactive atlas regional synthesis. Economic: GCAM 5.3+ NGFS World Downscaled and GCAM 6.0 NGFS (GDP only).\"",
+      "location_hint": "Page 63 (Scenario Analysis Datapoints appendix)",
+      "confidence": "high",
+      "notes": "GCAM (Global Change Analysis Model) is an integrated assessment model. The IPCC WGI Interactive Atlas is a data synthesis tool rather than a model per se. NIWA projections are also referenced as a data source for physical parameters.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"Rabobank's C&E risk heatmaps capture both acute and chronic events … NZ Banking Group uses Rabobank-developed C&E heatmaps for acute physical risks (including cyclones, windstorms, riverine flooding, coastal flooding, heavy precipitation (or pluvial flooding), drought, wildfires, extreme heat) … The percentage of NZ Banking Group's assets vulnerable to physical risk is calculated as 0.24% (over the lifetime of the asset, under an IPCC RCP 8.5 scenario).\" Also: \"$3.1 million impact of rate discount. $48,000 impact of external audit\" from Cyclone Gabrielle and Auckland Anniversary Day flood events.",
+      "location_hint": "Pages 66–67 (C&E heatmap methodology) and page 28 (Current Impacts)",
+      "confidence": "high",
+      "notes": "The document explicitly includes acute physical risk events (cyclones, flooding, drought, etc.) in both the C&E heatmap methodology and the scenario narratives, and provides some financial quantification of past acute events (Cyclone Gabrielle).",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "Carbon price (Global carbon price)",
+        "Sea-level rise",
+        "Intense rainfall days",
+        "Hot days",
+        "Frost days",
+        "Global GHG emissions",
+        "Global GDP",
+        "Global population",
+        "Global oil price",
+        "Global agricultural demand",
+        "Global CCS use",
+        "Carbon capture and storage (CCS) use",
+        "Emissions pricing / carbon border taxes",
+        "Consumer behaviour / demand shifts",
+        "Technology change / CDR (Carbon Dioxide Removal)",
+        "Policy reaction / regional policy variation"
+      ],
+      "evidence": "\"Global temperature … Intense rainfall days … Hot days … Frost days … Sea-level rise (with vertical land move) … Global GHG emissions … Global GDP … Global population … Global oil price … Global agricultural demand … Global CCS use … Global carbon price\" (from Scenario Analysis Datapoints table). Also: \"Access to water, changes in biodiversity, ecosystems. New technology advances and a move towards more sustainable farming/nature-based solutions and practice. Changing global demand and consumer behaviour (demand/preferences/expectations). Severe acute and chronic weather events. Emissions pricing, trade barriers and financial incentives.\"",
+      "location_hint": "Page 63 (Scenario Analysis Datapoints) and page 31 (key drivers of change)",
+      "confidence": "high",
+      "notes": "The datapoints table on page 63 provides quantified values for each scenario at 2050 for all listed variables.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"Global physical and socioeconomic parameters: IPCC SSP1-1.9 / IPCC SSP1-2.6 / IPCC SSP5-8.5 … New Zealand physical parameters: eg. NIWA RCP 2.6 / NIWA RCP 2.6 / NIWA RCP 8.5 … Data sources: Physical: NIWA regional, high-intensity rainfall and sea-level rise projections and IPCC WGI Interactive atlas regional synthesis. Economic: GCAM 5.3+ NGFS World Downscaled and GCAM 6.0 NGFS (GDP only).\"",
+      "location_hint": "Page 32–33 (Architecture table) and page 63 (Datapoints appendix)",
+      "confidence": "high",
+      "notes": "The scenarios use both global parameters (IPCC SSPs, NGFS, GCAM) and New Zealand-specific/regional parameters (NIWA regional projections for rainfall, sea-level rise, hot days, frost days). The GCAM data is also described as \"NGFS World Downscaled\".",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Short term: now–2030; Medium term: 2030–2050; Long term: 2050–2100. Rationales are explicitly provided for each timeframe.",
+      "evidence": "\"Short term: now–2030 – to align with the existing 5-year horizons in strategic planning, MTP, Internal Capital Adequacy Assessment Process and Funding Plan. During 2023, MTP horizon was extended to 2030 for asset growth by sector to align with Sector x Country Plans. Medium term: 2030–2050 – to reflect the contractual maturity profile of NZ Banking Group's loan book. Long term: 2050–2100 – to recognise the intergenerational nature of farming and growing in New Zealand, ensure understanding of the longer-term implications of climate impacts and guard against the historical trend of improved science leading to impacts being brought forward. Time horizons of this length are not considered as part of NZ Banking Group's strategic planning horizons and capital deployment plans.\"",
+      "location_hint": "Page 33 (Summary of Scenario Time Horizons and Risk Profiles)",
+      "confidence": "high",
+      "notes": "All three timeframes have explicit justifications provided. The document also notes these timeframes align with Rabobank's global stress test horizons (2020–2030, 2030–2040, 2040–2050).",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"In developing scenarios, the XRB's recommendation to use sectoral scenarios where advisable was considered both for efficiency and to aid comparability. As the only specialised agribusiness-focused bank operating in New Zealand, two sets of sector scenarios were relevant to NZ Banking Group – the New Zealand Banking Association as well as Aotearoa Circle's Agriculture Sector Climate Change Scenarios. Neither of these provided the scenarios that best described plausible futures or challenged NZ Banking Group's business sufficiently. Instead, the three scenarios that were developed speak more specifically to NZ Banking Group's circumstances as an agriculture-focused bank and create an appropriate level of challenge and plausibility as laid out in the rationale. NZ Banking Group also sought to align – at a high level – its climate scenarios with Rabobank's to facilitate comparison and insights at a Rabobank-wide level … For physical data, the Intergovernmental Panel on Climate Change (IPCC) Shared Socioeconomic Pathway (SSP) scenarios were referenced. For transition data, the Network for Greening the Financial System (NGFS) scenarios were referenced.\"",
+      "location_hint": "Page 31 (scenario development section)",
+      "confidence": "high",
+      "notes": "The document provides explicit justification: (1) existing sectoral scenarios (NZ Banking Association, Aotearoa Circle) were considered but rejected as insufficient; (2) entity-specific scenarios were developed to reflect NZ Banking Group's circumstances as an agriculture-focused bank; (3) alignment with Rabobank global scenarios was sought; (4) IPCC SSPs were chosen for physical data and NGFS for transition data.",
+      "verification": null
+    }
+  ]
+}

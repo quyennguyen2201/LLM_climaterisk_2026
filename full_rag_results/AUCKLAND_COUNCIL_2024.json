@@ -1,0 +1,182 @@
+{
+  "source": "AUCKLAND_COUNCIL_2024",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1386662,
+      "output_tokens": 7490,
+      "total_tokens": 1394152,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 1310333,
+        "ephemeral_5m_input_tokens": 76304,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 9,
+      "question": "List of scenarios",
+      "answer": [
+        "Kākāriki (Orderly: Net Zero 2050)",
+        "Kahurangi (Disorderly: Delayed Transition)",
+        "Whero (Hothouse: Current Policies)",
+        "RCP2.6",
+        "RCP4.5",
+        "RCP8.5",
+        "SSP1 Sustainability",
+        "SSP2 Middle of the road",
+        "SSP3-Regional Rivalry",
+        "CCC Tailwinds",
+        "CCC Headwinds",
+        "CCC Current Policy",
+        "SPANZ-F 100% Smart",
+        "SPANZ-A Kicking and Screaming",
+        "SPANZ D-Homo Economics / SPANZ-A Unspecific Pacific"
+      ],
+      "evidence": "Kākāriki — Limit warming to 1.5°C globally — CCC Tailwinds — RCP2.6 — SSP1 Sustainability — SPANZ-F 100% Smart — Orderly: Net Zero 2050 ... Kahurangi — Limit warming to <2°C globally — CCC Headwinds — RCP4.5 — SPANZ-A Kicking and Screaming — SSP2 Middle of the road — Disorderly: Delayed Transition ... Whero — Warming to >3.0°C globally — CCC Current Policy — RCP8.5 — SSP3-Regional Rivalry — This scenario reflects elements of both SPANZ D- Homo Economics and SPANZ-A Unspecific Pacific — Hothouse: Current Policies",
+      "location_hint": "Section 2.2, p.15 (Climate Statement)",
+      "confidence": "high",
+      "notes": "Three integrated scenarios (Kākāriki, Kahurangi, Whero) each reference multiple underlying scenario frameworks (RCPs, SSPs, CCC, SPANZ). The three integrated scenarios are the primary ones used; the others are reference/underpinning scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: 1.5°C (Kākāriki/Orderly scenario), less than 2°C (Kahurangi/Disorderly scenario), and greater than 3.0°C (Whero/Hothouse scenario). No explicit temperature overshoot is mentioned.",
+      "evidence": "Kākāriki — Limit warming to 1.5°C globally ... Kahurangi — Limit warming to <2°C globally ... Whero — Warming to >3.0°C globally",
+      "location_hint": "Section 2.2, p.15 (Climate Statement)",
+      "confidence": "high",
+      "notes": "These are described as global warming outcomes. No explicit mention of temperature overshoot.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers are explicitly named: IPCC (for RCP and SSP scenarios from the Fifth Assessment Report), New Zealand's Climate Change Commission / CCC (for CCC Tailwinds, Headwinds and Current Policy scenarios), and SPANZ (Shared Policy Assumptions for New Zealand, described as national-scale socio-economic scenarios nested within IPCC SSPs and RCPs).",
+      "evidence": "\"The RCP scenarios in the IPCC Fifth Assessment Report have been used as they were the latest projections scaled to New Zealand at the time of developing these scenarios.\" ... \"CCC Tailwinds, Headwinds and Current Policy — Refer to climate change scenarios that New Zealand's Climate Change Commission developed as part of its advice to the New Zealand government on how the 2050 emissions target could realistically be met.\" ... \"Shared Policy Assumptions for New Zealand (SPANZ) — National-scale socio-economic scenarios developed for New Zealand that are nested within IPCC SSPs and RCPs.\"",
+      "location_hint": "Section 2.2, p.14; Glossary, p.39 (Climate Statement)",
+      "confidence": "high",
+      "notes": "IPCC, CCC (Climate Change Commission), and SPANZ are all explicitly named as scenario providers/sources.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "Kākāriki — RCP2.6 — SSP1 Sustainability ... Kahurangi — RCP4.5 — SSP2 Middle of the road ... Whero — RCP8.5 — SSP3-Regional Rivalry",
+      "location_hint": "Section 2.2, p.15 (Climate Statement)",
+      "confidence": "high",
+      "notes": "The document explicitly lists both SSP identifiers (SSP1, SSP2, SSP3) and RCP identifiers (RCP2.6, RCP4.5, RCP8.5) within each integrated scenario. RCPs come from the IPCC AR5 framework and SSPs from the IPCC AR6 framework — these are from different assessment report generations and are not internally consistent scenario families. The document also notes \"The RCP scenarios in the IPCC Fifth Assessment Report have been used\" alongside SSPs from AR6.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"In 2023, we developed three integrated scenarios based on our 2022 scenarios. These scenarios were developed to support our assessment of the resilience of our business and strategy to climate-related risks and opportunities. To ensure that they were relevant and appropriate for this purpose, we included elements that are New Zealand-specific and are reflective of the council as a local government organisation that relies on central government funding and policies.\" ... \"The RCP scenarios in the IPCC Fifth Assessment Report have been used as they were the latest projections scaled to New Zealand at the time of developing these scenarios.\"",
+      "location_hint": "Section 2.2, p.14 (Climate Statement)",
+      "confidence": "high",
+      "notes": "The scenarios are explicitly described as customised/adapted: they incorporate New Zealand-specific elements (CCC scenarios, SPANZ), are scaled to New Zealand, and were developed to reflect Auckland Council's specific local government context. The SPANZ framework is itself described as \"National-scale socio-economic scenarios developed for New Zealand that are nested within IPCC SSPs and RCPs... enabling divergence of New Zealand-specific futures from assumed trends in the global SSPs.\"",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "\"The workshops were facilitated by Auckland Council staff and consultants from Tonkin + Taylor and Informed.City. Participants included staff from each substantive CCO (except Auckland Transport) and POAL in various departments including operations, strategy, finance, sustainability, legal, risk, governance and Māori outcomes.\"",
+      "location_hint": "Section 2.2, p.15 (Climate Statement)",
+      "confidence": "medium",
+      "notes": "The scenario development involved internal staff workshops and external consultants, but there is no evidence of participatory, co-created, deliberative, or co-designed scenario development with external stakeholders or the public. The workshops described were for risk identification using the scenarios, not for co-producing the scenarios themselves. The participatory forums mentioned in the Annual Report (Vol 1) relate to the Long-term Plan, not climate scenario development.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Baseline scenarios",
+      "answer": "No explicit baseline or reference scenario is described against which the climate scenarios are compared. However, the Whero scenario (Hothouse: Current Policies, RCP8.5, >3°C) functions as a \"current policies\" reference point, and the document notes it was used for impact pathway analysis.",
+      "evidence": "\"The pathways highlight the causality and not the severity of the impacts. [Impact pathways] for the group's top four climate-related physical and transition risks using our Whero (current policies) scenario are shown below.\" ... \"A world where current policies globally are preserved, but these are insufficient to limit warming to less than 3 degrees Celsius.\"",
+      "location_hint": "Section 2.4, p.16; Section 2.2, p.15 (Climate Statement)",
+      "confidence": "medium",
+      "notes": "There is no formally designated \"baseline\" or \"reference\" scenario explicitly labelled as such for comparison purposes. The Whero scenario is described as a \"current policies\" scenario and is used for impact pathway analysis, which gives it a baseline-like function, but it is not explicitly called a baseline.",
+      "verification": null
+    },
+    {
+      "q_id": 16,
+      "question": "Model used",
+      "answer": "No specific climate models, integrated assessment models (IAMs), or macroeconomic models are named in the document.",
+      "evidence": "\"Hazard maps: Various sources of group-owned geospatial data (e.g. Auckland Council GEOMAPS, Auckland's Hazard Viewer) and NIWA data have been leveraged to get a better understanding of the climate hazards that drive climate-related risk.\"",
+      "location_hint": "Section 3.1, p.19 (Climate Statement)",
+      "confidence": "high",
+      "notes": "NIWA data is referenced as a source for hazard maps, but NIWA is a data/research provider, not a named climate model. No specific model names (e.g., CLIMADA, REMIND, GCAM, NiGEM) are mentioned in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 17,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"Increased damage to and reduced access to the group's key assets, infrastructure and facilities due to increased frequency and severity of acute weather events. Physical — Extreme acute weather\" [ranked as Risk #1] ... \"In 2023, the region experienced two extreme weather events that caused widespread damage from flooding and high winds. Impacts included damage to roads and property, land instability and landslips, fallen trees, and loss of life.\" ... \"The Long-Term Plan 2024-2034 estimated the total cost for the recovery of the transport network, Making Space for Water, the property buy-outs and grants provision, along with certain other resilience projects, is expected to cost $2 billion over 10 years.\"",
+      "location_hint": "Section 2.1, p.13; Section 2.3, p.15 (Climate Statement)",
+      "confidence": "high",
+      "notes": "The document explicitly includes damage and financial loss estimates from acute physical risks (extreme weather events). The top-ranked climate risk is damage from acute weather events, and specific financial figures are provided ($553 million provision for property buy-outs and grants, $2 billion total recovery cost).",
+      "verification": null
+    },
+    {
+      "q_id": 18,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "sea level rise",
+        "extreme weather events (flooding, high winds, storms)",
+        "precipitation/rainfall (drought or flood)",
+        "coastal inundation/tidal surges",
+        "heat/extreme heat events",
+        "water stress",
+        "land instability/landslips",
+        "electricity costs",
+        "insurance costs",
+        "policy and legislative changes",
+        "geopolitical tension",
+        "economic growth",
+        "social inequality",
+        "technology adoption (electric vehicles, solar, smart grids)",
+        "GHG emissions concentrations",
+        "land use/cover"
+      ],
+      "evidence": "\"Chronic changes in weather patterns such as increasing temperatures and sea level rise resulting in increased infrastructure, facilities, and asset damage.\" ... \"Increased prevalence of extreme seasonal variations in precipitation (drought or flood) drives increased water security and quality issues and reduced ability to manage waste and stormwater.\" ... \"Physical risk — Risks related to physical impacts of climate change resulting from either acute natural hazard (e.g. floods, cyclones, and droughts, wildfires)... or from chronic weather hazards (e.g. sea level rise, heat, and water stress).\" ... \"Central government investment in innovation accelerates from 2030-2040 including: electric vehicle adoption, distributed solar and batteries, and smart grid systems to manage electricity demand.\"",
+      "location_hint": "Section 2.2, p.15; Section 2.3, p.15-16; Glossary, p.39 (Climate Statement)",
+      "confidence": "high",
+      "notes": "Variables are drawn from both the physical and transition dimensions of the scenarios. Some variables (e.g., electricity costs, insurance costs) are described as current impacts rather than explicit scenario drivers, but they are discussed in the context of climate scenario analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 19,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"The RCP scenarios in the IPCC Fifth Assessment Report have been used as they were the latest projections scaled to New Zealand at the time of developing these scenarios.\" ... \"we included elements that are New Zealand-specific and are reflective of the council as a local government organisation that relies on central government funding and policies.\" ... \"Shared Policy Assumptions for New Zealand (SPANZ) — National-scale socio-economic scenarios developed for New Zealand that are nested within IPCC SSPs and RCPs. They describe potential mitigation and adaptation policies specific to New Zealand, enabling divergence of New Zealand-specific futures from assumed trends in the global SSPs.\"",
+      "location_hint": "Section 2.2, p.14; Glossary, p.39 (Climate Statement)",
+      "confidence": "high",
+      "notes": "The scenarios use global climate models (IPCC RCPs and SSPs) as their foundation, but these have been scaled/downscaled to New Zealand and further adapted to the Auckland regional context through SPANZ and CCC scenarios. The physical risk time horizon also extends to 2100 \"to reflect the time horizons of regional infrastructure planning.\"",
+      "verification": null
+    },
+    {
+      "q_id": 20,
+      "question": "Time frames",
+      "answer": "Three time horizons are used: short-term (2023–2026, 3 years), medium-term (2023–2034, 10 years), and long-term (2023–2050, 27 years). For physical risk identification, the horizon extends to 2100. Rationales are explicitly provided for each timeframe.",
+      "evidence": "\"The time horizons identified for the integrated scenarios are: short-term: three years from 2023 to 2026 to align with short-term budgeting processes; medium-term: 10 years to 2034 to align with the Long-term Plan 2024-2034; long-term: 27 years to 2050 to align with Auckland Plan 2050.\" ... \"The time horizon used to identify the group's transition risks was 2023–2050 to reflect the time horizon of the Auckland Plan 2050. The time horizon for identifying physical risks extended out to 2100 to reflect the time horizons of regional infrastructure planning.\"",
+      "location_hint": "Section 2.2, p.14; Section 3.1, p.19 (Climate Statement)",
+      "confidence": "high",
+      "notes": "Rationales are explicitly provided: short-term aligns with budgeting processes, medium-term aligns with the Long-term Plan 2024-2034, long-term aligns with Auckland Plan 2050, and the 2100 physical risk horizon reflects regional infrastructure planning timeframes.",
+      "verification": null
+    },
+    {
+      "q_id": 21,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"The RCP scenarios in the IPCC Fifth Assessment Report have been used as they were the latest projections scaled to New Zealand at the time of developing these scenarios. Furthermore, they aligned with the requirements of the Aotearoa New Zealand Climate Standards.\" ... \"These scenarios were developed to support our assessment of the resilience of our business and strategy to climate-related risks and opportunities. To ensure that they were relevant and appropriate for this purpose, we included elements that are New Zealand-specific and are reflective of the council as a local government organisation that relies on central government funding and policies.\"",
+      "location_hint": "Section 2.2, p.14 (Climate Statement)",
+      "confidence": "high",
+      "notes": "Two explicit justifications are provided: (1) the RCP scenarios from IPCC AR5 were the latest projections scaled to New Zealand at the time of development, and (2) they aligned with the requirements of the Aotearoa New Zealand Climate Standards. The integrated scenarios were also justified as being New Zealand-specific and reflective of Auckland Council's local government context.",
+      "verification": null
+    }
+  ]
+}
