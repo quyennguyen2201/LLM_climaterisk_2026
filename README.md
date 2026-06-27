@@ -3,7 +3,7 @@
 Replication repository for the following manuscript:
 
 > **Evaluating the scientific rigour of climate scenario analysis: LLM-assisted evidence from New Zealand's mandatory disclosures**
-> Quyen Nguyen, Florent Aden-Antoniow, Jack Drummond, Nicholas A. Cradock-Henry, Rob Buxton, Ani Barr
+>> Quyen Nguyen, Florent Aden-Antoniow, Nicholas A. Cradock-Henry, Jack Drummond,  Rob Buxton, Ani Barr
 > *Version: June 2026*
 
 ---
@@ -50,7 +50,7 @@ LLM_climaterisk_2026/
 
 ---
 
-## Data
+## External Data
 
 **Raw PDF files:** `drive.google.com///` *(link to be updated)*
 
