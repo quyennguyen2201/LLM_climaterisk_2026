@@ -15,6 +15,8 @@ Around 200 CREs are required to report, including large banks, insurers, managem
 
 **CRE search hub:** https://crd-app.companiesoffice.govt.nz/dashboard/
 
+This notebook explores the scientific rigour of these disclosures in the first two iterations.
+
 ---
 
 ## Overview
