@@ -5,10 +5,21 @@ Replication repository for the following manuscript:
 > Nguyen, Q., Aden-Antoniow, F., Cradock-Henry, N. A., Drummond, J., Buxton, R., & Barr, A. (2026). *Evaluating the scientific rigour of climate scenario analysis: LLM-assisted evidence from New Zealand's mandatory disclosures* [Working paper].
 
 ---
+## Background: Climate-Related Disclosures in New Zealand
+
+In recognition of the ongoing impact of climate change, the New Zealand Government introduced a mandatory requirement for large entities to prepare and lodge annual climate-related disclosures. These entities are called **Climate Reporting Entities (CREs)** under the Financial Markets Conduct Act 2013.
+
+**NZ Climate Standard (NZCS 1):** https://www.xrb.govt.nz/standards/climate-related-disclosures/aotearoa-new-zealand-climate-standards/aotearoa-new-zealand-climate-standard-1/
+
+Around 200 CREs are required to report, including large banks, insurers, management schemes and public listed issuers. These CRE must meet a threshold of reporting (e.g. >1 billion in AUM or >NZ$60 million in market cap, refer to the paper). CREs must lodge climate statements or exemption notices with the CRE search hub within 4 months of their balance date. 
+
+**CRE search hub:** https://crd-app.companiesoffice.govt.nz/dashboard/
+
+---
 
 ## Overview
 
-This repository covers four main workflows:
+This repository covers five main workflows:
 
 1. Download of New Zealand climate statements from the CRE search hub
 2. Exploratory analysis of the final sample
@@ -74,9 +85,9 @@ LLM_climaterisk_2026/
 
 ## External Data
 
-**Raw PDF files:** `https://drive.google.com/drive/folders/1ZEM4f6etkYN_Tn6AS2uynkCWAflSQmf_?usp=drive_link` [uploading]
+<!-- **Raw PDF files:** `https://drive.google.com/drive/folders/1ZEM4f6etkYN_Tn6AS2uynkCWAflSQmf_?usp=drive_link` [uploading]
 
-The PDFs are New Zealand climate-related disclosure statements lodged by Climate Reporting Entities (CREs) with the Registrar of Financial Service Providers.
+The PDFs are New Zealand climate-related disclosure statements lodged by Climate Reporting Entities (CREs) with the Registrar of Financial Service Providers. -->
 
 
 ---
@@ -95,16 +106,6 @@ cfg = load_config()
 
 
 
----
-## Background: Climate-Related Disclosures in New Zealand
-
-In recognition of the ongoing impact of climate change, the New Zealand Government introduced a mandatory requirement for large entities to prepare and lodge annual climate-related disclosures. These entities are called **Climate Reporting Entities (CREs)** under the Financial Markets Conduct Act 2013.
-
-**NZ Climate Standard (NZCS 1):** https://www.xrb.govt.nz/standards/climate-related-disclosures/aotearoa-new-zealand-climate-standards/aotearoa-new-zealand-climate-standard-1/
-
-Around 200 CREs are required to report, including large banks, insurers, management schemes and public listed issuers. These CRE must meet a threshold of reporting (e.g. >1 billion in AUM or >NZ$60 million in market cap, refer to the paper). CREs must lodge climate statements or exemption notices with the CRE search hub within 4 months of their balance date. 
-
-**CRE search hub:** https://crd-app.companiesoffice.govt.nz/dashboard/
 
 
 
