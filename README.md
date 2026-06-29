@@ -79,6 +79,11 @@ LLM_climaterisk_2026/
 │   ├── List_of_selected_PDF_forLLManalysis.csv
 │   ├── List_of_unmatched_model.csv
 │   └── webscraping/
+│       ├── List_of_all_disclosures_as_of_2026.csv
+│       ├── List_of_investment_scheme_sub-entities_2026.csv
+│       ├── List_of_reporting_firms_2026.csv
+│       ├── List_of_reporting_firms_2026_detailed.csv
+│       └── List_of_reporting_firms_2026_withlink.csv
 │
 └── 05_final_results/                             # Output figures and tables
 ```
