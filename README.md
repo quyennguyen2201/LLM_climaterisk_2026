@@ -29,7 +29,7 @@ This repository covers five main workflows:
 4. Analysis of agentic RAG results
 5. Benchmark RAG results with groundtruth
 
-For the full implementation of the agentic RAG pipeline, see: https://github.com/florentaden/agent-climate-disclosure
+**Important!** The repository does not cover the full implementation of the agentic RAG pipeline. For the full implementation of the agentic RAG pipeline, see: https://github.com/florentaden/agent-climate-disclosure
 
 ---
 
