@@ -35,13 +35,14 @@ This repository covers five main workflows:
 
 ## Notebooks 
 
-| Script | Description |
-|--------|-------------|
-| `0-scrapping_disclosure.ipynb` | Download of New Zealand climate statements from the CRE search hub and save to `01_pdfs_2026/` |
-| `1-sample_analysis.ipynb` | Exploratory analysis for the final sample 227 statements (May 2026, period 2024–2025) |
-| `2-nlp_analysis.ipynb` | Preliminary NLP-based analysis of climate risk disclosures |
-| `3-rag_result.ipynb` | Analysis of agentic RAG results from structured answers from PDFs |
-| `4-rag_benchmark.ipynb` | Benchmarking and result analysis of RAG outputs vs groundtruth |
+<table>
+<tr><th width="40%">Script</th><th>Description</th></tr>
+<tr><td><code>0-scrapping_disclosure.ipynb</code></td><td>Download of New Zealand climate statements from the CRE search hub and save to <code>01_pdfs_2026/</code></td></tr>
+<tr><td><code>1-sample_analysis.ipynb</code></td><td>Exploratory analysis for the final sample 227 statements (May 2026, period 2024–2025)</td></tr>
+<tr><td><code>2-nlp_analysis.ipynb</code></td><td>Preliminary NLP-based analysis of climate risk disclosures</td></tr>
+<tr><td><code>3-rag_result.ipynb</code></td><td>Analysis of agentic RAG results from structured answers from PDFs</td></tr>
+<tr><td><code>4-rag_benchmark.ipynb</code></td><td>Benchmarking and result analysis of RAG outputs vs groundtruth</td></tr>
+</table>
 
 
 ---
