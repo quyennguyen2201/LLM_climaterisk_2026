@@ -58,22 +58,27 @@ LLM_climaterisk_2026/
 ├── 00_scripts/                                   # Analysis notebooks (run in order)
 │   ├── config_loader.py                          # Reads config.yaml; imported by all notebooks
 │   ├── 0-scrapping_disclosure.ipynb              # Scrape PDFs from CRE search hub
-│   ├── 1-sample_analysis.ipynb                  # Exploratory analysis of the sample
+│   ├── 1-sample_analysis.ipynb                   # Exploratory analysis of the sample
 │   ├── 2-nlp_analysis.ipynb                      # NLP-based disclosure analysis
 │   ├── 3-rag_result.ipynb                        # LLM-assisted extraction (RAG)
 │   └── 4-rag_benchmark.ipynb                     # Benchmarking RAG outputs
 │
 ├── 01_pdfs_2026/                                 # Downloaded disclosure PDFs
 │
-├── 02_full_rag_results/                          # LLM extraction outputs (one JSON per company-year)
+├── 02_full_rag_results/                          # LLM extraction outputs (one JSON per company-year for 227 sample files)
 │
-├── 03_benchmark_rag_results/                     # Ground-truth comparison (13 JSON files)
+├── 03_benchmark_rag_results/                     # Ground-truth comparison (one JSON per company-year for 13 sample files)
 │
 ├── 04_interim_results/                           # Reference & mapping tables
+│   ├── Explatorary_Analysis_2026.xlsx
 │   ├── Included_PDF_only.csv
-│   ├── List_of_selected_PDF_forLLManalysis.csv
+│   ├── List_of_all_PDF_for_normal_companies.csv
+│   ├── List_of_all_disclosures_as_of_2026_mapped.csv
 │   ├── List_of_climate_scenarios_RAG_renamed.csv
-│   └── List_of_mapped_models.csv
+│   ├── List_of_mapped_models.csv
+│   ├── List_of_selected_PDF_forLLManalysis.csv
+│   ├── List_of_unmatched_model.csv
+│   └── webscraping/
 │
 └── 05_final_results/                             # Output figures and tables
 ```
