@@ -7,9 +7,9 @@ Replication repository for the following manuscript:
 ---
 ## Background: Climate-Related Disclosures in New Zealand
 
-In recognition of the ongoing impact of climate change, the New Zealand Government introduced a mandatory requirement, namely **NZ Climate Standard (NZCS 1, 2, 3)[https://www.xrb.govt.nz/standards/climate-related-disclosures/aotearoa-new-zealand-climate-standards/aotearoa-new-zealand-climate-standard-1/]** for large entities to prepare and lodge annual climate-related disclosures. These entities are called **Climate Reporting Entities (CREs)** under the Financial Markets Conduct Act 2013. 
+In recognition of the ongoing impact of climate change, the New Zealand Government introduced a mandatory requirement, namely **[NZ Climate Standard (NZCS 1, 2, 3)](https://www.xrb.govt.nz/standards/climate-related-disclosures/aotearoa-new-zealand-climate-standards/aotearoa-new-zealand-climate-standard-1/)** for large entities to prepare and lodge annual climate-related disclosures. These entities are called **Climate Reporting Entities (CREs)** under the Financial Markets Conduct Act 2013. 
 
-Around 200 CREs are required to report, including large banks, insurers, management schemes and public listed issuers. These CRE must meet a threshold of reporting (e.g. >1 billion in AUM or >NZ$60 million in market cap, refer to the paper). CREs must lodge climate statements or exemption notices with the **CRE search hub[https://crd-app.companiesoffice.govt.nz/dashboard/]** within 4 months of their balance date. 
+Around 200 CREs are required to report, including large banks, insurers, management schemes and public listed issuers. These CRE must meet a threshold of reporting (e.g. >1 billion in AUM or >NZ$60 million in market cap, refer to the paper). CREs must lodge climate statements or exemption notices with the **[CRE search hub](https://crd-app.companiesoffice.govt.nz/dashboard/)** within 4 months of their balance date. 
 
 This notebook explores the scientific rigour of these disclosures in the first two iterations (FY24/25 and FY23/24).
 
