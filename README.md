@@ -112,9 +112,12 @@ The PDFs are New Zealand climate-related disclosure statements lodged by Climate
 
 ## Configuration
 
-All paths and model settings are stored in [`config.yaml`](config.yaml). Before running any notebook, update `base_dir` to match your local environment — everything else is derived from it automatically.
+All paths and model settings are stored in [`config.yaml`](config.yaml). 
 
-Before running webscraping, makesure you download the equivalent chrome driver and update `chromedriver`.
+- Before running any notebook, update `base_dir` to match your local environment — everything else is derived from it automatically.
+- Before running any notebook, check to see if you have the required packages otherwise download those (on top of the notebook as well).
+- Before running webscraping, make sure you download the equivalent **[Chrome driver]**(https://developer.chrome.com/docs/chromedriver/downloads) and update `chromedriver`.
+- Before running NLP analysis, make sure you download **[Google Tesseract]**(https://github.com/tesseract-ocr/tesseract) to run the OCR engine `libtesseract`. 
 
 Each notebook loads config at the top via:
 ```python
