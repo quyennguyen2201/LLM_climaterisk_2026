@@ -1,0 +1,171 @@
+{
+  "source": "CHANNEL_INFRASTRUCTURE_NZ_LIMITED_2023",
+  "model_id": "claude-sonnet-4-6",
+  "k": 20,
+  "chunk_mode": "parent",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "total_tokens": 157944,
+      "input_token_details": {
+        "cache_creation": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0
+      },
+      "input_tokens": 150282,
+      "output_tokens": 7662
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Channel Infrastructure developed and explored three climate-change scenarios: 1) Green Light (reference scenarios: NGFS Orderly, RCP 2.6, SSP 1, CCC Tailwinds) — global temperature rise 1.5°C by 2100; 2) Amber Light (reference scenarios: NGFS Disorderly, RCP4.5, SSP 2, CCC Headwinds) — global temperature rise 2.6°C by 2100; 3) Red Light (reference scenarios: NGFS Hothouse, RCP8.5, SSP 3, CCC Current Policy Reference) — global temperature rise 2.2°C by 2050; 4.0°C by 2100.",
+      "evidence": "\"We have developed and explored three climate-change scenarios... Green Light... Amber Light... Red Light... Reference scenarios: NGFS Orderly, RCP 2.6, SSP 1, CCC Tailwinds... Global temperature rise 1.5°C by 2100... Reference scenarios: NGFS Disorderly, RCP4.5, SSP 2, CCC Headwinds... Global temperature rise 2.6°C by 2100... Reference scenarios: NGFS Hothouse, RCP8.5, SSP 3, CCC Current Policy Reference... Global temperature rise 2.2°C by 2050; 4.0°C by 2100\"",
+      "location_hint": "Pages 42-53",
+      "confidence": "high",
+      "notes": "All three scenarios are explicitly named and described with their reference scenarios and temperature pathways in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document presents three scenarios with different global temperature outcomes by 2100:\n1. Green Light (orderly): 1.5°C\n2. Amber Light (disorderly): 2.6°C\n3. Red Light (hothouse): 4.0°C",
+      "evidence": "\"Global temperature increase by 2100, relative to pre-industrial levels: 1.5 [Green Light], 2.6 [Amber Light], 4.0 [Red Light]\"",
+      "location_hint": "Page 112, Appendix – Detailed climate scenario data table",
+      "confidence": "high",
+      "notes": "All three scenario temperature outcomes are explicitly stated in the summary data table on page 112, and corroborated by individual scenario pages (pp. 43, 47, 51).",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "The scenarios were developed using reference frameworks from: NGFS (Network for Greening the Financial System), IPCC (Intergovernmental Panel on Climate Change), IIASA (International Institute for Applied Systems Analysis), CCC (Climate Change Commission), and The Aotearoa Circle (Tourism Sector Climate Change Scenarios).",
+      "evidence": "\"Our climate references and datasets have come from: IPCC International Panel on Climate Change (AR5, AR6), NGFS Network for the greening of the financial system, IIASA International Institute for Applied Systems Analysis. (2018), CCC Climate Change Commission (2021), TNZ Treasury New Zealand (2022), MfE Ministry for the Environment (2018) and, where appropriate, The Aotearoa Circle Tourism Sector Climate Change Scenarios (2023).\"",
+      "location_hint": "Page 42",
+      "confidence": "high",
+      "notes": "The primary high-level scenario framework provider is NGFS, with physical risk data from IPCC (RCPs/SSPs), demand pathway data from CCC, and tourism sector context from The Aotearoa Circle.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes. Channel Infrastructure uses a \"pick-and-mix\" combination of SSPs and RCPs across its three scenarios:\n- Green Light: RCP 2.6 + SSP1 (Sustainability)\n- Amber Light: RCP 4.5 + SSP2 (Middle of the Road)\n- Red Light: RCP 8.5 (downscaled) / RCP 7.0* + SSP3 (Regional Rivalry)\n\nNotably, the Red Light scenario uses RCP7.0 as the intended baseline but was downscaled using RCP8.5 data due to unavailability of RCP7.0 downscaled data for New Zealand.",
+      "evidence": "\"Green light: RCP Used: 2.6 ... SSP: SSP1: Sustainability ... Amber light: RCP Used: 4.5 ... SSP: SSP2: Middle of the Road ... Red light: RCP Used: 8.5 D/S 7.0* ... SSP: SSP3: Regional Rivalry ... RCP7.0 is a baseline outcome to 4.0 degrees warming by the end of the century. This was downscaled using RCP8.5 due to data unavailability for RCP7.0 in New Zealand.\"",
+      "location_hint": "Page 113, Appendix 5",
+      "confidence": "high",
+      "notes": "The document explicitly pairs each scenario with a specific RCP and SSP. The Red Light scenario is a notable case where the intended RCP (7.0) differs from the one used for downscaling (8.5) due to data availability constraints in New Zealand.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes, Channel Infrastructure developed three customised climate change scenarios named \"Green Light,\" \"Amber Light,\" and \"Red Light,\" built upon global reference scenarios (NGFS Orderly, Disorderly, and Hothouse) and mapped to IPCC RCP and SSP pathways. These were tailored to a New Zealand context using data from IPCC (AR5, AR6), NGFS, CCC, Treasury NZ, Ministry for the Environment, and The Aotearoa Circle Tourism Sector Climate Change Scenarios.",
+      "evidence": "\"We have developed and explored three climate-change scenarios... We have drawn data from global climate change assumptions and applied these in a New Zealand context. Channel acknowledges the links our infrastructure services have to the aviation and tourism industry and where appropriate, have included relevant information from the Aotearoa Circle, Tourism sector climate change scenarios and other datasets for technical and narrative input. Our climate references and datasets have come from: IPCC International Panel on Climate Change (AR5, AR6), NGFS Network for the greening of the financial system, IIASA International Institute for Applied Systems Analysis. (2018), CCC Climate Change Commission (2021), TNZ Treasury New Zealand (2022), MfE Ministry for the Environment (2018) and, where appropriate, The Aotearoa Circle Tourism Sector Climate Change Scenarios (2023).\"",
+      "location_hint": "Page 42-43, Climate change scenarios section",
+      "confidence": "high",
+      "notes": "The three scenarios (Green Light, Amber Light, Red Light) are customised versions of the NGFS Orderly, Disorderly, and Hothouse scenarios, adapted to the New Zealand context. They are mapped to RCP2.6/SSP1, RCP4.5/SSP2, and RCP8.5(downscaled)/SSP7.0 respectively.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Channel Infrastructure developed its three climate scenarios (Green Light, Amber Light, Red Light) through a phased internal process involving workshops with the Corporate Lead Team (CLT) and relevant environmental experts, mapped against global reference models (NGFS, IPCC, CCC, etc.). The scenarios were not co-produced with external stakeholders in a formal co-design sense, but drew on external datasets and references including the Aotearoa Circle Tourism Sector Climate Change Scenarios. The scenario development process included: a Climate Change Scenario Workshop, a Physical Risk Assessment Workshop, a Transition Risk Assessment Workshop, and a CLT update on Climate Related Disclosures reporting including consultation and engagement on Climate Scenarios. Board oversight was provided through the Audit and Finance sub-committee.",
+      "evidence": "\"Throughout the scenario analysis process, our Corporate Lead Team (CLT) and relevant environmental experts have been engaged in the following workshops: • Climate Change Scenario Workshop • Physical Risk Assessment Workshop • Transition Risk Assessment Workshop • CLT update on Climate Related Disclosures reporting, including consultation and engagement on Climate Scenarios. Our Board of Directors, through the Audit and Finance sub-committee, have also had oversight across the process from June 2023...\"\n\n\"Our climate references and datasets have come from: IPCC International Panel on Climate Change (AR5, AR6), NGFS Network for the greening of the financial system, IIASA International Institute for Applied Systems Analysis. (2018), CCC Climate Change Commission (2021), TNZ Treasury New Zealand (2022), MfE Ministry for the Environment (2018) and, where appropriate, The Aotearoa Circle Tourism Sector Climate Change Scenarios (2023).\"",
+      "location_hint": "Page 37, Page 42",
+      "confidence": "high",
+      "notes": "The scenarios were developed internally with CLT and environmental experts using global reference frameworks (NGFS, IPCC, etc.) and supplemented by the Aotearoa Circle Tourism Sector scenarios. There is no evidence of formal co-production with external stakeholders beyond use of published datasets and reference models.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Channel Infrastructure developed three climate-change scenarios, each referencing the following baseline scenarios:\n1. Green Light: NGFS Orderly, RCP 2.6, SSP 1, CCC Tailwinds (1.5°C by 2100)\n2. Amber Light: NGFS Disorderly, RCP4.5, SSP 2, CCC Headwinds (2.6°C by 2100)\n3. Red Light: NGFS Hothouse, RCP8.5, SSP 3, CCC Current Policy Reference (2.2°C by 2050; 4.0°C by 2100)",
+      "evidence": "Reference scenarios: NGFS Orderly, RCP 2.6, SSP 1, CCC Tailwinds ... Global temperature rise 1.5°C by 2100 | Reference scenarios: NGFS Disorderly, RCP4.5, SSP 2, CCC Headwinds ... Global temperature rise 2.6°C by 2100 | Reference scenarios: NGFS Hothouse, RCP8.5, SSP 3, CCC Current Policy Reference ... Global temperature rise 2.2°C by 2050; 4.0°C by 2100",
+      "location_hint": "Pages 44, 48, 52",
+      "confidence": "high",
+      "notes": "Each of the three scenarios explicitly lists its reference scenarios (NGFS, RCP, SSP, and CCC pathway) along with the associated global temperature rise projections.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "Channel Infrastructure used multiple reference models/scenarios for their climate scenario analysis, including: NGFS (Network for Greening the Financial System) scenarios (Orderly, Disorderly/Hothouse), IPCC RCPs (RCP2.6, RCP4.5, RCP8.5), Shared Socioeconomic Pathways (SSP1, SSP2, SSP3), and Climate Change Commission (CCC) Pathways (Tailwinds, Headwinds, Current Policy Reference).",
+      "evidence": "\"Reference scenarios: NGFS Orderly, RCP 2.6, SSP 1, CCC Tailwinds\" / \"Reference scenarios: NGFS Disorderly, RCP4.5, SSP 2, CCC Headwinds\" / \"Reference scenarios: NGFS Hothouse, RCP8.5, SSP 3, CCC Current Policy Reference\"",
+      "location_hint": "Pages 44, 48, 52",
+      "confidence": "high",
+      "notes": "Three scenarios (Green Light, Amber Light, Red Light) each reference a combination of NGFS, RCP, SSP, and CCC pathway models. Physical risk data was downscaled to NZ context by NIWA.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Channel Infrastructure considers damage from acute physical risks including increased severity of extreme weather events (e.g., cyclones, storm surges, heavy rainfall, coastal erosion, and inundation). Cyclone Gabrielle is cited as a current climate-related impact, causing a damaged security fence, brief power outage, and waves of 11–12 metres. The company also maintains Material Damage and Business Interruption insurance as a financial mitigation for property damage and consequential business interruption from these risks.",
+      "evidence": "\"Physical risks to assets from climate change: We maintain Material Damage and Business Interruption insurance for property damage and consequential business interruption as a financial mitigation of these risks.\" and \"In addition to a brief power outage on site, a security fence on the coastal boundary was damaged as Bream Bay recorded waves of 11-12 metres.\" and \"Physical risks emanating from climate change can be event-driven (acute) such as increased severity of extreme weather events.\"",
+      "location_hint": "Page 66 (Table 6), Page 36 (Current climate-related impacts), Page 121 (Definitions)",
+      "confidence": "high",
+      "notes": "The document explicitly identifies acute physical risks (extreme weather events such as cyclones, storm surges) and documents actual damage from Cyclone Gabrielle, as well as insurance coverage for property damage and business interruption as a financial mitigation.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include the following non-temperature variables:\n1. NZ sea level rise (e.g., 0.24m for Amber Light and 0.28m for Red Light, for 2031-50 relative to 1995-2014)\n2. Rainfall intensity (100-yr ARI 12-hr rain depth, 2031-2050 relative to 1986-2005): +7.5% (Amber Light), +8.6% (Red Light)\n3. NZ Hot days (for 2031-2050 relative to 1986-2005): +54% (Amber Light), +67% (Red Light)\n4. NZ carbon price (for 2050, per tonne): $369 (Amber Light), $35 (Red Light)\n5. New Zealand Population in 2050 (SSP1): 5.94M (Amber Light), 6.94M (Red Light)",
+      "evidence": "SCENARIO INDICATORS: 0.24m NZ sea level rise / For 2031-50 relative to 1995-2014 / +7.5% Rainfall intensity / 100-yr ARI 12-hr rain depth, 2031-2050 relative to 1986-2005 / +54% NZ Hot days / For 2031-2050 relative to 1986-2005 / $369 NZ carbon price / For 2050, per tonne / 5.94M New Zealand Population in 2050 (SSP1) [Amber Light]; and: +8.6% Rainfall intensity / 100-yr ARI 12-hr rain depth, 2031-2050 relative to 1986-2005 / +67% NZ Hot days / For 2031-2050 relative to 1986-2005 / $35 NZ carbon price / For 2050, per tonne / 6.94M New Zealand Population in 2050 (SSP1) / 0.28m NZ sea level rise / For 2031-50 relative to 1995-2014 [Red Light]",
+      "location_hint": "Pages 47 and 51",
+      "confidence": "high",
+      "notes": "The Green Light scenario indicators are not shown in the retrieved context, but Amber Light and Red Light scenario indicators are clearly stated. Non-temperature variables include sea level rise, rainfall intensity, hot days, carbon price, and population.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Channel Infrastructure developed three climate change scenarios operating at both global and New Zealand (national) scale. The scenarios draw from global climate change assumptions (IPCC, NGFS, SSP) and apply them in a New Zealand context. The three scenarios are:\n1. Green Light – Global temperature rise limited to 1.5°C by 2100 (RCP2.6, SSP1, NGFS Orderly, CCC Tailwinds)\n2. Amber Light – Global temperature rise 2.6°C by 2100 (RCP4.5, SSP2, NGFS Disorderly, CCC Headwinds)\n3. Red Light – Global temperature rise 2.2°C by 2050 and 4.0°C by 2100 (RCP8.5, SSP3, NGFS Hothouse, CCC Current Policy Reference)",
+      "evidence": "\"We have drawn data from global climate change assumptions and applied these in a New Zealand context.\" / Green Light: \"Global temperature rise 1.5°C by 2100\" / Amber Light: \"Global temperature rise 2.6°C by 2100\" / Red Light: \"Global temperature rise 2.2°C by 2050; 4.0°C by 2100\"",
+      "location_hint": "Pages 42-53",
+      "confidence": "high",
+      "notes": "Scenarios are explicitly global in scope but downscaled to New Zealand context using NIWA data and NZ-specific datasets.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Channel Infrastructure defines three time horizons:\n- Short-term: to 2030\n- Medium-term: 2030 to 2050\n- Long-term: 2050 to 2100\n\nThe short-term horizon broadly aligns with existing Terminal Services Agreements (initial 10-year term to 2032, with two five-year rights of renewal). The medium and long-term horizons align with Channel's longer-term strategic planning and the lives of significant infrastructure assets.",
+      "evidence": "\"Risks and opportunities have been considered across three future time horizons: • Short-term to 2030 • Medium-term to 2050, and • Long-term to 2100.\" and \"Medium term 2030 - 2050 Long term 2050 - 2100\" and \"The short-term horizon broadly aligns with the existing Terminal Services Agreements that we have in place with our customers. The initial term of the contracts is 10 years (to 2032), with two five-year rights of renewal.\" and \"The medium and long-term horizons align with Channel's longer term strategic planning and the lives of significant infrastructure assets.\"",
+      "location_hint": "Page 41, 64",
+      "confidence": "high",
+      "notes": "The short-term end date is stated as \"to 2030\" on page 64, while the medium-term start is confirmed as 2030 on page 41. The definitions are explicitly linked to strategic planning horizons and capital deployment plans as required by NZ CS1 disclosure 14(a).",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Channel Infrastructure justified its scenario/model choices as follows:\n\n1. **NGFS Framework**: The 'Orderly', 'Disorderly', and 'Hothouse' scenarios were chosen because they \"best spanned the range of plausible futures for our organisation,\" and had also been used for tourism sector climate change scenarios by The Aotearoa Circle.\n\n2. **RCP/SSP pairings**: Each RCP was matched to an SSP based on narrative alignment:\n   - RCP2.6 / SSP1: RCP2.6 reflects net-zero decline quickly (~1.5–2°C warming); SSP1 prioritises energy affordability and well-being with 'low challenges to mitigation and adaptation', aligning with the rapid/smooth Green Light transition.\n   - RCP4.5 / SSP2: RCP4.5 peaks emissions ~2040; SSP2 ('Middle of the Road') reflects medium challenges, aligning with the delayed/disorderly Amber Light scenario.\n   - RCP8.5 (downscaled) / SSP3: RCP7.0 was the preferred baseline but was downscaled using RCP8.5 due to data unavailability for RCP7.0 in New Zealand; SSP3 ('Regional Rivalry') reflects low international priority for environmental concerns, aligning with the Red Light high-emissions scenario.\n\n3. **Climate Change Commission (CCC) pathways**: CCC pathways were chosen to align with each scenario narrative — 'Tailwinds' for Green Light (fast technology uptake), 'Headwinds' for Amber Light (slow uptake), and 'Current Policy' for Red Light (weak policy).\n\n4. **XRB guidance**: Channel followed External Reporting Board (XRB) guidance on scenario analysis in mapping global references to design the three scenarios.",
+      "evidence": "\"The NGFS framework is a widely used tool for determining high level scenario narratives. It was decided that the 'Orderly', 'Disorderly' and 'Hothouse' scenarios best spanned the range of plausible futures for our organisation, which has also been used for the tourism sector level climate change scenarios by The Aotearoa Circle.\"\n\n\"RCP2.6 is the most stringent mitigation scenario in which carbon dioxide emissions decline to net zero relatively quickly. It reflects a world in which warming is limited to around 1.5-2°C\" / \"SSP1: Sustainability reflects a world in which energy affordability and human well-being is prioritised. There are 'low challenges to mitigation and adaptation'. This aligned well with the rapid and smooth transition described in Green Light\"\n\n\"RCP4.5 illustrates global emissions peak around 2040 and slowly begin to decline thereafter. Similar climatic impacts are expected in the disorderly scenario described in this report\" / \"SSP2: Middle of the Road describes a world with largely similar socio-economic trends of today with 'medium challenges to mitigation and adaptation'. This aligns well with the lack of action until 2030 before a dramatic change thereafter\"\n\n\"RCP7.0 is a baseline outcome to 4.0 degrees warming by the end of the century. This was downscaled using RCP8.5 due to data unavailability for RCP7.0 in New Zealand.\" / \"SSP3: Regional rivalry describes a world with material focused consumption and low international priority for addressing environmental concerns. This aligns well with the lack of political action and technological development over time\"\n\n\"In line with the External Reporting Board (XRB) guidance on scenario analysis, Channel has mapped a series of global references to design our three climate scenarios and their temperature pathways.\"",
+      "location_hint": "Appendix 3, p.113-114; p.37",
+      "confidence": "high",
+      "notes": "Justifications are explicitly stated for each scenario/model pairing in the appendix. RCP8.5 was used as a downscale proxy for RCP7.0 due to data unavailability in New Zealand specifically.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "Channel Infrastructure experienced severe weather events in 2023, including Cyclone Gabrielle and significant rainfall events. The company improved site resilience through storm water system investments (removing over 200 tonnes of sediment and sludge) and dune protection improvements. Recent studies also observed and confirmed evidence of coastal erosion at the site boundary.",
+      "evidence": "\"The resilience of our operations through cyclone Gabrielle and severe weather in 2023 demonstrate the effectiveness of these measures and our emergency preparedness.\" and \"In 2023, we cleaned the storm water systems, removing over 200 tonnes of sediment and sludge, to further improve our ability to respond to significant rainfall events.\" and \"Recent studies have observed and confirmed evidence of erosion at the coastal site boundary, and identified the future possibility of ongoing erosion events as a result of climate change.\"",
+      "location_hint": "Page 81",
+      "confidence": "high",
+      "notes": "The document references historic climate impacts primarily through the lens of Cyclone Gabrielle and severe weather in 2023, as well as observed coastal erosion. No detailed financial quantification of historic impacts is provided.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Channel Infrastructure identified both direct and indirect physical climate risks through workshops and an independent consultancy assessment of the Marsden Point site. The top 10 physical risks (direct and indirect) are presented in Table 5 of the report. Direct physical risks were assessed taking into account exposure, sensitivity, adaptive capability and consequence. Indirect physical risks were ranked based on consequence only, as exposure, sensitivity and adaptive capacity are less well understood. Key direct physical risks include: (1) Harm to people, assets, and the environment (from extreme weather events, managed via storm-water systems, coastal erosion management, and incident management processes); and (2) Physical risks to assets from climate change (including coastal erosion and inundation risks at Marsden Point, assessed via a coastal hazards assessment by an independent expert considering future sea-level rise). The assessment found most assets are safe from coastal erosion and inundation risks provided the existing rock revetment is maintained or realigned, with a flood gate mitigating inundation risks. The site has a relatively low exposure to physical climate change risks under a range of scenarios.",
+      "evidence": "\"Direct physical risks: The following direct physical risks were identified through a series of workshops, leveraging an independent consultancy assessment of climate change risks to the Marsden Point site. The risk rating has been assessed, taking into account the exposure, sensitivity, adaptive capability and consequence. Channel also considered indirect physical risks to the business from climate related impacts. Indirect risks were ranked based on consequence only, as exposure, sensitivity and adaptive capacity are less well understood. TABLE 5: TOP 10 PHYSICAL RISKS (DIRECT AND INDIRECT)\"",
+      "location_hint": "Page 65-67, Table 5 and Table 6",
+      "confidence": "high",
+      "notes": "The document references Table 5 (Top 10 Physical Risks, direct and indirect) on page 66, but the actual table content is not fully reproduced in the retrieved chunks. The summary of key risks and mitigations is drawn from pages 65-67 and page 81. The coastal hazards assessment found risks to be low to medium until at least 2080 in the majority of cases with implementation of simple mitigations.",
+      "verification": null
+    }
+  ]
+}

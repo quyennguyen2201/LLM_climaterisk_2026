@@ -1,0 +1,171 @@
+{
+  "source": "CHRISTCHURCH_INTERNATIONAL_AIRPORT_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "k": 10,
+  "chunk_mode": "child",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 35216,
+      "total_tokens": 41053,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_creation": 0,
+        "cache_read": 0
+      },
+      "output_tokens": 5837
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "The document analyses three scenarios: Scenario 1, Scenario 2 (the \"Disorderly\" scenario), and Scenario 3. Based on the context, the Disorderly scenario is one of three challenging, plausible futures explored, with references to pages 10, 11, and 12 for Scenarios 1, 2, and 3 respectively.",
+      "evidence": "\"we analysed three scenarios that describe challenging, plausible futures, exploring different assumptions for how climate policy, emissions, temperatures and physical risk impacts might evolve over time.\" and \"Scenario 1 Page 10 / Scenario 2 Page 11 / Scenario 3 Page 12\" and \"DISORDERLY SCENARIO ... The international government policy response to climate...\"",
+      "location_hint": "Pages 6, 8, 23",
+      "confidence": "medium",
+      "notes": "The context confirms three scenarios exist and names one as the \"Disorderly\" scenario. The full names of all three scenarios are not fully captured in the retrieved chunks — only the Disorderly scenario is explicitly named. Scenario 1, 2, and 3 are referenced on page 23 with page numbers 10, 11, and 12 respectively. One scenario is described as having \"delayed, fragmented, and insufficient\" global efforts where \"both transition and physical risks are high.\"",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes three scenarios with the following global temperature outcomes by 2100: (1) Orderly scenario: ~+1.5°C; (2) Disorderly scenario: <+2°C; (3) Hot House World scenario: >+3°C.",
+      "evidence": "\"Orderly – 'Net zero by 2050' scenario, under which the increase in global surface temperatures is limited to ~1.5°C.\" / \"Disorderly – 'Delayed Transition' scenario, under which the increase in global surface temperatures is [<+2°C]\" / \"HOT HOUSE WORLD SCENARIO Critical Timeframe: 2050 - 2100 Average global temperature >+3°C\"",
+      "location_hint": "Pages 6–9",
+      "confidence": "high",
+      "notes": "Three scenarios are used: Orderly (~1.5°C), Disorderly (<2°C, critical timeframe 2030–2050), and Hot House World (>3°C, critical timeframe 2050–2100). The Disorderly scenario temperature figure is drawn from page 8 where it states \"Average global temperature <+2°C\".",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "The scenario providers used are: IPCC, NGFS (Network for Greening the Financial System), NIWA (with downscaled data), Climate Change Commission (CCC), The Aotearoa Circle, and New Zealand Green Building Council.",
+      "evidence": "\"sets (IPCC and NGFS), and downscaled NIWA data to inform physical risk exposure. In this regard, CCC pathways and sector scenarios were referenced in a qualitative context only... Network for Greening the Financial System... NIWA... NIWA downscaled RCP8.5... The Aotearoa Circle – Tourism Sector Climate Change Scenarios... New Zealand Green Building Council – Climate change scenarios for the Construction and Property sector\"",
+      "location_hint": "Pages 7–9",
+      "confidence": "high",
+      "notes": "Multiple scenario providers are referenced across the document: IPCC, NGFS, NIWA, CCC (Climate Change Commission), The Aotearoa Circle, and New Zealand Green Building Council.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "The document uses SSPs only (no RCPs). For physical risk assessment: SSP1-2.6, SSP2-4.5, and SSP5-8.5 (with NIWA downscaled data). For transition risk/opportunity assessment: SSP1-1.9 (Orderly), SSP1-2.6 (Disorderly), and SSP2-4.5 (Too Little Too Late).",
+      "evidence": "\"The global warming scenarios adopted for the physical risk assessment included SSP1-2.6, SSP2-4.5 and SSP5-8.5, and we used NIWA's downscaled data for these scenarios to understand the climate change projections for Christchurch and the Canterbury region (Eastern South Island).\" and transition scenario key: \"Orderly - SSP1-1.9 / Disorderly - SSP1-2.6 / Too Little Too Late - SSP2-4.5\"",
+      "location_hint": "Pages 10–11",
+      "confidence": "high",
+      "notes": "No RCPs are used; all scenarios are expressed as SSPs. Physical risk uses three SSPs (SSP1-2.6, SSP2-4.5, SSP5-8.5); transition risk uses a different set of three SSPs (SSP1-1.9, SSP1-2.6, SSP2-4.5).",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes, CIAL developed three customised, entity-level scenario narratives. These were developed through a workshop with subject matter experts from across the business, drawing on established data sets (IPCC, NGFS, downscaled NIWA data) and referencing CCC pathways and sector scenarios in a qualitative context. The scenarios explore different assumptions for how climate policy, emissions, temperatures, and physical risk impacts might evolve over time. External sources referenced include the New Zealand Green Building Council Climate Change Scenarios, the Air Transport Action Group Waypoint 2050, and The Aotearoa Circle Transport Sector Climate Change Scenarios.",
+      "evidence": "\"For the purpose of testing CIAL's business strategy, we developed three, entity-level scenario narratives that test two pathways under which the international community... To develop the scenarios, a team of subject matter experts from across the business participated in a workshop... sets (IPCC and NGFS), and downscaled NIWA data to inform physical risk exposure. In this regard, CCC pathways and sector scenarios were referenced in a qualitative context only, to inform the types of national policy settings that would be in place and the way alternative futures might plausibly develop under scenarios.\"",
+      "location_hint": "Page 6-9",
+      "confidence": "high",
+      "notes": "CIAL developed three customised scenarios rather than using off-the-shelf scenarios wholesale. They used established data sets and sector scenarios as inputs but built their own entity-level narratives. The three scenarios are referenced on pages 10, 11, and 12 of the document.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes. CIAL co-produced its climate scenarios through a structured scenario development process involving internal stakeholders and external facilitation. In FY25, a scenario refresh session was held where participants (including the ELT and Board) reconsidered and reframed the focal question to \"How do we continue to thrive, build resilience, and support sector decarbonisation in the context of systemic change?\" The results were consolidated into scenario narratives that were reviewed, challenged, and endorsed by the ELT and Board. The scenarios drew on external frameworks including IPCC, NGFS, downscaled NIWA data, New Zealand Green Building Council climate scenarios, the Aotearoa Circle Transport Sector Climate Change Scenarios, and the Air Transport Action Group's Waypoint 2050.",
+      "evidence": "\"In the FY25 Scenario refresh session, the group reconsidered the focal question. Participants agreed to reframe the focal question to 'How do we continue to thrive, build resilience, and support sector decarbonisation in the context of systemic change?'... The results of this session were consolidated into the scenario narratives as provided below, which were reviewed, challenged, and endorsed by the ELT and Board.\"",
+      "location_hint": "Page 6",
+      "confidence": "high",
+      "notes": "The scenario development process involved internal workshops with subject matter experts (SMEs), ELT and Board endorsement, and drew on multiple external data sources and sector scenarios. An initial OCCRA process was facilitated by Deloitte in FY23.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "CIAL used three baseline climate scenarios for physical risk assessment: SSP1-2.6, SSP2-4.5, and SSP5-8.5, using NIWA's downscaled data for Christchurch and the Canterbury region (Eastern South Island). For transition risks, a \"Disorderly\" scenario was also developed, targeting an average global temperature of less than +2°C with a critical timeframe of 2030–2050.",
+      "evidence": "\"risk assessment included SSP1-2.6, SSP2-4.5 and SSP5-8.5, and we used NIWA's downscaled data for these scenarios to understand the climate change projections for Christchurch and the Canterbury region (Eastern South Island). The risks identified were systematically rated, using the downscaled climate projections provided by NIWA.\"",
+      "location_hint": "CIALTS25007 Climate Related Disclosure FINAL.pdf, page 10",
+      "confidence": "high",
+      "notes": "The Disorderly scenario targets average global temperature <+2°C (page 8). The three SSP scenarios are the baseline scenarios used for physical risk assessment. Transition risk horizon is 30 years (page 10).",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context describes the scenarios used (Orderly, Disorderly, Hot House World) and mentions scenario architecture and data sources, but does not explicitly name a specific climate model (e.g., IAM or GCM) used to generate the scenario data.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. The document identifies acute physical risks including fluvial and pluvial flooding causing flood damage, repair costs, and disruption to operations (PR3), as well as increased severity and frequency of high wind events (PR5), and more frequent and intense rainfall events affecting stormwater infrastructure. Damage from these acute physical risks is considered in the climate risk assessment process.",
+      "evidence": "\"PR3 Fluvial and pluvial flooding result in increased repair costs, disruption to operations and asset upgrade investments. Flood damage to airport campus due to the...\" and \"This includes mitigation work to upgrade the capacity of airport and freight apron storm water infrastructure for greater run-off volumes considering increased risks associated with more frequent and intense rainfall events, and fluvial and pluvial flooding.\"",
+      "location_hint": "Page 12 and Page 14",
+      "confidence": "high",
+      "notes": "The document explicitly identifies acute physical risks (flooding, high winds, intense rainfall) and their associated damages (repair costs, revenue losses, operational disruption). The full extent of damage quantification is not provided in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "low",
+      "notes": "The retrieved context mentions some climate hazard variables (e.g., \"45 wet days per annum,\" \"80 hot days per annum,\" wind events, rainfall, flooding, stormwater), but does not explicitly describe non-temperature variables (such as precipitation, sea level rise, wind speed, etc.) as defined inputs within the climate scenarios used. There is no dedicated section in the provided passages that lists or quantifies non-temperature scenario variables.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "CIAL uses scenarios at both global and local/regional scales. The physical risk assessment used SSP1-2.6, SSP2-4.5, and SSP5-8.5, with NIWA's downscaled data applied specifically for Christchurch and the Canterbury region (Eastern South Island). Transition risks were assessed using global scenario frameworks including NGFS scenarios, IPCC AR5/AR6, and sector-specific New Zealand scenarios (e.g., The Aotearoa Circle, NZ Green Building Council).",
+      "evidence": "our physical climate change risk assessment included SSP1-2.6, SSP2-4.5 and SSP5-8.5, and we used NIWA's downscaled data for these scenarios to understand the climate change projections for Christchurch and the Canterbury region (Eastern South Island).",
+      "location_hint": "Page 10",
+      "confidence": "high",
+      "notes": "Scenarios operate at both global (IPCC SSPs, NGFS) and local/regional scales (NIWA downscaled data for Christchurch/Canterbury). Transition risk scenarios use a 30-year time horizon.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "The document defines three time frames, which differ slightly depending on whether they apply to transition risks or physical risks:\n\n**Transition risks:**\n- Short-term (ST): Now to 2029 (current day to 5 years into the future, 2025–2029)\n- Medium-term (MT): 2030 to 2039 (5–15 years)\n- Long-term (LT): 2040 to 2054 (15–30 years)\n\n**Physical/scenario analysis (aligned with scenario analysis process):**\n- Short-term (ST): Now to 2029 (or now–2030)\n- Medium-term (MT): 2030 to 2050\n- Long-term (LT): 2050 to 2100\n\nThese time horizons were chosen to align with CIAL's strategic planning horizons.",
+      "evidence": "\"The short-term timeframe is current day to 5 years into the future (2025 – 2029), medium-term 5-15 years (2030– 2039), and long-term 15-30 years (2040 – 2054). These time horizons were chosen to align with our strategic planning horizons.\"\n\n\"Short-term (ST): Now to 2029 / Medium-term (MT): 2030 to 2050 / Long-term (LT): 2050 to 2100\" (physical risk timeframes key)\n\n\"The time horizons were agreed as short-term (now -2030), medium-term (2030-2050), and long-term (2050-2100).\" (scenario analysis process)",
+      "location_hint": "Pages 10, 11, 12, and 6",
+      "confidence": "high",
+      "notes": "Two slightly different sets of time frames are used: one for transition risks (ST: 2025–2029, MT: 2030–2039, LT: 2040–2054) and one for physical/scenario analysis (ST: now–2029/2030, MT: 2030–2050, LT: 2050–2100). Both are explicitly stated in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "CIAL used IPCC and NGFS data sets for transition risk modelling, downscaled NIWA data to inform physical risk exposure, and referenced CCC pathways and sector scenarios (including Aotearoa Circle's Transport Sector Scenarios) in a qualitative context only. Three scenarios were developed to describe challenging, plausible futures, exploring different assumptions for how climate policy, emissions, temperatures and physical risk impacts might evolve over time. The modelling inherent in these sector scenario archetypes is described as the extent of the modelling used by CIAL in its scenario analysis.",
+      "evidence": "\"sets (IPCC and NGFS), and downscaled NIWA data to inform physical risk exposure. In this regard, CCC pathways and sector scenarios were referenced in a qualitative context only, to inform the types of national policy settings that would be in place and the way alternative futures might plausibly develop under scenarios.\" and \"identified in Aotearoa Circle's Transport Sector Scenarios were also considered. The modelling which is inherent in these sector scenario archetypes is the extent of the modelling used by CIAL in its scenario analysis.\"",
+      "location_hint": "Pages 6–9",
+      "confidence": "high",
+      "notes": "The document explains the rationale for each data source: IPCC/NGFS for quantitative modelling, NIWA for downscaled physical risk data, and CCC/Aotearoa Circle sector scenarios for qualitative policy context. No further quantitative model justification is provided beyond these references.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "No physical risks were identified as having a material impact in the current year. The physical impacts of climate change for CIAL are not expected to be material in the short to medium term.",
+      "evidence": "\"No physical risks were identified as having a material impact in the current year.\" and \"While the physical impacts of climate change for CIAL are not expected to be material in the short to medium term, there are several initiatives related to physical climate risks that we have progressed\"",
+      "location_hint": "Page 12 and Page 14",
+      "confidence": "high",
+      "notes": "The document does not provide specific historic climate impact data or events. It only states that no physical risks were material in the current reporting year and that impacts are not expected to be material in the short to medium term.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "No physical risks were identified as having a material impact in the current year. The physical risks identified include PR1: Increasing hot days resulting in increased operations and maintenance costs, disruption to operations. Physical risks were assessed across three risk areas: Operations, Assets, and People, and modelled to identify the most material risks by climate hazard, risk type, and risk area. The company intends to undertake further analysis on the costs of responding to climate-related impacts on assets and operations to understand future decision points guiding investment in remediation, upgrades, or replacement.",
+      "evidence": "\"No physical risks were identified as having a material impact in the current year.\" and \"PR1: Increasing hot days result in increased operations and maintenance costs, disruption to...\" and \"we intend to undertake further analysis on the costs of responding to climate-related impacts on our assets and operations to understand the future decision points that will guide our decisions on investment in remediation, upgrades, or replacement.\"",
+      "location_hint": "Page 12 and Page 14",
+      "confidence": "high",
+      "notes": "The context shows a physical risk table (PR1) but the full details of all physical risks listed in the table are truncated in the retrieved chunks. Only PR1 (increasing hot days) is partially visible. The document confirms no physical risks were material in the current reporting year.",
+      "verification": null
+    }
+  ]
+}

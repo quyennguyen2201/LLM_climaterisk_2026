@@ -1,0 +1,341 @@
+{
+  "source": "AA_INSURANCE_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 818585,
+      "total_tokens": 826916,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 746321,
+        "ephemeral_5m_input_tokens": 72247,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 8331
+    }
+  },
+  "retrieval_trace": [
+    {
+      "q_id": 1,
+      "tool": "search_knowledge_base",
+      "query": "climate scenarios pathways used",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 2,
+      "tool": "search_knowledge_base",
+      "query": "global temperature outcomes 2100 1.5 degrees 2 degrees warming",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 3,
+      "tool": "search_knowledge_base",
+      "query": "scenario provider IPCC NGFS NIWA MfE CCC",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 5,
+      "tool": "search_knowledge_base",
+      "query": "customised adapted localised downscaled tailored scenarios",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 4,
+      "tool": "search_knowledge_base",
+      "query": "SSP RCP combination mixing scenario families",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 6,
+      "tool": "search_knowledge_base",
+      "query": "participatory co-create co-design stakeholder collaborative scenario development",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 8,
+      "tool": "search_knowledge_base",
+      "query": "climate models integrated assessment models IAM macroeconomic models CLIMADA REMIND",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 9,
+      "tool": "search_knowledge_base",
+      "query": "extreme events acute physical risk damage loss estimates flood storm",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 7,
+      "tool": "search_knowledge_base",
+      "query": "baseline reference scenario comparison current policies",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 12,
+      "tool": "search_knowledge_base",
+      "query": "time horizons short medium long term rationale justification",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 10,
+      "tool": "search_knowledge_base",
+      "query": "carbon price sea level rise rainfall EV uptake variables driving scenarios",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 11,
+      "tool": "search_knowledge_base",
+      "query": "global regional local downscaled climate model scale",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 13,
+      "tool": "search_knowledge_base",
+      "query": "justification why scenarios chosen selected rationale",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 14,
+      "tool": "search_knowledge_base",
+      "query": "historical observed impacts climate hazards assets operations customers",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 15,
+      "tool": "search_knowledge_base",
+      "query": "direct indirect physical climate risks supply chain customers suppliers",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 13,
+      "tool": "search_knowledge_base",
+      "query": "models deemed appropriate widely used insurance sector physical transition risks",
+      "k": 5,
+      "n_results": 5
+    },
+    {
+      "q_id": 4,
+      "tool": "search_knowledge_base",
+      "query": "RCP representative concentration pathway scenario",
+      "k": 5,
+      "n_results": 5
+    }
+  ],
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly (ICNZ Orderly / NGFS Net Zero 2050 / IPCC SSP1-2.6 / CCC HTHS)",
+        "Disorderly (ICNZ Disorderly / NGFS Delayed Transition / IPCC SSP2-4.5 / CCC HTLS)",
+        "Hot House (ICNZ Hot House / NGFS Current Policies / IPCC SSP3-7.0 / CCC Reference)"
+      ],
+      "evidence": "Key sources: ICNZ Orderly, NGFS Net zero 2050, IPCC SSP1 - 2.6, CCC HTHS | Key sources: ICNZ Disorderly, NGFS Delayed transition, IPCC SSP2 - 4.5, CCC HTLS | Key sources: ICNZ Hot House, NGFS Current policies, IPCC SSP3 - 7.0, CCC Reference",
+      "location_hint": "Table 4: Scenario overview, p.11",
+      "confidence": "high",
+      "notes": "Three proprietary scenarios (Orderly, Disorderly, Hot House) each draw on multiple external frameworks: ICNZ, NGFS, IPCC SSPs, and CCC scenarios.",
+      "verification": 5,
+      "ani_notes": "Orderly;Disorderly;Hot house",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes by 2100 are described: (1) Orderly: 1.8°C increase (consistent with 1.5°C at the low end), sourced from IPCC SSP1-2.6; (2) Disorderly: 2.7°C increase (warming limited to <2°C in 2050), sourced from IPCC SSP2-4.5; (3) Hot House: 3.6°C increase, sourced from IPCC SSP3-7.0. All relative to 1850–1900 baseline.",
+      "evidence": "1.8°C temperature increase by 2100 relative to 1850-1900 baseline. Source: IPCC SSP1-2.6 (note that the low end of the range is consistent with 1.5°C) | 2.7°C temperature increase by 2100, relative to 1850-1900 baseline. Source: IPCC SSP2-4.5 (note that warming is limited to <2°C in 2050) | 3.6°C temperature increase by 2100 relative to 1850-1900 baseline. Source: IPCC SSP3-7.0",
+      "location_hint": "Appendix 1: Full scenario narratives, p.29",
+      "confidence": "high",
+      "notes": "All three temperature outcomes are explicitly stated with their sources.",
+      "verification": 5,
+      "ani_notes": "1.8°C by 2100;2.7°C by 2100;3.6°C by 2100",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers are explicitly named: (1) NGFS – Network for Greening the Financial System; (2) IPCC – Intergovernmental Panel on Climate Change (Shared Socio-economic Pathways); (3) CCC – Climate Change Commission (New Zealand); (4) ICNZ – Insurance Council of New Zealand Te Kāhui Inihua o Aotearoa; (5) NIWA – for sea level rise data; (6) Treasury – for shadow carbon price pathways.",
+      "evidence": "The data sources used to construct these scenarios were largely drawn from several local and global frameworks: Network for Greening the Financial System (NGFS), the Intergovernmental Panel on Climate Change's (IPCC) Shared Socio-economic Pathways (SSP), and the Climate Change Commission (CCC). Policy assumptions were updated to reflect the updated CCC scenarios provided to Central Government as part of their advice on the Fourth Emissions budget.",
+      "location_hint": "Scenario development section, p.11",
+      "confidence": "high",
+      "notes": "NIWA is cited as the source for sea level rise data (SSP1-2.6, SSP2-4.5, SSP3-7.0) and Treasury for shadow carbon price pathways, both in Appendix 1, p.29.",
+      "verification": 5,
+      "ani_notes": "ICNZ (Insurance Council of New Zealand);  Network for Greening the Financial System (NGFS), Intergovernmental Panel on Climate Change’s; (IPCC) Shared Socio-economic Pathways (SSP);Climate Change Commission (CCC).",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "No",
+      "evidence": "The data sources used to construct these scenarios were largely drawn from several local and global frameworks: Network for Greening the Financial System (NGFS), the Intergovernmental Panel on Climate Change's (IPCC) Shared Socio-economic Pathways (SSP), and the Climate Change Commission (CCC).",
+      "location_hint": "Scenario development section, p.11",
+      "confidence": "high",
+      "notes": "The document only references SSPs (SSP1-2.6, SSP2-4.5, SSP3-7.0). No RCP identifiers are mentioned anywhere in the document. There is no mixing of SSP and RCP families.",
+      "verification": 5,
+      "ani_notes": "Yes - they have picked and mixed (this answer is wrong)",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "The scenarios developed alongside the Insurance Council of New Zealand Te Kāhui Inihua o Aotearoa (ICNZ) in June 2022 for the New Zealand General Insurance sector were used as a starting point. These were further developed through a workshop held in November 2024 with a variety of business units including Claims, Pricing, Underwriting, Product, Corporate Affairs, Sustainability and Risk, to ensure the scenarios were relevant and appropriate for our business. The group identified key uncertainties and drivers of change including EV trends, reinsurance and government action, which were integrated into the scenario narratives. Policy assumptions were updated to reflect the updated CCC scenarios provided to Central Government as part of their advice on the Fourth Emissions budget.",
+      "location_hint": "Scenario development section, p.11",
+      "confidence": "high",
+      "notes": "The scenarios were explicitly adapted from ICNZ sector-level scenarios and further customised for AA Insurance's specific business context through internal workshops. Policy assumptions were also updated to reflect the latest CCC advice.",
+      "verification": 5,
+      "ani_notes": "ICNZ scenario was a starting point, then internal workshop was held (including EV trends, reinsurance and government action into scenarios). he Climate Change Commission (CCC). Policy assumptions were updated to reflect the updated CCC scenarios provided to Central Government as part of their advice on the Fourth Emissions budget.",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes – scenarios were developed through internal cross-functional workshops, though not through external stakeholder co-production.",
+      "evidence": "These were further developed through a workshop held in November 2024 with a variety of business units including Claims, Pricing, Underwriting, Product, Corporate Affairs, Sustainability and Risk, to ensure the scenarios were relevant and appropriate for our business. The group identified key uncertainties and drivers of change including EV trends, reinsurance and government action, which were integrated into the scenario narratives.",
+      "location_hint": "Scenario development section, p.11",
+      "confidence": "medium",
+      "notes": "The document describes internal multi-team workshops used to develop and refine scenarios, which constitutes a form of participatory development. However, the co-production was internal (across business units) rather than with external stakeholders. The term \"co-produce\" is not used explicitly.",
+      "verification": 4,
+      "ani_notes": "Yes - co-produced with New Zealand General insurance sector",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Yes – a present-day baseline is used for physical modelling comparisons. The AAL outputs from future climate scenarios are compared to a \"present day AAL.\" The portfolio data as at 30 June 2024 is used as a proxy for present day.",
+      "evidence": "The AAL outputs were compared to our present day AAL to understand how these expected losses may change under different future climate scenarios. In scope portfolios were our home, contents, motor and small business insurance portfolios, as at 30 June 2024, assumed to be an appropriate proxy for present day.",
+      "location_hint": "Appendix 2: CCSA modelling methods, assumptions and limitations, p.30",
+      "confidence": "high",
+      "notes": "The \"present day\" portfolio (as at 30 June 2024) serves as the reference baseline against which future scenario AALs are compared. The Hot House scenario (NGFS Current Policies / SSP3-7.0) also functions as a high-warming reference scenario, but the explicit baseline for quantitative comparison is the present-day AAL.",
+      "verification": 1,
+      "ani_notes": "No mentions of baseline scenario, although mention of baseline years",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": [
+        "Finity (third-party proprietary model for storm and coastal inundation modelling)",
+        "Aon (third-party proprietary model for river and surface water flood modelling)",
+        "Computable General Equilibrium (CGE) model created by Victoria University (Melbourne) – used for transition modelling"
+      ],
+      "evidence": "We used the third-party modelling expertise of both Finity (storm and coastal inundation modelling) and Aon (river and surface water flood modelling, as used in 2023)... The transition modelling performed by Finity used a Computable General Equilibrium (CGE) model created by Victoria University (Melbourne) to capture regional and national changes in response to potential economic shocks under each of the chosen scenarios.",
+      "location_hint": "Appendix 2: CCSA modelling methods, assumptions and limitations, p.30",
+      "confidence": "high",
+      "notes": "Finity and Aon are named as third-party modelling providers. The specific physical climate models within their proprietary databases are not named. The CGE model from Victoria University (Melbourne) is named for transition modelling.",
+      "verification": 5,
+      "ani_notes": "Finity (storm and coastal inundation modelling); Aon (river and surface water flood modelling); A Computable General Equilibrium (CGE) model created by Victoria University (Melbourne)",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes – the scenario analysis explicitly includes Average Annual Loss (AAL) estimates from weather events (flood, storm, coastal inundation), which are acute physical risks. However, the modelling projects average annual losses rather than extreme tail events specifically.",
+      "evidence": "AAL is the average financial loss we expect in a year for an insured risk or portfolio due to damage from weather events, which can be modelled based on the projected temperature changes defined by the equivalent SSP... The analysis concluded that AALs are projected to increase under each scenario due to the increased frequency of severe weather events. Increases to AALs are predominantly due to flooding and coastal inundation... The modelling projects the average of the range of possible losses each year, rather than losses associated with extreme tail events only. This means that individual extreme events are averaged within the AALs used.",
+      "location_hint": "Strategy p.12; Appendix 2 p.30",
+      "confidence": "high",
+      "notes": "The document explicitly models financial losses from acute weather events (flood, storm, coastal inundation) across scenarios. The document also notes that the modelling averages losses rather than focusing solely on extreme tail events, and that perils such as coastal erosion, wildfire, drought and rain-induced landslip were excluded.",
+      "verification": 5,
+      "ani_notes": "Yes, the volume and severity of claims rises as the increasing frequency and severity of extreme weather events",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "Carbon price (shadow price of carbon in NZD/tonne)",
+        "Sea level rise (cm by 2100)",
+        "EV uptake (% of light passenger vehicles electric)",
+        "Emissions pricing",
+        "Renewable energy growth",
+        "Electrification",
+        "Inflation",
+        "Insurance affordability",
+        "Reinsurance premiums",
+        "Flood frequency and severity",
+        "Storm frequency",
+        "Coastal inundation"
+      ],
+      "evidence": "EV Uptake, Carbon Price, Warming, Sea Level Rise [listed as key scenario variables for each scenario]. $119 NZD2024/tonne shadow price of carbon in 2030 and $214 by 2050... 73cm rise in sea level by 2100, relative to 1995-2014 baseline... 85% uptake of electric light passenger vehicles by 2050.",
+      "location_hint": "Appendix 1: Full scenario narratives, p.29",
+      "confidence": "high",
+      "notes": "The four headline quantitative variables per scenario are EV uptake, carbon price, warming, and sea level rise. Additional qualitative drivers include renewable energy growth, electrification, inflation, reinsurance costs, and weather event frequency/severity.",
+      "verification": 5,
+      "ani_notes": "Carbon prices; Growth in renewable energy;EV uptake + electrification; Growth in forestry;Economic growth;Inflation; Living costs; Social goal commitment;Sea level rise",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "The modelling included matching address level portfolio data to third-party proprietary databases and applying a series of climate layers corresponding to the three chosen scenarios and time horizons. The AAL outputs were compared to our present day AAL to understand how these expected losses may change under different future climate scenarios. Results were summarised at a postcode level, but modelling was conducted at address level. [Sea level rise sourced from] NIWA SSP3-7.0 [and] NIWA SSP1-2.6 [and] NIWA SSP2-4.5.",
+      "location_hint": "Appendix 2: CCSA modelling methods, assumptions and limitations, p.30; Appendix 1, p.29",
+      "confidence": "high",
+      "notes": "Global SSP scenarios from IPCC are used as the overarching framework, but physical modelling is conducted at address level and postcode level for New Zealand, and sea level rise data is sourced from NIWA (New Zealand-specific). The transition modelling uses a CGE model capturing regional and national changes for New Zealand.",
+      "verification": 5,
+      "ani_notes": "Global and national reference data",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Three time horizons are defined: Short term (2025–2030), Medium term (2030–2040), Long term (2040–2050). Rationales are explicitly provided for each.",
+      "evidence": "Short term 2025 – 2030: Aligns with our short-term emissions reduction target and our 3–5-year business planning cycle. Medium term 2030 – 2040: A midpoint between the short and long terms. Long term 2040 – 2050: Aligns with the New Zealand Government's target of net zero emissions of long-lived gases by 2050.",
+      "location_hint": "Time horizons section, Strategy p.12",
+      "confidence": "high",
+      "notes": "Rationales are explicitly stated for all three time horizons. The document also notes: \"We updated our definitions of short, medium and long term, to better reflect our internal view of these time horizons. This change has had no material impact on our disclosure.\"",
+      "verification": 5,
+      "ani_notes": "Short-term (2025-2030); Medium term (2030-2040); Long-term (2040-2050)",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes – partial justification is provided for both the scenarios and the models used.",
+      "evidence": "The scenarios are designed to provide a range of plausible futures based on how well the world mitigates and adapts to climate change, which helps us to better understand the resilience of our business model and strategy... The models used in this analysis are deemed appropriate as they are widely used in the insurance sector for understanding physical risks... The models used in this analysis are deemed appropriate as they are widely used in the insurance sector for understanding transition risks.",
+      "location_hint": "Strategy p.11; Appendix 2 p.30",
+      "confidence": "medium",
+      "notes": "The justification for scenarios is that they provide a range of plausible futures. The justification for models is that they are \"widely used in the insurance sector.\" No deeper methodological rationale is provided for why specific SSP levels were chosen over others.",
+      "verification": 5,
+      "ani_notes": "Yes, the sectoral scenario was chosen and then customised to add relevant information for business",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "Yes – the document describes historical weather-related natural hazard events and their financial impacts on the business, including claims costs and reinsurance premium increases.",
+      "evidence": "During FY25, we experienced five weather-related natural hazard events, which we define as events with expected customer claims of more than $1.5m. We estimate that the total claims cost from these events will be around $19.7m, up from $6.2m in FY24, a relatively benign year with only two weather-related natural hazard events. For context, over the last 20 years we have averaged around three weather-related natural hazard events per year. Once adjusted for inflation and growth, the 20-year average claims costs in relation to these events is $29.3m per year, however this is heavily skewed by the 2023 North Island Weather Events... The reinsurance premiums that we pay have stabilised in FY25 after increasing significantly in FY24 in the aftermath of the 2023 North Island Weather Events. Whilst the increase from FY24 is negligible, these costs have risen by $64.6m, more than 200%, since FY22.",
+      "location_hint": "Current impacts of climate change, Strategy p.10",
+      "confidence": "high",
+      "notes": "The document explicitly discusses historical weather events (including the 2023 North Island Weather Events), 20-year averages of claims costs, and the significant increase in reinsurance premiums as observed historical impacts.",
+      "verification": 5,
+      "ani_notes": "During FY25, we experienced five weatherrelated natural hazard events, which we define as events with expected customer claims of more than $1.5m. We estimate that the total claims cost from these events will be around $19.7m, up from $6.2m in FY24, a relatively benign year with only two weather-related natural hazard events.", 
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "both",
+      "evidence": "The main physical risks that we face stem from increasingly severe and frequent weather events affecting our customers' assets that we have insured [direct – affecting insured assets/operations]. The cost of claims also rises, not only due to the rising volumes, but price inflation from national and international supply chain shortages as a result of local and global extreme weather events [indirect – supply chain]. Reinsurance premiums rise and/or reinsurance cover reduces for certain perils or high-risk areas [indirect – through reinsurance market].",
+      "location_hint": "Strategy p.13, p.18; Table 5 p.13-14",
+      "confidence": "high",
+      "notes": "Direct physical risks include damage to customers' insured assets (homes, contents, motor, small business) from weather events. Indirect physical risks include supply chain inflation from global extreme weather events, reinsurance market disruption, and impacts on insurance affordability for customers. The document also notes \"We do not exclude any part of our value chain when identifying, assessing and managing our risks.\"",
+      "verification": 5,
+      "ani_notes": "Both: The cost of claims also rises, not only due to the rising volumes, but price inflation from national and international supply chain shortages as a result of local and global extreme weather events.",
+      "verification_status": "transferred"
+    }
+  ]
+}

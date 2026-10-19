@@ -1,0 +1,341 @@
+{
+  "source": "MANAWA_ENERGY_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "total_tokens": 1554483,
+      "output_tokens": 8193,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 1462921,
+        "ephemeral_5m_input_tokens": 83345,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "input_tokens": 1546290
+    }
+  },
+  "retrieval_trace": [
+    {
+      "q_id": 3,
+      "tool": "search_knowledge_base",
+      "query": "scenario provider IPCC NGFS NIWA MfE CCC",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 1,
+      "tool": "search_knowledge_base",
+      "query": "climate scenarios pathways used",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 2,
+      "tool": "search_knowledge_base",
+      "query": "global temperature outcomes 2100 1.5 degrees 2 degrees warming",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 5,
+      "tool": "search_knowledge_base",
+      "query": "customised adapted localised downscaled tailored scenarios",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 6,
+      "tool": "search_knowledge_base",
+      "query": "participatory co-create co-design stakeholder input collaborative scenario development",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 4,
+      "tool": "search_knowledge_base",
+      "query": "SSP RCP scenario family combination mixing",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 9,
+      "tool": "search_knowledge_base",
+      "query": "damage loss estimates extreme events acute physical risk financial quantification",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 7,
+      "tool": "search_knowledge_base",
+      "query": "baseline reference scenario current policies business as usual",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 8,
+      "tool": "search_knowledge_base",
+      "query": "climate model integrated assessment model IAM CLIMADA REMIND MESSAGE GCAM NiGEM",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 11,
+      "tool": "search_knowledge_base",
+      "query": "global regional local downscaled New Zealand specific climate model",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 10,
+      "tool": "search_knowledge_base",
+      "query": "carbon price sea level rise rainfall precipitation wind storm frequency variables",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 14,
+      "tool": "search_knowledge_base",
+      "query": "historical observed impacts climate hazards assets operations Cyclone Gabrielle flooding",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 13,
+      "tool": "search_knowledge_base",
+      "query": "justification reason why scenarios chosen selected rationale",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 15,
+      "tool": "search_knowledge_base",
+      "query": "direct indirect physical risk supply chain customers third party infrastructure",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 10,
+      "tool": "search_knowledge_base",
+      "query": "ETS carbon price electricity price hydro inflows wind patterns drought temperature variables scenario",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 7,
+      "tool": "search_knowledge_base",
+      "query": "current policies reference case baseline scenario comparison",
+      "k": 5,
+      "n_results": 5
+    },
+    {
+      "q_id": 12,
+      "tool": "search_knowledge_base",
+      "query": "time horizons short medium long term 2030 2050 2100 rationale justification",
+      "k": 10,
+      "n_results": 10
+    }
+  ],
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": [
+        "Coordinated Effort (1.5°C)",
+        "Trailblazers (2.2°C)",
+        "Slow Followers (2.5°C)",
+        "Hot House (≥3.3°C)"
+      ],
+      "evidence": "\"Step 6: Conduct scenario analysis (using a 'coordinated effort' 1.5°C scenario, a 'trailblazers' 2.2°C, a 'slow followers' 2.5°C and a 'hot house' ≥3.3°C scenario)\"",
+      "location_hint": "Strategy section, p.14",
+      "confidence": "high",
+      "notes": "These four scenarios are adapted from the Aotearoa Circle Energy Sector Climate Change Scenarios (2024). Temperature outcomes are expressed as averages by 2080, not 2100.",
+      "verification": 5,
+      "ani_notes": "Hot House; Slow Followers; Trailblazers; Coordinated Effort",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes four temperature outcomes, all expressed as averages by 2080 (not 2100): 1.5°C (Coordinated Effort), 2.2°C (Trailblazers), 2.5°C (Slow Followers), and ≥3.3°C (Hot House). No explicit 2100 temperature targets are stated; the long-term time horizon is extended to 2100 for asset planning purposes.",
+      "evidence": "\"Average increase in global temperature (2080): 3.3°C / 2.5°C / 2.2°C / 1.5°C\" and \"we have extended the long-term horizon (2080) out to 2100 to reflect the long-lived nature of our assets\"",
+      "location_hint": "p.16 (scenario table) and p.15 (time horizons)",
+      "confidence": "high",
+      "notes": "Temperature outcomes are benchmarked to 2080, not 2100. The document does not provide separate 2100 temperature projections.",
+      "verification": 5,
+      "ani_notes": "1.5oC; 2.2oC; 2.5oC; 3.3oC",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "The primary scenario provider is the Aotearoa Circle (publisher of the Energy Sector Climate Change Scenarios, 2024). Additional data sources include the IPCC (AR6), the Network for Greening the Financial System (NGFS), the International Energy Agency (IEA), and the Aotearoa New Zealand He Pou a Rangi Climate Change Commission (CCC).",
+      "evidence": "\"In preparing the FY25 scenarios, we used the following data sources: › The Aotearoa Circle Energy Sector Climate Change Scenarios, 2024; › The Intergovernmental Panel on Climate Change (IPCC) sixth assessment synthesis report (AR6)... › The Network for Greening the Financial System (NGFS) hypothetical scenarios... › The International Energy Agency (IEA) 2023 World Energy Outlook... › Selected advice to the Government from the Aotearoa New Zealand He Pou a Rangi Climate Change Commission (CCC)\"",
+      "location_hint": "Strategy section, p.15-16",
+      "confidence": "high",
+      "notes": "The Aotearoa Circle is the primary/foundational provider; the others are supplementary data sources used to inform the scenarios.",
+      "verification": 5,
+      "ani_notes": "Aotearoa Circle Energy Sector Climate Change Scenarios; Intergovernmental Panel on Climate Change (IPCC); Network for Greening the Financial System (NGFS) hypothetical scenarios; International Energy Agency (IEA) 2023 World Energy Outlook; Climate Change Commission (CCC)",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "No",
+      "evidence": "\"The Intergovernmental Panel on Climate Change (IPCC) sixth assessment synthesis report (AR6), which includes detail on CRROs at a global level, including relative concentrations pathways (RCPs) which provide an indication of the future concentrations of greenhouse gas emissions driving the changes to the physical climate\"",
+      "location_hint": "Strategy section, p.15-16",
+      "confidence": "high",
+      "notes": "The document references RCPs from IPCC AR6 but does not mention SSPs at all. There is no explicit mixing of SSP and RCP identifiers from different scenario families.",
+      "verification": 5,
+      "ani_notes": "Not sure",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"We have adapted the Energy Sector Scenarios as we consider they represent a respected, robust and transparent energy industry standard for climate scenarios... We have then built upon the foundation provided by the Energy Sector Scenarios by applying more granular detail on specific areas that are most critical to Manawa Energy's business. This process primarily used the judgement of internal subject matter experts with the results validated via several workshops with internal stakeholders and external advisors.\" And: \"our scenario narratives tailored specifically to Manawa Energy.\"",
+      "location_hint": "Strategy section, p.13-14 and p.54",
+      "confidence": "high",
+      "notes": "The Aotearoa Circle Energy Sector Scenarios were explicitly adapted and tailored to Manawa Energy's specific business context, particularly around precipitation/hydro inflows and the regulatory environment.",
+      "verification": 5,
+      "ani_notes": "Yes, starting from The Aotearoa Circle Energy Sector climate scenarios. ",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes — the scenario development involved internal workshops and one-on-one consultations with a multi-disciplinary Project Team, validated by internal stakeholders and external advisors, following XRB guidance for participatory scenario development.",
+      "evidence": "\"An internal project team (Project Team) was assembled to participate in a series of six workshops run internally. The substantive scenario analysis was undertaken at these workshops, with outcomes documented and validated... Through engagement with a multi-disciplinary Project Team, these scenarios were systematically considered, assessed and validated, with detailed outcomes from workshops and one-on-one consultations recorded across each of the four scenarios.\"",
+      "location_hint": "Strategy section, p.13-14",
+      "confidence": "medium",
+      "notes": "The process involved internal workshops and external advisor input but is not described using the specific terms \"participatory\", \"co-create\", \"co-design\" or \"deliberate\". It is an internal process with external validation rather than a fully open stakeholder co-production process.",
+      "verification": 5,
+      "ani_notes": "Yes, mention several workshops with internal stakeholders and external advisors.",
+      "verification_status": "re-scored: answer flipped, gold label from earlier verification"
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "No explicit standalone baseline or reference scenario is described. However, the NGFS \"Current Policies\" scenario is referenced as an input to the ≥3.3°C Hot House scenario, and the CCC \"Current Policy Reference Case\" and \"General Policy Reference Case\" are listed as data sources. These are used as inputs rather than as a formal baseline against which the other scenarios are compared.",
+      "evidence": "\"The Network for Greening the Financial System (NGFS) hypothetical scenarios. The NGFS 'Net Zero 2050', 'Nationally Determined Contributions', 'Fragmented World' and 'Current Policies' scenarios were utilised in producing the 1.5°C, 2.2°C, 2.5°C and ≥3.3°C scenarios respectively\" and \"the CCC scenarios 'Tailwinds', 'Headwinds', 'General Policy Reference Case' and 'Current Policy Reference Case'.\"",
+      "location_hint": "Strategy section, p.15-16",
+      "confidence": "medium",
+      "notes": "No formal baseline scenario is explicitly defined and used as a comparator. The \"Current Policies\" and \"Current Policy Reference Case\" scenarios are data inputs, not a standalone baseline.",
+      "verification": 4,
+      "ani_notes": "No baseline was mentioned",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": [
+        "Jupiter Risk Assessment (high-level physical climate risk modelling)",
+        "GRESB Infrastructure Asset Assessment (benchmarking)"
+      ],
+      "evidence": "\"High-level physical climate risk modelling obtained to further inform risk identification, assets & new development pipeline alongside rigorous engineering assessments\" and footnote: \"Infratil commissioned (GRESB, Jupiter Risk Assessment).\"",
+      "location_hint": "Transition Plan section, p.49 (footnote 4)",
+      "confidence": "medium",
+      "notes": "No named IAMs or macroeconomic models (e.g. REMIND, MESSAGE, GCAM, NiGEM) are mentioned. Jupiter Risk Assessment is referenced as a physical risk modelling tool commissioned by Infratil (major shareholder), not directly by Manawa Energy. The document also states: \"we have not to date, conducted detailed asset specific modelling.\"",
+      "verification": 5,
+      "ani_notes": "Not mentioned; just say high-level modelling",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"Impacts of Cyclone Gabrielle (which damaged Esk hydro scheme in the Hawkes Bay in February 2023) included remediation costs in FY25 of approximately $2.1m (of which $1.6m was covered by insurance revenue) and lost revenue in FY25 of $0.5m (all of which was covered by insurance revenue).\"",
+      "location_hint": "Strategy section, p.44 (PR2.2)",
+      "confidence": "high",
+      "notes": "The document explicitly quantifies damage and lost revenue from Cyclone Gabrielle as an acute physical risk event. It also identifies anticipated future acute impacts including increased repair/maintenance costs and loss of generation during outages.",
+      "verification": 4,
+      "ani_notes": "Yes, Precipitation is our fuel – we are dependent on rainfall for generating electricity, so extreme weather events that involve high levels of rainfall.",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon price / ETS pricing",
+        "sea level rise",
+        "rainfall / precipitation intensity and seasonality",
+        "hydro inflows",
+        "wind patterns / storm frequency",
+        "drought frequency and duration",
+        "electricity market prices / wholesale price volatility",
+        "renewable energy demand",
+        "technology adoption rates",
+        "afforestation / carbon sequestration",
+        "global emissions trajectory",
+        "regulatory and policy environment"
+      ],
+      "evidence": "\"Seasonal volatility is increasing due to higher carbon prices, reduced thermal flexibility, and possible long-term shifts in hydrology... Sea level rise accelerates, storm intensity worsens, and extreme heat becomes more frequent... Rainfall variability makes water storage planning for hydroelectric schemes more difficult, and summer droughts threaten the stability of peak-season supply... Changes in the seasonal timing of hydro inflows and wind generation – such as more persistent high-pressure systems or shifts in storm frequency...\"",
+      "location_hint": "Strategy section, pp.16-46",
+      "confidence": "high",
+      "notes": "Multiple non-temperature variables are used across the scenario narratives and CRRO assessments. The most prominent are hydro inflows/precipitation and carbon/electricity prices.",
+      "verification": 4,
+      "ani_notes": "socioeconomic divider; global economic growth; fuel costs; Consumer preferences; Access to insurance; Afforestation;  Nature-based solutions (NbS);Technology change",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"The Intergovernmental Panel on Climate Change (IPCC) sixth assessment synthesis report (AR6), which includes detail on CRROs at a global level... The Aotearoa Circle Energy Sector Climate Change Scenarios, 2024 [New Zealand-specific]... Currently, it is assumed that New Zealand is following a trajectory that sits somewhere between the two central scenarios – Slow Followers and Trailblazers.\" And scenario narratives describe both global and New Zealand-specific physical impacts (e.g. South Island rainfall, Hawkes Bay assets).",
+      "location_hint": "Strategy section, p.15-22",
+      "confidence": "medium",
+      "notes": "The scenarios draw on global sources (IPCC AR6, NGFS, IEA) but are applied through the Aotearoa Circle NZ energy sector framework and further tailored to Manawa Energy's specific New Zealand asset locations. No formal downscaling methodology is described, but the scenarios are applied at a regional/local level in practice.",
+      "verification": 5,
+      "ani_notes": "Both",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Short-term: 2024–2030; Medium-term: 2031–2050; Long-term: 2051–2100. Rationales are explicitly provided for each timeframe.",
+      "evidence": "\"Short-term 2024–2030: Reflects the timeframe of New Zealand's first two emissions budgets and aligned with Manawa Energy's near-term strategic goals. Medium-term 2031–2050: Aligned with key targets and milestones set for 2050, including Paris Agreement emission reduction plans. Long-term 2051–2100: Aligned with the long-life nature of energy sector assets... These time horizons are broadly consistent with strategic planning and capital deployment time frames, with the current strategy focused primarily on short-term and medium-term considerations (i.e. next 5 years, next 25 years), but extends into the long-term when deploying capital as we are investing in long-life assets.\"",
+      "location_hint": "Strategy section, p.23-24",
+      "confidence": "high",
+      "notes": "The long-term horizon was extended from 2080 (Aotearoa Circle default) to 2100 specifically to reflect the long-lived nature of Manawa Energy's assets and to align with physical risk assessment work. Rationales are clearly stated for all three horizons.",
+      "verification": 5,
+      "ani_notes": "Short-term (2024-2030); Medium-term (2031-2050); Long-term (2051-2100)",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"We have adapted the Energy Sector Scenarios as we consider they represent a respected, robust and transparent energy industry standard for climate scenarios – they have collated a range of reliable sources of data and produced a set of scenarios using the framework and methodology recommended by the External Reporting Board (XRB). Alignment with these scenarios enables readers to have a degree of assurance that the scenarios we have used are consistent with industry standards and, potentially (subject to their own approach to scenario analysis), our peers in the industry. For these reasons it was decided that this approach would provide additional value compared to the approach used in FY24.\" And: \"The scenarios described below align with scenario architectures and time horizons used in wider energy sector scenario analysis. While they have been specifically aligned to the Aotearoa Circle Energy Sector Scenarios, they have considered other external views on future climate scenarios, including the scenarios chosen by key stakeholder Infratil (as our major shareholder) and our industry peers. In our view, the scenarios we have chosen, provide an appropriate basis to assess the resilience of our business model and strategy against identified CRROs.\"",
+      "location_hint": "Strategy section, p.13-14 and p.15-16",
+      "confidence": "high",
+      "notes": "Justification is explicitly provided, citing: industry standard credibility, XRB framework alignment, peer comparability, and the ability to assess business model resilience.",
+      "verification": 5,
+      "ani_notes": "Yes. The scenarios described below align with scenario  architectures and time horizons used in wider energy sector scenario analysis",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "Yes — the document describes historical impacts from Cyclone Gabrielle (February 2023) on the Esk hydro scheme in Hawkes Bay, including quantified remediation costs and lost revenue. It also notes uncharacteristically poor hydro inflows in FY25 and damage to the Lake Wahapo spillway from multiple heavy rain events.",
+      "evidence": "\"Impacts of Cyclone Gabrielle (which damaged Esk hydro scheme in the Hawkes Bay in February 2023) included remediation costs in FY25 of approximately $2.1m (of which $1.6m was covered by insurance revenue) and lost revenue in FY25 of $0.5m (all of which was covered by insurance revenue).\" And: \"Inflows into Manawa Energy hydro schemes in FY25 were uncharacteristically poor – very dry overall, with inflows arriving in short, intense, windows, leading to very challenging market conditions.\" And: \"the spillway to Lake Wahapo on the West Coast was repaired after multiple heavy rain events caused damage.\"",
+      "location_hint": "Strategy section, p.44 (PR2.2), p.45-46 (PR3.1), and Metrics section p.66-67",
+      "confidence": "high",
+      "notes": "Historical impacts are explicitly described and financially quantified for Cyclone Gabrielle. Current-year (FY25) poor inflows are also described as a current observed impact.",
+      "verification": 5,
+      "ani_notes": "Yes, Premium rates have increased slightly in FY25; Damage from Cyclone Gabrielle of approximately $2.1m (of which $1.6m was covered by insurance revenue) and lost revenue in FY25 of $0.5m" ,
+      "verification_status": "new question - needs verification"
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "both",
+      "evidence": "Direct: \"PR2 – Impact of climate change on assets and operations... More frequent and severe storms increase the risk of direct damage to assets or supporting infrastructure, including substations, spillways, and riverbanks.\" Indirect: \"PR1 – Impact of severe acute weather events on third parties... Acute climate-related events such as storms, floods, and fires may affect third-party services upon which Manawa Energy depends – especially contractors, logistics providers, and external infrastructure. These impacts can manifest as delays, cost increases, or compromised reliability in project delivery and operations.\" And: \"PR1.2 – Weather-induced supply chain disruption... Extreme weather events could disrupt global or domestic supply chains, delaying access to equipment or materials.\"",
+      "location_hint": "Strategy section, p.41-44 (PR1 and PR2)",
+      "confidence": "high",
+      "notes": "The document explicitly separates direct physical risks (PR2: damage to Manawa Energy's own assets and operations) from indirect physical risks (PR1: impacts on third-party contractors, logistics providers, supply chains, and external infrastructure upon which Manawa Energy depends).",
+      "verification": 4,
+      "ani_notes": "both: value-change were included, but some participant/entity were excluded for the purposes of CRRO identification and analysis on a materiality basis. Impact of severe acute weather events on third parties are considered",
+      "verification_status": "new question - needs verification"
+    }
+  ]
+}

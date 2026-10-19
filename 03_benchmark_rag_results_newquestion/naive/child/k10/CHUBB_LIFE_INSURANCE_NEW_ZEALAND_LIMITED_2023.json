@@ -1,0 +1,171 @@
+{
+  "source": "CHUBB_LIFE_INSURANCE_NEW_ZEALAND_LIMITED_2023",
+  "model_id": "claude-sonnet-4-6",
+  "k": 10,
+  "chunk_mode": "child",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 35045,
+      "total_tokens": 39834,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_creation": 0,
+        "cache_read": 0
+      },
+      "output_tokens": 4789
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Three scenarios were used:\n1. Orderly – 1.5°C\n2. Too Little Too Late – >2°C\n3. Hothouse – >3°C",
+      "evidence": "\"The scenarios are summarized in the table below:\nObjective: Orderly 1.5° C | Too Little Too Late >2° C | Hothouse >3° C\"",
+      "location_hint": "Page 14",
+      "confidence": "high",
+      "notes": "The three scenarios are clearly named and associated with temperature outcomes in the table on page 14.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Two global temperature outcomes by 2100 are referenced: +2.7°C (min 2.1, max 3.5) and +4.4°C (min 3.3, max 5.7), corresponding to different climate scenarios.",
+      "evidence": "\"Global: +2.7° C by 2100 (min 2.1, max 3.5)\" and \"Global: +4.4° C by 2100 (min 3.3, max 5.7)\"",
+      "location_hint": "Page 14",
+      "confidence": "high",
+      "notes": "Two distinct scenarios are presented. The first (lower) scenario shows a global average temperature increase of +2.7°C by 2100, and the second (higher) scenario shows +4.4°C by 2100. The specific scenario names are not included in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "The scenarios used are provided by IPCC (Intergovernmental Panel on Climate Change), NGFS (Network for Greening the Financial System), IEA (International Energy Agency), and NIWA (National Institute of Water and Atmospheric Research).",
+      "evidence": "IPCC SSP1-1.9 / IPCC SSP2-4.5 / IPCC SSP5-8.5; NGFS Net Zero 2050 / NGFS NDCs / NGFS Current Policies; IEA Net Zero Emissions by 2050 / IEA APS / IEA STEPS; NIWA RCP2.6 / NIWA RCP4.5 / NIWA RCP 8.5",
+      "location_hint": "Page 14",
+      "confidence": "high",
+      "notes": "Multiple scenario providers are used: IPCC for global climate/socio-economic parameters, NGFS and IEA for energy/emission pathway parameters, and NIWA for New Zealand-specific climate parameters.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes. Chubb Life uses a mix of SSPs and RCPs across different levels of their scenario framework. For global climate and socio-economic parameters they use IPCC SSP1-1.9, SSP2-4.5, and SSP5-8.5, while for New Zealand-specific climate parameters they use NIWA RCP2.6, RCP4.5, and RCP8.5.",
+      "evidence": "Global climate and socio-economic parameters: IPCC SSP1-1.9, IPCC SSP2-4.5, IPCC SSP5-8.5 ... New Zealand-specific climate parameters: NIWA RCP2.6, NIWA RCP4.5, NIWA RCP 8.5",
+      "location_hint": "Page 14",
+      "confidence": "high",
+      "notes": "The document explicitly uses SSPs for global parameters and RCPs for New Zealand-specific parameters, confirming a \"pick-and-mix\" approach across the two frameworks. Global energy/emission pathways are additionally covered by NGFS and IEA scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Chubb Life did not develop fully customised scenarios. Instead, they used industry scenarios developed through the FSC's Climate Working Group (of which Chubb Life was a member), which created climate scenario narratives for the financial services sector. In addition to these industry scenarios, their Risk and Compliance team led internal research to deepen understanding of alternative futures, including impacts specific to New Zealand in terms of both physical and transitional impacts.",
+      "evidence": "\"Chubb Life was a member of the FSC's Climate Working Group, which was involved in the development of the climate scenario narratives for the financial services sector. The use of sectoral scenarios allows consumers to more easily compare disclosures.\" and \"In addition to the industry scenarios, our Risk and Compliance team led internal research to deepen our understanding of our alternative futures, including the impacts specific to New Zealand in terms of both physical and transitional impacts.\"",
+      "location_hint": "Appendix A: Scenario Narratives, p.15; p.8",
+      "confidence": "high",
+      "notes": "Chubb Life used FSC sectoral scenarios rather than fully bespoke/customised scenarios, but supplemented them with internal NZ-specific research.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes. Chubb Life was a member of the FSC's (Financial Services Council) Climate Working Group, which was involved in the development of co-produced climate scenario narratives for the financial services sector. The process to determine the scenario narratives followed five stages, and the use of sectoral scenarios allows consumers to more easily compare disclosures.",
+      "evidence": "\"Chubb Life was a member of the FSC's Climate Working Group, which was involved in the development of the climate scenario narratives for the financial services sector. The use of sectoral scenarios allows consumers to more easily compare disclosures. The process to determine the scenario narratives followed five stages.\"",
+      "location_hint": "Appendix A: Scenario Narratives, page 14-15",
+      "confidence": "high",
+      "notes": "The document confirms co-production of climate scenarios through the FSC's Climate Working Group, but does not detail all five stages of the process in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Chubb Life Insurance New Zealand used three baseline scenarios in their climate scenario analysis:\n1. Orderly – 1.5°C\n2. Too Little Too Late – >2°C\n3. Hothouse – >3°C",
+      "evidence": "The scenarios are summarized in the table below:\nObjective\nOrderly\n1.5° C\nToo Little Too Late\n>2° C\nHothouse\n>3° C",
+      "location_hint": "Page 14",
+      "confidence": "high",
+      "notes": "The three scenarios are clearly named and their associated temperature outcomes are explicitly stated in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "GCAM (Global Change Analysis Model)",
+      "evidence": "GCAM\nGlobal Change Analysis Model",
+      "location_hint": "Page 15 (abbreviations/glossary section)",
+      "confidence": "low",
+      "notes": "The context only mentions GCAM (Global Change Analysis Model) in a glossary/abbreviations list alongside other terms like SSP, NGFS, and IEA. There is no explicit statement in the retrieved context confirming that GCAM was the specific model used in the scenario analysis. This is inferred from its inclusion in the glossary.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Chubb Life Insurance New Zealand considers acute physical risks such as flooding and landslides, and proactively controls corporate operations' exposure to these risks through business continuity practices and support for their teams. They also considered the 2023 weather events (floods, slips, storms, droughts) in terms of their impacts at the personal, social, economic and environmental level.",
+      "evidence": "\"We are proactively controlling our corporate operations' exposure to acute physical risks from climate change, such as flooding and landslides, by ensuring we have appropriate ways of working including business continuity practices and support for our teams. At present, and over the short term, we do not expect [significant impacts].\"",
+      "location_hint": "Page 9-10",
+      "confidence": "high",
+      "notes": "The document explicitly identifies acute physical risks (flooding, landslides) and describes mitigation measures. The 2023 extreme weather events (Tairawhiti, Auckland floods, Westport/Nelson storms, droughts) are also referenced as salient examples. The document notes that over the short term, significant impacts are not expected, but longer-term risks are monitored.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context mentions scenario names and temperature targets (1.5°C, >2°C, >3°C) but does not provide details about non-temperature variables (e.g., sea level rise, precipitation, GDP, carbon price) used within those scenarios. The document references physical risks like rising sea levels and changes in rainfall in general terms, but not as specific quantified variables within the scenario analysis framework.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Three scenarios are used: Orderly (1.5°C), Too Little Too Late (>2°C), and Hothouse (>3°C)",
+      "evidence": "The scenarios are summarized in the table below:\nObjective\nOrderly\n1.5° C\nToo Little Too Late\n>2° C\nHothouse\n>3° C",
+      "location_hint": "Page 14",
+      "confidence": "high",
+      "notes": "The document identifies three distinct climate scenarios with associated temperature targets: an orderly transition scenario (1.5°C), a delayed transition scenario (>2°C), and a high-warming/hothouse scenario (>3°C).",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Chubb Life uses three time frames for assessing climate-related risks and opportunities:\n- Short-term: 1–3 years\n- Medium-term: 5–10 years\n- Long-term: 30+ years\n\nThe short to medium term time frames align with their strategic planning horizons of approximately five years. The long-term timeframe is not linked to strategic planning or capital deployment. Their likelihood analysis for key risks extends to a maximum of 50 years.",
+      "evidence": "\"For each scenario we assessed potential short-term (1-3 years), medium term (5-10 years), and long term (30+ years) impacts. The short to medium term time frames align with our strategic planning horizons (of approximately five years). The long-term timeframe is not linked to our strategic planning or capital deployment...\" and \"the likelihood analysis requires us to consider the likelihood of events, out to a maximum of 50 years.\"",
+      "location_hint": "Page 8 and Page 12",
+      "confidence": "high",
+      "notes": "Time frames are explicitly defined and consistently referenced across multiple pages of the disclosure document.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Chubb Life chose their scenarios to ensure consideration of a wide range of possible risks and opportunities that could emerge under conditions of uncertainty, and to allow assessment of how similar risks could emerge. The chosen scenarios (Orderly 1.5°C, Too Little Too Late >2°C, and Hothouse >3°C) reflect plausible but challenging narratives appropriate to the nature of their business. They adopted a standalone, multi-stage process to explore an uncertain future, consistent with the FMA's description of scenario analysis as \"a creative and primarily qualitative process.\"",
+      "evidence": "\"The nature of our business means that we must consider plausible but challenging narratives. The chosen scenarios ensure we consider a wide range of possible risks and opportunities that could emerge, and allow us to assess how similar risks could emerge\" and \"Scenario analysis presented a unique opportunity for Chubb Life to consider the future of our business. We adopted a standalone, multi-stage process to help ensure that we were able to explore an uncertain future.\"",
+      "location_hint": "Pages 7 and 16",
+      "confidence": "high",
+      "notes": "The three scenarios selected are: Orderly 1.5°C, Too Little Too Late >2°C, and Hothouse >3°C, as shown in the summary table on page 14.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "Chubb Life's corporate operations did not experience any material physical impacts from climate in 2023. There were two instances in which the Auckland office was not available due to serious inclement weather.",
+      "evidence": "Our corporate operations did not experience any material physical impacts from climate in 2023. There were two instances in which the Auckland office was not available due to serious inclement weather. During these significant events, we also",
+      "location_hint": "Page 7",
+      "confidence": "high",
+      "notes": "The quote is cut off at \"we also\" — the full sentence is not available in the retrieved context, but the key facts about historic climate impacts are clearly stated.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Chubb Life identifies both direct and indirect physical climate risks. Direct (acute) physical risks include flooding and landslides affecting corporate operations. In 2023, there were two instances where the Auckland office was unavailable due to serious inclement weather. Indirect physical risks are considered through the value chain, including third-party suppliers, to understand whether there are indirect impacts that could be material in some scenarios. Over the short term, the company does not expect material physical impacts from climate change on its core business.",
+      "evidence": "\"We are proactively controlling our corporate operations' exposure to acute physical risks from climate change, such as flooding and landslides, by ensuring we have appropriate ways of working including business continuity practices and support for our teams. At present, and over the short term, we do not expect [material impacts].\" / \"Our corporate operations did not experience any material physical impacts from climate in 2023. There were two instances in which the Auckland office was not available due to serious inclement weather.\" / \"chain, such as third-party suppliers, to understand whether there are indirect impacts that could be material in some scenarios.\"",
+      "location_hint": "Pages 7, 8, 9",
+      "confidence": "high",
+      "notes": "The document distinguishes between direct acute physical risks (flooding, landslides) to corporate operations and indirect physical risks via the value chain/third-party suppliers. No chronic physical risks are explicitly named in the retrieved context.",
+      "verification": null
+    }
+  ]
+}

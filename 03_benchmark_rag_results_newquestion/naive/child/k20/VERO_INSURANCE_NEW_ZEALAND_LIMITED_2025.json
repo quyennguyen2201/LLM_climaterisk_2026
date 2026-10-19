@@ -1,0 +1,171 @@
+{
+  "source": "VERO_INSURANCE_NEW_ZEALAND_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "k": 20,
+  "chunk_mode": "child",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 53765,
+      "total_tokens": 60010,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_creation": 0,
+        "cache_read": 0
+      },
+      "output_tokens": 6245
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Vero Insurance used scenarios based on the ICNZ Shared Climate Scenarios Initiative (June 2022), further developed into entity-specific scenarios. The physical risk modelling overlaid climate layers for \"required SSPs\" (Shared Socioeconomic Pathways) and time horizons (2030, 2040, and 2050). The specific scenario names/SSP numbers are not explicitly listed in the retrieved context beyond references to the ICNZ Shared Sector Scenarios and SSPs generally.",
+      "evidence": "\"The climate scenarios and narratives we referred to in our analysis were based on the ICNZ Shared Climate Scenarios Initiative (June 2022). These were further developed into specific scenarios relevant to Vero with input from internal business stakeholders\" and \"Scenarios were designed by starting with the Shared Sector Scenarios developed by the Insurance Council of New Zealand, and from this, derived entity-specific scenarios.\" and \"We then overlaid a series of climate layers for the required SSPs and time horizons.\" and \"Climate scenarios have been considered over three distinct time horizons based on years (2030, 2040, and 2050).\"",
+      "location_hint": "Pages 12, 41, 13, 42",
+      "confidence": "medium",
+      "notes": "The document references the ICNZ Shared Climate Scenarios Initiative and SSPs but does not explicitly name or list the individual scenarios (e.g., specific SSP numbers like SSP1-2.6, SSP2-4.5, SSP5-8.5) in the retrieved context. The specific scenario names are not fully enumerated in the provided passages.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes three scenarios with the following temperature outcomes by 2100: (1) Orderly transition: aligned with Paris Agreement aim (below 2°C, preferably 1.5°C); (2) Disorderly transition: >2°C (SSP 2, RCP 4.5); (3) Hot House world: >3°C (SSP 3, RCP 7.0).",
+      "evidence": "\"Hot House world scenario: Current policies >3°C SSP 3, RCP 7.0\" and \">2°C SSP 2, RCP 4.5\" and \"The Paris Agreement is a legally binding international treaty on climate change, which sets long-term goals to limit global warming to well below 2°Celsius, preferably to 1.5 degrees compared to pre-industrial levels.\"",
+      "location_hint": "Page 14 and Page 38",
+      "confidence": "high",
+      "notes": "The document uses scenario-based temperature outcomes rather than a single global temperature projection. The orderly scenario is aligned with the Paris Agreement goal (well below 2°C, preferably 1.5°C), the disorderly scenario leads to >2°C, and the hot house scenario leads to >3°C by 2100.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "An external consultancy was engaged to provide expertise in climate scenario development, risk modelling, and financial quantification, but the specific name of the scenario provider is not disclosed in the context.",
+      "evidence": "To assist with the FY25 CSA, we engaged an external consultancy to provide expertise in climate scenario development, risk modelling, and financial quantification.",
+      "location_hint": "Page 12",
+      "confidence": "medium",
+      "notes": "The document confirms an external consultancy was used for scenario development but does not name the specific provider.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Vero Insurance uses a mix of SSPs and RCPs across their scenarios:\n- Orderly scenario (Net-zero 2050, 1.5°C): SSP 1, RCP 2.6\n- Disorderly scenario: RCP 4.5 (SSP not explicitly stated in context)\n- Hot House world scenario (Current policies, >3°C): SSP 3, RCP 7.0\n\nFor the Hot House world scenario, they chose SSP 3-7.0 because they did not have physical climate layers for SSP5-8.5, and also because RCP 7.0 is becoming more widely used in scenario analysis compared to RCP 8.5.",
+      "evidence": "\"Orderly scenario: Net-zero 2050, 1.5°C, SSP 1, RCP 2.6\" | \"Hot House world scenario: Current policies, >3°C, SSP 3, RCP 7.0\" | \"For the Hot House world scenario, we elected to use SSP 3-7.0 because we did not have physical climate layers for the SSP5-8.5 scenario. RCP7.0 is also becoming more widely used in scenario analysis compared to RCP 8.5 because RCP 8.5 produces temperature outcomes that are arguably\" | \"impacts of climate-related physical risks will increase significantly by 2050, especially under the disorderly (RCP 4.5) and hothouse (RCP 7.0) scenarios.\"",
+      "location_hint": "Pages 14, 15, 41",
+      "confidence": "high",
+      "notes": "The SSP for the Disorderly scenario is not explicitly stated in the retrieved context — only RCP 4.5 is mentioned for that scenario. The rationale for choosing SSP3-RCP7.0 over SSP5-RCP8.5 is explicitly provided on page 41.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes. Vero Insurance customised scenarios by starting with the ICNZ Shared Climate Scenarios Initiative (June 2022) / Shared Sector Scenarios developed by the Insurance Council of New Zealand, and then further developing these into entity-specific scenarios relevant to Vero, with input from internal business stakeholders.",
+      "evidence": "\"The climate scenarios and narratives we referred to in our analysis were based on the ICNZ Shared Climate Scenarios Initiative (June 2022). These were further developed into specific scenarios relevant to Vero with input from internal business stakeholders.\" / \"Scenarios were designed by starting with the Shared Sector Scenarios developed by the Insurance Council of New Zealand, and from this, derived entity-specific scenarios.\"",
+      "location_hint": "Page 12 and Page 41",
+      "confidence": "high",
+      "notes": "Two passages confirm the same approach: industry-level shared scenarios were customised into entity-specific scenarios for Vero.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Vero's climate scenarios were based on the ICNZ Shared Climate Scenarios Initiative (June 2022), which were further developed into entity-specific scenarios relevant to Vero with input from internal business stakeholders. Specifically, scenarios were designed by starting with the Shared Sector Scenarios developed by the Insurance Council of New Zealand, and from this, derived entity-specific scenarios.",
+      "evidence": "\"The climate scenarios and narratives we referred to in our analysis were based on the ICNZ Shared Climate Scenarios Initiative (June 2022). These were further developed into specific scenarios relevant to Vero with input from internal business stakeholders\" and \"Scenarios were designed by starting with the Shared Sector Scenarios developed by the Insurance Council of New Zealand, and from this, derived entity-specific scenarios.\"",
+      "location_hint": "Page 12 and Appendix 4, page 41",
+      "confidence": "high",
+      "notes": "The scenarios were co-produced using the ICNZ (Insurance Council of New Zealand) Shared Climate Scenarios Initiative as a foundation, then tailored to Vero with internal stakeholder input. No external co-production partners beyond ICNZ are mentioned.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Vero Insurance used the ICNZ Shared Climate Scenarios Initiative (June 2022) as the basis for their climate scenario analysis, further developed with input from internal business stakeholders. For physical risk (AAL) modelling, they used SSP-based climate layers. For policy assumptions, they used the Climate Change Commission (CCC) scenarios, specifically the High Technology High Systems Change scenario (HTHS) to inform Orderly assumptions. The scenarios were considered over three time horizons: 2030, 2040, and 2050. One scenario referenced is SSP 2 / RCP 4.5 (>2°C).",
+      "evidence": "\"The climate scenarios and narratives we referred to in our analysis were based on the ICNZ Shared Climate Scenarios Initiative (June 2022). These were further developed into specific scenarios relevant to Vero with input from internal business stakeholders\" / \"We used the High Technology High Systems Change scenario (HTHS) to inform our Orderly assumptions\" / \"Climate scenarios have been considered over three distinct time horizons based on years (2030, 2040, and 2050).\" / \"SSP 2, RCP 4.5 >2°C\"",
+      "location_hint": "Pages 12–14, 41",
+      "confidence": "high",
+      "notes": "The document references multiple scenario frameworks: ICNZ Shared Climate Scenarios for the overall CSA, CCC scenarios for policy assumptions, and SSP/RCP pathways for physical risk modelling. The specific baseline scenario for physical risk modelling appears to be SSP 2/RCP 4.5 (>2°C), among others.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "A single General Circulation Model (GCM) was used for flood climate layers. The specific GCM is not named in the provided context.",
+      "evidence": "Flood climate layers use a single General Circulation Model (GCM), which means the results are subject to sometimes significant bias due to the coarse model resolution",
+      "location_hint": "Page 42",
+      "confidence": "medium",
+      "notes": "The context confirms a single GCM was used for flood climate layers, but does not specify the name of the GCM. The broader modelling suite is also referenced but not named.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Vero Insurance considers damage from acute physical risks including more frequent and severe storms, floods, cyclones, surface water flooding, and coastal inundation. These are assessed using Average Annual Loss (AAL) metrics through physical risk modelling (Finity's Finperils modelling suite), covering flood (surface, riverine), storm wind (storms and ex-tropical cyclones), and coastal inundation.",
+      "evidence": "\"More frequent and severe storms, floods, and cyclones could lead to increased property damage claims, especially in coastal and flood-prone areas. Extreme weather is already an impact being experienced by insurers. Our CSA modelling shows an increase in expected loss (as...\" and \"Scope of assessment: Flood (surface, riverine), Storm wind (storms and ex-tropical cyclones), Coastal inundation... Metrics considered: Average Annual Loss (AAL)\"",
+      "location_hint": "Pages 13, 15, 16",
+      "confidence": "high",
+      "notes": "The document explicitly identifies acute physical risks (storms, floods, cyclones, coastal inundation) and uses AAL as the primary metric to measure projected losses from these events.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include non-temperature variables such as sea level rise, coastal erosion, flood risk, extreme weather events (storms, cyclones), drought, rain-induced landslip, hail, and bushfire. Flood climate layers use a single General Circulation Model (GCM). High flood risk is defined as properties expected to flood at least once in every 100 years (≥1% annual chance of flooding resulting in insurable loss).",
+      "evidence": "\"of coastal erosion, drought and rain induced landslip are in development, and this will increase the expected losses from climate impacts. Hail and bushfire were also not included in the analysis. Flood climate layers use a single General Circulation Model (GCM), which means the results are subject to sometimes significant bias due to the coarse model resolution\"\n\n\"weather, sea level rise, and coastal erosion... More frequent and severe storms, floods, and cyclones could lead to increased property damage claims, especially in coastal and flood-prone areas.\"\n\n\"High flood risk refers to properties in Vero's residential and commercial portfolios that are located in areas subject to flooding, that are expected on average to flood at least once in every 100 years, resulting in insurable loss. This means there is at least a 1% chance of flooding in an average year, resulting in insurable loss.\"",
+      "location_hint": "Page 42, Page 16, Page 37",
+      "confidence": "medium",
+      "notes": "The context references several non-temperature physical variables used in scenario analysis (sea level rise, flood, coastal erosion, drought, landslip, hail, bushfire, storms, cyclones), but does not provide a comprehensive structured list of all non-temperature variables explicitly tied to each scenario. Some variables (hail, bushfire, coastal erosion, drought, landslip) are noted as not yet fully included in the analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Vero Insurance used scenarios at a national/regional scale for New Zealand, based on the ICNZ Shared Climate Scenarios Initiative (June 2022), further developed into entity-specific scenarios. Climate projections cover large regional areas, with physical risk modelling applied to their insurance portfolios across New Zealand.",
+      "evidence": "\"The climate scenarios and narratives we referred to in our analysis were based on the ICNZ Shared Climate Scenarios Initiative (June 2022). These were further developed into specific scenarios relevant to Vero with input from internal business stakeholders\" and \"Scenarios were designed by starting with the Shared Sector Scenarios developed by the Insurance Council of New Zealand, and from this, derived entity-specific scenarios.\" Also: \"projections are useful for inferring the nature of weather events that might emerge over large regional areas.\"",
+      "location_hint": "Pages 12, 41",
+      "confidence": "high",
+      "notes": "Scenarios are national/New Zealand-wide in scope, based on ICNZ shared sector scenarios, then adapted to entity-specific level. Physical risk modelling covers large regional areas.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Vero Insurance uses three time frames for climate-related scenario analysis:\n- Short term = 2030 (aligned with Suncorp Group's net zero target for Scope 1 and 2 emissions, and within the 3–5-year business planning window)\n- Medium term = 2040 (an interim timeframe between the short term and long-term horizons, aligned with medium term time horizon at Suncorp Group)\n- Long term = 2050 (implied from CSA time horizons: Short: 2030, Medium: 2040 and Long: 2050)",
+      "evidence": "\"Short term = 2030 (Aligned with Suncorp Group's net zero target for Scope 1 and 2 emissions, and within the 3–5-year business planning window used for business planning and funding considerations). Medium term = 2040 (An interim timeframe between the short term and long-term horizons, aligned with medium term time horizon at Suncorp Group).\" and \"Time horizons used in CSA (Short: 2030, Medium: 2040 and Long: 2050) inform our [risk management tool].\"",
+      "location_hint": "Page 13 and Page 25",
+      "confidence": "high",
+      "notes": "The long-term timeframe of 2050 is explicitly confirmed on page 25 in the CSA time horizons list. The short and medium term definitions with rationale are provided on page 13.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Vero used the ICNZ Shared Climate Scenarios Initiative (June 2022) as the basis for their scenario selection, further developed with internal business stakeholders. For the Hot House world scenario, they elected to use SSP 3-7.0 (rather than SSP5-8.5) because they did not have physical climate layers for SSP5-8.5, and also because RCP 7.0 is becoming more widely used in scenario analysis compared to RCP 8.5, which produces temperature outcomes that are arguably too extreme. The Orderly scenario uses SSP 1, RCP 2.6 (1.5°C / Net-zero 2050), aligning with the Paris Agreement aim and the ICNZ Shared Climate Scenarios for the Insurance Sector.",
+      "evidence": "\"For the Hot House world scenario, we elected to use SSP 3-7.0 because we did not have physical climate layers for the SSP5-8.5 scenario. RCP7.0 is also becoming more widely used in scenario analysis compared to RCP 8.5 because RCP 8.5 produces temperature outcomes that are arguably [too extreme].\" / \"The climate scenarios and narratives we referred to in our analysis were based on the ICNZ Shared Climate Scenarios Initiative (June 2022). These were further developed into specific scenarios relevant to Vero with input from internal business stakeholders.\"",
+      "location_hint": "Page 41 and Page 12",
+      "confidence": "high",
+      "notes": "The text on page 41 is slightly cut off (\"arguably\" without the completing phrase), but the justification for SSP 3-7.0 over SSP5-8.5 is clearly stated. The Orderly scenario alignment with Paris Agreement is noted on page 13.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "Vero Insurance identifies current (historic) climate-related physical impacts as increasing claim costs due to extreme weather, sea level rise, and coastal erosion. Severe weather leads to increased insurance claims costs, and Vero applies a small incremental adjustment to their natural hazard pricing in response. The financial impact is noted for FY25.",
+      "evidence": "\"Table 2. Current impacts of climate-related physical risks | Current physical impacts | Impact | How it affects our business | What are we doing | Financial impact for FY25 | Increasing claim costs due to extreme weather, sea level rise, and coastal erosion | Severe weather can lead to increased insurance claims costs. | We apply a small incremental adjustment to our natural hazard...\"",
+      "location_hint": "Page 11, Table 2",
+      "confidence": "medium",
+      "notes": "The context provides the table header and beginning of the entry but is truncated, so the full details of the financial impact figure and the complete response description are not visible. The evidence is partially cut off.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Vero Insurance identifies the following direct and indirect physical climate risks:\n\n**Direct physical risks:**\n- Increasing natural hazards leading to higher insurance costs (e.g., increasing severe weather events driving higher claims costs)\n- Without steps being taken to address climate-related risks, the business faces significant physical impacts (details referenced in their Climate Scenario Analysis)\n\n**Indirect physical risks:**\n- Climate-related physical risk influences capital deployment by portfolio and funding processes\n- Physical risks affect reinsurance, procurement, and other operational functions\n- Physical risks are linked to other risk categories (transverse risks) and can impact business objectives, reputation, and performance\n\nThe document notes that the Board's expectation is to consider physical, transition, and liability risks in strategic and operational activities, supported by robust scenario analysis. Despite potentially significant long-term impacts, Vero believes its business model can remain resilient to climate-related physical risks.",
+      "evidence": "\"As a general insurer we recognise the potentially significant impact of climate-related physical risk, such as increasing natural hazards leading to higher insurance costs. Despite the potentially significant impacts of climate change over the long term, we believe our business model can remain resilient to climate-related physical risks due to...\" and \"The cost of claims due to increasing severe weather is also identified as an anticipated risk\" and \"Our understanding of climate-related physical risk also influences capital deployment by portfolio, funding processes such as our long-\" and \"recognises the climate-related risks and sets the Board's expectation that we consider physical, transition, and liability risks in our strategic and operational activities, supported by robust scenario analysis.\"",
+      "location_hint": "Pages 11, 15, 20, 24 of Vero Insurance CRD 2025",
+      "confidence": "medium",
+      "notes": "The context provides high-level descriptions of physical climate risks but does not give a comprehensive, itemised list distinguishing direct vs. indirect physical risks explicitly. The answer synthesises information from multiple passages. Full details of the CSA findings (referenced in the document) are not fully reproduced in the retrieved chunks.",
+      "verification": null
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "source": "Z_ENERGY_LIMITED_2023",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "chunk_mode": "child",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 26615,
+      "total_tokens": 31959,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_creation": 0,
+        "cache_read": 0
+      },
+      "output_tokens": 5344
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Z developed three climate scenarios. The document states they are summarised on page 11 and described in full on page 24, but the specific names of the three scenarios are not provided in the retrieved context chunks.",
+      "evidence": "\"The three climate scenarios Z developed are summarised below and described in full on page 24. The three climate scenarios Z has developed are: [names not captured in retrieved context]\"",
+      "location_hint": "Page 11",
+      "confidence": "low",
+      "notes": "The context confirms Z developed exactly three climate scenarios, but the actual names/titles of those scenarios are not present in the retrieved chunks. The list appears to follow the quoted sentence on page 11 but was not captured in the retrieved text.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document references three climate scenarios with associated temperature outcomes: 1.5°C (RCP 2.6), 2.3°C (RCP 4.5), and 4.5°C (RCP 8.5). In the scenario narratives, the \"Green Road\" (Net Zero 2050) scenario limits global warming to 1.5°C, the \"Road Block\" (Delayed Transition) scenario aims to limit warming to below 2°C, and the \"Hothouse\" (Current Policies) scenario leads to global warming of over 3°C.",
+      "evidence": "\"1.5 degrees Celsius (RCP 2.6); 2.3 degrees Celsius (RCP 4.5); and 4.5 degrees Celsius (RCP 8.5).\" and \"Current Policies, 'hothouse' scenario that leads to global warming of over 3°C.\"",
+      "location_hint": "Pages 7 and 11, Z Climate Statements 2023",
+      "confidence": "high",
+      "notes": "The document does not explicitly state a single global temperature outcome by 2100; rather, it presents multiple scenarios with different temperature outcomes. The RCP 8.5 scenario is associated with 4.5°C warming, while the Hothouse narrative describes \"over 3°C.\" These may refer to different time horizons or methodologies.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "The scenarios were developed internally, drawing on narratives from multiple providers: NGFS (Network for Greening the Financial System), IEA (International Energy Agency), IPCC (Intergovernmental Panel on Climate Change), CCC (Climate Change Commission), and NIWA (for Climate Change projections for New Zealand).",
+      "evidence": "\"were developed internally, drawing on the NGFS narratives for Net Zero 2050, Delayed Transition and Current Policies, and a broader set of climate scenarios produced by the International Energy Agency (IEA), Intergovernmental Panel on Climate Change (IPCC) and the Climate Change Commission (CCC) for qualitative descriptions, population demographics and socio-economic assumptions.\"",
+      "location_hint": "Z Climate Statements 2023 - FINAL.pdf, page 12",
+      "confidence": "high",
+      "notes": "Scenarios were internally developed but drew on NGFS, IEA, IPCC, CCC, and NIWA as external reference sources/archetypes.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Z Energy uses a mix of RCPs and SSPs across its scenarios. Specifically: IPCC RCP2.6 and RCP4.5 are referenced in the risk assessment scenarios, and the scenario table pairs IPCC RCP4.5 with SSP2, and IPCC RCP8.5 with SSP3.",
+      "evidence": "\"IPCC representative concentration pathways (RCP2.6 and RCP4.5)\" and \"IPCC RCP4.5 / SSP2\" and \"IPCC RCP8.5 / SSP3\"",
+      "location_hint": "Pages 6 and 12",
+      "confidence": "high",
+      "notes": "The document uses both RCP and SSP labels, pairing them together (RCP4.5/SSP2 and RCP8.5/SSP3) in the scenario table on page 12, while page 6 references RCP2.6 and RCP4.5 separately in the risk assessment context.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes, Z Energy developed customised climate scenarios. They built on earlier analysis using the BusinessNZ Energy Council climate scenarios ('Kea' and 'Tūī'), drew on international scenarios and datasets, developed their own scenario architecture and draft narratives, and tested and refined these through small group interviews and discussions. The scenarios are qualitative and exploratory in nature, focused on Z's domestic operations and primarily on the transport sector. Z also participated in the Transport Sector Climate Scenarios Working Group facilitated by the Aotearoa Circle.",
+      "evidence": "\"This was a qualitative exercise, building on earlier climate scenario analysis done in previous years using the BusinessNZ Energy Council climate scenarios, 'Kea' and 'Tūī', and draws on international scenarios and datasets as described further below.\" and \"Developed the scenario architecture and draft narratives drawing on selected international climate scenarios. Tested and refined climate scenarios through small group interviews and discussions.\"",
+      "location_hint": "Pages 11–13",
+      "confidence": "high",
+      "notes": "The scenarios are described as qualitative and exploratory, not predictive or forecasts. They are customised for Z's domestic operations with a primary focus on the transport sector.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Z's climate scenarios were developed internally, drawing on the NGFS narratives for Net Zero 2050, Delayed Transition and Current Policies, and a broader set of climate scenarios produced by the International Energy Agency (IEA), Intergovernmental Panel on Climate Change (IPCC) and the Climate Change Commission (CCC) for qualitative descriptions, population demographics and socio-economic assumptions. They were not co-produced with external parties, but were tested and refined through small group interviews and discussions.",
+      "evidence": "\"were developed internally, drawing on the NGFS narratives for Net Zero 2050, Delayed Transition and Current Policies, and a broader set of climate scenarios produced by the International Energy Agency (IEA), Intergovernmental Panel on Climate Change (IPCC) and the Climate Change Commission (CCC) for qualitative descriptions, population demographics and socio-economic assumptions.\"",
+      "location_hint": "Z Climate Statements 2023 - FINAL.pdf, page 12",
+      "confidence": "high",
+      "notes": "The scenarios were developed internally (not co-produced with external stakeholders), though they drew on established external frameworks (NGFS, IEA, IPCC, CCC) and were refined through small group interviews and discussions.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "The document references the use of \"selected international climate scenarios\" as the basis for developing Z's climate scenario architecture, with three temperature-aligned climate scenarios selected. The scenarios are qualitative and exploratory in nature, not predictive or forecasts. Specific named baseline scenarios (e.g., IEA, IPCC) are not explicitly identified in the retrieved context.",
+      "evidence": "\"Developed the scenario architecture and draft narratives drawing on selected international climate scenarios.\" and \"Selected temperature outcomes and pathways for three temperature-aligned climate scenarios.\"",
+      "location_hint": "Page 11",
+      "confidence": "low",
+      "notes": "The retrieved context does not explicitly name the baseline/reference scenarios used (e.g., IEA NZE, IPCC SSP pathways). It only states that \"selected international climate scenarios\" were drawn upon. The specific scenario names or sources are not present in the provided passages.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "Z used the BusinessNZ Energy Council (BEC) climate scenarios 'Kea' and 'Tūī', along with the Climate Change Commission's pathways for Aotearoa New Zealand. Z also developed its own internal modelling in 2021 (the \"Z House View of Demand\") to monitor and test thinking on the future of fuel demand.",
+      "evidence": "\"Z developed modelling in 2021 to monitor and test its thinking on the future of fuel demand against the two BusinessNZ Energy Council 'Kea' and 'Tūī' scenarios and the Climate Change Commission's pathways for the Aotearoa New Zealand\"",
+      "location_hint": "Page 14",
+      "confidence": "high",
+      "notes": "The context also notes that the Z House View of Demand is not itself a climate scenario and did not draw from the climate scenarios described on pages 20-25, as climate impacts were not quantified in 2023.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Z Energy considers damage from acute physical risks, including localised flooding, major slips on supply routes, and communication outages caused by events such as the Auckland Anniversary Weekend floods and Cyclone Gabrielle in 2023. These impacts have been categorised into \"current climate impacts.\" Additionally, fluvial and tidal flooding and impacts from extreme precipitation intensity are identified as the most significant physical risks to Z's assets going forward.",
+      "evidence": "\"Anniversary Weekend floods and Cyclone Gabrielle in 2023 caused localised flooding, major slips on supply routes and communication outages in the Gisborne and Hawke's Bay regions. Cyclone Gabrielle also devastated a number of communities, destroyed homes and livelihoods, and claimed 11 lives. The impacts of these events to Z have been categorised for this report into direct [current climate impacts].\" and \"Fluvial and tidal flooding and impacts from extreme precipitation intensity are expected to pose the most significant physical risks to Z, though localised studies are required to determine to what extent.\"",
+      "location_hint": "Z Climate Statements 2023, pages 10 and 21",
+      "confidence": "high",
+      "notes": "The document explicitly discusses acute physical risk events (floods, cyclones) and their direct impacts on Z's operations and assets, as well as forward-looking flood risk exposure across regions.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include non-temperature variables such as: sea-level rise, flooding, extreme weather events (frequency and intensity), oil price volatility, insurance premiums, supply chain disruption, carbon price, and ETS obligations.",
+      "evidence": "supply chain disruption and damage to assets exposed to high risk of physical climate impacts such as flooding and sea-level rise. The cost of insurance increases... A low carbon price places higher reliance on exotic forests to meet international commitments and provides weak incentives for consumers to switch... Extreme weather events increase in frequency and intensity and become exponentially worse after 2040. Supply chain disruption caused by more severe physical impacts of climate change impacts oil price volatility... Insurance premiums rise... ETS obligations increasing",
+      "location_hint": "Pages 6 and 13",
+      "confidence": "medium",
+      "notes": "The context describes scenario narratives with various non-temperature physical and transition variables, but does not present them in a structured scenario table. Variables are inferred from qualitative descriptions across multiple scenario narratives.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Z developed three new temperature-aligned climate scenarios to assess its climate-related risks and opportunities and to further understand the resilience of its business model. The scenarios were selected based on temperature outcomes and pathways, drawing on international climate scenarios, and were developed with an influence and uncertainty matrix.",
+      "evidence": "\"In 2023, Z developed three new temperature-aligned climate scenarios to assess its climate-related risks and opportunities and to further understand the resilience of its business model\" and \"Selected temperature outcomes and pathways for three temperature-aligned climate scenarios. Developed the scenario architecture and draft narratives drawing on selected international climate scenarios.\"",
+      "location_hint": "Page 11",
+      "confidence": "high",
+      "notes": "The document confirms three scenarios were used, aligned to temperature outcomes, but does not specify the exact temperature targets (e.g., 1.5°C, 2°C, 3°C+) in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Z Energy uses three time frames for climate-related risks and opportunities:\n- **Short-term**: 2024–2028\n- **Medium-term**: 2029–2035\n- **Long-term**: 2036–2050",
+      "evidence": "\"Short-term (2024-2028) to medium-term (2029-2035)... Medium-term (2029-2035) to long-term (2036-2050)... Short, medium and long term (2024-2050)\"",
+      "location_hint": "Z Climate Statements 2023 - FINAL.pdf, pages 14–15",
+      "confidence": "high",
+      "notes": "The time frame labels and their corresponding year ranges are explicitly stated in the document across multiple risk entries on pages 14 and 15.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Z developed three temperature-aligned climate scenarios that are qualitative and exploratory in nature (not predictive or forecasts), designed to test a broad range of plausible and challenging outcomes. Baseline assumptions (e.g., population growth and demographic shifts) are consistent across scenarios in accordance with Statistics New Zealand projections, adopting the approach taken by NGFS and IEA. The scenarios were developed as a risk management tool to assess climate-related risks and opportunities and to understand the resilience of Z's business model across short, medium, and long-term horizons.",
+      "evidence": "\"Climate scenarios are not predictive, they are not forecasts, nor do they represent any preferred options. They were developed to test a broad range of plausible and challenging outcomes to generate... Baseline assumptions such as population growth and demographic shifts are assumed to be consistent across the three climate scenarios and in accordance with Statistics New Zealand projections, adopting the approach taken by NGFS and IEA.\"",
+      "location_hint": "Pages 12–13",
+      "confidence": "high",
+      "notes": "The document references NGFS and IEA as the basis for the approach, and notes scenarios are qualitative/exploratory. Specific model names beyond NGFS and IEA are not detailed in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "The document does not provide specific data on historic climate impacts experienced by Z. It references that \"the costs of extreme weather across Z's assets was also considered\" in the financial impact assessment, and notes that risks from \"business activity disruption caused by extreme weather\" may be material, but no historical impact figures or events are explicitly disclosed.",
+      "evidence": "\"The costs of extreme weather across Z's assets was also considered at this point.\" and \"Risks may be more material from business activity disruption caused by extreme weather.\"",
+      "location_hint": "Z Climate Statements 2023 - FINAL.pdf, pages 7 and 21",
+      "confidence": "low",
+      "notes": "The context only briefly mentions extreme weather costs being considered, but provides no specific historical climate impact data, events, or quantified losses. A definitive \"not_found\" may be more appropriate for specific historic impact disclosures.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Z faces both direct and indirect physical climate risks. Direct physical risks include extreme weather events (such as wet weather causing landslips) that could disrupt operations at ports, terminals, and retail sites. Indirect physical risks include supply chain disruption caused by extreme weather affecting both Aotearoa New Zealand and its international trading partners. Z conducted a physical risk assessment across its assets under three temperature-aligned scenarios out to 2040. The company notes that supply chain disruption is likely to present the more material financial risk, while direct asset exposure was assessed as not material to disclose. Quantifying supply chain risks is identified as future work.",
+      "evidence": "Z has conducted a physical risk assessment across its assets to determine the level of risk and vulnerability to climate change across three temperature‑aligned scenarios out to 2040... on cascading risks, such as landslips caused by wet weather events, to better understand potential disruptions to the supply of fuel products from ports, terminals, and retail sites. This supply chain disruption is likely to present the more material financial risk to Z... assets was not material to disclose in this climate statement. Risks may be more material from business activity disruption caused by extreme weather. Quantifying and understanding these supply chain risks is the subject of future work.",
+      "location_hint": "Z Climate Statements 2023 - FINAL.pdf, pages 7, 17, 21",
+      "confidence": "high",
+      "notes": "Direct physical risk to assets was assessed as not material; indirect/supply chain disruption from extreme weather is identified as the more material financial risk. Both Aotearoa NZ and international trading partners face challenges from extreme weather disrupting supply chains.",
+      "verification": null
+    }
+  ]
+}

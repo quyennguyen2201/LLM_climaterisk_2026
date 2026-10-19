@@ -1,0 +1,345 @@
+{
+  "source": "VENTIA_SERVICES_GROUP_LIMITED_2023",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1417512,
+      "total_tokens": 1424208,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 1346073,
+        "ephemeral_5m_input_tokens": 71414,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 6696
+    }
+  },
+  "retrieval_trace": [
+    {
+      "q_id": 1,
+      "tool": "search_knowledge_base",
+      "query": "climate scenarios pathways used",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 3,
+      "tool": "search_knowledge_base",
+      "query": "scenario provider IPCC NGFS NIWA MfE source",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 2,
+      "tool": "search_knowledge_base",
+      "query": "global temperature outcome 2100 1.5 degrees 2 degrees warming",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 5,
+      "tool": "search_knowledge_base",
+      "query": "customised adapted localised downscaled tailored scenarios",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 6,
+      "tool": "search_knowledge_base",
+      "query": "participatory co-create co-design stakeholder input collaborative scenario development",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 4,
+      "tool": "search_knowledge_base",
+      "query": "SSP RCP scenario family combination",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 7,
+      "tool": "search_knowledge_base",
+      "query": "baseline reference scenario business as usual comparison",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 9,
+      "tool": "search_knowledge_base",
+      "query": "acute physical risk extreme events damage loss flood cyclone storm wildfire",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 8,
+      "tool": "search_knowledge_base",
+      "query": "climate model integrated assessment model IAM CLIMADA REMIND MESSAGE GCAM macroeconomic model",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 11,
+      "tool": "search_knowledge_base",
+      "query": "global regional local downscaled climate model scale",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 10,
+      "tool": "search_knowledge_base",
+      "query": "carbon price sea level rise rainfall temperature variables scenario drivers",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 12,
+      "tool": "search_knowledge_base",
+      "query": "time horizon short medium long term 2025 2030 2050 rationale timeframe",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 15,
+      "tool": "search_knowledge_base",
+      "query": "direct indirect physical risk supply chain customers operations assets infrastructure",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 14,
+      "tool": "search_knowledge_base",
+      "query": "historical observed past climate impacts floods cyclones storms weather events damage",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 13,
+      "tool": "search_knowledge_base",
+      "query": "justification reason why scenarios chosen selected rationale",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 1,
+      "tool": "get_page",
+      "source": "Ventia - 2023 Sustainability Report.pdf",
+      "page": 21
+    },
+    {
+      "q_id": 14,
+      "tool": "get_page",
+      "source": "Ventia - 2023 Sustainability Report.pdf",
+      "page": 19
+    },
+    {
+      "q_id": 14,
+      "tool": "search_knowledge_base",
+      "query": "inclement weather cyclones floods restore essential services historical climate impact",
+      "k": 5,
+      "n_results": 5
+    },
+    {
+      "q_id": 10,
+      "tool": "search_knowledge_base",
+      "query": "fossil fuel emissions reduction transition policy regulation technology variables",
+      "k": 5,
+      "n_results": 5
+    }
+  ],
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": [
+        "Fast action (1.5°C future)",
+        "Required action (2.0°C future)",
+        "Delayed rapid action",
+        "Current trajectory (>3.0°C future)"
+      ],
+      "evidence": "\"We developed four future climate scenarios, ranging from warming of 1.5°C to >3.0°C and tailored to our business, to enable our senior leaders to assess the impacts of a future climate on our operations. ... Fast action (1.5°C future) ... Required action (2.0°C future) ... Delayed rapid action ... Current trajectory (>3.0°C future)\"",
+      "location_hint": "Page 20–21, Climate risk management section",
+      "confidence": "high",
+      "notes": "Four scenarios are named explicitly in the document with their temperature labels.",
+      "verification": 5,
+      "ani_notes": "Fast action (1.5oC future) Delayed rapid action Required action (2oC future) Current trajectory (>3oC future)",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Four temperature outcomes are described: 1.5°C (Fast action scenario), 2.0°C (Required action scenario), an intermediate unlabelled warming level (Delayed rapid action), and >3.0°C (Current trajectory scenario). No explicit 2100 endpoint or temperature overshoot is mentioned.",
+      "evidence": "\"We developed four future climate scenarios, ranging from warming of 1.5°C to >3.0°C and tailored to our business ... Fast action (1.5°C future) ... Required action (2.0°C future) ... Current trajectory (>3.0°C future)\"",
+      "location_hint": "Page 20–21",
+      "confidence": "high",
+      "notes": "The document does not explicitly state these are 2100 outcomes, but the temperature labels are standard end-of-century conventions. No overshoot language is used.",
+      "verification": 5,
+      "ani_notes": "1.5oC 2 >3oC",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The document does not name any external scenario provider (e.g. IPCC, NGFS, NIWA). Ventia states it \"developed\" its own four scenarios tailored to its business.",
+      "verification": 5,
+      "ani_notes": "not mentioned",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "No",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The document does not reference SSP or RCP identifiers at all. Ventia developed its own proprietary four-scenario framework without referencing standard IPCC scenario families.",
+      "verification": 5,
+      "ani_notes": "not mentioned",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"We developed four future climate scenarios, ranging from warming of 1.5°C to >3.0°C and tailored to our business, to enable our senior leaders to assess the impacts of a future climate on our operations.\"",
+      "location_hint": "Page 20–21",
+      "confidence": "high",
+      "notes": "The word \"tailored\" is used explicitly. The scenarios were developed internally (not taken off-the-shelf from a standard provider) and refined through internal stakeholder interviews and workshops.",
+      "verification": 5,
+      "ani_notes": "not mentioned (but it appears page 20, as tailored for their business, F.)",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes — the scenario development process involved internal stakeholder interviews and workshops, though it is not described as externally participatory or co-designed with outside parties.",
+      "evidence": "\"The process of identifying the range of risks and opportunities used in scenario planning included interviews with internal stakeholders, considering how Ventia's operations, customers and supply chains may be affected under each scenario. The consolidated and aggregated themes from the interviews, which described the most prominent climate risks and opportunities relevant to Ventia, were explored and assessed through a series of workshops.\"",
+      "location_hint": "Page 21",
+      "confidence": "medium",
+      "notes": "The process involved internal stakeholder interviews and workshops, which is a form of participatory development, but it is limited to internal stakeholders only. No external co-design or co-production with outside parties is described.",
+      "verification": 1,
+      "ani_notes": "not mentioned",
+      "verification_status": "re-scored: answer flipped, gold label from earlier verification"
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "No explicit baseline or reference scenario is described against which the climate scenarios are compared. The \"Current trajectory (>3.0°C future)\" scenario could be interpreted as a business-as-usual reference, but it is not labelled as a baseline.",
+      "evidence": "\"Current trajectory (>3.0°C future) ... Physical impacts are severe, with impacts to supply chains. Fossil fuel consumption continues to grow out to 2050.\"",
+      "location_hint": "Page 21",
+      "confidence": "medium",
+      "notes": "The document does not use the term \"baseline\" or \"reference scenario.\" The Current trajectory scenario describes a worst-case/no-action path but is not explicitly framed as a baseline for comparison.",
+      "verification": 5,
+      "ani_notes": "not mentioned",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "No climate models, integrated assessment models (IAMs), or macroeconomic models are named anywhere in the document. The scenario analysis appears to be qualitative and based on internal stakeholder interviews and workshops rather than quantitative modelling.",
+      "verification": 5,
+      "ani_notes": "not mentioned",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"Risk (physical – acute and chronic) Impacts of climate change on our people: The impacts of climate change, particularly in the >2.0°C scenarios, will result in more frequent and severe weather events. Contracts in locations experiencing the most extreme weather conditions may experience a changed risk profile in relation to physical personnel risks, and for attracting and retaining employees.\" And: \"Risk (physical) Impact of climate change on operations: Climate change has the capacity to be a significant disruptor to Ventia's operations. Chronic and acute weather have the capacity to disrupt Ventia's workforce.\" And: \"Risk (physical and transition) External price shocks to supply chain: Extreme weather and other impacts of climate change could result in external price shocks.\"",
+      "location_hint": "Pages 17–18",
+      "confidence": "high",
+      "notes": "Acute physical risks (extreme weather events) are explicitly identified as a risk category. However, the analysis is qualitative — no quantitative damage or loss estimates are provided. The document acknowledges it is still developing quantitative financial impact assessment.",
+      "verification": 5,
+      "ani_notes": "None (but it appears pages 16-17 F.)",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "fossil fuel consumption",
+        "pace of emissions reduction",
+        "fossil fuel phase-out rate",
+        "extreme weather frequency and severity",
+        "supply chain disruptions",
+        "external price shocks"
+      ],
+      "evidence": "\"Fast action (1.5°C future): Fast reduction of emissions from now. Rapid decline in fossil fuel use. Worst physical impacts avoided. ... Delayed rapid action: Little additional action on climate change until 2025, rapid action from 2030. Worst transition risks due to rapid pace of change. Physical impacts still present. ... Current trajectory (>3.0°C future): Physical impacts are severe, with impacts to supply chains. Fossil fuel consumption continues to grow out to 2050.\" And: \"Extreme weather and other impacts of climate change could result in external price shocks.\"",
+      "location_hint": "Pages 18, 21",
+      "confidence": "medium",
+      "notes": "The scenarios are described qualitatively. No specific quantitative variables such as carbon price, sea level rise, or rainfall are named. The drivers are described in narrative terms around fossil fuel use, pace of policy action, and physical weather impacts.",
+      "verification": 5,
+      "ani_notes": "-Fossil fuel use - Reduction of emissions - Physical impact degree",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The document does not specify whether the scenarios are based on global climate models or have been downscaled to a regional/local level. The scenarios are qualitative and internally developed, with no reference to the spatial scale of any underlying climate data.",
+      "verification": 5,
+      "ani_notes": null,
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Three time horizons are defined: Short (Now to 2025), Medium (2026 to 2030), Long (2031 and beyond). No explicit rationale for these specific timeframes is provided in the document.",
+      "evidence": "\"Short: Now to 2025 / Medium: 2026 to 2030 / Long: 2031 & beyond\" (as column headers in the risk/opportunity table)",
+      "location_hint": "Pages 16–17",
+      "confidence": "high",
+      "notes": "The NZ CS 1 index (page 72) references that the definitions are \"linked to its strategic planning horizons and capital deployment plans\" but no explicit justification for the specific year boundaries is provided in the body of the report.",
+      "verification": 5,
+      "ani_notes": "Short-term: Now-2025 Medium: 2026-2030 Long: 2031-beyond",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "No",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The document does not provide an explicit justification for why these four specific scenarios were chosen. It states they were \"developed\" and \"tailored to our business\" but gives no rationale for the specific temperature levels selected or the scenario design choices.",
+      "verification": 5,
+      "ani_notes": null,
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "Yes — the document references Ventia's operational experience responding to inclement weather events such as cyclones and floods, and describes two serious environmental incidents in 2023.",
+      "evidence": "\"Ventia's Transmission & Distribution teams support our clients to make the energy distribution network more resilient to the effects of climate change (as we provide and restore essential services during and after inclement weather events, such as cyclones and floods)\"",
+      "location_hint": "Page 19",
+      "confidence": "medium",
+      "notes": "The reference to cyclones and floods is framed as an ongoing operational activity rather than a specific historical impact event. The document does not describe a specific past climate event that caused quantified damage to Ventia's assets or finances. The two serious environmental incidents in 2023 (p.27) relate to operational incidents, not climate hazards.",
+      "verification": 4,
+      "ani_notes": "No mention of historic/current climte impacts;",
+      "verification_status": "new question - needs verification"
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "both",
+      "evidence": "\"Risk (physical) Impact of climate change on operations: Climate change has the capacity to be a significant disruptor to Ventia's operations. Chronic and acute weather have the capacity to disrupt Ventia's workforce.\" [direct] AND \"Risk (physical) Physical risks lead to disruptions in supply chain: As evidenced by COVID-19, the world is vulnerable to disruptions in the availability of materials and resources. In a future climate, extreme weather or the decreased viability of certain materials may drive supply constraints.\" [indirect] AND \"Risk (physical and transition) External price shocks to supply chain: Extreme weather and other impacts of climate change could result in external price shocks.\" [indirect]",
+      "location_hint": "Pages 17–18",
+      "confidence": "high",
+      "notes": "The document explicitly considers both direct physical risks (impacts on Ventia's own operations and workforce) and indirect physical risks (impacts through supply chains and external price shocks).",
+      "verification": 5,
+      "ani_notes": "Both: Physical risks lead to disruptions in supply chain"
+,
+      "verification_status": "new question - needs verification"
+    }
+  ]
+}

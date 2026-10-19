@@ -1,0 +1,318 @@
+{
+  "source": "NZME_LIMITED_2023",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "total_tokens": 630654,
+      "output_tokens": 7959,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 566023,
+        "ephemeral_5m_input_tokens": 56656,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "input_tokens": 622695
+    }
+  },
+  "retrieval_trace": [
+    {
+      "q_id": 2,
+      "tool": "search_knowledge_base",
+      "query": "global temperature outcome 2100 1.5 degrees 2 degrees warming",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 1,
+      "tool": "search_knowledge_base",
+      "query": "climate scenarios pathways used",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 3,
+      "tool": "search_knowledge_base",
+      "query": "scenario provider IPCC NGFS NIWA MfE source",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 5,
+      "tool": "search_knowledge_base",
+      "query": "customised adapted localised downscaled scenarios industry entity",
+      "k": 5,
+      "n_results": 5
+    },
+    {
+      "q_id": 4,
+      "tool": "search_knowledge_base",
+      "query": "SSP RCP combination scenario families mixing",
+      "k": 5,
+      "n_results": 5
+    },
+    {
+      "q_id": 6,
+      "tool": "search_knowledge_base",
+      "query": "participatory co-create co-design stakeholder collaborative scenario development",
+      "k": 5,
+      "n_results": 5
+    },
+    {
+      "q_id": 7,
+      "tool": "search_knowledge_base",
+      "query": "baseline reference scenario comparison",
+      "k": 5,
+      "n_results": 5
+    },
+    {
+      "q_id": 9,
+      "tool": "search_knowledge_base",
+      "query": "damage loss extreme weather events acute physical risk flooding storm",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 8,
+      "tool": "search_knowledge_base",
+      "query": "climate model integrated assessment model IAM macroeconomic model CLIMADA REMIND",
+      "k": 5,
+      "n_results": 5
+    },
+    {
+      "q_id": 12,
+      "tool": "search_knowledge_base",
+      "query": "time horizon short medium long term years timeframe rationale",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 11,
+      "tool": "search_knowledge_base",
+      "query": "global regional local downscaled New Zealand climate model scale",
+      "k": 5,
+      "n_results": 5
+    },
+    {
+      "q_id": 10,
+      "tool": "search_knowledge_base",
+      "query": "carbon price sea level rise rainfall precipitation variables scenario drivers",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 14,
+      "tool": "search_knowledge_base",
+      "query": "historical observed climate impacts Auckland floods Cyclone Gabrielle past events",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 15,
+      "tool": "search_knowledge_base",
+      "query": "direct indirect physical risk supply chain customers suppliers value chain",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 13,
+      "tool": "search_knowledge_base",
+      "query": "justification reason why scenarios chosen selected rationale",
+      "k": 5,
+      "n_results": 5
+    }
+  ],
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": [
+        "Deep decarbonisation scenario (SSP1-1.9 / RCP 2.6)",
+        "Status quo scenario (SSP2-4.5 / RCP 4.5)",
+        "Carbon intensive scenario (SSP5-8.5 / RCP 8.5)"
+      ],
+      "evidence": "We analysed three different scenarios: 1. a deep decarbonisation scenario, which assumed the conditions under SSP1-1.9 and RCP 2.6 (average warming of 1.4 degrees C by 2100); 2. a status quo scenario, which assumed the conditions under SSP2-4.5 and RCP 4.5 (average warming of 2.7 degrees C by 2100); and 3. a carbon intensive scenario, which assumed the conditions under SSP5-8.5 and RCP 8.5 (average warming of 4.4 degrees by 2100).",
+      "location_hint": "Scenario analysis section, p.31",
+      "confidence": "high",
+      "notes": null,
+      "verification": 5,
+      "ani_notes": "Deep decarbonization (SSP1-1.9 and RCP 2.6) Status quo scenario (SSP2-4.5 and RCP 4.5) Carbon intensive scenario (SSP5-8.5 and RCP 8.5)",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes by 2100 are described: 1.4°C (deep decarbonisation / SSP1-1.9 / RCP 2.6), 2.7°C (status quo / SSP2-4.5 / RCP 4.5), and 4.4°C (carbon intensive / SSP5-8.5 / RCP 8.5). No temperature overshoot is mentioned.",
+      "evidence": "1. a deep decarbonisation scenario, which assumed the conditions under SSP1-1.9 and RCP 2.6 (average warming of 1.4 degrees C by 2100); 2. a status quo scenario, which assumed the conditions under SSP2-4.5 and RCP 4.5 (average warming of 2.7 degrees C by 2100); and 3. a carbon intensive scenario, which assumed the conditions under SSP5-8.5 and RCP 8.5 (average warming of 4.4 degrees by 2100).",
+      "location_hint": "Scenario analysis section, p.31",
+      "confidence": "high",
+      "notes": "Temperature figures sourced from IPCC 6th Assessment and NIWA as stated in the scenario parameter figures.",
+      "verification": 5,
+      "ani_notes": "1.4oC 2.7oC 4.4oC",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "Multiple providers are named: IPCC (for RCP and SSP scenarios, 6th Assessment Report), NIWA (temperature change data), Ministry for the Environment / MfE (flooding data), NASA (sea level rise), Shared Socio-economic Pathways (population growth and regulatory/policy), International Energy Agency / IEA (technology), Ministry of Transport / MOT (transportation), and McGuinness Institute (mitigation vs adaptation efforts). External consultants were also engaged to support the scenario analysis.",
+      "evidence": "In developing the scenarios the representative concentration warming pathways (\"RCPs\") established by the Intergovernmental Panel on Climate Change (\"IPCC\") 6th assessment and the Shared Socio-economic Pathways (\"SSP\") scenarios relevant for New Zealand were adapted to our industry and entity... Temperature change (IPCC 6th Assessment report; NIWA); Flooding (Ministry for the Environment National Climate Risk Assessment 2020); Sea level rise (NASA); Population growth (Shared Socio-economic Pathways); Regulatory/Policy (Shared Socio-economic Pathways); Technology (International Energy Agency); Transportation (Ministry of Transport); Mitigation vs Adaptation efforts (McGuinness Institute).",
+      "location_hint": "Scenario analysis / Methodologies and assumptions, p.31",
+      "confidence": "high",
+      "notes": "The base scenario frameworks are IPCC/SSP; other named providers supply individual data inputs to the scenarios.",
+      "verification": 5,
+      "ani_notes": "RCP  provided by IPCC 6th assessment + SSP revelvant to NZ NZ reference data was overlaid MfE Climate Assessment 2020 - Flooding SLR - NASA IEA Ministry of Tranport Mitigation vs Adaptation",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "We analysed three different scenarios: 1. a deep decarbonisation scenario, which assumed the conditions under SSP1-1.9 and RCP 2.6 (average warming of 1.4 degrees C by 2100); 2. a status quo scenario, which assumed the conditions under SSP2-4.5 and RCP 4.5 (average warming of 2.7 degrees C by 2100); and 3. a carbon intensive scenario, which assumed the conditions under SSP5-8.5 and RCP 8.5 (average warming of 4.4 degrees by 2100).",
+      "location_hint": "Scenario analysis section, p.31",
+      "confidence": "high",
+      "notes": "The document explicitly lists both SSP and RCP identifiers for each scenario (e.g. SSP1-1.9 paired with RCP 2.6; SSP2-4.5 with RCP 4.5; SSP5-8.5 with RCP 8.5). SSPs come from IPCC AR6 and RCPs from an earlier framework — these are from different IPCC assessment generations and are not internally consistent scenario families. The scenario parameter figures also show them as separate reference scenarios (e.g. \"SSP1 / RCP 2.6\").",
+      "verification": 5,
+      "ani_notes": "Yes - they have mixed and picked",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "In developing the scenarios the representative concentration warming pathways (\"RCPs\") established by the Intergovernmental Panel on Climate Change (\"IPCC\") 6th assessment and the Shared Socio-economic Pathways (\"SSP\") scenarios relevant for New Zealand were adapted to our industry and entity. The New Zealand reference data was overlaid to these scenarios, to develop detailed narratives and parameters to evaluate climate-related risks and opportunities.",
+      "location_hint": "Scenario analysis section, p.31",
+      "confidence": "high",
+      "notes": "The document explicitly states the scenarios were \"adapted to our industry and entity\" and that New Zealand reference data was overlaid, indicating localisation and industry-specific customisation beyond off-the-shelf use.",
+      "verification": 5,
+      "ani_notes": "Engage external consultants",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "In May 2023, the CRD Working Group engaged external consultants to support our scenario analysis... Members of the Executive Management Team as well as the CRD Working Group were involved in the scenario analysis and the development of management activities to address different risks and opportunities. The Board oversaw the climate-related assessment process and were provided regular updates on the progress and outputs of our scenario analysis and resulting management activities.",
+      "location_hint": "Scenario analysis section, p.31 and p.35",
+      "confidence": "high",
+      "notes": "The scenario development involved internal staff (CRD Working Group, Executive Management Team, Board) and external consultants, but there is no mention of participatory, co-design, co-creation, or stakeholder-collaborative processes with external stakeholders.",
+      "verification": 5,
+      "ani_notes": null,
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "No explicit standalone baseline or reference scenario is described against which the three climate scenarios are compared. The \"status quo scenario\" (SSP2-4.5 / RCP 4.5) could be interpreted as a middle-ground reference, but it is presented as one of three scenarios rather than a formal baseline.",
+      "evidence": "We analysed three different scenarios: 1. a deep decarbonisation scenario... 2. a status quo scenario, which assumed the conditions under SSP2-4.5 and RCP 4.5 (average warming of 2.7 degrees C by 2100); and 3. a carbon intensive scenario... We evaluated the most ambitious and worst-case scenarios, to ensure that we stress tested all material risks or opportunities that might plausibly eventuate in the years to 2100.",
+      "location_hint": "Scenario analysis section, p.31",
+      "confidence": "medium",
+      "notes": "The document does not use the term \"baseline\" or \"reference scenario\" in the sense of a no-climate-change counterfactual. The status quo scenario represents continuation of current trends but is not explicitly framed as a baseline for comparison.",
+      "verification": 5,
+      "ani_notes": null,
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "No specific climate models, IAMs, or macroeconomic models are named. Data sources referenced include the IPCC 6th Assessment Report, NIWA, NASA, MfE National Climate Risk Assessment 2020, Shared Socio-economic Pathways, IEA, Ministry of Transport, and McGuinness Institute — but no named models (e.g. CLIMADA, REMIND, GCAM, NiGEM) are cited.",
+      "evidence": "The scenarios considered time horizons out to the end of this century (2100), supported by source data on the key trends over this period including: Temperature change (IPCC 6th Assessment report; NIWA); Flooding (Ministry for the Environment National Climate Risk Assessment 2020); Sea level rise (NASA); Population growth (Shared Socio-economic Pathways); Regulatory/Policy (Shared Socio-economic Pathways); Technology (International Energy Agency); Transportation (Ministry of Transport); Mitigation vs Adaptation efforts (McGuinness Institute).",
+      "location_hint": "Methodologies and assumptions, p.31",
+      "confidence": "high",
+      "notes": "The document names data sources and reports, not specific climate or economic models.",
+      "verification": 5,
+      "ani_notes": null,
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "Extreme weather events - Auckland floods (Jan 2023) and Cyclone Gabrielle (Feb 2023) [Physical risk]: Disruption to distribution of printed publications to affected regions; Increased reliance/dependency of communities on AM/FM as the most reliable mode of communication; Damage to company property disrupting services; Business disruption - Staff unable to access workplace and journalists unable to access affected regional offices; Events cancelled in affected regions... [Under Carbon intensive scenario] Increased severity of extreme weather [Physical] RISK: Flooding of sites, health and safety risk, difficulty distributing content, business continuity risk.",
+      "location_hint": "Table 1 (current impacts), p.30; Table 4 (carbon intensive scenario), p.38",
+      "confidence": "high",
+      "notes": "Both current (historical) and forward-looking scenario-based damage/loss estimates from extreme weather events (acute physical risks) are explicitly included, including flooding of sites, property damage, and business disruption.",
+      "verification": 5,
+      "ani_notes": "None (but present in Table 1 and 4",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "Sea level rise",
+        "Flooding (sea and pluvial inundation)",
+        "Population growth",
+        "Regulatory/Policy conditions",
+        "Technology (energy and clean tech)",
+        "Transportation modes",
+        "Mitigation vs adaptation efforts"
+      ],
+      "evidence": "The scenarios considered time horizons out to the end of this century (2100), supported by source data on the key trends over this period including: Temperature change (IPCC 6th Assessment report; NIWA); Flooding (Ministry for the Environment National Climate Risk Assessment 2020); Sea level rise (NASA); Population growth (Shared Socio-economic Pathways); Regulatory/Policy (Shared Socio-economic Pathways); Technology (International Energy Agency); Transportation (Ministry of Transport); Mitigation vs Adaptation efforts (McGuinness Institute).",
+      "location_hint": "Methodologies and assumptions, p.31; Scenario parameter figures, pp.32–34",
+      "confidence": "high",
+      "notes": "These variables are explicitly listed as scenario inputs. An internal carbon price (NZD$87/tonne CO2e) is also mentioned in the metrics section but is not described as a scenario driver.",
+      "verification": 5,
+      "ani_notes": "-Temperature chance - Flooding - Sea level rise - Population growth - Regulatory/poly - Technology - Tranportation - Miitigation vs adaptation efforts",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "In developing the scenarios the representative concentration warming pathways (\"RCPs\") established by the Intergovernmental Panel on Climate Change (\"IPCC\") 6th assessment and the Shared Socio-economic Pathways (\"SSP\") scenarios relevant for New Zealand were adapted to our industry and entity. The New Zealand reference data was overlaid to these scenarios, to develop detailed narratives and parameters... [Scenario parameters include] NZ Temp change: 2025 / NZ Temp change: 2090... Sea level rise at 2100 (NASA): 0.44m (NZ average)... Flooding – sea and pluvial inundation (MFE National Climate Risk Assessment 2020): High risk zones [listing specific NZ districts].",
+      "location_hint": "Scenario analysis section p.31; Scenario parameter figures pp.32–34",
+      "confidence": "high",
+      "notes": "Global IPCC/SSP/RCP scenarios are used as the base, but New Zealand-specific data (NZ temperature change, NZ average sea level rise, specific NZ flood risk zones) is overlaid, making the scenarios both global and regional/local in scope.",
+      "verification": 5,
+      "ani_notes": "NZ reference data (but based on global SSP/RCP frameworks, F.)",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Three time horizons are defined: Short term = next 1–3 years (aligned with business planning); Medium term = next 3–10 years (aligned with asset management and publication life); Long term = next 10–30 years (aligned with investor relations and radio stream life). The overall scenario horizon extends to 2100. Rationales are provided for each timeframe, linked to specific business planning cycles and asset lifespans.",
+      "evidence": "SHORT TERM: Next 1–3 years Aligned with business planning. MEDIUM TERM: Next 3–10 years Aligned with asset management and publication life. LONG TERM: Next 10–30 years Aligned with investor relations and radio stream life... While the time horizon for the scenarios stretched to the end of the century, we considered how the potential impacts would meaningfully play into the short, medium and long term timeframes for our business planning and capital deployment.",
+      "location_hint": "Figure 4: Time horizons, p.35",
+      "confidence": "high",
+      "notes": "Rationales are explicitly provided for each timeframe, tied to business planning cycles, asset management, publication life, investor relations, and radio stream life.",
+      "verification": 5,
+      "ani_notes": "Short-term (1-3 years) Medium term (3-10 years) Long-terms (10-30 years)",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes — partially. The document states that the most ambitious and worst-case scenarios were evaluated to stress-test all material risks, and that a conservative approach was taken. However, no explicit justification is given for why these specific IPCC scenario families (SSP1-1.9/RCP 2.6, SSP2-4.5/RCP 4.5, SSP5-8.5/RCP 8.5) were chosen over alternatives.",
+      "evidence": "We evaluated the most ambitious and worst-case scenarios, to ensure that we stress tested all material risks or opportunities that might plausibly eventuate in the years to 2100. Taking this conservative approach also allows us to consider an environment where the physical impacts escalate much faster than anticipated, and/or the corresponding transitional impacts are put in place more rapidly, and to test our ability to respond.",
+      "location_hint": "Methodologies and assumptions, p.31",
+      "confidence": "medium",
+      "notes": "The justification given is for the overall approach (stress-testing most ambitious and worst-case scenarios) rather than for the specific scenario identifiers chosen. No explicit rationale is provided for why SSP1-1.9/RCP 2.6, SSP2-4.5/RCP 4.5, and SSP5-8.5/RCP 8.5 were selected over other available scenarios.",
+      "verification": 5,
+      "ani_notes": "None (but they do provide a partial justification, F.)",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "Yes — the document describes historical climate impacts from the Auckland floods (January 2023) and Cyclone Gabrielle (February 2023), including disruption to print distribution, property damage, staff unable to access workplaces, and vulnerability of transmission equipment and delivery networks.",
+      "evidence": "Extreme weather events - Auckland floods (Jan 2023) and Cyclone Gabrielle (Feb 2023) [Physical risk]: Disruption to distribution of printed publications to affected regions; Increased reliance/dependency of communities on AM/FM as the most reliable mode of communication; Damage to company property disrupting services; Business disruption - Staff unable to access workplace and journalists unable to access affected regional offices; Events cancelled in affected regions... Transmission equipment – vulnerable to disruption associated with Auckland floods and Cyclone Gabrielle. Channel/print delivery network – vulnerable to disruption associated with Auckland floods and Cyclone Gabrielle.",
+      "location_hint": "Table 1: NZME's current (2023) climate-related impacts, p.30; Table 7: Risks and opportunities metrics, p.42",
+      "confidence": "high",
+      "notes": "These are explicitly described as current/observed impacts in 2023, not forward-looking projections.",
+      "verification": 5,
+      "ani_notes": "Yes; Extreme weather events - Auckland floods (Jan 2023) and Cyclone Gabrielle (Feb 2023",
+      "verification_status": "new question - needs verification"
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "both",
+      "evidence": "Direct: \"Flooding of sites, health and safety risk, difficulty distributing content, business continuity risk\"... \"One asset - (Ellerslie print plant) located in 1/100 year flood zone\"... \"Damage to company property disrupting services; Business disruption - Staff unable to access workplace.\" Indirect: \"Supply chain influence [Transition] RISK: Suppliers don't develop/supply low emission alternatives fast enough or at all\"... \"NZME considered its full value chain when evaluating its exposure to climate-related risks and opportunities. No part of NZME's value chain was excluded from its climate-related assessment.\"",
+      "location_hint": "Table 1 p.30; Table 3 p.37; Table 4 p.38; Risk and opportunities metrics p.42; Risk Management section p.39",
+      "confidence": "high",
+      "notes": "Direct physical risks include flooding of NZME's own sites, damage to company property, and disruption to staff. Indirect physical risks are addressed through the full value chain assessment, including supply chain risks and disruption to the channel/print delivery network.",
+      "verification": 1,
+      "ani_notes": "Direct; supply chain is only mentioned in transtion risk",
+      "verification_status": "new question - needs verification"
+    }
+  ]
+}

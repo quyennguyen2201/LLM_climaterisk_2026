@@ -1,0 +1,369 @@
+{
+  "source": "CHANNEL_INFRASTRUCTURE_NZ_LIMITED_2023",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "total_tokens": 1461763,
+      "output_tokens": 8802,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 1381410,
+        "ephemeral_5m_input_tokens": 71525,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "input_tokens": 1452961
+    }
+  },
+  "retrieval_trace": [
+    {
+      "q_id": 2,
+      "tool": "search_knowledge_base",
+      "query": "global temperature outcome 2100 1.5 degrees 2 degrees warming",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 3,
+      "tool": "search_knowledge_base",
+      "query": "scenario provider IPCC NGFS NIWA MfE source",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 1,
+      "tool": "search_knowledge_base",
+      "query": "climate scenarios pathways used",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 6,
+      "tool": "search_knowledge_base",
+      "query": "participatory co-create co-design stakeholder input collaborative development",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 4,
+      "tool": "search_knowledge_base",
+      "query": "SSP RCP combination mixing scenario families",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 5,
+      "tool": "search_knowledge_base",
+      "query": "downscaled adapted localised customised tailored scenarios",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 7,
+      "tool": "search_knowledge_base",
+      "query": "baseline reference scenario business as usual comparison",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 9,
+      "tool": "search_knowledge_base",
+      "query": "damage loss extreme events acute physical risk flood storm cyclone earthquake",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 8,
+      "tool": "search_knowledge_base",
+      "query": "climate model integrated assessment model IAM macroeconomic model CLIMADA REMIND MESSAGE",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 13,
+      "tool": "search_knowledge_base",
+      "query": "justification reason why scenarios chosen selected rationale",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 12,
+      "tool": "search_knowledge_base",
+      "query": "short term medium term long term time horizon years definition rationale",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 10,
+      "tool": "search_knowledge_base",
+      "query": "carbon price sea level rise rainfall temperature hot days population variables scenarios",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 14,
+      "tool": "search_knowledge_base",
+      "query": "historical observed impacts climate hazards assets operations finances customers",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 15,
+      "tool": "search_knowledge_base",
+      "query": "direct indirect physical risk supply chain customers suppliers value chain",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 11,
+      "tool": "search_knowledge_base",
+      "query": "global regional local downscaled New Zealand specific climate projections",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 9,
+      "tool": "get_page",
+      "source": "Resilient infrastructure for a decarbonising world (7) - FINAL 28.02.24 9.30pm.pdf",
+      "page": 65
+    },
+    {
+      "q_id": 14,
+      "tool": "get_page",
+      "source": "Resilient infrastructure for a decarbonising world (7) - FINAL 28.02.24 9.30pm.pdf",
+      "page": 36
+    },
+    {
+      "q_id": 9,
+      "tool": "get_page",
+      "source": "Resilient infrastructure for a decarbonising world (7) - FINAL 28.02.24 9.30pm.pdf",
+      "page": 66
+    },
+    {
+      "q_id": 12,
+      "tool": "get_page",
+      "source": "Resilient infrastructure for a decarbonising world (7) - FINAL 28.02.24 9.30pm.pdf",
+      "page": 41
+    },
+    {
+      "q_id": 9,
+      "tool": "search_knowledge_base",
+      "query": "acute physical risk damage loss financial impact extreme weather disruption operations",
+      "k": 5,
+      "n_results": 5
+    },
+    {
+      "q_id": 12,
+      "tool": "search_knowledge_base",
+      "query": "short term 2030 medium term 2050 long term 2100 time horizon definition",
+      "k": 5,
+      "n_results": 5
+    }
+  ],
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": [
+        "Green Light (Orderly – NGFS Orderly, RCP2.6, SSP1, CCC Tailwinds)",
+        "Amber Light (Disorderly – NGFS Disorderly, RCP4.5, SSP2, CCC Headwinds)",
+        "Red Light (Hothouse – NGFS Hothouse, RCP8.5/RCP7.0, SSP3, CCC Current Policy Reference)"
+      ],
+      "evidence": "\"We have developed and explored three climate-change scenarios... Reference scenarios: NGFS Orderly, RCP 2.6, SSP 1, CCC Tailwinds [Green Light] ... Reference scenarios: NGFS Disorderly, RCP4.5, SSP 2, CCC Headwinds [Amber Light] ... Reference scenarios: NGFS Hothouse, RCP8.5, SSP 3, CCC Current Policy Reference [Red Light]\"",
+      "location_hint": "pp. 42–52, Appendix 5 p. 113",
+      "confidence": "high",
+      "notes": "Each of the three Channel Infrastructure scenarios (Green Light, Amber Light, Red Light) is built from a combination of NGFS, RCP, SSP and CCC reference scenarios.",
+      "verification": 5,
+      "ani_notes": "Green (1.oC degree)  (Orderly) (SSP1)  (RCP 2.6)  (Tailwinds) Amber Middle degree scenario  (Disorderly)  (SSP2)  (RCP 4.5)  (Headwinds) Red >3oC scenario (Hothouse)(SSP5)  (RCP 7.0)  (Current polcies)",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes by 2100 (relative to pre-industrial levels): 1.5°C (Green Light), 2.6°C (Amber Light), and 4.0°C (Red Light). The Red Light scenario also notes a 2.2°C rise by 2050 en route to 4.0°C by 2100.",
+      "evidence": "\"Global temperature rise 1.5°C by 2100 [Green Light] ... Global temperature rise 2.6°C by 2100 [Amber Light] ... Global temperature rise 2.2°C by 2050; 4.0°C by 2100 [Red Light]\"",
+      "location_hint": "pp. 44, 48, 52 (scenario indicator panels); Appendix 3 p. 112",
+      "confidence": "high",
+      "notes": "No temperature overshoot language is used; the Green Light scenario notes that NZ impacts are assessed using RCP2.6 which \"projects a slightly higher global temperature increase in the second half of the century\" due to data availability.",
+      "verification": 5,
+      "ani_notes": "1.5oC 2.6oC 4.0oC",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "Multiple providers are explicitly named: IPCC (AR5/AR6), NGFS (Network for Greening the Financial System), IIASA (International Institute for Applied Systems Analysis), CCC (Climate Change Commission), Treasury New Zealand, Ministry for the Environment (MfE), and NIWA (for downscaling). The Aotearoa Circle Tourism Sector Climate Change Scenarios are also cited.",
+      "evidence": "\"Our climate references and datasets have come from: IPCC International Panel on Climate Change (AR5, AR6), NGFS Network for the greening of the financial system, IIASA International Institute for Applied Systems Analysis. (2018), CCC Climate Change Commission (2021), TNZ Treasury New Zealand (2022), MfE Ministry for the Environment (2018) and, where appropriate, The Aotearoa Circle Tourism Sector Climate Change Scenarios (2023).\" And: \"These RCPs have been downscaled (D/S) to the New Zealand context by NIWA.\"",
+      "location_hint": "p. 42 (footnote 1); p. 113 (Appendix 5)",
+      "confidence": "high",
+      "notes": "Channel Infrastructure itself developed the three named scenarios (Green Light, Amber Light, Red Light) by drawing on these external reference providers.",
+      "verification": 5,
+      "ani_notes": "- the Intergovernmental Panel for Climate Change (IPCC) data - a Coastal Climate Risk Assessment Report - SSP sCenarios Data sources: 1. IPCC WG1 AR5 Summary for Policymakers 2. Ministry for the Environment (2018) Climate change projections for New Zealand 3. Treasury New Zealand (2022) CBAx Tool User Guidance 4. International Institute for Applied Systems Analysis (2018) SSP Database 5. Climate Change Commission (2021) Scenarios dataset for the Commission’s 2021 Final Advice",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "\"Scenario | RCP Used | SSP ... Green light | 2.6 | 1 ... Amber light | 4.5 | 2 ... Red light | 8.5 D/S 7.0* | 3 ... RCP7.0 is a baseline outcome to 4.0 degrees warming by the end of the century. This was downscaled using RCP8.5 due to data unavailability for RCP7.0 in New Zealand.\"",
+      "location_hint": "Appendix 5, p. 113",
+      "confidence": "high",
+      "notes": "The document explicitly pairs RCPs (from IPCC AR5) with SSPs (from IPCC AR6) across the three scenarios. RCPs and SSPs are from different IPCC assessment report generations and are not internally consistent scenario families. The Red Light scenario further mixes RCP7.0 (target) with RCP8.5 (used for downscaling), compounding the pick-and-mix nature.",
+      "verification": 5,
+      "ani_notes": "Yes - they have mixed and picked",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"We have drawn data from global climate change assumptions and applied these in a New Zealand context.\" And: \"These RCPs have been downscaled (D/S) to the New Zealand context by NIWA. The New Zealand-specific climate impacts in these scenarios were taken from downscaled NIWA data.\"",
+      "location_hint": "p. 42; Appendix 5 p. 113",
+      "confidence": "high",
+      "notes": "The scenarios are explicitly described as adapted for the New Zealand context, with RCPs downscaled by NIWA and global data applied locally. Channel also developed its own three-scenario narrative framework (Green/Amber/Red Light) by synthesising multiple global reference frameworks.",
+      "verification": 5,
+      "ani_notes": "None (but p.114, footnote 1 state that some RCPs have been downscaled by NIWA (red-light context), F)",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "\"Through a series of workshops, comprising senior leaders and independent advisors, we identified several drivers of change that will affect the fuels infrastructure sector in the future.\" And: \"Throughout the scenario analysis process, our Corporate Lead Team (CLT) and relevant environmental experts have been engaged in the following workshops: Climate Change Scenario Workshop; Physical Risk Assessment Workshop; Transition Risk Assessment Workshop.\"",
+      "location_hint": "pp. 37–39",
+      "confidence": "medium",
+      "notes": "Workshops involved internal senior leaders and independent advisors, but there is no explicit language of \"participatory\", \"co-create\", \"co-design\", or \"stakeholder co-production\" in the scenario development process. External stakeholders (customers, iwi, community) are engaged separately on other matters but not described as co-producing the climate scenarios.",
+      "verification": 5,
+      "ani_notes": null,
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Yes — the CCC \"Current Policy Reference\" pathway underpins the Red Light scenario and functions as a current-policy baseline. Additionally, the Envisory fuel demand \"Base\" case is described as the \"most expected\" case used in business planning, against which the climate scenarios are compared.",
+      "evidence": "\"The Envisory fuel demand outlooks modelled three cases; the 'Base' is the 'most expected' case while the faster represents a faster transition and the slower is the where the transition takes more time.\" And: \"Red light | Current policy | Policy change remains weak and unambitious which aligns to Red Light where little to no policy is in effect and initial plans are not supported by legislation.\"",
+      "location_hint": "p. 55 (Envisory base case); p. 113 (CCC Current Policy Reference)",
+      "confidence": "medium",
+      "notes": "The document does not use the term \"baseline scenario\" explicitly in the context of climate scenario analysis, but the CCC Current Policy Reference and the Envisory Base case serve this function.",
+      "verification": 2,
+      "ani_notes": null,
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": [
+        "IPCC AR5 (WG1 Summary for Policymakers)",
+        "IPCC AR6",
+        "NGFS scenario framework",
+        "IIASA SSP Database",
+        "NIWA downscaled climate projections",
+        "CCC 2021 scenarios dataset",
+        "Envisory fuel demand model"
+      ],
+      "evidence": "\"Our climate references and datasets have come from: IPCC International Panel on Climate Change (AR5, AR6), NGFS Network for the greening of the financial system, IIASA International Institute for Applied Systems Analysis. (2018), CCC Climate Change Commission (2021), TNZ Treasury New Zealand (2022), MfE Ministry for the Environment (2018).\" And: \"These RCPs have been downscaled (D/S) to the New Zealand context by NIWA.\" And: \"the demand outlook prepared by Envisory in early 2023 to inform our strategic refresh.\"",
+      "location_hint": "p. 42 (footnote 1); p. 55; Appendix 5 p. 113",
+      "confidence": "high",
+      "notes": "No specific named IAMs (e.g. REMIND, MESSAGE, GCAM) or macroeconomic models (e.g. NiGEM) are cited. The document references data sources and scenario frameworks rather than named computational models.",
+      "verification": 2,
+      "ani_notes": "None (undefined as the agent answers in the notes, F)",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"Severe acute and chronic climate change impacts disrupt supply chain routes and onsite operations. Capital investment is required to remediate damage. [Red Light scenario]\" And: \"Acute physical impacts of climate change are inconsistent and uncertain. [Amber Light]\" And: \"We maintain Material Damage and Business Interruption insurance for property damage and consequential business interruption as a financial mitigation of these risks.\"",
+      "location_hint": "p. 54 (Red Light narrative); p. 50 (Amber Light narrative); p. 67 (Table 6)",
+      "confidence": "high",
+      "notes": "Acute physical risks (extreme weather events, storms, cyclones, coastal inundation) are explicitly identified and discussed. The document also references the actual impact of Cyclone Gabrielle (2023) as a current climate-related impact. Quantified financial loss estimates from acute events are not provided, but damage and disruption are explicitly acknowledged.",
+      "verification": 5,
+      "ani_notes": "None (but these are present in the text, F.)",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "NZ sea level rise",
+        "NZ rainfall intensity (100-yr ARI 12-hr rain depth)",
+        "NZ hot days",
+        "NZ carbon price",
+        "NZ population",
+        "EV adoption / technology change",
+        "Fossil fuel demand / liquid fuel demand",
+        "Renewable fuel technology development (SAF, green hydrogen, biofuels)",
+        "Socio-political instability",
+        "Policy reaction speed",
+        "Behaviour change"
+      ],
+      "evidence": "\"References for climate change scenarios physical and socio-economic indicators: New Zealand sea level rise for 2031-50 relative to 1995-2014 [0.22m / 0.24m / 0.28m]; New Zealand rainfall intensity 100yr ARI 12-hre rain depth, 2031-2050 relative to 1986-2005 [+6.0% / +7.5% / +8.6%]; New Zealand hot days 100yr ARI 12-hre rain depth, 2031-2050 relative to 1986-2005 [+43% / +54% / +67%]; New Zealand carbon price [$277 NZD / $369 NZD / $35 NZD]; New Zealand population [6.04 million / 5.94 million / 6.94 million]\"",
+      "location_hint": "Appendix 3, p. 112; scenario indicator panels pp. 43, 47, 51",
+      "confidence": "high",
+      "notes": "The scenario narratives also include qualitative variables such as technology change speed, behaviour change, socio-political instability, and policy reaction, as listed in the \"High Level Descriptors\" for each scenario.",
+      "verification": 5,
+      "ani_notes": "-NZ carbon price - NZ population - NZ sea level rise - Rainfall intensity - NZ hot days - NZ total fuel demands",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"We have drawn data from global climate change assumptions and applied these in a New Zealand context.\" And: \"These RCPs have been downscaled (D/S) to the New Zealand context by NIWA. The New Zealand-specific climate impacts in these scenarios were taken from downscaled NIWA data.\" And: \"Ministry for the Environment (2018) Climate change projections for New Zealand\" [used for NZ-specific sea level rise, rainfall intensity, and hot days data].",
+      "location_hint": "p. 42; Appendix 5 p. 113; Appendix 3 p. 112",
+      "confidence": "high",
+      "notes": "Global scenarios (NGFS, IPCC RCPs, SSPs) are used as the overarching framework, while physical climate variables are downscaled to New Zealand level by NIWA and MfE. A site-specific coastal hazards assessment was also commissioned for the Marsden Point site.",
+      "verification": 5,
+      "ani_notes": "None (but I would say it pass since Red Light has been downscaled for NZ by NIWA, F.)",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Short-term: to 2030; Medium-term: 2030–2050; Long-term: 2050–2100. Rationales are provided and linked to strategic planning horizons and asset lives.",
+      "evidence": "\"Risks and opportunities have been considered across three future time horizons: Short-term to 2030; Medium-term to 2050, and; Long-term to 2100.\" And: \"The short-term horizon broadly aligns with the existing Terminal Services Agreements that we have in place with our customers. The initial term of the contracts is 10 years (to 2032), with two five-year rights of renewal. ... The medium and long-term horizons align with Channel's longer term strategic planning and the lives of significant infrastructure assets.\"",
+      "location_hint": "p. 64 (time horizons list); p. 41–42 (Figure 10 and rationale)",
+      "confidence": "high",
+      "notes": "Justification is explicitly provided: short-term aligns with Terminal Services Agreements (10 years to 2032); medium and long-term align with strategic planning and infrastructure asset lives (c.75 years noted in Figure 10).",
+      "verification": 4,
+      "ani_notes": "Short-term (2024-2040) Medium term (2030-2050) Long-terms (2050-2100)",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"It was decided that the 'Orderly', 'Disorderly' and 'Hothouse' scenarios best spanned the range of plausible futures for our organisation, which has also been used for the tourism sector level climate change scenarios by The Aotearoa Circle.\" And for each RCP/SSP pairing: \"RCP2.6 is the most stringent mitigation scenario in which carbon dioxide emissions decline to net zero relatively quickly. It reflects a world in which warming is limited to around 1.5-2°C ... SSP1: Sustainability reflects a world in which energy affordability and human well-being is prioritised ... This aligned well with the rapid and smooth transition described in Green Light.\" And: \"RCP7.0 is a baseline outcome to 4.0 degrees warming by the end of the century. This was downscaled using RCP8.5 due to data unavailability for RCP7.0 in New Zealand.\"",
+      "location_hint": "Appendix 5, p. 113",
+      "confidence": "high",
+      "notes": "The document provides explicit rationale for each RCP and SSP selection in a table format, explaining why each reference scenario aligns with the corresponding Channel Infrastructure scenario narrative.",
+      "verification": 5,
+      "ani_notes": null,
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "Yes — Cyclone Gabrielle (February 2023) is described as a current/historical climate-related impact on the entity's assets and operations.",
+      "evidence": "\"Cyclone Gabrielle, which hit New Zealand from 12-14 February 2023, delivered 240mm of rainfall, with the region recording over 400% of normal rainfall over the summer period. Researchers, supported by the Ministry for Business Innovation and Employment have indicated that climate change played a distinct role in the development of Cyclone Gabrielle. In addition to a brief power outage on site, a security fence on the coastal boundary was damaged as Bream Bay recorded waves of 11-12 metres. Pre-emptive drainage (surface and sub-surface) clearing around the pipeline and early investment to improve the waste and storm water networks on site, including an investment of c.$25 million in recent years, helped ensure there was limited impact to the site infrastructure.\"",
+      "location_hint": "p. 36–37 (Current climate-related impacts section); p. 104 (Infrastructure resilience case study)",
+      "confidence": "high",
+      "notes": "The document also notes observed coastal erosion at the site boundary as a historical physical impact. The Cyclone Gabrielle event is explicitly linked to climate change by cited researchers.",
+      "verification": 5,
+      "ani_notes": "Yes: Cyclone Gabrielle, which hit New Zealand from 12-14 February 2023, delivered 240mm of rainfall, with the region recording over 400% of normal rainfall over the summer period. Researchers, supported by the Ministry for Business Innovation and Employment have indicated that climate change played a distinct role in the development of Cyclone Gabrielle4. In addition to a brief power outage on site, a security fence on the coastal boundary was damaged as Bream Bay recorded waves of 11-12 metres. Pre-emptive drainage (surface and sub-surface) clearing around the pipeline and early investment to improve the waste and storm water networks on site, including an investment of c.$25 million in recent years, helped ensure there was limited impact to the site infrastructure"
+,
+      "verification_status": "new question - needs verification"
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "both",
+      "evidence": "\"Direct physical risks: The following direct physical risks were identified through a series of workshops, leveraging an independent consultancy assessment of climate change risks to the Marsden Point site. The risk rating has been assessed, taking into account the exposure, sensitivity, adaptive capability and consequence. Channel also considered indirect physical risks to the business from climate related impacts. Indirect risks were ranked based on consequence only, as exposure, sensitivity and adaptive capacity are less well understood. TABLE 5: TOP 10 PHYSICAL RISKS (DIRECT AND INDIRECT)\"",
+      "location_hint": "p. 65 (Climate change risks and opportunities section)",
+      "confidence": "high",
+      "notes": "The document explicitly distinguishes between direct physical risks (to Marsden Point site assets and operations) and indirect physical risks (e.g. through supply chains, customers such as Auckland Airport, and the aviation/tourism sectors). Both are assessed in Table 5.",
+      "verification": 4,
+      "ani_notes": "Both: indirect risk to external infrastrucutre",
+      "verification_status": "new question - needs verification"
+    }
+  ]
+}

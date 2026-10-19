@@ -1,0 +1,171 @@
+{
+  "source": "PFI_LIMITED_2023",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "chunk_mode": "child",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 27755,
+      "total_tokens": 32672,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_creation": 0,
+        "cache_read": 0
+      },
+      "output_tokens": 4917
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "The document references \"three climate-related scenarios\" used in PFI's 2023 assessment, but the specific names/titles of these scenarios are not explicitly listed in the retrieved context passages.",
+      "evidence": "\"In 2023, we undertook our first assessment of PFI's climate-related risks across the above three climate-related scenarios.\"",
+      "location_hint": "Page 13",
+      "confidence": "low",
+      "notes": "The context confirms that three climate-related scenarios were used, but their specific names (e.g., 1.5°C, 2°C, 4°C, or named scenarios like IEA NZE, NGFS, etc.) are not provided in the retrieved passages. A \"not_found\" would apply to the specific scenario names.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes two scenarios for global temperature outcomes by 2100: (1) a \"delayed decarbonisation\" scenario where global warming is limited to less than 2°C by 2100, and (2) a \"Hot House World\" scenario where no further decarbonisation policies are enacted and global warming reaches more than 3°C above pre-industrial levels by 2100.",
+      "evidence": "Scenario 1: \"Global warming is limited to <2°C by 2100.\" Scenario 2: \"No further decarbonisation policies are enacted (globally, in New Zealand, and within the sector), and emissions continue to rise. Global warming reaches >3°C above pre-industrial levels by 2100.\"",
+      "location_hint": "Pages 11–12",
+      "confidence": "high",
+      "notes": "Two distinct scenarios are presented: a delayed-but-limited warming scenario (<2°C) and a Hot House World scenario (>3°C).",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "Beca Limited, commissioned by the New Zealand Green Building Council (NZGBC)",
+      "evidence": "Beca Limited, Climate Scenarios for the Construction and Property Sector, Ngā Horopaki Āhuarangi mō te Rāngai Hanganga me ngā Whare, New Zealand Green Building Council (2023)",
+      "location_hint": "Page 9",
+      "confidence": "high",
+      "notes": "The scenarios were developed by Beca Limited for the New Zealand Green Building Council (NZGBC) and are available on NZGBC's website. PFI used these sector scenarios to assess climate-related risks.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "PFI uses four Shared Socioeconomic Pathways (SSPs): SSP1-2.6 (aligning with a 'Disorderly' scenario), SSP2-4.5 (sitting in between a 'Disorderly' and 'Hot House World' scenario), SSP3-7.0 and SSP5-8.5 (aligning with a 'Hot House World' scenario). No RCPs are mentioned.",
+      "evidence": "four Shared Socioeconomic Pathways (SSPs) that broadly align with the sector scenarios, including SSP1-2.6 (aligning with a 'Disorderly' scenario), SSP2-4.5 (sitting in between a 'Disorderly' and 'Hot House World' scenario), SSP3-7.0 and SSP5-8.5 (aligning with a 'Hot House World' scenario).",
+      "location_hint": "Page 15",
+      "confidence": "high",
+      "notes": "The document references only SSPs, not RCPs. The SSP-RCP pairing (e.g., SSP1-2.6 implies RCP2.6) is implicit in the SSP naming convention but not explicitly discussed as a \"pick-and-mix\" in the text.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes. PFI used customised/sector-specific scenarios constructed by the New Zealand Green Building Council (NZGBC) and Beca Limited (Beca) for the property and construction sector in 2023. PFI was involved in overseeing the development of these sector scenarios as part of the Technical Working Group created by NZGBC.",
+      "evidence": "\"using the climate scenarios constructed by the New Zealand Green Building Council (NZGBC) and Beca Limited (Beca) for the property and construction sector in 2023. Along with other key stakeholders within the industry, we are pleased to have been involved in overseeing the development of these sector scenarios as part of the Technical Working Group created by NZGBC\"",
+      "location_hint": "Page 9",
+      "confidence": "high",
+      "notes": "The scenarios were sector-specific (property and construction) rather than entirely bespoke to PFI alone, but they were developed with PFI's involvement through the NZGBC Technical Working Group, making them customised for the sector rather than off-the-shelf standard scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes. PFI used climate scenarios co-produced with the New Zealand Green Building Council (NZGBC) and Beca Limited (Beca) for the property and construction sector in 2023. PFI was involved in overseeing the development of these sector scenarios as part of the Technical Working Group created by NZGBC, along with other key stakeholders within the industry.",
+      "evidence": "using the climate scenarios constructed by the New Zealand Green Building Council (NZGBC) and Beca Limited (Beca) for the property and construction sector in 2023. Along with other key stakeholders within the industry, we are pleased to have been involved in overseeing the development of these sector scenarios as part of the Technical Working Group created by NZGBC in",
+      "location_hint": "Page 9",
+      "confidence": "high",
+      "notes": "The quote is slightly truncated at the end, but the co-production involvement is clearly stated.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "PFI undertook scenario analysis across three climate scenarios, but the specific names/details of the baseline scenarios are not explicitly stated in the retrieved context.",
+      "evidence": "In 2023, PFI undertook scenario analysis to review PFI's previously identified climate-related risks and opportunities and assess our strategic resilience across three climate scenarios. Climate-related scenarios represent a plausible and challenging description of how the future may develop based on assumptions about potential climate-related impacts.",
+      "location_hint": "Page 9",
+      "confidence": "low",
+      "notes": "The context confirms that three climate scenarios were used, but does not name or describe the specific baseline scenarios (e.g., 1.5°C, 2°C, 4°C or equivalent). The specific scenario names/parameters are not present in the retrieved chunks.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "S&P Global's Climanomics Platform",
+      "evidence": "\"Modelled Average Annual Loss (MAAL) % is derived from S&P Global's Climanomics Platform, which models the potential financial impacts of climate hazards relative to asset value.\"",
+      "location_hint": "Page 24",
+      "confidence": "high",
+      "notes": "The document also references the Climanomics platform on page 15, noting it is used to assess climate risks for specific properties across a range of climate scenarios and time horizons.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. PFI considers damage from acute physical risks including storms, cyclones, flooding, and extreme temperatures. These could result in damage or accelerated deterioration of assets, increased capital expenditure to upgrade properties to a climate-resilient standard, increased insurance costs, and increased costs to repair damage not covered by insurance. The most significant potential risks identified for PFI's portfolio are flooding and extreme temperatures.",
+      "evidence": "\"storms and cyclones) could result in damage or accelerated deterioration of assets and impact the availability of insurance coverage for specific perils. This could lead to increased capital expenditure to upgrade properties to a climate-resilient standard, increased insurance costs, and increased costs to repair damage not covered by insurance.\" and \"This assessment indicates that the most significant potential risks to PFI's portfolio are flooding and extreme temperatures.\"",
+      "location_hint": "Pages 14–15",
+      "confidence": "high",
+      "notes": "Acute physical risks explicitly discussed include storms, cyclones, flooding, and extreme temperatures, with financial impacts such as asset deterioration, higher capex, and insurance cost increases.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include non-temperature variables such as: sea level rise, rainfall intensity/flooding, insurance premiums and retreat, flood resilience, water and energy use restrictions, and extreme weather event frequency and severity. Specific tools used include NIWA's extreme sea level flood maps (1%AEP and up to 2m sea-level rise) and the S&P Global Climanomics platform for a range of climate hazards.",
+      "evidence": "\"Increasing frequency and severity of acute weather events, as well as longer term increases in baseline shifts (increasing temperatures and sea level rise), drive an increasing need for climate adaptation.\" / \"NIWA's extreme sea level flood maps (1%AEP and up to 2m sea-level rise)\" / \"In response to continued high intensity rainfall events, properties in floodplains, or subject to unstable ground conditions, experience increasing insurance premiums above inflation and experience insurance retreat by 2050.\"",
+      "location_hint": "Pages 10, 12, 15",
+      "confidence": "high",
+      "notes": "Non-temperature variables explicitly mentioned include sea level rise, rainfall intensity, flooding, insurance conditions, and extreme weather frequency/severity. These are drawn from multiple pages of the disclosure document.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "PFI assessed strategic resilience across three climate scenarios, applied at both global and New Zealand (sector) scale. The scenarios cover: (1) a delayed decarbonisation scenario where global warming is limited to <2°C by 2100, (2) a no-further-decarbonisation scenario where global warming reaches >3°C above pre-industrial levels by 2100, and (3) at least one additional scenario. The scenarios are described as operating globally, in New Zealand, and within the sector.",
+      "evidence": "\"In 2023, PFI undertook scenario analysis to review PFI's previously identified climate-related risks and opportunities and assess our strategic resilience across three climate scenarios. Climate-related scenarios represent a plausible and challenging description of how the future may develop based on assumptions about potential climate-related impacts.\"",
+      "location_hint": "Page 9",
+      "confidence": "medium",
+      "notes": "The context confirms three scenarios were used, applied globally and within New Zealand/the sector. Two of the three scenarios are described in detail (pages 11–12), but the third is not fully quoted in the retrieved chunks. The scale spans global and national/sector levels.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "PFI uses three time horizons aligned with its strategic planning:\n- **Short term**: Present – 2030\n- **Medium term**: 2030 – 2050 (implied from context)\n- **Long term**: Beyond 2050 (implied from context)\n\nThe short-term horizon is explicitly stated as \"Present - 2030.\" The medium-term boundary of 2030–2050 is referenced in the scenario narrative.",
+      "evidence": "\"PFI's scenario analysis, climate-related risks and opportunities, targets and current and anticipated impacts considered short-term, medium-term and long-term time horizons that align with PFI's strategic planning. These time horizons are set out below: HORIZON PERIOD DESCRIPTION Short term Present - 2030\"",
+      "location_hint": "Page 9",
+      "confidence": "medium",
+      "notes": "The short-term period (Present–2030) is explicitly stated. The medium-term period (2030–2050) is inferred from the scenario narrative on page 11 which references \"medium term (2030-2050).\" The long-term period boundary is not explicitly quoted in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "PFI used three climate scenarios to assess strategic resilience, described as \"plausible and challenging\" descriptions of how the future may develop based on assumptions about potential climate-related impacts. The scenarios align with Shared Socioeconomic Pathways (SSPs): SSP1-2.6 (aligning with a 'Disorderly' scenario), SSP2-4.5 (sitting in between a 'Disorderly' and 'Hot House World' scenario), and SSP3-7.0 and SSP5-8.5 (aligning with a 'Hot House World' scenario). No further explicit justification for the specific scenario/model choice is provided in the retrieved context.",
+      "evidence": "\"Climate-related scenarios represent a plausible and challenging description of how the future may develop based on assumptions about potential climate-related impacts.\" and \"four Shared Socioeconomic Pathways (SSPs) that broadly align with the sector scenarios, including SSP1-2.6 (aligning with a 'Disorderly' scenario), SSP2-4.5 (sitting in between a 'Disorderly' and 'Hot House World' scenario), SSP3-7.0 and SSP5-8.5 (aligning with a 'Hot House World' scenario).\"",
+      "location_hint": "Pages 9 and 15",
+      "confidence": "medium",
+      "notes": "The context confirms the scenarios used and their alignment with SSPs, and states they are \"plausible and challenging,\" but does not provide a detailed or explicit justification for why these specific scenarios/models were chosen over alternatives.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "None of the retrieved context passages contain information about historic climate impacts (i.e., past climate events that have already affected the company). The passages discuss scenario analysis, metrics, physical climate hazards in due diligence and divestment decisions, and risk management frameworks, but do not describe any specific historical climate impact events.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context passages reference climate-related risks and scenario analysis in general terms, and mention that PFI uses metrics to assess vulnerability to \"climate-related transition and physical\" risks, but do not explicitly enumerate or describe specific direct and indirect physical climate risks faced by PFI. No verbatim detail on specific physical risk categories (e.g., flooding, heat stress, sea level rise) is present in the provided chunks.",
+      "verification": null
+    }
+  ]
+}

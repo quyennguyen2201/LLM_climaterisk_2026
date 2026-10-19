@@ -1,0 +1,171 @@
+{
+  "source": "OCEANIA_HEALTHCARE_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "k": 10,
+  "chunk_mode": "child",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 34781,
+      "total_tokens": 40193,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_creation": 0,
+        "cache_read": 0
+      },
+      "output_tokens": 5412
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Oceania Healthcare developed three climate scenarios: 1) Orderly, 2) Disorderly, and 3) Hothouse World.",
+      "evidence": "\"Oceania developed three climate scenarios from the Sector Scenarios: Orderly, Disorderly and Hothouse World. These three scenarios were chosen because they cover a plausible range of futures\"",
+      "location_hint": "Page 14",
+      "confidence": "high",
+      "notes": "The scenarios were originally developed in FY24 and updated in FY25, drawing from the Sustainable Healthcare Aotearoa Climate Change Scenarios for the Health Sector.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes three scenarios with the following global temperature outcomes by 2100:\n1. Orderly scenario: <1.5°C\n2. Disorderly scenario: ~2.7°C\n3. Hothouse scenario: >3°C",
+      "evidence": "\"The Disorderly scenario describes a hypothetical world where warming is approximately 2.7°C by 2100.\" / \"effective policies have been implemented to reduce emissions, which continue to rise, with warming > 3°C.\" / \"<1.5°C\" (Orderly scenario)",
+      "location_hint": "Pages 16–19",
+      "confidence": "high",
+      "notes": "Three scenarios are used: Orderly (<1.5°C), Disorderly (~2.7°C), and Hothouse (>3°C) by 2100.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "Network for Greening the Financial System (NGFS) and the New Zealand Green Business Council (NZGBC) / Sector Scenarios (facilitated by Beca)",
+      "evidence": "\"Scenario archetypes used by Sector Scenarios: Network for Greening the Financial System\" and \"New Zealand Green Business Council (NZGBC). 2023. Climate Scenarios for the Construction and Property Sector. Facilitated by Beca...\"",
+      "location_hint": "Page 13 and Page 16",
+      "confidence": "high",
+      "notes": "The Sector Scenarios (covering both Health and Property & Construction sectors) were used by Oceania, and these scenarios incorporated NGFS archetypes. The NZGBC/Beca facilitated the Property and Construction Sector scenarios specifically.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Oceania Healthcare uses a mix of SSPs and RCPs across its three scenarios:\n1. Orderly scenario: IPCC SSP1-1.9 / RCP2.6 (~<1.5°C warming)\n2. Delayed Transition scenario: IPCC SSP2-4.5 / RCP4.5 (~2.7°C warming)\n3. Current Policies scenario: IPCC SSP3-7.0 / RCP8.5 (>3°C warming)\n\nNotably, RCP2.6 is used instead of SSP1-1.9's paired RCP (SSP1-1.9) because NIWA has not downscaled SSP1-1.9 for New Zealand; the closest available downscaled scenario is SSP1-2.6.",
+      "evidence": "\"IPCC SSP1-1.9 RCP2.6³ ... IPCC SSP2-4.5 RCP4.5⁴ ... IPCC SSP3-7.0 RCP8.5 ... Note RCP2.6 formed the lower bound of the physical risk assessment and hence is associated with an Orderly scenario insofar as RCP2.6 is associated with a ~1.5°C warming above pre-industrial levels, by 2100. This differs from the global SSP narrative scenario as NIWA has not downscaled SSP1-1.9 for New Zealand and the closest downscaled scenario is SSP1-2.6.\"",
+      "location_hint": "Page 16",
+      "confidence": "high",
+      "notes": "The document explicitly pairs each scenario with both an SSP and an RCP, and explains the rationale for the SSP1-1.9 / RCP2.6 mismatch (NIWA data availability for New Zealand downscaling).",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes. Oceania Healthcare developed customised scenario narratives by drawing on and adapting sector-developed scenarios. Specifically, they incorporated elements from the NZGBC's Construction and Property Sector Scenarios and the Health Sector Scenarios (developed by Sustainable Healthcare Aotearoa, facilitated by Tonkin + Taylor). Their customised narratives incorporated narrative from the Property and Construction Sector Scenario relating to energy and electricity demand, changes to building regulations and supply chain, and narrative from the Health Sector scenarios. In FY25, they updated their scenario narratives following the release of the Health Sector Scenarios, and the process included review and feedback from the Board.",
+      "evidence": "\"Oceania's scenario narratives incorporate various elements of the Sector Scenarios. For example, narrative from the Property and Construction Sector Scenario relating to energy and electricity demand and changes to building regulations and supply chain, and narrative from the Health Sector scenarios relating to... In FY25, Oceania updated its scenario analysis process. It redefined its scenarios, drawing on the sector-developed Health Sector Scenarios, revised its climate risk and opportunity register... Step 6 Refined scenarios, including review and feedback from the Board.\"",
+      "location_hint": "Pages 13–14",
+      "confidence": "high",
+      "notes": "The document confirms customised scenarios were developed by adapting sector scenarios rather than using them off-the-shelf. The full content of the Health Sector narrative elements incorporated is truncated in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes. Oceania Healthcare co-produced climate scenarios by participating as a member of the Technical Working Groups for both the Construction and Property Sector, and the Health Sector (together referred to as the \"Sector Scenarios\"). Oceania's own scenario narratives incorporate elements from these Sector Scenarios, including narrative relating to energy and electricity demand, changes to building regulations, supply chain, and health sector-specific considerations.",
+      "evidence": "\"Oceania contributed to the development of climate-related scenarios for both the Construction and Property Sector, and the Health Sector (together, the Sector Scenarios), participating as a member of the respective Technical Working Groups.\"",
+      "location_hint": "Page 13",
+      "confidence": "high",
+      "notes": "The document also references the Health Sector scenarios being facilitated by Tonkin + Taylor and published by Sustainable Healthcare Aotearoa (page 13, footnote 2). Oceania's scenario narratives were updated in FY25 to incorporate elements from both sector scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Oceania developed three climate scenarios: Orderly, Disorderly, and Hothouse World, derived from the Health Sector Scenarios (and Construction & Property Sector Scenarios). These cover a plausible range of futures, including a <1.5°C scenario, a 3°C or greater scenario, and a third climate-related scenario.",
+      "evidence": "\"Oceania developed three climate scenarios from the Sector Scenarios: Orderly, Disorderly and Hothouse World. These three scenarios were chosen because they cover a plausible range of futures\"",
+      "location_hint": "Page 14",
+      "confidence": "high",
+      "notes": "The document references Health Sector Scenarios and Construction & Property Sector Scenarios as the source frameworks. The three scenarios map to a <1.5°C scenario, a 3°C or greater scenario, and a third scenario as noted on page 52.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "The context references alignment with the IPCC Shared Socioeconomic Pathways (SSPs), the Climate Change Commission's Tailwinds, Headwinds and Current Policies scenarios, and the Network for Greening the Financial System (NGFS) scenarios, used as part of sector scenario analysis.",
+      "evidence": "These Sector Scenarios aligned with the International Panel on Climate Change (IPCC) Shared Socioeconomic Pathways (SSPs) and the Climate Change Commission's Tailwinds, Headwinds and Current Policies scenarios. The Construction and Property Sector Scenarios also aligned with the Network for Greening the Financial System",
+      "location_hint": "Page 13",
+      "confidence": "medium",
+      "notes": "The context identifies the scenario frameworks/models used (IPCC SSPs, NZ Climate Change Commission scenarios, NGFS) but does not specify a single named climate model. The answer reflects what is explicitly stated in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Oceania did not experience material physical climate-related impacts in FY25. The company has assessed exposure to acute physical risks including coastal flooding, coastal erosion, river and surface flooding, landslides, and storm surges. In future reporting periods, Oceania plans to include the anticipated financial impacts of physical climate risk. The company also noted that acute extreme weather events (such as the Auckland Anniversary weekend floods and Cyclone Gabrielle) contributed to pressure on the New Zealand insurance market.",
+      "evidence": "\"Oceania did not experience material physical climate-related impacts in FY25.\" and \"In FY25, Oceania extended its exposure assessment to include landslides and in future reporting periods will include the anticipated financial impacts of physical climate risk.\"",
+      "location_hint": "p.12 and p.38",
+      "confidence": "high",
+      "notes": "No specific dollar damage figures are disclosed for acute physical risk events. Financial impact quantification is noted as planned for future reporting periods.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include the following non-temperature variables:\n1. **Heavy rainfall events**: +8% (by 2090, lower-transition scenario) and +10% (by 2090, higher-warming scenario)\n2. **Sea level rise**: 0.2m by 2040 and 0.5m–0.7m by 2090 (depending on scenario)\n3. **Drought exposure**: Eastern side of both islands — Increasing exposure",
+      "evidence": "Heavy rainfall events1 20903: +8% ... Sea level rise2 2040: 0.2m 20903: 0.5m Drought exposure4 [Eastern side of both islands: Increasing exposure] ... Heavy rainfall events1 20903: +10% ... Sea level rise2 2040: 0.2m 20903: 0.7m Drought exposure4 Eastern side of both islands: Increasing exposure",
+      "location_hint": "Pages 18–19",
+      "confidence": "high",
+      "notes": "Two scenarios are presented: one with higher transition risks (net zero by 2050, page 18) and one with higher physical risks (>3°C warming, page 19). Both share the same sea level rise projection for 2040 (0.2m) but differ for 2090 (0.5m vs 0.7m). The superscript \"3\" after \"2090\" likely denotes a footnote reference.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Oceania developed three climate-related scenarios: (1) Orderly – ambitious decarbonisation targets introduced quickly, achieving net zero by 2050 with moderate transition risk and lower physical risk exposure; (2) Disorderly – referenced as a comparator scenario with higher transition risk; and (3) Hothouse – characterised by runaway global warming, with increasingly intense and frequent drought, extreme weather, wildfires and floods. The scenarios incorporate driving forces and critical uncertainties from Sector Scenarios, prioritised specifically for Oceania, and are not intended to be probabilistic or predictive.",
+      "evidence": "\"In FY24, Oceania developed three climate-related scenarios to help assess its climate-related risks and opportunities... Climate-related scenarios are a plausible, challenging description of how the future may develop (based on assumptions about external driving forces, including those which may lead to physical and transition risks). Climate-related scenarios are not intended to be probabilistic or predictive, or to identify the 'most likely' outcomes of climate change.\"",
+      "location_hint": "Pages 13, 16–19",
+      "confidence": "medium",
+      "notes": "The context confirms three scenarios (Orderly, Disorderly, Hothouse) and their general characteristics, but does not provide a full detailed breakdown of all parameters for each scenario. The Disorderly scenario details are only partially visible in the retrieved chunks.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Oceania Healthcare defines short, medium, and long-term time horizons linked to its strategic planning horizons and capital deployment plans. The long-term horizon is defined as 2051 to 2080. The time horizons used for risk and opportunity assessment are consistent with those adopted for scenario analysis (as set out on page 13 of the disclosure). The time horizon in risk tables indicates Oceania's assessment of where the risk is likely to be most significant.",
+      "evidence": "\"The time horizons for this risk and opportunity assessment were consistent with those adopted for scenario analysis as set out on page 13.\" and \"Long term (2051 to 2080)\" and \"The time horizon indicates Oceania's assessment of where the risk is likely to be most significant.\"",
+      "location_hint": "Pages 13, 20, 18, 52",
+      "confidence": "medium",
+      "notes": "The context confirms that time horizons are defined and linked to scenario analysis (page 13), and that the long-term horizon spans 2051–2080. However, the specific definitions of short and medium term are not explicitly quoted in the retrieved chunks — only the long-term range is directly stated. Full definitions are referenced as being on page 13 of the disclosure.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Oceania developed three climate scenarios — Orderly, Disorderly, and Hothouse World — chosen because they cover a plausible range of futures. These scenarios were developed with input from management and subject matter experts including clinical, operational and functional expertise, across a series of workshops with executive sponsorship from the CFO.",
+      "evidence": "\"Oceania developed three climate scenarios from the Sector Scenarios: Orderly, Disorderly and Hothouse World. These three scenarios were chosen because they cover a plausible range of futures\"",
+      "location_hint": "Page 14",
+      "confidence": "high",
+      "notes": "The context confirms the rationale for choosing the three scenarios (plausible range of futures) but does not provide further detail on the specific underlying models or quantitative frameworks used beyond the reference to \"Sector Scenarios.\"",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context passages discuss climate-related risks, risk management processes, and future-oriented scenarios, but do not contain any specific data or narrative about historic (past) climate impacts experienced by Oceania Healthcare.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Oceania Healthcare identifies both acute and chronic physical climate risks, including: (1) risk of acute and/or chronic climate hazards on supply chain — causing significant and ongoing disruption, rated Medium likelihood over the Long term under Disorderly/Hothouse scenarios; and (2) risks associated with market devaluation, more frequent evacuations and relocation plans (and associated costs). Physical climate risks were identified via surveys and workshops with SMEs across property, design, facilities management, clinical, people, sustainability, finance, legal and operations teams, and assessed in terms of exposure, vulnerability (sensitivity and adaptive capacity).",
+      "evidence": "\"Risk of acute and/or chronic climate hazards on supply chain: A range of climate hazards (both acute and chronic) cause significant and ongoing disruption to Oceania's supply chain. Physical (acute and chronic) Medium Long Disorderly Hothouse\" and \"market devaluation • more frequent evacuations and relocation plans (and associated costs).\" and \"Oceania identified physical climate risks via a survey and workshops, with input from SMEs across its property, design, facilities management, clinical, people, sustainability, finance, legal and operations teams. The climate-related physical risks were assessed in terms of their exposure, vulnerability (based on sensitivity and adaptive capacity) and organisational\"",
+      "location_hint": "Pages 21, 30 of Oceania Healthcare FY2025 Climate-related Risk Disclosure",
+      "confidence": "medium",
+      "notes": "The retrieved context provides only partial details on physical climate risks. The full list of direct and indirect physical risks may be more comprehensively described elsewhere in the document (e.g., pages 18-22 referenced in the index). The evidence here covers supply chain disruption, market devaluation, and evacuation/relocation costs as key physical risk themes.",
+      "verification": null
+    }
+  ]
+}

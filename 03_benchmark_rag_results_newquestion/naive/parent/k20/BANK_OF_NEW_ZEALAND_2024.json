@@ -1,0 +1,171 @@
+{
+  "source": "BANK_OF_NEW_ZEALAND_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 20,
+  "chunk_mode": "parent",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "total_tokens": 161126,
+      "input_token_details": {
+        "cache_creation": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0
+      },
+      "input_tokens": 152715,
+      "output_tokens": 8411
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "BNZ developed three climate scenario narratives, each named after a New Zealand volcano and aligned to a specific temperature outcome:\n1. Ruapehu – 1.5°C (aligned to SSP1-1.9, \"Sustainability – Taking the Green Road\")\n2. Rangitoto – 2.1°C (aligned to SSP2-4.5, \"Middle of the Road\")\n3. Taupō – 3.4°C (aligned to SSP5-8.5, \"Fossil-fuelled Development – Taking the Highway\")",
+      "evidence": "\"Each scenario has been given a name, Ruapehu, Rangitoto and Taupō, selected by the Sector Working Groups that helped develop the scenarios aligned with 1.5°C, 2.1°C and a 3.4°C temperature outcome.\"\n\n\"Global temperature aligns to lower percentile model outcomes of CMIP 6, SSP1-1.9 (Sustainability - Taking the Green Road). Global temperature aligns to mid percentile model outcomes of CMIP 6, SSP2-4.5 (Middle of the Road). Global temperature aligns to upper percentile model outcomes of CMIP 6, SSP5-8.5 (Fossil-fuelled Development - Taking the Highway).\"\n\nRuapehu = 1.5°C, Rangitoto = 2.1°C, Taupō = 3.4°C",
+      "location_hint": "Page 18, Table 5",
+      "confidence": "high",
+      "notes": "All three scenarios cover the period 2025–2050 and are not probabilistic predictions but plausible alternative futures used for strategic resilience assessment.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document provides global temperature outcomes by 2081-2100 for different SSP pathways:\n- SSP1-1.9: 1.5°C (1.0 – 2.2°C)\n- SSP1-2.6: 1.8°C (1.3 – 2.4°C)\n- SSP2-4.5: 2.9°C (2.1 – 4.0°C)\n- SSP5-8.5: 4.8°C (3.6 – 6.5°C)\n\nFor BNZ's three named scenarios (time horizon 2025–2050), the global average temperature increases are:\n- Ruapehu (SSP1-1.9): 1.5°C\n- Rangitoto (SSP2-4.5): 2.1°C\n- Taupō (SSP5-8.5): 3.4°C",
+      "evidence": "Pathway (SSP number and corresponding RCP)^ | Change in °C for 2081-2100*\nSSP1-1.9 | 1.5°C (1.0 – 2.2°C)\nSSP1-2.6 | 1.8°C (1.3 – 2.4°C)\nSSP2-4.5 | 2.9°C (2.1 – 4.0°C)\nSSP5-8.5 | 4.8°C (3.6 – 6.5°C)\n\nAlso: \"Ruapehu 1.5°C ... Rangitoto 2.1°C ... Taupō 3.4°C ... Increase in global average temperature\"",
+      "location_hint": "Table 23, p.61 (SSP temperature outcomes); Table 5, p.18 (scenario temperature outcomes)",
+      "confidence": "high",
+      "notes": "The BNZ scenarios have a time horizon of 2025–2050, so their temperature endpoints are for 2050, not 2100. The 2081–2100 figures come from the CMIP6 SSP model projections in Table 23 (Appendix B), which are the broader scientific reference data used by BNZ.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "Informed.City (supported by Chermack Scenarios)",
+      "evidence": "\"Drafting of the scenario narratives was led by the scenario projects external facilitator, a third-party climate change specialist (Informed.City, supported by Chermack Scenarios).\"",
+      "location_hint": "Appendix B, page 60",
+      "confidence": "high",
+      "notes": "These were the external facilitators who led the drafting of BNZ's climate scenario narratives in FY24.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "BNZ uses three SSPs for its quantitative physical risk analysis: SSP1-2.6 (\"Sustainability – Taking the Green Road\"), SSP2-4.5 (\"Middle of the Road\"), and SSP5-8.5 (\"Fossil-fuelled Development – Taking the Highway\"). For its qualitative scenario analysis, the three scenarios (Ruapehu 1.5°C, Rangitoto 2.1°C, Taupō 3.4°C) are sense-checked against CMIP6 model outputs aligned to SSP1-1.9, SSP2-4.5, and SSP5-8.5 respectively. All disclosed data defaults to SSP5-8.5 at the 99th percentile. In FY24, BNZ moved from SSP1-1.9 to SSP1-2.6 as its lower-bound physical risk model for greater peer alignment. The SSP numbers correspond to RCP forcing levels (e.g. SSP1-2.6 corresponds to RCP2.6, SSP2-4.5 to RCP4.5, SSP5-8.5 to RCP8.5).",
+      "evidence": "\"The three climate models used for BNZ's physical risk analysis are: SSP1 - 2.6, Sustainability – Taking the Green Road; SSP2 - 4.5, Middle of the Road; and SSP5 - 8.5, Fossil-fuelled Development – Taking the Highway. All data disclosed in these Statements uses SSP5 - 8.5, Fossil-fuelled Development and 99th percentile (unless stated otherwise)... In FY24, BNZ moved to SSP1-2.6 from SSP1-1.9 (the latter being used as the lower bound in FY23 quantitative physical risk analysis) for greater alignment with peers and other industry bodies, and because SSP1-2.6 physical impacts - often used in 1.5°C scenarios - are seen as more plausible.\"",
+      "location_hint": "Section 2.5 / Appendix B, pp. 22–23, 61–62",
+      "confidence": "high",
+      "notes": "The document uses SSP notation with embedded RCP forcing levels (e.g. SSP1-2.6, SSP2-4.5, SSP5-8.5). The qualitative scenarios use SSP1-1.9, SSP2-4.5, and SSP5-8.5 as data sources for temperature sense-checking, while the quantitative physical risk analysis uses SSP1-2.6, SSP2-4.5, and SSP5-8.5. The footnote in Table 23 clarifies: \"the number following 'SSP' represents a specific 'warming level'.\"",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes, BNZ developed customised (bespoke) climate scenario narratives. Three scenario narratives were developed, aligned with 1.5°C, 2.1°C, and 3.4°C temperature outcomes. The scenarios were developed through a six-step process using Sector Working Groups, with support from external scenario and climate specialist consultants (Informed.City, supported by Chermack Scenarios). BNZ used the New Zealand Banking Association sector climate scenario narratives as a starting point to identify initial drivers and impacts, then undertook a robust internal process to identify key drivers for BNZ specifically.",
+      "evidence": "\"BNZ's climate scenario analysis was undertaken as a separate standalone process with support from external scenario and climate specialist consultants (refer to Appendix B)... The development of the three scenario narratives was led by Sector Working Groups, consisting of colleagues from across the bank representing core BNZ functions, sector experts, and functional representatives from strategy, finance, risk, analytics, and sustainability... BNZ used the New Zealand Banking Association – Te Rangapū Pēke, NZ banking sector climate scenario narratives to identify initial drivers and impacts. A robust internal process was then undertaken to identify key drivers for BNZ... The scenarios were aligned with a 1.5°C, 2.1°C and a 3.4°C temperature outcome.\"",
+      "location_hint": "Section 2.4, p.17-18; Appendix B, p.60",
+      "confidence": "high",
+      "notes": "BNZ developed customised scenarios rather than using standard published scenarios wholesale. Drafting of narratives was led by an external facilitator (Informed.City, supported by Chermack Scenarios), which BNZ notes departs from XRB guidance that participants should be involved in drafting, not just the facilitator or consultants. The narratives are described as plausible, alternative futures and not probabilistic predictions.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "BNZ's climate scenarios were not fully co-produced with external stakeholders in the sense required by XRB guidance. The drafting of scenario narratives was led by an external facilitator (Informed.City, supported by Chermack Scenarios), rather than by participants. BNZ acknowledges this departs from XRB guidance, which stipulates that \"participants should be involved in the drafting of scenarios, not just the facilitator or consultants.\" However, BNZ did involve internal Sector Working Groups (colleagues from across the bank representing core BNZ functions, sector experts, and functional representatives from strategy, finance, risk, analytics, and sustainability) in developing the narratives, and used the New Zealand Banking Association banking sector climate scenario narratives as a starting point.",
+      "evidence": "\"Drafting of the scenario narratives was led by the scenario projects external facilitator, a third-party climate change specialist (Informed.City, supported by Chermack Scenarios). This approach, while different from guidance, was taken for the following reasons... The facilitator briefed BNZ on the narration process thus building internal capability and BNZ worked closely with the third parties throughout the process.\" and \"In its most recent guidance the XRB (2023b, p. 38) stipulates that 'participants should be involved in the drafting of scenarios, not just the facilitator or consultants'.\" and \"The development of the three scenario narratives was led by Sector Working Groups, consisting of colleagues from across the bank representing core BNZ functions, sector experts, and functional representatives from strategy, finance, risk, analytics, and sustainability.\"",
+      "location_hint": "Appendix B, p.60; Section 2.4, p.17",
+      "confidence": "high",
+      "notes": "BNZ explicitly acknowledges a departure from XRB guidance on co-production of scenarios. Internal working groups were involved in identifying drivers and reviewing narratives, but the actual drafting was done by external consultants, not participants.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "BNZ used three scenarios based on Shared Socio-economic Pathways (SSP) from CMIP6, aligned to three temperature outcomes:\n1. \"Ruapehu\" – 1.5°C increase: aligned to SSP1-1.9 (Sustainability - Taking the Green Road), lower percentile model outcomes of CMIP6.\n2. \"Rangitoto\" – 2.1°C increase: aligned to SSP2-4.5 (Middle of the Road), mid percentile model outcomes of CMIP6.\n3. \"Taupō\" – 3.4°C increase: aligned to SSP5-8.5 (Fossil-fuelled Development - Taking the Highway), upper percentile model outcomes of CMIP6.\nAll scenarios cover the time horizon 2025–2050.",
+      "evidence": "\"Data sources used to construct the scenario: Global temperature aligns to lower percentile model outcomes of CMIP 6, SSP1-1.9 (Sustainability - Taking the Green Road). Global temperature aligns to mid percentile model outcomes of CMIP 6, SSP2-4.5 (Middle of the Road). Global temperature aligns to upper percentile model outcomes of CMIP 6, SSP5-8.5 (Fossil-fuelled Development - Taking the Highway). Ruapehu 2025-2050 / Rangitoto 2025-2050 / Taupō 2025-2050 / 3.4°C / 2.1°C / 1.5°C\"",
+      "location_hint": "Table 5, page 18",
+      "confidence": "high",
+      "notes": "BNZ also notes that in FY24 it moved to SSP1-2.6 from SSP1-1.9 for quantitative physical risk analysis (page 61), but the qualitative scenario narratives use SSP1-1.9 as stated in Table 5. The three named scenarios (Ruapehu, Rangitoto, Taupō) are BNZ's own scenario names.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "BNZ used CMIP6 (Coupled Model Intercomparison Project 6) climate model projections for its quantitative physical risk analysis, under three Shared Socioeconomic Pathways (SSPs): SSP1-2.6, SSP2-4.5, and SSP5-8.5.",
+      "evidence": "\"BNZ used CMIP6 (refer to footnote 14 for a description) climate model projections that show the potential exposure of physical risks under differing future temperatures.\" and \"The three climate models used for BNZ's physical risk analysis are: SSP1 - 2.6, Sustainability – Taking the Green Road; SSP2 - 4.5, Middle of the Road; and SSP5 - 8.5, Fossil-fuelled Development – Taking the Highway.\"",
+      "location_hint": "Appendix B, p.61-62; Section 2.5, p.22",
+      "confidence": "high",
+      "notes": "The qualitative scenario analysis used CMIP6 SSP narratives for temperature alignment but did not involve specific modelling. The quantitative physical risk analysis explicitly used CMIP6 model projections with three SSP pathways.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. BNZ considers damage from acute physical risks including flooding (fluvial and pluvial), coastal inundation, and associated impacts such as structural damage to properties. For residential and commercial properties, moderate impact (repairable structural damage) is defined at >0.2m flood depth, and severe impact (irreparable structural damage/complete write-off) at >1.6m depth. For rural properties, severe exposure is defined as >10% parcel inundation at flood depths ≥1.5m. Acute physical risks considered include more frequent or intense flooding, coastal inundation, cyclones, wildfires, and extreme weather events.",
+      "evidence": "\"Chronic and acute climate-related physical risks including more frequent or intense flooding, and coastal inundation may result in damage such as landslips/subsidence or water damage to properties securing loans provided by BNZ.\" and \"Moderate impact is where there is repairable structural damage. Severe impact is where there is irreparable structural damage that could result in a complete write-off of asset.\" and \"Flood: BNZ used flood fragility curves from a NIWA Technical Report for exposure to flooding. Moderate (repairable structural) damage would occur at >0.2m depth inundation, and Severe damage would occur at depths of >1.6m depths or above.\"",
+      "location_hint": "Pages 23-25, 64",
+      "confidence": "high",
+      "notes": "BNZ explicitly distinguishes between acute (event-driven) and chronic physical risks. Acute risks assessed include flooding (fluvial/pluvial) and coastal inundation. Damage thresholds are quantitatively defined. Additional acute risks noted but not yet fully modelled include wildfires, windstorms, landslips, and cyclones.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "BNZ's scenarios and physical risk analysis incorporate several non-temperature climate variables, including:\n1. Sea level rise inundation (permanent flooding of low-lying coastal land)\n2. Coastal inundation (temporary flooding from storm tide events combined with local sea level rise)\n3. Flooding – both fluvial (river overflow) and pluvial (extreme rainfall)\n4. Drought – measured using the Standardised Precipitation Evapotranspiration Index (SPEI), representing the annual percentage probability of a three-month drought\n5. Livestock heat stress – measured using the Temperature Humidity Index (THI), accounting for combined effects of environmental temperature and relative humidity\n\nAdditionally, scenario narratives reference variables such as rainfall patterns, water availability, storm surges, hail, and wind/pressure changes.",
+      "evidence": "\"Physical risk climate variables: Sea level rise inundation... Coastal inundation... Flooding... Drought analysis uses the Standardised Precipitation Evapotranspiration Index (SPEI). SPEI is a multi-scalar drought index which can account for both intensity and duration of droughts. It is modelled using the monthly (or weekly) difference between rainfall and potential evapotranspiration to represent a simple climatic water balance... Livestock heat stress is measured using the Temperature Humidity Index (THI) for livestock, which accounts for the combined effects of environmental temperature and relative humidity.\"",
+      "location_hint": "Page 63, Physical risk climate variables section",
+      "confidence": "high",
+      "notes": "The document explicitly lists and defines these non-temperature physical risk climate variables used in BNZ's analysis. Temperature is an input to some indices (e.g., THI, SPEI) but the variables themselves are broader climate/hydrological metrics.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "BNZ's scenario analysis is conducted at a New Zealand (national) scale, covering both physical and transition risks across three temperature outcomes: 1.5°C (Rangitoto), 2.1°C (Ruapehu), and 3.4°C (Taupō), over the time horizon 2025–2050. The qualitative scenarios are aligned to global SSP pathways (SSP1-1.9, SSP2-4.5, SSP5-8.5), while the quantitative physical risk analysis uses geocoded BNZ property data overlaid with climate model projections, covering BNZ's secured lending portfolio (80% of TCE of Gross Loans and Advances to Customers).",
+      "evidence": "\"Qualitative scenario analysis: BNZ scenario analysis covered both physical and transition risks across three temperature outcomes: 1.5°C, 2.1°C and 3.4°C.\" and \"BNZ estimated the impacts of certain climate variables on loans secured by geocoded properties, representing 80% of the TCE of Gross Loans and Advances to Customers.\" and \"Ruapehu 2025-2050 / Rangitoto 2025-2050 / Taupō 2025-2050 / 3.4°C / 2.1°C / 1.5°C\"",
+      "location_hint": "Section 2.4, p.17-18; Section 2.5, p.22; Appendix B, p.61",
+      "confidence": "high",
+      "notes": "The qualitative scenarios are national (New Zealand) in scope with global context; the quantitative physical risk analysis is portfolio-level, tied to geocoded BNZ-secured properties. Three SSP pathways are used for quantitative analysis (SSP1-2.6, SSP2-4.5, SSP5-8.5), with SSP5-8.5 at 99th percentile as the primary disclosed figure.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "BNZ uses three time horizons for climate risk and opportunity analysis:\n- Short term: 2025 to 2030 (0 to 6 years)\n- Medium term: 2031 to 2040 (7 to 16 years)\n- Long term: 2041 to 2050 (17 to 26 years)\n\nShort term is aligned to lending timeframes for short-term loans. Medium term provides a data point between short and long term horizons. Long term is broadly aligned to lending timeframes for home loans, BNZ's long-term strategic horizon, the New Zealand legislative net zero target (Climate Change Response (Zero Carbon) Amendment Act 2019), the UN Paris Agreement, and the 2050 NZBA emission reduction net zero target commitment.",
+      "evidence": "\"BNZ considered the following short-, medium- and long-term horizons when conducting its physical and transition risk analysis. Where BNZ has quantified outputs of its physical risk analysis, these Statements present these outputs as at both 2030 and 2050. Short term: 2025 to 2030 (0 to 6 years). Medium term: 2031 to 2040 (7 to 16 years). Long term: 2041 to 2050 (17 to 26 years).\"\n\n\"Long term is broadly aligned to lending timeframes for home loans which aligns with BNZ's long-term strategic horizon and capital deployment plans. Long term is also aligned to the New Zealand legislative net zero target in the Climate Change Response (Zero Carbon) Amendment Act 2019, global net zero goals in the United Nations Paris Agreement (adopted 12 December 2015, entered into force 4 November 2016), and the 2050 NZBA emission reduction net zero target commitment.\"",
+      "location_hint": "Page 12-13, Strategy section",
+      "confidence": "high",
+      "notes": "The medium term horizon is explicitly noted as not linked to BNZ's strategic planning horizons or capital deployment plans, unlike the short and long term horizons. Internal quantitative physical risk analysis also covers 2040, but for simplicity only 2030 and 2050 outputs are reported.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "BNZ justified its scenario and model choices on several grounds:\n\n1. **Scenario narratives**: Three qualitative scenarios aligned with 1.5°C, 2.1°C, and 3.4°C temperature outcomes were developed using a six-step process. Global warming temperatures were sense-checked against IPCC AR6 model outputs for plausibility (aligned to 2040–2060 mean model output relative to pre-industrial averages). The scenarios were designed to collectively show the systemic nature of climate risk and place different stresses on key sectors of BNZ's portfolio.\n\n2. **Physical risk models (SSP choice)**: BNZ uses SSP5-8.5 as its primary disclosure scenario because it \"highlights the outlier model risk.\" In FY24, BNZ moved from SSP1-1.9 to SSP1-2.6 for the lower bound \"for greater alignment with peers and other industry bodies, and because SSP1-2.6 physical impacts — often used in 1.5°C scenarios — are seen as more plausible.\"\n\n3. **Percentile choice**: BNZ uses the 99th percentile for disclosed data as it highlights the outlier model risk of exposure.\n\n4. **External facilitator**: Scenario narratives were drafted by a third-party climate change specialist (Informed.City, supported by Chermack Scenarios) because the facilitator had specialist insight ensuring internal consistency, substantially expedited the process, and built BNZ's internal capability.",
+      "evidence": "\"The scenarios were aligned with a 1.5°C, 2.1°C and a 3.4°C temperature outcome. All three scenarios place different stresses on a key sector of BNZ's portfolio. Each scenario has been designed to collectively show the systemic nature of climate risk facing BNZ.\" | \"While no specific modelling was carried out for the scenarios, the global warming temperatures used to align with disclosure requirements were sense-checked with global model outcomes in the Intergovernmental Panel on Climate Change Assessment Report 6 (AR6) for plausibility.\" | \"In FY24, BNZ moved to SSP1-2.6 from SSP1-1.9 (the latter being used as the lower bound in FY23 quantitative physical risk analysis) for greater alignment with peers and other industry bodies, and because SSP1-2.6 physical impacts - often used in 1.5°C scenarios - are seen as more plausible.\" | \"all data disclosed uses SSP5 - 8.5, Fossil-fuelled Development – Taking the Highway and 99th percentile as this highlights the outlier model risk\"",
+      "location_hint": "Section 2.4 (p.17-18), Appendix B (p.60-62)",
+      "confidence": "high",
+      "notes": "BNZ provides justifications for both its qualitative scenario narratives and its quantitative physical risk model/SSP choices. The 99th percentile and SSP5-8.5 are used for primary disclosures to highlight worst-case/outlier risk. The shift from SSP1-1.9 to SSP1-2.6 is explicitly justified by peer alignment and greater plausibility.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "The document does not provide a dedicated section on historic climate impacts. However, it describes current (FY24) climate-related transition impacts experienced by BNZ, including: (1) Credit risk — BNZ develops policies to manage transition risks, monitors insurance retreat for higher-risk geographical areas, and evaluates transition plans of high-emitting customers; (2) Market risk — increasing pressure on supply chains as net zero commitments become more widespread, with exporting customers facing pressure to decarbonise to retain supplier contracts.",
+      "evidence": "\"The table below summarises the FY24 transition impacts identified or experienced by BNZ... Credit risk: As a result of credit risk, BNZ now develops policies and processes to manage certain transition risks that may be realised in the current financial year or in the future... Due to there being increasing concerns about fewer options for insurance availability for physical properties for certain higher risk geographical areas or less climate-resilient buildings, BNZ now closely monitors insurance retreat and its associated impacts... Market risk: As net zero and other emissions reduction commitments become more widespread across different countries and industries, pressure on associated supply chains will increase.\"",
+      "location_hint": "Table 3: Current transition impacts, p.14",
+      "confidence": "medium",
+      "notes": "The document does not use the term \"historic climate impacts\" explicitly. The closest content is the FY24 current climate-related transition impacts table. No dedicated historic physical climate impact data (e.g., past losses from extreme weather events) is present in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "BNZ identifies and assesses both direct and indirect physical climate risks. Direct physical risks include vulnerability to extreme weather events (including supply chain disruption and disruption to business activities). BNZ conducts quantitative physical risk analysis by overlaying third-party climate model projections with BNZ's secured lending (loans secured by geocoded properties, representing 80% of TCE of Gross Loans and Advances to Customers) to estimate anticipated impacts. Climate variables are analysed to establish risk exposure thresholds. Indirect physical risks are assessed through qualitative climate scenario analysis covering key sectors: Agriculture (dairy and livestock), Agriculture (horticulture), Residential real estate, Commercial real estate, and Power generation. Physical impacts considered include drought and sea level rise. BNZ also considers indirect physical risks such as flooding impacts on mortgagors' ability to service loans and collateral integrity. Physical and transition risk assessments are conducted on an annual basis, and in FY24 BNZ developed tools to enable monthly assessment of BNZ exposures against physical risk data.",
+      "evidence": "\"Vulnerability to extreme weather events (including supply chain disruption and disruption to business activities)... BNZ estimated the impacts of certain climate variables on loans secured by geocoded properties, representing 80% of the TCE of Gross Loans and Advances to Customers... The physical impacts (e.g. drought and sea level rise) and transition impacts (e.g. policy changes and technology advancements) considered were not limited... consideration was limited to the immediate activities that could impact the ability of a mortgagor to service a loan and impact the integrity of any collateral held (for example, the direct impacts of flooding, as opposed to downstream economic impacts from climate, such as job losses)... Physical and transition risk assessments are conducted on an annual basis... In FY24, BNZ developed tools to enable monthly assessment of BNZ exposures against physical risk and financed emissions data.\"",
+      "location_hint": "Section 2.5, p.22; Section 3.1, p.36; Section 3.2, p.37; Section 2.4, p.17",
+      "confidence": "high",
+      "notes": "The document distinguishes between direct physical impacts (e.g., flooding, extreme weather events directly affecting properties/collateral) and indirect/downstream impacts (e.g., job losses from climate). Scenario analysis covers both physical and transition risks across key sectors. All data uses SSP5-8.5 scenario.",
+      "verification": null
+    }
+  ]
+}

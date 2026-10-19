@@ -1,0 +1,171 @@
+{
+  "source": "WESTPAC_NEW_ZEALAND_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "chunk_mode": "parent",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_token_details": {
+        "cache_creation": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0
+      },
+      "output_tokens": 6483,
+      "input_tokens": 52376,
+      "total_tokens": 58859
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Westpac NZ used three climate scenarios: (1) Orderly Transition, (2) Too Little, Too Late, and (3) Hot House World.",
+      "evidence": "\"We selected three plausible yet challenging scenarios in total: • the Orderly Transition and Hot House World scenarios developed by the New Zealand Banking Association in their Climate Scenario Narratives Report. • the third scenario selected was based on the Too Little, Too Late scenario set by the Reserve Bank of New Zealand/Te Pūtea Matua (RBNZ) in its 2023 Climate Stress Test.\"",
+      "location_hint": "Page 12, Scenario analysis section",
+      "confidence": "high",
+      "notes": "Table 3 on page 12 also summarises all three scenarios with their key assumptions and policy trajectories.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document presents three scenarios with different global temperature outcomes by 2100:\n1. Orderly Transition: 1.5°C by 2100\n2. Too Little, Too Late: 3.2°C by 2100 (2°C by 2050, on track for 3.2°C by 2100)\n3. Hot House World: 4.4°C by 2100 (2.5°C by 2050 and 4.4°C by 2100)",
+      "evidence": "Policy trajectory: 1.5°C by 2100 | 2°C by 2050 on track for 3.2°C by 2100 | 2.5°C by 2050 and 4.4° by 2100",
+      "location_hint": "Table 3: Summary of scenarios, page 12",
+      "confidence": "high",
+      "notes": "Three distinct scenarios are presented: Orderly Transition (1.5°C), Too Little Too Late (3.2°C), and Hot House World (4.4°C) by 2100.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context passages do not explicitly name any scenario provider (e.g., IEA, NGFS, IPCC) used for climate scenario analysis in Westpac NZ's 2024 Climate Report. While scenario analysis is mentioned in the Risk Management section, no specific scenario provider is identified in the provided chunks.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Westpac NZ uses a mix of SSPs (Shared Socioeconomic Pathways) across its three scenarios, without pairing them with RCPs. The reference scenarios are:\n1. **Orderly scenario**: IPCC SSP1-1.9 (New Zealand Banking Association's Orderly scenario)\n2. **Delayed Transition / Current Policies (transition and physical risk)**: IPCC SSP2-4.5 (Network for Greening the Financial System — Delayed Transition for transition risk; Current Policies for physical risk)\n3. **Hothouse scenario**: IPCC SSP5-8.5 (New Zealand Banking Association's Hothouse scenario)\n\nRCPs are defined in the glossary (values 2.6, 4.5, 6.0, and 8.5 referring to concentrations in 2100) but are not used as the primary reference scenarios — SSPs are used instead.",
+      "evidence": "\"Reference scenarios: New Zealand Banking Association's Orderly scenario: Intergovernmental Panel on Climate Change (IPCC) SSP1-1.9. Network for Greening the Financial System Delayed Transition for transition risk: IPCC SSP2-4.5. Network for Greening the Financial System Current Policies for physical risk: IPCC SSP2-4.5. New Zealand Banking Association's Hothouse scenario: IPCC SSP5-8.5.\"",
+      "location_hint": "Page 12, Strategy - Scenario analysis",
+      "confidence": "high",
+      "notes": "The document defines RCPs in the glossary (page 55) but the actual scenario analysis uses SSPs only. No RCPs are used as reference scenarios in the analysis itself.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes. Westpac NZ used three scenarios, two of which were customised/adapted for the New Zealand banking sector: (1) the Orderly Transition scenario and (2) the Hot House World scenario, both developed by the New Zealand Banking Association in their Climate Scenario Narratives Report; and (3) the Too Little, Too Late scenario based on the Reserve Bank of New Zealand's 2023 Climate Stress Test, which was translated into a narrative format for use alongside the other two scenarios.",
+      "evidence": "\"We selected three plausible yet challenging scenarios in total: • the Orderly Transition and Hot House World scenarios developed by the New Zealand Banking Association in their Climate Scenario Narratives Report. These scenarios helped us to identify areas where we can improve our response to rapid transition or extreme physical risks. We consider these scenarios to be appropriate to us as they were specifically developed for the New Zealand banking sector • the third scenario selected was based on the Too Little, Too Late scenario set by the Reserve Bank of New Zealand/ Te Pūtea Matua (RBNZ) in its 2023 Climate Stress Test. We decided to use this scenario because it was designed to be useful for the New Zealand banking sector. We then translated this scenario to a narrative format so it could be used alongside the other two scenarios.\"",
+      "location_hint": "Page 12, Scenario analysis section",
+      "confidence": "high",
+      "notes": "All three scenarios were sector-specific (New Zealand banking sector). The NZBA scenarios were pre-built for the sector; the RBNZ scenario was adapted into narrative format by Westpac NZ. No internal modelling was undertaken.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes. Westpac NZ co-produced/adopted climate scenarios developed in collaboration with external bodies. Specifically: (1) the Orderly Transition and Hot House World scenarios were developed by the New Zealand Banking Association in their Climate Scenario Narratives Report, and (2) the Too Little, Too Late scenario was based on the scenario set by the Reserve Bank of New Zealand/Te Pūtea Matua (RBNZ) in its 2023 Climate Stress Test. These scenarios were selected because they were specifically developed for the New Zealand banking sector. Scenario narratives were developed in 2023 with the assistance of an external consultant, with subject matter experts (SMEs) from across the business involved in determining which scenarios to use.",
+      "evidence": "\"We selected three plausible yet challenging scenarios in total: • the Orderly Transition and Hot House World scenarios developed by the New Zealand Banking Association in their Climate Scenario Narratives Report. These scenarios helped us to identify areas where we can improve our response to rapid transition or extreme physical risks. We consider these scenarios to be appropriate to us as they were specifically developed for the New Zealand banking sector • the third scenario selected was based on the Too Little, Too Late scenario set by the Reserve Bank of New Zealand/ Te Pūtea Matua (RBNZ) in its 2023 Climate Stress Test. We decided to use this scenario because it was designed to be useful for the New Zealand banking sector.\"",
+      "location_hint": "Page 12, Scenario analysis section",
+      "confidence": "high",
+      "notes": "The scenarios were not fully co-produced internally but were adopted from external sector-level bodies (NZBA and RBNZ), with narrative development assisted by an external consultant and internal SMEs.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Westpac NZ used three baseline scenarios in their 2024 Climate Report:\n1. **Orderly Transition** – A future world where timely, coordinated and collective action has been taken to transition to a low carbon future, achieving net-zero by 2050. Policy trajectory: 1.5°C by 2100. Policy response: Immediate and consistent.\n2. **Too Little, Too Late** – A future world where global action to reduce emissions was left too late and resulting efforts were insufficient to avert substantial climate change. Policy trajectory: 2°C by 2050 on track for 3.2°C by 2100. Policy response: Staggered during the 2030s.\n3. **Hot House World** – A future world characterised by high levels of climate-related physical risk, as limited efforts were made to transition to a low carbon economy. Policy trajectory: 2.5°C by 2050 and 4.4°C by 2100. Policy response: None.",
+      "evidence": "\"Table 3: Summary of scenarios. Orderly Transition | Too Little, Too Late | Hot House World. Key assumption: A future world where timely, coordinated and collective action has been taken to transition to a low carbon future, achieving net-zero by 2050. | A future world where global action to reduce emissions was left too late and resulting efforts were insufficient to avert substantial climate change. | A future world characterised by high levels of climate-related physical risk, as limited efforts were made to transition to a low carbon economy. Policy trajectory: 1.5°C by 2100 | 2°C by 2050 on track for 3.2°C by 2100 | 2.5°C by 2050 and 4.4° by 2100. Policy response: Immediate and consistent | Staggered during the 2030s | None.\"",
+      "location_hint": "Table 3, page 12",
+      "confidence": "high",
+      "notes": "The document explicitly names and describes all three scenarios with their key assumptions, policy trajectories, and policy responses in Table 3.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context describes Westpac NZ's scenario analysis approach (qualitative, with targeted quantitative analyses) and mentions use of external climate vendors for physical risk data, but does not specify a named climate model (e.g., a specific GCM or IAM) used for the analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Westpac NZ considers damage from acute physical risks, specifically flood damage from extreme weather events. In 2024, customers in the East Coast and Hawke's Bay regions experienced flooding to homes and businesses. The company also analysed its residential mortgage portfolio's exposure to rainfall-induced flooding. The Treasury estimated the cost of physical damage from the Auckland Anniversary Weekend floods and Cyclone Gabrielle at $9–14.5 billion. Westpac NZ defines high-risk properties as those where the modelled flood area is greater than 95% and mean flood depth is at least 50 cm, based on a 1-in-100-year rainfall flood event under the SSP2-4.5 scenario.",
+      "evidence": "\"In 2024, the East Coast and Hawke's Bay regions experienced extreme weather events. We offered support to business and consumer customers who were impacted by extreme weather events in these regions... While customers experienced material hardship such as flooding to homes and businesses, Westpac NZ did not experience a material financial impact to revenue because of these events.\" and \"The Treasury estimating the cost of physical damage to households, businesses and infrastructure at $9-14.5b.\" and \"Our analysis uses a baseline of 2005 within our chosen scenario of Too Little, Too Late (SSP2-4.5). The modelled flood area and flood depth is based on a 1-in-100-year rainfall flood event. For this analysis over residential mortgages, we consider that a property is 'high risk' where the modelled flood area of the property is greater than 95% and the mean flood depth is at least 50 cm.\"",
+      "location_hint": "Pages 11, 36 of WNZL Climate Report 2024",
+      "confidence": "high",
+      "notes": "The document explicitly addresses acute physical risk damage (flooding) from extreme weather events, including both current impacts on customers and forward-looking scenario analysis of residential mortgage exposure to rainfall flooding.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include several non-temperature variables: precipitation (40% increase in some regions in the Hot House World scenario), sea-level rise, frequency and intensity of extreme weather events (droughts, heatwaves, flooding, storms, coastal erosion), carbon pricing (reaching $138/tonne CO2e in 2030 and $250 in 2050 under the Orderly scenario), insurance availability and premiums, GDP growth, agricultural output and herd sizes, methane emissions (falling just 12% by 2050 in the Hot House World), and land use changes (afforestation, horticulture conversion).",
+      "evidence": "\"a 40% increase in precipitation in some regions, increasing flooding and slips, whilst other areas suffer significantly increased droughts\" / \"Sea levels have risen materially in New Zealand, with low-lying coastal areas inundated.\" / \"the carbon price was gradually increased, reaching $138 per tonne of carbon dioxide equivalent in 2030 and $250 in 2050\" / \"Actuarial projections mean that insurance premiums increase significantly at first and then became unavailable.\" / \"methane emissions fall just 12% by 2050\"",
+      "location_hint": "Appendix 1, p.41-42",
+      "confidence": "high",
+      "notes": "Multiple non-temperature variables are described across the three scenarios (Orderly Transition, Too Little Too Late, Hot House World). Key variables include precipitation, sea-level rise, carbon pricing, insurance availability, GDP, agricultural production, methane emissions, and land use.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Westpac NZ uses three scenarios in its climate scenario analysis: (1) an Orderly transition scenario, (2) a \"Too Little Too Late\" scenario, and (3) a New Zealand Banking Association \"Hot House World\" scenario. The scenarios span time horizons out to 2050 and beyond (2100), with the Hothouse scenario projecting average global temperature increases of over 2.5°C by 2050 and 4.4°C by 2100.",
+      "evidence": "\"3. New Zealand Banking Association Hot House World scenario. This is a future world characterised by high physical risk due to extreme weather events, as limited efforts were made to transition to a low carbon economy. Average global temperatures have increased by over 2.5°C by 2050 and 4.4°C by 2100, due to absence of action to reduce emissions both here and globally.\"",
+      "location_hint": "Page 41, Appendix 1: Scenario analysis narratives",
+      "confidence": "medium",
+      "notes": "The context confirms three scenarios (Orderly, Too Little Too Late, Hothouse) referenced across multiple pages (Tables 6, p.17-18, and p.41). Temperature scales are explicitly stated only for the Hothouse scenario. The Orderly and Too Little Too Late scenarios' temperature targets are not explicitly quoted in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Westpac NZ defines three time horizons:\n- Short term: 0–1 year\n- Medium term: 1–5 years\n- Long term: 5 years+\n\nThese time horizons were chosen as they encompass business strategy and operational planning timeframes. The long-term horizon also allows for a period that covers the potential extended time horizons when significant physical risks are likely to occur, particularly relevant for the agriculture, property and energy sectors.",
+      "evidence": "\"At Westpac NZ, we define our time horizons as short term (0-1 year), medium term (1-5 years) and long term (5 years+). These time horizons were chosen as they encompass business strategy and operational planning timeframes. Our long­term horizon also allows for a period that covers the potential extended time horizons when significant physical risks are likely to occur, particularly relevant for the agriculture, property and energy sectors.\"",
+      "location_hint": "WNZL Climate Report 2024.pdf, page 13",
+      "confidence": "high",
+      "notes": "The time frames are also used as inputs to capital deployment and funding decision-making processes via annual business forecast processes (1 year), Board Strategy Review process (3–5 years), and Internal Capital Adequacy Assessment Process (5 years).",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Westpac NZ selected three scenarios with the following justifications: (1) The Orderly Transition and Hot House World scenarios were developed by the New Zealand Banking Association and were considered appropriate because they were specifically developed for the New Zealand banking sector, helping identify areas to improve response to rapid transition or extreme physical risks. (2) The Too Little, Too Late scenario was based on the Reserve Bank of New Zealand's 2023 Climate Stress Test, chosen because it was designed to be useful for the New Zealand banking sector; it was then translated into a narrative format for use alongside the other two scenarios.",
+      "evidence": "\"We selected three plausible yet challenging scenarios in total: • the Orderly Transition and Hot House World scenarios developed by the New Zealand Banking Association in their Climate Scenario Narratives Report. These scenarios helped us to identify areas where we can improve our response to rapid transition or extreme physical risks. We consider these scenarios to be appropriate to us as they were specifically developed for the New Zealand banking sector • the third scenario selected was based on the Too Little, Too Late scenario set by the Reserve Bank of New Zealand/ Te Pūtea Matua (RBNZ) in its 2023 Climate Stress Test. We decided to use this scenario because it was designed to be useful for the New Zealand banking sector. We then translated this scenario to a narrative format so it could be used alongside the other two scenarios.\"",
+      "location_hint": "Page 12, Scenario analysis section",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "Westpac NZ did not experience material financial impacts from climate change for the year ended 30 September 2024. However, the company noted that customers are increasingly impacted by climate change. To determine current impacts, they reviewed identified risks and opportunities, considered whether there had been any climate-related acute or discrete events (e.g. physical storms affecting customers or own premises), changes to policy, regulation, market expectations, technology or reputational shifts, and analysed whether impacts had a material financial impact on operations.",
+      "evidence": "\"Westpac NZ did not experience material financial impacts from climate change for the year ended 30 September 2024. However, we know that customers are increasingly impacted by climate change. We also know that climate change is an important consideration which is expected to have a more significant impact on customers and our business in the future.\"",
+      "location_hint": "WNZL Climate Report 2024.pdf, page 11",
+      "confidence": "high",
+      "notes": "The document references Table 2 as covering the main current physical and transitional impacts Westpac NZ faced in 2024, but the actual contents of Table 2 are not included in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Westpac NZ identifies both direct and indirect physical climate risks through climate scenario analysis and specific risk assessments. Key physical risks identified include:\n\n1. **Coastal hazards** (flooding and erosion) from sea-level rise — assessed in a 2020 detailed scenario analysis of the lending portfolio's exposure.\n2. **Physical risks in agriculture, property and energy sectors** — highlighted as sectors where significant physical risks are likely to occur, particularly over the long-term horizon (5 years+).\n3. **Hot House World scenario** — characterised by high levels of climate-related physical risk, with limited transition efforts, projecting 2.5°C by 2050 and 4.4°C by 2100.\n4. **Too Little, Too Late scenario** — global action to reduce emissions was left too late, resulting in substantial climate change (2°C by 2050, on track for 3.2°C by 2100).\n\nThese physical risks feed into capital deployment and funding decision-making processes, and are assessed over short (0–1 year), medium (1–5 years), and long-term (5 years+) horizons.",
+      "evidence": "\"in 2020, we undertook a detailed scenario analysis of our lending portfolio's exposure to coastal hazards (flooding and erosion) resulting from sea-level rise... These assessments enhanced our understanding of our potential exposure to both climate-related physical and transition risks.\"\n\n\"Our long-term horizon also allows for a period that covers the potential extended time horizons when significant physical risks are likely to occur, particularly relevant for the agriculture, property and energy sectors.\"\n\n\"Hot House World: A future world characterised by high levels of climate-related physical risk, as limited efforts were made to transition to a low carbon economy. 2.5°C by 2050 and 4.4° by 2100.\"",
+      "location_hint": "Pages 12–13, 25–26 of WNZL Climate Report 2024",
+      "confidence": "high",
+      "notes": "The document identifies physical risks primarily through scenario analysis and specific assessments (coastal flooding/erosion, sea-level rise). The distinction between \"direct\" and \"indirect\" physical risks is not explicitly made in the retrieved context, but the risks described encompass both asset-level (direct) and sector/portfolio-level (indirect) exposures.",
+      "verification": null
+    }
+  ]
+}

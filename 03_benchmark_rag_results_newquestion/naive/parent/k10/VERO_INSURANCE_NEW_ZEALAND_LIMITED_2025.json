@@ -1,0 +1,171 @@
+{
+  "source": "VERO_INSURANCE_NEW_ZEALAND_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "k": 10,
+  "chunk_mode": "parent",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_token_details": {
+        "cache_creation": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0
+      },
+      "output_tokens": 7084,
+      "input_tokens": 87663,
+      "total_tokens": 94747
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Three scenarios were used: 1) Orderly transition, 2) Disorderly transition, 3) Hot House world. These were based on the ICNZ Shared Climate Scenarios Initiative (June 2022) and further developed into entity-specific scenarios for Vero.",
+      "evidence": "There were three Shared Sector Scenarios: \n\t» Orderly transition \n\t» Disorderly transition\n\t» Hot House world\n\nFor the Hot House world scenario, we elected to use SSP 3-7.0 because we did not have physical climate layers for the SSP5-8.5 scenario. RCP7.0 is also becoming more widely used in scenario analysis compared to RCP 8.5 because RCP 8.5 produces temperature outcomes that are arguably too extreme.\n\nOne key update was the use of the Climate Change Commission (CCC) scenarios provided to Central Government as part of their advice on the Fourth Emissions budget for our policy assumptions. We used the High Technology High Systems Change scenario (HTHS) to inform our Orderly assumptions; the High Technology Low Systems Change scenario (HTLS) to inform our Disorderly assumptions and the Reference scenario to inform our Hot House world scenario assumptions.",
+      "location_hint": "Appendix 4, page 41",
+      "confidence": "high",
+      "notes": "The scenarios were originally based on the ICNZ Shared Sector Scenarios and further developed into entity-specific scenarios. The Orderly scenario aligns with the Paris Agreement aim (as noted on page 13). Physical risk modelling used RCP 4.5 for disorderly and RCP 7.0 for hothouse scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes three scenarios with the following temperature outcomes:\n1. Orderly scenario (Net-zero 2050): 1.5°C (SSP 1, RCP 2.6)\n2. Disorderly scenario (Delayed transition): >2°C (SSP 2, RCP 4.5)\n3. Hot House world scenario (Current policies): >3°C (SSP 3, RCP 7.0)",
+      "evidence": "Orderly scenario: Net-zero 2050 — 1.5°C — SSP 1, RCP 2.6; Disorderly scenario: Delayed transition — >2°C — SSP 2, RCP 4.5; Hot House world scenario: Current policies — >3°C — SSP 3, RCP 7.0",
+      "location_hint": "Page 14, Scenario descriptions",
+      "confidence": "high",
+      "notes": "Temperature outcomes are associated with each scenario label in the scenario descriptions table. The document notes that \"Climate scenarios have been considered over three distinct time horizons based on years (2030, 2040, and 2050). The endpoints are based on years rather than temperature outcomes,\" so these temperatures are scenario labels rather than precise 2100 projections.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "ICNZ Shared Climate Scenarios Initiative (June 2022), further developed with input from an external consultancy",
+      "evidence": "\"The climate scenarios and narratives we referred to in our analysis were based on the ICNZ Shared Climate Scenarios Initiative (June 2022). These were further developed into specific scenarios relevant to Vero with input from internal business stakeholders and an external consultancy to ensure they are relevant and appropriate scenarios in the context of Vero.\"",
+      "location_hint": "Page 12",
+      "confidence": "high",
+      "notes": "The external consultancy is not named in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes. Vero uses a mix of SSPs and RCPs that do not strictly correspond to the same integrated pathway. Specifically:\n- Orderly scenario (1.5°C): SSP 1, RCP 2.6\n- Disorderly scenario (>2°C): SSP 2, RCP 4.5\n- Hot House world (>3°C): SSP 3, RCP 7.0\n\nFor the Hot House world scenario, they explicitly chose SSP 3-7.0 rather than SSP5-8.5, noting they did not have physical climate layers for SSP5-8.5 and that RCP 8.5 produces temperature outcomes considered \"arguably too extreme.\"",
+      "evidence": "\"Orderly scenario, 1.5°C (ICCP SSP 1, RCP 2.6) » Disorderly scenario, 2°C (ICCP SSP 2, RCP 4.5) » Hot House world scenario, 3+°C (ICCP SSP 3, RCP 7.0)\" and \"For the Hot House world scenario, we elected to use SSP 3-7.0 because we did not have physical climate layers for the SSP5-8.5 scenario. RCP7.0 is also becoming more widely used in scenario analysis compared to RCP 8.5 because RCP 8.5 produces temperature outcomes that are arguably too extreme.\"",
+      "location_hint": "Table 4, p.13; Appendix 4, p.41",
+      "confidence": "high",
+      "notes": "The SSP-RCP pairings used (SSP1/RCP2.6, SSP2/RCP4.5, SSP3/RCP7.0) are broadly consistent combinations, though SSP3 is typically associated with higher forcing than RCP7.0 in strict IPCC framing. The document explicitly justifies the SSP3-7.0 pairing for the Hot House scenario due to data availability and concerns about RCP8.5 being too extreme.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes. Vero customised scenarios based on the ICNZ Shared Climate Scenarios Initiative (June 2022). The three Shared Sector Scenarios (Orderly transition, Disorderly transition, and Hot House world) were further developed into entity-specific scenarios with input from internal business stakeholders and an external consultancy. Key customisations included: using SSP 3-7.0 for the Hot House world scenario (instead of SSP5-8.5), and using Climate Change Commission (CCC) scenarios to inform policy assumptions — specifically the High Technology High Systems Change (HTHS) scenario for Orderly, the High Technology Low Systems Change (HTLS) scenario for Disorderly, and the Reference scenario for Hot House world.",
+      "evidence": "\"The climate scenarios and narratives we referred to in our analysis were based on the ICNZ Shared Climate Scenarios Initiative (June 2022). These were further developed into specific scenarios relevant to Vero with input from internal business stakeholders and an external consultancy to ensure they are relevant and appropriate scenarios in the context of Vero.\" and \"Scenarios were designed by starting with the Shared Sector Scenarios developed by the Insurance Council of New Zealand, and from this, derived entity-specific scenarios... One key update was the use of the Climate Change Commission (CCC) scenarios provided to Central Government as part of their advice on the Fourth Emissions budget for our policy assumptions. We used the High Technology High Systems Change scenario (HTHS) to inform our Orderly assumptions; the High Technology Low Systems Change scenario (HTLS) to inform our Disorderly assumptions and the Reference scenario to inform our Hot House world scenario assumptions.\"",
+      "location_hint": "Pages 12 and 41",
+      "confidence": "high",
+      "notes": "The customisation involved both narrative/stakeholder input and specific technical choices (SSP selection and CCC scenario alignment).",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes. Vero's climate scenarios were co-produced using the ICNZ Shared Climate Scenarios Initiative (June 2022) as a base, further developed into entity-specific scenarios with input from internal business stakeholders and an external consultancy. The scenarios were also informed by Climate Change Commission (CCC) scenarios provided to Central Government as part of their advice on the Fourth Emissions budget.",
+      "evidence": "\"The climate scenarios and narratives we referred to in our analysis were based on the ICNZ Shared Climate Scenarios Initiative (June 2022). These were further developed into specific scenarios relevant to Vero with input from internal business stakeholders and an external consultancy to ensure they are relevant and appropriate scenarios in the context of Vero.\" and \"Scenarios were designed by starting with the Shared Sector Scenarios developed by the Insurance Council of New Zealand, and from this, derived entity-specific scenarios... One key update was the use of the Climate Change Commission (CCC) scenarios provided to Central Government as part of their advice on the Fourth Emissions budget for our policy assumptions.\"",
+      "location_hint": "Page 12 and Page 41",
+      "confidence": "high",
+      "notes": "Scenarios were co-produced using a combination of the ICNZ Shared Sector Scenarios, CCC scenarios, internal stakeholder workshops, and an external consultancy. Three scenarios were used: Orderly transition, Disorderly transition, and Hot House world.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Vero used three baseline scenarios derived from the ICNZ Shared Climate Scenarios Initiative: (1) Orderly transition, (2) Disorderly transition, and (3) Hot House world. For the Hot House world scenario, SSP 3-7.0 was used. Policy assumptions were informed by Climate Change Commission (CCC) scenarios: the High Technology High Systems Change (HTHS) scenario for Orderly, the High Technology Low Systems Change (HTLS) scenario for Disorderly, and the Reference scenario for Hot House world.",
+      "evidence": "Scenarios were designed by starting with the Shared Sector Scenarios developed by the Insurance Council of New Zealand, and from this, derived entity-specific scenarios. There were three Shared Sector Scenarios: Orderly transition, Disorderly transition, Hot House world. For the Hot House world scenario, we elected to use SSP 3-7.0 because we did not have physical climate layers for the SSP5-8.5 scenario. RCP7.0 is also becoming more widely used in scenario analysis compared to RCP 8.5 because RCP 8.5 produces temperature outcomes that are arguably too extreme. One key update was the use of the Climate Change Commission (CCC) scenarios provided to Central Government as part of their advice on the Fourth Emissions budget for our policy assumptions. We used the High Technology High Systems Change scenario (HTHS) to inform our Orderly assumptions; the High Technology Low Systems Change scenario (HTLS) to inform our Disorderly assumptions and the Reference scenario to inform our Hot House world scenario assumptions.",
+      "location_hint": "Appendix 4, page 41",
+      "confidence": "high",
+      "notes": "The disorderly scenario corresponds to RCP 4.5 and the hothouse scenario to RCP 7.0, as referenced on page 15.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "Multiple models were used depending on the hazard:\n- Flood (riverine, surface water): JBA model using a single GCM — MRI-ESM2\n- Coastal inundation: NIWA model using a 6-GCM ensemble (ACCESS-CM2, EC-Earth3, NorESM2-MM, GFDL-ESM4, AWI-CM1-1-MR, CNRM-CM6-1)\n- Storm: NIWA/ERA model using a 6-GCM ensemble (ACCESS-CM2, EC-Earth3, NorESM2-MM, GFDL-ESM4, AWI-CM1-1-MR, CNRM-CM6-1)\nPhysical risk modelling was conducted through Finity's Finperils modelling suite.",
+      "evidence": "Physical model source | Model | Hazard & climate layer source | General Circulation Model (GCM)\nFlood (riverine, surface water) | JBA | Single GCM | MRI-ESM2\nCoastal inundation | NIWA | 6 GCM ensemble | ACCESS-CM2, EC-Earth3, NorESM2-MM, GFDL-ESM4, AWI-CM1-1-MR, CNRM-CM6-1\nStorm | NIWA, ERA | 6 GCM ensemble | ACCESS-CM2, EC-Earth3, NorESM2-MM, GFDL-ESM4, AWI-CM1-1-MR, CNRM-CM6-1\n\nWe determined present day AAL and counts of buildings exposed to a range of natural perils by running Vero's inforce exposures through Finity's Finperils modelling suite.",
+      "location_hint": "Page 42, Appendix 4",
+      "confidence": "high",
+      "notes": "The document clearly lists the physical models and GCMs used for each hazard type in a table on page 42.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Vero Insurance considers damage from acute physical risks, specifically more frequent and severe storms, floods, and cyclones leading to increased property damage claims. Their CSA modelling shows an increase in expected loss (AAL) of between 19% and 26% from weather-related perils (flood, storm, and coastal inundation) by 2050. Natural hazard claims totalled $70m for FY25. The acute risks modelled include flood (riverine and surface water), coastal inundation, and storm.",
+      "evidence": "\"More frequent and severe storms, floods, and cyclones could lead to increased property damage claims, especially in coastal and flood-prone areas. Extreme weather is already an impact being experienced by insurers. Our CSA modelling shows an increase in expected loss (as measured by AAL) within Vero's portfolios over the short, medium and long term under a range of low and high warming scenarios.\" and \"Analysis of physical risk indicates an increase of between 19% and 26% in AAL from weather-related perils (flood, storm, and coastal inundation) by 2050.\" and \"Natural hazards claims totalled $70m for FY25.\"",
+      "location_hint": "Pages 11, 15-16",
+      "confidence": "high",
+      "notes": "Acute physical risks (extreme weather events such as storms, floods, cyclones) are explicitly modelled and quantified via Average Annual Loss (AAL) methodology across multiple climate scenarios (Orderly 1.5°C, Disorderly >2°C, Hothouse >3°C).",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include non-temperature variables such as sea level rise (driving coastal inundation), changes in frequency and intensity of surface water flooding, storm intensity, and riverine/surface water flood patterns. These are modelled using physical climate layers derived from GCM ensembles under SSP/RCP scenarios. Specific hazards modelled include flood (riverine and surface water), coastal inundation, and storm. Coastal erosion, drought, rain-induced landslip, hail, and bushfire were not included in the modelling.",
+      "evidence": "\"Coastal inundation, with sea level rise being the main driver. More frequent and intense bursts of surface water flooding, particularly in...\" and \"Not all perils have been modelled. Models of coastal erosion, drought and rain induced landslip are in development, and this will increase the expected losses from climate impacts. Hail and bushfire were also not included in the analysis.\"",
+      "location_hint": "Page 15 and Page 42",
+      "confidence": "high",
+      "notes": "The document identifies sea level rise, surface water flooding intensity/frequency, storm, and coastal inundation as the key non-temperature physical variables used in scenario analysis. Temperature is not explicitly discussed as a separate variable; the scenarios are framed around RCP/SSP pathways with physical hazard outputs.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Vero Insurance used three scenarios aligned with the Insurance Council of New Zealand (ICNZ) Shared Sector Scenarios: (1) Orderly transition (Net-zero 2050, 1.5°C, SSP 1, RCP 2.6), (2) Disorderly transition (Delayed transition, >2°C, SSP 2, RCP 4.5), and (3) Hot House world (SSP 3-7.0 / RCP 7.0). These were analysed over three time horizons: 2030, 2040, and 2050.",
+      "evidence": "\"Scenarios were designed by starting with the Shared Sector Scenarios developed by the Insurance Council of New Zealand, and from this, derived entity-specific scenarios. There were three Shared Sector Scenarios: Orderly transition, Disorderly transition, Hot House world... For the Hot House world scenario, we elected to use SSP 3-7.0... Climate scenarios have been considered over three distinct time horizons based on years (2030, 2040, and 2050).\"",
+      "location_hint": "Appendix 4, p.41-42; Scenario descriptions p.13-14",
+      "confidence": "high",
+      "notes": "The orderly scenario uses SSP 1/RCP 2.6 (1.5°C), disorderly uses SSP 2/RCP 4.5 (>2°C), and hot house uses SSP 3-7.0/RCP 7.0. Time horizons are 2030, 2040, and 2050.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Vero Insurance uses three time frames in its climate scenario analysis:\n- Short term = 2030 (aligned with Suncorp Group's net zero target for Scope 1 and 2 emissions, and within the 3–5-year business planning window)\n- Medium term = 2040 (an interim timeframe between the short term and long-term horizons, aligned with medium term time horizon at Suncorp Group)\n- Long term = 2050 (aligned with the NZ Government's stated ambition to be Net-zero by 2050)\n\nAdditionally, for internal risk classification:\n- Operational risk time frame: 12 months\n- Insurance risk time frame: 12 months\n- Strategic execution risk timeframe: three years",
+      "evidence": "\"Timeframes: Short term = 2030 (Aligned with Suncorp Group's net zero target for Scope 1 and 2 emissions, and within the 3–5-year business planning window used for business planning and funding considerations). Medium term = 2040 (An interim timeframe between the short term and long-term horizons, aligned with medium term time horizon at Suncorp Group). Long term = 2050 (Aligned with the NZ Government's stated ambition to be Net-zero by 2050).\"\n\n\"Risk time frame is 12 months.\" (Operational and Insurance risks)\n\"Risk timeframe is three years.\" (Strategic execution risk)",
+      "location_hint": "Table 4, p.13; Table 8, p.25",
+      "confidence": "high",
+      "notes": "The document provides both scenario analysis timeframes (short/medium/long term for CSA) and internal risk management timeframes (12 months for operational/insurance risks, 3 years for strategic execution risk).",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Vero's scenarios were designed starting from the ICNZ Shared Sector Scenarios (Orderly transition, Disorderly transition, Hot House world), then developed into entity-specific scenarios. For the Hot House world, SSP 3-7.0 was chosen because physical climate layers for SSP5-8.5 were unavailable, and because RCP 8.5 produces temperature outcomes considered arguably too extreme. Climate Change Commission (CCC) scenarios were used for policy assumptions: HTHS for Orderly, HTLS for Disorderly, and the Reference scenario for Hot House world. For physical models, a 6-GCM ensemble was used for storm and coastal inundation to provide a 'best estimate', while a single GCM (MRI-ESM2) was used for flood due to data availability. The 6-GCM approach was acknowledged as not capturing the full range of modelled outcomes.",
+      "evidence": "\"Scenarios were designed by starting with the Shared Sector Scenarios developed by the Insurance Council of New Zealand, and from this, derived entity-specific scenarios... For the Hot House world scenario, we elected to use SSP 3-7.0 because we did not have physical climate layers for the SSP5-8.5 scenario. RCP7.0 is also becoming more widely used in scenario analysis compared to RCP 8.5 because RCP 8.5 produces temperature outcomes that are arguably too extreme. One key update was the use of the Climate Change Commission (CCC) scenarios provided to Central Government as part of their advice on the Fourth Emissions budget for our policy assumptions. We used the High Technology High Systems Change scenario (HTHS) to inform our Orderly assumptions; the High Technology Low Systems Change scenario (HTLS) to inform our Disorderly assumptions and the Reference scenario to inform our Hot House world scenario assumptions.\"",
+      "location_hint": "Appendix 4, page 41-42",
+      "confidence": "high",
+      "notes": "The document also notes that the 6-GCM ensemble approach for storm and coastal inundation gives a 'best estimate' rather than a plausible range, and that differences between plausible models may sometimes be larger than differences between emission scenarios, but over longer timescales emission scenarios dominate uncertainty.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context focuses on future/anticipated climate-related physical risks, scenario analysis, risk management frameworks, and strategic planning. There is no explicit discussion of historic climate impacts (i.e., past climate events and their documented financial or operational effects on the company) in the provided passages.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Vero identifies the following direct physical climate risks to its business:\n1. Coastal inundation, driven primarily by sea level rise.\n2. More frequent and intense bursts of surface water flooding.\n3. Increased storm risk.\n\nThese risks predominantly affect Vero's underwriting portfolios, particularly the residential home portfolio. Analysis of physical risk indicates an increase of between 19% and 26% in average annual loss (AAL) from weather-related perils (flood, storm, and coastal inundation) by 2050, especially under the disorderly (RCP 4.5) and hothouse (RCP 7.0) scenarios.\n\nIndirect physical risks include: increasing natural hazards leading to higher insurance costs, potential impacts on customer affordability as premiums rise to reflect climate-related risk, and broader impacts on the New Zealand economy and community resilience.",
+      "evidence": "\"Analysis of physical risk indicates an increase of between 19% and 26% in AAL from weather-related perils (flood, storm, and coastal inundation) by 2050. The increase in risk is predominantly due to: Coastal inundation, with sea level rise being the main driver. More frequent and intense bursts of surface water flooding, particularly in [urban areas].\" and \"As a general insurer we recognise the potentially significant impact of climate-related physical risk, such as increasing natural hazards leading to higher insurance costs.\" and \"As Vero's ability to reflect climate-related risk in customer premiums improves, and the cost of natural hazards increases over time, customer affordability may be impacted in some areas.\"",
+      "location_hint": "Pages 15 and 20",
+      "confidence": "high",
+      "notes": "The document focuses primarily on direct physical risks to underwriting portfolios. Indirect risks (e.g., customer affordability, broader economic impacts) are mentioned but less elaborated. The text on page 15 is cut off mid-sentence regarding surface water flooding locations.",
+      "verification": null
+    }
+  ]
+}

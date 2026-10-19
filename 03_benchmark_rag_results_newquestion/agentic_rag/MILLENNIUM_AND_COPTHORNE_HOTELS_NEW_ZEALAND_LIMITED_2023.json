@@ -1,0 +1,325 @@
+{
+  "source": "MILLENNIUM_AND_COPTHORNE_HOTELS_NEW_ZEALAND_LIMITED_2023",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1082107,
+      "total_tokens": 1088620,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 1022787,
+        "ephemeral_5m_input_tokens": 59297,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 6513
+    }
+  },
+  "retrieval_trace": [
+    {
+      "q_id": 2,
+      "tool": "search_knowledge_base",
+      "query": "global temperature outcomes 2100 1.5 degrees 2 degrees warming",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 1,
+      "tool": "search_knowledge_base",
+      "query": "climate scenarios pathways used",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 3,
+      "tool": "search_knowledge_base",
+      "query": "scenario provider IPCC NGFS NIWA MfE source",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 4,
+      "tool": "search_knowledge_base",
+      "query": "SSP RCP scenario family representative concentration pathway shared socioeconomic",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 5,
+      "tool": "search_knowledge_base",
+      "query": "downscaled adapted localised customised tailored scenarios modifications",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 6,
+      "tool": "search_knowledge_base",
+      "query": "participatory co-create co-design stakeholder input collaborative development scenarios",
+      "k": 5,
+      "n_results": 5
+    },
+    {
+      "q_id": 9,
+      "tool": "search_knowledge_base",
+      "query": "damage loss estimates extreme events acute physical risk financial impact quantified",
+      "k": 5,
+      "n_results": 5
+    },
+    {
+      "q_id": 7,
+      "tool": "search_knowledge_base",
+      "query": "baseline reference scenario business as usual comparison",
+      "k": 5,
+      "n_results": 5
+    },
+    {
+      "q_id": 8,
+      "tool": "search_knowledge_base",
+      "query": "climate model integrated assessment model IAM CLIMADA REMIND MESSAGE GCAM macroeconomic model",
+      "k": 5,
+      "n_results": 5
+    },
+    {
+      "q_id": 10,
+      "tool": "search_knowledge_base",
+      "query": "carbon price sea level rise rainfall oil price storm frequency variables driving scenarios",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 13,
+      "tool": "search_knowledge_base",
+      "query": "justification reason why scenarios chosen selected rationale",
+      "k": 5,
+      "n_results": 5
+    },
+    {
+      "q_id": 11,
+      "tool": "search_knowledge_base",
+      "query": "global regional local downscaled New Zealand specific climate projections",
+      "k": 5,
+      "n_results": 5
+    },
+    {
+      "q_id": 15,
+      "tool": "search_knowledge_base",
+      "query": "supply chain suppliers customers indirect physical risk value chain upstream downstream",
+      "k": 5,
+      "n_results": 5
+    },
+    {
+      "q_id": 14,
+      "tool": "search_knowledge_base",
+      "query": "historical observed impacts weather events flooding damage operations assets already experienced",
+      "k": 5,
+      "n_results": 5
+    },
+    {
+      "q_id": 12,
+      "tool": "search_knowledge_base",
+      "query": "time horizon short medium long term 2030 2050 rationale timeframe",
+      "k": 5,
+      "n_results": 5
+    }
+  ],
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": [
+        "1.5°C scenario",
+        "2.0°C scenario",
+        "3.0°C scenario"
+      ],
+      "evidence": "\"1.5°C scenario ... 2.0°C scenario ... 3.0°C scenario\"",
+      "location_hint": "Page 3–4, Scenario Analysis section",
+      "confidence": "high",
+      "notes": "Three temperature-based scenarios are explicitly named and described in the document.",
+      "verification": 5,
+      "ani_notes": "None but scenarios are mentioned.",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: 1.5°C (most optimistic), 2.0°C (disorderly/higher emissions), and 3.0°C (\"hot house world\"). The document also notes that in the near term (2021–2040), global warming is \"more likely than not to reach 1.5°C even under a very low GHG emission scenario and likely or very likely to exceed 1.5°C under higher emissions scenarios.\" No explicit 2100 endpoint is stated; scenarios are framed as warming levels rather than end-of-century targets.",
+      "evidence": "\"1.5°C scenario ... A 1.5 degree scenario assumes that a pathway to global sustainability is achievable ... 2.0°C scenario ... A 2.0 degree scenario assumes that a pathway to global sustainability is not achievable ... 3.0°C scenario ... Often described as a 'hot house world' scenario\"",
+      "location_hint": "Pages 3–4, Scenario Analysis section",
+      "confidence": "high",
+      "notes": "The document does not explicitly tie these temperature levels to 2100; they are used as scenario labels rather than end-of-century projections.",
+      "verification": 5,
+      "ani_notes": null,
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "Multiple providers are named: IPCC (International Panel on Climate Change), The Aotearoa Circle, NIWA (National Institute of Water and Atmospheric Research), and the Ministry for the Environment (MfE).",
+      "evidence": "\"For our 2023 scenario modelling, we have used data from the International Panel on Climate Change (IPCC) 5th and 6th Assessment Reports and the AR6 Synthesis Report: Climate Change 2023 ... We have also had regard to some of the scenario modelling data which was developed and used by The Aotearoa Circle and the Climate Change scenarios for New Zealand published by the National Institute of Water and Atmospheric Research (NIWA) ... We have also referred to the Ministry for the Environment's 'Aotearoa New Zealand climate change projections guidance'.\"",
+      "location_hint": "Page 2, Scenario Analysis section",
+      "confidence": "high",
+      "notes": "All four providers are explicitly named in the document.",
+      "verification": 5,
+      "ani_notes": "International Panel on Climate Change (IPCC) 5th and 6th Assessment Reports and the AR6 Synthesis Report: Climate Change 20236 which was published by the IPCC in March 2023 The Aotearoa Circle7 and the Climate Change scenarios for New Zealand published by the National Institute of Water and Atmospheric Research (NIWA)8 including their New Zealand findings from the IPCC 5th Assessment Report9. We have also referred to the Ministry for the Environment’s Aotearoa New Zealand climate changeprojections guidance",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "No",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The document does not mention SSP or RCP identifiers at all. Scenarios are described purely by temperature level (1.5°C, 2.0°C, 3.0°C).",
+      "verification": 1,
+      "ani_notes": "Yes - they have mixed and picked",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "No",
+      "evidence": "\"As 2023 is our base year, our scenario analysis was done on a basic level internally, is a narrative-driven analysis but not fully detailed.\"",
+      "location_hint": "Page 2, Scenario Analysis section",
+      "confidence": "high",
+      "notes": "The document describes the scenarios as internally developed at a basic, narrative level using data from IPCC, NIWA, The Aotearoa Circle, and MfE. There is no language indicating downscaling, adaptation, localisation, or customisation of the standard scenarios beyond applying them to New Zealand context narratively.",
+      "verification": 5,
+      "ani_notes": null,
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "No language such as \"participatory\", \"co-create\", \"co-design\", \"deliberate\", or \"collaborative development\" appears in the document in relation to scenario development. The scenarios were developed internally at a basic level.",
+      "verification": 5,
+      "ani_notes": null,
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "No",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The document refers to 2023 as a \"base year\" for GHG emissions measurement, but this is not a climate baseline scenario against which the three temperature scenarios are compared. No explicit baseline or \"business as usual\" reference scenario is described in the scenario analysis.",
+      "verification": 5,
+      "ani_notes": null,
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": [
+        "Toitu emanage"
+      ],
+      "evidence": "\"All emissions were calculated using Toitu emanage with emissions factors and Global Warming Potentials provided by the Toitu emanage tool.\"",
+      "location_hint": "Page 9, GHG Emissions section",
+      "confidence": "high",
+      "notes": "Toitu emanage is named as the calculation tool for GHG emissions. No climate models (e.g. GCMs), integrated assessment models (IAMs), or macroeconomic models are named in the document. The scenario analysis is described as narrative-driven and not model-based.",
+      "verification": 5,
+      "ani_notes": null,
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"Responses to extreme weather events such as flooding / natural disasters ... Revenue loss: Weather events and natural disasters can lead to revenue loss in several ways. Damage to the property may mean that guests may need to be moved to other rooms while repairs are carried out and future reservations may need to cancelled for a period of time if repairs are ongoing.\"",
+      "location_hint": "Pages 3–4, Scenario Analysis section (Physical Risks under each scenario)",
+      "confidence": "medium",
+      "notes": "The document discusses damage and revenue loss from extreme weather events (flooding, natural disasters, extreme heat days) qualitatively under each scenario. However, it explicitly states that financial impacts have not yet been quantified: \"The financial impact of the scenario assessments we have done to date is yet to be quantified.\" So damage is considered conceptually but not modelled with loss estimates.",
+      "verification": 5,
+      "ani_notes": "None (but they have mentioned extreme weather events and flooding, F.)",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "sea level rise",
+        "rainfall",
+        "flooding",
+        "extreme heat days",
+        "storms",
+        "cyclones",
+        "hurricanes",
+        "fire weather indices",
+        "GHG emissions",
+        "energy costs",
+        "insurance premiums",
+        "population growth"
+      ],
+      "evidence": "\"For New Zealand, this could mean an increase in sea level rise of between 0.2m to 0.32m depending on the extent of global warming ... For New Zealand, the number of extreme heat days could increase to between 15 to 30 additional such days and in certain area of New Zealand there will be changes to rainfall patterns and flooding is likely to increase. Fire weather indices are also projected to increase in many parts of the country ... more variable or extreme events such as storms, cyclones or hurricanes ... significant sea level rise, rainfall intensity and a further increase in the number of extreme heat days.\"",
+      "location_hint": "Pages 2–4, Key underlying assumptions and Scenario descriptions",
+      "confidence": "high",
+      "notes": "These variables are used to characterise the scenarios and their impacts, though not all are formal quantitative drivers of the scenario models.",
+      "verification": 5,
+      "ani_notes": "None (but many variables are mentioned, F.).",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"For our 2023 scenario modelling, we have used data from the International Panel on Climate Change (IPCC) 5th and 6th Assessment Reports ... We have also had regard to some of the scenario modelling data which was developed and used by The Aotearoa Circle and the Climate Change scenarios for New Zealand published by the National Institute of Water and Atmospheric Research (NIWA) including their New Zealand findings from the IPCC 5th Assessment Report. We have also referred to the Ministry for the Environment's 'Aotearoa New Zealand climate change projections guidance'.\"",
+      "location_hint": "Page 2, Scenario Analysis section",
+      "confidence": "medium",
+      "notes": "The document draws on both global IPCC data and New Zealand-specific projections from NIWA and MfE, suggesting both global and regional/local scales are referenced. However, no formal downscaling methodology is described.",
+      "verification": 5,
+      "ani_notes": "None (but it is stated that the scale is both, F.).",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Near Term: 2023–2030; Mid Term: 2031–2050; Long Term: 2051 onwards. No explicit rationale for these specific timeframe boundaries is provided.",
+      "evidence": "\"For our 2023 modelling, we have defined the Near Term as being 2023 to 2030, Mid Term to be 2031 to 2050 and Long Term to be 2051 onwards.\"",
+      "location_hint": "Page 3, Scenario Analysis section",
+      "confidence": "high",
+      "notes": "The timeframes are stated clearly but no justification for why these specific boundaries were chosen is provided in the document.",
+      "verification": 5,
+      "ani_notes": "None (but they have mentioned the time frames in footnote 11, F.).",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "No",
+      "evidence": "\"As 2023 is our base year, our scenario analysis was done on a basic level internally, is a narrative-driven analysis but not fully detailed. The financial impact of the scenario assessments we have done to date is yet to be quantified. With the information we have gathered as part of the GHG assessment and audit, we expect to do more detailed work in 2024 and to provide more detailed analysis as part of future disclosures.\"",
+      "location_hint": "Page 2, Scenario Analysis section",
+      "confidence": "high",
+      "notes": "The document does not provide an explicit justification for why the 1.5°C, 2.0°C, and 3.0°C scenarios were chosen, or why the specific data sources (IPCC, NIWA, Aotearoa Circle, MfE) were selected. The choice appears to be driven by regulatory compliance requirements (NZ CS 1) and data availability, but this is not explicitly stated as a justification.",
+      "verification": 5,
+      "ani_notes": null,
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "Yes",
+      "evidence": "\"severe weather incidents such as those experienced in 2023 have already shown us how our land holdings and development operations can be impacted by flooding and infrastructure pressures causing delays to our project timelines and also potentially increasing costs. Putting in place contingency plans for short term physical risks has been a priority over the last year.\" Also: \"Recent weather incidents have also affected our operations with impacts to the properties themselves as well as access to and from our hotels.\"",
+      "location_hint": "Pages 1 and 5, Risk Management section",
+      "confidence": "high",
+      "notes": "The document references 2023 severe weather events that caused flooding, infrastructure pressures, project timeline delays, and cost increases to MCK's land holdings and development operations, as well as impacts to hotel properties and access.",
+      "verification": 4,
+      "ani_notes": "No mention of historic/current climte impacts",
+      "verification_status": "new question - needs verification"
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "both",
+      "evidence": "\"physical risks are those relating to the physical impacts of climate change, including via temperature, rainfall, storms, extreme weather events, and sea-level rise ... severe weather incidents such as those experienced in 2023 have already shown us how our land holdings and development operations can be impacted by flooding and infrastructure pressures causing delays to our project timelines ... we would expect a level of guest disruption with delays or compromised infrastructure or disruption to transportation networks.\"",
+      "location_hint": "Pages 1, 3, and 5",
+      "confidence": "medium",
+      "notes": "Direct physical risks are explicitly discussed (impacts to MCK's own hotel properties, land holdings, and operations from flooding and extreme weather). Indirect physical risks are also referenced through disruption to transportation networks and infrastructure affecting guest access, and the document notes a future Supply Chain Risk Management Study will be conducted. The indirect risks are less fully developed but are present.",
+      "verification": 5,
+      "ani_notes": "Both: In our assumptions we would expect a level of guest disruption with delays or compromised infrastructure or disruption to transportation networks.",
+      "verification_status": "new question - needs verification"
+    }
+  ]
+}

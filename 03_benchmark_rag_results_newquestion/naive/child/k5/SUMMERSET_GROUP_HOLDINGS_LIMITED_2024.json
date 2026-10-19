@@ -1,0 +1,171 @@
+{
+  "source": "SUMMERSET_GROUP_HOLDINGS_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "chunk_mode": "child",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 27527,
+      "total_tokens": 33289,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_creation": 0,
+        "cache_read": 0
+      },
+      "output_tokens": 5762
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Summerset uses three climate scenarios: (1) Orderly 1.5°C, (2) Disorderly 2.0°C, and (3) Hot-House World 3.0°C.",
+      "evidence": "\"Table 4: Breakdown of key assumptions, archetypes, and emissions reduction pathways for our scenarios ORDERLY 1.5°C | DISORDERLY 2.0°C | HOT-HOUSE WORLD 3.0°C\"",
+      "location_hint": "Page 19–20, Sustainability Review and Climate-related Disclosures FY24",
+      "confidence": "high",
+      "notes": "All three scenarios are explicitly named in Table 4 and further described on page 20.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document outlines three scenarios with the following likely global temperature increases by 2100:\n1. Orderly (1.5°C scenario): 1.0–1.8°C\n2. Disorderly (implied ~2°C scenario): 1.3–2.4°C\n3. Hot-House World (3.0°C scenario): 2.8–4.6°C",
+      "evidence": "HOT-HOUSE WORLD 3.0°C | Likely Temperature increase by 2100 (global): 1.0–1.8°C | 1.3–2.4°C | 2.8–4.6°C",
+      "location_hint": "Page 19",
+      "confidence": "high",
+      "notes": "The three scenarios correspond to Orderly (1.0–1.8°C), a middle/disorderly scenario (1.3–2.4°C), and Hot-House World (2.8–4.6°C) by 2100. The scenario names for the first two are partially inferred from context on page 20 (Orderly 1.5°C) and the table structure on page 19.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context passages do not explicitly name the scenario provider(s) used for Summerset's climate-related disclosures. While NIWA is mentioned as a source of climate projections and RCP8.5 is referenced, no specific scenario provider (e.g., IPCC, IEA, NGFS) is directly identified in the provided chunks.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes. The document mixes SSPs and RCPs across its three scenarios: the \"Orderly\" scenario uses both RCP 2.6 and SSP 1-1.9; the \"Disorderly\" scenario uses both RCP 2.6 and SSP 1-2.6; and the \"Hot-house World 3.0°C\" scenario uses both RCP 8.5 and SSP 3-7.0. Additionally, site selection and village design requirements reference RCP 8.5 specifically.",
+      "evidence": "Pathways\nRCP 2.6\nSSP 1-1.9\nNGFS 'Net Zero 2050'\nIEA 'Net Zero Emissions'\nCCC 'Tailwinds'\nRCP 2.6\nSSP 1-2.6\nNGFS 'Delayed Transition'\nIEA 'Sustainable Development'\nCCC 'Headwinds'\nRCP 8.5\nSSP 3-7.0\nNGFS 'Current Policies'\nIEA 'Stated Policies'\nCCC 'Current Policies'",
+      "location_hint": "Page 19",
+      "confidence": "high",
+      "notes": "The document lists both RCP and SSP designations for each scenario, effectively mixing the two classification systems (RCPs from CMIP5 and SSPs from CMIP6) within the same scenario framework. RCP 2.6 appears in both the Orderly and Disorderly scenarios paired with different SSPs (SSP 1-1.9 and SSP 1-2.6 respectively), which are not strictly equivalent pathways.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes, Summerset developed customised scenarios. They reviewed existing sector scenarios and undertook their own process, focusing from step 3 onwards of a scenario development methodology. The refined/customised scenarios were updated to better reflect the balance between their two core business functions: the construction and delivery of new [retirement villages] and [operations]. These updated scenarios were then used throughout their climate-related disclosures work programme for 2024.",
+      "evidence": "\"When Summerset reviewed both sector scenarios and undertook our own process, we undertook a shortened process that focused on step 3 onwards. It was felt that... These refined scenarios were then used throughout the rest of our climate-related disclosures work programme for 2024. Summerset feels that these updated scenarios better reflect the balance between our two core business functions: the construction and delivery of new\"",
+      "location_hint": "Sustainability Review and Climate-related Disclosures FY24.pdf, page 18",
+      "confidence": "medium",
+      "notes": "The context confirms Summerset customised scenarios by adapting sector scenarios through their own process (from step 3 onwards), but the full description of the two core business functions is cut off in the retrieved text. The rationale for customisation (better reflecting their two core business functions) is clear, but full details of the scenarios themselves are not fully captured in the retrieved chunks.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Summerset co-produced climate scenarios by reviewing both the Construction and Property Sector and Health Sector scenarios, then undertaking their own shortened process focused on steps 3 onwards (driver selection, updating scenarios and narratives). These refined scenarios were used throughout their climate-related disclosures work programme for 2024, and were felt to better reflect the balance between their two core business functions: the construction and delivery of new [villages] and their health/care operations.",
+      "evidence": "\"The scenarios created through both the Construction and Property Sector and Health Sector processes were... When Summerset reviewed both sector scenarios and undertook our own process, we undertook a shortened process that focused on step 3 onwards... Following driver selection, scenarios and narratives were updated. These refined scenarios were then used throughout the rest of our climate-related disclosures work programme for 2024. Summerset feels that these updated scenarios better reflect the balance between our two core business functions: the construction and delivery of new...\"",
+      "location_hint": "Page 18",
+      "confidence": "medium",
+      "notes": "The context confirms co-production using both sector-level scenarios (Construction & Property, and Health sectors) combined with Summerset's own internal process, but the full detail of the scenario narratives is truncated in the retrieved chunks.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Summerset uses three climate scenarios for its analysis:\n1. **Orderly (1.5°C)** – The world succeeds in limiting global warming to 1.5°C above pre-industrial levels by the end of the century through coordinated, ambitious, international action.\n2. **Disorderly (2.0°C)** – A middle perspective encompassing a balance of increased transition and physical risks.\n3. **Hot-House World (3.0°C)** – A high-warming scenario reflecting limited climate action.",
+      "evidence": "\"Table 4: Breakdown of key assumptions, archetypes, and emissions reduction pathways for our scenarios: ORDERLY 1.5°C, DISORDERLY 2.0°C, HOT-HOUSE WORLD 3.0°C\" and \"ORDERLY (1.5ºC): The world succeeds in limiting global warming to 1.5ºC above pre-industrial levels by the end of the century. This takes a coordinated, ambitious, international and...\"",
+      "location_hint": "Pages 18–20, Sustainability Review and Climate-related Disclosures FY24",
+      "confidence": "high",
+      "notes": "The full description of the Disorderly and Hot-House World scenarios is not fully captured in the retrieved context, but the three scenario names and temperature targets are clearly stated. The Orderly scenario description is partially quoted.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "Summerset uses a ten-year internal model which reflects Summerset's climate scenarios, alongside integration of NIWA downscaled climate projections. The scenarios are mapped to RCP/SSP pathways and NGFS, IEA, and CCC scenario frameworks.",
+      "evidence": "\"and ten-year internal model which reflects Summerset's climate scenarios. A 50-year horizon is considered in relation to Summerset's build programme.\" and \"integration of the latest NIWA downscaled climate projections into our modelling and prior findings\"",
+      "location_hint": "Page 14 and Page 22",
+      "confidence": "medium",
+      "notes": "The context references a ten-year internal model and NIWA downscaled climate projections, but does not name a specific third-party climate model (e.g., a specific IAM). The scenario pathways (RCP, SSP, NGFS, IEA, CCC) are referenced on page 19.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. The document considers damage from acute physical risks including storms, wind, flooding, and wildfires. An example is provided through Cyclone Gabrielle, where damage to roading infrastructure and transmission impacted access to villages, causing staffing and supply disruptions. These acute risks are assessed across short, medium, and long time horizons.",
+      "evidence": "\"An example demonstrated by Cyclone Gabrielle is where damage to roading infrastructure and transmission impacted access to villages, causing staffing and supply\" ... \"Storms, wind and flooding ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ Wildfires ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤\"",
+      "location_hint": "Pages 22 and 45, Sustainability Review and Climate-related Disclosures FY24",
+      "confidence": "high",
+      "notes": "The document explicitly identifies acute physical risks (storms, wind, flooding, wildfires) and provides a real-world example of damage from Cyclone Gabrielle. The risk matrix appears to cover short (S), medium (M), and long (L) time horizons.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The document references the following non-temperature variables used in scenario analysis: sea level rise, changing precipitation patterns, and extreme weather events (including drought, heatwaves, and wildfire risks).",
+      "evidence": "\"Sustained higher temperatures ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ Sea level rise ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ Changing precipitation patterns ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤\"",
+      "location_hint": "Page 23",
+      "confidence": "high",
+      "notes": "The document explicitly lists sea level rise and changing precipitation patterns as non-temperature physical variables assessed across short (S), medium (M), and long (L) timeframes. Extreme weather events (drought, heatwaves, wildfire) are also mentioned in the surrounding context as part of the scenario risk assessment.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Summerset uses short (S), medium (M), and long (L) time scales across its scenario analysis, applied to physical risks such as sustained higher temperatures, sea level rise, and changing precipitation patterns. The scenarios include at least one where average temperature increases exceed 2°C by 2050, with significant changes in sea level rise, rainfall intensity, and number of hot days.",
+      "evidence": "S\nM\nL\nS\nM\nL\nS\nM\nL\nSustained \nhigher temperatures\n⬤\n⬤\n⬤\n⬤\n⬤\n⬤\n⬤\n⬤\n⬤\nSea level rise\n⬤\n⬤\n⬤\n⬤\n⬤\n⬤\n⬤\n⬤\n⬤\nChanging \nprecipitation \npatterns\n⬤\n⬤\n⬤\n⬤\n⬤\n⬤\n⬤\n⬤\n⬤\n\nAverage temperature increases exceed 2ºC by 2050",
+      "location_hint": "Page 20 and Page 23",
+      "confidence": "medium",
+      "notes": "The context shows short (S), medium (M), and long (L) time scales are used in the scenario analysis, but the full legend or definitions of these time horizons are not explicitly provided in the retrieved chunks. One scenario involves temperatures exceeding 2°C by 2050 with severe physical impacts. The exact number of scenarios and their full names/descriptions are not fully captured in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Summerset uses two different sets of time horizons: one for scenario analysis and an alternative set for identifying climate-related risks and opportunities. For risk and opportunity identification, the short time horizon is defined as 0–5 years, which aligns with immediate strategic priorities, construction timeframes for new villages, near-term sustainability targets (2028), and financial strategy (primarily bond maturity horizons). Details for medium and longer horizons are referenced on pages 19 and 22 of the disclosure document.",
+      "evidence": "\"Summerset maintains the position of utilising two different time horizons, one for our scenario analysis, and an alternative set of time horizons and definitions when identifying climate-related risks and opportuntieis. The details are on pages 19 and 22.\" and \"Short (0–5 years) Aligns with the immediate priorities of our ten-year strategic focus. Additionally, it matches our approximate construction timeframes for new villages, our near-term sustainability targets (2028), and our financial strategy (primarily bond maturity horizons).\"",
+      "location_hint": "Table 5, p.21; p.44",
+      "confidence": "high",
+      "notes": "The context only provides the definition for the short time horizon (0–5 years). The medium and long horizon definitions are referenced as being on pages 19 and 22 but are not included in the retrieved chunks.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Summerset selected three scenarios (Orderly 1.5°C, Disorderly 2.0°C, and Hot-House World 3.0°C) because each presents a plausible future with a different series of challenges and issues. The approximately 2°C (Disorderly) scenario was specifically retained as the third scenario because it \"encompasses a balance of increased transition and physical risks.\" The scenarios were chosen following a comparison process based on archetypes, reference scenarios, driving forces, key assumptions and data, after which Summerset undertook an internal process to select the most relevant drivers from each sector scenario analysis — including redefining drivers to be more Summerset-relevant.",
+      "evidence": "\"encompasses a balance of increased transition and physical risks, is the best third scenario. As such we have retained the approximately 2ºC (Disorderly) scenario to meet our disclosure requirement for a third scenario. All three scenarios present plausible futures for Summerset but each scenario demonstrates a different series of challenges and issues that we would have to navigate.\" and \"on archetypes, reference scenarios, driving forces, key assumptions and data. Once this comparison was completed Summerset then undertook an internal process to select the most relevant drivers from each sector scenario analysis. This included examining the drivers and their definitons, including redefining these drivers to be more Summerset-relevant\"",
+      "location_hint": "Page 18, Sustainability Review and Climate-related Disclosures FY24",
+      "confidence": "high",
+      "notes": "The justification covers both the overall scenario selection rationale and the specific reason for retaining the Disorderly 2°C scenario. The methodology involved comparison of archetypes, reference scenarios, driving forces, and key assumptions before internal refinement.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context discusses climate-related risks, risk management frameworks, and anticipated future impacts, but contains no information about historic (past) climate impacts that have already occurred and affected the business.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Summerset identifies direct physical climate risks including sea level rise and flooding, as well as indirect/transition risks such as managed retreat and insurance. These are examined as part of the land acquisition due diligence process for potential new villages. The company notes that 100% exposure to these risks exists, but they are being proactively managed and monitored. Understanding of physical climate risks across the full value chain (particularly the supply chain) is limited by data availability and quality.",
+      "evidence": "\"the land acquisitions process for potential new villages examines a variety of climate-related risks, both physical (sea level rise, flooding) and transition (managed retreat, insurance) as part of our due diligence.\" and \"Although the exposure is 100%, these risks are being proactively managed and monitored. This ensures that if these risks eventuate then we expect the impact to the business to be well mitigated.\"",
+      "location_hint": "p.14 and p.45, Sustainability Review and Climate-related Disclosures FY24",
+      "confidence": "medium",
+      "notes": "The context identifies specific physical risks (sea level rise, flooding) but does not provide a comprehensive list of all direct and indirect physical climate risks assessed. Supply chain risk understanding is noted as limited. The 100% exposure figure refers to climate risks generally, not exclusively physical risks.",
+      "verification": null
+    }
+  ]
+}

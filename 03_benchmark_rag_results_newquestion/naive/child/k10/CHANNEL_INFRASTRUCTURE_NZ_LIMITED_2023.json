@@ -1,0 +1,171 @@
+{
+  "source": "CHANNEL_INFRASTRUCTURE_NZ_LIMITED_2023",
+  "model_id": "claude-sonnet-4-6",
+  "k": 10,
+  "chunk_mode": "child",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 37850,
+      "total_tokens": 43471,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_creation": 0,
+        "cache_read": 0
+      },
+      "output_tokens": 5621
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Channel Infrastructure developed and explored three climate-change scenarios: (1) \"Green light\" (associated with the CCC \"Tailwinds\" pathway), and two additional scenarios whose names are partially visible in the context. The three scenarios are referenced as distinct narratives mapped to New Zealand's Climate Change Commission (CCC) pathways.",
+      "evidence": "\"We have developed and explored three climate-change scenarios... A summary of each scenario, including narrative and metrics are outlined from page 44. We have drawn data from global climate change assumptions and applied these in a New Zealand context.\"\n\nAlso: \"These three pathways and associated data were also chosen to inform our three scenarios. Scenario | CCC Pathway | Rationale | Green light | Tailwinds\"",
+      "location_hint": "Page 42 and Page 113",
+      "confidence": "medium",
+      "notes": "The context confirms three scenarios exist and names one (\"Green light\" linked to the \"Tailwinds\" CCC pathway). The names of the other two scenarios are not fully visible in the retrieved chunks. One scenario appears to involve a global temperature rise of 2.6°C by 2100 (page 48). Full scenario names cannot be confirmed from the provided context alone.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three scenarios are presented for global temperature increase by 2100, relative to pre-industrial levels:\n1. Green Light (orderly transition): 1.5°C\n2. Amber Light (disorderly/delayed transition): 2.6°C\n3. Red Light (hot house/no decarbonisation): 4.0°C",
+      "evidence": "\"Global temperature increase by 2100, relative to pre-industrial levels: 1.5 [Green Light] | 2.6 [Amber Light] | 4.0 [Red Light]\"",
+      "location_hint": "Page 112 (summary table); also pages 43, 47, 51",
+      "confidence": "high",
+      "notes": "The document uses a traffic-light scenario framework. The 1.5°C scenario is described as orderly with immediate and smooth policy reaction; 2.6°C is disorderly with delayed policy reaction; 4.0°C is a \"hot house\" scenario with little to no decarbonisation.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "The scenarios were provided by multiple reference sources: NGFS (Network for Greening the Financial System), IPCC, Climate Change Commission (CCC), IIASA (International Institute for Applied Systems Analysis), Ministry for the Environment (New Zealand), and Treasury New Zealand.",
+      "evidence": "\"Use of reference scenarios: Network for Greening the Financial System (NGFS). The NGFS framework is a widely used tool for determining high level scenario narratives. It was decided that the 'Orderly', 'Disorderly' and 'Hothouse' scenarios best spanned the range of plausible futures for our organisation.\" / \"Reference scenarios: NGFS Orderly, RCP 2.6, SSP 1, CCC Tailwinds\" / \"Reference scenarios: NGFS Disorderly, RCP4.5, SSP 2, CCC Headwinds\" / \"Reference scenarios: NGFS Hothouse, RCP8.5, SSP 3, CCC Current Policy Reference\"",
+      "location_hint": "Page 113, 44, 48, 52",
+      "confidence": "high",
+      "notes": "The primary scenario framework provider is NGFS, supplemented by IPCC RCP/SSP pathways and the New Zealand Climate Change Commission (CCC) scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "The document pairs SSPs and RCPs as follows across three scenarios:\n1. **Green light (Orderly):** RCP 2.6 + SSP1 (Sustainability – \"Taking the Green Road\")\n2. **Headwinds (Disorderly):** RCP 4.5 + SSP2 (Middle of the Road)\n3. **Current Policy Reference (Hothouse):** RCP 8.5 (downscaled) + SSP3 (Regional Rivalry – \"A Rocky Road\")",
+      "evidence": "Scenario | RCP Used | SSP\nGreen light | 2.6 | 1 (SSP1: Sustainability reflects a world in...)\n[Disorderly/Headwinds] | RCP4.5 | SSP 2\n[Hothouse/Current Policy Reference] | RCP8.5 | SSP 3\n\nReference scenarios: NGFS Orderly, RCP 2.6, SSP 1, CCC Tailwinds\nReference scenarios: NGFS Disorderly, RCP4.5, SSP 2, CCC Headwinds\nReference scenarios: NGFS Hothouse, RCP8.5, SSP 3, CCC Current Policy Reference",
+      "location_hint": "Pages 38, 44, 48, 52, 113",
+      "confidence": "high",
+      "notes": "The document explicitly maps each scenario to a specific RCP and SSP combination. RCP 7.0 also appears in the diagram on page 38 but is not assigned to a named scenario in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Channel Infrastructure did not develop fully customised scenarios. Instead, they used global reference scenarios (primarily the NGFS framework — 'Orderly', 'Disorderly', and 'Hothouse') as the basis for their three climate scenarios, mapping global and local reference models to design their scenarios and temperature pathways in line with External Reporting Board (XRB) guidance.",
+      "evidence": "\"The NGFS framework is a widely used tool for determining high level scenario narratives. It was decided that the 'Orderly', 'Disorderly' and 'Hothouse' scenarios best spanned the range of plausible futures for our organisation... Channel has mapped a series of global references to design our three climate scenarios and their temperature pathways.\"",
+      "location_hint": "Page 113 and Page 37",
+      "confidence": "high",
+      "notes": "The company adapted NGFS reference scenarios to their context (including local fuel demand scenarios used for over 15 years) but did not appear to build fully bespoke/customised scenarios from scratch.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Channel Infrastructure did not co-produce bespoke climate scenarios with external stakeholders. Instead, they used established reference scenarios (notably the NGFS framework) and mapped global climate change assumptions to a New Zealand context. Their scenario methodology involved a phased approach including mapping of global and local reference models, setting scope boundaries, and assessing physical and transitional climate risks, in line with External Reporting Board (XRB) guidance.",
+      "evidence": "\"The NGFS framework is a widely used tool for determining high level scenario narratives. It was decided that the 'Orderly', 'Disorderly' and 'Hothouse' scenarios best spanned the range of plausible futures for our organisation... In line with the External Reporting Board (XRB) guidance on scenario analysis, Channel has mapped a series of global references to design our three climate scenarios and their temperature pathways... We have drawn data from global climate change assumptions and applied these in a New Zealand context.\"",
+      "location_hint": "Pages 37, 42, 113",
+      "confidence": "high",
+      "notes": "There is no evidence in the retrieved context of co-production of climate scenarios with external stakeholders (e.g., regulators, communities, or peers). The scenarios were developed internally using established global reference frameworks (NGFS) and XRB guidance, then localised to New Zealand.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Channel Infrastructure developed three climate-change scenarios, drawing on global climate change assumptions applied in a New Zealand context. The scenarios were mapped using global references including the Climate Change Commission (2021) Scenarios dataset for the Commission's 2021 Final Advice. The three scenarios include at least: (1) a 1.5°C by 2100 scenario with moderate physical risk severity, moderate transition risk severity, and immediate and smooth policy reaction; and (2) a 2.6°C by 2100 scenario with moderate physical risk severity, high transition risk severity, and delayed policy reaction.",
+      "evidence": "\"We have developed and explored three climate-change scenarios... We have drawn data from global climate change assumptions and applied these in a New Zealand context... Channel has mapped a series of global references to design our three climate scenarios and their temperature pathways.\" Additionally: \"Global temperature rise 1.5°C by 2100\" with \"Physical risk severity: MODERATE, Transition risk severity: MODERATE, Policy reaction: IMMEDIATE AND SMOOTH\" and \"Global temperature rise 2.6°C by 2100\" with \"Physical risk severity: MODERATE, Transition risk severity: HIGH, Policy reaction: DELAYED\"",
+      "location_hint": "Pages 37, 42, 44, 48",
+      "confidence": "high",
+      "notes": "The context shows at least two of the three scenarios in detail (1.5°C and 2.6°C). The third scenario is referenced but its full details are not captured in the retrieved chunks. The Climate Change Commission (2021) Scenarios dataset is cited as a key reference for all scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "The document references the IPCC AR5 Synthesis Report (with Representative Concentration Pathways) and Shared Socio-economic Pathways (SSP) for the climate component of scenarios, alongside the Climate Change Commission (CCC) 2021 Scenarios dataset for New Zealand-specific pathways. No single named climate model (e.g., a specific GCM) is explicitly identified.",
+      "evidence": "\"by the Intergovernmental Panel for Climate Change (IPCC) in their AR5 Synthesis Report as input for the climate component of our climate change scenarios, with the Shared Socio-economic Pathways (SSP) developed by the IPCC to incorporate the global socio-economic context.\"",
+      "location_hint": "Page 37",
+      "confidence": "medium",
+      "notes": "The document references IPCC AR5 and SSPs as the modelling framework, and the CCC 2021 Scenarios dataset for NZ-specific data, but does not name a specific climate model (e.g., a particular GCM or IAM) by name.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. The company considers damage from acute physical risks, including increased severity of extreme weather events such as Cyclone Gabrielle. Specific damages noted include a power outage on site and a damaged security fence on the coastal boundary. The company also experienced over 400% of normal rainfall, which increased ground stability risk along the pipeline route. These are assessed through a Physical Risk Assessment process and ranked in a Top 10 Physical Risks table.",
+      "evidence": "\"Physical risks related to the physical impacts of climate change. Physical risks emanating from climate change can be event-driven (acute) such as increased severity of extreme weather events.\" and \"In addition to a brief power outage on site, a security fence on the coastal boundary was damaged\" and \"we experienced over 400% of normal rainfall which presented, amongst other things, an increase in ground stability risk along the pipeline route.\"",
+      "location_hint": "Pages 36, 98, 121 — Channel Infrastructure NZ Limited, Resilient infrastructure for a decarbonising world",
+      "confidence": "high",
+      "notes": "Acute physical risks are explicitly defined and examples of actual damage (fence, power outage, ground stability) from Cyclone Gabrielle are documented. A formal Physical Risk Assessment Workshop and Top 10 Physical Risks table are also referenced.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include the following non-temperature variables: NZ sea level rise (0.24m for 2031–50 relative to 1995–2014), Rainfall intensity (+7.5% for 100-yr ARI 12-hr rain depth, 2031–2050 relative to 1986–2005), NZ Hot days (+54% for 2031–2050 relative to 1986–2005), and NZ carbon price ($369 per tonne for 2050).",
+      "evidence": "\"0.24m NZ sea level rise² For 2031-50 relative to 1995-2014 | +7.5% Rainfall intensity² 100-yr ARI 12-hr rain depth, 2031-2050 relative to 1986-2005 | +54% NZ Hot days² For 2031-2050 relative to 1986-2005 | $369 NZ carbon price³ For 2050, per tonne\"",
+      "location_hint": "Page 47",
+      "confidence": "high",
+      "notes": "These indicators are shown for one of the three scenarios (the disorderly scenario, with a 2.6°C global temperature increase by 2100). Other scenarios may have different values not fully captured in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Channel Infrastructure developed three climate-change scenarios, drawing from global climate change assumptions and applying them in a New Zealand context. The scenarios span global to local (New Zealand) scale, with RCPs downscaled to the New Zealand context by NIWA. The scenarios cover a global temperature rise of 1.5°C by 2100 (low warming), 2.6°C by 2100 (moderate warming), and a higher warming trajectory, with New Zealand-specific physical climate impacts derived from downscaled NIWA data.",
+      "evidence": "\"We have developed and explored three climate-change scenarios... We have drawn data from global climate change assumptions and applied these in a New Zealand context.\" and \"These RCPs have been downscaled (D/S) to the New Zealand context by NIWA. The New Zealand-specific climate impacts in these scenarios were taken from downscaled NIWA data.\"",
+      "location_hint": "Page 42 and Page 113",
+      "confidence": "high",
+      "notes": "Scenarios operate at both global and national (New Zealand) scale, with global assumptions downscaled to NZ by NIWA. Three scenarios are used, with temperature outcomes of 1.5°C and 2.6°C by 2100 explicitly mentioned for two of them.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "The company defines three time horizons:\n- Short-term: to 2030\n- Medium-term: to 2050\n- Long-term: to 2100\n\nThe short-term horizon broadly aligns with existing Terminal Services Agreements with customers, which have an initial term of 10 years (to 2032), with two five-year rights of renewal.",
+      "evidence": "• Short-term to 2030\n• Medium-term to 2050, and\n• Long-term to 2100.\n\nThe short-term horizon broadly aligns with the existing Terminal Services Agreements that we have in place with our customers. The initial term of the contracts is 10 years (to 2032), with two five-year rights of renewal.",
+      "location_hint": "Page 41 and Page 64",
+      "confidence": "high",
+      "notes": "Both the time horizon definitions and their linkage to strategic planning horizons (Terminal Services Agreements) are explicitly stated in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "The NGFS (Network for Greening the Financial System) framework was chosen because it is a widely used tool for determining high-level scenario narratives. The 'Orderly', 'Disorderly', and 'Hothouse' scenarios were selected because they best spanned the range of plausible futures for the organisation.",
+      "evidence": "\"The NGFS framework is a widely used tool for determining high level scenario narratives. It was decided that the 'Orderly', 'Disorderly' and 'Hothouse' scenarios best spanned the range of plausible futures for our organisation\"",
+      "location_hint": "Page 113, Use of reference scenarios section",
+      "confidence": "high",
+      "notes": "The context provides a clear justification for the NGFS framework and scenario selection, though the full sentence/paragraph may be truncated in the retrieved chunk.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context discusses climate-related risks, scenario analysis, and anticipated future impacts, but does not contain any explicit information about historic (past) climate impacts experienced by the company.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Channel Infrastructure identified both direct and indirect physical climate risks, ranked in a \"Top 10 Physical Risks (Direct and Indirect)\" table. Direct physical risks were assessed based on exposure, sensitivity, and adaptive capacity, while indirect physical risks were ranked based on consequence only, as exposure, sensitivity and adaptive capacity are less well understood. Physical risks are described as directly dependent on the intensity of global warming, with a changing climate (from acute weather events, or chronic changes such as sea level rise) potentially impacting operations, staff, and supply chains.",
+      "evidence": "\"Channel also considered indirect physical risks to the business from climate related impacts. Indirect risks were ranked based on consequence only, as exposure, sensitivity and adaptive capacity are less well understood. TABLE 5: TOP 10 PHYSICAL RISKS (DIRECT AND INDIRECT)\"",
+      "location_hint": "Page 65, Table 5",
+      "confidence": "medium",
+      "notes": "The context references the existence of a Top 10 Physical Risks table (Table 5) on page 65-66, but the actual contents/list of the specific risks in that table are not included in the retrieved chunks. The answer is therefore based on the framing and methodology described, not the full list of identified risks.",
+      "verification": null
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "source": "LIVESTOCK_IMPROVEMENT_CORPORATION_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1325261,
+      "total_tokens": 1333773,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 1257199,
+        "ephemeral_5m_input_tokens": 68037,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 8512
+    }
+  },
+  "retrieval_trace": [
+    {
+      "q_id": 3,
+      "tool": "search_knowledge_base",
+      "query": "scenario provider IPCC NGFS NIWA MfE source",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 2,
+      "tool": "search_knowledge_base",
+      "query": "global temperature outcome 2100 1.5 degrees 2 degrees warming",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 1,
+      "tool": "search_knowledge_base",
+      "query": "climate scenarios pathways used",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 5,
+      "tool": "search_knowledge_base",
+      "query": "customised adapted localised downscaled tailored scenarios",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 4,
+      "tool": "search_knowledge_base",
+      "query": "SSP RCP combination mixing scenario families",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 6,
+      "tool": "search_knowledge_base",
+      "query": "participatory co-create co-design stakeholder collaborative scenario development",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 7,
+      "tool": "search_knowledge_base",
+      "query": "baseline reference scenario business as usual comparison",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 9,
+      "tool": "search_knowledge_base",
+      "query": "damage loss extreme events acute physical risk flood storm cyclone wildfire",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 8,
+      "tool": "search_knowledge_base",
+      "query": "climate model integrated assessment model IAM macroeconomic model CLIMADA REMIND MESSAGE",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 11,
+      "tool": "search_knowledge_base",
+      "query": "global regional local downscaled New Zealand climate projections scale",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 10,
+      "tool": "search_knowledge_base",
+      "query": "carbon price sea level rise rainfall temperature variables scenario drivers",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 12,
+      "tool": "search_knowledge_base",
+      "query": "time horizon short medium long term years 2030 2050 2100 rationale",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 14,
+      "tool": "search_knowledge_base",
+      "query": "historical observed impacts climate hazards physical assets operations financial",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 15,
+      "tool": "search_knowledge_base",
+      "query": "direct indirect physical risk supply chain customers suppliers value chain",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 13,
+      "tool": "search_knowledge_base",
+      "query": "justification reason why scenarios chosen selected appropriate",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 14,
+      "tool": "get_page",
+      "source": "LIC_ClimateReport_31052025.pdf",
+      "page": 15
+    },
+    {
+      "q_id": 4,
+      "tool": "get_page",
+      "source": "LIC_ClimateReport_31052025.pdf",
+      "page": 40
+    },
+    {
+      "q_id": 8,
+      "tool": "search_knowledge_base",
+      "query": "ENZ model OverseerFM emanage model used scenario",
+      "k": 5,
+      "n_results": 5
+    },
+    {
+      "q_id": 9,
+      "tool": "search_knowledge_base",
+      "query": "financial loss damage quantified extreme weather flood storm acute risk estimate",
+      "k": 5,
+      "n_results": 5
+    }
+  ],
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": [
+        "Sharp Corrections (temperature rise limited to 1.5°C)",
+        "Slow Followers (temperature rise over 2.5°C)",
+        "Hothouse (temperature rise increases past 3°C)"
+      ],
+      "evidence": "\"LIC determined that the scenario results (ie our chosen scenarios below) following adaptation of the collaboration with Fonterra and Silver Fern Farms was the most relevant and appropriate scenarios... Sharp Corrections, temperature rise limited to 1.5°C (mandated); Slow Followers, temperature rise over 2.5°C; Hothouse, temperature rise increases past 3°C (mandated)\"",
+      "location_hint": "Scenario analysis section, p.17–18",
+      "confidence": "high",
+      "notes": "Each scenario draws on multiple external scenario archetypes (IPCC SSPs/RCPs, NGFS, SPANZ, CCC datasets) as detailed in Appendix One.",
+      "verification": 5,
+      "ani_notes": "Sharp Corrections; Slow Followers; Hothouse",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes by 2100: 1.5°C (Sharp Corrections), 2.7°C (Slow Followers), and 3.6°C (Hothouse), all relative to pre-industrial levels.",
+      "evidence": "\"Temperature outcome by 2100: 1.5°C [Sharp Corrections] / 2.7°C [Slow Followers] / 3.6°C [Hothouse]\" and \"The Hothouse scenario depicts a world where unchecked emissions and lack of climate policies lead to a rise in global temperatures of 3.6°C above pre-industrial levels by 2100.\"",
+      "location_hint": "Table 3 / Scenario narratives, p.18–19; Appendix One, p.41",
+      "confidence": "high",
+      "notes": "No temperature overshoot language is used. The Slow Followers scenario is described as temperatures \"set to rise over 2.5°C by century's end\" in the narrative but the quantified best estimate in the data table is 2.7°C.",
+      "verification": 5,
+      "ani_notes": "1.5, 2.7 and 3.6",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers are explicitly named: IPCC (Intergovernmental Panel on Climate Change), NGFS (Network for Greening the Financial System), SPANZ (Shared Policy Assumptions for New Zealand), and the New Zealand Climate Change Commission (CCC). The scenarios were also co-developed with Fonterra and Silver Fern Farms and adapted by LIC.",
+      "evidence": "\"Intergovernmental Panel on Climate Change (IPCC) — IPCC RCPs and SSPs provide a basis for global scenarios and pathways... Network for Greening the Financial System (NGFS)... Shared Policy Assumptions for New Zealand (SPANZ)... New Zealand Climate Change Commission (CCC) 2021 datasets\"",
+      "location_hint": "Appendix One, p.40–41",
+      "confidence": "high",
+      "notes": "The overarching scenario narratives were co-developed with Fonterra and Silver Fern Farms and then adapted by LIC for its specific business model.",
+      "verification": 5,
+      "ani_notes": "IPCC, NGFS, SPANZ, CCC",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "\"IPCC RCPs and SSPs provide a basis for global scenarios and pathways such as global socioeconomics. The SSP-RCP scenarios combine baseline socio-economic narratives (the SSPs) with different emissions trajectories (based on the RCPs). Based on IPCC Assessment Reports 5 and 6. Representative Concentration Pathways (RCP): RCP 1.9 / RCP 4.5 / RCP 7.0 ... Shared Socioeconomic Pathways (SSP): SSP 1; Sustainability - Taking the green road / SSP 2; Middle of the Road / SSP 3; Regional Rivalry\"",
+      "location_hint": "Appendix One, p.40",
+      "confidence": "medium",
+      "notes": "The document explicitly lists both SSP and RCP identifiers. RCP 1.9 is from AR6/SSP framework (SSP1-1.9), while RCP 4.5 and 7.0 are from AR5. The document references \"IPCC Assessment Reports 5 and 6\" together, and the data source table cites \"IIASA SSP Database SSP1-1.9, SSP2-4.5, SSP3-7.0\", suggesting these are the internally consistent SSP-RCP pairs rather than a true pick-and-mix. However, the document explicitly lists both SSP and RCP identifiers separately, meeting the literal criterion for Yes.",
+      "verification": 1,
+      "ani_notes": "NO",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"LIC has adapted the narratives developed with Fonterra and Silver Fern Farms to reflect LIC's role in the dairy sector specifically... This joint output was then refined by LIC to make it more specific to our strategy and business model.\" and \"LIC determined that the scenario results... have been created specifically for the dairy sector within New Zealand's agricultural sector and therefore will be most useful for identifying and assessing the most material risks and opportunities relevant to LIC, its operations, business model, and strategy and have been further adapted to be specific to our strategy and business model.\"",
+      "location_hint": "Scenario analysis section, p.17–18",
+      "confidence": "high",
+      "notes": "The scenarios were adapted from a collaboration with Fonterra and Silver Fern Farms, which itself drew on IPCC, NGFS, SPANZ and CCC frameworks. LIC then further customised them for its own dairy-sector business model.",
+      "verification": 5,
+      "ani_notes": "The Aotearoa Circle Agriculture Sector Scenarios2 were previously used as LIC’s foundation for developing climate-related scenarios. The sector scenario work programmes led by the Aotearoa Circle were influential in bringing together sectors across New Zealand to support climate reporting entities and encourage greater comparability of reporting and key members of LIC’s executive team participated in that process. In the current reporting period we collaborated with Fonterra and Silver Fern Farms to develop core scenario elements that were more specific to the dairy and beef sectors and common across the three cooperatives, such as driving forces, temperature outcomes, emissions pathways, and high-level narratives",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes — LIC collaborated with Fonterra and Silver Fern Farms to co-develop core scenario elements. However, no broader external stakeholder or public participatory process was used.",
+      "evidence": "\"In the current reporting period we collaborated with Fonterra and Silver Fern Farms to develop core scenario elements that were more specific to the dairy and beef sectors and common across the three cooperatives, such as driving forces, temperature outcomes, emissions pathways, and high-level narratives.\" and \"Other than the collaboration with Fonterra and Silver Fern Farms, LIC did not enlist the help of external partners, and no external stakeholders were involved, with the exception of elected directors, who are farmer shareholders in LIC.\"",
+      "location_hint": "Scenario analysis section, p.17",
+      "confidence": "high",
+      "notes": "The collaboration was between three industry cooperatives (LIC, Fonterra, Silver Fern Farms), not a broader public or multi-stakeholder participatory process. The document explicitly states no external stakeholders were involved beyond elected farmer-shareholder directors.",
+      "verification": 5,
+      "ani_notes": "The Aotearoa Circle Agriculture Sector Scenarios2 were previously used as LIC’s foundation for developing climate-related scenarios. The sector scenario work programmes led by the Aotearoa Circle were influential in bringing together sectors across New Zealand to support climate reporting entities and encourage greater comparability of reporting and key members of LIC’s executive team participated in that process. In the current reporting period we collaborated with Fonterra and Silver Fern Farms to develop core scenario elements that were more specific to the dairy and beef sectors and common across the three cooperatives, such as driving forces, temperature outcomes, emissions pathways, and high-level narratives",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "No explicit standalone baseline/reference scenario is described. The CCC \"Current Policy Reference\" dataset is used as one of the underlying data sources for the Hothouse scenario, but it is not presented as a separate baseline against which the other scenarios are compared.",
+      "evidence": "\"New Zealand Climate Change Commission (CCC) 2021 datasets: Further Behaviour Change, Tailwinds [Sharp Corrections] / Headwinds [Slow Followers] / Current Policy Reference [Hothouse] — Relied upon for data specifically relating to each scenario, particularly dairy herd % change.\"",
+      "location_hint": "Appendix One, p.41",
+      "confidence": "medium",
+      "notes": "The document does not describe a formal baseline or business-as-usual scenario used as a comparator. The three scenarios are compared against each other and against \"today\" (e.g. \"physical risk severity compared to today\"). The CCC \"Current Policy Reference\" is an input data source, not a standalone baseline scenario in the analysis.",
+      "verification": 4,
+      "ani_notes": "No baseline was mentioned",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": [
+        "ENZ model (Climate Change Commission)",
+        "OverseerFM",
+        "emanage"
+      ],
+      "evidence": "\"He Pou a Rangi, Climate Change Commission. (2021). Scenarios dataset for the Commission's 2021 Final Advice (output from ENZ model).\" and \"Data is published from OverseerFM into Toitū my farms and then downloaded and entered into the emanage software as precalculated emissions.\" Also: \"No specific modelling was undertaken as part of the scenario analysis.\"",
+      "location_hint": "Appendix One data sources, p.41; Appendix Two GHG methods, p.43–44",
+      "confidence": "medium",
+      "notes": "The ENZ model is referenced as the source of CCC scenario data, not as a model LIC itself ran. OverseerFM and emanage are GHG accounting tools, not climate or IAMs. The document explicitly states \"No specific modelling was undertaken as part of the scenario analysis.\" No IAMs (e.g. REMIND, MESSAGE) are named.",
+      "verification": 1,
+      "ani_notes": "ENZ model, OverseeFM are GHG accounting tools",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes — the scenario analysis and risk register explicitly consider acute physical risks (extreme weather events, floods, storms, heatwaves, droughts), and current observed impacts from such events are described. However, no quantified financial damage/loss estimates from acute events are provided in the scenario analysis; current financial impacts are described as not material or not quantifiable.",
+      "evidence": "\"Acute risk factors are those related to more frequent and intense extreme climate events such as heatwaves, droughts, bushfires, floods and storms.\" and \"Extreme weather events caused minor disruption to LIC production and services due to disrupted farmer operations, resulting in some reorganisation of LIC services. For example, South Island flooding impacted some farmers during the reporting period. No material financial impact.\"",
+      "location_hint": "p.14 (risk definitions); p.15–16 (current impacts table)",
+      "confidence": "medium",
+      "notes": "Acute physical risks are explicitly considered in the scenario analysis and risk register, but no quantified damage/loss estimates from extreme events are provided in the scenario analysis itself. Current observed impacts are described qualitatively with no material financial impact noted.",
+      "verification": 5,
+      "ani_notes": "Extreme weather events caused minor disruption to LIC production and services due to  isrupted farmer operations, resulting in some reorganisation of LIC services. For example, South Island flooding impacted some farmers during the reporting period.",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "NZ carbon price",
+        "NZ sea level rise",
+        "NZ extreme rainfall",
+        "NZ extreme heat (days >30°C)",
+        "NZ potential evapotranspiration deficit",
+        "NZ population increase",
+        "NZ emissions (MtCO2-e)",
+        "electricity from renewable sources",
+        "NZ native forestry area",
+        "dairy herd size",
+        "global GDP",
+        "technological change",
+        "consumption patterns",
+        "policy reaction",
+        "consumer behaviour change",
+        "demand for dairy"
+      ],
+      "evidence": "\"NZ Carbon Price [For 2070, per tonne]: $557 / $369 / $355 ... NZ sea level rise [For 2050 relative to 2005]: 0.20m / 0.22m / 0.32m ... NZ extreme rainfall [For 2100 relative to 1986-2005 baseline]: +13% / +25% / +30% ... NZ extreme heat (>30°C) [For 2100 relative to 1986-2005 baseline]: +7 days / +16 days / +28 days ... NZ potential evapotranspiration deficit [For 2100 relative to 1986-2005 baseline]: 103mm / 165mm / 223mm\"",
+      "location_hint": "Appendix One scenario data table, p.41–42; Table 3 scenario narratives, p.19–20",
+      "confidence": "high",
+      "notes": "The scenario data table (Appendix One) provides quantified values for multiple non-temperature variables. The scenario narratives also describe qualitative drivers including policy, technology, consumer behaviour, and dairy demand.",
+      "verification": 5,
+      "ani_notes": "Global temperature increase; NZ poplation increase; NZ emissions;Electricy from renewable sources; NZ sea level rise; NZ extreme rainfall; NZ extreme heat; NZ native forest; NZ PED",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"IPCC RCPs and SSPs provide a basis for global scenarios and pathways such as global socioeconomics.\" and \"Ministry for the Environment, NIWA (2024) Aotearoa New Zealand Climate Projections\" [used for NZ-specific variables including NZ extreme rainfall, NZ extreme heat, NZ sea level rise, NZ potential evapotranspiration deficit]. Also: \"The climate scenario analysis was focused on LIC's New Zealand operations. International factors were considered where material.\"",
+      "location_hint": "Appendix One, p.40–42; Scenario scope, p.19",
+      "confidence": "high",
+      "notes": "Global-level inputs (IPCC SSPs/RCPs, NGFS) are combined with New Zealand-specific downscaled projections (MfE/NIWA 2024 Aotearoa NZ Climate Projections, CCC datasets, SPANZ). The scenario analysis is focused on NZ operations but draws on both global and regional/local data.",
+      "verification": 5,
+      "ani_notes": "Both; IPCC SSP-RCP, NGFS, SPANZ; CCC",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Four time horizons are used: Short-term (to 2027/28), Medium-term (2027–2035), Long-term (2036–2050), and Very long-term (2051–2100), with 2100 as the endpoint for each scenario. Rationale is partially provided: the short-term aligns with LIC's three-year plan cycle.",
+      "evidence": "\"Short (to 2027/28), medium (2027-2035), long (2036-2050) and very long (2051-2100) term, with 2100 being the endpoint for each scenario\" and \"Short-term – risk over the next 3 years to 2027/28, in line with LIC's three-year plan cycle; Medium-term – risk within the horizon from 2028 to 2035; Long-term – risk within the time horizon from 2036 to 2050 and beyond\"",
+      "location_hint": "Table 3 scenario summary, p.19; Climate-related risks section, p.23",
+      "confidence": "high",
+      "notes": "The short-term horizon is explicitly justified as aligning with LIC's three-year plan cycle. No explicit rationale is provided for the medium, long, or very long-term horizons beyond their use in the scenario analysis framework.",
+      "verification": 5,
+      "ani_notes": "Short-term – risk over the next 3 years to 2027/28, in line with LIC’s three-year plan cycle • Medium-term – risk within the horizon from 2028 to 2035 • Long-term – risk within the time horizon from 2036 to 2050 and beyond",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"LIC determined that the scenario results (ie our chosen scenarios below) following adaptation of the collaboration with Fonterra and Silver Fern Farms was the most relevant and appropriate scenarios because they have been created specifically for the dairy sector within New Zealand's agricultural sector and therefore will be most useful for identifying and assessing the most material risks and opportunities relevant to LIC, its operations, business model, and strategy and have been further adapted to be specific to our strategy and business model. The scenarios were also aligned to the temperature requirements in NZ CS 1, including to have a 1.5 degree scenario, a 3 degree or greater scenario, and a third climate-related scenario.\"",
+      "location_hint": "Scenario analysis section, p.17",
+      "confidence": "high",
+      "notes": "Two explicit justifications are given: (1) the scenarios were created specifically for the NZ dairy sector and further adapted to LIC's business model; and (2) they are aligned to the temperature requirements mandated by NZ CS 1 (the NZ climate disclosure standard).",
+      "verification": 5,
+      "ani_notes": "LIC determined that the scenario results (ie our chosen scenarios below) following adaptation of the collaboration with Fonterra and Silver Fern Farms was the most relevant and appropriate scenarios because they have been created specifically for the dairy sector within New Zealand’s agricultural sector and therefore will be most useful for identifying and assessing the most material risks and opportunities relevant to LIC, its operations, business model, and strategy and have been further adapted to be specific to our strategy and business model. The scenarios were also aligned to the temperature requirements in NZ CS 1, including to have a  1.5 degree scenario, a 3 degree or greater scenario, and a third climate-related scenario:",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "Yes — the document describes currently observed physical climate impacts on LIC's operations and customers, including drought/dry summer conditions affecting herd testing activity and South Island flooding disrupting farmer operations and LIC services.",
+      "evidence": "\"While the effects of climate change are expected to intensify over the coming decades, a number of impacts are already being observed. Impacts over and above historical seasonal weather variations are becoming more frequent... Drought or dry summer conditions: Early dry-off of cows assessed as being likely in part due to dry conditions in some areas. Early dry-off impacts LIC's activity levels, for example re-booking pressure or cancelled herd testing of milk... Weather events: Extreme weather events caused minor disruption to LIC production and services due to disrupted farmer operations, resulting in some reorganisation of LIC services. For example, South Island flooding impacted some farmers during the reporting period.\"",
+      "location_hint": "Current climate-related impacts section, p.15–16",
+      "confidence": "high",
+      "notes": "Both drought/dry conditions and extreme weather events (specifically South Island flooding) are described as currently observed impacts. Financial impacts are described as not material or not quantifiable for the reporting period.",
+      "verification": 4,
+      "ani_notes": "Yes;South Island flooding impacted some farmers during September 2023. there was a $0.15m claim for repairs relating to a lightning strike on 29 January 2023 which occurred at the end of the Auckland Anniversary weather event",
+      "verification_status": "new question - needs verification"
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "both",
+      "evidence": "Direct: \"Road access, electricity and/or water supply disruption: Extreme weather events could result in more frequent and lengthy road closures, power outages and water supply... Lengthy road closures could impact time-critical on-farm services, particularly artificial insemination... Increased cost of electricity/water leading to higher overhead costs for LIC.\" Indirect: \"Supply chain and distribution disruption: Increasing frequency and severity of extreme weather events impacting LIC's supply chain, which may result in a major business disruption, increased operating costs and/or an inability to meet customer requirements... Flight cancellations during artificial insemination peak season would have a material NZ dairy sector impact... Increased shipping and airfreight costs of supplies and overseas distribution.\" Also: \"Climate-related risks fall into two main categories: physical and transition risks. These have the potential to affect LIC's entire business, including through the impacts of those risks on our dairy farmer customers.\"",
+      "location_hint": "Climate-related risks table, p.25; p.14",
+      "confidence": "high",
+      "notes": "Direct physical risks include road access disruption, power outages, and water supply disruption affecting LIC's own operations and employees. Indirect physical risks include supply chain disruption, impacts on dairy farmer customers (LIC's primary customer base), and logistics/transport network disruption.",
+      "verification": 5,
+      "ani_notes": "both; Supply chain and distribution disruption",
+      "verification_status": "new question - needs verification"
+    }
+  ]
+}

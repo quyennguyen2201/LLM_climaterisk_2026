@@ -1,0 +1,171 @@
+{
+  "source": "CHANNEL_INFRASTRUCTURE_NZ_LIMITED_2023",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "chunk_mode": "child",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 27897,
+      "total_tokens": 32853,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_creation": 0,
+        "cache_read": 0
+      },
+      "output_tokens": 4956
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Channel Infrastructure developed and explored three climate-change scenarios. Based on the context, one is named \"Green light\" (associated with the \"Tailwinds\" CCC Pathway). The full list of all three scenario names is not completely visible in the retrieved context, but the document references three scenarios drawn from New Zealand's Climate Change Commission (CCC) pathways.",
+      "evidence": "\"We have developed and explored three climate-change scenarios... A summary of each scenario, including narrative and metrics are outlined from page 44.\" and \"Scenario | CCC Pathway | Rationale | Green light | Tailwinds\"",
+      "location_hint": "Page 42 and Page 113",
+      "confidence": "medium",
+      "notes": "The context confirms three scenarios exist and names one as \"Green light\" (linked to the \"Tailwinds\" CCC pathway). The other two scenario names are not fully visible in the retrieved chunks. Full list cannot be confirmed without additional context.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document presents multiple scenarios with different global temperature outcomes by 2100:\n1. **Orderly/Net Zero scenario**: 1.5°C rise by 2100\n2. **Disorderly scenario**: 2.6°C rise by 2100\n3. **Hot House scenario**: 4.0°C rise by 2100",
+      "evidence": "Global temperature rise 1.5°C by 2100 | Global temperature rise 2.6°C by 2100 | Global temp increase by 2100, relative to pre-industrial levels: Temperature rise >3°C — 4.0°C",
+      "location_hint": "Pages 44, 47-48, 51",
+      "confidence": "high",
+      "notes": "Three distinct climate scenarios are presented, each with a different projected global temperature outcome by 2100: 1.5°C (orderly), 2.6°C (disorderly), and 4.0°C (hot house/no decarbonisation).",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "The scenarios were provided by the Network for Greening the Financial System (NGFS), with additional reference to IPCC, IIASA (International Institute for Applied Systems Analysis), the Climate Change Commission (CCC), Treasury New Zealand (TNZ), and the Ministry for the Environment (MfE).",
+      "evidence": "\"Network for Greening the Financial System (NGFS) The NGFS framework is a widely used tool for determining high level scenario narratives. It was decided that the 'Orderly', 'Disorderly' and 'Hothouse' scenarios best spanned the range of plausible futures for our organisation.\"",
+      "location_hint": "Page 113",
+      "confidence": "high",
+      "notes": "The primary scenario provider is NGFS. Additional data sources referenced include IPCC WG1 AR5, Ministry for the Environment (NZ), Treasury New Zealand, and IIASA SSP Database, as well as the Climate Change Commission (CCC) for scenario naming (Tailwinds, Headwinds, Current Policy Reference).",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "The document combines SSPs and RCPs as follows:\n- **Green light / Orderly (~1.5°C)**: RCP 2.6 + SSP1 (Sustainability – \"Taking the Green Road\")\n- **Tailwinds / Orderly (~2.6°C)**: RCP 4.5 + SSP2 (Middle of the Road)\n- **Headwinds / Disorderly (~4.0°C)**: RCP 7.0 (Downscaled) + SSP2 (Middle of the Road) [reference scenario]\n- **Current Policy Reference / Hothouse**: RCP 8.5 + SSP3 (Regional Rivalry – \"A Rocky Road\")",
+      "evidence": "\"Orderly / Disorderly / Hothouse | 15°C / 2.6°C / 4.0°C | SSP1 Sustainability ~ Taking the Green Road / SSP2 Middle of the road / SSP3 Regional Rivalry - A Rocky Road | RCP 2.6 / RCP 4.5 / RCP 7.0 Downscaled / RCP8.5 | Tailwinds / Headwinds / Current Policy Reference\"",
+      "location_hint": "Page 38 and Page 113",
+      "confidence": "high",
+      "notes": "The document explicitly maps each scenario to a specific RCP and SSP combination. The reference scenario (Disorderly/Headwinds) uses RCP4.5 and SSP2 per page 48. Page 113 confirms RCP2.6 → SSP1 and RCP8.5 → SSP3 pairings with rationale.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context discusses the use of reference scenarios (NGFS framework with 'Orderly', 'Disorderly', and 'Hothouse' scenarios) and a phased approach to scenario analysis, but does not explicitly describe any customised (bespoke) scenarios developed by the organisation beyond these reference frameworks.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "The document does not explicitly describe co-produced climate scenarios (i.e., scenarios developed jointly with external stakeholders). Channel Infrastructure developed its own climate scenarios by mapping global and local reference models (including NGFS frameworks) internally, using a phased approach. There is no mention of co-production with external parties.",
+      "evidence": "Channel Infrastructure took a phased approach to scenario analysis including the mapping of global and local reference models; setting of scope boundaries; assessing physical and transitional climate risks and opportunities; identifying the most material drivers of change; and finally the complete synthesis of the climate scenarios and their narratives. In line with the External Reporting Board (XRB) guidance on scenario analysis, Channel has mapped a series of global references to design our three climate scenarios and their temperature pathways.",
+      "location_hint": "Page 37",
+      "confidence": "medium",
+      "notes": "The context describes Channel Infrastructure's scenario methodology as internally driven, referencing NGFS and XRB guidance, but does not mention co-production with external stakeholders. The answer reflects what is explicitly stated; \"not co-produced\" is inferred from the absence of any co-production language.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "The company (Channel) developed three climate-change scenarios, drawing on global climate change assumptions applied in a New Zealand context. These scenarios were designed using global references mapped in line with External Reporting Board (XRB) guidance on scenario analysis, covering both physical and transition risks in an integrated manner. The scenarios are not intended to be probabilistic or predictive, or to identify the 'most likely' outcome(s) of climate change.",
+      "evidence": "\"We have developed and explored three climate-change scenarios... We have drawn data from global climate change assumptions and applied these in a New Zealand context... In line with the External Reporting Board (XRB) guidance on scenario analysis, Channel has mapped a series of global references to design our three climate scenarios and their temperature pathways.\"",
+      "location_hint": "Page 37, 42",
+      "confidence": "medium",
+      "notes": "The context confirms three scenarios exist and references XRB guidance and global references, but does not name the specific baseline scenarios (e.g., 1.5°C, 2°C, 3°C or similar). Further detail on the specific scenario names/temperature pathways is noted as being outlined from page 44, which was not included in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context references climate-related scenarios, CCC pathways, and scenario analysis processes, but does not explicitly name a specific climate model (e.g., IAM, GCAM, MESSAGE, etc.) used for the analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. The company considered damage from acute physical risks, specifically from Cyclone Gabrielle (February 2023). During this event, a security fence on the coastal boundary was damaged, and there was a brief power outage on site. The site and its assets, including the Pipeline, came through the significant weather event with limited damage overall.",
+      "evidence": "\"Cyclone Gabrielle, which hit New Zealand from 12-14 February 2023 proved a test of Channel's infrastructure resilience, and we are proud to report that the site, and its assets, including the Pipeline, came through this significant weather event with limited [damage].\" and \"In addition to a brief power outage on site, a security fence on the coastal boundary was damaged.\"",
+      "location_hint": "Pages 36 and 104",
+      "confidence": "high",
+      "notes": "The document explicitly discusses acute physical risk (Cyclone Gabrielle as an extreme weather event) and the actual damage incurred (power outage, damaged security fence). The glossary also confirms acute physical risks are defined as event-driven impacts such as increased severity of extreme weather events.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context passages discuss Channel Infrastructure's climate scenario methodology and physical/transition risk assessments at a high level, but do not explicitly describe non-temperature variables (e.g., precipitation, sea level rise, wind speed) used within their climate scenarios. The only non-temperature variable mentioned incidentally is rainfall (400% of normal rainfall during the 2023 summer period), but this is not presented as a scenario variable.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "The scenarios were developed at both global and New Zealand (local) scale. Global climate change assumptions were drawn upon and applied in a New Zealand context, with RCPs downscaled to the New Zealand context by NIWA.",
+      "evidence": "\"We have drawn data from global climate change assumptions and applied these in a New Zealand context.\" and \"These RCPs have been downscaled (D/S) to the New Zealand context by NIWA. The New Zealand-specific climate impacts in these scenarios were taken from downscaled NIWA data.\"",
+      "location_hint": "Page 42 and Page 113",
+      "confidence": "high",
+      "notes": "Three climate-change scenarios were developed. Global assumptions were localised to New Zealand using NIWA downscaled data.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "The three time horizons used are:\n- Short-term: to 2030\n- Medium-term: to 2050\n- Long-term: to 2100\n\nThe short-term horizon broadly aligns with existing Terminal Services Agreements (initial term of 10 years, to 2032, with two five-year rights of renewal).",
+      "evidence": "\"Short-term to 2030 • Medium-term to 2050, and • Long-term to 2100.\" and \"The short-term horizon broadly aligns with the existing Terminal Services Agreements that we have in place with our customers. The initial term of the contracts is 10 years (to 2032), with two five-year rights of renewal.\"",
+      "location_hint": "Page 64 and Page 41",
+      "confidence": "high",
+      "notes": "Both the specific durations and the strategic planning linkage (Terminal Services Agreements) are explicitly stated in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "The scenarios are justified on the following grounds: (1) fuel demand-based scenarios have informed business decision-making for over 15 years; (2) climate-related scenarios are used to \"test\" the robustness of strategy by exploring how the entity might perform under a range of plausible and challenging futures; (3) they provide an internally consistent set of assumptions about key driving forces and relationships covering both physical and transition risks in an integrated manner; and (4) they are intended to develop internal capacity to better understand climate-related risks, rather than to be probabilistic or predictive.",
+      "evidence": "\"scenarios are based on likelihood from local fuel demands and have informed our business decision-making for over 15 years. This information helps us to mitigate and adapt to a changing climate while continuing to provide New Zealanders with the fuel they need to keep moving while we transition to a lower carbon economy.\" / \"we have used climate change scenario analysis to 'test' the robustness of our strategy. Scenario analysis is the process of exploring how an entity might perform under a range of plausible and challenging futures. In a world of uncertainty, scenario analysis is meant to challenge 'business as usual' assumptions.\" / \"internally consistent set of assumptions about key driving forces and relationships covering both physical and transition risks in an integrated manner. Climate-related scenarios are not intended to be probabilistic or predictive, or to identify the 'most likely' outcome(s) of climate change. They are intended to provide an opportunity for entities to develop their internal capacity to better [understand climate-related risks].\"",
+      "location_hint": "Pages 37, 55, 119, 120",
+      "confidence": "medium",
+      "notes": "The context provides general justifications for the use of scenario analysis but does not name specific models (e.g., IEA NZE, NGFS) or give detailed model-selection rationale. The justification is spread across multiple pages and synthesized here.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context passages do not contain any information about historic climate impacts. The passages discuss scenario analysis, climate-related risk management processes, board oversight, and disclosure references, but none address historical/past climate impacts experienced by the company.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Channel Infrastructure identified both direct and indirect physical climate risks. Indirect physical risks were ranked based on consequence only, as exposure, sensitivity and adaptive capacity are less well understood. The top 10 physical risks (direct and indirect) are presented in Table 5 of the disclosure document. The document also references associated business assets or activities which could be vulnerable to each risk, and directs readers to current climate-related impacts on page 37.",
+      "evidence": "Channel also considered indirect physical risks to the business from climate related impacts. Indirect risks were ranked based on consequence only, as exposure, sensitivity and adaptive capacity are less well understood. TABLE 5: TOP 10 PHYSICAL RISKS (DIRECT AND INDIRECT)",
+      "location_hint": "Page 65, Table 5",
+      "confidence": "medium",
+      "notes": "The context confirms that both direct and indirect physical risks were assessed and ranked in Table 5, and that indirect risks were ranked on consequence only. However, the actual contents of Table 5 (the specific risks listed) are not included in the retrieved context, so the individual risks cannot be enumerated.",
+      "verification": null
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "source": "AA_INSURANCE_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "k": 20,
+  "chunk_mode": "parent",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "total_tokens": 147412,
+      "input_token_details": {
+        "cache_creation": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0
+      },
+      "input_tokens": 139651,
+      "output_tokens": 7761
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Three scenarios are used: 1) Orderly – an ambitious and coordinated transition aligned with a 1.5°C warming trajectory; 2) Disorderly – delayed action, followed by sudden and uncoordinated transformation, landing at <2.0°C; 3) Hot House – continuation of current policy settings, leading to uncontrolled warming of 3°C+.",
+      "evidence": "Orderly: An ambitious and coordinated transition aligned with a 1.5°C warming trajectory. Disorderly: Delayed action, followed by sudden and uncoordinated transformation, landing at <2.0°C. Hot House: Continuation of current policy settings, leading to uncontrolled warming of 3°C+. Key sources: ICNZ Orderly / NGFS Net zero 2050 / IPCC SSP1 - 2.6 / CCC HTHS; ICNZ Disorderly / NGFS Delayed transition / IPCC SSP2 - 4.5 / CCC HTLS; ICNZ Hot House / NGFS Current policies / IPCC SSP3 - 7.0 / CCC Reference.",
+      "location_hint": "Table 4: Scenario overview, page 11",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document presents three scenarios with different temperature outcomes by 2100:\n1. Orderly (Net Zero 2050 / IPCC SSP1-2.6): 1.8°C temperature increase by 2100 relative to 1850-1900 baseline (note that the low end of the range is consistent with 1.5°C)\n2. Disorderly (Delayed transition / IPCC SSP2-4.5): 2.7°C temperature increase by 2100, relative to 1850-1900 baseline\n3. Hot House (Current policies / IPCC SSP3-7.0): 3.6°C temperature increase by 2100 relative to 1850-1900 baseline",
+      "evidence": "Orderly: \"1.8°C temperature increase by 2100 relative to 1850-1900 baseline. Source: IPCC SSP1-2.6 (note that the low end of the range is consistent with 1.5°C)\"; Disorderly: \"2.7°C temperature increase by 2100, relative to 1850-1900 baseline. Source: IPCC SSP2-4.5\"; Hot House: \"3.6°C temperature increase by 2100 relative to 1850-1900 baseline. Source: IPCC SSP3-7.0\"",
+      "location_hint": "Appendix 1, page 29",
+      "confidence": "high",
+      "notes": "Three scenarios are presented: Orderly (1.8°C), Disorderly (2.7°C), and Hot House (3.6°C), all relative to the 1850-1900 baseline by 2100.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "The scenarios were developed using key sources from: ICNZ (Insurance Council of New Zealand Te Kāhui Inihua o Aotearoa), NGFS (Network for Greening the Financial System), IPCC (Intergovernmental Panel on Climate Change), and CCC (Climate Change Commission).",
+      "evidence": "\"The data sources used to construct these scenarios were largely drawn from several local and global frameworks: Network for Greening the Financial System (NGFS), the Intergovernmental Panel on Climate Change's (IPCC) Shared Socio-economic Pathways (SSP), and the Climate Change Commission (CCC). Policy assumptions were updated to reflect the updated CCC scenarios provided to Central Government as part of their advice on the Fourth Emissions budget.\"",
+      "location_hint": "Page 11, Strategy section",
+      "confidence": "high",
+      "notes": "The scenarios were initially developed alongside ICNZ in June 2022, then further developed using NGFS, IPCC SSP, and CCC frameworks. All four organisations serve as scenario providers/key sources.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "AA Insurance uses SSPs (Shared Socio-economic Pathways) but does not use RCPs (Representative Concentration Pathways). The three scenarios use: Orderly → IPCC SSP1-2.6; Disorderly → IPCC SSP2-4.5; Hot House → IPCC SSP3-7.0. No RCPs are referenced.",
+      "evidence": "\"Key sources ... IPCC SSP1 - 2.6 ... Key sources ... IPCC SSP2 - 4.5 ... Key sources ... IPCC SSP3 - 7.0\"",
+      "location_hint": "Table 4: Scenario overview, p.11 / Appendix 1, p.29",
+      "confidence": "high",
+      "notes": "The document exclusively references IPCC SSPs (SSP1-2.6, SSP2-4.5, SSP3-7.0) for each of the three scenarios. No RCPs are mentioned anywhere in the retrieved context. The SSPs are used for both warming trajectories and sea level rise projections (via NIWA).",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes. AA Insurance used customised scenarios developed alongside the Insurance Council of New Zealand (ICNZ) in June 2022 as a starting point, then further developed through a workshop in November 2024 with various business units (Claims, Pricing, Underwriting, Product, Corporate Affairs, Sustainability and Risk). The group identified key uncertainties and drivers of change including EV trends, reinsurance and government action, which were integrated into the scenario narratives. Policy assumptions were updated to reflect updated Climate Change Commission (CCC) scenarios. The three customised scenarios are: Orderly, Disorderly, and Hot House.",
+      "evidence": "\"The scenarios developed alongside the Insurance Council of New Zealand Te Kāhui Inihua o Aotearoa (ICNZ) in June 2022 for the New Zealand General Insurance sector were used as a starting point. These were further developed through a workshop held in November 2024 with a variety of business units including Claims, Pricing, Underwriting, Product, Corporate Affairs, Sustainability and Risk, to ensure the scenarios were relevant and appropriate for our business. The group identified key uncertainties and drivers of change including EV trends, reinsurance and government action, which were integrated into the scenario narratives. The data sources used to construct these scenarios were largely drawn from several local and global frameworks: Network for Greening the Financial System (NGFS), the Intergovernmental Panel on Climate Change's (IPCC) Shared Socio-economic Pathways (SSP), and the Climate Change Commission (CCC). Policy assumptions were updated to reflect the updated CCC scenarios provided to Central Government as part of their advice on the Fourth Emissions budget.\"",
+      "location_hint": "Page 11, Strategy section",
+      "confidence": "high",
+      "notes": "The scenarios are customised versions of ICNZ scenarios, further tailored through internal workshops. Key sources for each scenario are also mapped: Orderly (ICNZ Orderly, NGFS Net zero 2050, IPCC SSP1-2.6, CCC HTHS), Disorderly (ICNZ Disorderly, NGFS Delayed transition, IPCC SSP2-4.5, CCC HTLS), Hot House (ICNZ Hot House, NGFS Current policies, IPCC SSP3-7.0, CCC Reference).",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes. AA Insurance co-produced climate scenarios with the Insurance Council of New Zealand (ICNZ). The scenarios developed alongside the ICNZ in June 2022 for the New Zealand General Insurance sector were used as a starting point, and were further developed through a workshop held in November 2024 with a variety of internal business units including Claims, Pricing, Underwriting, Product, Corporate Affairs, Sustainability and Risk.",
+      "evidence": "\"The scenarios developed alongside the Insurance Council of New Zealand Te Kāhui Inihua o Aotearoa (ICNZ) in June 2022 for the New Zealand General Insurance sector were used as a starting point. These were further developed through a workshop held in November 2024 with a variety of business units including Claims, Pricing, Underwriting, Product, Corporate Affairs, Sustainability and Risk, to ensure the scenarios were relevant and appropriate for our business. The group identified key uncertainties and drivers of change including EV trends, reinsurance and government action, which were integrated into the scenario narratives.\"",
+      "location_hint": "Page 11, Strategy section",
+      "confidence": "high",
+      "notes": "The scenarios were co-produced with ICNZ at the sector level (June 2022) and then further developed internally with multiple business units in November 2024. Data sources included NGFS, IPCC SSP, and the Climate Change Commission (CCC).",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "AA Insurance uses three baseline scenarios for its Climate Change Scenario Analysis (CCSA): (1) Orderly – aligned with NGFS Net Zero 2050, IPCC SSP1-2.6, and CCC HTHS, representing a 1.5°C warming trajectory; (2) Disorderly – aligned with NGFS Delayed Transition, IPCC SSP2-4.5, and CCC HTLS, representing a <2.0°C warming trajectory; and (3) Hot House – aligned with NGFS Current Policies, IPCC SSP3-7.0, and CCC Reference, representing 3°C+ uncontrolled warming. Sea level rise baselines are relative to the 1995–2014 baseline, and temperature warming baselines are relative to the 1850–1900 baseline.",
+      "evidence": "\"Key sources: ICNZ Orderly, NGFS Net zero 2050, IPCC SSP1 - 2.6, CCC HTHS ... Key sources: ICNZ Disorderly, NGFS Delayed transition, IPCC SSP2 - 4.5, CCC HTLS ... Key sources: ICNZ Hot House, NGFS Current policies, IPCC SSP3 - 7.0, CCC Reference ... 44cm rise in sea level by 2100, relative to 1995-2014 baseline, not including vertical land movement. Source: NIWA SSP1-2.6 ... 57cm rise in sea level by 2100, relative to 1995-2014 baseline, not including vertical land movement. Source: NIWA SSP2-4.5 ... 2.7°C temperature increase by 2100, relative to 1850-1900 baseline. Source: IPCC SSP2-4.5\"",
+      "location_hint": "Table 4, Strategy section, p.10-11; Appendix 1, p.28-29",
+      "confidence": "high",
+      "notes": "The scenarios were originally developed alongside ICNZ in June 2022 and further refined in a November 2024 workshop. Data sources include NGFS, IPCC SSP, and the NZ Climate Change Commission (CCC). Sea level rise and temperature baselines are explicitly stated for the Disorderly scenario; the Orderly scenario sea level rise baseline is also stated. The Hot House scenario's specific sea level rise figure is not quoted in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "For physical modelling: third-party models from Finity (storm and coastal inundation) and Aon (river and surface water flood modelling). For transition modelling: a Computable General Equilibrium (CGE) model created by Victoria University (Melbourne), used by Finity.",
+      "evidence": "\"We used the third-party modelling expertise of both Finity (storm and coastal inundation modelling) and Aon (river and surface water flood modelling, as used in 2023).\" and \"The transition modelling performed by Finity used a Computable General Equilibrium (CGE) model created by Victoria University (Melbourne) to capture regional and national changes in response to potential economic shocks under each of the chosen scenarios.\"",
+      "location_hint": "Appendix 2, p.30",
+      "confidence": "high",
+      "notes": "Physical modelling used Finity and Aon models; transition modelling used a CGE model from Victoria University (Melbourne) via Finity.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. AA Insurance considers damage from acute physical risks including flooding (surface water, riverine and coastal inundation), storm, and coastal inundation. These are modelled through Average Annual Loss (AAL) analysis across home, contents, motor and small business insurance portfolios. In FY25, five weather-related natural hazard events resulted in estimated total claims costs of ~$19.7m. As at 13 May 2025, 4.2% of home and contents portfolios were classed as high or very high risk of flooding.",
+      "evidence": "\"We analysed our present-day home, contents, motor and small business insurance portfolios and overlaid climate models for flood, storm and coastal inundation... The analysis concluded that AALs are projected to increase under each scenario due to the increased frequency of severe weather events. Increases to AALs are predominantly due to flooding and coastal inundation, whereas the AALs for storm are not projected to change materially under the three scenarios.\"\n\n\"During FY25, we experienced five weather-related natural hazard events, which we define as events with expected customer claims of more than $1.5m. We estimate that the total claims cost from these events will be around $19.7m...\"\n\n\"As at 13 May 2025, 4.2% of our home and contents portfolios were classed as either at high risk or at very high risk of flooding.\"",
+      "location_hint": "Pages 12, 10, 27",
+      "confidence": "high",
+      "notes": "Acute physical risks explicitly considered include flood (surface water, riverine, coastal inundation) and storm events. The document quantifies both modelled future losses (AAL) and actual FY25 claims costs from weather events.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include the following non-temperature variables:\n1. Sea Level Rise: 44cm by 2100 (Orderly/SSP1-2.6) and 57cm by 2100 (Disorderly/SSP2-4.5), relative to 1995-2014 baseline, not including vertical land movement.\n2. EV Uptake: 100% uptake of electric light passenger vehicles by 2050 (Disorderly scenario).\n3. Carbon Price: $178 NZD2024/tonne shadow price of carbon in 2030 and $428 by 2050 (257% increase in cost from 2025) (Disorderly scenario).\nAdditional qualitative variables include emissions pricing, renewable energy growth, EV uptake and electrification, forestry growth, and socio-economic trends.",
+      "evidence": "\"44cm rise in sea level by 2100, relative to 1995-2014 baseline, not including vertical land movement. Source: NIWA SSP1-2.6 ... 57cm rise in sea level by 2100, relative to 1995-2014 baseline, not including vertical land movement. Source: NIWA SSP2-4.5 ... 100% uptake of electric light passenger vehicles by 2050. Source: Climate Change Commission HTLS Scenario ... $178 NZD2024/tonne shadow price of carbon in 2030 and $428 by 2050. 257% increase in cost from 2025. Source: Treasury shadow emissions values Central price pathway until 2030 then High price pathway thereafter\"",
+      "location_hint": "Appendix 1, p.28-29",
+      "confidence": "high",
+      "notes": "The document provides quantitative values for sea level rise, EV uptake, and carbon price for at least two scenarios. The Hot House scenario's quantitative non-temperature variables are not explicitly shown in the retrieved context. Qualitative variables (emissions pricing, renewables, forestry, socio-economic trends) are described in Table 4 scenario assumptions.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "AA Insurance uses three climate scenarios:\n1. Orderly (Net Zero 2050 / IPCC SSP1-2.6): An ambitious and coordinated transition aligned with a 1.5°C warming trajectory.\n2. Disorderly (IPCC SSP2-4.5): Delayed action, followed by sudden and uncoordinated transformation, landing at <2.0°C (2.7°C temperature increase by 2100).\n3. Hot House (IPCC SSP3-7.0): Continuation of current policy settings, leading to uncontrolled warming of 3°C+.",
+      "evidence": "\"An ambitious and coordinated transition aligned with a 1.5°C warming trajectory... Delayed action, followed by sudden and uncoordinated transformation, landing at <2.0°C... Continuation of current policy settings, leading to uncontrolled warming of 3°C+\"",
+      "location_hint": "Table 4: Scenario overview, p.11; Appendix 1, p.29",
+      "confidence": "high",
+      "notes": "The three scenarios are mapped to NGFS, IPCC SSP, and Climate Change Commission (CCC) frameworks. Key warming levels: Orderly = 1.5°C, Disorderly = <2.0°C (SSP2-4.5, 2.7°C by 2100), Hot House = 3°C+ (SSP3-7.0).",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "AA Insurance defines three time horizons for climate-related strategy:\n- Short term: 2025–2030 (aligns with short-term emissions reduction target and 3–5-year business planning cycle)\n- Medium term: 2030–2040 (a midpoint between the short and long terms)\n- Long term: 2040–2050 (aligns with the New Zealand Government's target of net zero emissions of long-lived gases by 2050)",
+      "evidence": "\"Long term 2040 – 2050 Aligns with the New Zealand Government's target of net zero emissions of long-lived gases by 2050. Short term 2025 – 2030 Aligns with our short-term emissions reduction target and our 3–5-year business planning cycle. Medium term 2030 – 2040 A midpoint between the short and long terms.\"",
+      "location_hint": "Page 12, Strategy – Time horizons section",
+      "confidence": "high",
+      "notes": "The document also notes that these definitions were updated from prior year to better reflect internal views, with no material impact on disclosure. Separately, for operational/strategic risk management purposes (Table 6), different timeframes apply: Short = within next 12 months, Medium = 1–5 years, Long = 1–20+ years.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "AA Insurance justifies its scenario and model choices on the following grounds:\n\n1. **Scenarios**: The three scenarios (Orderly, Disorderly, Hot House) were developed starting from those created alongside the Insurance Council of New Zealand (ICNZ) for the New Zealand General Insurance sector, then further developed through a November 2024 workshop with multiple business units. Data sources were drawn from NGFS, IPCC SSPs, and the Climate Change Commission (CCC), with policy assumptions updated to reflect the updated CCC scenarios. The scenarios are designed to provide a range of plausible futures to test business resilience.\n\n2. **Physical models**: The models used (Finity for storm and coastal inundation; Aon for river and surface water flood) \"are deemed appropriate as they are widely used in the insurance sector for understanding physical risks.\"\n\n3. **Transition model**: A Computable General Equilibrium (CGE) model created by Victoria University (Melbourne) was used, and the transition models \"are deemed appropriate as they are widely used in the insurance sector for understanding transition risks.\"",
+      "evidence": "\"The models used in this analysis are deemed appropriate as they are widely used in the insurance sector for understanding physical risks.\" / \"The models used in this analysis are deemed appropriate as they are widely used in the insurance sector for understanding transition risks.\" / \"The scenarios developed alongside the Insurance Council of New Zealand Te Kāhui Inihua o Aotearoa (ICNZ) in June 2022 for the New Zealand General Insurance sector were used as a starting point. These were further developed through a workshop held in November 2024 with a variety of business units... The data sources used to construct these scenarios were largely drawn from several local and global frameworks: Network for Greening the Financial System (NGFS), the Intergovernmental Panel on Climate Change's (IPCC) Shared Socio-economic Pathways (SSP), and the Climate Change Commission (CCC).\"",
+      "location_hint": "Appendix 2, p.30; Strategy section, p.11",
+      "confidence": "high",
+      "notes": "The justification for model choice is primarily that the models are \"widely used in the insurance sector.\" For scenarios, the justification is grounding in established frameworks (NGFS, IPCC, CCC) and sector-specific ICNZ scenarios, refined through internal workshops.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "Over the last 20 years, AA Insurance has averaged around three weather-related natural hazard events per year (defined as events with expected customer claims of more than $1.5m). The 20-year average claims costs from these events is $29.3m per year (heavily skewed by the 2023 North Island Weather Events); excluding those events, the average is around $16.4m per year, which has been gradually rising. In FY25, five weather-related natural hazard events occurred with total estimated claims cost of ~$19.7m, up from $6.2m in FY24 (which had only two such events). Reinsurance premiums have risen by $64.6m (more than 200%) since FY22, with the average reinsurance premium per policy increasing by 170% between FY22 and FY25.",
+      "evidence": "During FY25, we experienced five weather-related natural hazard events, which we define as events with expected customer claims of more than $1.5m. We estimate that the total claims cost from these events will be around $19.7m, up from $6.2m in FY24, a relatively benign year with only two weather-related natural hazard events. For context, over the last 20 years we have averaged around three weather-related natural hazard events per year. Once adjusted for inflation and growth, the 20-year average claims costs in relation to these events is $29.3m per year, however this is heavily skewed by the 2023 North Island Weather Events. If excluded, the average is around $16.4m per year, which has been gradually rising. Whilst we cannot attribute these increases to climate change with certainty, climate change is expected to increase the frequency and severity of weather events and therefore may be responsible for the long-term average increase in weather-related claims. The reinsurance premiums that we pay have stabilised in FY25 after increasing significantly in FY24 in the aftermath of the 2023 North Island Weather Events. Whilst the increase from FY24 is negligible, these costs have risen by $64.6m, more than 200%, since FY22. Whilst some of this increase is due to policy growth, our average reinsurance premium on a per policy basis has increased by 170% between FY22 and FY25.",
+      "location_hint": "Page 10, Strategy section",
+      "confidence": "high",
+      "notes": "The document notes that increases cannot be definitively attributed to climate change, but climate change may be responsible for the long-term average increase in weather-related claims.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "AA Insurance identifies the following direct and indirect physical climate risks:\n\n1. **Rising volume, severity and cost of customer claims (Direct Physical Risk):** The volume and severity of claims rises as the increasing frequency and severity of extreme weather events causes more damage to customers' insured assets. The cost of claims also rises due to rising volumes and price inflation from national and international supply chain shortages as a result of local and global extreme weather events.\n\n2. **Reinsurance cost increases (Indirect Physical Risk):** Reinsurance premiums have risen significantly (by $64.6m, more than 200%, since FY22), and reinsurance cover may reduce for certain perils or high-risk areas, leading to reduced profitability and potential coverage gaps for customers.\n\n3. **Insurance affordability and accessibility challenges (Indirect Physical Risk):** Both physical and transition impacts of climate change are expected to affect insurance affordability for the business and customers, potentially leading to premium increases and reduced customer growth.\n\nThe company also notes that weather-related claims have been rising, averaging $16.4m per year, which may be attributable to climate change increasing the frequency and severity of weather events.",
+      "evidence": "\"The main physical risks that we face stem from increasingly severe and frequent weather events affecting our customers' assets that we have insured.\" / \"Rising volume, severity and cost of customer claims: The volume and severity of claims rises as the increasing frequency and severity of extreme weather events causes more damage to our customers' insured assets. The cost of claims also rises, not only due to the rising volumes, but price inflation from national and international supply chain shortages as a result of local and global extreme weather events.\" / \"The reinsurance premiums that we pay have stabilised in FY25 after increasing significantly in FY24 in the aftermath of the 2023 North Island Weather Events. Whilst the increase from FY24 is negligible, these costs have risen by $64.6m, more than 200%, since FY22.\" / \"Both physical and transition impacts of climate change are expected to have an impact on insurance affordability, for both us as a business and for our customers.\"",
+      "location_hint": "Strategy section, pp. 9, 13-14, 18",
+      "confidence": "high",
+      "notes": "The document distinguishes between direct physical risks (damage to insured assets from weather events) and indirect physical risks (reinsurance cost increases, supply chain inflation, affordability challenges). The \"supply chain inflation from the net zero transition\" risk listed in Table 5 is categorised as a Transition risk, not physical, so it is excluded here.",
+      "verification": null
+    }
+  ]
+}

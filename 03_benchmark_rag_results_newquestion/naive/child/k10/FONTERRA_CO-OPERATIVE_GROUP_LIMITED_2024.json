@@ -1,0 +1,171 @@
+{
+  "source": "FONTERRA_CO-OPERATIVE_GROUP_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 10,
+  "chunk_mode": "child",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 35612,
+      "total_tokens": 41113,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_creation": 0,
+        "cache_read": 0
+      },
+      "output_tokens": 5501
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Fonterra uses three climate-related scenarios: 1) Orderly (Net zero 2050), 2) Disorderly (Delayed transition), and 3) Hothouse (Current policies).",
+      "evidence": "\"Table 4 – Climate-related scenarios ... Orderly (Net zero 2050) | Disorderly (Delayed transition) | Hothouse (Current policies) ... The Orderly scenario depicts a world that smoothly transitions to net zero emissions by 2050, limiting...\"",
+      "location_hint": "Table 4, p.132",
+      "confidence": "high",
+      "notes": "All three scenario names are explicitly listed in Table 4 of the 2024 Annual Report.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Fonterra's climate scenarios include: (1) a 1.5°C scenario (with overshoot at 2050 before returning to 1.5°C by 2100), (2) a Disorderly/2°C scenario (limiting temperature rise to 2°C above pre-industrial levels), and (3) a Hothouse scenario (3°C or greater, with increasingly devastating climate impacts).",
+      "evidence": "\"Due to the limited number of scenarios available and the nature of temperature projections being based on probabilities and ranges, this has led our 1.5°C scenario to have overshoot at 2050 before coming back down to 1.5°C by 2100 (which is the closest available IPCC scenario to 1.5°C).\" and \"the Disorderly scenario meets the NZ CS requirement for a third climate-related scenario (in this case, temperature rise is limited to 2°C above pre-industrial levels)\" and \"requirement to analyse a 1.5°C scenario and a 3°C or greater scenario\"",
+      "location_hint": "Page 132, Page 131",
+      "confidence": "high",
+      "notes": "Three scenarios are modelled: 1.5°C (with overshoot), 2°C (Disorderly), and 3°C+ (Hothouse). The 1.5°C scenario overshoots at 2050 but returns to 1.5°C by 2100.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "The Aotearoa Circle (Agriculture Sector Climate Change Scenarios), drawing on IPCC scenarios, as well as NGFS (Network for Greening the Financial System)",
+      "evidence": "Our climate scenarios use The Aotearoa Circle's Agriculture Sector Climate Change Scenarios as a foundation, which themselves draw on IPCC scenarios. [...] The Aotearoa Circle Tū-ā-pae / IPCC SSP1 / NGFS 'Net Zero Emissions' / The Aotearoa Circle Tū-ā-hopo / IPCC SSP2 / NGFS 'Delayed Transition' / The Aotearoa Circle Tū-ā-tapape / IPCC SSP5 / NGFS 'Current Policies'",
+      "location_hint": "Pages 131–132",
+      "confidence": "high",
+      "notes": "Fonterra uses The Aotearoa Circle's Agriculture Sector Climate Change Scenarios as the primary foundation, which are themselves built on IPCC SSP scenarios. NGFS scenarios are also referenced as part of the scenario architecture.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Fonterra uses a combination of RCPs (2.6, 4.5, 8.5) drawn from the SSP Database (Shared Socioeconomic Pathways) Scenario Explorer, specifically paired with SSPs 1, 2, and 5.",
+      "evidence": "Intergovernmental Panel on Climate Change (IPCC) – RCP 2.6, 4.5, 8.5 from SSP Database (Shared Socioeconomic Pathways) Scenario Explorer. SSP – 1,2,5 RCP 2.6, 4.5, 8.5 from SSP Database (Shared Socioeconomic Pathways) Scenario Explorer.",
+      "location_hint": "Page 135",
+      "confidence": "high",
+      "notes": "The document lists RCP 2.6, 4.5, and 8.5 sourced from the SSP Database, and separately lists SSP 1, 2, and 5 paired with those same RCPs. The exact SSP-RCP pairings are not individually specified beyond this listing.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes, Fonterra used customised scenarios. They used The Aotearoa Circle's Agriculture Sector Climate Change Scenarios as a foundation (which themselves draw on IPCC scenarios), and then made several customisations including: removing a scenario that assumed rapid reduction of agricultural emissions (no longer plausible due to Government policy), adding references to climate-related litigation, adding details specific to the dairy industry, and adjusting the presentation of the scenarios to make them more accessible to business stakeholders. Care was taken to maintain the challenge level of the original scenarios.",
+      "evidence": "\"Our climate scenarios use The Aotearoa Circle's Agriculture Sector Climate Change Scenarios as a foundation, which themselves draw on IPCC scenarios... Adding references to climate-related litigation (an emerging risk). – Adding details specific to the dairy industry. – Adjusting the presentation of the scenarios to make them more accessible to business stakeholders. Care was taken to maintain the challenge level of the original scenarios\"",
+      "location_hint": "Page 131",
+      "confidence": "high",
+      "notes": "The context also mentions that one scenario assuming rapid reduction of agricultural emissions was removed as it was \"no longer plausible due to Government policy.\"",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Fonterra's climate scenarios were not co-produced with external partners or stakeholders in FY24. External partners and stakeholders were not involved in the scenario analysis process in FY24, except for engagement with the SAP (Scenario Analysis Panel). The scenarios use The Aotearoa Circle's Agriculture Sector Climate Change Scenarios as a foundation, which themselves draw on IPCC scenarios.",
+      "evidence": "\"Except for our engagement with the SAP as set out on page 129, external partners and stakeholders were not involved in the scenario analysis process in FY24.\" and \"Our climate scenarios use The Aotearoa Circle's Agriculture Sector Climate Change Scenarios as a foundation, which themselves draw on IPCC scenarios.\"",
+      "location_hint": "Page 131",
+      "confidence": "high",
+      "notes": "The document explicitly states that external partners and stakeholders were not involved in scenario analysis in FY24 (except for the SAP engagement). The scenarios are based on existing frameworks (The Aotearoa Circle / IPCC) rather than being co-produced with external stakeholders.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Fonterra uses at least three climate-related scenarios in its analysis, including a 1.5°C scenario, a 3°C or greater scenario, and a third climate-related scenario. Reference scenarios include outputs from the He Pou a Rangi Climate Change Commission's 2021 Final Advice (Current Policy Reference, Headwinds, Tailwinds scenarios from the ENZ model), and an \"Overshoot\" scenario (expected to return to 1.5°C above pre-industrial levels beyond 2050).",
+      "evidence": "\"He Pou a Rangi, Climate Change Commission. (2021). Scenarios dataset for the Commission's 2021 Final Advice (output from ENZ model). Current Policy Reference, Headwinds, Tailwinds.\" and \"'Overshoot', expected to return to 1.5 degrees above pre-industrial levels beyond 2050.\" and \"This must include a description of how an entity has analysed, at a minimum, a 1.5 degrees Celsius climate-related scenario, a 3 degrees Celsius or greater climate-related scenario, and a third climate-related scenario\"",
+      "location_hint": "Table 4 – Climate-related scenarios, p.135; p.131",
+      "confidence": "medium",
+      "notes": "The context references the scenario names (Current Policy Reference, Headwinds, Tailwinds, Overshoot) and the regulatory requirement for at least three scenarios (1.5°C, 3°C+, and a third), but does not provide full detail on which specific scenario serves as the \"baseline.\" The Current Policy Reference scenario from the Climate Change Commission is most likely the baseline, but this is inferred rather than explicitly stated in the retrieved passages.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context does not explicitly name a specific climate model used by Fonterra for its scenario analysis. One footnote references the \"ENZ model\" used by He Pou a Rangi (Climate Change Commission) for their 2021 scenarios dataset, but this refers to an external source rather than a model directly used by Fonterra. No proprietary or third-party model name is explicitly attributed to Fonterra's own climate risk assessment process in the provided passages.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Fonterra considers damage from acute physical risks, specifically damage or disruption to manufacturing sites caused by extreme weather events such as flooding and bushfire events. A real-world example cited is Cyclone Gabrielle (February 2023), which affected their supply chain, milk supply and on-farm operations, with costs equivalent to approximately 1 cent of earnings per share.",
+      "evidence": "\"Damage or disruption to manufacturing sites caused by extreme weather (eg. flooding bushfire event). Potential disruption to our collection, manufacturing and distribution of milk and milk products\" and \"tropical cyclone occurred in February 2023 on the North Island of New Zealand (Cyclone Gabrielle). Cyclone Gabrielle affected our supply chain, milk supply and on-farm operations. Despite the widespread nature of this event, our geographic diversity and scale enabled us to manage the impact. Costs associated with the cyclone were equivalent to approximately 1 cent of earnings per share.\"",
+      "location_hint": "Pages 136, 151, 130",
+      "confidence": "high",
+      "notes": "Acute physical risks (event-driven, such as extreme weather) are explicitly identified as a risk category, with manufacturing disruption from flooding/bushfire as a specific risk and Cyclone Gabrielle as a concrete historical example with quantified financial impact.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context passages discuss Fonterra's climate scenario framework (temperature targets of 1.5°C, 2°C, and 3°C+), risk identification processes, and scenario analysis governance, but do not explicitly describe non-temperature variables (e.g., precipitation, sea level rise, carbon prices, GDP growth) used within the scenarios. No verbatim evidence of non-temperature scenario variables is present in the provided chunks.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Fonterra uses multiple climate scenarios covering both physical and transition risks. These include at least a high-warming scenario (3°C above pre-industrial levels by 2050) and a low-warming/overshoot scenario (expected to return to 1.5°C above pre-industrial levels beyond 2050). The scenarios are described as \"challenging and plausible hypotheticals\" and are not intended to be probabilistic or predictive.",
+      "evidence": "\"Our climate scenarios provide us with a set of challenging and plausible hypotheticals against which to test our strategy and explore climate-related risks and opportunities. Climate scenarios do not reflect our most likely view of the future. Rather, they are theoretical descriptions of how the future may unfold.\" / \"unchecked emissions and lack of climate policies lead to a rise in global temperatures of 3°C above pre-industrial levels by 2050\" / \"'Overshoot', expected to return to 1.5 degrees above pre-industrial levels beyond 2050.\"",
+      "location_hint": "Pages 131–135, Fonterra 2024 Annual Report",
+      "confidence": "medium",
+      "notes": "The context confirms at least two scenarios (a ~3°C high-warming scenario and a 1.5°C overshoot scenario), and references a table (Table 4) with further scenario details, but the full table content is not reproduced in the retrieved chunks. The exact number and full names of all scenarios cannot be confirmed from the provided context alone.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Fonterra defines short, medium, and long-term time horizons, linked to its strategic planning horizons and capital deployment plans. The specific definitions and durations of these time horizons are disclosed on page 131 of the 2024 Annual Report. Climate-related risks and opportunities are assessed across short, medium, and long-term horizons, and specific consideration of climate-related risk aligns with the time horizons of Fonterra's strategic planning cycles.",
+      "evidence": "\"how it defines short, medium and long term and how the definitions are linked to its strategic planning horizons and capital deployment plans page 131\" and \"Specific consideration of climate-related risk aligns with the time horizons of our strategic planning cycles. The extended timeframes and interconnected nature of climate-related risks across our value [chain]\"",
+      "location_hint": "Page 131, 142, 191 of Fonterra 2024 Annual Report",
+      "confidence": "medium",
+      "notes": "The context references that definitions of short, medium, and long-term horizons and their durations are disclosed on page 131, but the actual duration values (e.g., 0–5 years, 5–10 years, etc.) are not included in the retrieved chunks. The answer is therefore based on what is explicitly stated in the retrieved context without the specific duration figures.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Fonterra's scenarios were chosen to provide challenging and plausible hypotheticals to test strategy and explore climate-related risks and opportunities. They are not intended to be probabilistic or predictive, or to identify the 'most likely' outcome(s) of climate change, but rather to develop internal capacity to better understand climate-related risks. A range of tools and methodologies were used, including a scenario-based approach that explored plausible key driving forces and relationships covering both physical and transition risks in an integrated manner. A global scope was taken across channels and markets reflecting the multi-national business model.",
+      "evidence": "\"Our climate scenarios provide us with a set of challenging and plausible hypotheticals against which to test our strategy and explore climate-related risks and opportunities. Climate scenarios do not reflect our most likely view of the future. Rather, they are theoretical descriptions of how the future may unfold.\" ... \"Climate-related scenarios are not intended to be probabilistic or predictive, or to identify the 'most likely' outcome(s) of climate change. They are intended to provide an opportunity for entities to develop their internal capacity to better understand and [climate-related risks].\" ... \"When assessing climate-related risks through to 2050, a range of tools and methodologies were used as part of the end-to-end assessment process, including a scenario-based approach that explored plausible key driving forces and relationships covering both physical and transition risks in an integrated manner.\"",
+      "location_hint": "Pages 131, 199, 142",
+      "confidence": "high",
+      "notes": "The context explains the rationale for using scenario analysis but does not name specific external models (e.g., IEA, IPCC) used. The justification is framed around plausibility, challenge level, and integrated coverage of physical and transition risks.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context passages discuss climate-related risks, scenarios, and anticipated future impacts, but do not contain any information about historic (past) climate impacts that have already occurred and affected the business.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "The context references physical climate risks including: (1) disruption to supply chain/logistics as extreme weather events become more frequent, with mitigations including partnering with freight/logistics providers and maintaining Operational Business Continuity Plans; and (2) damage or disruption to manufacturing sites. The document also references pages 151–152 for quantitative disclosure of assets or business activities vulnerable to physical risks, but those pages are not included in the retrieved context.",
+      "evidence": "\"weather events become more frequent. – Continue to partner with freight and logistics providers (eg. Kotahi) and local councils/other stakeholders. – Continue to access and place insurance products aligned to Board appetite for such climate-related risks. – Maintain Operational Business Continuity Plans. Manufacturing disruption: Damage or disruption to manufacturing sites caused by...\"",
+      "location_hint": "Page 136",
+      "confidence": "medium",
+      "notes": "The retrieved context only partially covers physical climate risks. The document indicates that quantitative disclosures on physical risk exposure (amount/percentage of assets or business activities vulnerable to physical risks) are on pages 151–152, which were not included in the retrieved chunks. The answer is therefore incomplete relative to the full disclosure.",
+      "verification": null
+    }
+  ]
+}

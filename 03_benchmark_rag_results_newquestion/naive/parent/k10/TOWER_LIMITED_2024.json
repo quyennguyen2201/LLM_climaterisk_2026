@@ -1,0 +1,171 @@
+{
+  "source": "TOWER_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 10,
+  "chunk_mode": "parent",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_token_details": {
+        "cache_creation": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0
+      },
+      "output_tokens": 6577,
+      "input_tokens": 83252,
+      "total_tokens": 89829
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Tower uses three climate change scenarios: 1) Orderly 1.5°C (aligned with RCP 2.6 / IPCC SSP1-2.6 / NGFS Net Zero 2050), 2) Disorderly >2°C (aligned with RCP4.5 / IPCC SSP2-4.5 / NGFS Delayed Transition), and 3) Hothouse >3°C (aligned with RCP7.0 / IPCC SSP3-7.0 / NGFS Current Policies).",
+      "evidence": "\"Tower's scenario architecture\nParameters | Orderly 1.5ºC | Disorderly >2ºC | Hothouse >3ºC\nGlobal emissions and socioeconomic pathway parameters:\nRepresentative Concentration Pathway (RCP) 2.6 / IPCC SSP 1-2.6 | RCP4.5 / IPCC SSP2-4.5 | RCP7.0 / IPCC SSP3-7.0\nGlobal physical risk pathway parameters:\nNGFS Net Zero 2050 | NGFS Delayed Transition | NGFS Current Policies\"",
+      "location_hint": "Section 3, p.13 – Scenario architecture table",
+      "confidence": "high",
+      "notes": "Tower's scenarios are based on the ICNZ shared climate scenarios for the insurance sector, which in turn are based on NGFS scenarios. They were adapted to Tower's specific business operations in New Zealand and the Pacific.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document does not provide a single global temperature outcome by 2100. However, it describes three scenarios with different warming trajectories: (1) Orderly (Net Zero 2050): policy ambition to limit warming to less than 1.5°C by end-of-century; (2) Hot House (Current Policies): warming of +3.0°C by 2050 (with implied higher warming by 2100), with current policies insufficient to limit total warming to 2.0°C. The scenarios reference 2050 warming figures rather than explicit 2100 global temperature outcomes.",
+      "evidence": "\"International and domestic policy settings aim to limit total warming by end-of-century to less than 1.5°C.\" (Orderly scenario) and \"Current climate policies in New Zealand and abroad are sporadic and weak. Any policy changes are insufficient to limit total warming to 2.0°C.\" (Hot house scenario, with 2050 warming of +3.0°C)",
+      "location_hint": "Pages 14 and 16",
+      "confidence": "medium",
+      "notes": "The document provides scenario-based warming figures primarily to 2050, not explicit 2100 global temperature outcomes. The orderly scenario targets <1.5°C end-of-century; the hot house scenario shows +3.0°C by 2050 with no explicit 2100 figure stated.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "Tower's climate change scenarios build upon the ICNZ (Insurance Council of New Zealand) scenarios, which were based on the Network for Greening the Financial System (NGFS) scenarios. Tower also engaged KPMG to facilitate the entity-level scenario development and analysis process.",
+      "evidence": "\"Tower's climate change scenarios build upon the ICNZ scenarios which were based, in turn, on the Network for Greening the Financial System (NGFS) scenarios.\" and \"In 2023 Tower engaged KPMG to facilitate the entity-level scenario development and analysis process with a cross functional working group of executives and senior leaders.\"",
+      "location_hint": "Page 13 and Page 12",
+      "confidence": "high",
+      "notes": "The scenarios are based on NGFS scenarios, adapted through ICNZ for the NZ insurance sector, with KPMG facilitating the entity-level analysis process.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes. Tower uses a mix of SSPs and RCPs that are not always internally consistent across scenarios:\n- Orderly 1.5°C: RCP 2.6 + SSP1-2.6 (consistent pair)\n- Disorderly >2°C: RCP 4.5 + SSP2-4.5 (consistent pair), but sea level rise uses SSP2-4.5 while some Pacific physical risk data uses RCP 4.5\n- Hothouse >3°C: RCP 7.0 + SSP3-7.0 (consistent pair at the global level), but the Pacific scenario uses RCP 6.0 for physical risk data (NGFS Climate Impact Explorer) while sea level rise uses SSP3-7.0, and socioeconomic data uses SSP3 — creating a mismatch between RCP 6.0 (physical) and SSP3-7.0 (sea level/socioeconomic)",
+      "evidence": "\"Tower's scenario architecture Parameters Orderly 1.5ºC Disorderly >2ºC Hothouse >3ºC Global emissions and socioeconomic pathway parameters Representative Concentration Pathway (RCP) 2.6 IPCC SSP 1-2.6 | RCP4.5 IPCC SSP2-4.5 | RCP7.0 IPCC SSP3-7.0\"\n\nFor Hothouse Pacific physical risk: \"NGFS Climate impact explorer. 'Absolute change in mean air temperature in Fiji. RCP 6.0'\" and \"The IPCC AR6 Sea-Level Rise Projections. SSP3-7.0 2020, 2030 and 2050 Fiji (Suva)\"",
+      "location_hint": "Page 13 (scenario architecture table); Page 45 (Hothouse Pacific data)",
+      "confidence": "high",
+      "notes": "The global scenario architecture pairs RCP 7.0 with SSP3-7.0 for the Hothouse scenario, which is internally consistent. However, in the Pacific physical risk data for the Hothouse scenario, RCP 6.0 is used for temperature, precipitation, river flooding, and labour productivity data (from NGFS Climate Impact Explorer), while SSP3-7.0 is used for sea level rise projections and SSP3 for socioeconomic data. This represents a pick-and-mix inconsistency within the Hothouse scenario's Pacific data. The Orderly and Disorderly scenarios appear more consistent in their RCP/SSP pairings.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes, Tower developed customised scenarios. Tower's climate change scenarios are based on the Insurance Council of New Zealand's (ICNZ) shared climate scenarios for the insurance sector, but were adapted to better reflect Tower's business operations, focusing on: (1) the potential physical impacts of climate change in the Pacific, given Tower's geographic distribution, and (2) navigating financial markets during disruption to highlight possible impacts on Tower's investment portfolio. The scenarios use the same framework architecture, quantitative and qualitative parameters, and narrative storylines as the ICNZ scenarios as a base, but were customised through workshops with a cross-functional group of Tower executives and senior leaders facilitated by KPMG.",
+      "evidence": "\"Tower's climate change scenarios use, as a base, the same framework architecture, quantitative and qualitative parameters, and narrative storylines as the ICNZ scenarios. However, they were adapted to better reflect our business operations, focusing on: • The potential physical impacts of climate change in the Pacific, given our geographic distribution. • Navigating financial markets during disruption to highlight possible impacts on our investment portfolio.\"",
+      "location_hint": "Section 3, p.12",
+      "confidence": "high",
+      "notes": "Tower's scenarios are adaptations of ICNZ scenarios (which are in turn based on NGFS scenarios), customised for Pacific physical risks and investment portfolio impacts. Three scenarios are used: Orderly 1.5°C, Disorderly >2°C, and Hothouse >3°C.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes. Tower co-produced climate scenarios through participation in a New Zealand insurance industry initiative. In 2022, Tower participated in a collaborative effort with the Insurance Council of New Zealand (ICNZ) to co-design shared climate scenarios for the insurance sector. Tower's climate scenarios are based on these ICNZ shared climate scenarios, which were in turn based on the Network for Greening the Financial System (NGFS) scenarios. In 2023, Tower engaged KPMG to facilitate entity-level scenario development and analysis with a cross-functional working group of executives and senior leaders.",
+      "evidence": "\"Tower's climate scenarios are based on the Insurance Council of New Zealand's (ICNZ) shared climate scenarios for the insurance sector. In 2022, Tower participated in a New Zealand insurance industry initiative to co-design these industry scenarios.\"",
+      "location_hint": "Section 3, p.12",
+      "confidence": "high",
+      "notes": "Tower co-produced scenarios with ICNZ (insurance sector peers) in 2022, then adapted them for Tower-specific use with KPMG's facilitation in 2023. The ICNZ scenarios were themselves based on NGFS scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Tower's climate scenarios are based on the Insurance Council of New Zealand's (ICNZ) shared climate scenarios for the insurance sector. The three scenarios used are: Orderly, Disorderly, and Hothouse. Tower's scenarios use the same framework architecture, quantitative and qualitative parameters, and narrative storylines as the ICNZ scenarios, adapted to reflect Tower's business operations.",
+      "evidence": "\"Tower's climate scenarios are based on the Insurance Council of New Zealand's (ICNZ) shared climate scenarios for the insurance sector. In 2022, Tower participated in a New Zealand insurance industry initiative to co-design these industry scenarios... Tower's climate change scenarios use, as a base, the same framework architecture, quantitative and qualitative parameters, and narrative storylines as the ICNZ scenarios.\"",
+      "location_hint": "Section 4: Strategy, p.12",
+      "confidence": "high",
+      "notes": "The three scenario names (Orderly, Disorderly, Hothouse) are confirmed in the risk table on p.19. The ICNZ scenarios serve as the baseline framework.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "Tower's scenario analysis builds upon the ICNZ scenarios, which were based on the Network for Greening the Financial System (NGFS) scenarios. The physical risk pathway parameters use NGFS models (NGFS Net Zero 2050, NGFS Delayed Transition, NGFS Current Policies), and the NGFS Climate Impact Explorer is used for physical risk data. The document also references the CRD requirement that \"if modelling has been undertaken, a clear description of what modelling was undertaken and why the model was chosen as the appropriate model\" should be disclosed, with scenario details referenced in Appendix 2.",
+      "evidence": "\"Tower's climate change scenarios build upon the ICNZ scenarios which were based, in turn, on the Network for Greening the Financial System (NGFS) scenarios.\" and \"Global physical risk pathway parameters: Network for Greening the Financial System (NGFS) Net Zero 2050 / NGFS Delayed Transition / NGFS Current Policies\"",
+      "location_hint": "Section 3, pg 13; Appendix 2",
+      "confidence": "high",
+      "notes": "The document identifies NGFS scenarios as the foundational model used, with ICNZ scenarios as an intermediary layer. Physical risk data is sourced from the NGFS Climate Impact Explorer. No single proprietary model name is cited beyond NGFS.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Tower considers damage from acute physical risks including extreme weather events (floods, cyclones, storms). Key figures include: $38m net impact from 2023 catastrophe events (excluding reinsurance reinstatement), 10,057 claims of $208 million from the Auckland/North Island weather event and Cyclone Gabrielle alone, and a five-year rolling average of large event costs that increased by $4.2m compared to the ten-year average. For the Pacific (Fiji), expected damage from river flooding is projected at -8.4% (2020), +23.7% (2030), and +38.3% (2050) vs. 2015 baseline under an orderly scenario.",
+      "evidence": "$38m net impact to Tower, excluding reinsurance reinstatement. $1m loss after taxation, versus a profit of $18.9m in the previous financial year. 10,057 claims of $208 million from the Auckland and upper North Island weather event and Cyclone Gabrielle alone. Five years' worth of large house claims received in two weeks (Auckland floods and Cyclone Gabrielle). [...] the five-year rolling average of large event costs for Tower up to the financial year ending 30 September 2024 increased by $4.2m, compared to the ten-year average. [...] Expected Damage from River Flooding (% change vs 2015 baseline) Pacific -8.4% 23.7% 38.3%",
+      "location_hint": "Pages 11, 10, 43",
+      "confidence": "high",
+      "notes": "Tower explicitly considers acute physical risk damage through historical claims data (2023 catastrophe events) and forward-looking scenario analysis (river flood damage projections for the Pacific). The document also identifies operational and financial stress from extreme weather events as inherently high risks.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "In the Hothouse scenario, Tower includes mean sea level rise as a non-temperature variable: 39cm for New Zealand and 23cm for the Pacific by 2050.",
+      "evidence": "Mean annual temperature change 2050: 2.0°C / 2.0°C; Mean sea level rise: 39cm / 23cm — Hot house scenario – current policies",
+      "location_hint": "Tower Limited Climate Statement.pdf, page 16",
+      "confidence": "high",
+      "notes": "Only the Hothouse scenario page is provided in the retrieved context. Sea level rise is the only explicitly quantified non-temperature variable shown. Other scenarios may include additional variables but are not present in the retrieved chunks.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Tower Limited conducted scenario analysis at both New Zealand and Pacific scales, using three scenarios: (1) Orderly – Net Zero 2050 (RCP 2.6), (2) Disorderly – Delayed Transition (RCP 4.5), and (3) Hot House World: Current Policies (RCP 6.0). Each scenario was assessed across short-term (2022–2025), medium-term (2026–2035), and long-term (2036–2050) time horizons, covering both New Zealand and Pacific geographies.",
+      "evidence": "ORDERLY: NET ZERO 2050 – NEW ZEALAND / DISORDERLY: DELAYED TRANSITION – NEW ZEALAND / HOT HOUSE WORLD: CURRENT POLICIES – NEW ZEALAND / HOT HOUSE WORLD: CURRENT POLICIES – PACIFIC; Boundary condition factor: 2022-2025 / 2026-2035 / 2036-2050",
+      "location_hint": "Appendix 2 and Appendix 3, pages 43–45",
+      "confidence": "high",
+      "notes": "Scenarios are applied at both national (New Zealand) and regional (Pacific) scales, across three time horizons. Three distinct scenarios are used, aligned to RCP 2.6, 4.5, and 6.0 respectively.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Tower uses three time horizons: Short (2023–2025), Medium (2026–2035), and Long (2036–2050). These were selected to align with the ICNZ scenarios and are independent of Tower's business strategy and planning cycles.",
+      "evidence": "\"Tower selected three time horizons to assess the related risks and opportunities. These time horizons were selected to align with the ICNZ scenarios and are independent of our business strategy and planning cycles, which are based on a three-year forward-looking view and reviewed annually.\n\nTime horizon | Period\nShort | 2023-2025\nMedium | 2026-2035\nLong | 2036-2050\"",
+      "location_hint": "Page 17",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Tower justifies its scenario choices on three grounds for each scenario: (1) they are the most commonly used scenarios by financial institutions globally; (2) they are aligned with scenarios already selected by ICNZ for the General Insurance Sector (and other sectors); and (3) they meet XRB's requirements for a 1.5°C aligned scenario, a third climate-related scenario, and a >3°C scenario respectively. The scenarios build upon ICNZ scenarios which were in turn based on the NGFS scenarios, and Tower participated in co-designing the ICNZ industry scenarios in 2022.",
+      "evidence": "\"Rationale for selection: Most commonly used scenario by financial institutions globally. Aligned with scenarios already selected by ICNZ for the General Insurance Sector (and other sectors). Meets XRB's requirement for a 1.5ºC aligned scenario. [Disorderly] Commonly used scenario by financial institutions globally. Aligned with scenarios already selected by ICNZ for the General Insurance Sector (and other sectors). Meets XRB's requirements for a third climate-related scenario. [Hothouse] Commonly used scenario by financial institutions globally. Aligned with scenarios already selected by ICNZ for the General Insurance Sector (and other sectors). Meets XRB's requirements for a >3ºC scenario.\"",
+      "location_hint": "Page 13, Scenario architecture table",
+      "confidence": "high",
+      "notes": "The rationale is explicitly stated in the scenario architecture table on page 13. Additional context on the scenario development process (KPMG facilitation, cross-functional workshops) is provided on page 12.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "In 2023, Tower experienced significant climate-related impacts from several catastrophic weather events: North Island weather events, Cyclone Gabrielle, Cyclones Judy and Kevin in Vanuatu, and the Auckland floods. The impacts included:\n- $38m net impact to Tower, excluding reinsurance reinstatement\n- $1m loss after taxation, versus a profit of $18.9m in the previous financial year\n- 10,057 claims of $208 million from the Auckland and upper North Island weather event and Cyclone Gabrielle alone\n- Five years' worth of large house claims received in two weeks (Auckland floods and Cyclone Gabrielle)",
+      "evidence": "In 2023 New Zealand and the Pacific experienced several catastrophic weather events consistent with climate change projections. These were North Island weather events, Cyclone Gabrielle, Cyclones Judy and Kevin in Vanuatu, and the Auckland floods. The impacts on Tower were:\n• $38m net impact to Tower, excluding reinsurance reinstatement. \n• $1m loss after taxation, versus a profit of $18.9m in the previous financial year. \n• 10,057 claims of $208 million from the Auckland and upper North Island weather event and Cyclone Gabrielle alone. \n• Five years' worth of large house claims received in two weeks (Auckland floods and Cyclone Gabrielle).",
+      "location_hint": "Tower Limited Climate Statement.pdf, page 11",
+      "confidence": "high",
+      "notes": "As of June 2024, 97% of all these claims were settled. The document also notes these events are detailed in the 2023 Annual Report (pages 12-14).",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Tower identifies both acute and chronic physical climate risks, primarily affecting its customers' assets rather than its own. Acute risks include extreme weather events like Cyclone Gabrielle; chronic risks include longer-term shifts in weather patterns such as changes in precipitation, temperature, or sea level. Tower does not directly own or lease assets materially vulnerable to these physical risks, but its customers do, and the potential risks to their assets — and the subsequent risks to Tower's business — have been identified and assessed. A key material physical risk is \"Financial stress from climate impacts,\" where repeated large-scale extreme weather events subject Tower to substantial financial stress due to high volume and costs of claims, accumulated financial losses, insufficient reinsurance, insufficient resources, higher costs of capital, and reduced investor support.",
+      "evidence": "\"Physical risks, as defined in NZ CS 1, relate to the physical impacts of climate change. These risks can be: Acute, such as those related to extreme weather events like Cyclone Gabrielle, or Chronic, due to longer-term shifts in weather patterns, such as changes in precipitation, temperature, or sea level at a regional or national level. Tower does not directly own or lease assets that are materially vulnerable to acute or chronic climate-related physical risks. However, our customers do, and the potential risks to their assets – and the subsequent risks to our business – have been identified and assessed for disclosure. These risks comprise the largest proportion of Tower's material risks.\"",
+      "location_hint": "Tower Limited Climate Statement 2024, p.18 and p.20",
+      "confidence": "high",
+      "notes": "Tower's direct physical risk exposure is low (no materially vulnerable owned/leased assets), but indirect physical risks via customers' assets are significant and comprise the largest proportion of Tower's material climate risks. The 2023 catastrophe events (Auckland floods, Cyclone Gabrielle, Cyclones Judy and Kevin) resulted in a $38m net impact and 10,057 claims of $208 million, illustrating the materiality of these indirect physical risks.",
+      "verification": null
+    }
+  ]
+}

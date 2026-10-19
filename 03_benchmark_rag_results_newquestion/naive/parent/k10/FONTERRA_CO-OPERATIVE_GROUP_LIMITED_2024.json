@@ -1,0 +1,171 @@
+{
+  "source": "FONTERRA_CO-OPERATIVE_GROUP_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 10,
+  "chunk_mode": "parent",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "total_tokens": 98750,
+      "input_token_details": {
+        "cache_creation": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0
+      },
+      "input_tokens": 91514,
+      "output_tokens": 7236
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Fonterra uses three climate-related scenarios:\n1. **Orderly (Net zero 2050)** – limits global warming to ~1.5°C by 2050; based on The Aotearoa Circle Tū-ā-pae / IPCC SSP1 / NGFS 'Net Zero Emissions' / RCP 1.9/2.6.\n2. **Disorderly (Delayed transition)** – limits global warming to 2°C by 2050; based on The Aotearoa Circle Tū-ā-hopo / IPCC SSP2 / NGFS 'Delayed Transition' / RCP 4.5.\n3. **Hothouse (Current policies)** – global temperatures rise to 3°C above pre-industrial levels by 2050; based on The Aotearoa Circle Tū-ā-tapape / IPCC SSP5 / NGFS 'Current Policies' / RCP 8.5.",
+      "evidence": "\"Orderly (Net zero 2050) … The Orderly scenario depicts a world that smoothly transitions to net zero emissions by 2050, limiting global warming to 1.5°C … Disorderly (Delayed transition) … The Disorderly scenario depicts a future where policy action on climate is delayed until after 2030, followed by a swift and robust response to limit global warming to 2°C by 2050 … Hothouse (Current policies) … The Hothouse scenario depicts a world where unchecked emissions and lack of climate policies lead to a rise in global temperatures of 3°C above pre-industrial levels by 2050 …\"",
+      "location_hint": "Table 4 – Climate-related scenarios, page 132",
+      "confidence": "high",
+      "notes": "The scenarios are built on The Aotearoa Circle's Agriculture Sector Climate Change Scenarios, which themselves draw on IPCC scenarios. They meet NZ CS requirements for a 1.5°C scenario, a 3°C or greater scenario, and a third scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document does not explicitly state global temperature outcomes by 2100 for all scenarios. However, it notes that the Hothouse scenario depicts \"a rise in global temperatures of 3°C above pre-industrial levels by 2050, and a continued increase thereafter.\" For the Orderly scenario, the 1.5°C target has an overshoot at 2050 before returning to 1.5°C by 2100. The Disorderly scenario limits warming to 2°C by 2050. Temperature outcomes specifically by 2100 are not fully detailed for all scenarios.",
+      "evidence": "The Hothouse scenario depicts a world where unchecked emissions and lack of climate policies lead to a rise in global temperatures of 3°C above pre-industrial levels by 2050, and a continued increase thereafter... Due to the limited number of scenarios available and the nature of temperature projections being based on probabilities and ranges, this has led our 1.5°C scenario to have overshoot at 2050 before coming back down to 1.5°C by 2100 (which is the closest available IPCC scenario to 1.5°C).",
+      "location_hint": "Table 4 – Climate-related scenarios, page 132",
+      "confidence": "medium",
+      "notes": "The document provides temperature outcomes primarily by 2050. For 2100: the Orderly scenario returns to 1.5°C by 2100 (after overshoot); the Hothouse scenario continues to increase beyond 3°C after 2050. The Disorderly scenario's 2100 temperature is not explicitly stated beyond the 2°C by 2050 target.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "The Aotearoa Circle (Agriculture Sector Climate Change Scenarios), with additional frameworks from IPCC, NGFS, and PwC (used in FY23 to iterate the scenarios)",
+      "evidence": "\"Our climate scenarios use The Aotearoa Circle's Agriculture Sector Climate Change Scenarios as a foundation, which themselves draw on IPCC scenarios... In FY23, we worked with PwC to iterate The Aotearoa Circle's Agriculture Sector Climate Change Scenarios to incorporate elements relevant to the New Zealand dairy industry and our global operations and markets.\"",
+      "location_hint": "Page 131",
+      "confidence": "high",
+      "notes": "The primary scenario provider is The Aotearoa Circle. PwC assisted in FY23 to iterate the scenarios but was not involved in FY24. The scenarios also reference IPCC SSP pathways and NGFS scenarios as part of their architecture.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Fonterra uses the following SSP/RCP combinations across its three scenarios:\n- Orderly (Net Zero 2050): IPCC SSP1, RCP 1.9/2.6\n- Disorderly (Delayed Transition): IPCC SSP2, RCP 4.5\n- Hothouse (Current Policies): IPCC SSP5, RCP 8.5",
+      "evidence": "Pathways / Scenario architecture:\nOrderly: IPCC SSP1, NGFS 'Net Zero Emissions', RCP 1.9/2.6, SPANZ F, CCC Tailwinds\nDisorderly: IPCC SSP2, NGFS 'Delayed Transition', RCP 4.5, SPANZ B, CCC Headwinds\nHothouse: IPCC SSP5, NGFS 'Current Policies', RCP 8.5, SPANZ D, CCC Current Policy",
+      "location_hint": "Table 4 – Climate-related scenarios, page 132",
+      "confidence": "high",
+      "notes": "The data source footnote on page 135 also confirms: \"Intergovernmental Panel on Climate Change (IPCC) – RCP 2.6, 4.5, 8.5 from SSP Database (Shared Socioeconomic Pathways) Scenario Explorer\" and \"SSP – 1,2,5 RCP 2.6, 4.5, 8.5 from SSP Database.\"",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes, Fonterra customised its climate scenarios. They used The Aotearoa Circle's Agriculture Sector Climate Change Scenarios as a foundation and iterated them to incorporate elements relevant to the New Zealand dairy industry and their global operations and markets. Key customisations in FY24 included: removing references to He Waka Eke Noa and pricing of agricultural emissions in the short term (no longer plausible due to Government policy), adding references to climate-related litigation (an emerging risk), adding details specific to the dairy industry, and adjusting the presentation of the scenarios to make them more accessible to business stakeholders.",
+      "evidence": "\"Our climate scenarios use The Aotearoa Circle's Agriculture Sector Climate Change Scenarios as a foundation, which themselves draw on IPCC scenarios... In FY23, we worked with PwC to iterate The Aotearoa Circle's Agriculture Sector Climate Change Scenarios to incorporate elements relevant to the New Zealand dairy industry and our global operations and markets... Key changes made in FY24, versus the sector scenarios, include: – Removing references to He Waka Eke Noa and pricing of agricultural emissions in the short term (no longer plausible due to Government policy). – Adding references to climate-related litigation (an emerging risk). – Adding details specific to the dairy industry. – Adjusting the presentation of the scenarios to make them more accessible to business stakeholders.\"",
+      "location_hint": "Page 131",
+      "confidence": "high",
+      "notes": "Fonterra built on sector scenarios rather than creating entirely bespoke scenarios from scratch, but made meaningful customisations for dairy industry relevance and New Zealand context.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Fonterra's climate scenarios were not fully co-produced with external partners in FY24. In FY23, Fonterra worked with PwC to iterate The Aotearoa Circle's Agriculture Sector Climate Change Scenarios. In FY24, the iteration was done internally without external consultants — the Sustainability team held workshops with internal sustainability and business unit subject matter experts. External partners and stakeholders were not involved in the scenario analysis process in FY24, except for engagement with the SAP (Sustainability Advisory Panel).",
+      "evidence": "\"In FY23, we worked with PwC to iterate The Aotearoa Circle's Agriculture Sector Climate Change Scenarios to incorporate elements relevant to the New Zealand dairy industry and our global operations and markets... In FY24 we built on this work without the support of external consultants. Our Sustainability team held workshops with internal sustainability and business unit subject matter experts... Except for our engagement with the SAP as set out on page 129, external partners and stakeholders were not involved in the scenario analysis process in FY24.\"",
+      "location_hint": "Page 131",
+      "confidence": "high",
+      "notes": "The base scenarios used are The Aotearoa Circle's Agriculture Sector Climate Change Scenarios, which themselves draw on IPCC scenarios. Co-production with external parties occurred in FY23 (with PwC) but not in FY24.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Fonterra uses three climate scenarios: (1) Orderly – best estimate 1.6°C temperature increase by 2050 (expected to return to 1.5°C above pre-industrial levels beyond 2050); (2) Disorderly – 2°C temperature increase; and (3) Hothouse – 3°C temperature increase. These are based on The Aotearoa Circle's Agriculture Sector Climate Change Scenarios, which themselves draw on IPCC scenarios (RCP 2.6, 4.5, 8.5 from SSP Database). The Orderly and Hothouse scenarios meet the NZ CS requirement to analyse a 1.5°C scenario and a 3°C or greater scenario, and the Disorderly scenario meets the requirement for a third climate-related scenario.",
+      "evidence": "\"Our climate scenarios use The Aotearoa Circle's Agriculture Sector Climate Change Scenarios as a foundation, which themselves draw on IPCC scenarios. The Orderly and Hothouse scenarios meet the NZ CS requirement to analyse a 1.5°C scenario and a 3°C or greater scenario, and the Disorderly scenario meets the NZ CS requirement for a third climate-related scenario (in this case, temperature rise is limited to 2°C above pre-industrial levels).\"\n\nKey scenario parameters:\n- Orderly: 1.6°C by 2050 (\"Overshoot\", expected to return to 1.5 degrees above pre-industrial levels beyond 2050)\n- Disorderly: 2°C by 2050\n- Hothouse: 3°C by 2050\n\nData sources: Intergovernmental Panel on Climate Change (IPCC) – RCP 2.6, 4.5, 8.5 from SSP Database (Shared Socioeconomic Pathways) Scenario Explorer.",
+      "location_hint": "Page 131, 135 – Scenario analysis section, Table 4",
+      "confidence": "high",
+      "notes": "The three scenarios are clearly named and described with temperature baselines. The underlying IPCC RCP scenarios (2.6, 4.5, 8.5) are cited as data sources for global temperature projections.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "The scenario analysis used multiple models/frameworks including: IPCC SSP Database (Shared Socioeconomic Pathways) Scenario Explorer (RCP 2.6, 4.5, 8.5), International Energy Agency Global Energy and Climate Model, New Zealand Treasury CBAx tool, Ministry for the Environment projections, and He Pou a Rangi Climate Change Commission's ENZ model. Scenario architecture also referenced The Aotearoa Circle Tū-ā-pae/Tū-ā-hopo/Tū-ā-tapape, NGFS scenarios, and CCC Tailwinds/Headwinds/Current Policy scenarios.",
+      "evidence": "Data sources: 1 Intergovernmental Panel on Climate Change (IPCC) – RCP 2.6, 4.5, 8.5 from SSP Database (Shared Socioeconomic Pathways) Scenario Explorer. 2 SSP – 1,2,5 RCP 2.6, 4.5, 8.5 from SSP Database (Shared Socioeconomic Pathways) Scenario Explorer. 3 International Energy Agency. (2022). Global energy and climate model. 4 New Zealand Treasury. (2021). CBAx tool user guidance. Central pathway, High pathway. 5 Ministry for the Environment – (2022). Interim guidance on the use of new sea-level rise projections, (2018). Climate change projections for New Zealand. 6 He Pou a Rangi, Climate Change Commission. (2021). Scenarios dataset for the Commission's 2021 Final Advice (output from ENZ model). Current Policy Reference, Headwinds, Tailwinds.",
+      "location_hint": "Table 4 – Climate-related scenarios, p.135-136",
+      "confidence": "high",
+      "notes": "Multiple models were used across different scenario parameters. The ENZ model (from Climate Change Commission) is explicitly named as the output model for NZ emissions scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Fonterra considers damage from acute physical risks, specifically: (1) damage or disruption to supply chain from extreme weather events (flooding, cyclones), and (2) damage or disruption to manufacturing sites caused by extreme weather (e.g. flooding, bushfire events). These are identified as material climate-related risks with impacts including unplanned downtime for repairs, capacity issues, unmet contracts, product quality failure, increased operating costs, and inability to fulfil customer orders. Cyclone Gabrielle in FY23 is cited as a real example, with costs equivalent to approximately 1 cent of earnings per share.",
+      "evidence": "\"Manufacturing disruption: Damage or disruption to manufacturing sites caused by extreme weather (eg. flooding bushfire event). Impacts could include unplanned downtime for repairs, capacity issues at unimpacted sites due to redirected milk, and, in the most significant cases over the long term, unmet contracts or customer loss.\" and \"In FY23 a severe tropical cyclone occurred in February 2023 on the North Island of New Zealand (Cyclone Gabrielle). Cyclone Gabrielle affected our supply chain, milk supply and on-farm operations. Despite the widespread nature of this event, our geographic diversity and scale enabled us to manage the impact. Costs associated with the cyclone were equivalent to approximately 1 cent of earnings per share.\"",
+      "location_hint": "Pages 136, 130, 151",
+      "confidence": "high",
+      "notes": "Fonterra explicitly identifies acute physical risks (extreme weather events such as flooding, cyclones, bushfires) as material climate-related risks affecting supply chain, manufacturing, and on-farm operations. Quantified impact from Cyclone Gabrielle (~1 cent EPS) is provided as a historical example.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios incorporate non-temperature variables across social, technological, economic, environmental, and political \"drivers of change.\" These include: consumer preferences (demand for sustainable/low-emissions dairy, plant-based alternatives, affordable protein), agricultural labour supply, technology innovation (methane inhibitors, energy-efficient technologies, precision fermentation), water usage/availability, extreme weather events (flooding, bushfire), transportation/logistics disruption, regulatory changes (e.g., agricultural emissions pricing), energy security, and migration patterns.",
+      "evidence": "\"Our climate scenarios have been determined by the interaction of key social, technological, economic, environmental and political 'drivers of change' that may influence our operating environment.\" The scenario table includes drivers such as: consumer preference for sustainable/healthy products, dairy alternatives, agricultural labour, methane inhibitors, energy efficient technologies, precision fermentation, migration, water usage limitations, and extreme weather events.",
+      "location_hint": "Pages 131, 133",
+      "confidence": "medium",
+      "notes": "The context provides the categories of drivers (social, technological, economic, environmental, political) and specific examples from the scenario table, but does not present a single exhaustive list of all non-temperature variables. The answer is compiled from multiple passages.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Fonterra uses three climate-related scenarios: Orderly (Net Zero 2050) targeting ~1.5°C warming by 2050, Disorderly (Delayed Transition) targeting 2°C by 2050, and Hothouse (Current Policies) targeting 3°C by 2050. These are global in scope but incorporate New Zealand-specific data and are adapted for a dairy company of international reach.",
+      "evidence": "\"The Orderly scenario depicts a world that smoothly transitions to net zero emissions by 2050, limiting global warming to 1.5°C through progressively more stringent climate policies and innovation... The Disorderly scenario depicts a future where policy action on climate is delayed until after 2030, followed by a swift and robust response to limit global warming to 2°C by 2050... The Hothouse scenario depicts a world where unchecked emissions and lack of climate policies lead to a rise in global temperatures of 3°C above pre-industrial levels by 2050... Our climate scenarios use The Aotearoa Circle's Agriculture Sector Climate Change Scenarios as a foundation, which themselves draw on IPCC scenarios... noting that the sector scenarios were domestically focused and not specific to dairy... so that the scenarios remained plausible for a dairy company of our international reach.\"",
+      "location_hint": "Table 4, pages 132–135",
+      "confidence": "high",
+      "notes": "The scenarios are global in temperature outcome but incorporate NZ-specific metrics (e.g., NZ carbon price, NZ sea level rise, NZ extreme rainfall/heat). They are built on The Aotearoa Circle's Agriculture Sector Climate Change Scenarios and IPCC/NGFS frameworks.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Fonterra defines short, medium, and long-term time horizons for climate-related risks and opportunities, with the definitions linked to its strategic planning horizons and capital deployment plans (disclosed on page 131). The climate risk assessment carried out in 2024 had an outlook through to 2050, exploring plausible future scenarios over short, medium, and long-time horizons. Specific consideration of climate-related risk aligns with the time horizons of the Co-op's strategic planning cycles.",
+      "evidence": "\"how it defines short, medium and long term and how the definitions are linked to its strategic planning horizons and capital deployment plans — page 131\" and \"In 2024, we carried out a climate risk assessment across the Co-op's value chain with an outlook through to 2050... a scenario-based approach that explored plausible future scenarios and potential impacts on the Co-op over short, medium and long-time horizons.\"",
+      "location_hint": "Page 131 (definitions), Page 142 (risk assessment scope), CRD Index page 192",
+      "confidence": "medium",
+      "notes": "The context references that definitions of short, medium, and long term are on page 131, but the actual durations/definitions are not reproduced in the retrieved chunks. The evidence confirms a 2050 outlook and that time horizons align with strategic planning cycles, but specific year ranges for each horizon are not available in the provided context.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Fonterra uses The Aotearoa Circle's Agriculture Sector Climate Change Scenarios as a foundation (which themselves draw on IPCC scenarios), iterated to incorporate elements relevant to the New Zealand dairy industry and global operations. The Orderly and Hothouse scenarios meet the NZ CS requirement to analyse a 1.5°C scenario and a 3°C or greater scenario, and the Disorderly scenario meets the NZ CS requirement for a third climate-related scenario (temperature rise limited to 2°C above pre-industrial levels). The scenarios were chosen and adapted because the original sector scenarios were domestically focused and not specific to dairy, so Fonterra worked to make them plausible for a dairy company of international reach.",
+      "evidence": "\"Our climate scenarios use The Aotearoa Circle's Agriculture Sector Climate Change Scenarios as a foundation, which themselves draw on IPCC scenarios. The Orderly and Hothouse scenarios meet the NZ CS requirement to analyse a 1.5°C scenario and a 3°C or greater scenario, and the Disorderly scenario meets the NZ CS requirement for a third climate-related scenario (in this case, temperature rise is limited to 2°C above pre-industrial levels). In FY23, we worked with PwC to iterate The Aotearoa Circle's Agriculture Sector Climate Change Scenarios to incorporate elements relevant to the New Zealand dairy industry and our global operations and markets, noting that the sector scenarios were domestically focused and not specific to dairy.\"",
+      "location_hint": "Page 131",
+      "confidence": "high",
+      "notes": "The justification is clearly stated: regulatory compliance with NZ CS requirements (1.5°C, 2°C, 3°C+ scenarios), use of IPCC-based scenarios via The Aotearoa Circle, and adaptation to reflect dairy-industry-specific and global context.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context covers Fonterra's climate-related risk identification, assessment, scenario analysis, anticipated future impacts, and vulnerability metrics, but does not contain any explicit description of historic (past/observed) climate impacts that have already occurred to the business. The CRD Index references \"current physical and transition impacts\" at page 131, but that page is not included in the retrieved chunks, and no verbatim description of historic climate impacts is present in the provided context.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Fonterra identifies the following physical climate risks (direct and indirect) across its value chain, with a focus on New Zealand:\n\n1. **Manufacturing disruption** – Damage or disruption to manufacturing sites caused by extreme weather (e.g. flooding, bushfire events). Impacts could include unplanned downtime for repairs, capacity issues at unimpacted sites due to redirected milk, and in the most significant cases over the long term, unmet contracts or customer loss. The cost of insuring these risks may increase and/or the ability to secure insurance may decrease.\n\n2. **Supply chain/logistics disruption** – Extreme weather events becoming more frequent, with mitigations including partnering with freight and logistics providers (e.g. Kotahi) and local councils/other stakeholders, accessing insurance products, and maintaining Operational Business Continuity Plans.\n\nThe scope of physical risk assessment focused on New Zealand milk pool and manufacturing facilities, representing over 90% of milk supply and revenue. The assessment covered short, medium, and long-term horizons through to 2050.",
+      "evidence": "\"For physical risks, the scope consisted of our New Zealand milk pool and manufacturing facilities, as these represent over 90% of our milk supply and revenue and are most relevant to our primary users.\"\n\n\"Manufacturing disruption: Damage or disruption to manufacturing sites caused by extreme weather (eg. flooding bushfire event). New Zealand. Short, medium, long. Impacts could include unplanned downtime for repairs, capacity issues at unimpacted sites due to redirected milk, and, in the most significant cases over the long term, unmet contracts or customer loss. The severity of impact may vary depending on the site's purpose and the event's timing within the season. The cost of insuring these risks may increase and/or the ability to secure insurance may decrease.\"\n\n\"weather events become more frequent. – Continue to partner with freight and logistics providers (eg. Kotahi) and local councils/other stakeholders. – Continue to access and place insurance products aligned to Board appetite for such climate-related risks. – Maintain Operational Business Continuity Plans.\"",
+      "location_hint": "Pages 136, 142 of Fonterra 2024 Annual Report",
+      "confidence": "high",
+      "notes": "The context provides explicit examples of physical climate risks (manufacturing disruption, logistics/supply chain disruption from extreme weather) but the full table of all physical risks (pages 137–141) is not fully reproduced in the retrieved chunks. The answer reflects what is directly available in the context.",
+      "verification": null
+    }
+  ]
+}

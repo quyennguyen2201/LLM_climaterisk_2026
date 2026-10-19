@@ -1,0 +1,325 @@
+{
+  "source": "Z_ENERGY_LIMITED_2023",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "total_tokens": 726091,
+      "output_tokens": 7706,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 653959,
+        "ephemeral_5m_input_tokens": 64410,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "input_tokens": 718385
+    }
+  },
+  "retrieval_trace": [
+    {
+      "q_id": 3,
+      "tool": "search_knowledge_base",
+      "query": "scenario provider IPCC NGFS NIWA MfE source",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 1,
+      "tool": "search_knowledge_base",
+      "query": "climate scenarios pathways used",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 2,
+      "tool": "search_knowledge_base",
+      "query": "global temperature outcome 2100 1.5 degrees 2 degrees warming",
+      "k": 10,
+      "n_results": 10
+    },
+    {
+      "q_id": 5,
+      "tool": "search_knowledge_base",
+      "query": "customised adapted localised downscaled tailored scenarios",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 6,
+      "tool": "search_knowledge_base",
+      "query": "participatory co-create co-design stakeholder collaborative scenario development",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 4,
+      "tool": "search_knowledge_base",
+      "query": "SSP RCP combination scenario families mixing",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 9,
+      "tool": "search_knowledge_base",
+      "query": "damage loss estimates extreme events acute physical risk floods storms financial impact",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 8,
+      "tool": "search_knowledge_base",
+      "query": "climate model integrated assessment model IAM macroeconomic model GCAM REMIND",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 7,
+      "tool": "search_knowledge_base",
+      "query": "baseline reference scenario comparison current policies",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 14,
+      "tool": "search_knowledge_base",
+      "query": "historical observed impacts physical climate hazards assets operations floods cyclone",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 10,
+      "tool": "search_knowledge_base",
+      "query": "carbon price sea level rise rainfall precipitation oil price technology adoption variables",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 11,
+      "tool": "search_knowledge_base",
+      "query": "global regional local downscaled New Zealand scale scenarios",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 13,
+      "tool": "search_knowledge_base",
+      "query": "justification reason why scenarios chosen selected NGFS NZ CS 1",
+      "k": 8,
+      "n_results": 8
+    },
+    {
+      "q_id": 15,
+      "tool": "search_knowledge_base",
+      "query": "direct indirect physical climate risk supply chain customers suppliers value chain",
+      "k": 8,
+      "n_results": 8
+    }
+  ],
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": [
+        "Green Road (Net Zero 2050 – orderly transition, 1.5°C)",
+        "Road Block (Delayed Transition – disorderly, <2°C)",
+        "Hothouse (Current Policies – >3°C)",
+        "BusinessNZ Energy Council 'Kea' (used in prior years)",
+        "BusinessNZ Energy Council 'Tūī' (used in prior years)"
+      ],
+      "evidence": "\"The three climate scenarios Z has developed are: Green Road – Net Zero 2050 orderly transition that limits global warming to 1.5°C. Road Block – Delayed, disorderly transition that limits global warming to below 2°C. Hothouse – Current Policies, 'hothouse' scenario that leads to global warming of over 3°C.\" Earlier analysis used \"the BusinessNZ Energy Council climate scenarios, 'Kea' and 'Tūī'\".",
+      "location_hint": "Strategy section, p.11 (scenario summaries) and p.11 (prior years reference)",
+      "confidence": "high",
+      "notes": "The three primary 2023 scenarios are Green Road, Road Block, and Hothouse. Kea and Tūī were used in prior years and referenced for context.",
+      "verification": 5,
+      "ani_notes": "Green Road (Net Zero 2050 orderly transition that limits global warming to 1.5°C)  Road Block (Delayed, disorderly transition that limits global warming to below 2°C) Hot House (Current policies)",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes are described: 1.5°C (Green Road), below 2°C (Road Block), and over 3°C (Hothouse). The physical risk assessment also references 1.5°C (RCP 2.6), 2.3°C (RCP 4.5), and 4.5°C (RCP 8.5).",
+      "evidence": "\"Global temperature outcomes: 1.5°C [Green Road] / <2°C [Road Block] / >3°C [Hothouse]\" and \"three climate scenarios of warming and associated impacts: 1.5 degrees Celsius (RCP 2.6); 2.3 degrees Celsius (RCP 4.5); and 4.5 degrees Celsius (RCP 8.5).\"",
+      "location_hint": "Scenario architecture table, p.12; Physical risk assessment, p.7",
+      "confidence": "high",
+      "notes": "No explicit mention of temperature overshoot. The 2.3°C and 4.5°C figures are from the physical risk assessment (RCP-based), not the 2023 narrative scenarios.",
+      "verification": 5,
+      "ani_notes": "1.5oC by 2100 2oC by 2100 Over 3oC",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers are explicitly named: NGFS (Network for Greening the Financial System), IEA (International Energy Agency), IPCC (Intergovernmental Panel on Climate Change), CCC (Climate Change Commission), NIWA (National Institute of Water and Atmospheric Research), BusinessNZ Energy Council (BEC), and MfE (Ministry for the Environment). Deloitte was engaged to help select appropriate datasets.",
+      "evidence": "\"Z selected the Network for Greening the Financial System (NGFS) scenarios as the most suitable for drawing on for quantitative analysis... drawing on the NGFS narratives for Net Zero 2050, Delayed Transition and Current Policies, and a broader set of climate scenarios produced by the International Energy Agency (IEA), Intergovernmental Panel on Climate Change (IPCC) and the Climate Change Commission (CCC)... Z engaged Deloitte to help Z select appropriate datasets from international scenarios.\"",
+      "location_hint": "Strategy section, p.12",
+      "confidence": "high",
+      "notes": "The scenario architecture was developed internally by Z, drawing on these external providers. NIWA and MfE were used in earlier risk assessments.",
+      "verification": 4,
+      "ani_notes": "Combined from the Business Energy Council (BEC) 2060 scenarios (Kea and Tūī), the United Nations Intergovernmental Panel on Climate Change (IPCC) representative concentration pathways (RCP2.6 and RCP4.5), the Climate Change Projections for New Zealand, second edition report from the Ministry for the Environment (MfE). NGFS, IEA , IPCC, CCC Tailwinds, NIWA Climate Change projections for New Zealand",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "\"Scenario archetype*: NGFS Net Zero 2050 / IEA NZE2050 / IPCC RCP2.6 / SSP1 / CCC Tailwinds / NIWA Climate Change projections for New Zealand [Green Road]; NGFS Delayed Transition / IEA APS / IPCC RCP4.5 / SSP2 / CCC Headwinds / NIWA Climate Change projections for New Zealand [Road Block]; NGFS Current Policies / IEA STEPS / IPCC RCP8.5 / SSP3 / NIWA Climate Change projections for New Zealand [Hothouse]\"",
+      "location_hint": "Scenario architecture table, p.12",
+      "confidence": "high",
+      "notes": "The document explicitly lists both RCP identifiers (RCP2.6, RCP4.5, RCP8.5) and SSP identifiers (SSP1, SSP2, SSP3) as archetypes for each scenario. These are drawn from different IPCC assessment report generations (AR5 RCPs and AR6 SSPs), constituting a pick-and-mix approach.",
+      "verification": 5,
+      "ani_notes": "Yes, they combined from mutliple",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "\"The scenario architecture and narratives were developed internally, drawing on the NGFS narratives for Net Zero 2050, Delayed Transition and Current Policies, and a broader set of climate scenarios produced by the International Energy Agency (IEA), Intergovernmental Panel on Climate Change (IPCC) and the Climate Change Commission (CCC) for qualitative descriptions, population demographics and socio-economic assumptions.\" And: \"The climate scenario analysis was focused on Z's domestic operations.\"",
+      "location_hint": "Strategy section, p.12",
+      "confidence": "high",
+      "notes": "Z developed its own scenario architecture and narratives internally, tailored to its domestic (Aotearoa New Zealand) transport operations context, drawing on but not simply adopting international scenarios off-the-shelf. The scenarios were also focused specifically on the transport sector and Z's business model.",
+      "verification": 5,
+      "ani_notes": "Self- developed three new temperature-aligned climate scenarios to assess its climate-related risks and opportunities and to further understand the resilience of its business model and strategy from above.",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes – there is evidence of participatory/collaborative elements in scenario development, including internal stakeholder engagement and participation in an industry working group.",
+      "evidence": "\"Tested and refined climate scenarios through small group interviews and discussions with key internal stakeholders identified in Step 2 and reviewed by ZLT and Z Board.\" And: \"Z has been an active contributor and member of the Transport Sector Climate Scenarios Working Group in a process facilitated by the Aotearoa Circle. Z has also participated in integration workshops between the transport and energy sector workstreams to understand interdependencies between the sectors.\"",
+      "location_hint": "Strategy section, p.11 (scenario process steps) and p.12 (Aotearoa Circle)",
+      "confidence": "medium",
+      "notes": "The internal process involved stakeholder interviews and board review. The Aotearoa Circle working group participation is collaborative but relates to industry-level scenarios not yet finalised. The term \"co-produce\" or \"co-design\" is not used explicitly, but the process clearly involved participatory elements.",
+      "verification": 5,
+      "ani_notes": "Yes - co produced with Business Energy Council?",
+      "verification_status": "re-scored: answer flipped, gold label from earlier verification"
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "No explicit standalone \"baseline\" scenario is described. However, the \"Hothouse\" scenario (Current Policies) functions as a high-warming reference point, and baseline assumptions for population growth and demographics are noted as consistent across all three scenarios.",
+      "evidence": "\"Baseline assumptions such as population growth and demographic shifts are assumed to be consistent across the three climate scenarios and in accordance with Statistics New Zealand projections, adopting the approach taken by NGFS and IEA.\" The Hothouse scenario is described as: \"Current Policies, 'hothouse' scenario that leads to global warming of over 3°C. Assumes only currently implemented policies are preserved.\"",
+      "location_hint": "Scenario architecture table, p.12",
+      "confidence": "medium",
+      "notes": "There is no scenario explicitly labelled \"baseline\" or \"reference scenario.\" The Hothouse/Current Policies scenario is the closest analogue to a business-as-usual baseline. Baseline assumptions (population, demographics) are shared across all three scenarios.",
+      "verification": 1,
+      "ani_notes": "Baseline assumptions such as population growth and demographic shifts are assumed to be consistent across the three climate scenarios and in accordance with Statistics New Zealand projections6, adopting the approach taken by NGFS and IEA.",
+      "verification_status": "re-scored: answer flipped, gold label from earlier verification"
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": [
+        "NGFS Global Change Assessment Model (GCAM)",
+        "IEA model (unnamed, used for comparative purposes)"
+      ],
+      "evidence": "\"Quantitative fuel demand projections for each scenario were developed through detailed analysis of energy demand for transport data from the NGFS Global Change Assessment Model (GCAM) (AU and NZ) and using the IEA model for comparative purposes.\"",
+      "location_hint": "Scenario architecture table footnote, p.12",
+      "confidence": "high",
+      "notes": "GCAM is explicitly named. The IEA model is referenced but not named specifically. Pattle Delamore Partners and PwC conducted the physical risk assessment but no specific climate model name is given for that work.",
+      "verification": 5,
+      "ani_notes": "Quantitative fuel demand projections for each scenario were developed through detailed analysis of energy demand for transport data from the NGFS Global Change Assessment Model (GCAM) (AU and NZ) and using the IEA model for comparative purposes.",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "\"Following the analysis of projected climate changes at each site, a financial impact assessment of the potential damage costs to assets caused by climate-related physical risks was completed. The financial assessment concluded that damage to assets is estimated to be minimal out to 2040, with operational disruption due to the impacts of climate change likely to be more significant.\" Also: \"Z estimates the collective impact of Cyclone Gabrielle and the Auckland Anniversary Floods to be approximately $7.4 million, with the majority of costs relating to lost revenue, additional shipping costs and the last-minute sale of an import cargo.\"",
+      "location_hint": "Physical risk section, p.15; Current climate impacts, p.10",
+      "confidence": "high",
+      "notes": "Both forward-looking scenario-based damage cost estimates and historical quantified financial impacts from acute events (Cyclone Gabrielle, Auckland floods) are included.",
+      "verification": 5,
+      "ani_notes": "The costs of extreme weather across Z’s assets was also considered at this point.",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "carbon price",
+        "oil price volatility",
+        "sea-level rise",
+        "precipitation",
+        "drought",
+        "wind",
+        "technology change (EV adoption, low carbon fuels)",
+        "customer attitudes and behaviour",
+        "macro-economic factors (economic growth, migration)",
+        "access to finance and insurance",
+        "domestic policy response",
+        "regional variation in climate action",
+        "fuel demand",
+        "population growth and demographic shifts"
+      ],
+      "evidence": "\"Carbon price: Steady rise, incentives for native afforestation / High volatility and reliance on forests / Decreasing, no incentives for afforestation. Oil price volatility: Increasing volatility / Increasing volatility / Highest volatility. Technology change: Fast, keeps pace with world / Behind pace of world / Slow worldwide.\" And: \"A regional high-level assessment of the projected changes in climate indicators (sea-level rise, precipitation, wind and drought) was conducted across Z's assets.\"",
+      "location_hint": "Scenario architecture table, p.12; Physical risk assessment, p.7",
+      "confidence": "high",
+      "notes": "The scenario architecture table explicitly lists these variables across the three scenarios. Physical risk assessment uses sea-level rise, precipitation, wind, and drought as climate indicators.",
+      "verification": 5,
+      "ani_notes": " carbon price; oil price volatility; technology change; customer attitude; macro economic factors; access to finance and insurance",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "\"Z selected the Network for Greening the Financial System (NGFS) scenarios as the most suitable for drawing on for quantitative analysis. Key considerations for this selection included the availability of regional- or country-level data for Aotearoa New Zealand...\" And: \"A regional high-level assessment of the projected changes in climate indicators (sea-level rise, precipitation, wind and drought) was conducted across Z's assets from 2025, 2030 and 2040 under three climate scenarios.\" And: \"NIWA Climate Change projections for New Zealand\" is listed as an archetype source for all three scenarios.",
+      "location_hint": "Strategy section, p.12; Risk Management section, p.7",
+      "confidence": "high",
+      "notes": "Global scenarios (NGFS, IEA, IPCC) are used as the basis, with regional/country-level data for New Zealand drawn from NGFS and NIWA. The physical risk assessment was conducted at a regional level across Z's New Zealand assets.",
+      "verification": 5,
+      "ani_notes": "Regional variations in scenarios (medium - green road, high for road block and low- hot house world)",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Three time horizons are used: Short-term (2024–2028), Medium-term (2029–2035), and Long-term (2036–2050). Rationales are explicitly provided for each. The physical risk assessment also used 2025, 2030, and 2040 as time periods.",
+      "evidence": "\"Time horizons: Short-term 2024–2028 – Aligns with current strategic cycle. Medium-term 2029–2035 – Aligns with Z's enterprise strategic scenario analysis done as part of the development of its strategy. Long-term 2036–2050 – Aligns with Ampol's target and Aotearoa New Zealand's domestic target under the Climate Change Response Act 2002.\"",
+      "location_hint": "Scenario architecture table, p.12",
+      "confidence": "high",
+      "notes": "Rationales are explicitly stated for all three time horizons. The physical risk assessment used 2025, 2030, and 2040 as time periods, with the note that \"These time horizons were chosen to align with Z's 2022 scenario analysis.\"",
+      "verification": 5,
+      "ani_notes": "Short-term: 2024-2028 (Aligns with current strategic cycle) Medium-term: 2029-2035 (Aligns with Z’s enterprise strategic scenario analysis done as part of the development of its strategy) Long term: 2036-2050 (Aligns with Ampol’s target and Aotearoa New Zealand’s domestic target under the Climate Change Response Act 2002.)",
+      "verification_status": "transferred - answer reworded, check"
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Yes",
+      "evidence": "\"Z selected the Network for Greening the Financial System (NGFS) scenarios as the most suitable for drawing on for quantitative analysis. Key considerations for this selection included the availability of regional- or country-level data for Aotearoa New Zealand, whether the data contained the required temperature pathways to comply with NZ CS 1 and whether the models contained metrics and data relevant to transport energy and fuel volumes.\"",
+      "location_hint": "Strategy section, p.12",
+      "confidence": "high",
+      "notes": "The justification is explicit and covers three criteria: (1) availability of NZ regional/country-level data, (2) compliance with NZ CS 1 temperature pathway requirements, and (3) relevance of metrics to transport energy and fuel volumes.",
+      "verification": 5,
+      "ani_notes": "Yes: - Z selected the Network for Greening the Financial System (NGFS) scenarios as the most suitable for drawing on for quantitative analysis.",
+      "verification_status": "transferred"
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "Yes – the document describes historical physical climate impacts from the Auckland Anniversary Weekend floods and Cyclone Gabrielle in 2023, including direct asset damage, business disruption, and a quantified financial impact of approximately $7.4 million.",
+      "evidence": "\"The Auckland Anniversary Weekend floods and Cyclone Gabrielle in 2023 caused localised flooding, major slips on supply routes and communication outages in the Gisborne and Hawke's Bay regions... Z estimates the collective impact of Cyclone Gabrielle and the Auckland Anniversary Floods to be approximately $7.4 million, with the majority of costs relating to lost revenue, additional shipping costs and the last-minute sale of an import cargo.\"",
+      "location_hint": "Current climate impacts section, p.10",
+      "confidence": "high",
+      "notes": "Detailed descriptions of direct asset damage (flooding of retail sites and truck stops), business disruption (supply chain, port operations, road closures), and a quantified collective financial impact are provided.",
+      "verification": 5,
+      "ani_notes": "Yes, In 2023, Z has experienced extreme weather events, market changes affecting petrol demand and increased uptake of Evs. The Auckland Anniversary Weekend floods and Cyclone Gabrielle in 2023 caused localised flooding, major slips on supply routes and communication outages in the Gisborne and Hawke’s Bay regions. Z estimates the collective impact of Cyclone Gabrielle and the Auckland Anniversary Floods to be approximately $7.4 million, with the majority of costs relating to lost revenue, additional shipping costs and the last-minute sale of an import cargo."
+,
+      "verification_status": "new question - needs verification"
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "both",
+      "evidence": "Direct: \"The Auckland flooding events caused significant flooding and associated clean‑up costs at one Z retail site and minor water damage to twelve other Z retail site buildings across the Auckland region... Cyclone Gabrielle caused major building damage at one Z retail site and complete inundation of three truck stops in the Hawke's Bay region.\" Indirect: \"Both Aotearoa New Zealand and its international trading partners face challenges from extreme weather disrupting standard supply routes for transport fuels and convenience retail products.\" And: \"Z's assessment will continue to focus on cascading risks, such as landslips caused by wet weather events, to better understand potential disruptions to the supply of fuel products from ports, terminals, and retail sites. This supply chain disruption is likely to present the more material financial risk to Z.\"",
+      "location_hint": "Current climate impacts, p.10; Physical risks anticipated impacts table, p.15; Risk Management, p.7",
+      "confidence": "high",
+      "notes": "Direct physical risks are explicitly described (damage to Z's own retail sites, terminals, truck stops). Indirect physical risks are also explicitly described through supply chain disruption, port impacts, road closures affecting logistics, and impacts on international trading partners' supply routes.",
+      "verification": 5,
+      "ani_notes": "Both: Supply chain disruption Extreme weather and market disorder causing supply chain disruption."
+,
+      "verification_status": "new question - needs verification"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "source": "AIA_NEW_ZEALAND_LIMITED_2023",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "chunk_mode": "child",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 26127,
+      "total_tokens": 30447,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_creation": 0,
+        "cache_read": 0
+      },
+      "output_tokens": 4320
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "AIA NZ used three climate scenarios: 1) Net-Zero 2050 (Orderly), 2) Delayed Transition (Disorderly), and 3) Current Policies (Hothouse).",
+      "evidence": "\"NET-ZERO 2050 (ORDERLY​)​ | DELAYED TRANSITION​ (DISORDERLY)​ | CURRENT POLICIES (HOTHOUSE​)​\"",
+      "location_hint": "Section 2.3, page 10",
+      "confidence": "high",
+      "notes": "The three scenarios are clearly listed in the table summarising sources of data used in construction of scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Under the \"Current Policies\" (Hothouse) scenario, emissions grow until 2080 leading to 3°C of warming by 2100. Under a more aggressive transition scenario, warming is limited to below 2°C.",
+      "evidence": "\"This scenario assumes the continuation of any currently implemented climate policies and no further action. There is slow technology uptake and low CO2 removal, with emissions growing until 2080 leading to 3°C of warming and severe physical risks.\" and \"transition impacts are exacerbated with many industries and individuals finding it challenging to adapt to the pace of change as governments push through changes in regulation to limit warming to below 2 °C.\"",
+      "location_hint": "Section 2.7, p.13",
+      "confidence": "high",
+      "notes": "Two scenarios are described: (1) Current Policies/Hothouse → 3°C of warming; (2) a transition scenario targeting below 2°C. No single definitive \"global temperature outcome by 2100\" is stated, as it depends on the scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "NGFS (Network for Greening the Financial System)",
+      "evidence": "The graphic adopted from the Network for Greening the Financial System (NGFS) depicts the relative magnitude of transition and physical risks under the scenarios identified by AIA NZ.",
+      "location_hint": "Page 9",
+      "confidence": "high",
+      "notes": "The FSC (Financial Services Council of New Zealand) also provided one of the scenarios, but the primary scenario framework/graphic provider is NGFS.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "The document uses the following SSP/RCP combinations: SSP1-1.9 paired with RCP2.6 (used twice, for both orderly/net zero and delayed transition scenarios), and SSP5-8.5 paired with RCP8.5 (for the hot house/current policies scenario).",
+      "evidence": "SSP1-1.9, RCP2.6​ SSP1-1.9, RCP2.6​ SSP5-8.5, RCP8.5",
+      "location_hint": "Page 10",
+      "confidence": "high",
+      "notes": "The document lists three scenario rows with IPCC SSP and RCP pairings: SSP1-1.9/RCP2.6 appears twice (corresponding to NGFS Net Zero 2050 and NGFS Delayed Transition scenarios), and SSP5-8.5/RCP8.5 once (corresponding to NGFS Current Policies scenario).",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes, AIA NZ developed internally developed (customised) scenarios, cross-checked for consistency against the FSC scenarios. These internally consistent scenarios were developed by aligning sources of data with reference to the XRB guidance, and summaries were produced outlining key physical and socioeconomic impacts.",
+      "evidence": "\"scenario analysis was relevant to our business internally developed scenarios were utilised, with these cross-checked for consistency against the FSC scenarios. Internally consistent scenarios were developed through aligning sources of data with reference to the XRB guidance. Summaries of the scenarios were produced outlining key physical and socioeconomic impacts both\"",
+      "location_hint": "Page 11",
+      "confidence": "high",
+      "notes": "The context confirms internally developed (customised) scenarios were used and cross-checked against FSC scenarios, with XRB guidance as a reference. The quote appears to be cut off at the end (\"both\"), so full details of the socioeconomic impacts listed may not be captured.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "AIA NZ developed internally consistent scenarios, cross-checked against FSC (Financial Services Council) scenarios. The scenarios were developed by aligning sources of data with reference to XRB guidance, and summaries were produced outlining key physical and socioeconomic impacts. Scenario analysis workshops were conducted with staff, and engagement with business leaders and subject matter experts across AIA NZ supported identification and assessment of inherent key climate-related risks.",
+      "evidence": "\"scenario analysis was relevant to our business internally developed scenarios were utilised, with these cross-checked for consistency against the FSC scenarios. Internally consistent scenarios were developed through aligning sources of data with reference to the XRB guidance. Summaries of the scenarios were produced outlining key physical and socioeconomic impacts both\"",
+      "location_hint": "Page 11",
+      "confidence": "high",
+      "notes": "The scenarios were internally developed but cross-checked against FSC (Financial Services Council) scenarios. No external co-production with third-party organisations is explicitly mentioned; the process involved internal staff, business leaders, and subject matter experts.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "AIA NZ used three climate scenarios: (1) Net-Zero 2050 (Orderly), (2) Delayed Transition (Disorderly), and (3) Current Policies (Hothouse). Data sources include the Intergovernmental Panel on Climate Change (IPCC) for global climate and socioeconomic parameters, as well as NGFS and NIWA.",
+      "evidence": "\"NET-ZERO 2050 (ORDERLY​)​ | DELAYED TRANSITION​ (DISORDERLY)​ | CURRENT POLICIES (HOTHOUSE​)​ | Global Climate and Socioeconomic parameters | Intergovernmental Panel on Climate change\"",
+      "location_hint": "Section 2.3, p.11",
+      "confidence": "high",
+      "notes": "The three scenarios are clearly named. Data sources include IPCC, NGFS (referenced in section 2.8), and NIWA (referenced in section 2.8). Full details of all data sources per scenario are partially cut off in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context mentions scenario analysis and data sources (e.g., IPCC for global climate and socioeconomic parameters) but does not explicitly name a specific climate model used for the analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. AIA NZ considers damage from acute physical risks, specifically local increases in extreme weather events such as floods and cyclones. The 2023 Auckland/Northland flooding and Cyclone Gabrielle are cited as examples, with widespread damage to infrastructure and supply chains. These acute physical risks are identified as affecting business disruption, morbidity, mortality, lapse & sales, and pandemic and catastrophe outcomes across operations, insurance & reinsurance, investments, and reputation & regulatory areas.",
+      "evidence": "\"Local increase in extreme weather events (flood, cyclone) — Business disruption, Morbidity, Mortality, Lapse & Sales, Pandemic and Catastrophe\" and \"In early 2023, the flooding experienced in Auckland and Northland, as well as Cyclone Gabrielle which impacted much of the North Island including the Hawkes Bay, highlighted New Zealand's vulnerability to extreme weather events. Widespread damage impacted infrastructure and supply chains\"",
+      "location_hint": "Pages 9 and 14",
+      "confidence": "high",
+      "notes": "The document explicitly categorises floods and cyclones as acute physical risks and maps their impacts across multiple business dimensions.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context does not contain any explicit discussion of non-temperature variables (e.g., precipitation, sea level rise, wind, humidity) used in the climate scenarios. The only variable specifically mentioned in relation to scenarios is NIWA temperature projections for physical risk sizing.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "AIA NZ used scenarios at a national/country level (New Zealand), with physical risk projections based on NIWA temperature projections and transition risk based on NGFS (Network for Greening the Financial System) scenarios. The scenarios cover three different warming pathways, with analysis of both physical and transition risks and opportunities over time.",
+      "evidence": "\"*Relative size of physical risk over time based on NIWA temperature projections *Relative size of transition risk based on NGFS graphic with timing based on NGFS descriptors of scenario\"",
+      "location_hint": "Page 13, Section 2.8",
+      "confidence": "medium",
+      "notes": "The context indicates scenarios are informed by NIWA (a New Zealand-specific body) for physical risks and NGFS for transition risks, suggesting a national scale with global scenario frameworks applied. The exact geographic scale (national vs. global) is not explicitly stated but strongly implied by the NZ-specific references.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "AIA NZ uses short-term, medium-term, and long-term time frames in its climate-related disclosures. Short-term and medium-term horizons are referenced in scenario analysis (e.g., one scenario explores high transition risk over a short time-frame, another explores highest transition risk over a medium timeframe). Long-term risks and opportunities are described as fundamental to the business as a life insurer, with physical risk impacts noted as material in the medium to long term.",
+      "evidence": "\"Explores high transition risk and opportunities over short time-frame\" / \"Explores highest transition risk over medium timeframe\" / \"as a life insurer, long term risks and opportunities are fundamental to our business\" / \"The effect of climate change represents a source of uncertainty in the medium to long term.\"",
+      "location_hint": "Pages 10, 15, 20",
+      "confidence": "high",
+      "notes": "The document references short, medium, and long-term time frames across different sections but does not provide explicit year ranges defining each horizon in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "AIA NZ used internally developed scenarios, cross-checked for consistency against the FSC (Financial Services Council) scenarios. These internally consistent scenarios were developed by aligning sources of data with reference to the XRB (External Reporting Board) guidance.",
+      "evidence": "\"scenario analysis was relevant to our business internally developed scenarios were utilised, with these cross-checked for consistency against the FSC scenarios. Internally consistent scenarios were developed through aligning sources of data with reference to the XRB guidance.\"",
+      "location_hint": "Page 11",
+      "confidence": "high",
+      "notes": "The justification is that internally developed scenarios were chosen as most relevant to the business, validated by cross-checking against FSC scenarios and aligned with XRB guidance. No specific named global models (e.g., IPCC, IEA) are mentioned in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context passages discuss forward-looking climate risks, opportunities, and risk assessment frameworks, but do not contain any information about historic (past) climate impacts experienced by the organization.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context references climate-related risks broadly (physical, transitional, and liability risks) and mentions a table of climate-related risks and opportunities identified through scenario analysis (p.14-15), but does not provide specific details about direct and indirect physical climate risks. The actual content of the risk table is not included in the retrieved passages.",
+      "verification": null
+    }
+  ]
+}
