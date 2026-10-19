@@ -1,0 +1,170 @@
+{
+  "source": "SEEKA_LIMITED_2023",
+  "model_id": "claude-sonnet-4-6",
+  "k": 20,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "output_tokens": 6168,
+      "total_tokens": 156952,
+      "input_tokens": 150784,
+      "input_token_details": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0,
+        "cache_creation": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Seeka analysed three climate scenarios: (1) 1.5 degree scenario (RCP2.6), (2) 2.1–3.0 degree warming scenario (RCP4.5), and (3) 3.1 to 4 degree scenario (RCP8.5).",
+      "evidence": "\"1.5 degree scenario: Under the RCP2.6 Seeka anticipates impacts include changes to the growing environment and occasional severe climate-related events... 2.1 - 3.0 degree warming: Under the RCP4.5 scenario Seeka's kiwifruit growing environment could encounter challenges like altered precipitation patterns, potential shifts in growing seasons, and increased severe weather events... 3.1 to 4 degree scenario: Under the RCP8.5 scenario Seeka may confront challenges, including more frequent extreme weather events, temperature extremes, and possible disruptions to the supply chain.\"",
+      "location_hint": "Section: Strategy / Scenario Analyses Undertaken, p.4",
+      "confidence": "high",
+      "notes": "All three scenarios are explicitly named and described in the document, mapped to RCP pathways (RCP2.6, RCP4.5, RCP8.5).",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Seeka's climate scenarios cover three temperature outcomes: 1.5°C (RCP2.6), 2.1–3.0°C (RCP4.5), and 3.1–4.0°C (RCP8.5). The document does not specify a single global temperature outcome by 2100, but the highest scenario modelled is 3.1 to 4 degrees Celsius.",
+      "evidence": "\"1.5 degree scenario... Under the RCP2.6... 2.1 - 3.0 degree warming... Under the RCP4.5 scenario... 3.1 to 4 degree scenario... Under the RCP8.5 scenario\"",
+      "location_hint": "Page 4 and Page 12, Scenario Analyses Undertaken",
+      "confidence": "medium",
+      "notes": "The document presents three scenario temperature ranges rather than a single projected global temperature outcome by 2100. The scenarios are expressed as ranges (1.5°C, 2.1–3.0°C, 3.1–4.0°C) aligned with RCP pathways, not as a single endpoint prediction for 2100.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "NIWA (National Institute of Water and Atmospheric Research)",
+      "evidence": "Seeka chose to use NIWA (National Institute of Water and Atmospheric Research) modeling as it is recognized as a leading scientific institution with expertise in climate modeling in New Zealand. NIWA's projections are tailored to regional New Zealand's specific climate conditions. NIWA's modeling covers a range of Representative Concentration Pathways (RCPs), which represent different greenhouse gas concentration trajectories.",
+      "location_hint": "Page 13",
+      "confidence": "high",
+      "notes": "NZ Plant and Food research was also used as a supplementary data source for conclusions on suitable growing areas, but NIWA is the primary scenario provider.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Seeka uses RCPs (Representative Concentration Pathways) only — specifically RCP2.6 (1.5°C scenario), RCP4.5 (2.1–3.0°C scenario), and a 3.1–4.0°C scenario (implied RCP6.0/8.5). No SSPs (Shared Socioeconomic Pathways) are mentioned.",
+      "evidence": "\"Seeka began with climate risk projections provided by NIWA (National Institute of Water and Atmospheric Research) under Representative Concentration Pathways (RCPs). These pathways represent different greenhouse gas concentration trajectories... NIWA's modeling covers a range of Representative Concentration Pathways (RCPs), which represent different greenhouse gas concentration trajectories.\" And: \"Under the RCP2.6 Seeka anticipates impacts include changes to the growing environment...\" / \"Under the RCP4.5 scenario Seeka's kiwifruit growing environment could encounter challenges...\"",
+      "location_hint": "Pages 4, 12, 13",
+      "confidence": "high",
+      "notes": "The document exclusively references RCPs (RCP2.6, RCP4.5, and a 3.1–4.0°C scenario). No SSPs are mentioned anywhere in the retrieved context. The three scenarios used are: 1.5°C (RCP2.6), 2.1–3.0°C (RCP4.5), and 3.1–4.0°C warming (RCP not explicitly named for the third scenario).",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "No customised scenarios were used. Seeka used three standard temperature-based scenarios aligned to IPCC RCP pathways: (1) 1.5 degree scenario (RCP2.6), (2) 2.1–3.0 degree warming (RCP4.5), and (3) 3.1 to 4 degree scenario (RCP8.5). These were not customised scenarios but standard published pathways, with data sourced from NIWA and NZ Plant and Food Research.",
+      "evidence": "\"Seeka began with climate risk projections provided by NIWA (National... Seeka have used the information provided by NIWA which focused on nationwide climate change impacts, with a detailed emphasis on the Bay of Plenty, to assess the likely impact of these scenarios. Research prepared by NZ Plant and Food (https://www.plantandfood.com/en-nz/article/climate-change-impacts-on-kiwifruit/) has also been used to draw conclusions on suitable growing areas in the future.\"",
+      "location_hint": "Page 13, Scenario Relevance and Datasources",
+      "confidence": "high",
+      "notes": "The document does not indicate any customised/bespoke scenarios were developed. All three scenarios (1.5°C/RCP2.6, 2.1–3.0°C/RCP4.5, 3.1–4°C/RCP8.5) are standard IPCC RCP pathways applied to Seeka's context using external data from NIWA and NZ Plant and Food Research. No mention of proprietary or customised scenario modelling is found in the context.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "No co-produced climate scenarios. Seeka used externally provided climate scenarios from NIWA (National Institute of Water and Atmospheric Research), with no external stakeholder involvement noted in scenario co-production. The \"Stakeholder Involvement\" field is listed as \"None.\"",
+      "evidence": "\"Seeka chose to use NIWA (National Institute of Water and Atmospheric Research) modeling as it is recognized as a leading scientific institution with expertise in climate modeling in New Zealand. NIWA's projections are tailored to regional New Zealand's specific climate conditions. NIWA's modeling covers a range of Representative Concentration Pathways (RCPs), which represent different greenhouse gas concentration trajectories. ... Stakeholder Involvement: None\"",
+      "location_hint": "Page 13",
+      "confidence": "high",
+      "notes": "The document explicitly states \"None\" under \"Stakeholder Involvement\" in the Scenario Analysis Process table, indicating no co-production of climate scenarios with external partners or stakeholders.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Seeka used three baseline scenarios based on Representative Concentration Pathways (RCPs) provided by NIWA:\n1. 1.5 degree scenario (RCP2.6)\n2. 2.1–3.0 degree warming scenario (RCP4.5)\n3. 3.1 to 4 degree scenario (RCP8.5)",
+      "evidence": "\"Seeka began with climate risk projections provided by NIWA (National Institute of Water and Atmospheric Research) under Representative Concentration Pathways (RCPs). These pathways represent different greenhouse gas concentration trajectories... Under the RCP2.6 Seeka anticipates impacts include changes to the growing environment and occasional severe climate-related events... Under the RCP4.5 scenario Seeka's kiwifruit growing environment could encounter challenges... Under the RCP8.5 scenario Seeka may confront challenges, including more frequent extreme weather events...\"",
+      "location_hint": "Pages 4, 13",
+      "confidence": "high",
+      "notes": "The three scenarios are explicitly named and linked to RCP pathways (RCP2.6, RCP4.5, RCP8.5), with NIWA modeling as the primary data source. NZ Plant and Food research was also used as a supplementary source.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "NIWA (National Institute of Water and Atmospheric Research) modeling, using Representative Concentration Pathways (RCPs)",
+      "evidence": "Seeka chose to use NIWA (National Institute of Water and Atmospheric Research) modeling as it is recognized as a leading scientific institution with expertise in climate modeling in New Zealand. NIWA's projections are tailored to regional New Zealand's specific climate conditions. NIWA's modeling covers a range of Representative Concentration Pathways (RCPs), which represent different greenhouse gas concentration trajectories.",
+      "location_hint": "Page 13",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Seeka considers damage from acute physical risks, specifically: (1) extreme weather events (heavy rain/flooding, frost, hail, high winds, heat waves, and fire) that can physically damage plants and fruit, reducing yields and quality; and (2) new pests and diseases surviving due to reduced frost events. In the 2023 harvest season, Seeka was impacted by frost, hail, and two cyclone events, resulting in much lower yields than anticipated. The anticipated financial impact is up to -$25,000,000.",
+      "evidence": "\"Extreme weather events leading to a reduction in fruit yields and fruit quality. Acute Physical Medium Medium Short Term Extreme weather events such as heavy rain (flooding), frost, hail, high winds, heat waves and fire can physically damage plants and fruit. These events can damage plants and fruit yields and quality.\" and \"In the 2023 harvest season across New Zealand and Australia, Seeka was impacted by a frost, hail, and two Cyclone events. This resulted in much lower yields than anticipated.\"",
+      "location_hint": "Page 5 and Page 3",
+      "confidence": "high",
+      "notes": "The document explicitly identifies acute physical risks including extreme weather events and new pests/diseases, with quantified financial impacts ranging from -$25,000,000 to $0.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include the following non-temperature variables: precipitation patterns (altered precipitation patterns), severe weather events (frequency of extreme weather events), growing seasons (potential shifts), carbon prices (higher carbon prices for inputs), energy pathways (transition from fossil fuels to renewables), policy/socioeconomic assumptions (stricter GHG regulations, carbon import restrictions, shifts in investment patterns), and winter chill hours (decreased chill hours affecting growing suitability).",
+      "evidence": "\"Under the RCP4.5 scenario Seeka's kiwifruit growing environment could encounter challenges like altered precipitation patterns, potential shifts in growing seasons, and increased severe weather events... this scenario may bring about higher carbon prices for inputs to Seeka's business... Climate related policies will likely evolve to include stricter regulations on greenhouse gas emissions and the import of goods with a high carbon footprint... Energy sources will transition from fossil fuels to renewable energy sources, such as solar, wind, and hydropower... decreased winter chill hours will reduce the growing suitability in Northland and coastal Bay of Plenty.\"",
+      "location_hint": "Pages 4 and 12",
+      "confidence": "high",
+      "notes": "Non-temperature variables are discussed across the scenario descriptions (RCP2.6, RCP4.5, RCP8.5) and the emission reduction pathways section. They include precipitation, growing seasons, extreme weather events, carbon prices, energy pathways, policy/regulatory changes, socioeconomic changes, and winter chill hours.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "All three scenarios are applied at the Company Wide scale (covering all of Seeka's operations).",
+      "evidence": "1.5 degree scenario: \"One Point Five Degrees Celsius | Company Wide | Medium Term\"; 2.1 - 3.0 degree warming: \"Two Point One To Three Degrees Celsius | Company Wide | Medium Term\"; 3.1 to 4 degree scenario: \"Three Point One To Four Degrees Celsius | Company Wide | Medium Term\". Additionally: \"All Seeka's operations are considered when developing and analysing climate scenarios.\"",
+      "location_hint": "Page 4 and Page 12, Scenario Analyses Undertaken / Emission Reduction Pathways",
+      "confidence": "high",
+      "notes": "All three scenarios (1.5°C, 2.1–3.0°C, and 3.1–4°C) are explicitly stated as \"Company Wide\" in scope, covering all of Seeka's operations.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Seeka defines three climate planning horizons and two business planning horizons:\n\n**Climate Planning Horizons:**\n- Short Term: 2019–2025\n- Medium Term: 2026–2030\n- Long Term: 2031–2050\n\n**Business Planning Horizons:**\n- Financial year budget process: 2024–2025\n- Seeka long term strategic planning: 2023–2028",
+      "evidence": "Short Term 2019 2025 / Medium Term 2026 2030 / Long Term 2031 2050 / Climate Planning Horizon Horizon Start Horizon End / Business Planning Horizons / Financial year budget process: Budgeted and business planning for the next calendar year, including capital expenditure allocation. 2024 2025 / Seeka long term strategic planning: Seeka's business strategy planning process. This process looks at short, medium and long term risks, opportunities and impacts to the business, and applies this over our annual business/strategy development process. 2023 2028",
+      "location_hint": "Page 4",
+      "confidence": "high",
+      "notes": "The climate planning horizons and business planning horizons are explicitly tabulated on page 4 of the disclosure document.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Seeka chose to use NIWA (National Institute of Water and Atmospheric Research) modeling because it is recognized as a leading scientific institution with expertise in climate modeling in New Zealand. NIWA's projections are tailored to regional New Zealand's specific climate conditions, and NIWA's modeling covers a range of Representative Concentration Pathways (RCPs), which represent different greenhouse gas concentration trajectories.",
+      "evidence": "\"Seeka chose to use NIWA (National Institute of Water and Atmospheric Research) modeling as it is recognized as a leading scientific institution with expertise in climate modeling in New Zealand. NIWA's projections are tailored to regional New Zealand's specific climate conditions. NIWA's modeling covers a range of Representative Concentration Pathways (RCPs), which represent different greenhouse gas concentration trajectories.\"",
+      "location_hint": "Page 13",
+      "confidence": "high",
+      "notes": "The justification is explicitly stated in the \"Reason for Selection of Model\" column of the Scenario Analysis Process table on page 13. NZ Plant and Food research was also used as a supplementary data source for conclusions on suitable growing areas.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "Seeka's current (historic) climate impacts include: (1) Carbon costs increasing cost of goods sold — the cost of carbon has led to an increase in costs related to fuel, fertiliser, electricity and refrigerant gas inputs (financial impact: -$500,000 to -$100,000); (2) Sustainable financing in the form of a sustainability linked loan (NZD$201m) and green bonds are available (financial impact: -$100,000 to $100,000 on interest costs); and (3) Extreme weather events reducing crop yields and impacting fruit quality.",
+      "evidence": "\"Carbon costs increasing cost of goods sold: The cost of carbon has led to an increase in costs related to Seeka's fuel, fertiliser, electricity and refrigerant gas inputs. Seeka is exposed to the cost of carbon until we transition to low-carbon alternatives. Seeka invests in solar panels, is transitioning away from high global warming potential refrigerant gases and is encouraging the transition to hybrid leased vehicles. Cost Of Goods Sold -500,000 -100,000. Sustainable financing in the form of a sustainability linked loan and green bonds are available. Seeka has entered into a NZD$201m Sustainability Linked Loan, which has three targets that will generate a savings to interest cost if achieved and an increase in interest costs of not achieved. Interest Costs -100,000 100,000. Extreme weather events reducing crop yields and impacting fruit quality.\"",
+      "location_hint": "Page 3, Current Climate-related Impacts section",
+      "confidence": "high",
+      "notes": "The document lists these as \"Current physical and transition impacts,\" which represent the historic/current climate impacts experienced by Seeka.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Seeka identifies the following physical climate risks:\n1. **Acute/Direct – Changing weather patterns leading to a reduction in fruit yields and fruit quality** (Medium likelihood, Medium priority, Medium Term): Changing weather patterns could increase rainfall over summer and decrease winter chill hours over winter, leading to lower yields, reduced fruit quality and storage, and greater reliance on artificial budding chemicals. Droughts could degrade soil quality and biodiversity. Increasing winter temperatures may increase energy demand to cool fruit.\n2. **Acute/Direct – Extreme weather events leading to a reduction in fruit yields and fruit quality** (Medium likelihood, Medium priority, Short Term): Extreme weather events such as heavy rain (flooding), frost, hail, high winds, heat waves and fire can physically damage plants and fruit yields and quality.\n3. **Indirect – Rising sea levels can cause coastal erosion and rising water tables**: Rising sea levels could cause a rise in the water table and an increase in the salinity of ground water, causing rot. Unprotected coastal orchards are at increasing risk of coastal erosion. However, very few kiwifruit orchards and post-harvest operations are coastal and are not expected to be materially impacted.",
+      "evidence": "\"Changing weather patterns leading to a reduction in fruit yields and fruit quality. Acute Physical Medium Medium Medium Term — Changing weather patterns could increase rainfall over summer and decrease winter chill hours over winter which could lead to lower yields, reduced fruit quality and storage, and a greater reliance on artificial budding chemicals. An increase in the risk of droughts could lead to dryer soils degrading soil quality and biodiversity. Increasing winter temperatures may result in increasing energy demand to cool fruit. Extreme weather events leading to a reduction in fruit yields and fruit quality. Acute Physical Medium Medium Short Term — Extreme weather events such as heavy rain (flooding), frost, hail, high winds, heat waves and fire can physically damage plants and fruit. These events can damage plants and fruit yields and quality. Rising sea levels can cause coastal erosion and rising water tables — Rising sea levels could cause a rise in the water table and an increase in the salinity of ground water. Soils will no longer drain as freely causing rot. Unprotected coastal orchards are at increasing risk of coastal erosion. Very few kiwifruit orchards and post-harvest operations are coastal and are not expected to be impacted by rising sea levels.\"",
+      "location_hint": "Page 5–6, Climate related risks and Anticipated physical and transition impacts sections",
+      "confidence": "high",
+      "notes": "All three physical risks are explicitly listed in the document. The first two are classified as \"Acute Physical\" risks. The sea level/coastal erosion risk is also physical in nature. The document notes 50% of assets or business activities are vulnerable to physical risks.",
+      "verification": null
+    }
+  ]
+}

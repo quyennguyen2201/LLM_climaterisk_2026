@@ -1,0 +1,170 @@
+{
+  "source": "SPARK_NEW_ZEALAND_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 20,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "output_tokens": 7454,
+      "total_tokens": 166886,
+      "input_tokens": 159432,
+      "input_token_details": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0,
+        "cache_creation": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Three climate scenarios were used:\n1. Scenario #1: Orderly transition – New Zealand and the world transitions to net zero by 2050 with strong policy and market changes clearly signalled by the government. Physical impacts from climate change are limited and align with the SSP1-1.9 scenario. Average global temperatures are limited to 1.5 degrees above pre-industrial levels by 2050.\n2. Scenario #2: Disorderly transition – New Zealand and the developed world are delayed in their transition to net zero. This results in a steady increase in temperature and physical impacts in alignment with SSP2-4.5 (2 degrees by mid-century). By 2030, prompted by a number of significant weather events, New Zealand and the developed world realise that urgent action is needed to reach net zero, which results in poorly signalled policy and market changes coinciding with increased adaptation and recovery costs creating significant medium-term challenges.\n3. Scenario #3: Hothouse – New Zealand and the world abandon net zero targets, and there is no national or global movement to reduce emissions. Existing policies are reversed, and fossil fuel use continues. Physical impacts from climate change are severe with annual average global temperatures rising to 2 degrees above pre-industrial levels by 2050 and 3.6 degrees by 2100 (in alignment with SSP3-7.0).",
+      "evidence": "\"Scenario #1: Orderly transition... New Zealand and the world transitions to net zero by 2050 with strong policy and market changes clearly signalled by the government. Physical impacts from climate change are limited and align with the SSP1-1.9 scenario. Average global temperatures are limited to 1.5 degrees above pre-industrial levels by 2050. Scenario #2: Disorderly transition... New Zealand and the developed world are delayed in their transition to net zero. This results in a steady increase in temperature and physical impacts in alignment with SSP2-4.5 (2 degrees by mid-century). By 2030, prompted by a number of significant weather events, New Zealand and the developed world realise that urgent action is needed to reach net zero, which results in poorly signalled policy and market changes coinciding with increased adaptation and recovery costs creating significant medium-term challenges. Scenario #3: Hothouse... New Zealand and the world abandon net zero targets, and there is no national or global movement to reduce emissions. Existing policies are reversed, and fossil fuel use continues. Physical impacts from climate change are severe with annual average global temperatures rising to 2 degrees above pre-industrial levels by 2050 and 3.6 degrees by 2100 (in alignment with SSP3-7.0).\"",
+      "location_hint": "Annual Report.pdf, page 97, \"Our three climate scenarios\"",
+      "confidence": "high",
+      "notes": "The three scenarios are clearly and explicitly named and described in the document. Each scenario also references specific dataset sources (IPCC SSPs, NIWA RCPs, and Climate Change Commission pathways).",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Under the Hothouse scenario (Scenario #3), annual average global temperatures rise to 3.6 degrees above pre-industrial levels by 2100 (in alignment with SSP3-7.0). The Orderly transition scenario limits temperatures to 1.5°C above pre-industrial levels by 2050, and the Disorderly transition scenario aligns with 2 degrees by mid-century.",
+      "evidence": "Physical impacts from climate change are severe with annual average global temperatures rising to 2 degrees above pre-industrial levels by 2050 and 3.6 degrees by 2100 (in alignment with SSP3-7.0).",
+      "location_hint": "Annual Report.pdf, page 97",
+      "confidence": "high",
+      "notes": "The document provides a 2100 temperature outcome only for the Hothouse scenario (3.6°C). The Orderly and Disorderly scenarios only specify mid-century (2050) temperature targets, not explicit 2100 outcomes.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "The scenarios were developed through a sector-wide approach facilitated by environmental consultancy Tonkin + Taylor and the Telecommunications Forum (TCF). The scenarios draw from global and local scenario archetypes including the Intergovernmental Panel on Climate Change (IPCC) Shared Socioeconomic Pathways (SSPs), the National Institute of Water and Atmospheric Research (NIWA) representative concentration pathways (RCP), and the New Zealand Climate Change Commission decarbonisation pathways.",
+      "evidence": "\"The sector scenarios were developed through a series of workshops, facilitated by environmental consultancy Tonkin + Taylor and our industry body The Telecommunications Forum (TCF)... These scenarios align to the requirements in NZ CS 1 for entities to analyse three scenarios, and each draw from a range of widely used global and local scenario archetypes, for example the Intergovernmental Panel on Climate Change (IPCC) Shared Socioeconomic Pathways (SSPs), the National Institute of Water and Atmospheric Research (NIWA) representative concentration pathways (RCP) and the New Zealand Climate Change Commission decarbonisation pathways.\"",
+      "location_hint": "Page 95",
+      "confidence": "high",
+      "notes": "Multiple scenario providers/sources are referenced: Tonkin + Taylor (facilitator), TCF (industry body), IPCC, NIWA, and NZ Climate Change Commission.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Spark's three climate scenarios use the following SSP and RCP combinations:\n1. Orderly transition: SSP1-1.9 (IPCC) + RCP 2.6 (NIWA)\n2. Disorderly transition: SSP2-4.5 (IPCC) + RCP 4.5 (NIWA)\n3. Hothouse: SSP3-7.0 (IPCC) + RCP 8.5 (NIWA)",
+      "evidence": "Scenario datasets:\n• Intergovernmental Panel on Climate Change: SSP1-1.9 / NIWA: RCP 2.6 / Climate Change Commission: Tailwinds pathway\n• Intergovernmental Panel on Climate Change: SSP2-4.5 / NIWA: RCP 4.5 / Climate Change Commission: Headwinds pathway\n• Intergovernmental Panel on Climate Change: SSP3-7.0 / NIWA: RCP 8.5 / Climate Change Commission: Current policy",
+      "location_hint": "Annual Report.pdf, page 97",
+      "confidence": "high",
+      "notes": "Each scenario pairs an IPCC SSP with a NIWA RCP and a Climate Change Commission pathway. The SSP and RCP numbers do not perfectly match numerically (e.g., SSP3-7.0 paired with RCP 8.5), reflecting the \"pick-and-mix\" nature of the scenario construction.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes, Spark used customised (sector-specific) scenarios developed collaboratively across the telecommunications sector. The three scenarios draw from global and local archetypes (IPCC SSPs, NIWA RCPs, NZ Climate Change Commission decarbonisation pathways) but were tailored to the telecommunications sector through a series of workshops facilitated by Tonkin + Taylor and the Telecommunications Forum (TCF), guided by the focal question: \"How could climate change plausibly disrupt the telecommunications sector over the short (5 years), medium (15 years), and long-term (30+ years)?\" The three scenarios are: Orderly, Disorderly, and Hothouse.",
+      "evidence": "\"Over the past year Spark co-led a sector-wide approach to scenario development. A shared sector approach is recommended by the XRB. The sector scenarios were developed through a series of workshops, facilitated by environmental consultancy Tonkin + Taylor and our industry body The Telecommunications Forum (TCF). The process was guided by a focal question: 'How could climate change plausibly disrupt the telecommunications sector over the short (5 years), medium (15 years), and long-term (30+ years)?'... These scenarios align to the requirements in NZ CS 1 for entities to analyse three scenarios, and each draw from a range of widely used global and local scenario archetypes, for example the Intergovernmental Panel on Climate Change (IPCC) Shared Socioeconomic Pathways (SSPs), the National Institute of Water and Atmospheric Research (NIWA) representative concentration pathways (RCP) and the New Zealand Climate Change Commission decarbonisation pathways.\"",
+      "location_hint": "Annual Report.pdf, pages 95–96",
+      "confidence": "high",
+      "notes": "The scenarios are named Orderly, Disorderly, and Hothouse based on references in the risk tables (pages 100–101). They are sector-customised but grounded in recognised global archetypes. Specific assumptions excluded include energy pathways, carbon sequestration from afforestation, climate technology such as negative emissions technology, and nature-based solutions (per footnote on page 96).",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes. Spark co-led a sector-wide approach to scenario development, facilitated by environmental consultancy Tonkin + Taylor and the Telecommunications Forum (TCF). The sector consulted with the Ministry for the Environment, the Climate Change Commission, and representatives from the energy sector. The scenarios were designed and agreed in consultation across the sector.",
+      "evidence": "\"Over the past year Spark co-led a sector-wide approach to scenario development. A shared sector approach is recommended by the XRB. The sector scenarios were developed through a series of workshops, facilitated by environmental consultancy Tonkin + Taylor and our industry body The Telecommunications Forum (TCF)... Throughout the process the sector consulted with the Ministry for the Environment, the Climate Change Commission, and representatives from the energy sector who were integrated into the TCF process.\"",
+      "location_hint": "Annual Report.pdf, page 95",
+      "confidence": "high",
+      "notes": "While external stakeholders were involved in the sector-based scenario development, Spark's internal scenario analysis process did not involve external partners or stakeholders, as noted on page 96.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Spark used three climate scenarios: (1) Orderly transition – aligned with SSP1-1.9, NIWA RCP 2.6, and Climate Change Commission Tailwinds pathway (1.5°C by 2050); (2) Disorderly transition – aligned with SSP2-4.5, NIWA RCP 4.5, and Climate Change Commission Headwinds pathway (2°C by mid-century); (3) Hothouse – aligned with SSP3-7.0, NIWA RCP 8.5, and Climate Change Commission Current policy pathway (>3°C, rising to 3.6°C by 2100).",
+      "evidence": "\"Scenario datasets: [Scenario #1 Orderly transition] Intergovernmental Panel on Climate Change: SSP1-1.9 / NIWA: RCP 2.6 / Climate Change Commission: Tailwinds pathway. [Scenario #2 Disorderly transition] Intergovernmental Panel on Climate Change: SSP2-4.5 / NIWA: RCP 4.5 / Climate Change Commission: Headwinds pathway. [Scenario #3 Hothouse] Intergovernmental Panel on Climate Change: SSP3-7.0 / NIWA: RCP 8.5 / Climate Change Commission: Current policy.\"",
+      "location_hint": "Annual Report.pdf, page 97, \"Our three climate scenarios\" table",
+      "confidence": "high",
+      "notes": "The three scenarios draw from IPCC SSPs, NIWA RCPs, and NZ Climate Change Commission pathways. They were developed through a sector-wide process facilitated by Tonkin + Taylor and the Telecommunications Forum (TCF).",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "The document does not specify a single named model used for climate scenario analysis. The scenarios were developed using datasets from the IPCC Shared Socioeconomic Pathways (SSPs), NIWA representative concentration pathways (RCPs), and the New Zealand Climate Change Commission decarbonisation pathways. The scenario development process was facilitated by environmental consultancy Tonkin + Taylor and the Telecommunications Forum (TCF).",
+      "evidence": "\"These scenarios align to the requirements in NZ CS 1 for entities to analyse three scenarios, and each draw from a range of widely used global and local scenario archetypes, for example the Intergovernmental Panel on Climate Change (IPCC) Shared Socioeconomic Pathways (SSPs), the National Institute of Water and Atmospheric Research (NIWA) representative concentration pathways (RCP) and the New Zealand Climate Change Commission decarbonisation pathways.\"",
+      "location_hint": "Page 95",
+      "confidence": "medium",
+      "notes": "No single named model (e.g., IAM or proprietary model) is identified. The scenarios draw from IPCC SSPs, NIWA RCPs, and NZ Climate Change Commission pathways. The process was facilitated by Tonkin + Taylor and the TCF. The disclosure index notes that if modelling was undertaken, a clear description should be provided, but the document does not explicitly name a specific model.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. The company considers damage from acute physical risks, specifically increased weather events resulting in damage to Spark infrastructure (mobile network equipment, exchanges, data centres, data transport networks), as well as disruption to supporting infrastructure. The risk is most significant under the \"Hothouse\" scenario and increases in severity over time, most significantly in the 30+ year time horizon. Potential impacts include increased reactive maintenance costs, increased customer disruptions, one-off adaptation costs for site strengthening/relocation, and increased insurance costs.",
+      "evidence": "\"Damage to Spark infrastructure: Increased weather events result in increased damage to Spark sites. This includes mobile network equipment, exchanges, data centres, data transport networks... Potential impacts (anticipated impacts pre-mitigation): Increased reactive maintenance costs (labour, fleet, contractors, and parts)... Increased customer disruptions impact revenue, brand, and reputation. One-off adaptation costs for site strengthening and/or relocation. Increased costs of new infrastructure builds to meet higher climate resilience standards, e.g. data centres. Increased insurance cost or withdrawal of insurance.\"",
+      "location_hint": "Physical risks table, page 98",
+      "confidence": "high",
+      "notes": "The document explicitly categorises \"Physical risks: risks relating to the physical impacts of climate change. Physical risks emanating from climate change can be event-driven (acute) such as increased severity of extreme weather events.\" The damage to Spark infrastructure risk is directly tied to acute physical risk (increased weather events).",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include non-temperature variables such as sea level rise/coastal flooding, wind and rain pattern changes, precipitation, and weather pattern variability (acute and chronic physical risks). The physical risk analysis specifically assessed risks of sea level rise/coastal flooding, temperature, wind and rain pattern changes. Transition-related variables include policy response, economic impact, and market changes.",
+      "evidence": "\"This analysed risk to our infrastructure and assets against the risks of sea level rise/coastal flooding, temperature, wind and rain pattern changes.\" and \"Physical risks emanating from climate change can be event-driven (acute) such as increased severity of extreme weather events. They can also relate to longer-term shifts (chronic) in precipitation and temperature and increased variability in weather patterns, such as sea level rise\"",
+      "location_hint": "Page 96 (physical risk analysis), Page 95 (physical risks definition)",
+      "confidence": "high",
+      "notes": "The scenarios also reference SSP/RCP pathways and NZ Climate Change Commission decarbonisation pathways as datasets, which embed additional non-temperature variables. The scenario table on page 97 also includes policy response and economic impact as scenario variables.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Spark used three climate scenarios developed through a sector-wide approach for the telecommunications sector, covering global and New Zealand-level scales. The scenarios draw from widely used global and local scenario archetypes including IPCC Shared Socioeconomic Pathways (SSPs), NIWA representative concentration pathways (RCP), and New Zealand Climate Change Commission decarbonisation pathways. The three scenarios are: (1) Orderly transition (SSP1-1.9, RCP 2.6, 1.5°C), (2) Disorderly transition (SSP2-4.5, RCP 4.5, 2°C by mid-century), and (3) Hothouse (SSP3-7.0, RCP 8.5, >3°C).",
+      "evidence": "\"The three climate scenarios the telecommunications sector selected are outlined in the tables on pages 97–101. These scenarios align to the requirements in NZ CS 1 for entities to analyse three scenarios, and each draw from a range of widely used global and local scenario archetypes, for example the Intergovernmental Panel on Climate Change (IPCC) Shared Socioeconomic Pathways (SSPs), the National Institute of Water and Atmospheric Research (NIWA) representative concentration pathways (RCP) and the New Zealand Climate Change Commission decarbonisation pathways.\"",
+      "location_hint": "Page 95, Our three climate scenarios",
+      "confidence": "high",
+      "notes": "The scenarios operate at both global and New Zealand national scale, using internationally recognised scenario frameworks (IPCC SSPs) as well as local NZ-specific datasets (NIWA RCPs, Climate Change Commission pathways).",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Spark defines three time horizons for climate scenario analysis:\n- Short term: 5 years (to 2030) — aligned with emissions reduction target and future-facing investment horizon\n- Medium term: 15 years (to 2040) — aligned with typical life of technology assets\n- Long term: 30+ years (to 2055+) — aligned with further materialisation of physical risks, particularly on infrastructure",
+      "evidence": "Time horizons for scenario analysis\nShort term: 5 years | Year relative to 2024: 2030 | Rationale: Aligns with emissions reduction target and with future-facing investment horizon\nMedium term: 15 years | Year relative to 2024: 2040 | Rationale: Aligned with typical life of technology assets\nLong term: 30+ years | Year relative to 2024: 2055+ | Rationale: Aligned with further materialisation of physical risks, particularly on infrastructure\n* For risk analysis we used a timebound 30-year horizon. The 30+ year time horizon was used for long-term scenario development.",
+      "location_hint": "Annual Report.pdf, page 97 (Time horizons for scenario analysis table)",
+      "confidence": "high",
+      "notes": "The document also notes that these timeframes extend beyond the principal risk assessment horizon, which is aligned to Spark's three-year strategy horizon.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "The scenarios were chosen because they: (1) align to NZ CS 1 requirements for three scenarios; (2) draw from widely used global and local scenario archetypes including IPCC Shared Socioeconomic Pathways (SSPs), NIWA representative concentration pathways (RCP), and the New Zealand Climate Change Commission decarbonisation pathways; (3) are consistent with scenario archetypes used by other infrastructure sectors in New Zealand; and (4) were designed and agreed in consultation across the telecommunications sector. Spark states that \"given the broad range of inputs and alignment to recognised scenario archetypes we believe the scenarios capture a broad set of possible outcomes that are relevant and appropriate to assessing the resilience of our business model and strategy to climate-related risks and opportunities.\"",
+      "evidence": "\"These scenarios align to the requirements in NZ CS 1 for entities to analyse three scenarios, and each draw from a range of widely used global and local scenario archetypes, for example the Intergovernmental Panel on Climate Change (IPCC) Shared Socioeconomic Pathways (SSPs), the National Institute of Water and Atmospheric Research (NIWA) representative concentration pathways (RCP) and the New Zealand Climate Change Commission decarbonisation pathways. They are also based on scenario archetypes that are consistent with those used by other infrastructure sectors in New Zealand to develop sector scenarios. The scenarios were designed and agreed in consultation across the sector. Given the broad range of inputs and alignment to recognised scenario archetypes we believe the scenarios capture a broad set of possible outcomes that are relevant and appropriate to assessing the resilience of our business model and strategy to climate-related risks and opportunities.\"",
+      "location_hint": "Annual Report.pdf, page 95",
+      "confidence": "high",
+      "notes": "The justification is explicitly stated in the document. The scenarios were developed through a sector-wide approach facilitated by Tonkin + Taylor and the Telecommunications Forum (TCF), with consultation from the Ministry for the Environment, the Climate Change Commission, and energy sector representatives.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "Spark's current (historic) climate impacts include increased weather events resulting in damage to Spark infrastructure (mobile network equipment, exchanges, data centres, data transport networks), increased reactive maintenance costs, and supply chain disruption from physical climate impacts. A specific historic example cited is Cyclone Gabrielle, during which generators were loaded by helicopter for cell sites in Gisborne. Spark also notes that its physical risk analysis identified 24 mobile sites and one regional exchange vulnerable to coastal flooding under a 20cm sea level rise scenario (less than 2% of infrastructure sites).",
+      "evidence": "\"Increased weather events result in increased damage to Spark sites. This includes mobile network equipment, exchanges, data centres, data transport networks... Increased reactive maintenance costs (labour, fleet, contractors, and parts)\" and \"Entelar Group loading helicopter with power generators for our cell sites in Gisborne during Cyclone Gabrielle.\" and \"This includes 24 mobile sites and one regional exchange vulnerable to coastal flooding under a 20cm sea level rise scenario. This is less than 2% of our infrastructure sites.\"",
+      "location_hint": "Pages 93-98, Annual Report FY24",
+      "confidence": "medium",
+      "notes": "The document references \"current impacts of climate change\" on pages 93-94 but those pages are not fully reproduced in the retrieved context. The evidence above is drawn from the physical risk tables and photo caption. Spark also elected Adoption Provision 1 (related to current financial impacts), meaning quantitative financial impacts of current climate events are not disclosed.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Spark identifies the following physical climate risks:\n\n1. **Direct physical risk – Damage to Spark infrastructure**: Increased weather events result in increased damage to Spark sites, including mobile network equipment, exchanges, data centres, and data transport networks. This risk is present in all scenarios but most significant under the Hothouse scenario, increasing in severity over time and most significant in the 30+ year time horizon. Potential impacts include increased reactive maintenance costs (labour, fleet, contractors, and parts). Physical risk analysis identified 24 mobile sites and one regional exchange vulnerable to coastal flooding under a 20cm sea level rise scenario — less than 2% of infrastructure sites.\n\n2. **Indirect physical risk – Disruption to transport corridors**: Road transport network damage limits ability to reach sites to perform maintenance and upgrades or address outages (e.g. installing/fuelling generators, restoring backhaul connectivity).\n\n3. **Indirect physical risk – Supply chain disruption**: Physical climate impacts (e.g. factory fire/flooding) disrupt global supply for critical inputs, including network equipment and customer devices. Increased global weather events increase competition and demand for network spares. This risk is present in all scenarios but most significant under the Hothouse scenario, increasing in severity over time and most significant in the 30+ year time horizon.",
+      "evidence": "\"Physical risk: Damage to Spark infrastructure – Increased weather events result in increased damage to Spark sites. This includes mobile network equipment, exchanges, data centres, data transport networks. Present in all scenarios, but most significant under the Hothouse scenario. Increasing in severity over time, most significant in the 30+ year time horizon. Increased reactive maintenance costs (labour, fleet, contractors, and parts).\"\n\n\"Road transport: road transport network damage limits ability to reach sites to perform maintenance and upgrades or address outages, e.g. installing and/or fuelling generators, restoring backhaul connectivity.\"\n\n\"Supply chain disruption: Physical climate impacts (e.g. factory fire/flooding) disrupt global supply for critical inputs, including network equipment and customer devices. Increased global weather events increase competition and demand for network spares. Present in all scenarios, but most significant under the Hothouse scenario. Increasing in severity over time, most significant in the 30+ year time horizon.\"\n\n\"Through the analysis we identified a small number of assets vulnerable to direct physical risks. This includes 24 mobile sites and one regional exchange vulnerable to coastal flooding under a 20cm sea level rise scenario. This is less than 2% of our infrastructure sites.\"",
+      "location_hint": "Physical risks table, pages 97–98; Physical risk analysis, page 96",
+      "confidence": "high",
+      "notes": "The document distinguishes between direct physical risks (damage to Spark's own infrastructure) and indirect physical risks (disruption to transport corridors and supply chain disruption). The physical risk analysis was updated in FY24 using climate models released by the Ministry for the Environment in July 2024, analysing risks of sea level rise/coastal flooding, temperature, wind and rain pattern changes.",
+      "verification": null
+    }
+  ]
+}

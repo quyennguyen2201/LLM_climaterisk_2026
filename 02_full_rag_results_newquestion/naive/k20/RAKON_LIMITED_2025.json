@@ -1,0 +1,170 @@
+{
+  "source": "RAKON_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "k": 20,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "output_tokens": 6700,
+      "total_tokens": 157039,
+      "input_tokens": 150339,
+      "input_token_details": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0,
+        "cache_creation": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Rakon uses three climate scenarios: (1) Rapid Transition (1.5°C), (2) Status Quo (2.7°C), and (3) Limited Climate Action (4.4°C).",
+      "evidence": "\"The scenarios are:\n• Rapid Transition\n• Status Quo\n• Limited Climate Action\"\n\nAnd from the scenario overview table:\n- Rapid Transition: 1.5°C – \"Rapid transition to a low carbon world, limiting temperature increase to 1.5°C.\"\n- Status Quo: 2.7°C – \"A middle of the road scenario...\"\n- Limited climate action: 4.4°C – \"Limited action towards a low carbon global economy...\"",
+      "location_hint": "Pages 10, 12",
+      "confidence": "high",
+      "notes": "The three scenarios are clearly named and described with associated temperature increases and reference IPCC/IEA scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Rakon's climate scenarios project three possible global temperature outcomes by 2100 (relative to 1850–1900): 1.5°C (Rapid Transition scenario), approximately 2.7°C (Status Quo scenario), and approximately 4.4°C (Limited Climate Action scenario).",
+      "evidence": "\"Scenario name | Temp. Increase | Brief description... Rapid Transition | 1.5°C | ... Status Quo | 2.7°C | ... Limited climate action | 4.4°C | ...\" and footnote: \"change in average global temperature by 2100 relative to 1850–1900 (°C)\"",
+      "location_hint": "Page 10, Overview of Rakon's Climate Scenarios",
+      "confidence": "high",
+      "notes": "Three scenarios are presented: 1.5°C, ~2.7°C, and ~4.4°C by 2100 relative to 1850–1900 baseline.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "GeSI-CDP (Global e-Sustainability Initiative and CDP), using the GeSI-CDP Scenario Analysis Toolkit",
+      "evidence": "\"We have undertaken a global level scenario analysis exercise to support our assessment, using the GeSI-CDP Scenario Analysis Toolkit as the underlying tool for our scenario analysis process for three scenarios... GeSI is a leading, cross-industry sustainability initiative creating and enabling digital solutions to address society's most pressing challenges (www.gesi.org). CDP is a not-for-profit charity that runs the global disclosure system for investors, companies, cities, states and regions to manage their environmental impacts (www.cdp.net).\"",
+      "location_hint": "Page 9, Scenario Analysis section",
+      "confidence": "high",
+      "notes": "The GeSI-CDP Scenario Analysis Toolkit was used as the underlying tool. Reference scenarios from IPCC and IEA were also used to inform the analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Rakon uses SSP-RCP combined scenarios from the IPCC's sixth assessment cycle. The three scenarios are:\n1. Rapid Transition: IPCC SSP1-1.9 (supported by IEA Net Zero Emissions by 2050 scenario)\n2. Status Quo: IPCC SSP2-4.5 (supported by IEA Stated Policies scenario)\n3. Limited Climate Action: IPCC SSP5-8.5\n\nThese are SSP-RCP paired scenarios (SSPX-Y format), not a mix-and-match of separate SSP and RCP components.",
+      "evidence": "\"The IPCC's sixth assessment reporting cycle provided SSP-RCP ('SSPX-Y') scenarios based on the Shared Socio-economic Pathways (SSPs), and partly informed by relevant Representative Concentration Pathways (RCPs) scenarios... Rapid Transition: IPCC SSP1-1.9 ... Status Quo: IPCC SSP2-4.5 ... Limited Climate Action: IPCC SSP5-8.5\"",
+      "location_hint": "Pages 10-11",
+      "confidence": "high",
+      "notes": "Rakon uses the integrated SSP-RCP scenarios (SSP1-1.9, SSP2-4.5, SSP5-8.5) rather than mixing separate SSPs and RCPs independently. The physical risk analysis also uses SSP1-2.6, SSP2-4.5, and SSP5-8.5 for ClimSystems reports.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Rakon did not develop fully customised scenarios. Instead, they used the GeSI-CDP Scenario Analysis Toolkit as the underlying tool and based their three scenarios on international reference scenarios from the IPCC and IEA. The three scenarios used are: (1) Rapid Transition (aligned with IPCC SSP1-1.9 and IEA Net Zero Emissions by 2050, limiting temperature increase to 1.5°C), (2) Status Quo (aligned with IPCC SSP2-4.5 and IEA Stated Policies scenario, resulting in ~2.7°C), and (3) Limited Climate Action (aligned with IPCC SSP5-8.5, resulting in ~4.4°C). These are named/customised versions of standard reference scenarios, with Rakon-specific narratives and parameters applied.",
+      "evidence": "\"We have undertaken a global level scenario analysis exercise to support our assessment, using the GeSI-CDP Scenario Analysis Toolkit as the underlying tool for our scenario analysis process for three scenarios... We concluded that a sector-level scenario analysis approach was not feasible as there are few comparable CREs in NZ to Rakon... Accordingly, we followed the TCFD's six-step framework for developing scenario analysis for evaluating climate-related risks and opportunities.\"\n\n\"Reference sources: IPCC, 2021: Summary for Policymakers: The Physical Science Basis / IPCC SSP1-1.9 (Riahi, et al., 2017), supported by parameters from the IEA Net Zero Emissions by 2050 scenario (2023) where required [Rapid Transition]; IPCC SSP2-4.5 (Riahi, et al., 2017), supported by parameters from the IEA Stated Policies scenario (2023) where required [Status Quo]\"",
+      "location_hint": "Pages 9, 11, 27-30",
+      "confidence": "high",
+      "notes": "Rakon used customised names (Rapid Transition, Status Quo, Limited Climate Action) and applied their own narratives and parameters, but these are based on standard IPCC SSP and IEA reference scenarios rather than being fully bespoke/customised scenarios. The GeSI-CDP Toolkit was used as the framework.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "No. Rakon did not co-produce its climate scenarios. The company used the GeSI-CDP Scenario Analysis Toolkit as the underlying tool for its scenario analysis process. The scenarios (Rapid Transition, Status Quo, and Limited Climate Action) were developed using this pre-existing toolkit, not co-produced with external stakeholders or peers.",
+      "evidence": "\"We have undertaken a global level scenario analysis exercise to support our assessment, using the GeSI-CDP Scenario Analysis Toolkit as the underlying tool for our scenario analysis process for three scenarios... The GeSI-CDP Scenario Analysis Toolkit is a set of resources that enables organisations to build the foundations for the development of climate-related scenario analysis in alignment with the recommendations of the TCFD.\"",
+      "location_hint": "Page 9",
+      "confidence": "high",
+      "notes": "Rakon used a third-party toolkit (GeSI-CDP) rather than co-producing scenarios with external parties. Internal cross-functional teams were involved in reviewing outputs, but the scenarios themselves were not co-produced. The document states: \"Scenario analysis is currently being conducted as a standalone exercise with input from several teams within the business.\"",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Rakon uses three baseline scenarios for its climate scenario analysis:\n1. Rapid Transition (1.5°C) – based on IPCC SSP1-1.9, supported by IEA Net Zero Emissions by 2050 scenario (2023)\n2. Status Quo (2.7°C) – based on IPCC SSP2-4.5, supported by IEA Stated Policies scenario (2023)\n3. Limited Climate Action (4.4°C) – based on IPCC SSP5-8.5\n\nFor physical risk analysis (ClimSystems reports), the baseline is defined as 2005, as per the IPCC Sixth Assessment Report.",
+      "evidence": "\"These climatic variables showed changes from the baseline (2005) defined in the IPCC Sixth Assessment Report for the following scenarios and time horizons: Scenarios SSP1-2.6 (slightly higher emissions than the Rapid Transition scenario) SSP2-4.5 (emissions per the Status Quo scenario) SSP5-8.5 (emissions per the Limited Climate Action scenario)\"\n\n\"Rapid Transition 1.5°C ... Based on the following reference scenarios: IPCC SSP1-1.9 ... Status Quo 2.7°C ... Based on the following reference scenarios: IPCC SSP2-4.5 ... Limited climate action 4.4°C ... Based on the following reference scenarios: IPCC SSP5-8.5\"",
+      "location_hint": "Pages 10 and 14",
+      "confidence": "high",
+      "notes": "Two baseline contexts are present: (1) the scenario analysis toolkit uses three IPCC SSP scenarios as reference scenarios; (2) the ClimSystems physical risk reports use 2005 as the baseline year per the IPCC Sixth Assessment Report.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "Rakon used the GeSI-CDP Scenario Analysis Toolkit as the underlying tool for its scenario analysis process, and ClimSystems for physical climate risk modelling at specific locations.",
+      "evidence": "\"We have undertaken a global level scenario analysis exercise to support our assessment, using the GeSI-CDP Scenario Analysis Toolkit as the underlying tool for our scenario analysis process for three scenarios (https://www.gesi.org/wp-content/uploads/2024/10/CLIMATE-SCENARIO-ANALYSIS-FRAMEWORK-TCFD.pdf).\" and \"In FY25 we extended that exercise to consider Rakon's operations in New Zealand, the UK, and at two Rakon France sites in France... ClimSystems have been providing data on the changing climate for over 20 years.\"",
+      "location_hint": "Page 9 (GeSI-CDP Toolkit); Page 14 (ClimSystems)",
+      "confidence": "high",
+      "notes": "Two models are referenced: (1) GeSI-CDP Scenario Analysis Toolkit for transition/global scenario analysis, and (2) ClimSystems for physical climate risk reports at specific facility locations.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Rakon considers acute physical risks, specifically extreme precipitation (daily extreme rainfall leading to hazards such as flooding that impacts Rakon's buildings and operations) identified at 2 locations within the long-term time horizon. ClimSystems reports covering environmental, chronic and acute climatic variables were used for this assessment across five locations.",
+      "evidence": "\"The output from the ClimSystems reports identified some physical risks for Rakon's locations (both acute and chronic) associated with climate driven events. The only climatic variable that features as a higher risk within Rakon's long-term time horizon is: • Extreme precipitation (2 locations) – this is daily extreme rainfall leading to hazards such as flooding that impacts Rakon's buildings and operations.\"",
+      "location_hint": "Page 14, Strategy section",
+      "confidence": "high",
+      "notes": "Acute physical risks are explicitly identified and assessed using ClimSystems reports. Extreme precipitation is the primary acute risk flagged within Rakon's long-term time horizon. Additional acute/chronic variables (heatwave days, monthly precipitation) are noted beyond the long-term horizon in higher emissions scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The non-temperature climatic variables identified in Rakon's scenario analysis include:\n1. Extreme precipitation (2 locations) – daily extreme rainfall leading to hazards such as flooding impacting buildings and operations (higher risk within Rakon's long-term time horizon)\n2. Monthly precipitation (1 location) – changes in rainfall patterns leading to water management issues impacting operations (higher risk beyond Rakon's long-term time horizon, in higher emissions scenarios)\n3. Heatwave days (1 location) – increasing occurrence of heatwave events increasing employee discomfort, reducing productivity and increasing operating costs (higher risk beyond Rakon's long-term time horizon, in higher emissions scenarios)",
+      "evidence": "\"The only climatic variable that features as a higher risk within Rakon's long-term time horizon is: • Extreme precipitation (2 locations) – this is daily extreme rainfall leading to hazards such as flooding that impacts Rakon's buildings and operations. ... The climatic variables that feature prominently as a higher risk beyond Rakon's long-term time horizon (in higher emissions scenarios) are: • Monthly precipitation (1 location) – changes in the patterns of rainfall leading to water management issues that impact Rakon's operations • Heatwave days (1 location) – increasing occurrence of heatwave events that increase employee discomfort, reduce productivity and increase operating costs to maintain comfortable temperatures (coupled with higher temperatures in general)\"",
+      "location_hint": "Page 14",
+      "confidence": "high",
+      "notes": "Heatwave days is technically related to temperature, but is listed alongside precipitation variables as a distinct climatic variable in the scenario analysis output. The scenarios used are SSP1-2.6, SSP2-4.5, and SSP5-8.5, with time horizons of 2030, 2050, and 2070.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Global level. Rakon undertook a global level scenario analysis exercise using three scenarios: Rapid Transition (1.5°C), Status Quo (2.7°C), and Limited Climate Action (4.4°C), based on IPCC SSP reference scenarios.",
+      "evidence": "\"We have undertaken a global level scenario analysis exercise to support our assessment, using the GeSI-CDP Scenario Analysis Toolkit as the underlying tool for our scenario analysis process for three scenarios.\"",
+      "location_hint": "Page 9",
+      "confidence": "high",
+      "notes": "The document explicitly states the scenario analysis was conducted at a \"global level.\" A sector-level approach was considered but deemed not feasible. The three scenarios are: Rapid Transition (1.5°C, based on IPCC SSP1-1.9), Status Quo (2.7°C, based on IPCC SSP2-4.5), and Limited Climate Action (4.4°C, based on IPCC SSP5-8.5).",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Rakon uses three time horizons for both scenario analysis and risk assessment:\n- Short term: 1–3 years (approx. year 2027)\n- Medium term: 4–10 years (approx. year 2030)\n- Long term: >25 years (approx. year 2050+)\n\nRationale:\n- Short term aligns with Rakon's 3-year business planning horizon for strategy purposes.\n- Medium term aligns with interim international emissions reduction targets.\n- Long term aligns with Rakon's current capital expenditure time horizon of up to five years and with international emissions reduction targets.",
+      "evidence": "Time horizons applied by Rakon for its scenario analysis are detailed below:\nShort term: 1-3 years, Approx. year (rel. to 2025)*: 2027, Rationale: Aligns with Rakon's 3-year business planning horizon for strategy purposes\nMedium term: 4-10 years, Approx. year (rel. to 2025)*: 2030, Rationale: Aligns with interim international emissions reduction targets\nLong term: >25 years, Approx. year (rel. to 2025)*: 2050+, Rationale: Aligns with Rakon's current capital expenditure time horizon of up to five years / Aligns with international emissions reduction targets",
+      "location_hint": "Page 11, Scenario Analysis section; also confirmed on page 18, Risk Management section",
+      "confidence": "high",
+      "notes": "The same time horizons are used for both scenario analysis and risk assessment, as explicitly stated on page 18: \"We have considered the same time horizons for risk assessment as used for scenario analysis.\"",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Rakon justified its scenario and model choices on several grounds: (1) The GeSI-CDP Scenario Analysis Toolkit was selected because CDP is a well-established and respected provider in the sustainability arena, has partnered with GeSI to deliver the toolkit specifically for entities like Rakon to develop scenario analysis, and purchasing the toolkit enabled Rakon to access climate risks and opportunities disclosed by global peers at sector level. (2) A sector-level scenario analysis approach was not feasible as there are few comparable climate-reporting entities in NZ to Rakon, and those few have different business models and focus on different markets and geographies — so Rakon followed the TCFD's six-step framework instead. (3) The IPCC and IEA reference scenarios were selected because they are internationally recognised and widely used for this purpose. (4) ClimSystems was engaged for physical risk reports because they have been providing data on the changing climate for over 20 years and their climate risk management services support asset owners globally.",
+      "evidence": "\"Key reasons for selecting the toolkit were: CDP is a well-established and respected provider in the sustainability arena and has partnered with GeSI to deliver this toolkit for the specific purpose of enabling entities like Rakon to develop scenario analysis; and Purchase of the scenario analysis toolkit enabled Rakon to access climate risks and opportunities disclosed by Rakon's global peers at sector level, providing our team with a good starting point and comparison for its own analysis.\"\n\n\"We concluded that a sector-level scenario analysis approach was not feasible as there are few comparable CREs in NZ to Rakon and the few comparable CREs have different business models and focus on different markets and geographies. Accordingly, we followed the TCFD's six-step framework for developing scenario analysis for evaluating climate-related risks and opportunities.\"\n\n\"Key reasons for selecting these reference climate scenarios for use by Rakon were: reference sources for the scenarios are internationally recognised and widely used for this purpose\"\n\n\"ClimSystems have been providing data on the changing climate for over 20 years. Their climate risk management services support asset owners globally.\"",
+      "location_hint": "Pages 9, 11, 14",
+      "confidence": "high",
+      "notes": "Multiple justifications are provided across different sections of the document for different tools/models used.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "In FY25, Rakon has not experienced any material current climate-related physical or transition impacts and no associated material financial impacts. The supply chain was not subject to any material climate-related physical impacts during FY25. Some transition costs were incurred (e.g., costs related to the creation of the Climate Statement and assurance of GHG emissions disclosures), but those costs were not material.",
+      "evidence": "\"In FY25, Rakon has not experienced any material current climate-related physical or transition impacts and no associated material financial impacts. Our supply chain was not subject to any material climate-related physical impacts during FY25. We have incurred some transition costs, for example costs in relation to the creation of this Statement and assurance of GHG emissions disclosures within it, but those costs were not material.\"",
+      "location_hint": "Strategy section, p.8",
+      "confidence": "high",
+      "notes": "The document explicitly states no material historic climate impacts were experienced in FY25, with only minor non-material transition costs noted.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Rakon identifies both acute and chronic physical climate risks across its key locations. Within the long-term time horizon (to 2050), the key physical risk is extreme precipitation (at 2 locations) — daily extreme rainfall leading to hazards such as flooding that impacts Rakon's buildings and operations. Beyond the long-term time horizon (post-2050, in higher emissions scenarios), additional climatic variables feature as higher risks: (1) monthly precipitation changes (1 location) — changes in rainfall patterns leading to water management issues impacting operations; and (2) heatwave days (1 location) — increasing occurrence of heatwave events that increase employee discomfort, reduce productivity and increase operating costs. Physical risks are considered to be approaching a material level in the long-term time horizon and increasing thereafter in higher emissions scenarios. In FY25, no material current climate-related physical impacts were experienced.",
+      "evidence": "\"The only climatic variable that features as a higher risk within Rakon's long-term time horizon is: • Extreme precipitation (2 locations) – this is daily extreme rainfall leading to hazards such as flooding that impacts Rakon's buildings and operations. ... The climatic variables that feature prominently as a higher risk beyond Rakon's long-term time horizon (in higher emissions scenarios) are: • Monthly precipitation (1 location) – changes in the patterns of rainfall leading to water management issues that impact Rakon's operations • Heatwave days (1 location) – increasing occurrence of heatwave events that increase employee discomfort, reduce productivity and increase operating costs to maintain comfortable temperatures (coupled with higher temperatures in general)\"",
+      "location_hint": "Page 14",
+      "confidence": "high",
+      "notes": "Physical risks are assessed across five locations (India, New Zealand, UK, and two France sites) using ClimSystems reports under SSP1-2.6, SSP2-4.5, and SSP5-8.5 scenarios. No material physical impacts were experienced in FY25. The document does not explicitly distinguish \"direct\" vs \"indirect\" physical risks by those labels, but covers both acute (extreme precipitation, heatwaves) and chronic (precipitation pattern changes) risks to Rakon's own operations.",
+      "verification": null
+    }
+  ]
+}

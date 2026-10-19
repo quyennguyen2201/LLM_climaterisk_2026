@@ -1,0 +1,170 @@
+{
+  "source": "INDUSTRIAL_AND_COMMERCIAL_BANK_OF_CHINA_NEW_ZEALAN_2023",
+  "model_id": "claude-sonnet-4-6",
+  "k": 10,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "total_tokens": 86062,
+      "input_tokens": 79332,
+      "output_tokens": 6730,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_creation": 0,
+        "cache_read": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "ICBC NZ developed and analysed three climate-related scenarios:\n1. **Orderly** (1.5°C) – A world where there is action in public policy and technological change towards low-carbon emissions. Net-zero emissions are achieved globally by 2050, and temperature rise is limited to 1.5°C, with limited overshoot.\n2. **Too Little, Too Late** (>2°C) – A world in which a delayed and misaligned transition occurs. New Zealand transitions earlier compared to the rest of the world, but globally action is slower. Despite efforts to rapidly reduce global emissions, the transition is too late to prevent widespread acute and chronic physical climate impacts.\n3. **Hot House** (>3°C) – A world in which the worst-case emissions trajectory has occurred, with little to no effort to transition. Weather events and chronic impacts are severe, coupled with the destabilisation of social and economic structures.",
+      "evidence": "\"ICBC NZ developed and analysed a 1.5°C, a >2°C and a >3°C climate-related scenario to align with XRB requirements. Each scenario was designed to be plausible and challenging... Orderly: An Orderly transition describes a world where there is action in public policy and technological change towards low-carbon emissions. Net-zero emissions are achieved globally by 2050, and temperature rise is limited to 1.5°C, with limited overshoot... Too Little, Too Late: Too Little, Too Late describes a world in which a delayed and misaligned transition occurs... Hot House: Hot House represents a world in which the worst-case emissions trajectory has occurred, with little to no effort to transition.\"",
+      "location_hint": "Page 8-9, Strategy – Scenario Analysis section",
+      "confidence": "high",
+      "notes": "The three scenarios are clearly named and described in the document. They are aligned with NZCS 1 requirements and use NZBA scenarios as a foundational input.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document does not explicitly state a global temperature outcome by 2100 for all scenarios. However, it provides 2050 temperature figures: +0.7°C (Orderly/SSP1-1.9), +1.7°C (Too Little Too Late/SSP2-4.5), and +2.5°C (Hot House/SSP5-8.5) — all relative to the 1986-2005 baseline, by 2050. No 2100 figure is explicitly stated.",
+      "evidence": "By 2050, New Zealand's average temperature rises by 0.7°C relative to the 1986-2005 baseline. [...] By 2050, global temperatures increase by +1.7°C. [...] global temperatures rising by +2.5°C by 2050.",
+      "location_hint": "Pages 9–11",
+      "confidence": "medium",
+      "notes": "The document provides temperature outcomes by 2050, not 2100. The Orderly scenario figure (+0.7°C) refers to New Zealand's average temperature, while the Too Little Too Late (+1.7°C) and Hot House (+2.5°C) figures refer to global temperatures. No explicit 2100 global temperature outcome is stated in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "The scenarios were developed by ICBC NZ with support from PricewaterhouseCoopers New Zealand Sustainability, Climate Change and Nature team (external consultants), drawing on reference scenarios from: CCC Ināia tonu nei, IPCC SSPs, NIWA/MfE downscaled NZ climate projections, NGFS Climate Scenarios, and the New Zealand Banking Association (NZBA) sector scenarios.",
+      "evidence": "\"ICBC NZ conducted scenario analysis with the support of external consultants and in line with guidance on the scenario analysis process published by the External Reporting Board... External Partners and Stakeholders Involved: PricewaterhouseCoopers New Zealand Sustainability, Climate Change and Nature team.\"",
+      "location_hint": "Page 8 and Page 13",
+      "confidence": "high",
+      "notes": "ICBC NZ developed the scenarios internally with PwC NZ as external consultant, using multiple reference scenario providers (IPCC, NGFS, NIWA/MfE, NZBA, CCC).",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "ICBC NZ uses SSP pathways only (no RCPs). The three scenarios use: SSP1-1.9 (Orderly/low emissions), an intermediate SSP (not explicitly named in the retrieved context), and SSP5-8.5 (Hot House/high emissions).",
+      "evidence": "\"Global CO2 emissions are assumed to follow the Shared Socieconomic Pathways (SSP) 1-1.9 pathway, peaking in the 2020s and dropping steadily to 2.1 Gt/year by 2050.\" ... \"Global CO2 emissions are assumed to follow the SSP5-8.5 pathway, increasing year-on-year to reach 83.3 Gt/year by 2050.\" ... \"The three scenarios are built using CO2 concentration pathways from three of the Shared Socioeconomic Pathways that are used to coordinate the climate models that inform the IPCC's 6th Assessment Report (AR6).\"",
+      "location_hint": "Pages 9, 11, 13",
+      "confidence": "high",
+      "notes": "Only SSPs are referenced; no RCPs are mentioned. The intermediate scenario SSP is not explicitly named in the retrieved context chunks. No mixing of SSPs and RCPs occurs — only SSPs are used.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes. ICBC NZ developed customised climate scenarios using the NZBA (New Zealand Banking Association) scenarios as a foundation, with deviations based on data availability and comprehension of physical impacts. The three scenarios are: (1) Orderly (1.5°C), (2) Too Little, Too Late (>2°C), and (3) a >3°C scenario. These were constructed using reference scenarios including CCC Ināia tonu nei, IPCC SSPs, NIWA downscaled NZ climate projections, and NGFS Climate Scenarios.",
+      "evidence": "\"ICBC NZ developed and analysed a 1.5°C, a >2°C and a >3°C climate-related scenario to align with XRB requirements. Each scenario was designed to be plausible and challenging... The New Zealand Banking Association (NZBA) sector scenario project was supported by ICBC NZ... In addition, ICBC NZ developed climate scenarios using the NZBA scenarios as a foundation to draw on. Any deviations from these scenarios and the utilisation of other reference scenarios and data are based on the rationale of data availability and comprehension of the physical impacts within an intermediate emissions scenario.\"",
+      "location_hint": "Strategy section, p.9 and p.13",
+      "confidence": "high",
+      "notes": "ICBC NZ customised scenarios built on NZBA scenarios as a foundation, incorporating additional reference scenarios (CCC, IPCC SSPs, NIWA, NGFS). The scenarios are not purely proprietary but are adapted/customised from existing frameworks.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes. ICBC NZ co-produced its climate scenarios using the New Zealand Banking Association (NZBA) sector scenarios as a foundational input, with interactive sessions involving key stakeholders from across ICBC NZ, and supported by external consultants (PricewaterhouseCoopers New Zealand Sustainability, Climate Change and Nature team). Reference scenarios also included CCC Ināia tonu nei, IPCC SSPs, NIWA downscaled NZ climate projections, and NGFS Climate Scenarios.",
+      "evidence": "\"ICBC NZ developed and analysed a 1.5°C, a >2°C and a >3°C climate-related scenario to align with XRB requirements. Each scenario was designed to be plausible and challenging. Key stakeholders from across ICBC NZ were involved in the process and reference scenarios used include the New Zealand Banking Sector scenarios as well as outputs from global climate and integrated assessment models. The New Zealand Banking Association (NZBA) sector scenario project was supported by ICBC NZ.\"\n\n\"In addition, ICBC NZ developed climate scenarios using the NZBA scenarios as a foundation to draw on.\"\n\n\"External Partners and Stakeholders Involved: PricewaterhouseCoopers New Zealand Sustainability, Climate Change and Nature team.\"",
+      "location_hint": "Pages 8, 12, 13",
+      "confidence": "high",
+      "notes": "Scenarios were co-produced with external consultants (PwC NZ) and key internal stakeholders, using NZBA scenarios as a foundation, supplemented by CCC, IPCC, NIWA, and NGFS reference scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "ICBC NZ developed and analysed three climate-related scenarios: a 1.5°C (Orderly), a >2°C, and a >3°C scenario. These were built using the New Zealand Banking Association (NZBA) sector scenarios as a foundational input, along with reference scenarios including: CCC Ināia tonu nei, IPCC Shared Socioeconomic Pathways (SSPs), NIWA downscaled NZ climate change projections, and NGFS Climate Scenarios.",
+      "evidence": "\"ICBC NZ developed and analysed a 1.5°C, a >2°C and a >3°C climate-related scenario to align with XRB requirements... The New Zealand Banking Association (NZBA) sector scenario project was supported by ICBC NZ... reference scenarios used include the New Zealand Banking Sector scenarios as well as outputs from global climate and integrated assessment models.\"\n\n\"The scenarios developed by ICBC NZ are relevant and appropriate as each scenario is constructed based on a few reference scenarios projecting various variables, including: CCC Ināia tonu nei: a low emissions future for Aotearoa scenarios dataset; Intergovernmental Panel on Climate Change (IPCC) Shared Socioeconomic Pathways (SSPs); Downscaled NZ climate change projections prepared by NIWA for Minister for the Environment (MfE); and Network for Greening the Financial System (NGFS) Climate Scenarios.\"",
+      "location_hint": "Strategy section, pp. 9 and 13",
+      "confidence": "high",
+      "notes": "The three scenarios correspond to 1.5°C (Orderly), >2°C, and >3°C warming pathways, built on NZBA scenarios and multiple reference datasets as explicitly listed in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "The scenario analysis incorporates findings from global climate models as reported in IPCC Assessment Reports and downscaled results for New Zealand produced by NIWA for the MfE. The scenarios are built using CO2 concentration pathways from three of the Shared Socioeconomic Pathways (SSPs) used to coordinate the climate models that inform the IPCC's 6th Assessment Report (AR6). Reference scenarios also include CCC Ināia tonu nei, NGFS Climate Scenarios, and downscaled NZ climate change projections prepared by NIWA for MfE.",
+      "evidence": "\"The scenario analysis incorporates findings from global climate models as reported in IPCC Assessment Reports and downscaled results for New Zealand produced by NIWA for the MfE. These models are state-of-the-art for climate change projections and represent the best available data for assessing physical climate change risks.\" and \"The three scenarios are built using CO2 concentration pathways from three of the Shared Socioeconomic Pathways that are used to coordinate the climate models that inform the IPCC's 6th Assessment Report (AR6).\"",
+      "location_hint": "Page 13-14, Strategy section",
+      "confidence": "high",
+      "notes": "Multiple models/frameworks are referenced: IPCC AR6 SSPs (SSP1-1.9, SSP5-8.5), NIWA downscaled projections, NGFS Climate Scenarios, and CCC Ināia tonu nei scenarios. No single proprietary model name is cited.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. In 2023, acute weather events caused damage totalling $1.238 million covering 7 properties financed via home loans by ICBC NZ. A limited number of corporate business clients were also impacted. The damage was covered by insurance or borrowers' own resources, and ICBC NZ's loan book was not impacted.",
+      "evidence": "\"In 2023, which was a year of acute weather events, these impacts were restricted to damage to properties financed via home loans by ICBC NZ. This damage was covered by insurance or to a lesser extent by borrowers' own resources, therefore not impacting ICBC NZ's loan book. A limited number of customers of ICBC NZ's corporate businesses clients were also impacted by acute weather events, with damage covered by insurance and the earnings of those borrowers.\" and \"ICBC NZ customers suffer damage totalling $1.238 million, which covered 7 properties.\"",
+      "location_hint": "Pages 7 and 28",
+      "confidence": "high",
+      "notes": "The document explicitly quantifies damage from the Auckland storm event and discusses the broader context of acute physical risk impacts on ICBC NZ's loan portfolio.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include the following non-temperature variables: carbon price (e.g., NZ carbon price rises to $250 by 2050 in one scenario, stays low at $35 in 2050 in Hot House), share of energy from renewable electricity (grows to 74% in one scenario), CO2 emissions (following SSP5-8.5 pathway, reaching 83.3 Gt/year by 2050 in Hot House), precipitation patterns/rainfall intensity, and changes in land use emissions.",
+      "evidence": "\"New Zealand's carbon price rises to $250 by 2050, and the share of energy from renewable electricity grows to 74% (assumed to follow the CCC's Headwinds scenario).\" / \"Global CO2 emissions are assumed to follow the SSP5-8.5 pathway, increasing year-on-year to reach 83.3 Gt/year by 2050. Land use emissions go net negative around 2064, but energy sector emissions increase drastically.\" / \"New Zealand's carbon price stays low ($35 in 2050)\" / \"Changes in precipitation patterns threaten water security\"",
+      "location_hint": "Pages 10–11",
+      "confidence": "high",
+      "notes": "Non-temperature variables explicitly mentioned across scenario descriptions include carbon price, renewable energy share, CO2 emission pathways, precipitation/rainfall intensity, and land use emissions.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "The scenarios operate at both global and national (New Zealand) scales. They incorporate global climate models (IPCC SSPs), global economic variables (GDP, carbon price, CO2 emissions), and downscaled results for New Zealand produced by NIWA for the Ministry for the Environment.",
+      "evidence": "\"The scenario analysis incorporates findings from global climate models as reported in IPCC Assessment Reports and downscaled results for New Zealand produced by NIWA for the MfE. These models are state-of-the-art for climate change projections and represent the best available data for assessing physical climate change risks.\"",
+      "location_hint": "Strategy section, p.14",
+      "confidence": "high",
+      "notes": "The scenarios use global-scale reference scenarios (IPCC SSPs, NGFS) as well as New Zealand-specific downscaled projections, covering both global and domestic scales.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "ICBC NZ has identified four time horizons for identifying climate-related risks and opportunities:\n1. Immediate-term: 1-2 year period (out to 2025), aligned with ICBC NZ's annual risk appetite review.\n2. Short-term: 3-7 year period (out to 2030), aligned with ICBC NZ's strategy review (3 years).\n3. Medium-term: 8-27 year period (out to 2050), aligned with the time scale for climate change, NZBA Climate scenarios, and New Zealand legislation including the Zero Carbon Act.\n4. Long-term: 28-50+ year period (out to 2080), aligned with the time scale for climate change, NZBA Climate scenarios, and New Zealand legislation including the Zero Carbon Act.",
+      "evidence": "'Immediate-term' refers to the 1-2 year period (out to 2025), to align with ICBC NZ's annual risk appetite review. 'Short-term' refers to the 3-7 year period (out to 2030), to align with ICBC NZ's strategy review (3 years). 'Medium-term' refers to the 8-27 year period (out to 2050), to align with the time scale for climate change, NZBA Climate scenarios, and New Zealand legislation, including the Climate Change Response (Zero Carbon) Amendment Act 2019 (Zero Carbon Act). 'Long-term' refers to the 28-50+ year period (out to 2080), to align with the time scale for climate change, NZBA Climate scenarios, and New Zealand legislation, including the Zero Carbon Act.",
+      "location_hint": "Page 14, Strategy section",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "ICBC NZ justified its scenario and model choices on the following grounds: (1) the scenarios are constructed based on reference scenarios from CCC Ināia tonu nei, IPCC SSPs, NIWA-downscaled NZ climate projections for MfE, and NGFS Climate Scenarios — all recommended by the XRB; (2) the NZBA scenarios were used as a foundation, with deviations based on data availability and comprehension of physical impacts within an intermediate emissions scenario; (3) the three scenarios offer a wide range of potential futures while presenting three distinct and plausible scenarios for strategic planning; (4) the climate models used (global climate models from IPCC Assessment Reports and NIWA downscaled results) are described as \"state-of-the-art for climate change projections\" and \"the best available data for assessing physical climate change risks.\"",
+      "evidence": "\"The scenarios developed by ICBC NZ are relevant and appropriate as each scenario is constructed based on a few reference scenarios projecting various variables, including: CCC Ināia tonu nei: a low emissions future for Aotearoa scenarios dataset; Intergovernmental Panel on Climate Change (IPCC) Shared Socioeconomic Pathways (SSPs); Downscaled NZ climate change projections prepared by NIWA for Minister for the Environment (MfE); and Network for Greening the Financial System (NGFS) Climate Scenarios. These above reference scenarios provide us with projected economic, political, social, technological and environmental variables to build out our scenarios... These specific source materials are recommended for use by the XRB when constructing scenarios. In addition, ICBC NZ developed climate scenarios using the NZBA scenarios as a foundation to draw on. Any deviations from these scenarios and the utilisation of other reference scenarios and data are based on the rationale of data availability and comprehension of the physical impacts within an intermediate emissions scenario. The three scenarios offer a wide range of potential futures for analysis, while also presenting three distinct and plausible scenarios to establish the groundwork for strategic planning.\"",
+      "location_hint": "Strategy section, p.13 (page 12 of PDF)",
+      "confidence": "high",
+      "notes": "Additional justification for model choice is found on p.14: \"These models are state-of-the-art for climate change projections and represent the best available data for assessing physical climate change risks.\"",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context discusses climate-related risks, scenario analysis, and anticipated future impacts, but does not contain any specific data or description of historic (past) climate impacts experienced by ICBC NZ or its portfolio.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "ICBC NZ identifies both direct organisational-level and portfolio-level (indirect) physical climate risks. At the organisational level, eight risks were identified, including: (1) increased frequency and severity of extreme acute weather events leading to inability to access or operate key facilities and maintain service delivery, resulting in disruption to operations and revenue loss; and (2) increased frequency and severity of extreme acute weather events at the main data centre and mainframe in China leading to inability to access and maintain technology required for remote service delivery, resulting in operational disruption, loss of revenue, and reputation damage. At the portfolio level, six risks were identified from priority sectors in ICBC NZ's lending portfolio, with property assessed as higher physical risk (30% of loans), and 15% of secured houses identified as having greater vulnerability to flooding. ICBC NZ assessed its organisational-level physical risk as 'low' under the orderly scenario.",
+      "evidence": "\"Increased frequency and severity of extreme acute weather events could lead to an inability for ICBC NZ to access or operate key facilities and maintain service delivery resulting in disruption to operations, revenue loss, etc. Moderate Moderate Physical. Increased frequency and severity of extreme acute weather events at the main data centre and mainframe in China could lead to an inability to access and maintain the technology required for remote service delivery resulting in operational disruption, loss of revenue, reputation damage etc. Moderate Moderate Physical.\" and \"ICBC NZ has assessed its organisational level physical risk as 'low' under the orderly scenario... The property sector forms a material proportion of ICBC NZ's portfolio (30% of loans)... ICBC NZ has undertaken sample testing of its home loan lending and identified 15% of secured houses to have greater vulnerability to flooding.\"",
+      "location_hint": "Pages 15, 26",
+      "confidence": "high",
+      "notes": "Direct physical risks relate to ICBC NZ's own operations and facilities; indirect (portfolio-level) physical risks relate to borrowers/customers, particularly in the property sector. Both are explicitly identified in the document.",
+      "verification": null
+    }
+  ]
+}

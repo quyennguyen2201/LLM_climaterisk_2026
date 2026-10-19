@@ -1,0 +1,170 @@
+{
+  "source": "SOUTHLAND_BUILDING_SOCIETY_2025",
+  "model_id": "claude-sonnet-4-6",
+  "k": 10,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "output_tokens": 6327,
+      "total_tokens": 94690,
+      "input_tokens": 88363,
+      "input_token_details": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0,
+        "cache_creation": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "The SBS Group uses three climate scenarios: (1) Orderly 1.5°C, (2) Too Little, Too Late >2°C, and (3) Hot House >3°C.",
+      "evidence": "Scenario dimensions: Orderly 1.5oC | Too Little, Too Late >2oC | Hot House >3oC. Physical impact: SSP1, RCP2.6 | SSP2, RCP4.5 | SSP5, RCP8.5. Transition impact: NGFS: Orderly / CCC 'Tailwinds' | NGFS: Disorderly / CCC 'Headwinds' | NGFS: Hothouse / CCC 'Current policy'.",
+      "location_hint": "Page 14, Scenario dimensions table",
+      "confidence": "high",
+      "notes": "The three scenarios are clearly named and described in the scenario dimensions table on page 14.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes three scenarios with the following global temperature outcomes: Orderly scenario: 1.5°C; Too Little, Too Late scenario: global warming exceeds 2.7°C (with New Zealand exceeding 1.4°C by 2090); Hot House scenario: global temperature rise of 4.4°C.",
+      "evidence": "\"Orderly: 1.5oC ... Too Little, Too Late: >2oC ... Hot House: >3oC\" and \"Global warming exceeds 2.7oC, with New Zealand exceeding 1.4oC by 2090.\" and \"This lack of action see global temperature rise 4.4oC.\"",
+      "location_hint": "Page 14-15",
+      "confidence": "high",
+      "notes": "The scenario table on page 14 gives summary figures (1.5°C, >2°C, >3°C), while the narrative on page 15 provides more specific figures for Too Little Too Late (2.7°C) and Hot House (4.4°C). The time horizon referenced is primarily 2090/2100.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "The scenarios were sourced from multiple providers: NGFS (Network for Greening the Financial Sector), CCC (Climate Change Commission), NIWA (National Institute of Water and Atmospheric Sciences), and IPCC (Intergovernmental Panel on Climate Change). Deloitte New Zealand facilitated the scenario workshops.",
+      "evidence": "\"This first-pass risk assessment preceded the detailed New Zealand Banking Association (NZBA) scenario narrative, and relied on data and assumptions from the: • Climate Change Commission - CCC, • National Institute of Water and Atmospheric Sciences - NIWA, • Intergovernmental Panel on Climate Change - IPCC, • Network for Greening the Financial Sector (NGFS)\" and \"In 2022, the SBS Group engaged Deloitte New Zealand to facilitate workshops to scope the dimensions of climate scenarios and to identify climate-related risks for the Group.\"",
+      "location_hint": "Page 14",
+      "confidence": "high",
+      "notes": "Multiple scenario providers are referenced. NGFS and CCC are explicitly named in the scenario dimensions table as providing transition impact scenarios. Deloitte New Zealand facilitated the workshops but is not a scenario data provider per se.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes. SBS Group uses mixed SSP and RCP pairings across its three climate scenarios: Orderly (SSP1, RCP2.6), Too Little Too Late (SSP2, RCP4.5), and Hot House (SSP5, RCP8.5).",
+      "evidence": "Scenario dimensions: Orderly 1.5°C — Physical impact: SSP1, RCP2.6; Too Little, Too Late >2°C — Physical impact: SSP2, RCP4.5; Hot House >3°C — Physical impact: SSP5, RCP8.5",
+      "location_hint": "Strategy section, page 15 (Scenario dimensions table)",
+      "confidence": "high",
+      "notes": "The document explicitly pairs SSPs and RCPs for each scenario. SSP1/RCP2.6, SSP2/RCP4.5, and SSP5/RCP8.5 are standard pairings and are not \"mixed\" in an unusual way — each SSP is paired with its corresponding RCP. No non-standard cross-pairing (e.g., SSP5 with RCP2.6) is present.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "No fully customised scenarios were developed. SBS Group used scenarios aligned with existing New Zealand sector scenarios and NZBA scenarios, with customisation focused on transition pathways and physical risk pathways relevant to their lending portfolio. The scenario dimensions were chosen to align with scenarios used across sectors in New Zealand (with good data availability) and to ensure alignment with the NZBA sector scenarios.",
+      "evidence": "\"As such, there is less reliance on emission abatement pathways, macroeconomic transitions, energy pathways, or nature-based solutions as these are not deemed material to the strategy and operations of the Group. This was the SBS Group's first climate risk scenario analysis and was undertaken in a stand-alone process. SBS Bank later participated in the NZBA scenario development. The scenario dimensions were chosen as appropriate for two reasons: firstly, they align with scenarios used across sectors in New Zealand with good data availability, and to ensure alignment with the NZBA sector scenarios.\"",
+      "location_hint": "Page 14",
+      "confidence": "high",
+      "notes": "SBS Group did not develop fully bespoke/customised scenarios; they adapted existing frameworks (NZ sector scenarios and NZBA scenarios) with a focus on elements material to their operations (transition pathways and physical risk to lending portfolio).",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "SBS Group's climate scenarios were developed internally, facilitated by Deloitte New Zealand, with input from the Environmental Working Group and Group Executive members. The scenarios drew on data and assumptions from the Climate Change Commission (CCC), NIWA, IPCC, and NGFS. SBS Bank later also participated in the NZBA (New Zealand Banking Association) scenario development. The scenarios were not fully co-produced with external stakeholders in a collaborative sense, but were informed by external advisers and aligned with NZBA sector scenarios.",
+      "evidence": "\"In 2022, the SBS Group engaged Deloitte New Zealand to facilitate workshops to scope the dimensions of climate scenarios and to identify climate-related risks for the Group... This first-pass risk assessment preceded the detailed New Zealand Banking Association (NZBA) scenario narrative, and relied on data and assumptions from the: Climate Change Commission - CCC, National Institute of Water and Atmospheric Sciences - NIWA, Intergovernmental Panel on Climate Change - IPCC, Network for Greening the Financial Sector (NGFS)... This was the SBS Group's first climate risk scenario analysis and was undertaken in a stand-alone process. SBS Bank later participated in the NZBA scenario development.\"",
+      "location_hint": "Page 14",
+      "confidence": "high",
+      "notes": "The scenarios were facilitated by Deloitte NZ and informed by CCC, NIWA, IPCC, and NGFS data. SBS Bank later participated in NZBA scenario development. Scenario development was led by the Environmental Working Group with Group Executive involvement, and the GARC and Board were kept informed and gave approval.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "SBS Group uses three climate scenarios across four time horizons:\n1. Orderly (1.5°C): Physical impact – SSP1, RCP2.6; Transition impact – NGFS: Orderly / CCC 'Tailwinds'\n2. Too Little, Too Late (>2°C): Physical impact – SSP2, RCP4.5; Transition impact – NGFS: Disorderly / CCC 'Headwinds'\n3. Hot House (>3°C): Physical impact – SSP5, RCP8.5; Transition impact – NGFS: Hothouse / CCC 'Current policy'\n\nTime horizons: Present (rolling), 2030 (short-term), 2050 (medium-term), 2080 (long-term).",
+      "evidence": "Scenario dimensions\nOrderly 1.5oC | Too Little, Too Late >2oC | Hot House >3oC\nPhysical impact: SSP1, RCP2.6 | SSP2, RCP4.5 | SSP5, RCP8.5\nTransition impact: NGFS: Orderly / CCC 'Tailwinds' | NGFS: Disorderly / CCC 'Headwinds' | NGFS: Hothouse / CCC 'Current policy'\nTime horizons: Present | Short-term | Medium-term | Long-term\nYear relative to 2022: Present – Rolling | 2030 | 2050 | 2080",
+      "location_hint": "Strategy section, p.14-15",
+      "confidence": "high",
+      "notes": "Data and assumptions drawn from CCC, NIWA, IPCC, and NGFS. Scenario development was first undertaken in 2022 with Deloitte New Zealand facilitating workshops.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "SBS Group used in-house models for coastal inundation and flooding risk assessment, and engaged Deloitte New Zealand to facilitate climate scenario workshops. The scenarios draw on data from the Climate Change Commission (CCC), NIWA, IPCC, and NGFS, using SSP/RCP pathways (SSP1/RCP2.6, SSP2/RCP4.5, SSP5/RCP8.5) aligned with NGFS scenario frameworks (Orderly, Disorderly, Hothouse).",
+      "evidence": "\"The SBS Group, using in-house models, assessed the exposure of our lending book to coastal inundation events... Third party flood exposure data is used to determine the depth of flooding likely under various AEP scenarios and under various climate scenarios... In 2022, the SBS Group engaged Deloitte New Zealand to facilitate workshops to scope the dimensions of climate scenarios... relied on data and assumptions from the: Climate Change Commission - CCC, National Institute of Water and Atmospheric Sciences - NIWA, Intergovernmental Panel on Climate Change - IPCC, Network for Greening the Financial Sector (NGFS)\"",
+      "location_hint": "Pages 9, 10, 14",
+      "confidence": "high",
+      "notes": "The document references in-house models for physical risk (coastal inundation and flooding), third-party flood exposure data, and Deloitte NZ for scenario facilitation. Scenario frameworks used are NGFS (Orderly/Disorderly/Hothouse) and CCC, with SSP/RCP pathways. No single named proprietary model is identified.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. SBS Group considers damage from acute physical risks including flooding (fluvial and pluvial) and coastal inundation events. For flooding, a damage function maps flood depth to a coefficient of damage to determine the sensitivity of securities. Exposure is defined as the house footprint being exposed to a flood with a depth likely to result in significant damage. For coastal inundation, a 1% annual exceedance probability (AEP) event is used as a tipping point for insurability. In FY25, two material climate-related events were noted: the June East Coast flooding and October Otago Floods.",
+      "evidence": "\"Using a damage function, mapping the depth of flood water to a coefficient of damage, the sensitivity of securities is determined.\" and \"Exposure in this disclosure has changed from being any part of a property exposed in a 1% AEP flood event to a flooding depth greater than 0.5m to the house footprint being exposed to a flood with a flood depth likely to result in significant damage based on a modelled damage function.\" and \"In FY25, there were two material climate related events - the June East Coast flooding, and October Otago Floods.\"",
+      "location_hint": "Pages 9–11",
+      "confidence": "high",
+      "notes": "Acute physical risks (flooding and coastal inundation) are explicitly modelled with damage functions. The document also notes no material financial impacts were experienced from these events in FY25.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include non-temperature variables such as sea level rise (SLR), coastal inundation (assessed via 1% annual exceedance probability events), flooding (fluvial and pluvial, assessed by flood depth and damage functions), insurance retreat, and emissions reduction trajectories. Specific quantitative non-temperature outputs include: 1.61% of the lending book exposed to coastal inundation at present; 2.79% exposed in the \"Too Little Too Late\" scenario by 2080; and 3.86% exposed in the \"Hot House\" scenario by 2080. Flooding exposure is 0.71% at present, rising to 0.82% under RCP8.5 by 2080.",
+      "evidence": "\"Coastal inundation exposure remains consistent between climate scenarios until 2050 where the scenario pathways diverge... Of the current lending book composition, 1.61% is considered to have a risk exposure... Flooding exposure will not increase chronically... Of the current lending book composition, 0.71% is considered to have a high-risk exposure. This exposure remains consistent until 2050 where thereafter it diverges with the RCP8.5 scenario exposure increasing to 0.82%... Sea level rise intensifies post 2050 with 3.86% of the current SBS Bank lending book exposed to a 1% AEP coastal flood in 2080... 2.79% of the current SBS Bank lending book exposed to a 1% AEP coastal flood in 2080.\"",
+      "location_hint": "Pages 10, 15, 16",
+      "confidence": "high",
+      "notes": "Non-temperature variables explicitly modelled include sea level rise, coastal inundation (1% AEP events), flood depth/damage, and insurance retreat. Temperature figures are also given (e.g., 4.4°C global rise in Hot House, 2.7°C in Too Little Too Late), but the non-temperature variables are clearly quantified separately.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "SBS Group used three climate scenarios at four time horizons:\n- Scenarios: Orderly (1.5°C), Too Little Too Late (>2°C / 2.7°C), Hot House (>3°C / 4.4°C)\n- Time horizons: Present, Short-term (2030), Medium-term (2050), Long-term (2080)",
+      "evidence": "Scenario dimensions\nOrderly 1.5oC | Too Little, Too Late >2oC | Hot House >3oC\nPhysical impact: SSP1, RCP2.6 | SSP2, RCP4.5 | SSP5, RCP8.5\nTransition impact: NGFS: Orderly / CCC 'Tailwinds' | NGFS: Disorderly / CCC 'Headwinds' | NGFS: Hothouse / CCC 'Current policy'\nTime horizons: Present | Short-term | Medium-term | Long-term\nYear relative to 2022: Present – Rolling | 2030 | 2050 | 2080",
+      "location_hint": "SBS Group CRD FY2025.pdf, page 14",
+      "confidence": "high",
+      "notes": "The scenarios are global in scope but applied to SBS Group's New Zealand lending portfolio and operations. Physical scenarios use IPCC SSP/RCP pathways; transition scenarios use NGFS and New Zealand Climate Change Commission (CCC) frameworks.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "SBS Group uses four time horizons for climate risk assessment: Present, 2030, 2050, and 2080.",
+      "evidence": "\"Early work identified climate-related risks in line with the TCFD recommendations, with consideration of three climate scenarios at four different time horizons: present, 2030, 2050, and 2080.\"",
+      "location_hint": "Page 7, Risk management section",
+      "confidence": "high",
+      "notes": "The four time horizons (Present, 2030, 2050, 2080) are consistently referenced across multiple pages of the document, including in the risk assessment matrix and scenario/risk profile tables.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "The scenario dimensions were chosen for two reasons: (1) they align with scenarios used across sectors in New Zealand with good data availability, and (2) to ensure alignment with the NZBA (New Zealand Banking Association) sector scenarios. The analysis relied on data and assumptions from the Climate Change Commission (CCC), NIWA, IPCC, and NGFS. The scope focused on regulatory and reputational elements of transition pathways, and physical risk pathways related to SBS's lending portfolio, as these were deemed material to the strategy and operations of the Group.",
+      "evidence": "\"The scenario dimensions were chosen as appropriate for two reasons: firstly, they align with scenarios used across sectors in New Zealand with good data availability, and to ensure alignment with the NZBA sector scenarios... The scope of the climate scenario analysis considered SBS's operations, relative materiality, and focused on the regulatory and reputational elements of transition pathways, and physical risk pathways related to SBS's lending portfolio.\"",
+      "location_hint": "Page 14, Strategy / Climate scenario analysis section",
+      "confidence": "high",
+      "notes": "The document also notes that the first-pass risk assessment relied on data from CCC, NIWA, IPCC, and NGFS, and that SBS Bank later participated in NZBA scenario development to further align their approach.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context focuses on forward-looking climate risk assessments, scenario analysis, and modelling of future exposures (coastal inundation, flooding) under various climate scenarios. There is no discussion of historic (past) climate impacts experienced by SBS Group in the provided passages.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "SBS Group identifies the following physical climate risks: flooding (fluvial), coastal inundation, sea level rise, extreme weather events, and wildfire. These are assessed as direct risks to operations (e.g., damage to head office or branch network), credit risks (damage to or loss of security properties leading to loss of collateral or debt default), market risks (insurance losses due to increase in claims and retrenching of insurance providers), and liquidity risks (cashflow loss brought on by credit risk amplifiers including asset concentration by geographic regions exposed to risk events). Physical risks are modelled in-house for flooding and coastal inundation using NIWA 1% coastal inundation layers, sea rise Takiwa projections, and geolocation of SBS Bank securities. They are assessed across three climate scenarios (Orderly 1.5°C, Too Little Too Late >2°C, Hot House >3°C) and four time horizons (Present, 2030, 2050, 2080).",
+      "evidence": "\"Identification of the related physical or transitional hazard with consideration of material components of SBS Group operations... Physical risks are assessed in a matrix of hazard exposure and vulnerability – being a function of sensitivity and adaptative capacity. Physical risks are assessed against the three climate scenarios, and at each time horizon... Material physical climate risks including flooding and coastal inundation are modelled in-house to determine their exposure and provide a degree of sensitivity of the receptor... Damage to, or loss of, security properties leading to loss of collateral or debt default... Insurance losses due to increase in claims and retrenching of the Insurance Provider or changes in their climate risk appetite... Extreme weather event leading to damage to head office or branch network... Cashflow loss, and liquidity risk brought on by Credit Risk amplifiers including asset concentration by geographic regions exposed to risk events... Sea level rise... Flooding - fluvial... Wildfire... Extreme weather\"",
+      "location_hint": "Pages 8–9, SBS Group CRD FY2025.pdf",
+      "confidence": "high",
+      "notes": "The document distinguishes direct physical risks (e.g., operational damage to offices/branches) and indirect physical risks (e.g., credit risk from collateral damage, market risk from insurance retreat, liquidity risk from geographic asset concentration). Specific hazards named include flooding, coastal inundation, sea level rise, extreme weather, and wildfire.",
+      "verification": null
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "source": "RESOLUTION_LIFE_AUSTRALASIA_LIMITED_2023",
+  "model_id": "claude-sonnet-4-6",
+  "k": 20,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "output_tokens": 7129,
+      "total_tokens": 154341,
+      "input_tokens": 147212,
+      "input_token_details": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0,
+        "cache_creation": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Three scenarios were used: 1) Orderly (Net-Zero Aligned, ~1.5°C warming by 2100), 2) Too Little Too Late (Delayed Transition, >2°C warming by 2100), and 3) Hothouse (Business as Usual, >3°C warming by 2100).",
+      "evidence": "\"Table 2 | Summary description of FSC climate scenarios chosen for assessment\nOrderly | Too Little Too Late | Hothouse\nOverview of scenario: Net-Zero Aligned | Delayed Transition | Business as Usual\nApproximate global warming at 2100: 1.5°C | >2°C | >3°C\"",
+      "location_hint": "Table 2, p.13",
+      "confidence": "high",
+      "notes": "These scenarios were leveraged from the Financial Services Council (FSC) scenario narratives and tailored for RLAL-NZ's assessment.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The three scenarios used have the following approximate global warming outcomes at 2100: Orderly (Net-Zero Aligned) = 1.5°C; Too Little Too Late (Delayed Transition) = >2°C; Hothouse (Business as Usual) = >3°C.",
+      "evidence": "\"Approximate global warming at 2100: [Orderly] 1.5°C | [Too Little Too Late] >2°C | [Hothouse] >3°C\"",
+      "location_hint": "Table 2, page 12",
+      "confidence": "high",
+      "notes": "These figures are drawn directly from Table 2 (Summary description of FSC climate scenarios chosen for assessment) in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "Financial Services Council (FSC)",
+      "evidence": "\"The three scenarios and time horizons selected by the Financial Services Council ('FSC') have been leveraged and tailored for the purposes of our own assessment (Figure 2 and Table 2). These scenarios test the resilience of our business to climate-change over a broad range of possible futures.\"",
+      "location_hint": "Page 11, Strategy section",
+      "confidence": "high",
+      "notes": "The FSC scenarios were leveraged and tailored for RLAL-NZ's own assessment. Additional data sources used within each scenario include IPCC, IEA, NGFS, NIWA, and CCC.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "RLAL-NZ uses a mix of SSPs and RCPs across different parts of their analysis. For physical risk assessment, they use SSP1–2.6 and SSP3–7.0 (IPCC scenarios). For their qualitative scenario analysis, the \"Too Little Too Late\" scenario draws on IPCC SSP2–4.5 alongside NIWA RCP4.5, and the \"Hothouse\" scenario draws on IPCC SSP5–8.5 alongside NIWA RCP8.5. The \"Orderly\" scenario uses IPCC SSP1–1.9 (no RCP paired).",
+      "evidence": "\"Key data sources used: [Orderly] IPCC SSP 1–1.9 ... [Too Little Too Late] IPCC SSP 2–4.5 ... NIWA RCP4.5 ... [Hothouse] IPCC SSP 5–8.5 ... NIWA RCP8.5\" and \"In assessing the physical impacts of climate change, we used a medium term (2030) and referenced two Intergovernmental Panel on Climate Change (IPCC) scenarios: 1. SSP1 – 2.6; and 2. SSP3 – 7.0.\"",
+      "location_hint": "Table 2, p.12 (scenario data sources); Physical Risk Exposure section, p.25",
+      "confidence": "high",
+      "notes": "The document mixes SSP and RCP frameworks: SSPs are used for both qualitative scenario narratives and physical risk quantification, while RCPs (NIWA RCP4.5 and RCP8.5) are used as additional data sources for the Too Little Too Late and Hothouse scenarios respectively. The Orderly scenario does not reference an RCP. The physical risk quantification uses SSP1–2.6 and SSP3–7.0, which are different SSP-RCP combinations from those in Table 2.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes. RLAL-NZ leveraged and tailored the three scenarios selected by the Financial Services Council (FSC) for their own assessment. The scenarios used are: Orderly (1.5°C), Too Little Too Late (>2°C), and Hothouse (>3°C). These were customised to reflect New Zealand-specific conditions, including a \"Too Little Too Late\" scenario described as a \"realistic New Zealand scenario, where local action is higher but international action is lower.\"",
+      "evidence": "\"The three scenarios and time horizons selected by the Financial Services Council ('FSC') have been leveraged and tailored for the purposes of our own assessment (Figure 2 and Table 2). These scenarios test the resilience of our business to climate-change over a broad range of possible futures.\"",
+      "location_hint": "Page 11-12",
+      "confidence": "high",
+      "notes": "The scenarios are FSC-based but tailored/customised for RLAL-NZ's specific context. The \"Too Little Too Late\" scenario is described as a \"Realistic New Zealand scenario, where local action is higher but international action is lower.\" The Orderly scenario is described as meeting XRB requirements for a 1.5-degree aligned scenario, and Hothouse meets the XRB requirement for an over 3-degrees scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "RLAL-NZ leveraged and tailored the three scenarios and time horizons selected by the Financial Services Council (FSC) for their own climate scenario assessment. The scenarios were not independently co-produced but were adapted from FSC scenarios. Key internal stakeholders from across RLAL were brought together with independent climate resources to discuss specific climate impacts and identify controls, participating in a series of workshops throughout the process.",
+      "evidence": "\"The three scenarios and time horizons selected by the Financial Services Council ('FSC') have been leveraged and tailored for the purposes of our own assessment (Figure 2 and Table 2). These scenarios test the resilience of our business to climate-change over a broad range of possible futures.\" and \"Key internal stakeholders from across RLAL were brought together with independent climate resources to discuss specific climate impacts on specific business areas and identify any controls in place to mitigate against them. Key internal stakeholders and independent climate resources participated in a series of workshops throughout this process.\"",
+      "location_hint": "Page 11",
+      "confidence": "high",
+      "notes": "The scenarios were sourced from the FSC and tailored internally, with workshops involving internal stakeholders and independent climate resources. There is no mention of formal co-production with external parties beyond leveraging FSC scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "RLAL-NZ uses three baseline scenarios for its climate-related risk assessment, leveraged from the Financial Services Council (FSC):\n1. Orderly (1.5°C) – Net-Zero Aligned; immediate and smooth policy change. Key data sources: IPCC SSP 1–1.9, IEA Net Zero Emissions by 2050 (NZE), NGFS Net Zero 2050, CCC 'Tailwinds'.\n2. Too Little Too Late (>2°C) – Delayed Transition; delayed policy change. Key data sources: IPCC SSP 2–4.5, IEA Announced Pledges Scenario (APS), NIWA RCP4.5, CCC 'Headwinds'.\n3. Hothouse (>3°C) – Business as Usual; no policy change. Key data sources: IPCC SSP 5–8.5, IEA Stated Policies Scenario (STEPS), NGFS Current Policies, NIWA RCP8.5, CCC 'Current Policy Reference'.\n\nFor physical risk exposure, two IPCC scenarios were also used: SSP1–2.6 and SSP3–7.0, tested against 1.5°C and 3.0°C+ XRB requirements.",
+      "evidence": "\"Table 2 | Summary description of FSC climate scenarios chosen for assessment\nOrderly: Net-Zero Aligned, ~1.5°C, Key data sources: IPCC SSP 1–1.9, IEA Net Zero Emissions by 2050 ('NZE'), NGFS Net Zero 2050, CCC 'Tailwinds'; Speed of policy change: Immediate and smooth.\nToo Little Too Late: Delayed Transition, >2°C, Key data sources: IPCC SSP 2–4.5, IEA Announced Pledges Scenario ('APS'), NIWA RCP4.5, CCC 'Headwinds'; Speed of policy change: Delayed.\nHothouse: Business as Usual, >3°C, Key data sources: IPCC SSP 5–8.5, IEA Stated Policies Scenario ('STEPS'), NGFS Current Policies, NIWA RCP8.5, CCC 'Current Policy Reference'; Speed of policy change: None.\"\n\n\"In assessing the physical impacts of climate change, we used a medium term (2030) and referenced two Intergovernmental Panel on Climate Change (IPCC) scenarios: 1. SSP1 – 2.6; and 2. SSP3 – 7.0. These scenarios were tested against two of the NZ XRB Climate Risk Disclosure Requirements of using a: 1. 1.5 degree Celsius scenario; and a 2. 3.0 degree Celsius or greater scenario.\"",
+      "location_hint": "Table 2, p.13; Physical Risk Exposure section, p.25",
+      "confidence": "high",
+      "notes": "The three FSC scenarios are used for qualitative climate risk assessment; SSP1-2.6 and SSP3-7.0 are used specifically for the quantitative physical risk exposure assessment.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "For physical risk assessment, RLAL-NZ used IPCC scenarios SSP1–2.6 and SSP3–7.0. For transition risk (EBITDA at Risk), scenarios are based on research by OECD and IEA (High, Medium, and Low carbon price scenarios). For scenario analysis more broadly, the Financial Services Council (FSC) climate scenarios were leveraged and tailored, drawing on IPCC, IEA, NGFS, NIWA, and CCC data sources.",
+      "evidence": "In assessing the physical impacts of climate change, we used a medium term (2030) and referenced two Intergovernmental Panel on Climate Change (IPCC) scenarios: 1. SSP1 – 2.6; and 2. SSP3 – 7.0. [...] The scenarios used are based on research by OECD and IEA. [...] The three scenarios and time horizons selected by the Financial Services Council ('FSC') have been leveraged and tailored for the purposes of our own assessment.",
+      "location_hint": "Pages 12, 25",
+      "confidence": "high",
+      "notes": "Multiple models/frameworks are referenced depending on the type of risk assessment: FSC scenarios (with IPCC, IEA, NGFS, NIWA, CCC data) for qualitative scenario analysis; IPCC SSP1-2.6 and SSP3-7.0 for physical risk; OECD and IEA research for transition/EBITDA at Risk assessment.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. The document considers damage from acute physical risks including wildfire, extreme cold, extreme heat, water stress, coastal flood, riverine flood, tropical cyclone, and drought. Acute weather events (e.g., storms, flooding, cyclones) are identified as causing mortality events, changing claim patterns, asset devaluation, and financial distress. Specific scenarios (Too Little Too Late and Hothouse) explicitly address increasing frequency and severity of acute weather events and their impacts on the insured population and investment portfolio.",
+      "evidence": "\"The physical risk assessment framework covers eight key hazard types – wildfire, extreme cold, extreme heat, water stress, coastal flood, riverine flood, tropical cyclone and drought.\" and \"In a Hothouse scenario, acute natural disaster events are prolific in the long term. This leads to frequent and sudden devaluation of assets that are largely exposed to climate events.\" and \"Increasing frequency and severity of acute weather can also cause mortality events, impacting the insured population.\"",
+      "location_hint": "Pages 18-19, 25",
+      "confidence": "high",
+      "notes": "The document explicitly identifies acute physical hazards and their financial and insurance impacts across multiple scenarios and time horizons.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include several non-temperature variables: precipitation/rainfall (chronic rain events, flash flooding, drought), sea level rise, extreme weather events (wildfire, coastal flood, riverine flood, tropical cyclone), carbon pricing (domestic and global), vector-borne diseases, and water stress. Specific hazard types covered in the physical risk assessment framework are: wildfire, extreme cold, extreme heat, water stress, coastal flood, riverine flood, tropical cyclone, and drought.",
+      "evidence": "\"The physical risk assessment framework covers eight key hazard types – wildfire, extreme cold, extreme heat, water stress, coastal flood, riverine flood, tropical cyclone and drought.\" Additionally, scenarios reference: \"increases in dry days and lower rainfall levels in some areas of the country manifest as highly drought prone areas, while coastal regions face sea level rise and increased frequency of extreme weather events\"; \"high precipitation in some areas of New Zealand increases the risk of chronic rain events and flash flooding\"; carbon prices (NZ$250/unit in 2050 domestically, US$400/unit in 2050 globally in Orderly; NZ$35/unit in 2050 domestically, US$6/unit in 2050 globally in Hothouse).",
+      "location_hint": "Page 25 (physical risk framework); Pages 13–15 (scenario descriptions)",
+      "confidence": "high",
+      "notes": "Non-temperature variables are explicitly listed in the physical risk hazard framework and described qualitatively within each scenario narrative. Carbon pricing is also a key non-temperature transition variable included in the scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Three scenarios were used: Orderly (1.5°C), Too Little Too Late (>2°C), and Hothouse (>3°C), representing approximate global warming levels at 2100.",
+      "evidence": "Table 2 | Summary description of FSC climate scenarios chosen for assessment: Orderly — Approximate global warming at 2100: 1.5°C; Too Little Too Late — Approximate global warming at 2100: >2°C; Hothouse — Approximate global warming at 2100: >3°C",
+      "location_hint": "Table 2, p.13",
+      "confidence": "high",
+      "notes": "The three scenarios span from 1.5°C (net-zero aligned/orderly) to >3°C (business as usual/hothouse), covering a broad range of possible futures as stated in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "RLAL-NZ uses three time horizons for its climate-related risk assessment:\n- Short-term: out to 2025 (aligned with current stress-test time horizons and strategic time horizon of 5 years)\n- Medium term: out to 2030 (5–10 years; captures intermediary exposure to increasing GHG reduction policies)\n- Long term: out to 2050+ (30+ years; aligns to international emissions reductions targets, long-term life insurance policies, and increasing physical climate risks)",
+      "evidence": "\"RLAL-NZ has conducted a climate-related risk and opportunities assessment. This assessment considered short-, medium‑ and long-term risks and opportunities, which have been selected to align with the following strategic planning horizons and horizons where climate risks may significantly increase.\n\nShort-term 2025 | Medium term 2030 | Long term 2050+\n\n› Aligned with current stress-test time horizons. › The timeframes over which the sector offers its products to customers. › Aligned with our strategic time horizon (5 years). › Will capture intermediary exposure to increasing GHG reduction policies. › Aligns to international emissions reductions targets. › Aligned with long-term life insurance policies. › Will capture increasing physical climate risks.\"",
+      "location_hint": "Section: Strategy, p.12 (Figure 3 | Time-horizons for climate-related risk assessment)",
+      "confidence": "high",
+      "notes": "The document also notes that no high risks or opportunities were identified for the short term; high risks and opportunities were identified across the medium and long term.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "The three scenarios (Orderly, Too Little Too Late, Hothouse) were selected and justified as follows:\n- Orderly: \"In line with the FSC scenario narratives and meets the XRB requirements for a 1.5-degree aligned scenario.\"\n- Too Little Too Late: \"Commonly used scenario by fund managers and insurers internationally to test resilience against a rapid and significant transition.\" and \"Realistic New Zealand scenario, where local action is higher but international action is lower. This creates a challenging outlook where competitive transition and physical risks emerge.\"\n- Hothouse: \"In line with the FSC scenario narrative and meets the XRB requirement for an over 3-degrees scenario.\" and \"Commonly used scenario by fund managers and insurers internationally to test resilience against significant physical climate changes.\"\n\nThe scenarios were leveraged from the Financial Services Council (FSC) and tailored for RLAL-NZ's own assessment, with key data sources including IPCC SSPs, IEA scenarios (NZE, APS, STEPS), NGFS, NIWA RCPs, and CCC scenarios.",
+      "evidence": "\"Rationale for selection: [Orderly] In line with the FSC scenario narratives and meets the XRB requirements for a 1.5-degree aligned scenario. [Too Little Too Late] Commonly used scenario by fund managers and insurers internationally to test resilience against a rapid and significant transition. Realistic New Zealand scenario, where local action is higher but international action is lower. This creates a challenging outlook where competitive transition and physical risks emerge. [Hothouse] In line with the FSC scenario narrative and meets the XRB requirement for an over 3-degrees scenario. Commonly used scenario by fund managers and insurers internationally to test resilience against significant physical climate changes.\"",
+      "location_hint": "Table 2, page 12-13",
+      "confidence": "high",
+      "notes": "The scenarios were adopted from the Financial Services Council (FSC) and tailored for RLAL-NZ. Key data sources for each scenario are also explicitly listed in Table 2.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "RLAL-NZ has experienced some physical climate impacts historically, but these have not significantly impacted operations. Specific historic events referenced include the 2023 Auckland Anniversary Weekend floods and Cyclone Gabrielle. Due to a hybrid working model, physical effects of climate change have not significantly impacted the company's ability to carry out operations and service customers. Current financial impacts of physical and transition impacts have not been quantified (Adoption Provision 1 employed).",
+      "evidence": "\"Our operation requires some leased office space, however, our employees are able to work from home, which mitigates the current effects of some physical climate events that would cause disruption to infrastructure, for example, in the case of the 2023 Auckland Anniversary Weekend floods or Cyclone Gabrielle. Due to our hybrid-model working arrangement, physical effects of climate change have not significantly impacted our ability to carry out our operations and service customers.\"",
+      "location_hint": "Page 10, Strategy section (Table 1 – Physical impacts)",
+      "confidence": "high",
+      "notes": "The document references two specific historic climate events (2023 Auckland Anniversary Weekend floods and Cyclone Gabrielle) but notes these did not significantly impact operations. Financial impacts have not been quantified under Adoption Provision 1.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "RLAL-NZ identifies the following direct and indirect physical climate risks:\n\n1. **First-order insurance risk – changing claim patterns** (Physical risk, Too Little Too Late and Hothouse scenarios): Acute and chronic physical impacts from climate change (e.g., cardiovascular and respiratory illnesses, skin cancer, heat stress, increased frequency/severity of acute weather events) increase mortality and morbidity in the insured population, leading to increased claims, higher capital requirements, premium increases, policy lapses, and liquidity issues post-acute climate events.\n\n2. **Physical financial systems risk** (Physical risk, Hothouse scenario): Acute natural disaster events cause frequent and sudden devaluation of assets exposed to climate events. Vulnerable sectors include primary industry (dairy, horticulture, forestry) and property/real estate (especially low-lying and coastal areas). Natural disasters can cause bond issuers to default, leading to considerable investment portfolio losses and decreased liquidity.\n\n3. **Second-order insurance risk – impacts on finances of customers** (Transition and physical risk, Hothouse scenario): Second-order effects such as job losses, price increases, economic decline, and population migration affect customers' financial position and willingness to pay for insurance.\n\nThe physical risk assessment framework covers eight key hazard types: wildfire, extreme cold, extreme heat, water stress, coastal flood, riverine flood, tropical cyclone, and drought. Using a 2030 medium-term horizon:\n- SSP1–2.6 (Low): Physical Risk Exposure Score of 31.76, Financial Impact of 2.30%\n- SSP3–7.0 (Medium-High): Physical Risk Exposure Score of 32.96, Financial Impact of 2.36%",
+      "evidence": "\"Too Little Too Late: First-order insurance risk – changing claim patterns. Physical risk. Description: In a Too Little Too Late scenario, acute and chronic physical impacts from climate change manifest in New Zealand over the long term. Prolonged exposure to the warming environment in the long term could increase rates of mortality and morbidity within the insured population, for example, cardiovascular and respiratory illnesses, increased incidence of skin cancer, increased exposure to heat stress. Increasing frequency and severity of acute weather can also cause mortality events, impacting the insured population.\"\n\n\"Hothouse: Physical financial systems. Physical risk. Description: In a Hothouse scenario, acute natural disaster events are prolific in the long term. This leads to frequent and sudden devaluation of assets that are largely exposed to climate events. Vulnerable sectors to physical climate risks include primary industry providers (including dairy, horticulture and forestry) and property management/real estate (especially in low lying lands and coastal areas). Natural disasters lead to financial distress and could cause issuers of bonds to default on their payments.\"\n\n\"The physical risk assessment framework covers eight key hazard types – wildfire, extreme cold, extreme heat, water stress, coastal flood, riverine flood, tropical cyclone and drought.\"\n\n\"For the Low SSP1 – 2.6 scenario, a Physical Risk Exposure Score of 31.76 and a Financial Impact of 2.30%. For the Medium-High SSP3 – 7.0 scenario, a Physical Risk Exposure Score of 32.96 and a Financial Impact of 2.36%.\"",
+      "location_hint": "Pages 17–19, 25",
+      "confidence": "high",
+      "notes": "Direct physical risks include changing claim patterns due to acute/chronic climate events and physical financial systems risk (asset devaluation from natural disasters). Indirect physical risks include second-order impacts on customer finances. Quantitative physical risk scores are provided for the investment portfolio using SSP1-2.6 and SSP3-7.0 scenarios at a 2030 time horizon.",
+      "verification": null
+    }
+  ]
+}

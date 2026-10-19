@@ -1,0 +1,170 @@
+{
+  "source": "MOVE_LOGISTICS_GROUP_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "k": 20,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 151110,
+      "total_tokens": 158533,
+      "output_tokens": 7423,
+      "input_token_details": {
+        "cache_creation": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_read": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Three scenarios were analysed: 1) Orderly – Net Zero by 2050 (~1.5°C), also called \"Fully Charged\"; 2) Disorderly – Delayed Transition (~2°C), also called \"Short Detour\"; 3) Hot House World – Current Policies (~3°+C).",
+      "evidence": "\"To help identify climate-related risks and opportunities and better understand the resilience of our business model and strategy, we analysed three scenarios: Orderly – Net Zero by 2050 (~1.5°C), Disorderly – Delayed Transition (~2°C) and Hot House World – Current Policies (~3°+C). The scenarios are not intended to be forecasts or predictions but represent challenging, plausible futures.\"",
+      "location_hint": "Page 5 (p.6 of document)",
+      "confidence": "high",
+      "notes": "MOVE also uses internal names \"Fully Charged\" for Orderly and \"Short Detour\" for Disorderly, as shown in the scenario architecture summary on page 7-8.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document does not provide a single global temperature outcome by 2100, but describes three scenarios with different temperature trajectories: Orderly (Net Zero 2050) targets below 1.5°C; Disorderly (Delayed Transition) targets below 3°C; and Hot House World (Current Policies) is projected to exceed 3°C. Specifically, under the Hot House World scenario, by 2050 the global average temperature has risen by 2.5°C and is \"on track to exceed 3+ degrees Celsius of global surface temperature warming.\"",
+      "evidence": "\"By 2050, a lack of investment in infrastructure results in communities that are increasingly difficult and costly to serve. The global average temperature has risen by 2.5 degrees Celsius and is on track to exceed 3+ degrees Celsius of global surface temperature warming.\"",
+      "location_hint": "Page 10, Hot House World scenario narrative",
+      "confidence": "medium",
+      "notes": "The document references temperature outcomes by 2050 (not 2100) under the Hot House World scenario. The three scenarios are labelled as ~1.5°C (Orderly), ~2°C (Disorderly), and ~3°C+ (Hot House World), but explicit 2100 temperature figures are not stated. The 3°C+ figure is the closest reference to an end-of-century outcome.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "IPCC, NGFS, and NIWA (with scenarios also informed by the Transport Sector Climate Change Scenarios prepared by the Aotearoa Circle)",
+      "evidence": "Global climate and socioeconomics: IPCC SSP1-1.9, NGFS - Net Zero 2050 and Highway to Paris, NIWA Downscaled SSP1-2.6, NGFS Downscaled ... IPCC SSP1-2.6, SSP2-4.5, NGFS - Delayed Transition and Sudden wake-up call, NIWA Downscaled SSP2-4.5, NGFS Downscaled ... IPCC Regional Rivalry SSP3-7.0, NGFS - Current Policies, NIWA Downscaled SSP3-7.0, NGFS Downscaled, IPCC AR6, NIWA",
+      "location_hint": "Page 7, Scenario summary",
+      "confidence": "high",
+      "notes": "The scenarios draw on IPCC, NGFS, and NIWA as the primary scenario providers. The Aotearoa Circle's Transport Sector Climate Change Scenarios also informed the scenario development process (page 5-6).",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes. MOVE uses SSP labels (SSP1-1.9, SSP2-4.5, SSP5-8.5) for scenario naming and risk/opportunity tables, but the underlying physical hazard data is sourced from NIWA downscaled RCP data (RCP2.6, RCP4.5, and RCP8.5). The document mixes SSP and RCP frameworks: SSP scenarios are used for the scenario archetypes and narrative labels, while RCP-based downscaled climate hazard data is used for the physical risk scoring methodology.",
+      "evidence": "\"An aggregated climate score was determined for each risk under each of the three scenarios, informed by our internal consequence table and guided by downscaled NIWA climate hazard data provided for RCP2.6, RCP 4.5 and RCP 8.5 at future time horizons.\"\n\nScenario Reference:\nSSP1-1.9: Orderly – SSP1-1.9 (NIWA downscaled 1.9)\nSSP2-4.5: Disorderly – SSP2-4.5 (NIWA downscaled 4.5)\nSSP5-8.5: Hot house world – SSP5-8.5 (NIWA downscaled 8.5)",
+      "location_hint": "Page 18 (physical risk assessment methodology); Pages 13–15 (scenario reference keys)",
+      "confidence": "high",
+      "notes": "The scenario labels used throughout the risk and opportunity tables are SSP-based (SSP1-1.9, SSP2-4.5, SSP5-8.5), but the physical hazard data underpinning the risk scores is explicitly described as NIWA-downscaled RCP data (RCP2.6, RCP4.5, RCP8.5). This is a classic \"pick-and-mix\" of SSP and RCP frameworks, where SSP scenario names are used but RCP-based climate projections are applied for quantitative analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes, MOVE developed customised entity-level scenarios. The three standard scenario archetypes (Orderly – Net Zero 2050, Disorderly – Delayed Transition, Hot House World – Current Policies) were customised into MOVE-specific named scenarios: \"Orderly – Fully Charged,\" \"Disorderly – Short Detour,\" and a Hot House World scenario. These were developed through workshops with executives, general management, and subject matter experts facilitated by external consultants, using the Transport Sector Climate Change Scenarios (prepared by the Aotearoa Circle) as a foundation, and incorporating MOVE-specific driving forces, value chain boundaries, and entity-specific analysis layers.",
+      "evidence": "\"Our scenario analysis was based on the Transport Sector Climate Change Scenarios. A group of executives, general management and subject matter experts from across the business participated in several workshop sessions, facilitated by external consultants, to develop MOVE's entity level climate scenario analysis in 2024 and to refine and update the scenario narratives in 2025... we analysed three scenarios: Orderly – Net Zero by 2050 (~1.5°C), Disorderly – Delayed Transition (~2°C) and Hot House World – Current Policies (~3°+C).\" And the scenario architecture tables name MOVE's customised scenarios as \"Orderly – Fully Charged\" and \"Disorderly – Short Detour.\"",
+      "location_hint": "Page 5–8, MOVE FY25 Climate Statement",
+      "confidence": "high",
+      "notes": "MOVE customised standard global/NGFS/IPCC scenarios into entity-specific named scenarios with bespoke narratives developed through facilitated workshops. The focal question and driving forces were tailored to MOVE's specific business context (transport sector, NZ-focused).",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes. MOVE's scenario analysis was co-produced with internal executives, general management, and subject matter experts from across the business, facilitated by external consultants, through several workshop sessions. The scenarios were based on the Transport Sector Climate Change Scenarios prepared by the Aotearoa Circle. Three scenarios were developed: Orderly – Net Zero by 2050 (~1.5°C), Disorderly – Delayed Transition (~2°C), and Hot House World – Current Policies (~3°+C).",
+      "evidence": "\"A group of executives, general management and subject matter experts from across the business participated in several workshop sessions, facilitated by external consultants, to develop MOVE's entity level climate scenario analysis in 2024 and to refine and update the scenario narratives in 2025.\" and \"We agreed the key driving forces, choosing from a long list informed by the Transport Sector Climate Change Scenarios, prepared by the Aotearoa Circle.\"",
+      "location_hint": "Page 5-6, Strategy / Scenario development process section",
+      "confidence": "high",
+      "notes": "Scenarios were internally co-produced with external facilitation, drawing on the Aotearoa Circle's Transport Sector Climate Change Scenarios as a reference framework.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "MOVE analysed three scenarios: (1) Orderly – Net Zero by 2050 (~1.5°C), based on IPCC SSP1-1.9 / NGFS Net Zero 2050 / NIWA Downscaled SSP1-2.6; (2) Disorderly – Delayed Transition (~2°C), based on IPCC SSP1-2.6 & SSP2-4.5 / NGFS Delayed Transition / NIWA Downscaled SSP2-4.5; and (3) Hot House World – Current Policies (~3°+C), based on IPCC Regional Rivalry SSP3-7.0 / NGFS Current Policies / NIWA Downscaled SSP3-7.0.",
+      "evidence": "Scenarios chosen: To help identify climate-related risks and opportunities and better understand the resilience of our business model and strategy, we analysed three scenarios: Orderly – Net Zero by 2050 (~1.5°C), Disorderly – Delayed Transition (~2°C) and Hot House World – Current Policies (~3°+C). The scenarios are not intended to be forecasts or predictions but represent challenging, plausible futures.\n\nOrderly architecture: IPCC SSP1-1.9 / NGFS - Net Zero 2050 and Highway to Paris / NIWA Downscaled SSP1-2.6, NGFS Downscaled\nDisorderly architecture: IPCC SSP1-2.6, SSP2-4.5 / NGFS - Delayed Transition and Sudden wake-up call / NIWA Downscaled SSP2-4.5, NGFS Downscaled\nHot House World architecture: IPCC Regional Rivalry SSP3-7.0 / NGFS - Current Policies / NIWA Downscaled SSP3-7.0, NGFS Downscaled",
+      "location_hint": "Page 5–8, MOVE FY25 Climate Statement",
+      "confidence": "high",
+      "notes": "The scenarios draw on IPCC SSPs, NGFS scenarios, and NIWA downscaled data. Physical risks used RCP2.6, RCP4.5, and RCP8.5 for the risk scoring methodology.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "MOVE's scenario analysis used the following models/frameworks: IPCC SSP scenarios (SSP1-1.9, SSP1-2.6, SSP2-4.5, SSP3-7.0), NGFS scenarios (Net Zero 2050, Highway to Paris, Delayed Transition, Sudden wake-up call, Current Policies), and NIWA Downscaled data. The scenarios were based on the Transport Sector Climate Change Scenarios prepared by the Aotearoa Circle.",
+      "evidence": "\"Orderly – Fully Charged: Global climate and socioeconomics: IPCC SSP1-1.9, NGFS - Net Zero 2050 and Highway to Paris, NIWA Downscaled SSP1-2.6, NGFS Downscaled. Disorderly – Short Detour: Global climate and socioeconomics: IPCC SSP1-2.6, SSP2-4.5, NGFS - Delayed Transition and Sudden wake-up call, NIWA Downscaled SSP2-4.5, NGFS Downscaled. Hot House World: Global climate and socioeconomics: IPCC Regional Rivalry SSP3-7.0, NGFS - Current Policies, NIWA Downscaled SSP3-7.0, NGFS Downscaled, IPCC AR6, NIWA.\"",
+      "location_hint": "Page 7-8, Scenario summary section",
+      "confidence": "high",
+      "notes": "The scenario analysis was also informed by the Transport Sector Climate Change Scenarios prepared by the Aotearoa Circle, as noted on pages 5-6.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. MOVE considers damage from acute physical risks including: increased investment costs from extreme weather events, disruption to customer productivity (e.g. crop/harvest loss), delays in fuel delivery, reduced weather windows for oversized transport, increased transit times, excessive flooding and high winds reducing site access, and damage to roads/rail/ports leading to freight network disruption. Specific risks identified include PR1, PR2, PR3, PR5, PR8, PR10 (under \"Increasing incidence and severity of extreme weather events\") and PR9 (under \"Increasing frequency and intensity of pluvial flooding\").",
+      "evidence": "\"PR10: Excessive flooding and high winds, reducing access to sites, presenting a risk of delivery delays and revenue loss (due to contract penalties and/or eroded customer base).\" and \"Delayed investment into critical infrastructure and resilience results in increased costs associated with damage remediation caused by increasingly frequent and intense extreme weather events.\" and \"The East Coast floods and Tasman floods caused disruption to road freight routes (and customers) but did not result in any material adverse impacts on our assets, operations or people.\"",
+      "location_hint": "Physical risks table, p.13-14; Scenario narratives p.9-10",
+      "confidence": "high",
+      "notes": "MOVE explicitly identifies multiple acute physical risk scenarios (extreme weather events, flooding, high winds) and their potential financial impacts including delivery delays, revenue loss, contract penalties, and damage remediation costs. Within the current reporting period, no material disruptions were experienced.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The context describes MOVE's scenario analysis using SSP1-1.9, SSP2-4.5, and SSP5-8.5 (and RCP equivalents), and discusses qualitative driving forces (extreme weather, flooding, temperature, sea level rise, etc.), but does not explicitly quantify non-temperature variables (e.g., precipitation levels, sea level rise amounts, wind speeds) within the scenarios. The scenarios are described narratively without specific quantitative non-temperature variable data.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "MOVE analysed three scenarios at a global/national scale, applied to entity-level analysis: Orderly – Net Zero by 2050 (~1.5°C), Disorderly – Delayed Transition (~2°C/~3°C), and Hot House World – Current Policies (~3°+C). Physical risks were assessed using NIWA downscaled data (RCP2.6, RCP4.5, RCP8.5 / SSP1-1.9, SSP2-4.5, SSP3-7.0), and transition risks were assessed against a 1.5-degree scenario. The scenario boundaries covered one tier upstream and one tier downstream of MOVE's value chain.",
+      "evidence": "\"To help identify climate-related risks and opportunities and better understand the resilience of our business model and strategy, we analysed three scenarios: Orderly – Net Zero by 2050 (~1.5°C), Disorderly – Delayed Transition (~2°C) and Hot House World – Current Policies (~3°+C). The scenarios are not intended to be forecasts or predictions but represent challenging, plausible futures.\" and \"The boundaries for the scenario analysis were established as being one tier up and one tier down our value chain in alignment with our climate risk assessment.\"",
+      "location_hint": "Pages 5–7, 18",
+      "confidence": "high",
+      "notes": "Scenarios span global/national scale (IPCC/NGFS frameworks) downscaled to New Zealand (NIWA), then applied at entity level. Three warming levels covered: ~1.5°C, ~2–3°C, and ~3°+C.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "MOVE uses three time frames for its climate risk assessment and scenario analysis:\n- Short-term: present to 2030\n- Medium-term: 2031–2050\n- Long-term: 2051–2080\n\nFor transition risks specifically, the short-term is 5 years into the future, medium-term is 5–15 years, and long-term is 15–30 years (over a 30-year horizon).",
+      "evidence": "\"MOVE's scenario analysis was performed over three timeframes: short-term (present-2030), medium-term (2030-2050), and long-term (2050-2080). The time horizons were chosen to align with our asset design life and strategic planning horizons.\"\n\n\"Transition risks were identified, then categorised as Policy and Legal, Technology, Market, and Reputation risks, and assessed using an urgency and time-to-impact scale over a 30-year time horizon. Within this timeframe the short-term is 5 years into the future, medium-term is 5-15 years, and long-term is 15-30 years.\"",
+      "location_hint": "Page 5 and Page 18",
+      "confidence": "high",
+      "notes": "Physical risk time horizons are expressed as now-2030, 2031-2050, 2051-2080 in the risk tables (page 13), while the strategy section uses slightly different boundary years (present-2030, 2030-2050, 2050-2080). Transition risks use a different relative scale (5/5-15/15-30 years) over a 30-year horizon.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "The three scenarios (Orderly – Net Zero by 2050 (~1.5°C), Disorderly – Delayed Transition (~2°C), and Hot House World – Current Policies (~3°+C)) were chosen because they cover a plausible range of futures and are useful to test and identify a range of physical and transition risks and opportunities under different levels of uncertainty. The scenarios are based on the Transport Sector Climate Change Scenarios prepared by the Aotearoa Circle, and draw on IPCC SSP pathways and NGFS scenarios, with NIWA downscaled data for New Zealand-specific physical risk assessment.",
+      "evidence": "\"These three scenarios were chosen because they cover a plausible range of futures and, therefore, are useful to test and identify a range of physical and transition risks and opportunities under different levels of uncertainty.\"",
+      "location_hint": "Page 5, Scenarios chosen section",
+      "confidence": "high",
+      "notes": "The document also notes the scenarios are based on the Transport Sector Climate Change Scenarios (prepared by the Aotearoa Circle) and are aligned with IPCC SSP pathways (SSP1-1.9, SSP1-2.6/SSP2-4.5, SSP3-7.0) and NGFS scenarios, with NIWA downscaled data used for physical risk assessment.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "MOVE has reported the following historic/current climate impacts:\n1. For \"Increasing incidence and severity of extreme weather events\": Within the reporting period, MOVE did not experience any disruption because of severe weather events.\n2. For \"Increasing number of hot days\": We have not observed any material impacts of hot days on our assets, operations or people.\n3. For \"Increasing frequency and intensity of pluvial flooding\": The East Coast floods and Tasman floods caused disruption to road freight routes (and customers) but did not result in any material adverse impacts on our assets, operations or people.\n4. For the warehouse network: Although New Zealand has experienced extreme weather events in the current reporting period, such as the Tasman Floods in June 2025, MOVE has not experienced any disruptions to our business operations as a result.",
+      "evidence": "\"Within the reporting period, MOVE did not experience any disruption because of severe weather events.\" / \"We have not observed any material impacts of hot days on our assets, operations or people.\" / \"The East Coast floods and Tasman floods caused disruption to road freight routes (and customers) but did not result in any material adverse impacts on our assets, operations or people.\" / \"Although New Zealand has experienced extreme weather events in the current reporting period, such as the Tasman Floods in June 2025, MOVE has not experienced any disruptions to our business operations as a result.\"",
+      "location_hint": "Pages 13-14 and page 22",
+      "confidence": "high",
+      "notes": "The document describes current/historic impacts for each climate hazard category. Overall, MOVE has not experienced material adverse impacts from climate events to date, though the East Coast floods and Tasman floods did cause some road freight route disruptions.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "MOVE identifies the following direct and indirect physical climate risks (acute and chronic), assessed over three time horizons (short-term: now–2030, medium-term: 2031–2050, long-term: 2051–2080) under multiple scenarios (SSP1-1.9, SSP2-4.5, SSP5-8.5):\n\n**Direct physical risks (impacts on MOVE's own assets, people, and operations):**\n- PR1: Risk of increased investment costs relating to relatively higher cost of low/zero carbon fuel technology (linked to increasing incidence and severity of extreme weather events).\n- PR3: Delays in fuel delivery, presenting a risk of reduced road freight productivity.\n- PR5: Reduced weather windows for oversized transport deliveries resulting in customer complaints or customer losses.\n- PR8: Increased transit times, causing procurement delays — revenue risk linked to MOVE's ability to secure fleet.\n- PR10: Excessive flooding and high winds, reducing access to sites, presenting a risk of delivery delays and revenue loss (due to contract penalties and/or eroded customer base).\n\n**Indirect physical risks (impacts via value chain/customers):**\n- PR2: Disruption to customer productivity for key products (e.g. crop/harvest loss), presenting a risk to customer base (due to increasing number of customer bankruptcies).\n\n**Broader physical risk context:**\n- Damage to roads, rail and ports leads to increased disruption to freight networks and safety risks to operators.\n- Logistics delays relating to road access impairment due to over-slips, under-slips and inundation are increasingly frequent.\n- Key logistics markets (agricultural, horticultural, and forestry sectors) are highly vulnerable to climate impacts.\n- Warehouse network and moveable warehouse assets (forklifts) assessed as immaterial from a physical risk perspective due to geographical dispersion and leased nature of properties.\n- Fleet (trucks, tankers, vessels) vulnerable to physical risks but primarily assessed as vulnerable to transition risks (asset stranding).",
+      "evidence": "\"PR1 Risk of increased investment costs relating to relatively higher cost of low/zero carbon fuel technology... PR2 Disruption to customer productivity for key products (ex: crop / harvest loss), presenting a risk to customer base (due to increasing number of customer bankruptcies). PR3 Delays in fuel delivery, presenting a risk of reduced road freight productivity. PR5 Reduced weather windows for oversized transport deliveries resulting in customer complaints or customer losses. PR8 Increased transit times, causing procurement delays. This presents a revenue risk linked to MOVE's ability to secure fleet. PR10 Excessive flooding and high winds, reducing access to sites, presenting a risk of delivery delays and revenue loss (due to contract penalties and/or eroded customer base).\"\n\n\"MOVE's SMEs identified physical risks that could impact three key areas: our people; our assets; and our operations.\"\n\n\"Our warehouse machinery and equipment comprise predominately of moveable assets (i.e. forklifts) and, from our high-level assessment, we have determined the vulnerability of these assets to physical risks to be immaterial.\"\n\n\"Logistics delays relating to road access impairment due to over-slips, under-slips and inundation are increasingly frequent.\"",
+      "location_hint": "Physical risks table, p.14; Physical risk assessment, p.19; Vulnerability to physical risks, p.21–22",
+      "confidence": "high",
+      "notes": "Physical risks are assessed qualitatively using ISO14091 methodology and NIWA downscaled climate hazard data. The risk table on p.14 covers risks under all three scenarios and all three time horizons. PR1 appears to straddle physical and transition risk categories as described. Warehouse network vulnerability assessed as immaterial based on historical evidence, geographical dispersion, and leased nature of properties.",
+      "verification": null
+    }
+  ]
+}

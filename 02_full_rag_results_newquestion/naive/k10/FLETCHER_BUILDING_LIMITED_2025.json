@@ -1,0 +1,170 @@
+{
+  "source": "FLETCHER_BUILDING_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "k": 10,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 85197,
+      "output_tokens": 8068,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "total_tokens": 93265
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Fletcher Building uses three climate scenarios developed by the New Zealand Green Building Council (NZGBC): 1) A scenario where global warming is limited to below 2°C (aligned to RCP2.6 / SSP1-2.6); 2) A scenario where global warming reaches more than 3°C above pre-industrial levels by 2100 ('Hot House World' scenario, aligned to RCP 8.5 and SSP3); and a third scenario (implied by \"three NZGBC climate scenarios\"). The document explicitly names two: a below-2°C scenario and a 'Hot House World' (>3°C) scenario.",
+      "evidence": "\"limited by 2100. The sector faces high transition risks and costs after 2030 as entities rush to decarbonise. The data for this scenario is sourced from downscaled NIWA projections from IPCC AR5 and is aligned to RCP2.6. Once downscaled data for IPCC AR6 is available, this scenario will align to SSP1-2.6. 'Hot House World' scenario (>3°C): Global warming reaches more than 3 degrees above pre-industrial levels by 2100. No further decarbonisation policies are enacted. Emissions continue to rise, and the sector faces limited transition risk, but extreme physical risk. This scenario, and the assessments in FY20 and FY22, align to RCP 8.5 and SSP3. Please refer to Appendix C: Detailed climate scenarios and Appendix D: Data sources used for the three scenarios. The three NZGBC climate scenarios adopted by Fletcher Building remain unchanged in FY25.\"",
+      "location_hint": "Page 13; Appendix C (p.70)",
+      "confidence": "medium",
+      "notes": "The context excerpt on page 13 is truncated and only fully describes two of the three NZGBC scenarios. The third scenario is referenced but not fully described in the retrieved chunks. Appendix C (Detailed climate scenarios) would contain the full list but was not retrieved. Based on the available context, the two named scenarios are a below-2°C scenario and a 'Hot House World' >3°C scenario; a middle scenario (likely ~2-3°C) is implied by \"three scenarios.\"",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Fletcher Building uses three scenarios with the following global temperature outcomes by 2100:\n1. 'Orderly' scenario: ~1.5°C above pre-industrial levels\n2. 'Disorderly' scenario: <2°C above pre-industrial levels\n3. 'Hot House World' scenario: >3°C above pre-industrial levels",
+      "evidence": "'Orderly' scenario (1.5°C): Decarbonisation policies are enacted immediately and smoothly... 'Disorderly' scenario (<2°C): Significant decarbonisation is delayed until 2030, leading to global warming being limited by 2100. ... 'Hot House World' scenario (>3°C): Global warming reaches more than 3 degrees above pre-industrial levels by 2100.",
+      "location_hint": "Page 13, Fletcher Building Climate Statements 2025",
+      "confidence": "high",
+      "notes": "Three distinct scenarios are clearly defined with explicit temperature outcomes by 2100, all relative to pre-industrial levels.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "New Zealand Green Building Council (NZGBC)",
+      "evidence": "In FY24, Fletcher Building assessed three climate scenarios based on the New Zealand Green Building Council (NZGBC) 'Climate Scenarios for the Construction and Property Sector'. These were developed with participation from a wide range of industry and public sector stakeholders, and Fletcher Building contributed through representation on the NZGBC Leadership Group and Technical Working Group.",
+      "location_hint": "Page 13",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes. Fletcher Building mixes SSP and RCP frameworks across its three scenarios. For the 'Orderly' (~1.5°C) scenario, the physical risk modelling uses SSP1–2.6 (as an analogue, since SSP1-1.9 was not available), while transition/socioeconomic data uses SSP1-1.9 and RCP2.6 downscaling. For the 'Disorderly' (<2°C) scenario, physical risk modelling uses SSP2–4.5, while some data variables use RCP4.5 and others SSP3-7.0 (for temperature increase). For the 'Hot House World' (>3°C) scenario, physical risk modelling uses SSP5–8.5, while some data uses RCP8.5 downscaling. The document explicitly notes that where preferred low-warming model runs (SSP1-2.6/RCP2.6 or SSP1-1.9) were not available, climate analogues were applied, and that the approach \"preserves comparability of the physical climate hazard results, while maintaining the socioeconomic assumptions embedded in the proxy SSP.\"",
+      "evidence": "\"Due to limitations in model availability at a scale appropriate for asset-level assessment (refer to Appendix E), the low-warming model run SSP1-2.6 was not explicitly modelled... To address this, Marsh Advisory applied climate analogues for SSP1-2.6 across the three reporting horizons (2030, 2050 and 2100). Where preferred low-warming model runs (SSP1-2.6 / RCP2.6 or SSP1-1.9) were not available, vendor model runs and years were used as analogues, selected based on their similarity in absolute global mean surface temperature increase... This approach preserves comparability of the physical climate hazard results, while maintaining the socioeconomic assumptions embedded in the proxy SSP (for example, SSP2 versus SSP1).\"\n\nPhysical risk modelling scenarios: SSP1–2.6 (analogue, ~1.5°C pathway), SSP2–4.5 (intermediate pathway), SSP5–8.5 (high-emissions pathway).\n\nData sources table shows: Increase in average global mean air temperature uses SSP1-1.9 / SSP1-2.6 / SSP3-7.0; Percentage increase in hot days uses RCP2.6 downscaling / RCP8.5 downscaling; Rainfall intensity uses RCP2.6 / RCP8.5 projections.",
+      "location_hint": "Pages 13-14, 72, 75 (Appendix D and E)",
+      "confidence": "high",
+      "notes": "Fletcher Building explicitly mixes SSP and RCP frameworks: physical risk modelling uses SSP-based scenarios (SSP1-2.6, SSP2-4.5, SSP5-8.5), while some underlying data variables (e.g., rainfall intensity, wind speeds, hot days) are sourced from older RCP-based projections (RCP2.6, RCP4.5, RCP8.5). The 'Orderly' scenario also originally aligned to RCP2.6 (IPCC AR5) and is planned to align to SSP1-1.9 once AR6 downscaled data is available. The temperature increase variable for the 'Disorderly' scenario uses SSP1-2.6 rather than SSP2-4.5, adding further mixing.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context describes Fletcher Building's use of three standard scenarios (Orderly 1.5°C, Disorderly <2°C, and Hot House World >3°C) but does not mention any customised or bespoke scenarios developed by the company. No evidence of customised scenarios is present in the provided passages.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes. Fletcher Building co-produced climate scenarios through participation in the New Zealand Green Building Council (NZGBC) development of climate scenarios for the construction and property sector. The NZGBC scenarios were developed with participation from a wide range of industry and public sector stakeholders, and Fletcher Building contributed through representation on the NZGBC Leadership Group and Technical Working Group. The resulting scenarios were then reviewed and agreed with the Board and Audit and Risk Committee for adoption by Fletcher Building.",
+      "evidence": "\"In FY24, Fletcher Building assessed three climate scenarios based on the New Zealand Green Building Council (NZGBC) 'Climate Scenarios for the Construction and Property Sector'. These were developed with participation from a wide range of industry and public sector stakeholders, and Fletcher Building contributed through representation on the NZGBC Leadership Group and Technical Working Group. The NZGBC scenarios were then reviewed and agreed with the Board and Audit and Risk Committee for adoption by Fletcher Building.\"",
+      "location_hint": "Page 13",
+      "confidence": "high",
+      "notes": "Fletcher Building participated in the NZGBC Leadership Group and Technical Working Group to co-develop sector-specific climate scenarios, which were then formally adopted by the company after Board and ARC review.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Fletcher Building uses three baseline scenarios: (1) 'Orderly' (~1.5°C), aligned to SSP1-2.6 / RCP2.6; (2) 'Disorderly' (<2°C), aligned to SSP2-4.5; and (3) 'Hot House World' (>3°C), aligned to SSP5-8.5 / RCP8.5. The physical risk modelling uses 2020 as the baseline year. These scenarios are sourced from the NZGBC scenario framework and use downscaled CMIP6 projections assessed across time horizons of 2030, 2050, and 2100.",
+      "evidence": "\"Climate scenarios: SSP1–2.6 (analogue, ~1.5°C pathway), SSP2–4.5 (intermediate pathway), SSP5–8.5 (high-emissions pathway). Time horizons: 2020 (baseline), 2030, 2050, 2100.\"\n\n\"For FY25, Fletcher Building retained the 2024 scenario framings ('Orderly' (~1.5°C), 'Disorderly' (<2°C) and 'Hot House World' (>3°C))\"\n\n\"'Hot House World' scenario (>3°C): Global warming reaches more than 3 degrees above pre-industrial levels by 2100. No further decarbonisation policies are enacted. Emissions continue to rise, and the sector faces limited transition risk, but extreme physical risk. This scenario, and the assessments in FY20 and FY22, align to RCP 8.5 and SSP3.\"",
+      "location_hint": "Appendix E, p.75-76; p.13-14",
+      "confidence": "high",
+      "notes": "The 'Orderly' scenario uses SSP1-2.6 as an analogue (not directly modelled due to model availability limitations). The 'Hot House World' scenario is noted as aligning to SSP3 in one passage but SSP5-8.5 in the physical risk modelling parameters — both are referenced in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "Fletcher Building used multiple models/sources for climate scenario analysis, including: IPCC AR6 (SSP scenarios), Ministry for the Environment (MfE) 2018 climate projections (RCP2.6 and RCP8.5 downscaling), NGFS Climate Impact Explorer, NGFS/IIASA Scenario Explorer (2021), Climate Change Commission (CCC) ENZ model, and physical risk modelling conducted by Marsh Advisory. For physical risk, SSP1-2.6 was not explicitly modelled and climate analogues were applied instead.",
+      "evidence": "\"As part of the FY25 physical risk modelling, Marsh Advisory used these scenarios to assess climate hazards across Fletcher Building's material sites... the low-warming model run SSP1-2.6 was not explicitly modelled... Marsh Advisory applied climate analogues for SSP1-2.6 across the three reporting horizons (2030, 2050 and 2100).\" and \"Increase in average global mean air temperature: Intergovernmental Panel on Climate Change (IPCC), 2021... SSP1-1.9 / SSP1-2.6 / SSP3-7.0\" and \"Relative change in labour productivity due to heat stress in NZ: NGFS Climate Impact Explorer.\" and \"Carbon price and oil price projections: He Pou a Rangi / Climate Change Commission (CCC), 2021: Scenarios dataset for Draft Advice for Consultation (ENZ model).\"",
+      "location_hint": "Pages 14, 72-74 (Appendix D and E)",
+      "confidence": "high",
+      "notes": "Multiple models are used across different data variables. Physical risk modelling was conducted by Marsh Advisory using SSP scenarios with climate analogues where model runs were unavailable.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Fletcher Building considers damage from acute physical risks including floods (fluvial and pluvial), hurricanes/typhoons/cyclones, and wildfires. The company uses Average Annual Loss (AAL) as its primary risk metric, derived from Annual Damage Rate × Total Insured Value, covering property damage, business interruption, insurance deductibles/premiums, and higher operating costs. Actual damage was reported: $21 million for property damage and direct remedial works from Cyclone Gabrielle and North Island floods in FY23, and a non-material impact from Queensland Floods in FY25.",
+      "evidence": "\"During FY23, the impacts of Cyclone Gabrielle and the North Island floods in New Zealand were consistent with the levels of exposure and loss indicated by our historic scenario analysis for sites identified as being at high or very high flood risk. The impact amounted to $21 million for property damage and direct remedial works. This included impairment of property and plant, rectification of damage and remediation of leased assets, and write-down of inventory.\"",
+      "location_hint": "Page 16-17, Fletcher Building Climate Statements 2025",
+      "confidence": "high",
+      "notes": "The document also notes that the AAL approach \"does not capture the acute impact of rare, severe events (e.g., a 1-in-200-year flood), which could have a materially greater impact in a given year.\" Acute hazards assessed include floods, cyclones, and wildfires per the physical risk assessment methodology.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include multiple non-temperature hazard variables across different physical risk categories:\n\n**Floods:** Rainfall Intensity (%), No. of Very Wet Days (>95th percentile), No. of Wet Days (>10mm), Flood Frequency (Return Period of Flooding), Flood Severity (Inundation Depth of 1-in-100 RP Flood)\n\n**Cyclones:** Cumulative Wind Speed (Knots)\n\n**Wildfires:** Maximum Wildfire Potential (KBDI), Days with High Wildfire Potential, Change in Maximum Wildfire Potential (KBDI), Change in Days with High Wildfire Potential\n\n**Water Stress:** Current baseline water stress, Current interannual variability, Future water demand, Future water supply, Water demand change, Water supply change, Fraction of Water Reduction\n\n**Sea-level Rise:** Absolute Return Period of Coastal Flooding, Relative Coastal Flooding Frequency\n\n**Heat Stress (non-temperature components):** Energy Demand in Cooling Degree Days, % of Extreme Temperature, No. of Extreme Heat Days",
+      "evidence": "\"Floods: Rainfall Intensity (%), No. of Very Wet Days (>95th percentile), No. of Wet Days (>10mm), Flood Frequency (Return Period of Flooding), Flood Severity (Inundation Depth of 1-in-100 RP Flood) | Cyclones: Cumulative Wind Speed (Knots) | Wildfires: Maximum Wildfire Potential (KBDI), Days with High Wildfire Potential, Change in Maximum Wildfire Potential (KBDI), Change in Days with High Wildfire Potential | Water Stress: Current baseline water stress, Current interannual variability, Future water demand, Future water supply, Water demand change, Water supply change, Fraction of Water Reduction | Sea-level Rise: Absolute Return Period of Coastal Flooding, Relative Coastal Flooding Frequency | Heat Stress: Energy Demand in Cooling Degree Days, % of Extreme Temperature, No. of Extreme Heat Days\"",
+      "location_hint": "Appendix E, page 75",
+      "confidence": "high",
+      "notes": "These hazard metrics are listed in the physical risk assessment methodology table in Appendix E. They cover non-temperature variables used across the scenario analysis for floods, cyclones, wildfires, water stress, sea-level rise, and heat stress hazards.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Fletcher Building uses three climate scenarios:\n1. Orderly (1.5°C) – aligned to SSP1-1.9 / RCP2.6\n2. Disorderly (<2°C) – aligned to SSP1-2.6 / RCP2.6 downscaling\n3. Hot House World (>3°C) – aligned to SSP3-7.0 / RCP8.5 downscaling\n\nThese are global-scale scenarios based on IPCC frameworks, with physical risk data downscaled to New Zealand (and Australia) level.",
+      "evidence": "\"SCENARIO ONE ORDERLY 1.5°C ... SSP1-1.9 / SCENARIO TWO DISORDERLY <2°C ... SSP1-2.6 / SCENARIO THREE HOT HOUSE WORLD >3°C ... SSP3-7.0\" and \"In FY24, Fletcher Building assessed three climate scenarios based on the New Zealand Green Building Council (NZGBC) 'Climate Scenarios for the Construction and Property Sector'.\"",
+      "location_hint": "Page 72–73 (Appendix C data table); Page 13 (Scenario analysis overview)",
+      "confidence": "high",
+      "notes": "Scenarios are global in scope (IPCC-based temperature pathways) but physical risk data is downscaled to New Zealand and Australia. The scenarios were originally developed by the NZGBC for the construction and property sector.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Fletcher Building uses three time horizons for both physical and transition risk assessments, though the specific ranges differ:\n\n**Physical Risk Assessment:**\n- Short-term: Present – 2030 (aligned with 5-year business planning cycle)\n- Medium-term: 2030 – 2050 (aligned with 'Net Zero by 2050' strategic goal)\n- Long-term: 2050 – 2100 (broadly aligns to a 50-year asset lifetime for significant physical assets)\n\n**Transition Risk Assessment:**\n- Short-term: Present – 2030 (same as physical risk)\n- Medium-term: 2030 – 2040 (aligned with two business planning cycles)\n- Long-term: Beyond 2040 (risks beyond two business planning cycles)\n\nThe medium- and long-term horizons for transition risk are shorter than for physical risk because transition risks (policy, regulatory, market, technology, reputational) have limited value and very high uncertainty beyond one to two business planning cycles (~5–10 years).",
+      "evidence": "\"Short-term (Present – 2030) The short-term horizon aligns with the 5-year business planning cycle, including proposed capital deployment for decarbonisation initiatives. Short-term (Present – 2030) The short-term horizon is aligned to the Group's 5-year planning cycle and captures most of the period aligned to Fletcher Building's 2030 SBT for GHG emissions reduction. Long-term (2050 – 2100) The long-term horizon broadly aligns to a 50-year asset lifetime for significant physical assets. Long-term (Beyond 2040) We have noted any risks beyond two business planning cycles as being in the long-term horizon. Medium-term (2030 – 2050) The medium-term horizon aligns with Fletcher Building's 'Net Zero by 2050' strategic goal. Medium-term (2030 – 2040) The medium-term horizon aligns with two business planning cycles.\"",
+      "location_hint": "Page 15, Fletcher Building Climate Statements 2025",
+      "confidence": "high",
+      "notes": "The document clearly distinguishes between physical risk and transition risk time horizons, with the transition risk horizons being shorter due to the nature of those risks.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Fletcher Building justifies its scenario and model choices on several grounds:\n\n1. **Scenario framework**: The three scenarios ('Orderly' ~1.5°C, 'Disorderly' <2°C, 'Hot House World' >3°C) are retained for comparability with international frameworks and alignment with regulatory guidance. The 'Orderly' scenario is acknowledged as arguably no longer reasonable but is maintained for comparability.\n\n2. **Physical risk modelling**: Downscaled CMIP6 climate projections and RMS Climate on Demand modelling were used, assessed as \"the most appropriate as it aligns with the approach our insurers use to assess physical risk exposure across our sites.\" Consistency with insurer methodologies strengthens the link between risk identification and risk transfer.\n\n3. **Climate analogues for SSP1-2.6**: Where preferred low-warming model runs were unavailable, climate analogues were applied, selected based on similarity in absolute global mean surface temperature increase relative to pre-industrial levels, to preserve comparability while minimising transient-state mismatches.\n\n4. **Scenario analysis purpose**: Scenarios are not intended to be probabilistic or predictive but serve as a tool to support strategic planning and help identify climate-related risks and opportunities.",
+      "evidence": "\"This modelling is considered the most appropriate as it aligns with the approach our insurers use to assess physical risk exposure across our sites. As insurance cover for physical risks represents the Group's primary financial response to such events, having consistency between our internal risk assessment and insurer methodologies strengthens the link between risk identification and risk transfer, with a focus on sites most material to the business and business operations.\"\n\n\"The 'Orderly' scenario is arguably no longer considered reasonable, given that achieving a below-1.5°C pathway is increasingly viewed as unlikely. However, that scenario is maintained for comparability with international frameworks, alignment with regulatory guidance, and to assess the...\"\n\n\"Where preferred low-warming model runs (SSP1-2.6 / RCP2.6 or SSP1-1.9) were not available, vendor model runs and years were used as analogues, selected based on their similarity in absolute global mean surface temperature increase (relative to pre-industrial, 1880–1900) for each reporting horizon.\"\n\n\"The climate-related scenarios used in scenario analysis are not intended to be probabilistic or predictive. Scenario analysis is a process for exploring the effects of a range of plausible future events under conditions of uncertainty.\"",
+      "location_hint": "Pages 14, 20, 84",
+      "confidence": "high",
+      "notes": "Multiple justifications are provided across different sections of the document. The primary justifications are: alignment with insurer methodology, regulatory/international framework comparability, and use of climate analogues where preferred model runs are unavailable.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "During FY23, the impacts of Cyclone Gabrielle and the North Island floods in New Zealand resulted in $21 million for property damage and direct remedial works (including impairment of property and plant, rectification of damage and remediation of leased assets, and write-down of inventory). This was consistent with the levels of exposure and loss indicated by historic scenario analysis for sites identified as being at high or very high flood risk. The impact was not material to the Group's cash flows in FY23. In FY24, the Group received insurance proceeds of $10 million relating to those property damage losses. In FY25, the significant Queensland Floods in Australia were assessed to have a non-material impact.",
+      "evidence": "During FY23, the impacts of Cyclone Gabrielle and the North Island floods in New Zealand were consistent with the levels of exposure and loss indicated by our historic scenario analysis for sites identified as being at high or very high flood risk. The impact amounted to $21 million for property damage and direct remedial works. This included impairment of property and plant, rectification of damage and remediation of leased assets, and write-down of inventory. This impact was not material to the Group's cash flows in FY23. Additionally, in FY24, the Group received insurance proceeds of $10 million relating to those property damage losses and costs for direct remedial works. In FY25, the significant Queensland Floods in Australia were assessed to have a non-material",
+      "location_hint": "Page 16",
+      "confidence": "high",
+      "notes": "The FY25 Queensland Floods sentence appears to be cut off in the retrieved context, but the text states the impact was \"non-material.\"",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Fletcher Building identifies the following direct and indirect physical climate risks:\n\n**Direct (to Group assets/operations):**\n- PR1: The risk of increasing frequency and/or severity of extreme weather events to assets of the Group\n- PR2: The risk of longer-term shifts in climate patterns to assets of the Group\n\n**Indirect (supply chain and customers):**\n- PR3: The risk of increasing frequency and/or severity of extreme weather events and risk of longer-term shifts in climate patterns to supply chain — including natural hazards (extreme heat, river flood, coastal flood, earthquakes) impacting supplier sites; major drivers include high natural hazard exposure and moderately high supplier concentration risk, particularly in India, New Zealand, China and Taiwan.\n- PR4: The risk of increasing frequency and/or severity of extreme weather events and risk of longer-term shifts in climate patterns on customers.\n\nA physical risk assessment was conducted across 177 Tier 1 and Tier 2 sites (~92% of Group Total Insured Value), and a supply chain risk assessment was conducted for 27 key supplier sites. Coastal flooding was identified as posing the highest threat to the supply chain. The overall financial impact of supply chain risks within a 12-month period was assessed as 'minor' ($7.5 million to $50 million earnings impact).",
+      "evidence": "PR1: The risk of increasing frequency and/or severity of extreme weather events to assets of the Group\nPR2: The risk of longer-term shifts in climate patterns to assets of the Group\nPR3: The risk of increasing frequency and/or severity of extreme weather events and risk of longer-term shifts in climate patterns to supply chain\nPR4: The risk of increasing frequency and/or severity of extreme weather events and risk of longer-term shifts in climate patterns on customers.\n\nNatural hazards (including extreme heat, river flood, coastal flood and earthquakes) that may impact supplier sites and supply chain for business units. Major drivers of supply chain vulnerability include high natural hazard exposure and moderately high supplier concentration risk, particularly in India, New Zealand, China and Taiwan.\n\nThe impact to earnings of Group-wide supply chain risks within a 12-month period, including the potential impact from climate change, are assessed as 'minor' in our Group Risk Framework (i.e., $7.5 million to $50 million earnings impact).",
+      "location_hint": "Pages 18-19, 30-31 (Fletcher Building Climate Statements 2025)",
+      "confidence": "high",
+      "notes": "Physical risks are categorized as PR1–PR4, covering direct operational assets and indirect supply chain and customer risks. Financial quantification is only provided for supply chain risks (minor: $7.5M–$50M); anticipated financial impacts for physical risks are not provided per NZ CS 2 Adoption Provision 2.",
+      "verification": null
+    }
+  ]
+}

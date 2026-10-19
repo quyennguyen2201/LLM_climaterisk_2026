@@ -1,0 +1,170 @@
+{
+  "source": "ANZ_BANK_NEW_ZEALAND_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 10,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "output_tokens": 6613,
+      "input_token_details": {
+        "cache_read": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_creation": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 86042,
+      "total_tokens": 92655
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "ANZ NZ used three scenarios: Net Zero Emissions (1.5°C by 2100), Fragmented World (2.5°C by 2100), and Current Policies (3°C by 2100).",
+      "evidence": "Agreed scenarios and selected the following pathways: Net Zero Emissions (1.5°C by 2100), Fragmented World (2.5°C by 2100) and Current Policies (3°C by 2100).",
+      "location_hint": "Appendix 4: Scenario analysis methodology and assumptions, p.55",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The three scenarios project the following global temperature outcomes by 2100:\n- Net Zero 2050: 1.5°C above pre-industrial levels\n- Fragmented World: 2.5°C above pre-industrial levels\n- Current Policies: 3°C above pre-industrial levels",
+      "evidence": "\"Net Zero 2050 / Fragmented World / Current Policies — Approximate warming at 2100: 1.5°C / 2.5°C / 3°C\"",
+      "location_hint": "ANZBankNZCRDFY24.pdf, page 14 (Table 5 – Scenario architectures)",
+      "confidence": "high",
+      "notes": "All three temperature outcomes are explicitly stated in the scenario architecture table on page 14, and corroborated by narrative descriptions on pages 13 and 15.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "NGFS (Network for Greening the Financial System), NIWA (National Institute of Water and Atmospheric Research), and CCC (Climate Change Commission)",
+      "evidence": "Our scenario narratives were informed by the publicly available modelling underpinning the reference scenarios (e.g. the Climate Change Commission (CCC) and the Network for Greening the Financial System (NGFS) data) – refer to Table 5 – 'Our scenario architectures.' ... Global socio-economic, energy and emissions pathway parameters and temperature: NGFS Net Zero 2050, NGFS Fragmented World, NGFS Current Policies. Aotearoa New Zealand-specific parameters: NIWA RCP 2.6, NIWA RCP 4.5, NIWA RCP 8.5. Aotearoa New Zealand-specific transition pathway parameters: CCC – High Technology High Systems Change, CCC Low Technology Low Systems Change, CCC Reference Scenario.",
+      "location_hint": "Page 14 (Table 5 – Our scenario architectures) and page 13",
+      "confidence": "high",
+      "notes": "Three scenario providers are used: NGFS for global socio-economic/energy/emissions pathways, NIWA for NZ-specific physical risk parameters (RCPs), and CCC (Climate Change Commission) for NZ-specific transition pathway parameters.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "ANZ NZ uses RCPs (Representative Concentration Pathways) for physical risk modelling, applied across all three RCPs in their scenario architectures. The document does not mention SSPs (Shared Socioeconomic Pathways). The three scenarios use temperature pathways of 1.5°C (Net Zero Emissions), 2.5°C (Fragmented World), and 3°C (Current Policies) by 2100, informed by NGFS and Climate Change Commission data.",
+      "evidence": "\"Modelling was also undertaken by us to assess the risk to our mortgage portfolio of inland flooding and sea level rise combined with storm surge; and the risk of drought to our agricultural portfolio. The modelling methodology is outlined in Appendix 3, but applied to all three Representative Concentration Pathways (RCP) in Table 5 – 'Our scenario architectures.'\"",
+      "location_hint": "Page 13",
+      "confidence": "medium",
+      "notes": "The document references RCPs explicitly for physical risk modelling but does not mention SSPs at all. The three scenarios (1.5°C, 2.5°C, 3°C) are informed by NGFS and CCC reference scenarios. No pick-and-mix of SSPs and RCPs is described; only RCPs are used.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "ANZ Bank NZ did not develop fully customised scenarios. Instead, they used established third-party scenarios and adapted them with Aotearoa New Zealand-specific parameters. The scenarios used include: NGFS Net Zero 2050, NGFS Fragmented World, and NGFS Current Policies as global frameworks, overlaid with NIWA RCP 2.6, NIWA RCP 4.5, and NIWA RCP 8.5 for NZ-specific physical parameters, and CCC High Technology High Systems Change, CCC Low Technology Low Systems Change, and CCC Reference Scenario for NZ-specific transition pathway parameters.",
+      "evidence": "\"Net Zero 2050 / Fragmented World / Current Policies... NGFSa Net Zero 2050 / NGFS Fragmented World / NGFS Current Policies... NIWAb RCP 2.6 / NIWA RCP 4.5 / NIWA RCP 8.5... CCCc – High Technology High Systems Change / CCC Low Technology Low Systems Change / CCC Reference Scenario\"",
+      "location_hint": "ANZBankNZCRDFY24.pdf, page 14",
+      "confidence": "high",
+      "notes": "The document shows ANZ NZ used established NGFS scenarios as the global base, then layered in NZ-specific physical risk data from NIWA and NZ-specific transition pathways from the Climate Change Commission (CCC). No fully bespoke/customised scenarios were developed from scratch.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "ANZ NZ did not co-produce climate scenarios with external stakeholders in a formal partnership sense. Their scenarios were developed internally by a working group of internal subject matter experts, informed by publicly available reference scenarios (CCC and NGFS data), with external consultants engaged to assist in designing and facilitating workshops, advising on the process, and reviewing draft narratives and documentation. The scenario narratives were not co-produced with external parties such as government agencies or industry bodies.",
+      "evidence": "\"Our scenario narratives were informed by the publicly available modelling underpinning the reference scenarios (e.g. the Climate Change Commission (CCC) and the Network for Greening the Financial System (NGFS) data)... We engaged external consultants to assist in designing and facilitating our scenario workshops; advising on scenario analysis process; and reviewing the draft narratives, documentation and use of references.\"",
+      "location_hint": "ANZBankNZCRDFY24.pdf, page 13",
+      "confidence": "high",
+      "notes": "The scenarios were internally developed with external consultant support and informed by public reference scenarios, but not co-produced with external stakeholders (e.g., government, industry bodies, or communities) in a collaborative co-design sense.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "ANZ NZ used three baseline scenarios: (1) \"Net Zero 2050\" (1.5°C-aligned) — high short-term transition risk with rapid, radical progress towards a low-emissions, climate-resilient economy; (2) \"Fragmented World\" — climate transition actions increase sharply from 2030, different countries follow different emission reduction trajectories, New Zealand takes a leadership role, average global temperatures on a path to 2.5°C above pre-industrial levels by 2100; (3) \"Current Policies\" — current activities continue, average global temperatures on a path to 3°C above pre-industrial levels by 2100, characterised by low transition risk and more severe physical impacts. These were informed by the Climate Change Commission (CCC) and the Network for Greening the Financial System (NGFS) data.",
+      "evidence": "\"The chosen scenarios pose a full spectrum of transition risk and physical risk challenges and include: • a 'Net Zero 2050' (1.5°C-aligned) scenario characterised by high short-term transition risk with rapid, radical progress towards a low‑emissions, climate-resilient economy; • a 'Fragmented World' scenario where climate transition actions globally increase sharply from 2030, with different countries following different emission reduction trajectories and New Zealand taking a leadership role. Average global temperatures are on a path to increase to 2.5°C above pre-industrial levels by 2100; and • a 'Current Policies' scenario where current activities continue and average global temperatures are on a path to increase to 3°C above pre-industrial levels by 2100, characterised by low transition risk and more severe physical impacts.\"",
+      "location_hint": "ANZBankNZCRDFY24.pdf, page 13",
+      "confidence": "high",
+      "notes": "Reference scenarios were informed by the Climate Change Commission (CCC) and the Network for Greening the Financial System (NGFS) data, as stated on page 13.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "ANZ NZ used NGFS Phase IV Climate Scenarios (Network for Greening the Financial System) and Climate Change Commission (CCC) data and modelling outputs as reference scenario models. They also conducted their own modelling for physical risks (inland flooding, sea level rise combined with storm surge, and drought) across three Representative Concentration Pathways (RCPs).",
+      "evidence": "\"Our scenario narratives were informed by the publicly available modelling underpinning the reference scenarios (e.g. the Climate Change Commission (CCC) and the Network for Greening the Financial System (NGFS) data) – refer to Table 5 – 'Our scenario architectures.' Modelling was also undertaken by us to assess the risk to our mortgage portfolio of inland flooding and sea level rise combined with storm surge; and the risk of drought to our agricultural portfolio. The modelling methodology is outlined in Appendix 3, but applied to all three Representative Concentration Pathways (RCP) in Table 5 – 'Our scenario architectures.'\" Also: \"Using NGFS Phase IV Climate Scenarios Technical Documentation v4.2 (November 2023).\"",
+      "location_hint": "Page 13-14, Strategy section / Scenario analysis",
+      "confidence": "high",
+      "notes": "The document references NGFS Phase IV Climate Scenarios Technical Documentation v4.2 (November 2023) and CCC data as the primary external models, supplemented by ANZ NZ's own physical risk modelling.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. ANZ Bank NZ considers damage from acute physical risks including: (1) inland flooding — using Moody's RMS model at 1% Annual Exceedance Probability (1-in-100-year flood event), with a property deemed vulnerable when damage exceeds 0.5% of Total Insurable Value; (2) coastal inundation — using NIWA data with 100-year ARI storm surge, with a property deemed vulnerable when coastal flooding touches any building on the property. These are assessed for present day and 2050 under the RCP 8.5 scenario.",
+      "evidence": "\"We've used Moody's RMS model for a 1% Annual Exceedance Probability (AEP, the chance of flooding in any given year at the location of interest), colloquially referred to as a 1-in-100-year flood event... Vulnerability: Inland flooding – damage exceeds 0.5% of Total Insurable Value; Coastal inundation – coastal flooding touches any building on the property.\"",
+      "location_hint": "ANZBankNZCRDFY24.pdf, page 53",
+      "confidence": "high",
+      "notes": "Coastal flooding includes an acute risk element (storm surge on top of chronic sea level rise). Inland flooding is modelled as a 1-in-100-year acute event. Drought is a chronic risk and assessed separately for Agri only.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include the following non-temperature variables: sea level rise (e.g., 30cm of sea level rise for 2050 under RCP 8.5, 10cm for current conditions), storm surge (100-year ARI storm surge), inland flooding (1% Annual Exceedance Probability / 1-in-100-year flood events), drought measured via Potential Evapotranspiration Deficit (PED) of 300mm or more, and extreme weather events (flooding, severe storms). These are used across the physical risk scenarios.",
+      "evidence": "\"NIWA's data maps the depth and extent above the land of flooding from mean sea level rise with storm-tide and wave setup from a storm with a 100-year annual recurrence interval (ARI)... ANZ worked with our data providers to map the datasets to RCP 8.5, with 30cm of sea level rise and 100-year ARI storm surge selected for 2050 and 10cm of sea level rise and 100‑year ARI storm surge selected for current conditions.\" and \"Drought (Agri only) – Potential Evapotranspiration Deficit (PED) – the average annual accumulated water deficit (vs water required for optimum pasture growth) – of 300mm or more.\" and \"We've used Moody's RMS model for a 1% Annual Exceedance Probability (AEP, the chance of flooding in any given year at the location of interest), colloquially referred to as a 1-in-100-year flood event.\"",
+      "location_hint": "Appendix 3, p.53-54",
+      "confidence": "high",
+      "notes": "Non-temperature variables explicitly modelled include sea level rise, storm surge, inland flooding (AEP), and drought (PED). These are used in the physical risk assessment under the RCP 8.5 scenario for present day and 2050.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "ANZ NZ used three scenarios spanning a range of temperature outcomes and risk profiles:\n1. 'Net Zero 2050' (1.5°C-aligned) – high short-term transition risk, rapid progress toward a low-emissions economy\n2. 'Fragmented World' (2.5°C future) – sharply increasing global transition actions from 2030, divergent country trajectories, New Zealand taking a leadership role\n3. 'Current Policies' (3°C future) – current activities continue, low transition risk, more severe physical impacts",
+      "evidence": "\"The chosen scenarios pose a full spectrum of transition risk and physical risk challenges and include: • a 'Net Zero 2050' (1.5°C-aligned) scenario characterised by high short-term transition risk with rapid, radical progress towards a low‑emissions, climate-resilient economy; • a 'Fragmented World' scenario where climate transition actions globally increase sharply from 2030, with different countries following different emission reduction trajectories and New Zealand taking a leadership role. Average global temperatures are on a path to increase to 2.5°C above pre-industrial levels by 2100; and • a 'Current Policies' scenario where current activities continue and average global temperatures are on a path to increase to 3°C above pre-industrial levels by 2100, characterised by low transition risk and more severe physical impacts.\"",
+      "location_hint": "Page 13, Scenario analysis section",
+      "confidence": "high",
+      "notes": "The three scenarios cover 1.5°C, 2.5°C, and 3°C warming pathways, representing a full spectrum from aggressive transition to high physical risk.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Short-term: FY25 to end FY27; Medium-term: FY28 to end FY30; Long-term: FY31 to FY60 (implied from context); with an additional \"Longer Term\" horizon of FY61–FY100 used within the Risk Management section.",
+      "evidence": "Short-term \nFY25 to end FY27\nMedium-term \nFY28 to end FY30\nLong-term\n\n...In addition to the time horizons set out in the 'Scenario analysis' section we use a 'Longer Term' time horizon of FY61- FY100 within the 'Risk management' section to understand how the physical risks from climate change might change over time.",
+      "location_hint": "Page 17 and Page 29",
+      "confidence": "high",
+      "notes": "The long-term end date (FY31–FY60) is inferred from context (page 53 references \"long-term (2031-2060) horizon\") but the short and medium-term definitions are explicitly stated on page 17. The \"Longer Term\" FY61–FY100 is explicitly stated on page 29.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "ANZ NZ justified its scenario choices by selecting pathways that explored key driving forces and enabled testing of resilience against a wide range of trends and outcomes considered most relevant to ANZ NZ. The working group (comprising subject matter experts in ESG, Risk, Strategy, Economics and Te Ao Māori, alongside Banking experts) considered a long list of driving forces, then selected key uncertain yet impactful climate driving forces judged to be the most relevant and appropriate external factors to assess strategic resilience. The chosen scenarios explored a range of physical and transition risk profiles, informed by reputable sources of scientific and socioeconomic analysis, and posed a full spectrum of transition risk and physical risk challenges — covering a 1.5°C-aligned Net Zero 2050 scenario, a Fragmented World scenario (2.5°C), and a Current Policies scenario (3°C).",
+      "evidence": "\"However, the pathways selected for our scenarios explored ANZ NZ's key driving forces and enabled us to test our resilience against a wide range of trends and outcomes considered most relevant to ANZ NZ. This process was undertaken by a working group comprising subject matter experts in ESG, Risk, Strategy, Economics and Te Ao Māori, alongside Banking experts. Our working group considered a long list of driving forces, then selected key uncertain yet impactful climate driving forces to include in the narratives, judging these to be the most relevant and appropriate external factors to assess our strategic resilience. Our chosen scenarios explored a range of physical and transition risk profiles and were informed by data and information produced by reputable sources of scientific and socioeconomic analysis.\"",
+      "location_hint": "Strategy – Scenario analysis, p.13",
+      "confidence": "high",
+      "notes": "The document also notes limitations: scenarios are not predictions, source data may become out of date, and different methods/assumptions may create inconsistency across results.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context discusses current and anticipated climate-related impacts, risks, and opportunities, but does not contain specific information about historic (past) climate impacts experienced by ANZ Bank NZ. The document references FY24 material current impacts and forward-looking scenario analysis, but no historical climate impact data is explicitly provided in these passages.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "ANZ Bank NZ identifies both acute and chronic physical climate risks. Key physical risks include:\n\n1. **Acute physical risks** – Repeated or severe damage to assets and infrastructure from extreme weather events. Repair and rebuilding costs financially impact individuals, businesses, and local/central government. At large enough scale, this may lead to inflation, increased government debt, government credit rating downgrade, wholesale market interest rate increases, and a devalued New Zealand Dollar. Anticipated impacts include:\n   - Credit losses where customers are financially impacted through loss of revenue, employment or increased repair costs.\n   - Increased operating costs from business disruption (inability of staff and customers to reach buildings or connect online, or inability of third-party suppliers to fulfil contractual obligations).\n\n2. **Risks to specific sectors/customers** – Businesses reliant on specific locations, property owners, and local government face:\n   - Credit losses on business lending due to reduced incomes and on property lending if values fall and customers are unable to repay loans.\n   - Reduced income through broader economic impacts and wealth erosion.\n   - Reputation damage if ANZ takes actions to manage credit risk that could be seen as not supporting customers, or if it continues to lend in areas expected to be at high risk of becoming unviable during the loan term.\n\nPhysical risks are assessed across all sectors and ANZ itself, with risk types including Credit, Liquidity & Funding, Market, Conduct, Operational Resilience, Physical Security, and Third Party risks.",
+      "evidence": "\"• Acute Repeated or severe damage to assets and infrastructure Repair and rebuilding costs will financially impact individuals, businesses, and local and central government. Councils may face high costs for recurring infrastructure repairs or reduced revenue if ratepayers move away. At a large enough scale, this may lead to inflation, increased government debt, government credit rating downgrade, wholesale market interest rate increase and devalued New Zealand Dollar. • Credit • Liquidity & Funding • Market • Conduct* • Operational Resilience* • Physical Security* • Third Party* • All Sectors • ANZ L • Credit losses where customers are financially impacted through loss of revenue, employment or increased repair costs. • Increased operating costs for us from business disruption (i.e. through inability of staff and customers to reach our buildings or connect online to conduct business or by the inability of third-party businesses supplying essential goods and services to fulfil contractual obligations).\"",
+      "location_hint": "Page 19, Table 7 – Climate-related risks and anticipated impacts",
+      "confidence": "high",
+      "notes": "The context covers acute physical risks in detail. Chronic physical risks are referenced in the document structure (e.g., scenario analysis, sector reviews on physical risks to homes, farms and commercial properties) but specific chronic risk descriptions are not fully captured in the retrieved chunks. The answer is based on what is explicitly stated in the retrieved context.",
+      "verification": null
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "source": "RESOLUTION_LIFE_AUSTRALASIA_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 20,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "output_tokens": 6912,
+      "total_tokens": 159070,
+      "input_tokens": 152158,
+      "input_token_details": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0,
+        "cache_creation": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "The following climate scenarios were used by RLAL-NZ in 2024:\n\n1. **IEA Net Zero Emissions by 2050 (NZE)** – consistent with limiting global temperature rise to 1.5°C.\n2. **IEA Announced Pledges Scenario (APS)** – consistent with limiting global temperature rise to 1.7°C.\n3. **IPCC SSP1 – 2.6** – analysed against a 1.5°C scenario (used for physical risk exposure assessment).\n4. **IPCC SSP3 – 7.0** – analysed against a 3.0°C or greater scenario (used for physical risk exposure assessment).\n5. **High, Medium, and Low carbon pricing scenarios** (informed by OECD and IEA research) – used for transitional risk (Unpriced Carbon Cost / EBITDA at Risk assessment).\n\nAdditionally, in the 2023 report (referenced), three scenarios selected by the Financial Services Council were used qualitatively (not detailed in the 2024 report).",
+      "evidence": "\"In 2024, we elected to conduct a deep dive on the qualitative scenario analysis of different scenarios from the International Energy Agency (IEA): • Net Zero emissions by 2050 (NZE) – shows a narrow but achievable path for the global energy sector to achieve net zero CO2 emissions by 2050... It is consistent with limiting global temperature rise to 1.5°C. • Announced Pledges Scenario (APS) – takes into account all recent government commitments relating to climate change... It is consistent with limiting global temperature rise to 1.7°C.\"\n\n\"To assess the physical impacts of climate change, we conducted an assessment for the medium term (2030) using two scenarios from the Intergovernmental Panel on Climate Change (IPCC): SSP1 – 2.6 and SSP3 – 7.0. These scenarios were analysed against a 1.5°C scenario, and a 3.0°C or greater scenario.\"\n\n\"Both the High and Moderate scenarios anticipate that by 2050, carbon pricing will reach levels necessary to limit global warming to within 2°C above pre-industrial levels, though the Moderate scenario assumes delayed action in the short term. The Low scenario, while not aligned with the 2°C target, is based on the implementation of Nationally Determined Contributions. These scenarios are informed by research from the OECD and IEA.\"",
+      "location_hint": "Page 10 (IEA scenarios), Page 18 (IPCC scenarios), Page 17 (carbon pricing scenarios)",
+      "confidence": "high",
+      "notes": "Multiple scenario frameworks are used for different purposes: IEA NZE and APS for qualitative transition risk/opportunity heat mapping; IPCC SSP1-2.6 and SSP3-7.0 for physical risk exposure; and High/Medium/Low carbon pricing scenarios (OECD/IEA-informed) for transitional EBITDA at Risk assessment.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document does not provide a single global temperature outcome by 2100. It references multiple scenarios with different temperature outcomes: the Net Zero Emissions by 2050 (NZE) scenario is consistent with limiting global temperature rise to 1.5°C; the Announced Pledges Scenario (APS) is consistent with limiting global temperature rise to 1.7°C; the High and Moderate carbon pricing scenarios anticipate limiting global warming to within 2°C above pre-industrial levels; and the SSP3–7.0 physical risk scenario is associated with a 3.0°C or greater outcome.",
+      "evidence": "\"Net Zero emissions by 2050 (NZE) – ... It is consistent with limiting global temperature rise to 1.5°C. Announced Pledges Scenario (APS) – ... It is consistent with limiting global temperature rise to 1.7°C.\" / \"Both the High and Moderate scenarios anticipate that by 2050, carbon pricing will reach levels necessary to limit global warming to within 2°C above pre-industrial levels\" / \"These scenarios were analysed against a 1.5°C scenario, and a 3.0°C or greater scenario.\"",
+      "location_hint": "Page 10 (scenarios); Page 17 (transition risk); Page 18 (physical risk)",
+      "confidence": "high",
+      "notes": "The document uses multiple scenarios with different temperature outcomes (1.5°C, 1.7°C, 2°C, 3°C+) rather than a single global temperature outcome by 2100. The temperature figures are scenario-dependent and not all explicitly tied to 2100.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "International Energy Agency (IEA)",
+      "evidence": "\"In 2024, we elected to conduct a deep dive on the qualitative scenario analysis of different scenarios from the International Energy Agency (IEA): • Net Zero emissions by 2050 (NZE) ... • Announced Pledges Scenario (APS) ...\"",
+      "location_hint": "Page 10",
+      "confidence": "high",
+      "notes": "The document explicitly states that the scenarios used in 2024 were from the International Energy Agency (IEA).",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "SSP1–2.6 (Low scenario) and SSP3–7.0 (Medium-High scenario) for physical risk assessment; and High, Moderate, and Low scenarios (informed by OECD and IEA research) for transitional risk exposure. No RCPs are mentioned.",
+      "evidence": "\"To assess the physical impacts of climate change, we conducted an assessment for the medium term (2030) using two scenarios from the Intergovernmental Panel on Climate Change (IPCC): SSP1 – 2.6 and SSP3 – 7.0. These scenarios were analysed against a 1.5°C scenario, and a 3.0°C or greater scenario.\" and \"Both the High and Moderate scenarios anticipate that by 2050, carbon pricing will reach levels necessary to limit global warming to within 2°C above pre-industrial levels, though the Moderate scenario assumes delayed action in the short term. The Low scenario, while not aligned with the 2°C target, is based on the implementation of Nationally Determined Contributions. These scenarios are informed by research from the OECD and IEA.\"",
+      "location_hint": "Page 18 (physical risk) and Page 17 (transition risk)",
+      "confidence": "high",
+      "notes": "The document uses SSPs (SSP1-2.6 and SSP3-7.0) for physical risk scenarios. For transition risk, it uses High/Moderate/Low carbon pricing scenarios informed by OECD and IEA research, not labelled as RCPs. No RCP scenarios are referenced anywhere in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "No customised scenarios were used. RLAL-NZ used standard published scenarios from the International Energy Agency (IEA): Net Zero Emissions by 2050 (NZE) and Announced Pledges Scenario (APS) for qualitative scenario analysis, and IPCC scenarios SSP1–2.6 and SSP3–7.0 for physical risk assessment.",
+      "evidence": "In 2024, we elected to conduct a deep dive on the qualitative scenario analysis of different scenarios from the International Energy Agency (IEA): • Net Zero emissions by 2050 (NZE) – shows a narrow but achievable path for the global energy sector to achieve net zero CO2 emissions by 2050, with advanced economies reaching net zero in advance of others. It is consistent with limiting global temperature rise to 1.5°C. • Announced Pledges Scenario (APS) – takes into account all recent government commitments relating to climate change, including Nationally Determined Contributions (NDCs), and assumes they will be met in full and on time. It is consistent with limiting global temperature rise to 1.7°C. We chose the IEA scenarios because the qualitative narrative available is much more extensive at a sector level.",
+      "location_hint": "Page 10",
+      "confidence": "high",
+      "notes": "The company used standard IEA and IPCC scenarios, not customised ones. No evidence of any bespoke or customised scenario development was found in the context.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The document does not mention co-produced climate scenarios. RLAL-NZ used scenarios from the International Energy Agency (IEA) — specifically the Net Zero Emissions by 2050 (NZE) and Announced Pledges Scenario (APS) — and in 2023 used scenarios selected by the Financial Services Council. There is no mention of scenarios being co-produced with external stakeholders or other organisations.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "RLAL-NZ used the following baseline scenarios:\n\n1. For transition risk (qualitative scenario analysis): IEA Net Zero Emissions by 2050 (NZE) – consistent with limiting global temperature rise to 1.5°C; and IEA Announced Pledges Scenario (APS) – consistent with limiting global temperature rise to 1.7°C.\n\n2. For transitional risk exposure (EBITDA at Risk / Unpriced Carbon Cost): High, Medium, and Low carbon pricing scenarios informed by OECD and IEA research. Both High and Moderate scenarios anticipate carbon pricing reaching levels to limit warming to within 2°C by 2050; the Low scenario is based on Nationally Determined Contributions.\n\n3. For physical risk exposure: IPCC SSP1–2.6 (analysed against a 1.5°C scenario) and SSP3–7.0 (analysed against a 3.0°C or greater scenario), assessed for the medium term (2030).",
+      "evidence": "\"In 2024, we elected to conduct a deep dive on the qualitative scenario analysis of different scenarios from the International Energy Agency (IEA): • Net Zero emissions by 2050 (NZE) – shows a narrow but achievable path for the global energy sector to achieve net zero CO2 emissions by 2050... It is consistent with limiting global temperature rise to 1.5°C. • Announced Pledges Scenario (APS) – takes into account all recent government commitments relating to climate change... It is consistent with limiting global temperature rise to 1.7°C.\"\n\n\"Both the High and Moderate scenarios anticipate that by 2050, carbon pricing will reach levels necessary to limit global warming to within 2°C above pre-industrial levels, though the Moderate scenario assumes delayed action in the short term. The Low scenario, while not aligned with the 2°C target, is based on the implementation of Nationally Determined Contributions. These scenarios are informed by research from the OECD and IEA.\"\n\n\"To assess the physical impacts of climate change, we conducted an assessment for the medium term (2030) using two scenarios from the Intergovernmental Panel on Climate Change (IPCC): SSP1 – 2.6 and SSP3 – 7.0. These scenarios were analysed against a 1.5°C scenario, and a 3.0°C or greater scenario.\"",
+      "location_hint": "Pages 10, 17–18",
+      "confidence": "high",
+      "notes": "Three distinct scenario frameworks are used for different purposes: IEA NZE/APS for qualitative transition risk analysis; High/Medium/Low carbon pricing scenarios (OECD/IEA-informed) for EBITDA at Risk; and IPCC SSP1-2.6 / SSP3-7.0 for physical risk exposure.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The context does not specify a particular climate model used for scenario analysis. The document references IPCC scenarios (SSP1-2.6 and SSP3-7.0) and IEA scenarios (NZE and APS), but does not name a specific model (e.g., a named quantitative climate model) used for the analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. RLAL-NZ considers damage from acute physical risks including extreme weather events and natural disasters such as hurricanes, floods, wildfires, extreme heat, extreme cold, tropical cyclones, and river/coastal flooding. These are identified as causing reduction in returns from asset classes such as infrastructure and real estate, short-term liquidity risk due to increased mortality/morbidity/hospitalisation, and disruption to outsourced business operations.",
+      "evidence": "\"Reduction in return from certain asset classes such as infrastructure and real estate that may be damaged during extreme weather events and natural disasters such as hurricanes, floods and wildfires. Short-term liquidity risk due to increased mortality, morbidity and hospitalisation due to extreme weather events and natural disasters. Any outsourced business operations in areas with higher levels of physical risk and substandard infrastructure may be at risk due to weather events such as extreme heatwaves or droughts.\"",
+      "location_hint": "Strategy section, Table 1, p.8-9",
+      "confidence": "high",
+      "notes": "The physical risk assessment framework also explicitly considers eight major climate hazards including wildfires, extreme cold, extreme heat, water stress, coastal flood, river line flood, tropical cyclone and drought, with financial impacts quantified as potential climate-related losses.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include non-temperature variables such as: carbon pricing (Unpriced Carbon Cost/UCC), physical climate hazards (wildfires, extreme cold, extreme heat, water stress, coastal flood, river line flood, tropical cyclone, and drought), as well as financial impact variables (EBITDA at Risk, Physical Risk Exposure Scores, Financial Impacts expressed as potential climate-related losses from capital expenditure, operational expenditure or business interruptions).",
+      "evidence": "The physical risk assessment framework considers eight major climate hazards: wildfires, extreme cold, extreme heat, water stress, coastal flood, river line flood, tropical cyclone and drought. The assessment produces two key outputs: Exposure Scores – which provide a point-in-time measure of exposure to climate hazards – and Financial Impacts – which represent the projected financial consequences of changing climate hazard exposure relative to a baseline, expressed as potential climate-related losses such as those from capital expenditure, operational expenditure or business interruptions. [...] Carbon pricing is one of the key transition risks. To help navigate this, our independent provider of climate-related market analysis has developed a dataset projecting possible future carbon prices. This dataset allows for stress testing of an investee's ability to manage potential costs over time. Central to this assessment is the quantification of an Unpriced Carbon Cost (UCC), which is the difference between what a company pays for emitting carbon today and what it may pay in the future.",
+      "location_hint": "Page 18 (physical risk hazards and financial impacts); Page 17-18 (carbon pricing/UCC)",
+      "confidence": "high",
+      "notes": "Non-temperature variables explicitly mentioned include: eight physical climate hazards, carbon pricing (UCC), EBITDA at Risk, Physical Risk Exposure Scores, and Financial Impacts. These are used across both physical and transition risk scenario analyses.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "RLAL-NZ used scenarios at a global/sector scale. For transition risk (qualitative scenario analysis), they used IEA scenarios (NZE and APS) analysed at a sector level across the investment portfolio. For physical risk, they used IPCC scenarios (SSP1–2.6 and SSP3–7.0) assessed at a portfolio level for the medium term (2030). For transition risk exposure (carbon pricing/UCC), they used High, Moderate, and Low scenarios informed by OECD and IEA research.",
+      "evidence": "In 2024, we elected to conduct a deep dive on the qualitative scenario analysis of different scenarios from the International Energy Agency (IEA): • Net Zero emissions by 2050 (NZE) • Announced Pledges Scenario (APS) ... We chose the IEA scenarios because the qualitative narrative available is much more extensive at a sector level. This has allowed us to go into granular detail for each sector... To assess the physical impacts of climate change, we conducted an assessment for the medium term (2030) using two scenarios from the Intergovernmental Panel on Climate Change (IPCC): SSP1 – 2.6 and SSP3 – 7.0.",
+      "location_hint": "Pages 10–11 (Strategy – Scenarios used) and Page 18–19 (Metrics & Targets – Physical Risk Exposure)",
+      "confidence": "high",
+      "notes": "The qualitative scenario analysis was conducted at a sector level (IEA scenarios), while the physical risk assessment was conducted at a portfolio level using IPCC scenarios. The transition risk exposure (UCC) used High/Moderate/Low scenarios informed by OECD and IEA research.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "RLAL-NZ uses three time horizons to assess climate-related risks and opportunities:\n- Short-term: 0–3 years (out to 2025)\n- Medium-term: 3–10 years (out to 2030)\n- Long-term: 10+ years (out to 2050+)",
+      "evidence": "\"Short-term: 0-3 years \\n Medium-term: 3 -10 years\\n Long-term: 10+ years\" and \"Long-term (out to 2050+) | Medium-term (out to 2030) | Short-term (out to 2025)\"",
+      "location_hint": "Strategy section, pages 8–9",
+      "confidence": "high",
+      "notes": "Both the narrative table and the heatmap legend confirm the three time horizons with consistent definitions.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "RLAL-NZ chose the IEA scenarios (Net Zero Emissions by 2050 and Announced Pledges Scenario) because the qualitative narrative available is much more extensive at a sector level, allowing granular detail for each sector that would not have been possible using other scenarios. They also aligned their scenario analysis to RLGH, who have also used the IEA scenarios. For physical risk, IPCC scenarios SSP1–2.6 and SSP3–7.0 were used for a medium-term (2030) assessment against 1.5°C and 3.0°C or greater scenarios.",
+      "evidence": "\"We chose the IEA scenarios because the qualitative narrative available is much more extensive at a sector level. This has allowed us to go into granular detail for each sector which we otherwise may not have been able to do using other scenarios. We have also aligned our scenario analysis to RLGH, who have also used the IEA scenarios.\"",
+      "location_hint": "Page 10, Scenarios used section",
+      "confidence": "high",
+      "notes": "The justification for the qualitative IEA scenario choice is explicitly stated. For the physical risk IPCC scenarios (SSP1–2.6 and SSP3–7.0), no explicit justification is provided beyond their use for a 2030 medium-term assessment.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The document does not disclose any historic (past/actual) climate impacts experienced by RLAL-NZ. The context focuses on forward-looking scenario analysis, projected financial impacts, and identified risks and opportunities, but contains no discussion of historical climate events or their past financial effects on the company.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "RLAL-NZ identifies both direct and indirect physical climate risks across short-to-medium and medium-to-long term horizons. Direct physical risks include: (1) reduction in return from asset classes such as infrastructure and real estate damaged during extreme weather events and natural disasters (hurricanes, floods, wildfires); (2) short-term liquidity risk due to increased mortality, morbidity and hospitalisation due to extreme weather events and natural disasters; (3) outsourced business operations in areas with higher levels of physical risk and substandard infrastructure being at risk due to weather events such as extreme heatwaves or droughts; (4) long-term general disruption to the life insurance market due to increased mortality, morbidity and hospitalisation; and (5) physical financial systems risk. Indirect physical risks include: companies/issuers invested in, with business operations concentrated in areas with higher levels of physical risk, seeing a decline in equity/debt valuation over the long term; and second order insurance risk – impacts on finances of customers. The physical risk assessment framework considers eight major climate hazards: wildfires, extreme cold, extreme heat, water stress, coastal flood, river line flood, tropical cyclone and drought. For 2030 under SSP1–2.6, the Physical Risk Exposure Score is 12.77 with a Financial Impact of 1.89%; under SSP3–7.0, the score is 13.37 with a Financial Impact of 1.96%.",
+      "evidence": "\"Physical risks: Reduction in return from certain asset classes such as infrastructure and real estate that may be damaged during extreme weather events and natural disasters such as hurricanes, floods and wildfires. Short-term liquidity risk due to increased mortality, morbidity and hospitalisation due to extreme weather events and natural disasters. Any outsourced business operations in areas with higher levels of physical risk and substandard infrastructure may be at risk due to weather events such as extreme heatwaves or droughts. Long-term general disruption to the life insurance market due to increased mortality, morbidity and hospitalisation due to extreme weather events and natural disasters. Companies/issuers we are invested in, with business operations concentrated in areas with higher levels of physical risk, may see a decline in equity/debt valuation over the long term.\"\n\n\"The physical risk assessment framework considers eight major climate hazards: wildfires, extreme cold, extreme heat, water stress, coastal flood, river line flood, tropical cyclone and drought.\"\n\n\"For the Low SSP1 – 2.6 scenario, a Physical Risk Exposure Score of 12.77 and a Financial Impact of 1.89%. For the Medium-High SSP3 – 7.0 scenario, a Physical Risk Exposure Score of 13.37 and a Financial Impact of 1.96%.\"\n\n\"Second order insurance risk – impacts on finances of customers\" and \"Physical financial systems risk\"",
+      "location_hint": "Pages 8–9, 18–19",
+      "confidence": "high",
+      "notes": "The document distinguishes acute physical risks (extreme weather events) and chronic/systemic risks (long-term disruption to insurance markets, financial systems). Both direct operational impacts and indirect investment portfolio impacts are described. Quantitative physical risk scores are provided for 2030 under two IPCC scenarios.",
+      "verification": null
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "source": "QBE_INSURANCE_AUSTRALIA_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 10,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "output_tokens": 5923,
+      "total_tokens": 89704,
+      "input_tokens": 83781,
+      "input_token_details": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0,
+        "cache_creation": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Transition risk scenarios (based on NGFS Phase III):\n1. Orderly – Net Zero 2050 (~1.5°C)\n2. Orderly – Below 2°C (~1.7°C)\n3. Disorderly – Divergent Net Zero (~1.5°C)\n4. Disorderly – Delayed Transition (~1.8°C)\n5. Hot House World – Nationally Determined Contributions (~2.4°C)\n6. Hot House World – Current Policies (~3.0°C+)\n\nPhysical risk scenarios (RCP pathways):\n1. Orderly 1.5°C – RCP 2.6\n2. Disorderly >2°C – RCP 4.5\n3. Hot House World >3°C – RCP 6 & 8.5",
+      "evidence": "\"NETWORK FOR GREENING THE FINANCIAL SYSTEM 1 Orderly Net zero 2050 c.1.5°C / Below 2°C c.1.7°C / Disorderly Divergent net zero c.1.5°C / Delayed transition c.1.8°C / Hot house world Nationally Determined Contributions c.2.4°C / Current policies c.3.0°C+ ... Physical risk Representative concentration pathway (RCP) scenarios 2.6, 4.5, 6, 8.5 driven by perils such as surface, river and coastal flooding, and storms. ... PARAMETERS ORDERLY 1.5°C / DISORDERLY >2°C / HOT HOUSE WORLD >3°C / RCP Pathway 2.6 / 4.5 / 6 & 8.5\"",
+      "location_hint": "Page 15, Climate scenarios and key assumptions",
+      "confidence": "high",
+      "notes": "Transition scenarios are modelled for 2025, 2030, 2035, 2040 and 2050 timeframes. Physical risk scenarios are looked at for 2030, 2040, 2050 and 2090 timeframes. All based on NGFS Phase III.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document references multiple temperature outcomes by 2100 depending on the scenario: Net Zero 2050 (~1.5°C), Below 2°C (~1.7°C), Divergent Net Zero (~1.5°C), Delayed Transition (~1.8°C), Nationally Determined Contributions (~2.4°C), and Current Policies (~3.0°C+).",
+      "evidence": "Net zero 2050 c.1.5°C / Below 2°C c.1.7°C / Divergent net zero c.1.5°C / Delayed transition c.1.8°C / Nationally Determined Contributions c.2.4°C / Current policies c.3.0°C+",
+      "location_hint": "Page 15, Climate scenarios and key assumptions",
+      "confidence": "high",
+      "notes": "These are NGFS Phase III scenario-based temperature outcomes, not a single forecast. The document does not specify these are explicitly \"by 2100\" but these are standard end-of-century temperature outcomes associated with NGFS scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "Network for Greening the Financial System (NGFS)",
+      "evidence": "Based on Network for Greening the Financial System (NGFS) scenarios phase III.",
+      "location_hint": "Page 15, Climate scenarios and key assumptions section",
+      "confidence": "high",
+      "notes": "The transition risk scenarios are explicitly stated to be based on NGFS scenarios phase III. For physical risk, RCP pathways from the IPCC are also referenced.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "QBE NZ uses RCP scenarios (RCP 2.6, 4.5, 6, and 8.5) for physical risk analysis, mapped to three climate scenarios: Orderly 1.5°C (RCP 2.6), Disorderly >2°C (RCP 4.5), and Hot House World >3°C (RCP 6 & 8.5). No SSPs are mentioned; only RCP pathways are used for physical risk. For transition risk, NGFS scenarios (Net Zero 2050, Below 2°C, Divergent Net Zero, Delayed Transition, NDCs, Current Policies) are used, which are not framed as SSPs or RCPs.",
+      "evidence": "\"Representative concentration pathway (RCP) scenarios 2.6, 4.5, 6, 8.5 driven by perils such as surface, river and coastal flooding, and storms... PARAMETERS | ORDERLY 1.5°C | DISORDERLY >2°C | HOT HOUSE WORLD >3°C | RCP Pathway 1 | 2.6 | 4.5 | 6 & 8.5\"",
+      "location_hint": "Page 15",
+      "confidence": "high",
+      "notes": "The document uses RCP pathways for physical risk scenarios and NGFS scenarios for transition risk. No SSPs (Shared Socioeconomic Pathways) are mentioned anywhere in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context mentions that QBE undertakes scenario analysis to understand potential future impacts of physical, transition and liability climate risks, but there is no mention of customised (bespoke) scenarios being developed. The document references scenario analysis tools and processes but does not describe any customised scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The context discusses climate scenario analysis and catastrophe modelling, but there is no mention of co-produced climate scenarios (i.e., scenarios developed collaboratively with external stakeholders, communities, or other organisations). The document references internal scenario analysis tools and processes but does not describe any co-production of climate scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "QBE NZ uses NGFS (Network for Greening the Financial System) scenarios Phase III for transition risk, and Representative Concentration Pathway (RCP) scenarios for physical risk. The transition scenarios include: Orderly (Net zero 2050 ~1.5°C, Below 2°C ~1.7°C), Disorderly (Divergent net zero ~1.5°C, Delayed transition ~1.8°C), and Hot house world (Nationally Determined Contributions ~2.4°C, Current policies ~3.0°C+). The physical risk scenarios use RCP pathways 2.6, 4.5, 6, and 8.5, mapped to Orderly 1.5°C (RCP 2.6), Disorderly >2°C (RCP 4.5), and Hot house world >3°C (RCP 6 & 8.5).",
+      "evidence": "NETWORK FOR GREENING THE FINANCIAL SYSTEM: Orderly – Net zero 2050 c.1.5°C, Below 2°C c.1.7°C; Disorderly – Divergent net zero c.1.5°C, Delayed transition c.1.8°C; Hot house world – Nationally Determined Contributions c.2.4°C, Current policies c.3.0°C+. Physical risk: Representative concentration pathway (RCP) scenarios 2.6, 4.5, 6, 8.5 driven by perils such as surface, river and coastal flooding, and storms.",
+      "location_hint": "Page 15, Climate scenarios and key assumptions",
+      "confidence": "high",
+      "notes": "The document specifies NGFS Phase III scenarios for transition risk and RCP pathways for physical risk. No single \"baseline\" scenario is explicitly labelled as such; the full set of scenarios used is described above.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The context references climate scenario frameworks (NGFS scenarios phase III, RCP pathways) and mentions catastrophe modelling and external partners, but does not specify a named climate model used for scenario analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. QBE NZ considers damage from acute physical risks (e.g., increased frequency and severity of flood and storm events) through catastrophe modelling, reinsurance, risk-based pricing, and scenario analysis. Key impacts considered include increased claims and reinsurance costs from extreme weather events.",
+      "evidence": "\"Risk: Increased frequency and severity of events related to certain perils and regions, particularly flood and storm in New Zealand. Timeframe: Impact: Increased claims and reinsurance costs. • Manage natural catastrophe volatility by considering a wide range of event frequency and severity scenarios in capital planning, and through the purchase of reinsurance. • Establish catastrophe allowance as part of the business plan with input from modelled natural catastrophe scenarios. • Ongoing management of portfolio exposures.\"",
+      "location_hint": "Page 14, Risks and Opportunities table",
+      "confidence": "high",
+      "notes": "The document also notes that in 2024, QBE NZ developed risk-based flood pricing models and recalibrated catastrophe models to reflect potential climate change impacts on claims costs. No material physical or financial climate-related impacts were observed in NZ in 2024 due to a benign year for weather-related catastrophe events.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include emissions and socioeconomic assumptions in addition to temperature. The document notes that \"each climate scenario will have its own set of temperature, emissions and socioeconomic assumptions, and results will be sensitive to these.\" Physical scenario variables include heavy rainfall, floods, coastal hazards, atmospheric rivers, ex- and extra-tropical cyclones, severe convective storms, and wildfire weather. Transition scenarios rely on observed financial and ESG data to model future performance.",
+      "evidence": "\"Each climate scenario will have its own set of temperature, emissions and socioeconomic assumptions, and results will be sensitive to these.\" and \"This comprehensive review seeks to integrate and interpret the findings from a wide range of scientific literature into a cohesive summary useful for insurers evaluating climate risk in New Zealand. This review summarises the climate risk facing New Zealand, focusing on extreme events including heavy rainfall, floods, coastal hazards driven by weather systems, atmospheric rivers, ex- and extra-tropical cyclones and severe convective storms, as well as wildfire weather. Potential changes to natural climate variability are also considered.\"",
+      "location_hint": "Appendix (p.35) and p.9",
+      "confidence": "high",
+      "notes": "The document explicitly lists emissions and socioeconomic assumptions as non-temperature scenario variables. Physical hazard variables (rainfall, floods, coastal hazards, etc.) are referenced in the context of a scientific review article co-authored by QBE staff, not directly as scenario inputs, but they represent the physical risk variables considered.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "QBE NZ uses scenarios at both a Group level (global) and a jurisdictional/regional level. The scenario analysis covers physical and transition risks across short (0–3 years), medium (3–10 years), and long (10+ years) timeframes. The scope, scenarios and timeframes analysed are summarised on page 14 of the Climate Statement. Scenarios are applied to specific perils and regions, and the analysis is used to recalibrate catastrophe models to reflect potential climate change impacts.",
+      "evidence": "\"To better understand the potential impact of climate change on specific perils and regions, we have worked with external partners to analyse the scientific literature related to the potential impact of climate change on those perils and regions. The scope, scenarios and timeframes analysed are summarised on page 14.\"\n\n\"A summary of our strategic responses is identified for each risk and opportunity below, as well as the potential impacts that are expected to present over the short (0–3 years), medium (3–10 years) and long (10+ years) term. These timeframes align with the shorter time horizons for business planning, our average policy tenure and investment horizon, and the longer time horizons align with our scenario analysis timeframes and 2050 net-zero commitments.\"",
+      "location_hint": "Pages 14, 17, 13 of QBE NZ Climate Statement 2024",
+      "confidence": "medium",
+      "notes": "The document references that scenario details are on page 14 (not fully reproduced in the retrieved chunks). The scale appears to be both global/group-level and regional/peril-specific, but explicit labelling of \"scale\" (e.g., global, national, sectoral) is not directly stated. Answer is based on available context.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "QBE uses three time horizons:\n- Short term: 0–3 years\n- Medium term: 3–10 years\n- Long term: 10+ years\n\nThese timeframes align with the shorter time horizons for business planning, their average policy tenure and investment horizon, and the longer time horizons align with their scenario analysis timeframes and 2050 net-zero commitments.",
+      "evidence": "\"A summary of our strategic responses is identified for each risk and opportunity below, as well as the potential impacts that are expected to present over the short (0–3 years), medium (3–10 years) and long (10+ years) term. These timeframes align with the shorter time horizons for business planning, our average policy tenure and investment horizon, and the longer time horizons align with our scenario analysis timeframes and 2050 net-zero commitments.\"",
+      "location_hint": "Page 13",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "The scenarios were selected for three reasons: (1) they meet XRB's requirements for 1.5°C, >2°C (third scenario), and >3°C aligned scenarios; (2) they are commonly used scenarios by financial institutions globally; and (3) they are aligned with scenarios selected by the ICNZ (Insurance Council of New Zealand) for the general insurance sector. For transition risk, NGFS Phase III scenarios were used. For physical risk, RCP pathways 2.6, 4.5, 6, and 8.5 were used.",
+      "evidence": "\"Rationale for selection: Meets XRB's requirement for a 1.5°C aligned scenario. / Meets XRB's requirement for a third scenario. / Meets XRB's requirement for a >3°C aligned scenario. Commonly used scenario by financial institutions globally. Commonly used scenario by financial institutions globally. Commonly used scenario by financial institutions globally. Aligned with scenarios selected by the ICNZ for the general insurance sector. Aligned with scenarios selected by the ICNZ for the general insurance sector. Aligned with scenarios selected by the ICNZ for the general insurance sector.\"",
+      "location_hint": "Page 15",
+      "confidence": "high",
+      "notes": "The justification is explicitly provided in a table on page 15 covering all three scenario categories (Orderly 1.5°C, Disorderly >2°C, Hot House World >3°C). NGFS Phase III is cited for transition risk scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "QBE New Zealand experienced a benign year for weather-related catastrophe events in 2024, with no material physical or financial climate-related impacts observed in the New Zealand portfolio. More broadly, climate change is identified as one of several drivers of increasing costs of natural disasters globally, creating volatility in profitability particularly in portfolios protecting customers' assets from extreme weather.",
+      "evidence": "\"We cannot accurately attribute financial impact to climate change or climate-related perils as our reinsurers do not provide an apportionment of reinsurance premiums associated with climate-related perils. However, given the benign year for weather-related catastrophe events in New Zealand, we have not seen any material physical or financial climate-related impacts in the New Zealand portfolio in 2024.\"",
+      "location_hint": "Page 17",
+      "confidence": "high",
+      "notes": "The document notes that climate change is one of several drivers of increasing natural disaster costs globally, but for QBE NZ specifically in 2024, there were no material climate-related impacts due to a benign year for weather events.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "QBE NZ identifies the following direct and indirect physical climate risks:\n\n**Direct physical risks:**\n- Increasing frequency and severity of weather-related natural catastrophes (e.g., flooding, hurricanes, drought, extreme weather events) over the medium to long term, creating volatility in profitability particularly in portfolios protecting customers' assets from extreme weather.\n- Climate change is one of several drivers of increasing costs of natural disasters globally.\n- In New Zealand specifically, risks include concentration or portfolio mix, pricing, and business disruption due to a major weather event.\n\n**Indirect physical risks:**\n- Physical risks are expected to have societal effects, including on health, migration and conflict, which might cause indirect impacts on investors, though these complex dynamics are not fully modelled.\n- Supply chain interruptions from physical hazards such as flooding or hurricanes (when individual one-off events) are likely to be transitory but could impact in-year earnings.\n- Changing tail risks, such as changes in the impacts of rare floods or drought events.\n\n**Limitations noted:**\n- The modelling does not cover physical hazards where the link to climate change is less well understood or where impacts on commercial assets are limited.\n- Supply chain interruptions from physical risks are not covered in the standard modelling.",
+      "evidence": "\"Climate change is one of several drivers of the increasing costs of natural disasters globally. This can create volatility in profitability particularly in portfolios where QBE helps to protect customers' assets from extreme weather.\"\n\n\"Physical risks are expected to have societal effects, including on health, migration and conflict. Whilst these might cause indirect impacts on investors, these complex dynamics are not included in this type of analysis.\"\n\n\"Supply chain interruptions from physical risks are not covered in the standard modelling. Supply chain interruptions from physical hazards such as flooding or hurricanes, when individual one‑off events, are likely to be transitory, but could impact in-year earnings.\"\n\n\"In New Zealand, the RCSA details risks that are relevant to climate risk exposure through concentration or portfolio mix, pricing, and business disruption due to a major weather event.\"",
+      "location_hint": "Pages 17, 35, 19",
+      "confidence": "high",
+      "notes": "The document distinguishes between direct physical risks (natural catastrophes affecting underwriting portfolios) and indirect physical risks (societal effects, supply chain disruptions). The indirect physical risks related to societal effects are acknowledged but explicitly noted as not being included in the standard modelling.",
+      "verification": null
+    }
+  ]
+}

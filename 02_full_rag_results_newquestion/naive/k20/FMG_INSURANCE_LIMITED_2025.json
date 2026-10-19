@@ -1,0 +1,170 @@
+{
+  "source": "FMG_INSURANCE_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "k": 20,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 144799,
+      "output_tokens": 6988,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "total_tokens": 151787
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "FMG uses three climate scenarios: (1) Orderly – an ambitious and co-ordinated transition aligned with a 1.5 degree warming trajectory (Net Zero 2050); (2) Disorderly – delayed action, followed by sudden and uncoordinated transformation, resulting in warming of less than 2 degrees (Delayed Transition); (3) Hot House World – continuation of 2022 policy settings, leading to uncontrolled warming of more than 3 degrees (Current Policy settings).",
+      "evidence": "\"The three scenarios can be summarised as: Orderly: an ambitious and co-ordinated transition aligned with a 1.5 degree warming trajectory. ... Disorderly: delayed action, followed by sudden and uncoordinated transformation, resulting in warming of less than 2 degrees. ... Hot House World - continuation of 2022 policy settings, leading to uncontrolled warming of more than 3 degrees.\"",
+      "location_hint": "Page 14",
+      "confidence": "high",
+      "notes": "These scenarios align with NGFS scenarios (Net Zero 2050, Delayed Transition, Current Policy settings) and are mapped to SSP pathways and RCP values as shown in Table 1 on page 15.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The three scenarios project the following global temperature outcomes by 2100:\n- Orderly (Net Zero 2050): 1.5°C by 2100\n- Disorderly (Delayed Transition): 2.4°C by 2100\n- Hot House World (Current Policies): more than 3°C by 2100",
+      "evidence": "\"limit global warming to 1.6°C in 2050 and 1.5°C by 2100.\" / \"limits global warming to 1.8°C in 2050 and 2.4°C by 2100.\" / \"The world warms 2°C by 2050 and more than 3°C by 2100.\"",
+      "location_hint": "Page 14, Table/Figure 7 – FMG's Climate Scenarios",
+      "confidence": "high",
+      "notes": "All three temperature outcomes by 2100 are explicitly stated in the scenario summary table on page 14.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "KPMG",
+      "evidence": "\"In September 2023, FMG worked with KPMG to develop a series of Climate Scenarios to systematically examine the impacts of various plausible futures under uncertain conditions, identifying the risks and opportunities emerging to 2050 and beyond.\"",
+      "location_hint": "Page 13",
+      "confidence": "high",
+      "notes": "KPMG is explicitly named as the external consultant that worked with FMG to develop the climate scenarios. The ICNZ sector scenarios were also used as a base framework, and additional guidance was taken from other sources (Aotearoa Circle, University of Exeter, Financial Services Council), but KPMG was the primary scenario provider/facilitator.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "FMG uses the following SSP-RCP combinations across its three scenarios:\n- Orderly (Net Zero 2050): SSP1 / RCP2.6\n- Disorderly (Delayed Transition): SSP2 / RCP4.5\n- Hot House (Current Policies): SSP3 / RCP7.0",
+      "evidence": "Shared Soci-economic Pathways (SSP): SSP1 / SSP2 / SSP3 ... Representative Concentration Pathway(RCP): RCP2.6 / RCP4.5 / RCP7.0 [aligned with Orderly / Disorderly / Hot House respectively]\n\nAlso confirmed in Figure 10: \"Orderly Net Zero 2050 SSP1-2.6\", \"Disorderly Delayed Transition SSP2-4.5\", \"Hot House Current Policies SSP3-7.0\"",
+      "location_hint": "Table 1, page 15; Figure 10, page 17",
+      "confidence": "high",
+      "notes": "The document explicitly pairs each scenario with both an SSP and an RCP. Orderly = SSP1-2.6, Disorderly = SSP2-4.5, Hot House = SSP3-7.0.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes, FMG developed customised (entity-level) climate scenarios. Starting from the ICNZ sector scenarios as a base, FMG downscaled and adapted them to reflect its specific business context. Additional inputs were incorporated from: the Aotearoa Circle's Agri-Sector Scenarios, the University of Exeter's 'No Time to Lose' Report, and the Financial Services Council's Climate Scenario Narratives for the Financial Services Sector. The resulting three scenarios are: Orderly, Disorderly, and Hot House — each assessed over short (2023–2025), medium (2026–2035), and long (2036–2050) time horizons.",
+      "evidence": "\"Workshop attendees decided to use the ICNZ scenario framework as the architecture for FMG's entity-level scenarios. While the ICNZ scenarios were used as the base for FMG's Climate-related scenarios, other Climate-related work was also incorporated to produce scenarios that best reflect the shape and nature of FMG's business. The Aotearoa Circle's Agri-Sector Scenarios were consulted to adequately reflect rural industry outcomes throughout the scenarios considered. Additional guidance was also taken from the University of Exeter's 'No Time to Lose' Report and the Financial Services Council's, Climate Scenario Narratives for the Financial Services Sector.\"",
+      "location_hint": "Page 13",
+      "confidence": "high",
+      "notes": "FMG's scenarios (Orderly, Disorderly, Hot House) are customised from ICNZ sector scenarios with additional rural/agricultural inputs, validated by FMG's Executive Leadership Team and Senior Leaders.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "FMG co-produced its climate scenarios by working with KPMG and using the Insurance Council of New Zealand (ICNZ) sector scenarios as the base framework. FMG hosted Scenario Immersion Workshops to downscale the sector-level scenarios to FMG-specific drivers. Additional inputs were drawn from: the Aotearoa Circle's Agri-Sector Scenarios, the University of Exeter's 'No Time to Lose' Report, and the Financial Services Council's Climate Scenario Narratives for the Financial Services Sector. The scenarios were validated by FMG's Executive Leadership Team and other Senior Leaders.",
+      "evidence": "\"In September 2023, FMG worked with KPMG to develop a series of Climate Scenarios... The scenarios align with those developed by the Insurance Council of New Zealand (ICNZ) and New Zealand Agriculture (NZ Ag)... FMG hosted two Scenario Immersion Workshops to downscale the sector-level scenarios... The Aotearoa Circle's Agri-Sector Scenarios were consulted to adequately reflect rural industry outcomes throughout the scenarios considered. Additional guidance was also taken from the University of Exeter's 'No Time to Lose' Report and the Financial Services Council's, Climate Scenario Narratives for the Financial Services Sector. The scenarios were validated by FMG's Executive Leadership Team and other Senior Leaders.\"",
+      "location_hint": "Page 13",
+      "confidence": "high",
+      "notes": "The scenario co-production involved both internal workshops (with a wide range of FMG employees) and external collaboration with KPMG, and drew on multiple external frameworks and reports.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "FMG uses three climate scenarios as baselines: (1) Orderly – aligned with NGFS \"Net Zero 2050\", SSP1, RCP2.6, <1.5°C warming; (2) Disorderly – aligned with NGFS \"Delayed Transition\", SSP2, RCP4.5, <2.0°C warming; and (3) Hot House World – aligned with NGFS \"Current Policy settings\", SSP3, RCP7.0, >3.0°C warming. These align with scenarios developed by the Insurance Council of New Zealand (ICNZ) and New Zealand Agriculture (NZ Ag).",
+      "evidence": "Table 1. How FMG's Scenarios align with other frameworks: Orderly / Disorderly / Hot House; Network for Greening the Financial System (NGFS) Scenario: Net Zero 2050 / Delayed Transition / Current Policy settings; Policy Ambition: <1.5C / <2.0C / +3.0C; Shared Socio-economic Pathways (SSP): SSP1 / SSP2 / SSP3; Representative Concentration Pathway (RCP): RCP2.6 / RCP4.5 / RCP7.0",
+      "location_hint": "Page 15, Table 1",
+      "confidence": "high",
+      "notes": "The three scenarios are explicitly mapped to NGFS, SSP, RCP, and NZ Climate Change Commission frameworks. They were developed in collaboration with KPMG and align with ICNZ and NZ Ag sector scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "FMG used the NGFS (Network for Greening the Financial System) scenarios as a reference framework, specifically aligning with: Net Zero 2050 (Orderly), Delayed Transition (Disorderly), and Current Policy settings (Hot House). The scenarios were also aligned with Shared Socioeconomic Pathways (SSP1, SSP2, SSP3), Representative Concentration Pathways (RCP2.6, RCP4.5, RCP7.0), and the Climate Change Commission New Zealand (SPANZ) scenarios (Tailwinds, Headwinds, Current Policy Reference). The ICNZ (Insurance Council of New Zealand) sector scenario framework was used as the architecture for FMG's entity-level scenarios.",
+      "evidence": "\"Table 1. How FMG's Scenarios align with other frameworks: Orderly / Disorderly / Hot House — Network for Greening the Financial System (NGFS) Scenario: Net Zero 2050 / Delayed Transition / Current Policy settings... Shared Socio-economic Pathways (SSP): SSP1 / SSP2 / SSP3... Representative Concentration Pathway (RCP): RCP2.6 / RCP4.5 / RCP7.0... Workshop attendees decided to use the ICNZ scenario framework as the architecture for FMG's entity-level scenarios.\"",
+      "location_hint": "Page 15 (Table 1) and Page 13",
+      "confidence": "high",
+      "notes": "FMG used the ICNZ scenario framework as the base architecture, aligned with NGFS, SSP, RCP, and SPANZ frameworks. Physical risk modelling also used NIWA's SLR research and JBA Risk Management flood models.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. FMG considers acute physical risks including more frequent and extreme weather events (e.g., cyclones, floods, wildfires, windstorms). The most significant historical example was Cyclone Gabrielle and the Auckland Anniversary Weekend Floods in 2023, which combined represent the Mutual's most significant claims event in its 120-years of operation. Anticipated acute impacts stem from meteorological phenomena leading to more frequent and extreme weather events. Flood modelling (JBA/Finity) projects changes in flood risk by 2050, with increases of up to 18.9% in some regions under the Hot House scenario.",
+      "evidence": "\"acute impacts - stemming from meteorological phenomena, leading to more frequent and extreme weather events similar to that experienced with Cyclone Gabrielle... These costs were dwarfed by the losses from Cyclone Gabrielle and the Auckland Anniversary Weekend Floods in 2023 which combined, represent the Mutual's most significant claims event in its 120-years of operation... the flood modelling suggests that by 2050 under the Hot House scenario, declines in the average flood risk of up to 9.5% can be expected in some regions, offset by increases of up to 18.9% in other regions.\"",
+      "location_hint": "Pages 17–18",
+      "confidence": "high",
+      "notes": "Acute physical risks explicitly identified and quantified through scenario modelling. Flood, wildfire, wind, and extreme weather events are all considered. The document also notes that analysis of increased frequency/intensity of major weather events is planned for future research beyond the SLR work already completed.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "FMG's climate scenarios include the following non-temperature variables: sea level rise (SLR), changes in rainfall patterns (increase in the West and South, less in the East and North; more intense rainfall from atmospheric rivers), flood risk (riverine and surface water), wildfire risk (driven by drought conditions and higher wind speed), and extreme wind speed (expected to increase over the lower North Island and parts of the South Island by mid-century). Quantitative sea level rise figures are provided per scenario: Orderly (SSP1-2.6): +3cm (medium-term), +9cm (long-term); Disorderly (SSP2-4.5): +3cm (medium-term), +10cm (long-term); Hot House (SSP3-7.0): +3cm (medium-term), +11cm (long-term). Flood risk changes by 2050 under the Hot House scenario range from declines of up to 9.5% in some regions to increases of up to 18.9% in others.",
+      "evidence": "\"Change in Sea Level: current levels / +3cm / +9cm [Orderly]; current levels / +3cm / +10cm [Disorderly]; current levels / +3cm / +11cm [Hot House]\" and \"the flood modelling suggests that by 2050 under the Hot House scenario, declines in the average flood risk of up to 9.5% can be expected in some regions, offset by increases of up to 18.9% in other regions.\" and \"Wildfire: Increase in drought conditions and higher wind speed are expected to increase the likelihood of wildfires... Flooding: More intense rainfall is expected to result in an increase in frequency and severity of flooding events. Sea level rise... Wind: Extreme wind speed over the lower North Island and parts of the South Island is expected to increase by mid-century. Changing rainfall patterns: An increase in the West and South, less in East and North.\"",
+      "location_hint": "Pages 16–18, Figure 10",
+      "confidence": "high",
+      "notes": "Non-temperature variables explicitly modelled include sea level rise, flood risk (riverine/surface water), wildfire, wind speed, and rainfall patterns. Quantitative values are provided for SLR and flood risk changes across scenarios and time horizons.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "FMG's climate scenarios were developed at the entity level, downscaled from sector-level scenarios. The ICNZ (Insurance Council of New Zealand) sector scenarios were used as the base architecture, and FMG hosted two Scenario Immersion Workshops to downscale these to FMG-specific, entity-level scenarios. Additional inputs from the Aotearoa Circle's Agri-Sector Scenarios, the University of Exeter's 'No Time to Lose' Report, and the Financial Services Council's Climate Scenario Narratives were also incorporated.",
+      "evidence": "\"A core leadership group within FMG was responsible for the development of FMG's Climate-related scenarios and analysis. FMG hosted two Scenario Immersion Workshops to downscale the sector-level scenarios. Workshop attendees were first immersed in the ICNZ sector scenarios to develop a common understanding of the scenarios... Workshop attendees decided to use the ICNZ scenario framework as the architecture for FMG's entity-level scenarios.\"",
+      "location_hint": "Page 13",
+      "confidence": "high",
+      "notes": "The scenarios were downscaled from sector-level (ICNZ) to entity-level (FMG-specific), covering three time horizons: Short (2023–2025), Medium (2026–2035), and Long (2036–2050), and three scenario types: Orderly, Disorderly, and Hot House World.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "FMG uses three time horizons for climate scenario analysis: Short (2023–2025), Medium (2026–2035), and Long (2036–2050). For risk reporting, \"short\" is defined as 1–3 years and \"long\" as 10-year plus timeframes.",
+      "evidence": "\"Each scenario was considered over three time horizons: Short (2023 - 2025), Medium (2026 - 2035) and Long (2036 - 2050). The impact of Climate Change is expected to be felt beyond these timeframes, the extent of which is likely to be influenced by global decisions and business responses over the next 10 years.\"\n\n\"Risk reporting covers Top Risks, Emerging Risks (i.e. over 'short' 1 - 3 years and 'long' 10-year plus timeframes) and performance against Board-approved Risk Appetites using a combination of qualitative and quantitative metrics.\"",
+      "location_hint": "Page 15 (scenario time horizons); Page 9 (risk reporting timeframes)",
+      "confidence": "high",
+      "notes": "FMG's strategic planning aligns with these periods: its Business Strategy (Te Ara Tika/The Way Forward) looks out to 2030, and wider strategy work looks out to 2050.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "FMG chose to use the ICNZ (Insurance Council of New Zealand) scenario framework as the architecture for its entity-level scenarios, supplemented by the Aotearoa Circle's Agri-Sector Scenarios, the University of Exeter's 'No Time to Lose' Report, and the Financial Services Council's Climate Scenario Narratives for the Financial Services Sector. The scenarios align with those developed by ICNZ and NZ Agriculture to test the resilience of both the insurance and agricultural sectors. The scenarios were validated by FMG's Executive Leadership Team and other Senior Leaders to ensure the drivers of change would provide sufficient challenge to its business model, and were considered relevant and appropriate for assessing the resilience of FMG's business model and strategy in respect of Climate-related risks and opportunities. The three scenarios (Orderly, Disorderly, Hot House World) also align with NGFS scenarios, SSPs, RCPs, and the Climate Change Commission NZ pathways.",
+      "evidence": "\"Workshop attendees decided to use the ICNZ scenario framework as the architecture for FMG's entity-level scenarios. While the ICNZ scenarios were used as the base for FMG's Climate-related scenarios, other Climate-related work was also incorporated to produce scenarios that best reflect the shape and nature of FMG's business. The Aotearoa Circle's Agri-Sector Scenarios were consulted to adequately reflect rural industry outcomes throughout the scenarios considered. Additional guidance was also taken from the University of Exeter's 'No Time to Lose' Report and the Financial Services Council's, Climate Scenario Narratives for the Financial Services Sector. The scenarios were validated by FMG's Executive Leadership Team and other Senior Leaders, to ensure the drivers of change across FMG's Service Profit Chain, and the wider economic and socio political environment would provide sufficient challenge to its business model. The scenarios were therefore considered to be relevant and appropriate for assessing the resilience of FMG's business model and strategy in respect of Climate-related risks and opportunities.\"",
+      "location_hint": "Page 13",
+      "confidence": "high",
+      "notes": "The scenarios also align with NGFS, SSP, RCP, and NZ Climate Change Commission frameworks as shown in Table 1 on page 15.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "FMG's historical climate impacts are most notably reflected in weather-related claims costs. Claims costs associated with weather were increasing before 2023. The most significant historic climate event was Cyclone Gabrielle and the Auckland Anniversary Weekend Floods in 2023, which combined represent the Mutual's most significant claims event in its 120-years of operation. Since 2023, FMG has not experienced any material losses from weather-related events.",
+      "evidence": "\"The physical impacts and risks of Climate Change are expected to affect FMG most acutely through the cost of weather-related claims. While there is limited certainty on how much of FMG's historical weather-related claims cost can be attributed to Climate Change, the graph suggests that claims costs associated with weather were increasing before 2023. These costs were dwarfed by the losses from Cyclone Gabrielle and the Auckland Anniversary Weekend Floods in 2023 which combined, represent the Mutual's most significant claims event in its 120-years of operation. Since 2023, FMG has not experienced any material losses from weather-related events.\"",
+      "location_hint": "Page 17",
+      "confidence": "high",
+      "notes": "The document notes limited certainty on how much of historical weather-related claims cost can be attributed specifically to Climate Change.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "FMG identifies the following direct physical climate risks: rising temperatures (including more frequent extreme heat events), wildfire (driven by drought conditions and higher wind speeds), flooding (from more intense rainfall), sea level rise (causing coastal flooding and rising groundwater tables), wind (increased extreme wind speeds over lower North Island and parts of South Island), and changing rainfall patterns (more in West and South, less in East and North; more intense atmospheric rivers). The most material physical risk is the impact of more frequent and increasingly intense weather-related events on FMG's insurance portfolios. Indirectly, FMG's investment portfolio (20% in equities) is exposed to transition risk, and liability products may also carry some exposure to climate-related risks.",
+      "evidence": "\"The most material Climate-related risk is the physical impact of more frequent and increasingly intense weather-related events on FMG's insurance portfolios.\" / \"Rising temperatures: Temperatures are expected to continue to increase, particularly peak temperatures over the summer months. The occurrence of extreme heat events is likely to increase.\" / \"Wildfire: Increase in drought conditions and higher wind speed are expected to increase the likelihood of wildfires and make them more damaging.\" / \"Flooding: More intense rainfall is expected to result in an increase in frequency and severity of flooding events.\" / \"Sea level rise: Ground water tables rise in response to increases in sea level, meaning coastal defences are overtopped more often with increased coastal flooding.\" / \"Wind: Extreme wind speed over the lower North Island and parts of the South Island is expected to increase by mid-century.\" / \"Changing rainfall patterns: An increase in the West and South, less in East and North. Increasing temperatures mean atmospheric rivers are more likely, carrying more moisture and resulting in more intense rainfall when they occur.\" / \"FMG's investment portfolio has 20% exposure to equities through external fund managers. Most companies within these equity portfolios have exposure to Transition risk.\"",
+      "location_hint": "Pages 11, 16",
+      "confidence": "high",
+      "notes": "Direct physical risks are explicitly listed on page 16 (Figure 8). The most material risk is stated on page 11. Indirect risks (investment portfolio, liability products) are noted on page 16.",
+      "verification": null
+    }
+  ]
+}

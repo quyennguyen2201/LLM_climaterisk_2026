@@ -1,0 +1,170 @@
+{
+  "source": "MAINFREIGHT_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 55497,
+      "total_tokens": 61064,
+      "output_tokens": 5567,
+      "input_token_details": {
+        "cache_creation": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_read": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "The document references, at a minimum, a 1.5 degrees Celsius climate-related scenario and a 3 degrees Celsius climate-related scenario as part of its scenario analysis.",
+      "evidence": "\"An entity must describe the scenario analysis it has undertaken to help identify its climate-related risks and opportunities and better understand the resilience of its business model and strategy. This must include a description of how an entity has analysed, at a minimum, a 1.5 degrees Celsius climate-related scenario, a 3 degrees\"",
+      "location_hint": "Page 49",
+      "confidence": "medium",
+      "notes": "The context is cut off after \"a 3 degrees\" so the full list of scenarios is not completely visible. The 1.5°C and 3°C scenarios are explicitly mentioned as minimum requirements, but additional scenarios used by Mainfreight may not be fully captured in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three scenarios are modelled with the following global temperature outcomes by 2100:\n1. Orderly Transition: 1.45°C increase\n2. Disorderly Transition: 1.77°C increase\n3. Hot House World: above 3°C increase",
+      "evidence": "\"Two of our scenarios meet the Paris Agreement goal of <2°C by 2100, but compare the effects of a smooth and delayed transition. Our third scenario leads to a hot house world, where emissions continue to rise into the long term above 3°C by 2100.\" / \"the most optimistic of the three, is an immediate and largely coordinated global response towards climate action, resulting in a 1.45°C temperature increase by 2100.\" / \"The result is a 1.77°C hotter world by 2100, missing the lower 1.5°C goal of the Paris Agreement.\"",
+      "location_hint": "Page 32",
+      "confidence": "high",
+      "notes": "All three temperature outcomes are explicitly stated in the document for each named scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "NGFS (Network for Greening the Financial System) Phase 4 Scenario Explorer, hosted by IIASA, using the REMIND-MAgPIE 3.2-4.6 model",
+      "evidence": "\"All scenario data was accessed through: NGFS Phase 4 Scenario Explorer hosted by IIASA and uses REMIND-MAgPIE 3.2-4.6 inputs\"",
+      "location_hint": "Table 1, p.33",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "All three scenarios are based on SSP2 (\"Middle of the Road\"). No RCPs are mentioned; the scenarios are sourced from the NGFS Phase 4 Scenario Explorer using the REMIND-MAgPIE 3.2-4.6 model. The three scenarios are: Orderly Transition (<2°C by 2100), Disorderly Transition (<2°C by 2100), and Business As Usual (>3°C by 2100).",
+      "evidence": "\"All three scenarios are based on the 'Middle of the Road' Shared Socioeconomic Pathway (SSP2)... External data was sourced from the NGFS Phase 4 Scenario Explorer, using the REMIND-MAgPIE 3.2-4.6 model... Two of our scenarios meet the Paris Agreement goal of <2°C by 2100, but compare the effects of a smooth and delayed transition. Our third scenario leads to a hot house world, where emissions continue to rise into the long term above 3°C by 2100.\"",
+      "location_hint": "Page 32",
+      "confidence": "high",
+      "notes": "The document uses SSP2 as the common socioeconomic pathway for all three scenarios but does not reference any RCPs (Representative Concentration Pathways). Temperature outcomes are described qualitatively rather than via RCP labels.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context does not contain information about customised climate scenarios used by the company. The closest reference is to a \"calculator/scenario builder\" tool being developed for customers (page 7), but this relates to customer-facing emissions tools rather than customised scenarios used internally for climate risk assessment.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context does not contain any information about co-produced climate scenarios. The document references the use of multiple climate scenarios (1.5°C, 3°C or greater, and a third scenario) in a compliance index table, but there is no mention of co-production of scenarios with external stakeholders or partners.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "All three scenarios are based on the \"Middle of the Road\" Shared Socioeconomic Pathway (SSP2). External data was sourced from the NGFS Phase 4 Scenario Explorer, using the REMIND-MAgPIE 3.2-4.6 model. The three scenarios are: (1) Orderly Transition, (2) a delayed transition scenario, and (3) a hot house world scenario (above 3°C by 2100). Two scenarios meet the Paris Agreement goal of <2°C by 2100.",
+      "evidence": "\"All three scenarios are based on the 'Middle of the Road' Shared Socioeconomic Pathway (SSP2). This pathway does not markedly shift from historical patterns, where both global and local institutions make slow progress towards the Sustainable Development Goals. Each scenario has been built from this same starting point and explores how varying levels of physical and transition risk could lead to different climate futures. External data was sourced from the NGFS Phase 4 Scenario Explorer, using the REMIND-MAgPIE 3.2-4.6 model, as this had a broad range of temperature outcomes and, is the only NGFS model which integrates potential future damages from physical risks. Two of our scenarios meet the Paris Agreement goal of <2°C by 2100, but compare the effects of a smooth and delayed transition. Our third scenario leads to a hot house world, where emissions continue to rise into the long term above 3°C by 2100.\"",
+      "location_hint": "Page 32",
+      "confidence": "high",
+      "notes": "The baseline for all scenarios is SSP2 (\"Middle of the Road\"), with NGFS Phase 4 data using the REMIND-MAgPIE 3.2-4.6 model.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "The primary input to the modelling was a natural and climate hazard assessment provided by Gallagher (formerly Crombie Lockwood) with licensed use of the Swiss RE CatNet software. This was used in the Climate Impact Accrual model, which assessed the probability and impact of different classes of risk against each of their sites around the world.",
+      "evidence": "\"The primary input to our modelling was a natural and climate hazard assessment provided by Gallagher (formerly Crombie Lockwood) with licensed use of the Swiss RE CatNet software. This was contrasted to asset type, value, ownership model, insurance coverage and other mitigation measures to assess the relative exposure in a given year.\"",
+      "location_hint": "2024 Sustainability and Climate Report v1.0.pdf, page 35",
+      "confidence": "high",
+      "notes": "This refers specifically to the Climate Impact Accrual model used for physical risk assessment. The document does not describe a separate named climate scenario model beyond this tool and the Swiss RE CatNet software.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Mainfreight considers damage from acute physical risks including flood, storm surge, wildfire, and windstorm. Over the past three years, two material climate-related events occurred: Cyclone Gabrielle (Hawkes Bay, New Zealand, February 2023) and New South Wales Floods (Australia, November 2023), with a net impact after insurance of approximately NZD$110,000. The company also models future acute physical impacts using a Climate Impact Accrual tool, with a total anticipated yearly physical impact to the Group assessed at NZ$193,908 (year one).",
+      "evidence": "\"Over the past three years there have been only two material climate-related events: Cyclone Gabrielle – Hawkes Bay, New Zealand, February 2023 [and] New South Wales Floods – New South Wales, Australia, November 2023... Both of these events were covered under existing policies, with the net impact after insurance estimated at approximately NZD$110,000.\" and \"This new tool is intended to assess the probability and impact of different classes of risk against each of our sites around the world... our anticipated yearly physical impact to the Group assessed at NZ$193,908 (in year one).\"",
+      "location_hint": "Pages 35, 37, 40",
+      "confidence": "high",
+      "notes": "Acute physical risks explicitly modelled include flood, storm surge, wildfire, and windstorm. The Climate Impact Accrual tool covers 250 sites assessed against seven physical risks generating over 1,800 individual values.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include the following non-temperature physical risk variables: Drought (chronic), Increased Precipitation (chronic), Sea Level Rise (chronic), Flood (acute), Storm Surge (acute), Wildfire (acute), and Windstorm (acute). These are assessed across operating regions and time horizons (short, medium, long) under three scenarios: Orderly Transition (Net Zero), Disorderly Transition (Delayed Transition), and BAU.",
+      "evidence": "\"NZ$ Chronic Acute Operating Region Drought Increased Precipitation Sea Level Rise Flood Storm Surge Wildfire Windstorm Total\" and \"Events Type Leased Exposure Owned Exposure Fluvial Flood Acute ... Wildfire Acute ... Windstorm Acute ... Storm Surge Acute ... Drought Chronic ... Precipitation Chronic ... Sea Level Rise Chronic ...\"",
+      "location_hint": "Page 35 and Page 46",
+      "confidence": "high",
+      "notes": "Non-temperature variables are the seven physical risk categories used in the Climate Impact Accrual model: Drought, Increased Precipitation, Sea Level Rise (chronic); Flood, Storm Surge, Wildfire, Windstorm (acute). These are projected across three scenarios and three time horizons.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Three scenarios were used, all based on the SSP2 \"Middle of the Road\" Shared Socioeconomic Pathway: (1) Orderly Transition (~1.45°C by 2100), (2) Disorderly Transition, and (3) Business as Usual (BAU, >3°C by 2100). External data was sourced from the NGFS Phase 4 Scenario Explorer using the REMIND-MAgPIE 3.2-4.6 model. Two scenarios meet the Paris Agreement goal of <2°C by 2100; the third leads to a hot house world above 3°C by 2100. Scenarios are assessed across short, medium, and long time horizons, applied globally across five operating regions (Americas, Asia, Australia, Europe, New Zealand) covering 250 sites assessed against seven physical risks.",
+      "evidence": "\"In order to assess our resilience to plausible climate futures, three scenarios have been chosen and modelled here, as described in Table 1. These allow us to explore the range of impacts different emission pathways could have on our material risks and opportunities. All three scenarios are based on the 'Middle of the Road' Shared Socioeconomic Pathway (SSP2)... External data was sourced from the NGFS Phase 4 Scenario Explorer, using the REMIND-MAgPIE 3.2-4.6 model... Two of our scenarios meet the Paris Agreement goal of <2°C by 2100, but compare the effects of a smooth and delayed transition. Our third scenario leads to a hot house world, where emissions continue to rise into the long term above 3°C by 2100.\"",
+      "location_hint": "Page 32",
+      "confidence": "high",
+      "notes": "The scenarios are applied across 250 sites in 5 regions, assessed against 7 physical risks, with results broken down by short, medium, and long time horizons as shown in the tables on page 37.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "The company defines three time horizons between 2023 and 2050:\n1. Short Term: 2023 – 2030\n2. Medium Term: 2030 – 2040\n3. Long Term: 2040 – 2050",
+      "evidence": "\"For each of the assessed risks and opportunities we have compared their likely consequence across three time horizons between 2023 (the year of our first Climate Risk Report) and 2050.\n1. Short Term: 2023 – 2030\n2. Medium Term: 2030 – 2040\n3. Long Term: 2040 – 2050\"",
+      "location_hint": "Page 29",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "The scenarios were selected to capture a range of assumptions about uncertain futures, using the SSP2 \"Middle of the Road\" pathway as a common starting point. External data was sourced from the NGFS Phase 4 Scenario Explorer using the REMIND-MAgPIE 3.2-4.6 model because it \"had a broad range of temperature outcomes and, is the only NGFS model which integrates potential future damages from physical risks.\" Two scenarios meet the Paris Agreement goal of <2°C by 2100 (comparing smooth vs. delayed transition), while a third represents a hot house world above 3°C by 2100.",
+      "evidence": "\"External data was sourced from the NGFS Phase 4 Scenario Explorer, using the REMIND-MAgPIE 3.2-4.6 model, as this had a broad range of temperature outcomes and, is the only NGFS model which integrates potential future damages from physical risks. The variation between our three scenarios comes from the level of policy coordination over the short, medium and long term, as well as technology availability. These scenarios were selected in order to capture a range of assumptions about uncertain futures. Two of our scenarios meet the Paris Agreement goal of <2°C by 2100, but compare the effects of a smooth and delayed transition. Our third scenario leads to a hot house world, where emissions continue to rise into the long term above 3°C by 2100.\"",
+      "location_hint": "Page 32, Climate Scenarios section",
+      "confidence": "high",
+      "notes": "The SSP2 pathway was chosen as the common base because \"it does not markedly shift from historical patterns,\" making it a plausible middle-ground starting point for all three scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context discusses climate risk assessment methodologies, emissions data, and forward-looking risk modelling across time horizons (2023–2050), but does not contain any explicit discussion of historic (past) climate impacts experienced by the company.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "The document identifies both acute and chronic physical climate risks. Acute physical risks include major storms, wildfires, and extreme climate-related events that disrupt industry, supply chains, and markets. Chronic physical risks relate to longer-term climate changes. Specifically, the risk categories assessed include:\n1. Acute physical risks to assets\n2. Acute physical risks and opportunities to operations\n3. Chronic physical risks to assets (largely not material)\n4. Chronic physical risks to operations\n\nAll three business units and their associated activities are considered susceptible to these climate-related risks. In the Business As Usual scenario, widespread climate-related catastrophes become increasingly more common, extreme climate-related events constantly disrupt industry and supply chains, and rolling crises increase the costs of production and shipping.",
+      "evidence": "\"Measure: Once identified, climate-related risks are assessed within their category for scope, size, probability and overall impact. Our models and methodologies for calculating risks against each of the categories are detailed further in our Strategy section which cover: • Acute physical risks to assets • Acute physical risks and opportunities to operations • Chronic physical risks to assets (largely not material) • Chronic physical risks to operations • Transition risks and opportunities\"\n\n\"physical considerations, especially acute risks like major storms or wildfires carry few upsides.\"\n\n\"Our interpretation of the analysis provided, is that all three of our business units and their associated activities are susceptible to climate-related risks, as well as opportunities. Although individual impact classifications will be felt differently across our business, we believe that no part will be untouched.\"",
+      "location_hint": "Pages 29, 31, 33",
+      "confidence": "high",
+      "notes": "The document distinguishes between acute physical risks (storms, wildfires, extreme events) and chronic physical risks (longer-term climate changes). Chronic physical risks to assets are noted as \"largely not material.\" Detailed quantitative breakdowns of anticipated financial impacts are referenced at pages 37-39 but not included in the retrieved context.",
+      "verification": null
+    }
+  ]
+}

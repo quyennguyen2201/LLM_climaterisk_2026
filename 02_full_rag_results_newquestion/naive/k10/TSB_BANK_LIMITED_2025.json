@@ -1,0 +1,170 @@
+{
+  "source": "TSB_BANK_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "k": 10,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "output_tokens": 6026,
+      "total_tokens": 90320,
+      "input_tokens": 84294,
+      "input_token_details": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0,
+        "cache_creation": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "TSB uses three climate scenarios:\n1. **Orderly Transition** – A future world where collective action is taken towards a low carbon global economy (1.5°C scenario)\n2. **Too Little Too Late** – Fragmented and delayed transition to a low carbon economy between New Zealand (early mover) and the rest of the world (fossil-fuelled development to mid-century) (2.7°C scenario)\n3. **Hothouse** – Minimal action towards a low carbon global transition, increasing levels of social, economic, and environmental degradation (>3°C scenario)\n\nThese are based on three climate reference scenarios published by the Network for Greening the Financial System (NGFS), tailored to New Zealand circumstances via the New Zealand Banking Association (NZBA) sector analysis. They correspond to CMIP6 'Sustainability' (SSP1-26), 'Middle of the road' (SSP2-45), and 'Fossil-fuelled development' (SSP5-85) respectively.",
+      "evidence": "\"The sector analysis is based on three climate reference scenarios published by the Network for Greening the Financial System (NGFS), tailored to New Zealand circumstances. ... Orderly Transition: A future world where collective action is taken towards a low carbon global economy (1.5°C scenario). Too Little Too Late: Fragmented and delayed transition to a low carbon economy between New Zealand (early mover) and the rest of the world (fossil-fuelled development to mid-century) (2.7°C scenario). Hothouse: Minimal action towards a low carbon global transition, increasing levels of social, economic, and environmental degradation (>3°C scenario)\"",
+      "location_hint": "Page 12",
+      "confidence": "high",
+      "notes": "Additional CMIP6 mapping detail found on page 24: SSP1-26 (Orderly), SSP2-45 (Too Little Too Late), SSP5-85 (Hothouse).",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document presents three scenarios with different global temperature outcomes by 2100:\n1. Orderly Transition: +1.4°C (range: 1.0–1.8°C)\n2. Too Little Too Late: +2.7°C (range: 2.1–3.5°C)\n3. Hothouse/Fossil-fuelled development: +4.4°C (range: 3.3–5.7°C)",
+      "evidence": "Average temperature increase Global+1.4ºC (1.0, 1.8) by 2100 (IPCC) ... Average temperature increase Global+2.7ºC (2.1, 3.5) by 2100 (IPCC) ... Average temperature increase Global+4.4ºC (3.3, 5.7) by 2100 (IPCC)",
+      "location_hint": "Pages 41–43",
+      "confidence": "high",
+      "notes": "All temperature figures are relative to 1850–1900 baseline, sourced from IPCC. Three scenarios are presented: Orderly Transition (+1.4°C), Too Little Too Late (+2.7°C), and Hothouse (+4.4°C).",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "NZBA (New Zealand Banking Association), with scenarios developed by the Network for Greening the Financial System (NGFS). TSB also engaged Mosaic to provide support for their scenario analysis processes.",
+      "evidence": "\"TSB has selected the NZBA sector level scenario analysis because it: • Provides consistency in banking sector disclosure comparisons. • Uses scenarios developed by the Network for Greening the Financial System (NGFS) as relevant to the banking sector.\" and \"We engaged Mosaic to provide support for our scenario analysis processes (www.mosaicfsi.com/sustainability).\"",
+      "location_hint": "Page 12–13",
+      "confidence": "high",
+      "notes": "The primary scenario framework is from NZBA (sourced from NGFS), with Mosaic providing analytical support. Physical risk data was sourced from ClimSystems and Cotality.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "TSB uses a combination of SSPs and RCPs across its three scenarios:\n- Orderly Transition 1.5°C: IPCC SSP1-1.9 (global) + NIWA RCP2.6 (NZ-specific climate)\n- Too Little Too Late >2°C: IPCC SSP2-4.5 (global) + NIWA RCP4.5 (NZ-specific climate)\n- Hothouse >3°C: IPCC SSP5-8.5 (global) + NIWA RCP8.5 (NZ-specific climate)",
+      "evidence": "\"Category | Orderly Transition 1.5°C | Too Little Too Late >2°C | Hothouse >3°C\nGlobal climate & socio-economic parameters | IPCC SSP1-1.9 | IPCC SSP2-4.5 | IPCC SSP5-8.5\n...\nNew Zealand-specific climate parameters | NIWA RCP2.6 | NIWA RCP4.5 | NIWA RCP8.5\"",
+      "location_hint": "Appendix 2, page 40",
+      "confidence": "high",
+      "notes": "Each scenario pairs a specific SSP with a corresponding RCP. The SSPs are used for global climate and socio-economic parameters, while the RCPs are used for New Zealand-specific climate parameters.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "TSB has not developed customised scenarios. TSB utilised scenario narratives provided by the New Zealand Banking Association (NZBA) analysis rather than conducting its own modelling to produce scenario narratives.",
+      "evidence": "\"TSB has not conducted our own modelling to produce the scenario narratives but utilised those provided in the NZBA analysis.\"",
+      "location_hint": "Page 13",
+      "confidence": "high",
+      "notes": "TSB used NZBA-provided scenario narratives. TSB did perform its own modelling for physical risk assessment using data from ClimSystems and Cotality, but did not create customised climate scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "TSB did not co-produce climate scenarios with external partners for its entity-level analysis. The scenario narratives were utilised from the NZBA analysis (not produced by TSB's own modelling), and Mosaic was engaged for support. No other external partners or stakeholders were involved in the entity-level analysis. However, contributions were sought from industry peers and climate science and data providers as part of sector-level scenario analysis. TSB also held an initial discussion with New Plymouth District Council to understand the climate scenarios they are developing.",
+      "evidence": "\"We engaged Mosaic to provide support for our scenario analysis processes (www.mosaicfsi.com/sustainability). No other external partners or stakeholders were involved in our entity level analysis, although contributions were also sought from industry peers and climate science and data providers, amongst others, as part of the sector level scenario analysis. TSB has not conducted our own modelling to produce the scenario narratives but utilised those provided in the NZBA analysis... we also held an initial discussion in FY25 with a key stakeholder for TSB, New Plymouth District Council, to gain an understanding of the climate scenarios that they are developing.\"",
+      "location_hint": "Page 13, Scenario analysis processes and governance",
+      "confidence": "high",
+      "notes": "TSB did not co-produce scenarios; they adopted NZBA scenarios. The only external engagement was with Mosaic (support), industry peers/climate data providers (sector-level only), and an initial discussion with New Plymouth District Council.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "TSB uses three climate scenarios based on NGFS reference scenarios (tailored to New Zealand circumstances via the NZBA sector analysis): 1) \"Orderly Transition\" (1.5°C, corresponding to SSP1-26 / RCP 2.6), 2) \"Too Little Too Late\" (2.7°C, corresponding to SSP2-45 / RCP 4.5), and 3) \"Hothouse\" (>3°C, corresponding to SSP5-85 / RCP 8.5).",
+      "evidence": "\"Climate Scenarios based on CMIP6 'Sustainability' (SSP1-26), 'Middle of the road' (SSP2-45), 'Fossil-fuelled development' (SSP5-85), corresponding broadly to CMIP5 'Orderly' (RCP 2.6), 'Too little too late' (RCP 4.5), 'Hothouse' (RCP 8.5) respectively as used in our FY24 analysis... The sector analysis is based on three climate reference scenarios published by the Network for Greening the Financial System (NGFS), tailored to New Zealand circumstances.\"",
+      "location_hint": "Page 12 and Page 24",
+      "confidence": "high",
+      "notes": "The three scenarios are clearly named and their temperature/emissions pathway equivalents are explicitly stated in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "CMIP6 models were used, specifically: 'Sustainability' (SSP1-26), 'Middle of the road' (SSP2-45), and 'Fossil-fuelled development' (SSP5-85), corresponding broadly to CMIP5 'Orderly' (RCP 2.6), 'Too little too late' (RCP 4.5), and 'Hothouse' (RCP 8.5) respectively. Physical risk data was sourced from ClimSystems and Cotality.",
+      "evidence": "\"Climate Scenarios based on CMIP6 'Sustainability' (SSP1-26), 'Middle of the road' (SSP2-45), 'Fossil-fuelled development' (SSP5-85), corresponding broadly to CMIP5 'Orderly' (RCP 2.6), 'Too little too late' (RCP 4.5), 'Hothouse' (RCP 8.5) respectively as used in our FY24 analysis, and the scenarios referenced for scenario analysis above in the Strategy section. CMIP6 refers to the sixth phase of the Coupled Model Intercomparison Project. CMIP6 datasets were used as input for the IPCC AR6 working group and are considered to be more realistic than previous versions.\"",
+      "location_hint": "Page 24",
+      "confidence": "high",
+      "notes": "Physical risk modelling used ClimSystems' Climate Insights Database (downscaled to New Zealand with high spatial resolution) and property value data from Cotality. Scenario narratives were sourced from NZBA analysis rather than TSB's own modelling.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. TSB considers damage from acute physical risks, specifically river flooding and precipitation stress. For credit risk, this includes damage to mortgaged properties from rain and floods (potentially combined with chronic impacts such as sea level rise), leading to anticipated credit losses from lower security values, lack of affordable insurance, and serviceability worsening from repairs and lack of rentability. At the organisational level, one branch was identified as high risk due to river flooding and precipitation stress, though this was not rated as a material risk to TSB overall.",
+      "evidence": "\"Acute: River flooding, precipitation stress — Damage to mortgaged properties from rain & floods, especially if combined with later materialising chronic impacts such as sea level rise — Credit losses: from lower security values, lack of affordable insurance, serviceability worsening from repairs & lack of rentability (FY25 assessment)\"",
+      "location_hint": "TSB Climate Statement 2025, page 15",
+      "confidence": "high",
+      "notes": "Acute physical risks considered include river flooding and precipitation stress at both credit (mortgaged properties) and organisational (TSB sites) levels. TSB has not yet disclosed quantitative financial metrics for these risks, noting model immaturity and data limitations.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context does not explicitly describe non-temperature variables (e.g., sea level rise, precipitation, wind speed, etc.) as quantified inputs within the climate scenarios used by TSB. While some physical risk variables such as river flooding, precipitation stress, sea level rise, and ocean acidification are mentioned in passing, there is no specific disclosure of non-temperature scenario variables with quantified values or ranges as part of the scenario analysis framework.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "TSB uses both global and domestic (New Zealand) scales in its scenario analysis. The scenarios are based on NGFS global reference scenarios tailored to New Zealand circumstances, incorporating IPCC global reference scenarios and New Zealand climate parameters (NIWA RCPs 2.6, 4.5 and 8.5), as well as Climate Change Commission pathways.",
+      "evidence": "\"The sector analysis is based on three climate reference scenarios published by the Network for Greening the Financial System (NGFS), tailored to New Zealand circumstances... Bases scenarios on IPCC global reference scenarios and applying New Zealand climate parameters NIWA RCPs 2.6, 4.5 and 8.5 (lowest to highest emissions), and Climate Change Commission pathways, which provides additional plausibility and local relevance.\"",
+      "location_hint": "TSB Climate Statement 2025.pdf, page 12",
+      "confidence": "high",
+      "notes": "The scenarios operate at both global and domestic (New Zealand) scales, with key indicators provided for both levels (e.g., global GDP, NZ GDP; global emissions, domestic emissions; global carbon prices, domestic ETS prices).",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "TSB applies three time horizons for climate-related scenario analysis and risk management:\n- Short term: ~10 years (around 2030)\n- Medium term: ~30 years (around 2050)\n- Long term: 50+ years (2080+)",
+      "evidence": "TSB is applying the following NZBA time horizons:\nShort term: 10 years, Year relative to 2022 (approx.) 2030\nMedium term: 30 years, Year relative to 2022 (approx.) 2050\nLong term: 50+ years, Year relative to 2022 (approx.) 2080+",
+      "location_hint": "TSB Climate Statement 2025.pdf, page 13",
+      "confidence": "high",
+      "notes": "These time horizons are aligned with NZBA (Net Zero Banking Alliance) guidance. TSB also notes that for FY25 they have not used the Immediate Term NZBA time horizon of 2025 that was previously used. Years are relative to 2022 baseline year and are indicative only.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "TSB chose to utilise the banking sector scenario analysis provided by the New Zealand Banking Association (NZBA), which is based on three climate reference scenarios published by the Network for Greening the Financial System (NGFS), tailored to New Zealand circumstances. The scenarios were selected to cover a range of plausible future climate states (Orderly Transition 1.5°C, Too Little Too Late >2°C, and Hothouse >3°C) in order to assess climate-related risks and opportunities and the resilience of TSB's business model and strategy. In FY25, TSB conducted its first annual review of the scenarios and concluded they continue to meet regulatory requirements and contribute to effectively assessing climate-related risks and opportunities.",
+      "evidence": "\"To answer this TSB has chosen to utilise the banking sector scenario analysis provided by New Zealand Banking Association Te Rangapū Pēke (NZBA) and focus on the parts of that analysis that are applicable to TSB's business model and strategy. The sector analysis is based on three climate reference scenarios published by the Network for Greening the Financial System (NGFS), tailored to New Zealand circumstances.\" and \"In FY25 we conducted the first annual review of our scenarios and concluded that they continue to meet regulatory requirements and contribute to effectively assessing climate-related risks and opportunities and the resilience of TSB's business model and strategy.\"",
+      "location_hint": "Page 12–13",
+      "confidence": "high",
+      "notes": "The scenario dimensions were chosen by NZBA and selected by TSB. The three scenarios span a range from orderly 1.5°C transition to a hothouse >3°C world, using internationally recognised frameworks (IPCC, NGFS, IEA, NIWA, CCC) tailored to New Zealand.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context from TSB's Climate Statement 2025 focuses on anticipated/future climate-related risks and opportunities, scenario analysis, and transition planning. There is no discussion of historic (past) climate impacts experienced by TSB or its customers in the provided passages.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "TSB identifies both direct (organisational level) and indirect (credit level) physical climate risks:\n\n**Direct (Organisational) Physical Risks:**\n- Acute risks: increased severity of extreme weather events such as droughts, heatwaves, extreme storms, or floods\n- Chronic risks: longer-term shifts in climate patterns including rising sea levels, increased average temperatures, and ocean acidification\n- TSB assessed its operational locations (branches, offices, standalone ATMs, data centres, miscellaneous sites) for physical climate risk. One branch was identified as high risk due to river flooding and precipitation stress, but was not rated as a material risk to TSB.\n\n**Indirect (Credit Level) Physical Risks:**\n- Risk of loss from physical damage to properties across the lending portfolio\n- Risk of insurance withdrawal and the affordability of insurance cover\n- TSB used data from ClimSystems and Cotality to assess the extent to which its loan portfolio and operational locations are vulnerable to climate-related physical risk, using models downscaled to New Zealand with high spatial resolution.",
+      "evidence": "\"Acute: event-driven, including increased severity of extreme weather events, such as droughts, heatwaves, extreme storms, or floods. Chronic: longer-term shifts in climate patterns are generally accepted to include rising sea levels, increased average temperatures and ocean acidification.\"\n\n\"TSB updated our previous physical risk assessment of our locations in FY25, including branches, offices, standalone ATMs, data centres and miscellaneous sites (e.g. carparks)... Of the properties reviewed, one branch was identified as a high risk due to the risk of river flooding and precipitation stress, but this was not rated as a material risk to TSB.\"\n\n\"Manage the risk of loss from physical damage to properties across our lending portfolio... Monitor the risk of insurance withdrawal and the affordability of insurance cover\"",
+      "location_hint": "Appendix 1 (p.39), p.16, p.18",
+      "confidence": "high",
+      "notes": "Direct physical risks relate to TSB's own operational locations; indirect physical risks relate to the lending portfolio (credit risk). The document distinguishes between organisational-level and credit-level physical risks.",
+      "verification": null
+    }
+  ]
+}

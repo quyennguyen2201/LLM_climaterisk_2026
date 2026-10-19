@@ -1,0 +1,170 @@
+{
+  "source": "IAG_NEW_ZEALAND_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "k": 10,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "total_tokens": 91561,
+      "input_tokens": 85156,
+      "output_tokens": 6405,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_creation": 0,
+        "cache_read": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Three scenarios are used: 1) Orderly: Net Zero 2050, 2) Disorderly: Delayed Transition, 3) Hot House World: Current Policies",
+      "evidence": "Table 10 – Scenario analysis – underlying assumptions\nScenario | Scenario assumptions\nOrderly: Net Zero 2050 | • By 2050, transport, energy and industry sectors are largely decarbonised. ...\nDisorderly: Delayed Transition | • By 2050, there is some way to go for energy sector decarbonisation, including for buildings. ...\nHot House World: Current Policies | • Economic growth is high, combined with material-intensive production and consumption patterns and a strong reliance on abundant fossil fuel resources. ...",
+      "location_hint": "Table 10, page 19",
+      "confidence": "high",
+      "notes": "These scenarios were originally developed as ICNZ (Insurance Council of New Zealand) sector climate scenarios and refreshed for FY25 by IAG New Zealand.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes three scenarios with the following global temperature outcomes by 2100: (1) Orderly – Net Zero 2050: 1.5°C warming trajectory; (2) Disorderly – Delayed Transition: below 2.0°C; (3) Hot House – Current Policies: 3°C+ (uncontrolled warming).",
+      "evidence": "\"An ambitious and coordinated transition aligned with a 1.5°C warming trajectory\" / \"Delayed action, followed by sudden and uncoordinated transformation, landing at <2.0°C\" / \"Continuation of current policy settings, leading to uncontrolled warming of 3°C+\"",
+      "location_hint": "Table 2 – Scenario descriptions, page 7",
+      "confidence": "high",
+      "notes": "The document specifies temperature outcomes per scenario but does not explicitly state \"by 2100\" — these are the scenario end-state temperature outcomes as described in the scenario framework.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "NGFS (Network for Greening Financial Sector), SSP (Shared Socio-economic Pathways), SPANZ (Adjusted Shared Policy Assumptions New Zealand), RCP (Representative Concentration Pathway), CCC (Climate Change Commission), and ICNZ scenarios",
+      "evidence": "\"Pathways: Network for Greening Financial Sector (NGFS), Shared Socio-economic Pathways (SSP), Adjusted Shared Policy Assumptions New Zealand (SPANZ), Representative Concentration Pathway (RCP), Climate Change Commission (CCC). The NGFS approach was predominantly used to support the creation of the ICNZ scenarios and the SSP scenarios were used as an input, noting that other data sources were also considered as part of these processes where appropriate.\"",
+      "location_hint": "Page 7, Table 3 footnote",
+      "confidence": "high",
+      "notes": "Multiple scenario providers are referenced. The ICNZ scenarios are the primary framework adopted, with NGFS predominantly used to support their creation.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "IAG NZ uses the following SSP and RCP combinations across its three scenarios:\n1. Orderly – Net Zero 2050: SSP1 (Sustainability) + RCP 2.6 (0.3°C to 1.8°C)\n2. Disorderly – Delayed Transition: SSP2 (Middle of the Road) + RCP 4.5 (0.7°C to 3.3°C)\n3. Hot House – Current Policies: SSP5 (Fossil-Fuelled Development) + RCP 6.0 (1.2°C to 4.3°C), with a note that RCP 7.0 was used in lieu of RCP 6.0 to capture a broader range of potential physical impacts within resilience testing.",
+      "evidence": "NGFS: Net Zero 2050 (1.5°C) \nSSP: SSP1: Sustainability \nSPANZ: F: 100% Smart \nRCP: RCP 2.6 (0.3°C to 1.8°C) \nCCC: Tailwinds\nNGFS: Delayed transition (<2.0°C)\nSSP: SSP2: Middle of the Road \nSPANZ: A: Kicking and Screaming \nRCP: RCP 4.5 (0.7°C to 3.3°C) \nCCC: Headwinds\nNGFS: Current policy (3+°C) \nSSP: SSP5: Fossil-Fuelled \nDevelopment \nSPANZ: D: Homo Economicus RCP: \nRCP 6.0 (1.2°C to 4.3°C) \nCCC: Current policy reference\nNote: RCP 7.0 was used in this \nscenario in lieu of RCP6.0 to capture \na broader range of potential physical \nimpacts within our resilience \ntesting.",
+      "location_hint": "Page 7, Table 2 / Pathways section",
+      "confidence": "high",
+      "notes": "Each scenario pairs a distinct SSP with a distinct RCP. The Hot House scenario nominally uses RCP 6.0 but substitutes RCP 7.0 for resilience testing purposes.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes. IAG New Zealand developed customised entity-level scenarios based on the Insurance Council of New Zealand (ICNZ) insurance sector climate scenarios. For FY25, IAG New Zealand reviewed and refreshed these scenarios for relevance and plausibility, reflecting current government adaptation policies and increased inequality assumptions over time. Changes included rolling forward the short-term scenario timeframe by one year. The refresh built on FY24 scenario analysis using physical risk models underpinning insurance and reinsurance risk assessments, with overlays for projected physical risk changes across natural peril types. The refresh was informed by IAG New Zealand's transition planning process, engagement with IAG Group on Group-wide scenario narratives, and retesting with the Climate Working Group.",
+      "evidence": "\"IAG New Zealand was involved in creating the Insurance Council of New Zealand | Te Kāhui Inihua o Aotearoa insurance sector climate scenarios (ICNZ scenarios) in FY22 and those scenarios continue to be used as a basis for our own entity-level scenarios. For FY25, IAG New Zealand reviewed and refreshed our climate scenarios for relevance and plausibility so they appropriately test the resilience of our business. Changes included reflecting current government adaptation policies and increased inequality assumptions over time. The scenario refresh builds on our FY24 scenario analysis which leveraged the physical risk models underpinning our insurance and reinsurance risk assessments, with overlays applied to reflect the projected physical risk changes across a range of natural peril types. The refresh was informed by IAG New Zealand's transition planning process, alongside engagement with IAG Group on the development of Group-wide scenario narratives, as well as by retesting the scenarios with the Climate Working Group. In FY25, the timeframe associated with the short-term scenario was rolled forward to start one year later.\"",
+      "location_hint": "Section 1.3, page 6",
+      "confidence": "high",
+      "notes": "IAG NZ uses customised entity-level scenarios derived from the ICNZ sector scenarios, with modifications for government adaptation policies, inequality assumptions, and updated timeframes.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes. IAG New Zealand was involved in creating the Insurance Council of New Zealand (ICNZ) insurance sector climate scenarios in FY22, which continue to be used as a basis for their own entity-level scenarios. For FY25, IAG New Zealand reviewed and refreshed these scenarios, with the refresh informed by engagement with IAG Group on the development of Group-wide scenario narratives and by retesting the scenarios with the Climate Working Group.",
+      "evidence": "\"IAG New Zealand was involved in creating the Insurance Council of New Zealand | Te Kāhui Inihua o Aotearoa insurance sector climate scenarios (ICNZ scenarios) in FY22 and those scenarios continue to be used as a basis for our own entity-level scenarios. For FY25, IAG New Zealand reviewed and refreshed our climate scenarios for relevance and plausibility so they appropriately test the resilience of our business... The refresh was informed by IAG New Zealand's transition planning process, alongside engagement with IAG Group on the development of Group-wide scenario narratives, as well as by retesting the scenarios with the Climate Working Group.\"",
+      "location_hint": "Section 1.3, page 6",
+      "confidence": "high",
+      "notes": "The scenarios were co-produced with the Insurance Council of New Zealand (ICNZ) in FY22, and the FY25 refresh involved engagement with IAG Group and the Climate Working Group. The Board was not directly involved in the scenario refresh process (noted in footnote 6).",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "IAG New Zealand uses three baseline scenarios for its climate scenario analysis: (1) Orderly: Net Zero 2050, (2) Disorderly: Delayed Transition, and (3) Hot House World: Current Policies. These are based on the Insurance Council of New Zealand (ICNZ) insurance sector climate scenarios, which IAG New Zealand helped create in FY22, and have been refreshed for FY25 relevance and plausibility.",
+      "evidence": "\"IAG New Zealand was involved in creating the Insurance Council of New Zealand | Te Kāhui Inihua o Aotearoa insurance sector climate scenarios (ICNZ scenarios) in FY22 and those scenarios continue to be used as a basis for our own entity-level scenarios... The scenario refresh builds on our FY24 scenario analysis...\" and Table 10 lists: \"Orderly: Net Zero 2050\", \"Disorderly: Delayed Transition\", \"Hot House World: Current Policies\"",
+      "location_hint": "Section 1.3, p.6; Table 10, p.19",
+      "confidence": "high",
+      "notes": "The three scenarios are clearly named and described in Table 10. The ICNZ scenarios from FY22 form the basis, with entity-level refreshes applied for FY25.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context does not specify a particular climate or AI model used for scenario analysis or disclosures. The document references NGFS scenarios (e.g., \"NGFS: Net Zero 2050 (1.5°C)\") and mentions consultants WSP, but does not name a specific model in the context provided.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. IAG New Zealand considers damage from acute physical risks, specifically the financial impact of large (or 'recognised') weather-related events (storms, floods, cyclones, wind and wildfires). In FY25, there were 32 recognised weather-related events with a total gross claims cost of $132 million, partially offset by $26 million in prior-period reserve releases, resulting in a net impact before reinsurance of $106 million. Reinsurance recoveries of $34 million resulted in a net claims cost of $72 million. The gross outstanding claims liability for weather-related events as at 30 June 2025 was $222 million.",
+      "evidence": "\"There were 32 recognised weather-related events during FY25. The total gross claims cost from recognised weather-related events in FY25 was $132 million, which was partially offset by $26 million positive claims reserve releases from prior periods, resulting in a net impact before reinsurance of $106 million. Reinsurance recoveries of $34 million resulted in a net claims cost of $72 million recognised in FY25. The gross outstanding claims liability for weather-related events as at 30 June 2025 for IAG New Zealand was $222 million (a decrease of $84 million from 30 June 2024).\"",
+      "location_hint": "Section 1.4, page 8",
+      "confidence": "high",
+      "notes": "Acute physical risks are defined as event-driven risks such as increased severity of extreme weather events (storms, floods, cyclones, wind, wildfires). The document explicitly quantifies the financial damage from these events in FY25.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context does not explicitly describe non-temperature variables (e.g., precipitation, sea level rise, wind speed) as formal inputs or parameters within the climate scenarios used. While sea level rise, flood, and storm-related factors are mentioned in the context of physical risk modelling limitations, they are not described as scenario variables in a structured scenario framework. No specific non-temperature scenario variables are enumerated in the context.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "IAG New Zealand uses three scenarios: (1) Orderly – Net Zero 2050 (1.5°C warming trajectory), (2) Disorderly – Delayed Transition (<2.0°C), and (3) Hot House – Current Policies (3°C+).",
+      "evidence": "\"Orderly – Net Zero 2050: An ambitious and coordinated transition aligned with a 1.5°C warming trajectory. Disorderly – Delayed Transition: Delayed action, followed by sudden and uncoordinated transformation, landing at <2.0°C. Hot House – Current Policies: Continuation of current policy settings, leading to uncontrolled warming of 3°C+\"",
+      "location_hint": "Table 2 – Scenario descriptions, page 7",
+      "confidence": "high",
+      "notes": "Three scenarios are used, covering 1.5°C, below 2°C, and 3°C+ warming trajectories.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Three time horizons are used:\n- Short-term: 2025–2027 (aligns with rolling three-year strategic planning and budget cycle)\n- Medium-term: 2028–2035 (captures interim climate-related targets and NZ government emissions budgets; aligns with strategic risk profile)\n- Long-term: 2036–2050 (aligned to the ICNZ scenarios)",
+      "evidence": "Table 3 – Time horizons\nShort-term 2025-2027: Aligns with our rolling three-year strategic planning and budget cycle outlook, which incorporates capital deployment decisions.\nMedium-term 2028-2035: The medium-term timeframe captures our interim climate-related targets and the Aotearoa New Zealand government's emissions budgets. It also aligns with our strategic risk profile, which influences decision making and capital deployment in the short and medium-term.\nLong-term 2036-2050: The long-term timeframe is aligned to the ICNZ scenarios.",
+      "location_hint": "Table 3, page 7",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "IAG New Zealand justified its scenario and model choices on several grounds: (1) The ICNZ scenarios were developed with IAG New Zealand's involvement in FY22 and continue to be used as a basis for entity-level scenarios, with the NGFS approach predominantly used to support their creation and SSP scenarios used as an input. (2) The scenarios were reviewed and refreshed for FY25 for relevance and plausibility to appropriately test the resilience of the business, reflecting current government adaptation policies and increased inequality assumptions. (3) The refresh built on FY24 scenario analysis leveraging physical risk models underpinning insurance and reinsurance risk assessments. (4) The refresh was informed by IAG New Zealand's transition planning process, engagement with IAG Group on Group-wide scenario narratives, and retesting with the Climate Working Group. (5) The scenario analysis is intended to explore the effects of a range of plausible future events under conditions of uncertainty, helping identify climate-related risks and opportunities and understand resilience of the business model and strategy. (6) Analysis conducted during ICNZ scenario development determined that energy pathways, carbon sequestration from afforestation, and negative emissions technology do not have a material impact on the insurance sector.",
+      "evidence": "\"IAG New Zealand was involved in creating the Insurance Council of New Zealand | Te Kāhui Inihua o Aotearoa insurance sector climate scenarios (ICNZ scenarios) in FY22 and those scenarios continue to be used as a basis for our own entity-level scenarios. For FY25, IAG New Zealand reviewed and refreshed our climate scenarios for relevance and plausibility so they appropriately test the resilience of our business. Changes included reflecting current government adaptation policies and increased inequality assumptions over time. The scenario refresh builds on our FY24 scenario analysis which leveraged the physical risk models underpinning our insurance and reinsurance risk assessments, with overlays applied to reflect the projected physical risk changes across a range of natural peril types. The refresh was informed by IAG New Zealand's transition planning process, alongside engagement with IAG Group on the development of Group-wide scenario narratives, as well as by retesting the scenarios with the Climate Working Group.\"\n\n\"The NGFS approach was predominantly used to support the creation of the ICNZ scenarios and the SSP scenarios were used as an input, noting that other data sources were also considered as part of these processes where appropriate.\"\n\n\"The climate-related scenarios used in scenario analysis are not intended to be probabilistic or predictive. Scenario analysis is a process for exploring the effects of a range of plausible future events under conditions of uncertainty. Engaging in this process helps IAG New Zealand identify its climate-related risks and opportunities and develop a better understanding of the resilience of its business model and strategy.\"",
+      "location_hint": "Section 1.3, p.6; Table 3 footnote, p.7; Section 5.1.1, p.19",
+      "confidence": "high",
+      "notes": "The justification spans multiple sections. The core rationale is relevance, plausibility, alignment with industry (ICNZ) scenarios, and suitability for testing business resilience under uncertainty.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "The document does not provide a dedicated section on historic climate impacts with specific historical data or past event statistics. However, it references that climate-related risk has been part of IAG New Zealand's entity-level risk profiling since 2014, and notes that lessons from recent weather events have been incorporated into peril models. The document focuses primarily on forward-looking risks (Increasing Natural Perils Costs and Government Intervention in Insurance Markets) under the Hot House scenario (long-term time horizon), rather than detailing historic climate impact data.",
+      "evidence": "\"Climate-related risk has been part of IAG New Zealand's entity-level risk profiling since 2014, evolving to capture the impacts of both physical and transition risks on our business.\" and \"This year, we have continued to update our flooding and coastal inundation hazard mapping, incorporating lessons from recent weather events in our other peril models and addressing known modelling limitations.\"",
+      "location_hint": "Section 3.3, p.16; Section 1.7.1, p.10",
+      "confidence": "medium",
+      "notes": "The document does not contain a dedicated historic climate impacts section with quantified historical loss data. The evidence provided relates to the duration of climate risk tracking and the use of past event lessons in modelling, which is the closest reference to historic climate impacts available in the context.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "IAG New Zealand identifies flood as the primary direct physical climate risk with meaningful exposure. The material physical risks identified are \"Increasing Natural Perils Costs\" and \"Government Intervention in Insurance Markets.\" 3% of IAG New Zealand insured homes are currently vulnerable to high flood risk (both in 2025 and 2024). Flood is described as the only climate-related physical risk for which IAG New Zealand has a robust exposure metric. The extent of portfolio exposure to natural peril risk varies depending on the nature, scale, frequency of the relevant natural peril event(s) and geographic location.",
+      "evidence": "\"At present, flood is the only climate-related physical risk that IAG New Zealand has meaningful exposure to and for which we have a robust exposure metric.\" / \"% of IAG New Zealand insured homes currently vulnerable to high flood risk: 3% (2025), 3% (2024)\" / \"This metric helps inform the material physical risks we have identified around Increasing Natural Perils Costs and Government Intervention in Insurance Markets.\"",
+      "location_hint": "Section 2.3.1, p.14",
+      "confidence": "high",
+      "notes": "The document distinguishes direct physical risk (flood exposure to insured homes) and indirect physical risk (government intervention in insurance markets as a consequence of increasing natural perils costs). No other physical risks are identified as material in FY25.",
+      "verification": null
+    }
+  ]
+}

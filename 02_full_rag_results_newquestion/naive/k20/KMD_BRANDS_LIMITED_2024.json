@@ -1,0 +1,170 @@
+{
+  "source": "KMD_BRANDS_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 20,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "total_tokens": 163193,
+      "input_tokens": 154630,
+      "output_tokens": 8563,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_creation": 0,
+        "cache_read": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "KMD Brands used three climate scenarios:\n1. Scenario 1: Orderly – aligned to NGFS Orderly Transition / IPCC AR6 SSP1-1.9 pathway\n2. Scenario 2: Disorderly – assumes delayed decarbonisation investment until 2035\n3. Scenario 3: Hot House World – economic growth remains fossil fuel-dependent with limited decarbonisation investment\n\nFor physical risk assessment, RCP2.6, RCP 4.5 and RCP 8.5 scenarios (from IPCC AR5) were used.",
+      "evidence": "\"3.3.4 Climate scenario narratives: The climate scenarios we adopted can be summarised as follows... Scenario 1: Orderly... Scenario 2: Disorderly... Scenario 3: Hot House World... Under a Hot House World scenario, economic growth remains fossil fuel-dependent, with limited decarbonisation investment leading to an overshoot of the Paris 2050 net carbon neutral target.\"\n\n\"Transition risks were identified against the backdrop of a NGFS Orderly Transition / IPCC AR6 SSP1-1.9 pathway.\"\n\n\"A score was determined for each risk under each of the three scenarios, informed by our internal risk consequence table and guided by climate hazard data provided for RCP2.6, RCP 4.54 and RCP 8.5 at the future time horizons.\"",
+      "location_hint": "Section 3.3.4, p.9; Section 4.1.1-4.1.2, p.15",
+      "confidence": "high",
+      "notes": "The document uses three named scenarios (Orderly, Disorderly, Hot House World) aligned to SSP/RCP pathways from IPCC AR5 and AR6. Physical risk assessment used RCP2.6, RCP4.5, and RCP8.5; transition risk assessment used NGFS Orderly / SSP1-1.9.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes three scenarios with the following global temperature outcomes by 2100:\n1. Orderly (Net Zero 2050 / SSP 1-1.9): 1.4°C\n2. Disorderly (Delayed Transition / SSP 1-2.6): 1.8°C (NGFS: 1.7°C)\n3. Hot House World (Current Policies / SSP 5-8.5): 4.4°C (NGFS: 3°C+)",
+      "evidence": "\"ORDERLY: NGFS Net Zero 2050 (1.5°C), IPCC SSP 1-1.9, 1.4°C ... DISORDERLY: NGFS Delayed Transition (1.7°C), IPCC SSP 1-2.6, 1.8°C ... HOT HOUSE WORLD: NGFS Current Policies (3°C+), IPCC SSP 5-8.5, 4.4°C\"",
+      "location_hint": "Table 1: Pathway overview and key assumptions, page 9",
+      "confidence": "high",
+      "notes": "The IPCC AR6 temperature estimates (1.4°C, 1.8°C, 4.4°C) represent outcomes by 2100 under the respective SSP scenarios. The NGFS figures (1.5°C, 1.7°C, 3°C+) are also provided. A footnote clarifies that the 1.4°C estimate is the temperature range for SSP1-1.9 by 2100 per IPCC AR6.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "NGFS (Network for Greening the Financial System), with scenarios also drawn from IPCC AR6 (Intergovernmental Panel on Climate Change Sixth Assessment Report) and the Retail Sector Scenario Analysis by KPMG",
+      "evidence": "\"We chose the three NGFS scenarios detailed in Table 1 to explore the physical and transition-related impacts over each time horizon... We adopted the shared socioeconomic pathways (SSP) provided by the Intergovernmental Panel on Climate Change Sixth Assessment Report (IPCC AR6) to assess KMD Brands' evolving risk profile. The global data sets that informed the KMD Brands scenario analysis included the IPCC AR6 dataset and the Network for Greening the Financial System (NGFS) GCAM global data set.\"",
+      "location_hint": "Page 9, Section 3.3.3",
+      "confidence": "high",
+      "notes": "The scenarios were primarily sourced from NGFS and IPCC AR6. The Retail Sector Scenario Analysis (by KPMG) also informed the driving forces used. NIWA (National Institute of Water and Atmospheric Research) RCP scenarios were also referenced in Table 1.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "KMD Brands mixed SSPs (from IPCC AR6) and RCPs (from IPCC AR5) across their scenario analysis. For the transition risk and overall scenario framework, they used SSP1-1.9, SSP1-2.6, and SSP5-8.5 (AR6), while for the physical risk rating exercise they used RCP2.6, RCP4.5, and RCP8.5 (AR5). Specifically, SSP2/RCP4.5 was used for the physical risk rating exercise to allow for a clearer low, middle, and high ground for emissions pathways. The rationale given was that downscaled data for SSP3-7.0 was not available at the time of the physical risk assessment.",
+      "evidence": "\"We adopted the shared socioeconomic pathways (SSP) provided by the Intergovernmental Panel on Climate Change Sixth Assessment Report (IPCC AR6) to assess KMD Brands' evolving risk profile... The SSPs build upon the Representative Concentration Pathways (RCPs) from the IPCC Fifth Assessment Report (IPCC AR5)... We used the RCP scenarios (that are aligned to the SSP scenarios) from IPCC AR5 for climate metrics that have not yet been developed within the IPCC AR6 models... For the physical risk rating exercise, it was agreed to use the SSP 2, RCP 4.5 degree scenario to allow for a better comparison to provide a clearer low, middle and high ground for emissions pathways... at the time of conducting the scenario analysis, there was no available downscaled data for the SSP3 — 7.0 scenario which would impact the ability to use this scenario for the physical risk assessment process.\"",
+      "location_hint": "Page 9, Page 15",
+      "confidence": "high",
+      "notes": "KMD Brands explicitly mixed AR6 SSPs for the overall scenario framework and AR5 RCPs for physical risk assessment metrics, with SSP2/RCP4.5 used specifically for the physical risk rating exercise. The three scenarios map as: Orderly = SSP1-1.9/RCP1.9, Disorderly = SSP1-2.6/RCP2.6 & 4.5, Hot House World = SSP5-8.5/RCP8.5.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes, KMD Brands customised their scenarios. They took the high-level scenario architecture from the NGFS scenarios and the Retail Sector Scenario Analysis (KPMG's \"The Futures of Retail\") and expanded/tailored them to encompass their global footprint, specific business model (retail and wholesale channels), making additional or differentiated assumptions where needed. They adjusted driving forces to reflect those most relevant to KMD Brands, used more up-to-date data, and selected SSP/RCP pathways that differed from the Retail Sector Scenario Analysis where appropriate (e.g., using SSP 2, RCP 4.5 instead of SSP3-7.0 for physical risk assessment due to data availability).",
+      "evidence": "\"We took the high-level scenario architecture and learnings, and scenario outputs, from the Retail Sector Scenario Analysis and expanded on the relevant parts to encompass the global footprint of our operations, with more focus on our specific business model (encompassing both retail and wholesale channels) and by making additional or differentiated assumptions where needed... tailored in places representative of the global, rather than New Zealand specific, focus of our business, and utilising more up to date data.\"",
+      "location_hint": "Section 3.3.3, page 9",
+      "confidence": "high",
+      "notes": "KMD Brands used three NGFS scenarios (Orderly/Net Zero 2050, Disorderly/Delayed Transition, Hot House World/Current Policies) as the base, but customised them for their global operations and specific business model. They also noted a deviation from the Retail Sector Scenario Analysis in scenario selection due to data availability constraints for physical risk assessment.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes. KMD Brands co-produced climate scenarios with KPMG as part of \"The Futures of Retail\" report (Retail Sector Scenario Analysis) during FY23, which set out integrated climate change scenarios for New Zealand's retail sector. KMD Brands participated in forming this report, and many of the driving forces identified in it were adopted (with some adjusted) for KMD Brands' own FY24 standalone scenario analysis, assisted by Deloitte.",
+      "evidence": "\"In determining the relevant key catalysts that could influence the level of impact that climate change may have on KMD Brands, the Steer Co considered the driving forces identified in KPMG's \"The Futures of Retail\" report (Retail Sector Scenario Analysis). This report, which KMD Brands participated in forming during FY23, sets out integrated climate change scenarios for New Zealand's retail sector. While many of the driving forces identified in the Retail Sector Scenario Analysis were adopted, a number were adjusted to reflect the drivers most relevant to KMD Brands. The scenario analysis process completed during FY24 was a standalone exercise.\"",
+      "location_hint": "Section 3.3.1, page 8",
+      "confidence": "high",
+      "notes": "KMD Brands participated in co-producing the KPMG retail sector scenario analysis in FY23, then conducted its own standalone scenario analysis in FY24 assisted by Deloitte, drawing on those co-produced scenarios as a foundation.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "KMD Brands used three baseline scenarios for their climate scenario analysis:\n1. Orderly (aligned to NGFS Orderly Transition / IPCC AR6 SSP1-1.9 pathway)\n2. Disorderly (Delayed Transition)\n3. Hot House World\n\nFor physical risk assessment, they used RCP 2.6, RCP 4.5, and RCP 8.5 scenarios from IPCC AR5, with SSP 2, RCP 4.5 used as the middle ground for comparison. For transition risk assessment, the Orderly scenario (NGFS Orderly Transition / IPCC AR6 SSP1-1.9) was used as the primary test scenario.",
+      "evidence": "\"The global warming scenarios selected by KMD Brands differ from those chosen in the Retail Sector Scenario Analysis. This is because at the time of conducting the scenario analysis, there was no available downscaled data for the SSP3 — 7.0 scenario which would impact the ability to use this scenario for the physical risk assessment process. For the physical risk rating exercise, it was agreed to use the SSP 2, RCP 4.5 degree scenario to allow for a better comparison to provide a clearer low, middle and high ground for emissions pathways.\"\n\n\"Transition risks were identified against the backdrop of a NGFS Orderly Transition / IPCC AR6 SSP1-1.9 pathway.\"\n\n\"A score was determined for each risk under each of the three scenarios, informed by our internal risk consequence table and guided by climate hazard data provided for RCP2.6, RCP 4.5 and RCP 8.5 at the future time horizons.\"",
+      "location_hint": "Section 3.3, p.9; Section 4.1, p.15",
+      "confidence": "high",
+      "notes": "Three scenarios used: Orderly, Disorderly (Delayed Transition), and Hot House World. Physical risks assessed using RCP 2.6, RCP 4.5, and RCP 8.5 (IPCC AR5). Transition risks assessed primarily under NGFS Orderly Transition / IPCC AR6 SSP1-1.9. SSP 2, RCP 4.5 used as the middle scenario for physical risk rating comparison.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "KMD Brands used the IPCC AR6 shared socioeconomic pathways (SSP) dataset and the Network for Greening the Financial System (NGFS) GCAM global data set for their scenario analysis. They also used RCP scenarios from IPCC AR5 for climate metrics not yet developed within the IPCC AR6 models.",
+      "evidence": "\"We adopted the shared socioeconomic pathways (SSP) provided by the Intergovernmental Panel on Climate Change Sixth Assessment Report (IPCC AR6) to assess KMD Brands' evolving risk profile. The global data sets that informed the KMD Brands scenario analysis included the IPCC AR6 dataset and the Network for Greening the Financial System (NGFS) GCAM global data set. The SSPs build upon the Representative Concentration Pathways (RCPs) from the IPCC Fifth Assessment Report (IPCC AR5).\" and \"We used the RCP scenarios (that are aligned to the SSP scenarios) from IPCC AR5 for climate metrics that have not yet been developed within the IPCC AR6 models.\"",
+      "location_hint": "Section 3.3.3, p.9",
+      "confidence": "high",
+      "notes": "The models used are IPCC AR6 SSP dataset and NGFS GCAM global dataset, supplemented by IPCC AR5 RCP scenarios where AR6 data was unavailable.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. KMD Brands considers damage from acute physical risks including: extreme weather events (cyclones, wildfires, floods) causing damage to inventory, store fit-out, and raw materials; wildfire causing inventory loss and store fit-out damage; and pluvial/fluvial flooding causing damage to warehouse and store inventory. Specific real-world examples include the total loss of the Rip Curl Lahaina store in the Maui wildfires (August 2023), damage to the Rip Curl Port Douglas store from Cyclone Jasper (December 2023), and flood impacts in Brazil (May 2024).",
+      "evidence": "\"Damage to inventory and raw materials resulting in write offs and loss of revenue.\" / \"Inventory loss, store fit out damage, loss of revenue.\" / \"Damage to warehouse and store inventory causing loss of revenue.\" / \"The devastating wildfires in Maui in August 2023 led to the total loss of our Rip Curl Lahaina store. Our Rip Curl store in Port Douglas was impacted by Cyclone Jasper in December 2023 causing damage to store fit out and inventory.\"",
+      "location_hint": "Table 2: Physical risks, p.11; Section 3.2, p.8",
+      "confidence": "high",
+      "notes": "Acute physical risks (extreme weather events, wildfires, flooding) and associated damage are explicitly identified and described in the disclosure, with real-world examples provided.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include the following non-temperature variables: precipitation/rainfall patterns (pluvial and fluvial flooding, changes in seasonal distribution of rainfall, extreme rainfall events), extreme weather events (wind speed, cyclones), wildfires, carbon removal (sequestration from forestry and nature-based solutions), policy reaction to climate change, regional policy variation, technology change, and carbon markets/policies. Specific physical hazard metrics used include precipitation-related risks (days per annum in exceedance of average regional precipitation over a twenty-year period 2040–2060) and hot days (days per annum in exceedance of 30°C over 2040–2060).",
+      "evidence": "Table 1 lists: \"Carbon removal: Medium-high use / Medium use / Low use\", \"Technology change: Fast change / Slow then fast change / Slow change\", \"Policy reaction to climate change: Immediate and smooth / Delayed / Current policies only\", \"Regional policy variation: Medium variation / High variation / Low variation\". Physical hazards assessed include: \"Increase in intensity of average wind speed and number of windy days. Increase in intensity and frequency of cyclone events.\", \"Increase in wildfire events due to increasing temperatures, lower rainfall and drought conditions.\", \"Increasing frequency and intensity of pluvial flooding due to increasing extreme, rare rainfall events.\", \"Changes in seasonal distribution of rainfall resulting in wetter winters and drier summers. Increase in extreme rainfall events. Decline in overall number of rain days.\" GIS analysis covers \"hot days and precipitation\" — \"Assets and operations potentially exposed to precipitation-related risks (fluvial and pluvial flooding) based on the number of days per annum in exceedance of average regional precipitation over a twenty-year period (2040-2060).\"",
+      "location_hint": "Table 1 (p.9), Table 2 (p.11), Table 6 footnotes (p.19)",
+      "confidence": "high",
+      "notes": "Non-temperature variables explicitly covered in the scenarios include precipitation, extreme weather/wind/cyclones, wildfires, flooding, rainfall pattern changes, carbon removal, technology change, and policy variables. Temperature is also a variable but the question asks specifically about non-temperature variables.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "KMD Brands used global-scale scenarios. The scenario analysis was conducted at an entity level, with scenarios representing global warming pathways (Orderly/Net Zero 2050 at 1.5°C, Disorderly/Delayed Transition at 1.7°C, and Hot House World/Current Policies at 3°C+), aligned to NGFS, IPCC (SSP), and NIWA (RCP) frameworks. Risks and opportunities were assessed across global geographies including Australasia, Southeast Asia, Europe, and the Americas.",
+      "evidence": "\"During FY24 we completed a KMD Brands entity-level scenario analysis and risk assessment of our climate-related risks and opportunities, assisted by Deloitte.\" and \"Table 1: Pathway overview and key assumptions — ORDERLY: NGFS Net Zero 2050 (1.5°C), IPCC SSP 1-1.9, NIWA RCP 1.9; DISORDERLY: NGFS Delayed Transition (1.7°C), IPCC SSP 1-2.6, NIWA RCP 2.6, 4.5; HOT HOUSE WORLD: NGFS Current Policies (3°C+), IPCC SSP 5-8.5, NIWA RCP 8.5\"",
+      "location_hint": "Section 3.3, p.8-9",
+      "confidence": "high",
+      "notes": "The scenarios are global in scale, covering three warming pathways. The analysis was entity-level but assessed impacts across multiple global regions.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "KMD Brands uses three time horizons:\n- Short-term: Present day to 2030\n- Medium-term: 2031 to 2040\n- Long-term: 2041 to 2050",
+      "evidence": "\"The time horizons selected were: Short-term is defined as Present day to 2030; Medium-term is defined as 2031 to 2040; Long-term is defined as 2041 to 2050.\"",
+      "location_hint": "Section 3.3.2, p.9",
+      "confidence": "high",
+      "notes": "These time horizons were aligned with the Retail Sector Scenario Analysis and are consistent with the tenure of retail store leases, useful life of key IT systems, and the KMD Brands purchase cycle.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "KMD Brands selected three NGFS scenarios (Orderly/Net Zero 2050, Disorderly/Delayed Transition, and Hot House World/Current Policies) because they are \"most relevant and appropriate to assess the resilience of our business model and strategy.\" The scenarios are easily comparable to other retailers, aligned with the Retail Sector Scenario Analysis (KPMG's \"The Futures of Retail\") where appropriate, but tailored to reflect KMD Brands' global (rather than New Zealand-specific) footprint and more up-to-date data. The IPCC AR6 SSP pathways and NGFS GCAM global dataset were adopted to assess the evolving risk profile. For the physical risk rating exercise specifically, SSP 2 / RCP 4.5 was used (instead of SSP3-7.0, which lacked available downscaled data) to allow for a clearer low, middle, and high ground for emissions pathways.",
+      "evidence": "\"We selected these scenarios as being most relevant and appropriate to assess the resilience of our business model and strategy as they are easily comparable to other retailers, which encouraged us to select pathways aligned with the Retail Sector Scenario Analysis where it made sense to do so, but tailored in places representative of the global, rather than New Zealand specific, focus of our business, and utilising more up to date data. We adopted the shared socioeconomic pathways (SSP) provided by the Intergovernmental Panel on Climate Change Sixth Assessment Report (IPCC AR6) to assess KMD Brands' evolving risk profile. The global data sets that informed the KMD Brands scenario analysis included the IPCC AR6 dataset and the Network for Greening the Financial System (NGFS) GCAM global data set... The global warming scenarios selected by KMD Brands differ from those chosen in the Retail Sector Scenario Analysis. This is because at the time of conducting the scenario analysis, there was no available downscaled data for the SSP3 — 7.0 scenario which would impact the ability to use this scenario for the physical risk assessment process. For the physical risk rating exercise, it was agreed to use the SSP 2, RCP 4.5 degree scenario to allow for a better comparison to provide a clearer low, middle and high ground for emissions pathways.\"",
+      "location_hint": "Section 3.3.3, p.9",
+      "confidence": "high",
+      "notes": "The justification covers both the choice of NGFS scenarios (comparability with other retailers, alignment with Retail Sector Scenario Analysis, global applicability) and the specific deviation for physical risk assessment (SSP2/RCP4.5 used instead of SSP3-7.0 due to lack of downscaled data).",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "KMD Brands experienced several historic climate impacts during FY24: (1) The devastating wildfires in Maui in August 2023 led to the total loss of the Rip Curl Lahaina store. (2) The Rip Curl store in Port Douglas was impacted by Cyclone Jasper in December 2023, causing damage to store fit out and inventory. (3) In January 2024, Cyclone Kirrily disrupted trade at Cairns, Palm Cove and Townsville stores by forcing closure. (4) In May 2024, floods in Brazil had a significant impact on Rip Curl wholesale customers, who were supported through extended payment terms and donation of wetsuits and equipment. (5) Warmer winter periods have impacted sales of insulation and seasonal products such as skiwear — in 2023, Australia experienced its warmest winter on record, contributing to challenging trading conditions.",
+      "evidence": "\"The devastating wildfires in Maui in August 2023 led to the total loss of our Rip Curl Lahaina store. Our Rip Curl store in Port Douglas was impacted by Cyclone Jasper in December 2023 causing damage to store fit out and inventory. In January 2024, Cyclone Kirrily disrupted trade at our Cairns, Palm Cove and Townsville stores by forcing closure. In May 2024, the floods in Brazil had a significant impact on our Rip Curl wholesale customers, whom we supported through extended payment terms as well as by providing broader support for response teams through the donation of wetsuits and equipment. The impacts of warmer winter periods on the sales of our insulation and seasonal products, such as skiwear, has been noticeable in recent key winter trading periods. In 2023, Australia experienced its warmest winter on record, contributing to challenging trading conditions driven also by increased cost of living pressures.\"",
+      "location_hint": "Section 3.2, p.8",
+      "confidence": "high",
+      "notes": "All impacts are explicitly listed under the \"3.2 Current climate-related impacts\" section of the document.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "KMD Brands identifies the following direct and indirect physical climate risks:\n\n1. **Extreme weather events** – Increase in intensity of average wind speed, number of windy days, and frequency/intensity of cyclone events. Impacts include closure of factories, warehouses and stores; damage to inventory and raw materials; grid blackouts and communications network outages. Geography: Asia.\n\n2. **Wildfire** – Increase in wildfire events due to increasing temperatures, lower rainfall and drought. Impacts include inventory loss, store fit-out damage, loss of revenue, disruption of transport networks, delays in wholesale customer payments (increased accounts receivable and bad debts), and impacts on air quality affecting employee health and consumer activities. Geography: Australasia, America and South East Asia.\n\n3. **Increased temperatures** – Increasing annual average temperatures causing more hot days and extended dry periods. Impacts include negative effects on raw material production and growing conditions (reducing quality/accessibility of key commodities, increasing procurement costs), and impacts on working conditions for own and contracted supplier employees (reducing productivity and delaying product timelines). Geography: South East Asia.\n\n4. **Pluvial and fluvial flooding** – Increasing frequency and intensity of flooding due to extreme rainfall events. Impacts include damage to warehouse and store inventory, impacts on manufacturing suppliers (affecting lead times and product delivery capacity), and transport/shipping delays. Geography: South East Asia, Australasia.\n\n5. **Changes in rainfall patterns** – Changes in seasonal distribution of rainfall (wetter winters, drier summers), increase in extreme rainfall events, decline in overall number of rain days. Impacts include changes in consumer purchase patterns (reduced sales and overstocking of rainwear/insulation categories, increased working capital, lower gross margin) and impacts on materials supply due to crop damage (increased pricing and reduction in product supply). Geography: Australasia, South East Asia, Europe and Americas.\n\nCurrent examples of direct physical impacts experienced in FY24 include: total loss of the Rip Curl Lahaina store due to Maui wildfires (August 2023); damage to the Rip Curl Port Douglas store from Cyclone Jasper (December 2023); store closures in Cairns, Palm Cove and Townsville from Cyclone Kirrily (January 2024); and significant impact on Rip Curl wholesale customers from Brazil floods (May 2024). Warmer winter periods have also negatively impacted sales of insulation and seasonal products such as skiwear.",
+      "evidence": "KMD Brands' climate-risk assessment shows that the company is most vulnerable to physical climate risks like extreme weather, wildfires, heatwaves, and floods. These impacts will likely be experienced across the entire value chain, from grower to end-consumer. However, the overall risk exposure is low over the time horizons considered in our assessment, based on current, available data. Under our time horizons to 2050, the impacts under all three scenarios are not widely differentiated, with physical risks in the short and medium-term ranked as low or minor exposure, rising to moderate, moderate/high exposure under the Hot House World scenario by 2050.\n\nTable 2: Physical risks [includes Extreme weather events, Wildfire, Increased temperatures, Pluvial and fluvial flooding, Changes in rainfall patterns]\n\nThe devastating wildfires in Maui in August 2023 led to the total loss of our Rip Curl Lahaina store. Our Rip Curl store in Port Douglas was impacted by Cyclone Jasper in December 2023 causing damage to store fit out and inventory. In January 2024, Cyclone Kirrily disrupted trade at our Cairns, Palm Cove and Townsville stores by forcing closure. In May 2024, the floods in Brazil had a significant impact on our Rip Curl wholesale customers, whom we supported through extended payment terms as well as by providing broader support for response teams through the donation of wetsuits and equipment. The impacts of warmer winter periods on the sales of our insulation and seasonal products, such as skiwear, has been noticeable in recent key winter trading periods.",
+      "location_hint": "Section 3.2 (p.8) and Table 2: Physical risks (p.11)",
+      "confidence": "high",
+      "notes": "Physical risks are assessed across short (present day to 2030), medium (2031–2040), and long-term (2041–2050) horizons under three scenarios (Orderly, Disorderly, Hot House World). All five physical risk categories span all three time horizons. The GIS analysis (Table 6) also shows that under the Hot House World scenario at 2050, 32% of Rip Curl assets and 1% of Kathmandu assets are potentially exposed to increasing hot days, while 60% of Rip Curl and 67% of Kathmandu assets are potentially exposed to precipitation-related risks.",
+      "verification": null
+    }
+  ]
+}

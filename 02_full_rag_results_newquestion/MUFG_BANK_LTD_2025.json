@@ -1,0 +1,181 @@
+{
+  "source": "MUFG_BANK_LTD_2025",
+  "model_id": "claude-sonnet-4-6",
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 1045528,
+      "output_tokens": 6891,
+      "total_tokens": 1052419,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 987859,
+        "ephemeral_5m_input_tokens": 57645,
+        "ephemeral_1h_input_tokens": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": [
+        "Orderly",
+        "Too Little, Too Late",
+        "Hot House"
+      ],
+      "evidence": "The scenarios MUFG New Zealand considered in its scenario analysis are as in Table 9. Scenario: Orderly | Too Little, Too Late | Hot House. Overarching narrative: Collective action against climate change will see a steady and transformative response to limit average temperature to 1.5˚C and achieving net-zero. | Domestic efforts to achieve emissions reductions efforts will be swift, but a delayed global response will lead to New Zealand suffering widespread physical impacts. | Limited progress in policies and technologies, will lead to high physical risks from extreme weather and sea level rise as global warming exceeds 2.5˚C by 2050, which will disrupt social, political, and economic systems.",
+      "location_hint": "Appendix A: Scenario Analysis, p.23",
+      "confidence": "high",
+      "notes": "These are the three overarching narrative scenarios. Each is underpinned by multiple data sources including IPCC SSPs, NIWA RCPs, NGFS, and IEA pathways.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three temperature outcomes by 2100 are described: 1.5°C (Orderly scenario), 2.7°C (Too Little, Too Late scenario), and 4.4°C (Hot House scenario). The Hot House scenario also notes global warming exceeds 2.5°C by 2050.",
+      "evidence": "Global average temperature by 2100: 1.5˚C [Orderly] | 2.7˚C [Too Little, Too Late] | 4.4˚C [Hot House]. Hot House narrative: \"global warming exceeds 2.5˚C by 2050\".",
+      "location_hint": "Appendix A: Scenario Analysis, Table 9, p.23",
+      "confidence": "high",
+      "notes": "No temperature overshoot language is used; the 2.5°C by 2050 reference in the Hot House narrative is an intermediate milestone, not an overshoot description.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers are explicitly named: IPCC (Intergovernmental Panel on Climate Change), NIWA (National Institute of Water and Atmospheric Research), Climate Change Commission (New Zealand), NGFS (Network for Greening the Financial System), and IEA (International Energy Agency).",
+      "evidence": "Climate scenarios and data sources used to underpin each scenario: Intergovernmental Panel on Climate Change Shared Socioeconomic Pathways [SSP1-1.9, SSP2-4.5, SSP5-8.5] | NIWA Representative Concentration Pathways [RCP2.6, RCP4.5, RCP8.5] | Climate Change Commissions' Transition Pathway Parameters [Tailwinds, Headwinds, Current Policy Reference] | Network for Greening the Financial System (NGFS) [Net Zero 2050, Nationally Determined Contributions (NDC's), Current Policies] | IEA Global Energy Pathways [IEA Net Zero Emissions by 2050 (NZE), IEA Announced Pledges Scenario (APS), IEA Stated Policies Scenario (STEPS)]",
+      "location_hint": "Appendix A: Scenario Analysis, Table 9, p.23",
+      "confidence": "high",
+      "notes": "Five distinct providers are named. NIWA is expanded in the glossary as \"National Institute of Water and Atmospheric Research\".",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes",
+      "evidence": "Intergovernmental Panel on Climate Change Shared Socioeconomic Pathways: SSP1-1.9 | SSP2-4.5 | SSP5-8.5. NIWA Representative Concentration Pathways: RCP2.6 | RCP4.5 | RCP8.5.",
+      "location_hint": "Appendix A: Scenario Analysis, Table 9, p.23",
+      "confidence": "high",
+      "notes": "The document explicitly lists both SSP identifiers (from IPCC) and RCP identifiers (from NIWA) as separate data sources underpinning the same three scenarios. SSPs are from the CMIP6/AR6 framework while RCPs are from the CMIP5/AR5 framework — these are not from the same internally consistent scenario family. The pairings used (e.g. SSP1-1.9 with RCP2.6, SSP2-4.5 with RCP4.5, SSP5-8.5 with RCP8.5) are broadly analogous but are drawn from different generation frameworks.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes",
+      "evidence": "The scenarios MUFG New Zealand considered in its scenario analysis are as in Table 9. [The three scenarios — Orderly, Too Little, Too Late, Hot House — are underpinned by multiple external data sources including IPCC SSPs, NIWA RCPs, Climate Change Commission's Transition Pathway Parameters, NGFS, and IEA Global Energy Pathways, and are framed with New Zealand-specific narratives, e.g. \"Domestic efforts to achieve emissions reductions efforts will be swift, but a delayed global response will lead to New Zealand suffering widespread physical impacts.\"]",
+      "location_hint": "Appendix A: Scenario Analysis, p.23-24",
+      "confidence": "medium",
+      "notes": "The scenarios are not purely off-the-shelf: they are composite constructs drawing on multiple external scenario families (IPCC, NIWA, NGFS, IEA, NZ Climate Change Commission) and are framed with New Zealand-specific narratives and domestic policy responses. However, the document does not use the word \"customised\" explicitly. The adaptation is evident from the blending of multiple sources and the NZ-specific framing (e.g. \"New Zealand suffering widespread physical impacts\", \"Domestic policy response\"). This constitutes adaptation beyond off-the-shelf use."
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "No",
+      "evidence": "Climate-related risks and opportunities were identified through scenario analysis (as per Appendix A)... MUFG New Zealand undertakes an annual climate-related risk review and assessment process. This assessment is based on the scenario analysis undertaken for FY2023 and updated for FY2024.",
+      "location_hint": "Section 4.1, p.11; Section 4.4.1, p.13",
+      "confidence": "high",
+      "notes": "There is no mention anywhere in the document of participatory, collaborative, or co-produced scenario development involving external stakeholders, communities, or other organisations in the design of the scenarios themselves."
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Yes — a \"Current Policies\" or \"Current Policy Reference\" scenario functions as a baseline/reference scenario. Under the NGFS framework it is labelled \"Current Policies\"; under the Climate Change Commission's Transition Pathway Parameters it is labelled \"Current Policy Reference\"; and under IEA it is labelled \"IEA Stated Policies Scenario (STEPS)\". These are mapped to the \"Hot House\" scenario (4.4°C by 2100), representing a no-additional-action reference case against which the Orderly and Too Little, Too Late scenarios are compared.",
+      "evidence": "Climate Change Commissions' Transition Pathway Parameters: Tailwinds | Headwinds | Current Policy Reference. Network for Greening the Financial System (NGFS): Net Zero 2050 | Nationally Determined Contributions (NDC's) | Current Policies. IEA Global Energy Pathways: IEA Net Zero Emissions by 2050 (NZE) | IEA Announced Pledges Scenario (APS) | IEA Stated Policies Scenario (STEPS).",
+      "location_hint": "Appendix A: Scenario Analysis, Table 9, p.23",
+      "confidence": "medium",
+      "notes": "The document does not explicitly label any scenario as a \"baseline\" or \"reference scenario\" in those exact terms. However, \"Current Policies\" / \"Current Policy Reference\" / \"STEPS\" are standard reference/baseline scenarios in their respective frameworks, and they are mapped to the Hot House scenario. The glossary defines \"Baseline\" only in the context of GHG emissions targets, not scenario analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "No specific climate models or integrated assessment models (IAMs) are named in the document. The scenario data sources referenced are frameworks/organisations (IPCC SSPs, NIWA RCPs, NGFS, IEA, NZ Climate Change Commission), not named models such as CLIMADA, REMIND, MESSAGE, GCAM, etc.",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The document lists scenario data sources (IPCC SSPs, NIWA RCPs, NGFS, IEA pathways, NZ CCC pathways) but does not name any underlying climate model or IAM used to generate those scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes",
+      "evidence": "Physical risk terminology: Extreme weather — Acute physical risks, being events of severe climatic events such as floods, hurricanes and fire. Drought — A specific acute physical risk. [...] Physical credit risks for the sectors were all assessed with moderate risk on an inherent basis and a low risk on a residual basis across all three time horizons.",
+      "location_hint": "Table 2: Physical credit risk heatmap, p.14-15",
+      "confidence": "high",
+      "notes": "The scenario analysis explicitly includes acute physical risks (extreme weather events such as floods, hurricanes, fire, and drought) assessed across all sectors in the lending portfolio. Risk ratings (inherent and residual) are assigned. However, quantitative damage/loss estimates in dollar terms are not provided — the assessment uses qualitative \"low/moderate/high\" ratings.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": [
+        "extreme weather (floods, hurricanes, fire)",
+        "drought",
+        "sea level rise",
+        "long-term temperature change (chronic)",
+        "policy and legal changes (regulations, laws, government policies)",
+        "technology change (low-emissions technologies)",
+        "market shifts (supply/demand, consumer preferences)",
+        "reputation risk",
+        "GHG emissions reductions",
+        "domestic policy response",
+        "technology change response"
+      ],
+      "evidence": "Physical risk terminology: Extreme weather — Acute physical risks, being events of severe climatic events such as floods, hurricanes and fire. Drought — A specific acute physical risk. Long-term temperature change — A chronic physical risk, being the long-term increase in average global temperatures. [...] Transition risk terminology: Policy and legal — Risks arising from changes in regulations, laws and government policies. Technology — Risks arising from the emergence of new, low emissions technologies. Market — Risks associated with shifts in supply and demand dynamics. Reputation — Risks arising from public perception and stakeholder and investor expectations. [...] Hot House narrative: \"high physical risks from extreme weather and sea level rise\".",
+      "location_hint": "Appendix A Table 9 p.23; Tables 2 & 3 pp.14-15",
+      "confidence": "high",
+      "notes": "Sea level rise is mentioned in the Hot House scenario narrative. The scenario parameters also include \"Technology change response\" and \"Domestic policy response\" as explicit scenario dimensions. Carbon price is not explicitly named as a variable.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "both",
+      "evidence": "Climate scenarios and data sources used to underpin each scenario: Intergovernmental Panel on Climate Change Shared Socioeconomic Pathways [SSP1-1.9, SSP2-4.5, SSP5-8.5] | NIWA Representative Concentration Pathways [RCP2.6, RCP4.5, RCP8.5] | Climate Change Commissions' Transition Pathway Parameters [Tailwinds, Headwinds, Current Policy Reference] | Network for Greening the Financial System (NGFS) [Net Zero 2050, NDCs, Current Policies] | IEA Global Energy Pathways [NZE, APS, STEPS]. The Too Little, Too Late narrative: \"a delayed global response will lead to New Zealand suffering widespread physical impacts.\"",
+      "location_hint": "Appendix A: Scenario Analysis, Table 9, p.23",
+      "confidence": "medium",
+      "notes": "Global-level scenarios (IPCC SSPs, NGFS, IEA) are combined with New Zealand-specific/regional sources (NIWA RCPs, NZ Climate Change Commission pathways). The scenario narratives also reference New Zealand-specific impacts. The document does not explicitly state that global models were \"downscaled\" to regional level, but the use of NIWA RCPs and NZ CCC pathways implies regional/local application.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Three time horizons are used: Short-term (year end point 2026, ~3 years from 2024); Medium-term (year end point 2030, ~10 years from 2024); Long-term (year end point 2050, ~30 years from 2024). Rationales are provided for each.",
+      "evidence": "Time horizon: Short-term | Medium-term | Long-term. Year end point: 2026 | 2030 | 2050. Period (relative to 2024): ~3 years | ~10 years | ~30 years. Reasoning: MUFG New Zealand defines its immediate term for its investment portfolio as 3 years, this time horizon allows MUFG New Zealand to stress test active investments and provide a current state assessment. | Aligned with MUFG Group's interim GHG emissions reductions targets. Broadly aligned with average maturity profile of business loans. | Aligned with MUFG Group's long-term GHG emissions reduction targets.",
+      "location_hint": "Appendix A: Scenario Analysis, Table 10, p.23-24",
+      "confidence": "high",
+      "notes": "Justification is explicitly provided for all three time horizons in the \"Reasoning\" row of Table 10.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "No",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The document lists the scenarios and their data sources in Table 9 (Appendix A) and provides rationales for the time horizons in Table 10, but does not provide an explicit justification for why the specific scenarios (Orderly, Too Little Too Late, Hot House) or the specific data sources (IPCC SSPs, NIWA RCPs, NGFS, IEA, NZ CCC) were chosen over alternatives. No methodology section explains the selection criteria for these particular scenario frameworks.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "No",
+      "evidence": "MUFG New Zealand has not observed any material current impacts (and therefore current financial impacts) from climate-related physical and transition risks on our portfolio or ability to operate our business for the year ended 31 March 2025.",
+      "location_hint": "Section 4.3, p.12-13",
+      "confidence": "high",
+      "notes": "The document explicitly states no material current (historical/observed) climate impacts have been experienced. No historical climate events or losses are described."
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "both",
+      "evidence": "Credit Impacts: Physical and transition impacts from climate change may affect customers' businesses and ability to meet obligations, through disruption from extreme weather events and/or increased costs to meet climate-related societal and policies expectations. This may lead to reduced customer creditworthiness, higher default risk, increased expected credit losses, and a greater risk of stranded assets for MUFG New Zealand. Operational Impacts: Physical and transition impacts from climate change directly affect MUFG New Zealand's capital and operational costs due to our physical footprint and the increased expectations of society and Government to manage our climate-related impacts (e.g., increased operational costs to meet climate policies, ensure operational resilience to the impact of climate events, or insure buildings from extreme weather events).",
+      "location_hint": "Section 4.4.1, Table 1, p.13-14",
+      "confidence": "high",
+      "notes": "Direct physical risks are explicitly considered through Operational Impacts (MUFG's own physical footprint, buildings, operational resilience). Indirect physical risks are explicitly considered through Credit Impacts — physical hazards affecting customers/borrowers, leading to credit losses for MUFG. Both are clearly articulated."
+    }
+  ]
+}

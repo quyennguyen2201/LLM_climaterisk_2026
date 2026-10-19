@@ -1,0 +1,170 @@
+{
+  "source": "FLETCHER_BUILDING_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 10,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 81351,
+      "output_tokens": 7018,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "total_tokens": 88369
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Fletcher Building uses three climate scenarios developed in collaboration with the New Zealand Green Building Council (NZGBC) for the construction and property sectors in New Zealand:\n\n1. **Scenario One – 'Orderly'**: Global temperature increase limited to 1.5°C above pre-industrial levels. Global emissions decline steadily to net zero CO2 by 2050. Ambitious climate policies in New Zealand aligned with global efforts. Shadow carbon price rises to $250/tCO2e by 2050.\n\n2. Two additional scenarios are referenced but their full descriptions are not included in the retrieved context (they are described in the document's \"The scenarios at a glance\" section, but only Scenario One's detail was retrieved).",
+      "evidence": "\"Scenario One: An 'Orderly' scenario where the world succeeds in limiting global temperature increase to 1.5°C above pre-industrial temperatures. Global emissions decline steadily to achieve net zero CO2 emissions globally by 2050. New Zealand climate policies are ambitious and in line with the rest of the world's, with the building and construction sector adopting and prioritising decarbonisation policies.\"",
+      "location_hint": "Page 16, \"The scenarios at a glance\"",
+      "confidence": "medium",
+      "notes": "The retrieved context only includes the full description of Scenario One ('Orderly', 1.5°C). The document references three scenarios total (used across physical and transition risk assessments), but the descriptions of Scenarios Two and Three were not retrieved. The earlier assessments (FY20, FY22) used RCP 8.5 as a worst-case scenario. The three scenarios were developed with NZGBC and agreed with the ARC.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes three scenarios with different global temperature outcomes by 2100:\n1. Scenario One ('Orderly'): 1.4°C above pre-industrial levels by 2081–2100\n2. Scenario Two ('Delayed Transition'): 1.8°C above pre-industrial levels by 2081–2100 (limited to below 2°C)\n3. Scenario Three ('Hot House World'): greater than 3°C above pre-industrial levels by 2100",
+      "evidence": "Scenario One: \"2081-2100: 1.4°C\" (increase in average global air temperature relative to pre-industrial levels). Scenario Two: \"2081-2100: 1.8°C\" and \"succeeding in limiting global warming to below 2°C above pre-industrial levels by 2100.\" Scenario Three: \"Global average temperature rises to greater than 3°C above pre-industrial levels by 2100.\"",
+      "location_hint": "Pages 16–18, Fletcher Building Climate Statements 2024",
+      "confidence": "high",
+      "notes": "Three distinct scenarios are presented with explicit temperature outcomes by 2100.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "Aon (for physical risk modelling and downscaling) and the New Zealand Green Building Council (NZGBC) (for the scenario narratives)",
+      "evidence": "\"Fletcher Building engaged Aon to assess the physical risk posed by climate change... The scenarios were based on the New Zealand Green Building Council (NZGBC) 'Climate Scenarios for the Construction and Property Sector'... The NZGBC scenarios were then discussed with the ARC, and by agreement downscaled for Fletcher Building using Aon's Combined Hazard Information Platform (CHIP) model for the Group's assets and regions of operation.\"",
+      "location_hint": "Page 14, Scenario analysis section",
+      "confidence": "high",
+      "notes": "The scenarios were sourced from NZGBC and then downscaled/modelled by Aon using their CHIP platform.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes, Fletcher Building's scenario analysis mixes SSPs and RCPs across different data sources and variables. The three scenarios use a combination of RCP and SSP frameworks:\n\n- **Orderly (1.5°C):** Data aligned to RCP2.6 (current); will align to SSP1-1.9 once AR6 downscaled data is available.\n- **Disorderly (<2°C):** Data aligned to RCP2.6 (current); will align to SSP1-2.6 once AR6 downscaled data is available.\n- **Hot House World (>3°C):** Aligned to RCP8.5 and SSP3.\n\nWithin individual data variables, different scenario-pathway combinations are used:\n- Global mean temperature: SSP1-1.9, SSP1-2.6, SSP3-7.0\n- Hot days / rainfall intensity / wind speeds: RCP2.6 (Scenarios 1 & 2), RCP8.5 (Scenario 3)\n- Sea level rise (NZ): SSP1-1.9, SSP1-2.6, SSP3-7.0\n- Emissions trajectories: NGFS Net-Zero 2050, NGFS Disorderly, NGFS Hot-House World",
+      "evidence": "\"The data for this scenario is sourced from downscaled NIWA projections from IPCC AR5 and is aligned to RCP2.6. Once downscaled data for IPCC AR6 is available, this scenario will align to Shared Socioeconomic Pathways (SSP) 1-1.9.\" ... \"Data for Scenario One aligns with SSP1-1.9, data for Scenario Two aligns with SSP1-2.6, and data for Scenario Three aligns with SSP3-7.0.\" ... \"Percentage increase in average number of hot days per year has been taken from the Climate Change Projections for New Zealand... Data for Scenarios One and Two align with RCP2.6 downscaling and Scenario Three aligns with RCP 8.5 downscaling.\" ... \"The data for Scenarios One and Two was taken from RCP2.6 projections and Scenario Three was taken from RCP8.5 projections.\" ... \"The data for Scenarios One, Two and Three align with NZSeaRise projections for SSP1-1.9, SSP1-2.6 and SSP3-7.0 respectively.\"",
+      "location_hint": "Page 14 and Appendix E (page 39)",
+      "confidence": "high",
+      "notes": "The document explicitly mixes RCP and SSP frameworks across different data variables and scenarios, with the stated intention to transition fully to SSP-based pathways once IPCC AR6 downscaled data becomes available for New Zealand.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes. Fletcher Building used customised scenarios based on the New Zealand Green Building Council (NZGBC) 'Climate Scenarios for the Construction and Property Sector', which were then downscaled for Fletcher Building using Aon's Combined Hazard Information Platform (CHIP) model for the Group's assets and regions of operation. The three scenarios were: (1) 'Orderly' scenario (1.5°C) aligned to RCP2.6/SSP1-1.9; (2) a scenario aligned to SSP1-2.6/RCP2.6; and (3) a high-warming scenario aligned to SSP3-7.0/RCP8.5. Fletcher Building participated in the development of the NZGBC scenarios, with representatives on both the Leadership Group and Technical Working Group.",
+      "evidence": "\"For FY24, three scenarios were assessed for Fletcher Building. The scenarios were based on the New Zealand Green Building Council (NZGBC) 'Climate Scenarios for the Construction and Property Sector'. The NZGBC scenarios were developed with participation from a range of industry and other stakeholders... Fletcher Building participated in the development of the NZGBC scenarios, with representatives on both the Leadership Group and Technical Working Group during development of the scenarios. The NZGBC scenarios were then discussed with the ARC, and by agreement downscaled for Fletcher Building using Aon's Combined Hazard Information Platform (CHIP) model for the Group's assets and regions of operation.\"",
+      "location_hint": "Page 14",
+      "confidence": "high",
+      "notes": "The scenarios are customised in that they are based on NZGBC sector-specific scenarios and further downscaled using Aon's CHIP model for Fletcher Building's specific assets and regions. Data sources for each scenario are detailed in Appendix E (page 39).",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes. Fletcher Building co-produced climate scenarios through participation in the New Zealand Green Building Council (NZGBC) 'Climate Scenarios for the Construction and Property Sector'. Fletcher Building had representatives on both the Leadership Group and Technical Working Group during development of the scenarios. The NZGBC scenarios were developed with participation from a range of industry and other stakeholders, including building portfolio owners and managers, property developers, construction companies, building product manufacturers, building design consultancies, representatives from the insurance and banking sectors, and public sector entities.",
+      "evidence": "\"The scenarios were based on the New Zealand Green Building Council (NZGBC) 'Climate Scenarios for the Construction and Property Sector'. The NZGBC scenarios were developed with participation from a range of industry and other stakeholders, including building portfolio owners and managers, property developers, construction companies, building product manufacturers, building design consultancies, representatives from the insurance and banking sectors, and public sector entities. Fletcher Building participated in the development of the NZGBC scenarios, with representatives on both the Leadership Group and Technical Working Group during development of the scenarios.\"",
+      "location_hint": "Page 14, Scenario Analysis section",
+      "confidence": "high",
+      "notes": "Fletcher Building actively co-produced the NZGBC sector-level climate scenarios used in their FY24 scenario analysis, participating at both leadership and technical levels.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Fletcher Building used three scenarios based on the New Zealand Green Building Council (NZGBC) 'Climate Scenarios for the Construction and Property Sector', downscaled using Aon's Combined Hazard Information Platform (CHIP) model:\n1. 'Orderly' scenario (1.5°C) – aligned to RCP2.6 / SSP1-1.9\n2. A second scenario (implied ~2°C) – aligned to SSP1-2.6 / RCP2.6\n3. A third scenario (high emissions) – aligned to SSP3-7.0 / RCP8.5",
+      "evidence": "\"For FY24, three scenarios were assessed for Fletcher Building. The scenarios were based on the New Zealand Green Building Council (NZGBC) 'Climate Scenarios for the Construction and Property Sector'... The three scenarios were: • 'Orderly' scenario (1.5°C) where decarbonisation policies are enacted immediately and smoothly... The data for this scenario is sourced from downscaled NIWA projections from IPCC AR5 and is aligned to RCP2.6. Once downscaled data for IPCC AR6 is available, this scenario will align to Shared Socioeconomic Pathways (SSP) 1-1.9.\"\n\n\"Increase in average global mean air temperature taken from: IPCC 2021... Data for Scenario One aligns with SSP1-1.9, data for Scenario Two aligns with SSP1-2.6, and data for Scenario Three aligns with SSP3-7.0.\"",
+      "location_hint": "Scenario analysis section, p.14–15; Appendix E, p.39",
+      "confidence": "high",
+      "notes": "The document describes three scenarios aligned with NZGBC frameworks and IPCC SSP/RCP pathways. Scenario One = 1.5°C/SSP1-1.9/RCP2.6; Scenario Two = SSP1-2.6/RCP2.6; Scenario Three = SSP3-7.0/RCP8.5. The baseline period for hot days data is noted as 1986–2005.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The context does not specify a single \"model used\" for climate scenario analysis. Multiple models and data sources are referenced (e.g., NGFS IIASA Scenario Explorer, ENZ model from Climate Change Commission, NGFS Climate Impact Explorer, NZSeaRise, CHIP by Aon), but no single overarching model is identified as \"the model used.\"",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Fletcher Building considers damage from acute physical risks including flooding (pluvial, fluvial, and coastal), cyclones/extreme storm events, and bushfires. For example, the material damage cost of a 1-in-200-year pluvial flood event across all New Zealand sites is calculated at approximately $54 million. During FY23, Cyclone Gabrielle and North Island Floods caused $21 million in property damages and direct remedial works. An annualised loss of approximately $11 million/year for flood is also estimated.",
+      "evidence": "\"Financial risk analysis was undertaken across the New Zealand portfolio this indicates a potential material damage loss of approximately $53 million for pluvial impacts and $47 million for fluvial impacts for a 1 in a 100 year event (this increases to approximately $54 million/$48 million respectively for a 1 in 200 year event)... Further analysis including the annualised loss across all flood events (range of return periods) for NZ assets has been carried out. This indicates an annualised loss of approximately $11 million/year for flood... During FY23, the impact from Cyclone Gabrielle and North Island Floods in New Zealand experienced by our operations was consistent with the levels of exposure and loss indicated by the modelling described above... The impact amounted to $21 million for property damages and direct remedial works.\"",
+      "location_hint": "Pages 11, 20, 31",
+      "confidence": "high",
+      "notes": "Acute physical risks explicitly considered include flooding (pluvial, fluvial, coastal), cyclones, and bushfires. Quantified damage estimates are provided for flood events at various return periods and annualised basis, as well as actual FY23 losses from Cyclone Gabrielle.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include the following non-temperature variables: sea level rises, extreme storm events (including cyclones), bush fires, flooding (coastal, river/fluvial, and rainfall-driven/pluvial), rainfall intensity and frequency changes, and wind/cyclone hazards. Specifically, the physical risk modelling used data from global Ambiental flood layers, NIWA rainfall intensity projections, NIWA climate projections, and Australian Bureau of Meteorology sea-level rise and rainfall projections.",
+      "evidence": "\"Sea level rises • Extreme storm events • Other events, such as bush fires\" and \"Both countries are expected to experience an increase in temperatures and communities on the coast are expected to be faced with increased sea levels. Additionally, analysis indicates that there will be variation in the frequency and intensity of rain events that will affect river flooding, storm and cyclones and changes to susceptibility to bush fire for Australia.\" and \"Physical risk modelling specific to Fletcher Buildings assets and key infrastructure links was conducted by Aon using the three scenarios outlined here, and data from global Ambiental flood layers, Aon's bespoke CHIP model (which provides specific exposure and vulnerability data), NIWA rainfall intensity projections, NIWA climate projections, and Australian Bureau of Meteorology sea-level rise and rainfall projections.\"",
+      "location_hint": "Pages 19, 31, 14",
+      "confidence": "high",
+      "notes": "Non-temperature physical variables explicitly mentioned include sea level rise, rainfall intensity/frequency, flooding (pluvial, fluvial, coastal), cyclones/storms, and bushfire. These are used across the three climate scenarios (Net-Zero/SSP1, Disorderly/RCP2.6, Hot House World/RCP8.5/SSP3).",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Fletcher Building uses three climate scenarios applied at a global and national (New Zealand and Australia) scale:\n1. Scenario One – 'Orderly' (~1.5°C): aligned with SSP1-1.9 / RCP2.6\n2. Scenario Two – 'Disorderly' (<2°C): aligned with SSP1-2.6 / RCP2.6\n3. Scenario Three – 'Hot House World' (>3°C): aligned with SSP3-7.0 / RCP8.5\n\nThe physical risk modelling was specific to Fletcher Building's assets and key infrastructure links in New Zealand and Australia. The scenario analysis did not include the full value chain.",
+      "evidence": "\"'Orderly' scenario where the world succeeds in limiting global temperature increase to 1.5°C above pre-industrial temperatures... 'Disorderly' scenario (<2°C) where significant decarbonisation is delayed until 2030... 'Hot House World' scenario (>3°C) where global warming reaches more than 3 degrees above pre-industrial levels by 2100... Physical risk modelling specific to Fletcher Buildings assets and key infrastructure links was conducted by Aon... For this initial scenario analysis, we focused on risks and impacts to our direct operations in New Zealand and Australia. The scenarios analysis included Fletcher Building assets and a limited number of key infrastructure links. The scenario analysis did not include the full value chain.\"",
+      "location_hint": "Page 14, 16",
+      "confidence": "high",
+      "notes": "Scenarios are global in framing (global temperature targets) but physical risk modelling is scoped to direct operations in New Zealand and Australia only, excluding full value chain.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Fletcher Building uses the following time frames:\n\n**Physical risk assessment:**\n- Short-Term: Present–2030\n- Medium-Term: 2030–2050\n- Long-Term: 2050–2100\n\n**Transition risk assessment:**\n- Short-Term: 0–5 years\n- Medium-term: 5–10 years\n- Long-term: 10 or more years",
+      "evidence": "\"Time horizons for the physical risk assessment were: • Short-Term: Present–2030 • Medium-Term: 2030–2050 • Long Term: 2050–2100 ... For the transition risk assessment, the same three scenarios were used, with time horizons adjusted to be shorter than the physical risk assessment. The time horizons used were: • Short-Term: 0–5 years • Medium-term: 5–10 years • Long term: 10 or more years\"",
+      "location_hint": "Page 15",
+      "confidence": "high",
+      "notes": "Physical risk time horizons are longer (out to 2100) due to long-lived assets, while transition risk horizons are shorter (0–10+ years) because transition risks are policy, regulatory, market, technology and reputational risks with limited value in longer-term assessments. The short-term physical horizon aligns with Fletcher Building's 2030 SBT; the medium-term aligns with 'Net Zero by 2050'; the long-term aligns with a 50-year asset lifetime.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Fletcher Building chose scenarios based on the New Zealand Green Building Council (NZGBC) 'Climate Scenarios for the Construction and Property Sector', which were developed with broad industry participation. Fletcher Building itself participated in their development. These scenarios were then downscaled for Fletcher Building's specific assets and regions of operation using Aon's Combined Hazard Information Platform (CHIP) model. The company justified the choice by stating: \"we believe that the scenarios used are suitable for our organisation's size, product types, operations and asset locations.\"",
+      "evidence": "\"The scenarios were based on the New Zealand Green Building Council (NZGBC) 'Climate Scenarios for the Construction and Property Sector'. The NZGBC scenarios were developed with participation from a range of industry and other stakeholders... Fletcher Building participated in the development of the NZGBC scenarios, with representatives on both the Leadership Group and Technical Working Group during development of the scenarios. The NZGBC scenarios were then discussed with the ARC, and by agreement downscaled for Fletcher Building using Aon's Combined Hazard Information Platform (CHIP) model for the Group's assets and regions of operation... Based on the further work undertaken with the assistance of Aon, we believe that the scenarios used are suitable for our organisation's size, product types, operations and asset locations.\"",
+      "location_hint": "Page 14–15",
+      "confidence": "high",
+      "notes": "The justification explicitly references suitability for the organisation's size, product types, operations and asset locations, and notes the scenarios were developed with industry participation including Fletcher Building itself.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "In FY23, Fletcher Building experienced material physical climate impacts from Cyclone Gabrielle and North Island Floods in New Zealand. The assets impacted were those identified as being exposed to high or very high flood exposure. The impact amounted to $21 million for property damages and direct remedial works. No material physical impacts were experienced in FY24.",
+      "evidence": "\"Material physical impacts were not experienced in FY24, but were experienced in FY23. During FY23, the impact from Cyclone Gabrielle and North Island Floods in New Zealand experienced by our operations was consistent with the levels of exposure and loss indicated by the modelling described above. The assets impacted were those identified above as being exposed to high or very high flood exposure. The impact amounted to $21 million for property damages and direct remedial works.\"",
+      "location_hint": "Page 11",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Fletcher Building identifies the following direct physical climate risks across its ~780 sites: flooding (primarily rainfall-driven, but also river and coastal flooding), temperature rises, sea level rises, extreme storm events, and other events such as bush fires. The key exposure identified is from flooding. 69 sites show High or Very High flood exposure (45 in New Zealand with asset value of $274 million; 24 in Australia with asset value of $773 million). Indirect physical risks (e.g., impacts on power grids, supply chains, and transport networks that operations depend on) were identified but excluded from the financial impact assessment due to complexities in assessing indirect impacts and evolving methodologies. No physical climate-related opportunities were identified.",
+      "evidence": "\"The assessment showed that the key exposure identified for Fletcher Building assets across the portfolio is from flooding which is primarily rainfall driven, but there are also exposures to river and coastal flooding. The exposure from direct sea level rise is limited... There are 69 sites across the Group showing High or Very High flood exposure... Hazards identified for the sites were those material to our operations, and aligned to hazards in the list that the Intergovernmental Panel on Climate Change (IPCC) recommend assessing: Rainfall, Temperature rises, Sea level rises, Extreme storm events, Other events, such as bush fires... These exclusions reflect the complexities involved in assessing indirect impacts and the evolving nature of climate risk assessment methodologies.\"",
+      "location_hint": "Pages 5, 11, 19",
+      "confidence": "high",
+      "notes": "Indirect physical risks (power grids, supply chains, transport networks) were identified but explicitly excluded from financial impact assessment under Adoption Provision 1. No physical climate-related opportunities were identified in the FY24 assessment.",
+      "verification": null
+    }
+  ]
+}

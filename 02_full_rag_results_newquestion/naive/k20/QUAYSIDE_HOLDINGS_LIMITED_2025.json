@@ -1,0 +1,170 @@
+{
+  "source": "QUAYSIDE_HOLDINGS_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "k": 20,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "output_tokens": 7093,
+      "total_tokens": 171241,
+      "input_tokens": 164148,
+      "input_token_details": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0,
+        "cache_creation": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Quayside uses three climate scenarios: Orderly, Disorderly, and Hothouse.",
+      "evidence": "\"The rest of the Group—and in particular our Investment Portfolio — is also assessed using the same hybrid methodology across three illustrative climate futures: Orderly, Disorderly, and Hothouse.\"",
+      "location_hint": "Page 4",
+      "confidence": "high",
+      "notes": "The three scenarios are also referenced on page 21 (Overview of Quayside's Climate Scenarios) and page 18 (Climate Scenario Overview). Additional detail on policy ambition is provided on page 19: Orderly is 1.5°C aligned (highly ambitious), Disorderly is 2.5–3°C aligned (low ambition to 2032, then highly ambitious), and Hothouse is ≥3.0°C (low ambition).",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Three scenarios are presented: Orderly – 1.4°C at 2100; Disorderly – 2.6°C at 2100; Hothouse – 3.9°C at 2100",
+      "evidence": "SCENARIO | ORDERLY - 1.4°c at 2100 | DISORDERLY - 2.6°c at 2100 | HOTHOUSE - 3.9°c at 2100 ... Global mean annual change: 2081-2100: 1.4°c ... Global mean annual change: 2.6°c at 2100* ... Global mean annual change: 3.9°c at 2100*",
+      "location_hint": "Page 20, Overview of Quayside's Climate Scenarios table",
+      "confidence": "high",
+      "notes": "Three distinct scenarios are provided, each with a different global temperature outcome by 2100. The Orderly scenario targets 1.4°C, the Disorderly scenario 2.6°C, and the Hothouse scenario 3.9°C.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "NGFS (Network for Greening the Financial System), with reference to SSP pathways and NIWA RCP projections, as well as CCC (Climate Change Commission) scenarios",
+      "evidence": "\"REFERENCE SCENARIOS & PATHWAYS: NGFS: Net Zero 2050, SSP1-1.9, RCP 1.9 (NIWA RCP 2.6), CCC Tailwinds; NGFS: Delayed Transition, SSP2-4.5, RCP 4.5 (NIWA RCP 4.5), CCC Headwinds; NGFS: Current Policies, SSP3-7.0, RCP 8.5 (NIWA RCP 8.5), CCC Current Policy Reference\"",
+      "location_hint": "Page 19",
+      "confidence": "high",
+      "notes": "The scenarios are drawn from NGFS as the primary provider, cross-referenced with IPCC SSP pathways, NIWA RCP projections, and New Zealand's Climate Change Commission (CCC) scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Quayside uses the following SSP/RCP combinations across its three scenarios:\n1. Orderly (NGFS: Net Zero 2050): SSP1-1.9 / RCP 1.9 (NIWA RCP 2.6)\n2. Disorderly (NGFS: Delayed Transition): SSP2-4.5 / RCP 4.5 (NIWA RCP 4.5)\n3. Hothouse (NGFS: Current Policies): SSP3-7.0 / RCP 8.5 (NIWA RCP 8.5)\n\nPhysical risk analysis uses NIWA downscaled CMIP6 datasets for SSP1-2.6, SSP2-4.5, and SSP3-7.0.",
+      "evidence": "REFERENCE SCENARIOS & PATHWAYS: NGFS: Net Zero 2050 / SSP1-1.9 / RCP 1.9 (NIWA RCP 2.6) / CCC Tailwinds; NGFS: Delayed Transition / SSP2-4.5 / RCP 4.5 (NIWA RCP 4.5) / CCC Headwinds; NGFS: Current Policies / SSP3-7.0 / RCP 8.5 (NIWA RCP 8.5) / CCC Current Policy Reference. ... Chronic climate hazards: long-term, typically gradual shifts in temperatures, rainfall, sea level, drought and related variables, based on NIWA downscaled CMIP6 datasets for SSP1-2.6, SSP2-4.5, and SSP3-7.0 (\"NIWA Projections\").",
+      "location_hint": "Page 19 (scenario reference table); Pages 25, 33 (NIWA Projections)",
+      "confidence": "high",
+      "notes": "Note the mix: the narrative/transition scenarios use SSP1-1.9, SSP2-4.5, SSP3-7.0 paired with RCP 1.9, RCP 4.5, RCP 8.5 respectively, while physical hazard modelling uses NIWA CMIP6 datasets for SSP1-2.6, SSP2-4.5, SSP3-7.0 (a slight deviation in the orderly scenario: SSP1-1.9 narrative but SSP1-2.6 for NIWA physical projections). The document also notes deviations from some sector peers (e.g. Transport Sector's \"Short Detour\" uses SSP2-2.6; Agriculture/Financial Services \"Hothouse\" equivalents use SSP5-8.5).",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes, Quayside developed three customised \"entity-level\" climate scenarios: (1) Orderly (aligned with NGFS Net Zero 2050, SSP1-1.9, RCP 1.9/NIWA RCP 2.6, CCC Tailwinds), (2) Disorderly (aligned with NGFS Delayed Transition, SSP2-4.5, RCP 4.5/NIWA RCP 4.5, CCC Headwinds), and (3) Hothouse (aligned with NGFS Current Policies, SSP3-7.0, RCP 8.5/NIWA RCP 8.5, CCC Current Policy Reference). These were reviewed and updated in FY25 to reflect new insights and information.",
+      "evidence": "\"Quayside developed three 'entity-level' climate scenarios to systematically explore the potential physical and transition consequences of climate change for its business and to test the resilience of its strategy. In FY25, the underlying scenario drivers and driver outcomes were reviewed and further updated to reflect new insights and information.\" ... \"REFERENCE SCENARIOS & PATHWAYS: NGFS: Net Zero 2050 / SSP1-1.9 / RCP 1.9 (NIWA RCP 2.6) / CCC Tailwinds; NGFS: Delayed Transition / SSP2-4.5 / RCP 4.5 (NIWA RCP 4.5) / CCC Headwinds; NGFS: Current Policies / SSP3-7.0 / RCP 8.5 (NIWA RCP 8.5) / CCC Current Policy Reference\"",
+      "location_hint": "Pages 18–19, FY25 Climate Disclosure",
+      "confidence": "high",
+      "notes": "The three scenarios are named Orderly, Disorderly, and Hothouse, each mapped to specific NGFS, SSP, RCP, and CCC reference scenarios/pathways. Scenario drivers include physical, transition, and systemic categories as described on pages 22–23.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Quayside developed three entity-level climate scenarios (Orderly, Disorderly, and Hothouse) internally, with scenario selection and key transition drivers developed through engagement between management and the Board. The scenarios were not explicitly described as \"co-produced\" with external stakeholders, but external experts (Frontier Advisors and Onepointfive) facilitated a dedicated workshop with the Board to shape the Transition Plan and deepen understanding of climate risk. Physical scenario drivers were based on NIWA downscaled CMIP6 datasets (SSP1-2.6, SSP2-4.5, and SSP3-7.0).",
+      "evidence": "\"Quayside developed three 'entity-level' climate scenarios to systematically explore the potential physical and transition consequences of climate change for its business and to test the resilience of its strategy... In FY25, the underlying scenario drivers and driver outcomes were reviewed and further updated to reflect new insights and information.\" and \"in April 2025 the Board participated in a dedicated climate and transition planning workshop facilitated by external experts, including Frontier Advisors and Onepointfive, to deepen its understanding of the evolving climate risk landscape.\" and \"Chronic climate hazards: long-term, typically gradual shifts in temperatures, rainfall, sea level, drought and related variables, based on NIWA downscaled CMIP6 datasets for SSP1-2.6, SSP2-4.5, and SSP3-7.0 ('NIWA Projections').\"",
+      "location_hint": "Pages 6, 18, 25",
+      "confidence": "medium",
+      "notes": "The document does not use the term \"co-produced\" explicitly. The scenarios were developed by Quayside with input from external advisors (Frontier Advisors, Onepointfive) and informed by NIWA CMIP6 data. The Board also engaged with management on scenario selection. This is a medium confidence answer as it requires some interpretation of what \"co-produced\" means in this context.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Quayside uses three climate scenarios based on the following baselines: (1) Orderly – SSP1-1.9/RCP 2.6 (1.5°C aligned, highly ambitious); (2) Disorderly – SSP2-4.5 (2.5–3°C aligned, low ambition to 2032 then highly ambitious); (3) Hothouse – SSP3-7.0 (≥3.0°C, low ambition). Physical drivers are based on NIWA downscaled CMIP6 datasets for SSP1-2.6, SSP2-4.5, and SSP3-7.0.",
+      "evidence": "\"Chronic climate hazards: long-term, typically gradual shifts in temperatures, rainfall, sea level, drought and related variables, based on NIWA downscaled CMIP6 datasets for SSP1-2.6, SSP2-4.5, and SSP3-7.0 (\"NIWA Projections\").\" and \"Ambition: 1.5°c aligned (highly ambitious) Mitigation response: enacted early and becomes progressively more stringent...\" / \"Ambition: 2.5-3°c aligned (low ambition to 2032, then highly ambitious)...\" / \"Ambition: ≥ 3.0°C (low ambition)...\"",
+      "location_hint": "Pages 19, 25, 33",
+      "confidence": "high",
+      "notes": "The three scenarios (Orderly, Disorderly, Hothouse) are based on SSP1-2.6, SSP2-4.5, and SSP3-7.0 respectively, using NIWA downscaled CMIP6 datasets for physical drivers. The document also notes alignment with sector scenarios (Agriculture, Transport, Financial Services) with some deviations explained in footnotes.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The context does not mention any specific climate model (e.g., a named AI or quantitative model) used for the disclosure. The document references NIWA downscaled CMIP6 datasets (SSP1-2.6, SSP2-4.5, SSP3-7.0) and NGFS scenarios, but no single \"model\" is identified as the primary model used.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. The disclosure considers damage from acute physical risks including high wind, heavy rain, storms, flooding, landslides, and associated natural hazards. Specific risks identified include: DR1 (asset damage), DR2 (operational disruption), DR3 (flood hazards), DR4 (access disruption), and DR5 (harbour/wharf access). For the investment portfolio, DQR1 covers acute damage from rain/wind/storms ($117.2m / 25.0% of Investment Portfolio VaR) and DQR3 covers orchard damage from acute events (Huakiwi, $19.7m / 4.2%). Past events such as Cyclone Gabrielle and tornado/storm events are referenced, with Cyclone Gabrielle causing no notable acute damage to Port assets and prior events resulting only in minor roof damage.",
+      "evidence": "DQR1 (acute damage from rain/wind/storms): $117.2m / 25.0% of the Investment Portfolio. ... Acute climate hazards: changes in the severity, frequency, duration, and spatial extent of short-term heavy and extreme weather events (e.g. high wind, heavy rain, storms) and associated natural hazards (e.g. flooding, landslides), also based on NIWA Projections. ... Cyclone Gabrielle caused no notable acute damage, and prior tornado/storm events resulted only in minor roof damage without operational effect.",
+      "location_hint": "Page 41, 44, 25, 33",
+      "confidence": "high",
+      "notes": "The document explicitly considers acute physical risk damage across both Port assets and the investment portfolio, with quantified exposure values and historical event references.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include the following non-temperature physical climate variables: rainfall patterns, sea level, drought frequency (chronic hazards); storms, floods, landslides, heatwaves, and high-wind events (acute hazards); as well as ecological impacts such as land usability, water availability, and ecosystem services. Specific variables referenced in the NIWA downscaled CMIP6 datasets include rainfall, sea level, and drought. Socioeconomic variables such as population growth are also included (e.g., global increase of 8% by 2050, NZ increase of 26% by 2050).",
+      "evidence": "\"Chronic climate hazards: long-term, typically gradual shifts in temperatures, rainfall, sea level, drought and related variables, based on NIWA downscaled CMIP6 datasets for SSP1-2.6, SSP2-4.5, and SSP3-7.0 (\"NIWA Projections\"). Acute climate hazards: changes in the severity, frequency, duration, and spatial extent of short-term heavy and extreme weather events (e.g. high wind, heavy rain, storms) and associated natural hazards (e.g. flooding, landslides), also based on NIWA Projections. Ecological stress: Cumulative and compounding effects of acute and chronic climate hazards that progressively erode land usability, water availability, and ecosystem services.\" and \"Population: Global increase of 8% by 2050 (relative to 2022) / NZ increase of 26% by 2050 (relative to 2020)/ Population surpasses 7 million by 2050\"",
+      "location_hint": "Pages 22, 25, 33, 21",
+      "confidence": "high",
+      "notes": "Non-temperature physical variables explicitly listed include rainfall, sea level, drought, high wind, heavy rain, storms, flooding, landslides, land usability, water availability, and ecosystem services. Population is also used as a socioeconomic scenario variable.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Quayside developed three entity-level climate scenarios: Orderly (1.4°C at 2100), Disorderly (2.6°C at 2100), and Hothouse (3.9°C at 2100), applied at both global and New Zealand scales.",
+      "evidence": "\"SCENARIO ORDERLY - 1.4°c at 2100 DISORDERLY - 2.6°c at 2100 HOTHOUSE - 3.9°c at 2100\"\n\n\"Quayside developed three 'entity-level' climate scenarios to systematically explore the potential physical and transition consequences of climate change for its business and to test the resilience of its strategy.\"",
+      "location_hint": "Pages 18–19, FY25 CLIMATE DISCLOSURE",
+      "confidence": "high",
+      "notes": "The scenarios are described at both global and New Zealand (national) scales, with macro-economic and population projections provided for each level. Physical climate projections are based on NIWA downscaled CMIP6 datasets (SSP1-2.6, SSP2-4.5, SSP3-7.0), indicating regional/national downscaling.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Quayside uses three time horizons for climate-related risk and opportunity assessment:\n- Short Term: 0–3 years\n- Medium Term: 3–10 years\n- Long Term: 10–25 years",
+      "evidence": "Time horizons:\n(0-3 years)\n(3-10 years)\n(10-25 years)\nShort Term\nMedium Term\nLong Term",
+      "location_hint": "Page 12, Assessment Method Updates section",
+      "confidence": "high",
+      "notes": "These time horizons are explicitly defined in the key/legend of the assessment method section of the document.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Quayside developed three entity-level climate scenarios (Orderly, Disorderly, and Hothouse) to systematically explore potential physical and transition consequences of climate change and to stress-test the resilience of its strategy. The scenarios are not probabilistic forecasts but a strategic tool for navigating uncertainty. The Orderly scenario is based on SSP1-1.9/NIWA RCP 2.6 projections; the Disorderly scenario aligns with the Financial Services \"Too Little, Too Late\" equivalent (NGFS \"Nationally Determined Contributions\" narrative); and the Hothouse scenario deviates from Agriculture and Financial Services sector equivalents (which are based on SSP5-8.5) for reasons set out in Footnote 14. The hybrid methodology combines top-down and bottom-up assessments. Climate risk best practice prioritises exposure, vulnerability, and impact over likelihood and consequence due to the complexity, uncertainty, and dynamic nature of climate risks.",
+      "evidence": "\"Quayside developed three 'entity-level' climate scenarios to systematically explore the potential physical and transition consequences of climate change for its business and to test the resilience of its strategy... Quayside's climate scenarios, and the insights derived from their application in this context, are therefore not probabilistic forecasts. Rather, they are a strategic tool for navigating the uncertainty and complexity of climate change, where probabilistic modelling of impacts is often impractical or unworkable.\" and \"is based on SSP2-2.6 /NIWA RCP 2.6 projections), and the Financial Services 'Too Little, Too Late' equivalent scenario is based on NGFS 'Nationally Determined Contributions' narrative. See Footnote 13 which details the rationale for this approach. Above fully aligns with the 'Bypass to Breakdown' Transport Sector Scenario, but deviates from the Agriculture and Financial Services sector 'Hothouse' equivalent scenarios, as they are both based on SSP5-8.5. Notwithstanding the decision to align with the Agricultural Sector Scenarios, deviating in this respect was considered prudent for the reasons set out in Footnote 14.\" and \"climate risk best practice prioritises exposure, vulnerability, and impact over likelihood and consequence due to the complexity, uncertainty, and dynamic nature of climate risks.\"",
+      "location_hint": "Pages 18-19",
+      "confidence": "high",
+      "notes": "The specific reasons in Footnotes 13 and 14 are referenced but not reproduced in the retrieved context. The Orderly scenario reference to SSP2-2.6 appears to be for the Disorderly scenario based on context; the Orderly is SSP1-1.9/NIWA RCP 2.6.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context from Quayside's FY25 Climate Disclosure focuses on forward-looking climate scenario analysis, anticipated impacts, risks and opportunities, governance, and metrics/targets. There is no discussion of historic (past/actual) climate impacts that have already occurred and affected the entity. The document appears to be primarily forward-looking in nature.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Quayside faces five direct physical climate risks (DR1–DR5) at the Port level, comprising two primarily asset-focused risks (DR1, DR3: asset damage and flood hazards) and three primarily operational risks (DR2, DR4–DR5: disruption and access constraints). It also faces four indirect physical risks: three export-focused risks (IDR1.A–C: production impacts on dairy, forestry, and kiwifruit) and one import-focused risk (IDR2: stock feed import demand). For the Investment Portfolio, direct physical risks include DQR1 (increased risk of acute damage), DQR2 (heightened risk of flood-related damage and disruption), and DQR3 (increased risk of acute orchard damage for Huakiwi).",
+      "evidence": "\"Five direct physical climate risks (DR1–DR5), comprising two primarily asset-focused risks (DR1, DR3: asset damage and flood hazards), and three primarily operational risks (DR2, DR4–DR5: disruption and access constraints) affecting day-to-day operations and longer-term capacity... Four indirect physical risks, comprising three export-focused risks (IDR1.A–C: Production impacts - dairy, forestry, kiwifruit) and one import-focused IDR2 (Stock feed import demand (supply/price driven)).\" and \"Real assets (property/Huakiwi): consisting of nine commercial properties ($117.2 million VaR) are exposed to DQR1 (Increased risk of acute damage), including three ($72.2 million VaR) also exposed to DQR2 (Heightened risk of flood related damage and disruption), and Quayside's 50% share of Huakiwi (VaR $19.7 million), which is exposed to DQR3: (Increased risk of acute orchard damage).\"",
+      "location_hint": "Page 25 and Page 33",
+      "confidence": "high",
+      "notes": "Direct physical risks (DR1–DR5) apply to the Port portfolio; DQR1–DQR3 apply to the Investment Portfolio. Indirect physical risks (IDR1.A–C and IDR2) relate to upstream agricultural supply chains affecting Port cargo volumes. Vulnerability to indirect risks is noted as higher than to direct risks, particularly for export commodities (~67% of freight is export-based, with dairy, forestry, and kiwifruit comprising ~77% of those exports).",
+      "verification": null
+    }
+  ]
+}

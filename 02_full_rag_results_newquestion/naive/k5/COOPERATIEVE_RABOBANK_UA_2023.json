@@ -1,0 +1,170 @@
+{
+  "source": "COOPERATIEVE_RABOBANK_UA_2023",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 43384,
+      "output_tokens": 5834,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "total_tokens": 49218
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "The Core Banking Group adopted NGFS scenarios across three categories: (1) Orderly, (2) Disorderly, and (3) Hot-house world. A fourth category — \"Too little, too late\" — is also described but no specific scenarios were designed for it; instead, it is explored by assuming higher physical risk outcomes for the disorderly scenarios.",
+      "evidence": "\"NGFS scenarios adopted by Core Banking Group: Orderly, Disorderly, Hot-house world. The NGFS has defined four broad categories of scenarios that stress both transition and physical risk: Orderly scenarios assume climate policies are introduced early and become gradually more stringent. Both physical and transition risks are relatively subdued. Disorderly scenarios explore higher transition risk due to policies being delayed or divergent across countries and sectors. Carbon prices are typically higher for a given temperature outcome. Hot-house world scenarios assume that some climate policies are implemented in some jurisdictions but global efforts are insufficient to halt significant global warming. Critical temperature thresholds are exceeded, leading to severe physical risks and irreversible impacts like sea-level rise. Too little, too late scenarios would assume that a late transition fails to limit physical risks. While no scenarios have been specifically designed for this purpose, this space can be explored by assuming higher physical risk outcomes for the disorderly scenarios.\"",
+      "location_hint": "Page 16, Strategy section",
+      "confidence": "high",
+      "notes": "Three scenarios are formally adopted (Orderly, Disorderly, Hot-house world); \"Too little, too late\" is described as a category but not a formally adopted scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes three scenarios with the following projected temperatures by 2100:\n1. Orderly (1.5°C-aligned): 1.4°C by 2100 (noted as the closest available IPCC scenario to 1.5°C)\n2. Disorderly: ~1.8°C warming (at 2050 average; 2100 figure not separately stated)\n3. Hot-House World: ~1.8°C warming (at 2050 average; 2100 figure not separately stated for this scenario either)\n\nThe explicit 2100 temperature figure provided is 1.4°C for the orderly scenario.",
+      "evidence": "\"It should be noted that, due to the limited number of scenarios available and the nature of temperature projections being based on probabilities and ranges, this has led to our 1.5°C scenario having a projected temperature in 2100 of 1.4°C (which is the closest available IPCC scenario to 1.5°C).\"",
+      "location_hint": "Page 16–17",
+      "confidence": "medium",
+      "notes": "The document explicitly states a 2100 temperature of 1.4°C only for the orderly scenario. The disorderly and hot-house world scenarios show ~1.8°C warming at 2050 (average), but no explicit 2100 global temperature figure is provided for those scenarios in the retrieved context. The hot-house world scenario is expected to be significantly higher by 2100 given its trajectory, but this is not stated explicitly.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "IPCC (for physical data) and NGFS – Network for Greening the Financial System (for transition data)",
+      "evidence": "\"For physical data, we have used the Intergovernmental Panel on Climate Change (IPCC) Shared Socioeconomic Pathway (SSP) scenarios. For transition data, we have used the Network for Greening the Financial System (NGFS) scenarios.\"",
+      "location_hint": "Page 16",
+      "confidence": "high",
+      "notes": "The bank also incorporated New Zealand-specific parameters from NIWA (physical) and the Climate Change Commission (transition pathways), as shown in the scenario table on page 17.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes. Rabobank New Zealand Banking Group uses a combination of IPCC SSP scenarios for global physical/socioeconomic parameters and NIWA RCP scenarios for New Zealand physical parameters, mixed across their three scenarios:\n- Orderly (~1.4°C): IPCC SSP1-1.9 (global) + NIWA RCP 2.6 (NZ)\n- Disorderly (~1.8°C): IPCC SSP1-2.6 (global) + NIWA RCP 2.6 (NZ)\n- Hot-house world (~4.4°C): IPCC SSP5-8.5 (global) + NIWA RCP 8.5 (NZ)",
+      "evidence": "\"For physical data, we have used the Intergovernmental Panel on Climate Change (IPCC) Shared Socioeconomic Pathway (SSP) scenarios... Global physical and socioeconomic parameters: IPCC SSP1-1.9 / IPCC SSP1-2.6 / IPCC SSP5-8.5. New Zealand physical parameters: eg. NIWA RCP 2.6 / NIWA RCP 2.6 / NIWA RCP 8.5\"",
+      "location_hint": "Pages 16–17",
+      "confidence": "high",
+      "notes": "The document explicitly mixes IPCC SSP scenarios (for global parameters) with NIWA RCP scenarios (for New Zealand physical parameters), confirming a pick-and-mix approach across both SSP and RCP frameworks.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes. The Core Banking Group synthesised three customised scenarios for use in Scenario Analysis, incorporating five key drivers of change. The XRB's recommendation to use sectoral scenarios was considered, and as the only specialised agribusiness-focused bank operating in New Zealand, customised scenarios were developed (details on pages 33–43 of the document).",
+      "evidence": "\"In order to explore Climate-Related Risks and Opportunities the future may hold and assess business resiliency, the Core Banking Group has synthesised three scenarios for use in Scenario Analysis. To be able to track changes across time, fully distinguish between scenarios and help identify risks and opportunities, the Core Banking Group first identified five key drivers of change: In developing our scenarios, the XRB's recommendation to use sectoral scenarios where advisable was considered both for efficiency and to aid comparability. As the only specialised agribusiness-focused bank operating in New Zealand, two [customised scenarios were developed].\"",
+      "location_hint": "Page 16",
+      "confidence": "medium",
+      "notes": "The passage is cut off at \"two\" and does not fully explain what was customised, but it clearly indicates that the Core Banking Group developed customised (synthesised) scenarios rather than relying solely on standard published scenarios. Full details are on pages 33–43 of the source document, which are not included in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "The Core Banking Group worked with consultancy Deloitte to assist with scenario development and assess the related Climate-Related Risks and Opportunities. The scenario development and governance involved project leads (CSO and Senior Risk Advisor), subject matter experts, a steering committee (Chief Risk Officer, CFO, General Manager Country Banking), Executive committee approvals, and Board review and approval of scenario architecture.",
+      "evidence": "\"The Core Banking Group worked with consultancy Deloitte to assist with scenario development and assess the related Climate-Related Risks and Opportunities.\"",
+      "location_hint": "Page 19",
+      "confidence": "high",
+      "notes": "The scenarios were not co-produced with external stakeholders beyond Deloitte (a consultancy). Internal governance involved multiple levels including project leads, SMEs, steering committee, executive committee, and the Board.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Rabobank New Zealand Banking Group uses NGFS (Network for Greening the Financial System) scenarios as the basis for their climate scenario analysis. The three broad NGFS scenario categories adopted are: Orderly, Disorderly, and Hot-house world. These cover a spectrum of transition and physical risks:\n- **Orderly**: Climate policies introduced early and become gradually more stringent; both physical and transition risks are relatively subdued.\n- **Disorderly**: Higher transition risk due to policies being delayed or divergent across countries and sectors; carbon prices are typically higher for a given temperature outcome.\n- **Hot-house world**: Some climate policies implemented in some jurisdictions but global efforts are insufficient to halt significant global warming; critical temperature thresholds are exceeded, leading to severe physical risks and irreversible impacts like sea-level rise.",
+      "evidence": "\"Orderly scenarios assume climate policies are introduced early and become gradually more stringent. Both physical and transition risks are relatively subdued. Disorderly scenarios explore higher transition risk due to policies being delayed or divergent across countries and sectors. Carbon prices are typically higher for a given temperature outcome. Hot-house world scenarios assume that some climate policies are implemented in some jurisdictions but global efforts are insufficient to halt significant global warming. Critical temperature thresholds are exceeded, leading to severe physical risks and irreversible impacts like sea-level rise.\"",
+      "location_hint": "Page 16, Strategy section",
+      "confidence": "high",
+      "notes": "The document also mentions a fourth NGFS category — \"Too little, too late\" — but notes that no scenarios have been specifically designed for this purpose. The Core Banking Group adopted three scenarios: Orderly, Disorderly, and Hot-house world.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "The Core Banking Group used NGFS (Network for Greening the Financial System) scenarios, supplemented by IPCC SSP pathways, NIWA RCP parameters, and Climate Change Commission (CCC) transition pathways. The scenario analysis was qualitative rather than quantitative, and was developed with assistance from consultancy Deloitte.",
+      "evidence": "\"The Core Banking Group worked with consultancy Deloitte to assist with scenario development and assess the related Climate-Related Risks and Opportunities... This analysis process was qualitative rather than quantitative.\" and \"Global transition and energy use: NGFS orderly 'net-zero 2050' scenario / NGFS disorderly 'delayed 2°C' / NGFS hot-house 'current policies'\"",
+      "location_hint": "Pages 16–17, 19",
+      "confidence": "high",
+      "notes": "The document references NGFS scenarios as the primary framework, with IPCC SSP, NIWA RCP, and CCC pathways used for physical and transition parameters. The analysis is qualitative, not a specific quantitative model.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. The Core Banking Group uses Rabobank-developed heatmaps to quantify physical impacts from key acute events, including: cyclones, windstorms, riverine flooding, coastal flooding, heavy precipitation (or pluvial flooding), drought, wildfires, and extreme heat.",
+      "evidence": "\"the Core Banking Group is also introducing the use of Rabobank-developed heatmaps to quantify the physical impacts to the Core Banking Group's portfolio from key acute events, including cyclones, windstorms, riverine flooding, coastal flooding, heavy precipitation (or pluvial flooding), drought, wildfires and extreme heat. Combining the heatmaps with credit exposure will enable the Core Banking Group to more accurately quantify the most material Climate-Related Risks to customers (before mitigations and adaptations).\"",
+      "location_hint": "Page 20",
+      "confidence": "high",
+      "notes": "The heatmaps combine threat level (likelihood of a climate-related event above a specific severity) and event impact (relative vulnerability of a sector-country combination) to produce a qualitative gross risk estimate. Assets are flagged as sensitive when there is a high likelihood of a severe event combined with a high impact level.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include non-temperature variables such as: changes in precipitation patterns, sea-level rise, heatwaves, droughts, bushfires, floods, storms, carbon prices, emissions pricing, trade barriers, financial incentives, policy changes, technological changes (including farming practices and alternative proteins), market changes (consumer preferences), and reputational changes. For collateral assessments, variables such as historical and projected rainfall, access to water, soil type, drainage, and flood risk are also considered.",
+      "evidence": "\"Acute risk factors are those related to more frequent and intense extreme climate events such as heatwaves, droughts, bushfires, floods and storms. Chronic risk factors are those related to gradual changes in climatic conditions such as increasing temperatures, changes in precipitation patterns and sea-level rise.\" and \"Emissions pricing, trade barriers and financial incentives.\" and \"historical and projected rainfall, access to water and relative licences\"",
+      "location_hint": "Pages 15–16, 25",
+      "confidence": "high",
+      "notes": "Multiple non-temperature variables are referenced across physical risk, transition risk, and collateral assessment sections. Carbon prices are also mentioned as a key variable in disorderly scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Rabobank New Zealand Banking Group used scenarios at a national/country scale (New Zealand), aligned with the NGFS scenario framework. The scenarios cover three broad categories adopted by the Core Banking Group: Orderly (Net-zero by 2050), Disorderly, and Hot-house world, with time horizons of short term (present day–2030), medium term (2030–2050), and long term (2050–2100).",
+      "evidence": "\"NGFS scenarios adopted by Core Banking Group: Orderly, Disorderly, Hot-house world\" and \"Short term – present day – 2030 / Medium term – 2030–2050 / Long term – 2050–2100\"",
+      "location_hint": "Pages 16 and 18",
+      "confidence": "high",
+      "notes": "The scenarios are framed around New Zealand-specific impacts (e.g., agricultural sector, NZ government policy) but are based on the global NGFS scenario framework. The physical risk heatmaps also reference sector-country combinations spanning up to 2100.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "The Core Banking Group uses three time frames for scenario analysis:\n- Short term: present day – 2030\n- Medium term: 2030–2050\n- Long term: 2050–2100",
+      "evidence": "Short term – present day – 2030\nMedium term – 2030–2050\nLong term – 2050–2100",
+      "location_hint": "Page 18, Disorderly Scenario Narrative section",
+      "confidence": "high",
+      "notes": "These time frames are explicitly stated in the Disorderly Scenario Narrative table and are consistent with the broader scenario analysis framework described on page 19, which notes that \"the time horizons of these risk quantifications match those stated above for scenarios.\"",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "The Core Banking Group developed its own scenarios by blending IPCC SSP scenarios (for physical data) and NGFS scenarios (for transition data) for the following reasons: (1) The XRB's recommendation to use sectoral scenarios was considered, but neither the New Zealand Banking Association scenarios nor the Aotearoa Circle's Agriculture Sector Climate Change Scenarios provided plausible futures or sufficiently challenged the business; (2) The scenarios were aligned with Rabobank's global scenarios to facilitate better reporting and analysis at a Rabobank-wide level; (3) Three scenarios were chosen — orderly (1.5°C-aligned, corresponding to Rabobank's Paris-aligned commitments), disorderly (challenging transition risk resilience), and hot-house world (challenging physical risk resilience).",
+      "evidence": "\"In developing our scenarios, the XRB's recommendation to use sectoral scenarios where advisable was considered both for efficiency and to aid comparability. As the only specialised agribusiness-focused bank operating in New Zealand, two sets of sector scenarios were relevant to us – the New Zealand Banking Association as well as Aotearoa Circle's Agriculture Sector Climate Change Scenarios. Neither of these provided us with the scenarios that best described plausible futures for us or in our view challenged our business sufficiently. The Core Banking Group also sought to align our climate scenarios with Rabobank to facilitate better reporting and analysis at a Rabobank-wide level. Therefore, our own scenarios have been developed, as described below, through blending recognised and coherent scenarios on physical and transition risks together, incorporating relevant datapoints and elements... For physical data, we have used the Intergovernmental Panel on Climate Change (IPCC) Shared Socioeconomic Pathway (SSP) scenarios. For transition data, we have used the Network for Greening the Financial System (NGFS) scenarios.\"",
+      "location_hint": "Page 16",
+      "confidence": "high",
+      "notes": "The justification is clearly and explicitly stated in the document. The three scenarios chosen correspond to NGFS categories: orderly, disorderly, and hot-house world.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context discusses anticipated/future climate-related impacts, risks, and scenario analysis, but does not contain any information about historic (past) climate impacts experienced by Rabobank New Zealand Banking Group.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "The Group identifies both direct and indirect physical climate risks as transmission channels that can amplify material risks:\n\n**Direct physical risks** include damage to offices from extreme climate events, pandemic impacts on Group staff, and regulatory compliance cost increases.\n\n**Indirect physical risks** operate through:\n- **Macro channels**: e.g. GDP decrease, commodity price shocks, impacts on international trade.\n- **Micro channels** (via individual counterparties): e.g. infrastructure damage, livestock or crop losses, cost increases, productivity impacts, demand reduction.\n\nThese risk factors can create financial, regulatory, legislative or reputational consequences across the Group's material risks (business, credit, market, liquidity, operational and compliance risk).",
+      "evidence": "\"Direct • Eg. damage to offices from extreme climate events, pandemic impacts on Group staff, regulatory compliance cost increases. Indirect • Macro (via aggregate economic impacts) Eg. GDP decrease, commodity price shocks, impacts on international trade. • Micro (via individual counterparties) Eg. infrastructure damage, livestock or crop losses, cost increases, productivity impacts, demand reduction.\"",
+      "location_hint": "Page 6, Introduction section – Climate-related and ESG risk factors as drivers or amplifiers of material risks",
+      "confidence": "high",
+      "notes": "The document explicitly categorises direct and indirect transmission channels for climate-related risk factors. Physical and transition risks are treated as interconnected risk factors that can amplify existing material risks.",
+      "verification": null
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "source": "MANAWA_ENERGY_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 10,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 85943,
+      "total_tokens": 93211,
+      "output_tokens": 7268,
+      "input_token_details": {
+        "cache_creation": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_read": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Manawa Energy used three climate-related scenarios:\n1. Warming Limited to 1.5°C by 2050 – Orderly\n2. Warming Limited to 2.0°C by 2050 – Disorderly\n3. Warming to ≥3.0°C by 2050 – Hothouse",
+      "evidence": "\"Step 6: Conduct scenario analysis (using an 'orderly' 1.5°C scenario, a 'disorderly' 2.0°C scenario, and a 'hot house' ≥3.0°C scenario) and identify Manawa Energy's CRROs.\"",
+      "location_hint": "Page 13, Strategy section",
+      "confidence": "high",
+      "notes": "The scenario names and temperature targets are explicitly stated in multiple places in the document, including page 13 and page 17.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document uses three scenarios: orderly 1.5°C, disorderly 2.0°C, and hot house ≥3.0°C. The 2100 time horizon is used specifically in relation to physical assets. The scenarios are described with warming targets referenced to 2050 in the narrative headings (\"Warming Limited to 1.5°C by 2050\", \"Warming Limited to 2.0°C by 2050\", \"Warming to ≥3.0°C by 2050\"), with 2100 as the time horizon for physical asset assessment.",
+      "evidence": "\"In selecting the orderly 1.5°C, disorderly 2.0°C, and hot house ≥3.0°C scenarios for our scenario analysis... The time horizons that we selected for each of the temperature scenarios were 2050 in relation to Manawa Energy's business and strategy, and 2100 in relation to our physical assets. The 2100-time horizon aligns with the long-term nature of our physical assets.\"",
+      "location_hint": "Page 14",
+      "confidence": "high",
+      "notes": "The scenarios are labelled with 2050 warming targets (1.5°C, 2.0°C, ≥3.0°C), but 2100 is used as the time horizon for physical asset analysis. The document does not separately specify distinct global temperature outcomes specifically at 2100 beyond the scenario labels.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "thinkstep-anz",
+      "evidence": "We conducted scenario analysis in FY24 with the assistance of third-party specialist provider, thinkstep-anz.",
+      "location_hint": "Page 13 (FY24 Scenario Analysis section)",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes. Manawa Energy mixes SSPs and RCPs across its three scenarios in a non-standard way:\n- Orderly 1.5°C: RCP 2.6 paired with SSP 1-1.9\n- Disorderly 2.0°C: RCP 2.6 paired with SSP 1-2.6\n- Hot house ≥3.0°C: RCP 8.5 paired with SSP 3-7.0\n\nNotably, the Orderly scenario uses RCP 2.6 but SSP 1-1.9 (which typically corresponds to ~1.5°C), while the Disorderly scenario also uses RCP 2.6 but pairs it with SSP 1-2.6 (which typically corresponds to ~2°C). The RCP and SSP combinations are not always conventionally matched.",
+      "evidence": "Orderly 1.5°C: RCP 2.6 / SSP 1-1.9 / NGFS: \"Net Zero 2050\" / IEA: \"Net Zero Emissions\" / CCC: Tailwinds\nDisorderly 2.0°C: RCP 2.6 / SSP 1-2.6 / NGFS: \"Delayed Transition\" / IEA: \"Sustainable Development\" / CCC: Headwinds\nHot house ≥3.0°C: RCP 8.5 / SSP 3-7.0 / NGFS \"Current Policies\" / IEA: \"Stated Policies\" / CCC: Current Policies",
+      "location_hint": "Page 15, Climate-Related Scenarios Overview table",
+      "confidence": "high",
+      "notes": "The Orderly and Disorderly scenarios both use RCP 2.6, but with different SSPs (SSP 1-1.9 and SSP 1-2.6 respectively). This is a non-standard mixing: conventionally, RCP 2.6 aligns with SSP 1-2.6, not SSP 1-1.9. The Hot house scenario pairs RCP 8.5 with SSP 3-7.0, which is also a non-standard combination (RCP 8.5 is more conventionally associated with SSP 5-8.5).",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes, Manawa Energy developed customised scenarios with the assistance of third-party specialist provider thinkstep-anz, using an 'orderly' 1.5°C scenario, a 'disorderly' 2.0°C scenario, and a 'hot house' ≥3.0°C scenario. These were informed by IPCC AR6, NGFS hypothetical scenarios (Net Zero 2050, Delayed Transition, and Current Policies), IEA 2023 World Energy Outlook, and advice from the Aotearoa New Zealand Climate Change Commission (CCC).",
+      "evidence": "\"In selecting the orderly 1.5°C, disorderly 2.0°C, and hot house ≥3.0°C scenarios for our scenario analysis we had regard to the scenario architectures and time horizons used in wider energy sector scenario analysis and to the scenarios chosen by Infratil (our major shareholder) to prepare its climate-related disclosures... In preparing the scenarios, we used the following data sources: The Intergovernmental Panel on Climate Change (IPCC) sixth assessment synthesis report (AR6)... The Network for Greening the Financial System (NGFS) hypothetical scenarios. The NGFS \"Net Zero 2050\", \"Delayed Transition\" and \"Current Policies\" scenarios were utilised in producing the 1.5°C, 2.0°C and ≥3.0°C scenarios. The International Energy Agency (IEA) 2023 World Energy Outlook... Selected advice to the Government from the Aotearoa New Zealand Climate Change Commission (CCC).\"",
+      "location_hint": "Page 14",
+      "confidence": "high",
+      "notes": "The scenarios are customised by Manawa Energy with expert assistance, drawing on established global scenario frameworks (IPCC, NGFS, IEA) and local NZ guidance (CCC). They are explicitly described as \"not Manawa Energy forecasts\" but scenarios developed for climate resilience testing purposes.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Manawa Energy co-produced its climate scenarios with third-party specialist provider thinkstep-anz, with external legal counsel Simpson Grierson guiding the process for consistency with NZ CS requirements. An internal Project Team participated in a series of workshops run by thinkstep-anz. The process involved a limited number of external stakeholders — specifically the external advisers and Manawa Energy's largest shareholder, Infratil. The ARC and Board also contributed periodically to the scenario analysis process.",
+      "evidence": "\"We conducted scenario analysis in FY24 with the assistance of third-party specialist provider, thinkstep-anz. We were also assisted by external legal counsel Simpson Grierson who guided the scenario analysis process for consistency with NZ CS requirements and related XRB and FMA guidance. Our FY24 scenario analysis was conducted as a standalone exercise and has not yet been fully integrated into our strategy processes. The process involved a limited number of external stakeholders (our external advisers and our largest shareholder, Infratil (Manawa Energy forms part of Infratil's own portfolio climate reporting)).\"",
+      "location_hint": "Page 13-14, FY24 Scenario Analysis section",
+      "confidence": "high",
+      "notes": "The scenarios were not fully co-produced with a broad range of external stakeholders; the document notes the company is \"working towards integrating the scenario analysis into our strategy processes and involving key external stakeholders such as suppliers and lenders in our second NZ CS reporting period.\"",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Manawa Energy used three climate-related scenarios for their scenario analysis: (1) an 'orderly' 1.5°C scenario, (2) a 'disorderly' 2.0°C scenario, and (3) a 'hot house' ≥3.0°C scenario. These were informed by the NGFS \"Net Zero 2050\", \"Delayed Transition\" and \"Current Policies\" scenarios respectively, as well as the IPCC AR6, IEA 2023 World Energy Outlook, and advice from the New Zealand Climate Change Commission.",
+      "evidence": "\"In selecting the orderly 1.5°C, disorderly 2.0°C, and hot house ≥3.0°C scenarios for our scenario analysis we had regard to the scenario architectures and time horizons used in wider energy sector scenario analysis and to the scenarios chosen by Infratil (our major shareholder) to prepare its climate-related disclosures... The NGFS 'Net Zero 2050', 'Delayed Transition' and 'Current Policies' scenarios were utilised in producing the 1.5°C, 2.0°C and ≥3.0°C scenarios.\"",
+      "location_hint": "Page 14",
+      "confidence": "high",
+      "notes": "The three scenarios are clearly named and their data sources explicitly identified in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "Manawa Energy used the following data sources/models for scenario analysis: IPCC AR6 (sixth assessment synthesis report), NGFS hypothetical scenarios (\"Net Zero 2050\", \"Delayed Transition\", and \"Current Policies\"), and the IEA 2023 World Energy Outlook, along with advice from the Aotearoa New Zealand Climate Change Commission (CCC).",
+      "evidence": "In preparing the scenarios, we used the following data sources: › The Intergovernmental Panel on Climate Change (IPCC) sixth assessment synthesis report (AR6), which includes detail on CRROs at a global level, including relative concentrations pathways (RCPs) which provide an indication of the future concentrations of greenhouse gas emissions driving the changes to the physical climate. › The Network for Greening the Financial System (NGFS) hypothetical scenarios. The NGFS \"Net Zero 2050\", \"Delayed Transition\" and \"Current Policies\" scenarios were utilised in producing the 1.5°C, 2.0°C and ≥3.0°C scenarios. › The International Energy Agency (IEA) 2023 World Energy Outlook. This provides insights into global energy supply and demand under different scenarios and the implications for energy security, climate targets and economic development. › Selected advice to the Government from the Aotearoa New Zealand Climate Change Commission (CCC).",
+      "location_hint": "Page 14",
+      "confidence": "high",
+      "notes": "The document references data sources/models used for scenario analysis rather than a single named model. The NGFS scenarios are the primary scenario framework, supplemented by IPCC AR6 and IEA 2023 World Energy Outlook.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Manawa Energy considers damage from acute physical risks including: storm damage to generation equipment and physical assets, flooding damage to generation plant and infrastructure, fire risk to generation assets, landslides and soil erosion, and extreme wind events. Specific acute risks identified include increased storminess and extreme winds, changes in frequency and magnitude of river and pluvial flooding, increasing fire-weather conditions, and increasing landslides and soil erosion.",
+      "evidence": "\"We anticipate that increased storminess and extreme winds will result in, or otherwise increase the likelihood of: › physical damage and erosion to our generation equipment and other assets, › a greater frequency of spill events (and associated revenue impact), › resource consenting issues, › site access issues; and › general staff safety concerns.\"\n\n\"We anticipate that increased river and pluvial flooding will result in, or otherwise increase the likelihood of, dam safety risks, maintenance costs for hydro-assets (e.g. due to the increased use of spillways to manage inflow and water levels), access issues on critical supply and travel routes, and damage to generation equipment and assets.\"\n\n\"We anticipate that increased fire-weather conditions will result in, or otherwise increase the likelihood of, fire risk to generation assets, damage to electricity transmission and distribution systems, potential impacts on future renewable developments.\"\n\n\"Cyclone Gabrielle in February 2023 impacted the North Island and caused damage at Manawa Energy's Esk Power Scheme in the Hawkes Bay region. This power scheme lost generation capacity as a result, and this necessitated remediation and rebuild of generation and monitoring equipment.\"",
+      "location_hint": "Pages 23, 25, 12",
+      "confidence": "high",
+      "notes": "Manawa Energy explicitly identifies multiple acute physical risk categories and their potential damage impacts across different warming scenarios (1.5°C, 2.0°C, ≥3.0°C). They also note that financial impacts have not been fully quantified due to uncertainty.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include the following non-temperature variables: annual rainfall patterns (with increases projected in the west and south of New Zealand), river flooding, drought severity, fire weather, precipitation and extreme rainfall events, mean wind patterns (more north-easterly in summer, more intense westerlies in winter), strengthening of southern hemisphere storm tracks and associated \"atmospheric rivers\", and relative sea-level rise.",
+      "evidence": "Physical: Annual rainfall patterns are expected to change, with increases projected in the west and south of New Zealand. River flooding, drought severity and weather exacerbating fire risk are projected to increase in most areas of the country. [...] Physical: Changes in annual rainfall patterns are expected to be more extreme, with increases projected in the west and south of New Zealand. River flooding and fire weather are also projected to reach extreme levels in most areas of the country. Drought severity is projected to increase in most areas of the country, except for Taranaki-Manawatu, West Coast and Southland. Mean wind patterns are projected to become more north-easterly in summer, westerlies become more intense in winter. There will be a strengthening of southern hemisphere storm tracks and associated \"atmospheric rivers\".",
+      "location_hint": "Page 17",
+      "confidence": "high",
+      "notes": "Non-temperature physical variables are described per scenario (1.5°C, 2.0°C, ≥3.0°C). Sea-level rise is mentioned in the risk/opportunity table on page 25 as a driver of flooding hazards.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Manawa Energy used three climate-related scenarios: (1) Warming Limited to 1.5°C by 2050 – Orderly, (2) Warming Limited to 2.0°C by 2050 – Disorderly, and (3) Warming to ≥3.0°C by 2050 – Hothouse.",
+      "evidence": "\"Warming Limited to 1.5°C by 2050 – Orderly / Warming Limited to 2.0°C by 2050 – Disorderly / Warming to ≥3.0°C by 2050 – Hothouse\"",
+      "location_hint": "Page 17, Scenario Narratives and Key Assumptions section",
+      "confidence": "high",
+      "notes": "The three scenarios span from 1.5°C (orderly transition) to ≥3.0°C (hothouse/no significant action), covering a range of transition and physical risk severities.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Manawa Energy uses three time horizons for CRROs:\n- Short-term: 0–3 years (based on the 3-yearly strategic plan review cycle and business planning/capital deployment planning cycle)\n- Medium-term: 3–10 years (interim period)\n- Long-term: >10 years (based on the 10-year asset management planning cycle)\n\nFor scenario analysis, the time horizons selected were 2050 in relation to Manawa Energy's business and strategy, and 2100 in relation to physical assets.",
+      "evidence": "\"Short-term 0–3 years: Selected based on Manawa Energy's 3-yearly strategic plan review cycle and business planning (capital deployment planning) cycle. Medium-term 3–10 years: Interim period. Long-term >10 years: Selected based on Manawa Energy's asset management planning cycle. These time horizons were selected as they correlate to our strategic planning horizons and related capital deployment plans.\" and \"The time horizons that we selected for each of the temperature scenarios were 2050 in relation to Manawa Energy's business and strategy, and 2100 in relation to our physical assets. The 2100-time horizon aligns with the long-term nature of our physical assets.\"",
+      "location_hint": "Page 18 (CRRO time horizons table) and Page 14 (scenario time horizons)",
+      "confidence": "high",
+      "notes": "Two sets of time horizons are defined: one for CRRO identification/assessment (short/medium/long-term bands) and one for scenario analysis (2050 for business/strategy, 2100 for physical assets).",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Manawa Energy selected the orderly 1.5°C, disorderly 2.0°C, and hot house ≥3.0°C scenarios based on: (1) the scenario architectures and time horizons used in wider energy sector scenario analysis, and (2) alignment with the scenarios chosen by Infratil (their major shareholder) for its own climate-related disclosures. The company states these scenarios \"provide a proper basis to assess the resilience of our business model and strategy against selected CRROs.\" Data sources used include the IPCC AR6, NGFS hypothetical scenarios (Net Zero 2050, Delayed Transition, Current Policies), the IEA 2023 World Energy Outlook, and advice from the Aotearoa New Zealand Climate Change Commission (CCC).",
+      "evidence": "\"In selecting the orderly 1.5°C, disorderly 2.0°C, and hot house ≥3.0°C scenarios for our scenario analysis we had regard to the scenario architectures and time horizons used in wider energy sector scenario analysis and to the scenarios chosen by Infratil (our major shareholder) to prepare its climate-related disclosures. In our view, the scenarios we have chosen provide a proper basis to assess the resilience of our business model and strategy against selected CRROs.\"",
+      "location_hint": "Page 14, Scenario Rationale and Data Sources section",
+      "confidence": "high",
+      "notes": "The justification explicitly references alignment with energy sector norms and the major shareholder's scenario choices, plus a range of authoritative data sources (IPCC AR6, NGFS, IEA, CCC).",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "In FY24, Manawa Energy experienced the following historic climate-related impacts:\n\n1. **Physical/Asset**: Increased insurance premiums for business interruption and other types of cover, primarily due to construction cost inflation. Continued consideration of hydropower asset resilience.\n\n2. **Regulatory and legal**: Regulatory uncertainty in the renewable energy sector (consenting regime, electrification/decarbonisation strategy); increased resource and compliance costs for mandatory climate reporting; increasing stakeholder expectations for climate transparency; emerging risk of climate litigation and activism.\n\n3. **Financial and Market**: Minor financial impacts from increased access disruptions, and increased cost of labour and materials. Implementation of a sustainable finance framework; existing NZX-listed bonds approved as Green Bonds (October 2023), representing 83% of total net debt as of 31 March 2024. Government policies impacted investment confidence in gas exploration, affecting electricity market prices.\n\n4. **Reputation**: Reputational benefits from being a predominantly renewable energy generator and engaging stakeholders about plans to invest further in renewable energy.",
+      "evidence": "\"In FY24, Manawa Energy's business was affected by weather and climate-related impacts in the following ways: ... interruption and other types of cover increased. This was primarily due to construction cost inflation. Regulatory and legal: Manawa Energy and the wider energy sector experienced several regulatory and legal transition impacts that were either wholly or partly climate-related. For example: › Regulatory uncertainty that creates risks and opportunities in the renewable energy sector, including the consenting regime for renewable generation, Government strategy for achieving electrification and decarbonisation ambitions. › Increased resource and compliance costs in relation to mandatory climate reporting. › Increasing stakeholder expectations for quantification and transparency in relation to climate-related activities, impacts, risks and opportunities within business. An emerging risk of, and increase in, climate litigation and activism impacting the wider energy sector. Financial and Market: Manawa Energy experienced minor financial impacts caused by an increase in access disruptions, and the cost of labour (including technical expertise) and materials. Manawa Energy has implemented a sustainable finance framework, and its existing NZX-listed bonds were approved as Green Bonds in October 2023. Green Bonds represent 83% of Manawa Energy's total net debt as of 31 March 2024. Government policies have also impacted investment confidence in the gas exploration sector which is having flow-on impacts on the cost of gas powered electricity generation, and therefore on the general market for spot and forward electricity prices. Reputation: We experienced reputational benefits associated with being a predominantly renewable energy generator and as a result of engaging with stakeholders about our plans to further invest in renewable energy.\"",
+      "location_hint": "Page 12",
+      "confidence": "high",
+      "notes": "The context begins mid-sentence for the physical/asset impact (insurance premiums), suggesting there may be additional FY24 climate impacts described earlier on page 12 that were not captured in the retrieved chunks.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Manawa Energy identifies the following direct and indirect physical climate risks:\n\n**Direct physical risks:**\n- Extreme weather events increasing in frequency and severity (storm damage, fire conditions, flooding)\n- Changes in annual rainfall patterns (more extreme, with increases in west and south of New Zealand)\n- River flooding and fire weather projected to reach extreme levels in most areas\n- Drought severity projected to increase in most areas (except Taranaki-Manawatu, West Coast and Southland)\n- Mean wind patterns projected to become more north-easterly in summer; westerlies more intense in winter\n- Strengthening of southern hemisphere storm tracks and associated \"atmospheric rivers\"\n- Failure of material generation assets caused by natural disaster\n- Damage to assets and impact on generation revenue (both positively and negatively)\n\n**Indirect physical risks:**\n- Supply chain disruption caused by more severe physical impacts of climate change, introducing significant price volatility\n- Labour availability impacted by climate-related events (shortages leading to cost increases and project delays)\n- Changes in hydrology affecting hydropower generation (extended dry periods, extreme flows)",
+      "evidence": "\"Physical: Extreme weather events increase in frequency and severity and further intensify after 2040. This causes significant supply chain disruption and damage to those assets exposed to a high risk of physical climate impacts such as storm damage, fire conditions and flooding... Physical: Changes in annual rainfall patterns are expected to be more extreme, with increases projected in the west and south of New Zealand. River flooding and fire weather are also projected to reach extreme levels in most areas of the country. Drought severity is projected to increase in most areas of the country, except for Taranaki-Manawatu, West Coast and Southland. Mean wind patterns are projected to become more north-easterly in summer, westerlies become more intense in winter. There will be a strengthening of southern hemisphere storm tracks and associated 'atmospheric rivers'.\"",
+      "location_hint": "Page 17",
+      "confidence": "high",
+      "notes": "Direct physical risks are explicitly described under the physical scenario descriptions. Indirect physical risks (supply chain disruption, labour availability) are also mentioned in the context. The document also references failure of material generation assets caused by natural disaster as a top enterprise risk (page 30).",
+      "verification": null
+    }
+  ]
+}

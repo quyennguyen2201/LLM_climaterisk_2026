@@ -1,0 +1,170 @@
+{
+  "source": "GENESIS_ENERGY_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 42625,
+      "output_tokens": 5420,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "total_tokens": 48045
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Genesis used three climate scenarios in their analysis, but the specific names/titles of the three scenarios are not explicitly listed in the retrieved context. The context confirms that \"three scenarios\" were developed by considering \"different social and economic pathways with different global warming outcomes.\"",
+      "evidence": "\"We considered the implications of different social and economic pathways with different global warming outcomes and used this information to create three scenarios.\"",
+      "location_hint": "Genesis FY24 Climate Statement, p.21, Scenario analysis process step 4",
+      "confidence": "low",
+      "notes": "The context confirms three scenarios exist and describes the process used to develop them, but does not name or label the individual scenarios in the retrieved passages. The specific scenario names (e.g., 1.5°C, 3°C, etc.) are not present in the provided context chunks.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Greater than 3°C above pre-industrial levels by 2100 (in the high-emissions/fossil fuel continuation scenario). The document also references the IPCC finding that limiting warming to 1.5°C requires net zero emissions by 2050.",
+      "evidence": "\"Restricting carbon emissions becomes a lower priority for both the government and public leading to severe physical climate change impacts and a global temperature rise of >3°C by 2100.\"",
+      "location_hint": "Genesis FY24 Climate Statement, page 25",
+      "confidence": "high",
+      "notes": "The >3°C figure is specific to the high-emissions scenario described in the document. The 1.5°C target is referenced as the goal under the IPCC-aligned scenario requiring net zero by 2050.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context describes Genesis's scenario analysis process and governance structures, but does not explicitly name a specific external scenario provider (e.g., IEA, NGFS, IPCC) used for their climate scenarios. The context mentions NIWA climate science information and Climate Change Commission modelling, but these are data sources rather than scenario providers in the traditional sense.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Genesis uses a mix of SSPs and RCPs across its three scenarios as follows:\n1. **Green tape** (1.5°C / Orderly Net Zero 2050): RCP 2.6 + SSP 1\n2. **Energy transformation** (2.0°C / Disorderly Delayed transition): RCP 4.5 + SSP 2\n3. **Hot house** (>3.0°C / Current policies): RCP 8.5 + SSP 5",
+      "evidence": "Pathways: RCP 2.6 / SSP 1 / Orderly (Net Zero 2050); RCP 4.5 / SSP 2 / Disorderly (Delayed transition); RCP 8.5 / SSP 5 / Hot house (Current policies)",
+      "location_hint": "Section 7.2, p.22",
+      "confidence": "high",
+      "notes": "Each scenario pairs one RCP with one SSP. The RCPs and SSPs are matched within each scenario (e.g., RCP 2.6 with SSP 1), rather than being mixed across scenarios. The document footnotes clarify RCP = Representative Concentration Pathway and SSP = Shared Socio-economic Pathway.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes. Genesis developed three customised, plausible but distinctly different future scenarios — \"Green tape,\" \"Energy transformation,\" and \"Hot house\" — to test the resilience of their business model and strategy. These were developed in FY23 with support from PwC and West Nine Consulting Limited, and reviewed during FY24. No quantitative modelling was undertaken; the analysis was completed through development of risks and opportunities, risk mapping, and qualitative analysis.",
+      "evidence": "\"Using the process outlined in this section we developed three plausible but distinctly different future scenarios (Green tape, Energy transformation and Hot house as described on pages 22-24) to test the resilience of our business model and strategy... We engaged PwC and West Nine Consulting Limited to guide and support the development of the scenarios and the scenario analysis... The scenario analysis was completed through the development of risks and opportunities, risk mapping and qualitative analysis. No quantitative modelling was undertaken.\"",
+      "location_hint": "Section 7.2, p.21",
+      "confidence": "high",
+      "notes": "The scenarios were originally developed in FY23 and reviewed in FY24. Genesis intends to refresh them in FY25 to incorporate the latest climate science from NIWA.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Genesis did not co-produce climate scenarios with external stakeholders in the traditional sense, but engaged PwC and West Nine Consulting Limited to guide and support the development of three scenarios (Green tape, Energy transformation, and Hot house). The scenarios were reviewed by these experts and business stakeholders to ensure coherency, plausibility, and that they were sufficiently challenging. The scenarios and scenario analysis results were also reviewed by the ELT, ARC, and the Board.",
+      "evidence": "\"We engaged PwC and West Nine Consulting Limited to guide and support the development of the scenarios and the scenario analysis. The scenarios were reviewed by these experts and business stakeholders to ensure coherency, plausibility and that they were sufficiently challenging enough to test the business model and strategy under difficult circumstances. The scenarios and the results of the scenario analysis were reviewed by the ELT, ARC and the Board.\"",
+      "location_hint": "Genesis FY24 Climate Statement, page 21, Section 7.2",
+      "confidence": "high",
+      "notes": "The scenarios were developed internally with external consultant support (PwC and West Nine Consulting Limited), rather than being co-produced with a broader set of external stakeholders such as communities or regulators. The three scenarios are named Green tape, Energy transformation, and Hot house.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Genesis developed three climate scenarios using data and reference models including: IEA Global Energy and Climate Model (2022), IPCC Sixth Assessment Report (2021), Climate Change Commission Scenarios Dataset Final Advice (2021), IIASA SSP Database (Shared Socioeconomic Pathways) (2018), IEA Net Zero by 2050 (2022), and New Zealand-specific sources such as the Ministry for the Environment's Climate change projections for New Zealand (2018) and Emissions reduction plan (2022). The scenarios were developed using the STEEP framework and consider different social and economic pathways with different global warming outcomes.",
+      "evidence": "\"We considered the implications of different social and economic pathways with different global warming outcomes and used this information to create three scenarios.\" and reference models including \"Intergovernmental Panel on Climate Change. (2021). Sixth Climate Change Assessment Report.\", \"International Energy Agency. (2022). Global Energy and Climate Model.\", \"Climate Change Commission. (2021). Scenarios Dataset Final Advice.\", \"International Institute for Applied Systems Analysis. (2018). SSP Database (Shared Socioeconomic Pathways) Scenario Explorer.\", \"International Energy Agency/Net Zero by 2050 (2022).\"",
+      "location_hint": "Appendix I, p.66-67; Section 7, p.20-21",
+      "confidence": "high",
+      "notes": "The document references three scenarios but does not explicitly name them as \"baseline scenarios.\" The reference models and data sources used to construct each scenario are listed in Appendix I. The scenarios were refreshed in FY23 and confirmed relevant for FY24.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "Multiple models were referenced, including: IEA Global Energy and Climate Model (2022), Climate Change Commission Scenarios Dataset Final Advice (2021), International Institute for Applied Systems Analysis SSP Database (Shared Socioeconomic Pathways) Scenario Explorer (2018), and others listed in Appendix I.",
+      "evidence": "\"International Energy Agency. (2022). Global Energy and Climate Model. ... Climate Change Commission. (2021). Scenarios Dataset Final Advice. ... International Institute for Applied Systems Analysis. (2018). SSP Database (Shared Socioeconomic Pathways) Scenario Explorer.\"",
+      "location_hint": "Appendix I, p.66",
+      "confidence": "high",
+      "notes": "Appendix I lists all data and reference models used to construct each scenario. Multiple models are referenced rather than a single model.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Genesis considers damage from acute physical risks including: loss of civil integrity of generation and ancillary infrastructure (e.g. dams, spillways, storage ponds) from intense rain and flooding; damage to electricity transmission lines, communication networks or road access; increased sediment load in rivers and storage lakes; and impacts on the right to operate if flooding causes physical damage to areas surrounding dam assets. A specific current impact was noted: heavy rain around Lake Waikaremoana at the end of FY23/beginning of FY24 caused a slip damaging an access road to some scheme assets. Extreme wind events and tropical cyclones causing flooding are also considered.",
+      "evidence": "\"More frequent intense rain events and flooding have the potential to: Cause loss of civil integrity of generation and ancillary infrastructure (e.g. dams, spillways, storage ponds) resulting in loss of generation revenue. Increase sediment load in rivers and storage lakes, and sediment removal activities, thereby increasing operating costs. Damage electricity transmission lines, communication networks or road access, which could impact generation revenue and increase operating and capital expenditure costs. Impact our right to operate if intense rain and flooding causes lake levels to rise or increase spilling, which causes physical damage to areas surrounding our dam assets.\"",
+      "location_hint": "Genesis FY24 Climate Statement, page 36",
+      "confidence": "high",
+      "notes": "Also includes extreme wind events and tropical cyclones as acute physical risks per page 25. A real-world current impact (road slip at Lake Waikaremoana) is documented on page 36.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context passages discuss physical risks (intense rain, landslides, storms, hydro inflows), risk management frameworks, and scenario analysis methods, but do not explicitly describe non-temperature variables (e.g., precipitation, sea level rise, wind) as defined inputs within specific climate scenarios. No verbatim description of non-temperature scenario variables is present in the provided context.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Genesis uses climate scenarios that are global in scale, with specific regional (Aotearoa New Zealand / Asia-Pacific) overlays. The scenarios cover both physical and transition risks in an integrated manner, exploring plausible future states including outcomes such as a global temperature rise of >3°C by 2100 under a high-emissions scenario, and regional impacts such as precipitation and wind changes across New Zealand.",
+      "evidence": "\"A plausible, challenging description of how the future may develop based on a coherent and internally consistent set of assumptions about key driving forces and relationships covering both physical and transition risks in an integrated manner.\" and \"Economic and social development is paired with the continued exploitation of fossil fuel resources... leading to severe physical climate change impacts and a global temperature rise of >3°C by 2100.\" and \"For the Asia-Pacific region, coal demand increases from 2018-2040 by 10%.\"",
+      "location_hint": "Genesis FY24 Climate Statement, p.25 and p.78",
+      "confidence": "high",
+      "notes": "Scenarios are global in scope with regional (New Zealand and Asia-Pacific) specifics applied. They are described as not probabilistic or predictive but intended to explore plausible futures.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Genesis Energy defines three time horizons for climate-related risks:\n- **Short**: 1–5 years (to 2029) — aligns with Genesis' operating plan\n- **Medium**: 6–15 years (to 2039) — closely aligns with the Gen35 corporate strategy (to 2035) and net zero 2040 science-based target\n- **Long**: 16–26 years (to 2050) — aligns with IPCC findings on limiting warming to 1.5°C and achieving global net zero by 2050\n\nAn exception applies to physical risks to generation assets, which are considered through to 2100 to align with their useful lives.",
+      "evidence": "\"Term | Period | Rationale\nShort | 1-5 years (2029) | Aligns with the time horizon used for Genesis' operating plan.\nMedium | 6-15 years (2039) | Closely aligns with the time horizon used for Genesis' corporate strategy (Gen35) which looks out to 2035 and our commitment to net zero 2040 science-based target.\nLong | 16-26 years (2050) | Aligns with the Intergovernmental Panel on Climate Change (IPCC) findings that to limit the temperature increase to 1.5°C above pre-industrial levels, emissions would have to peak now and reduce by around half by 2030, and globally net zero emissions need to be attained by 2050.\nThe only exception to this was the length of time considered for physical risks to our generation assets which was considered through to 2100 to align with their useful lives.\"",
+      "location_hint": "Section 6.1 / Time horizons table, p.18",
+      "confidence": "high",
+      "notes": "The time frames are explicitly defined in a table on page 18 of the Genesis FY24 Climate Statement, with clear rationale for each horizon linked to strategic planning processes.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Genesis chose three scenarios for the following reasons: (1) The Green tape (1.5°C) and Hot house (>3°C) scenarios were chosen because they align with the requirements of the Aotearoa New Zealand Climate Standards. (2) The Energy transformation (2.0°C) scenario was chosen because it is considered the most challenging and plausible scenario for the business, featuring high transition risks and moderate physical risks, and it aligns with International Energy Agency (IEA) reference scenarios. Together, the three scenarios test the resilience of the business strategy across a broad range of climate-related risks and opportunities.",
+      "evidence": "\"The Green tape (1.5°C) and the Hot house (>3°C) scenarios were chosen as they align with the requirements of the Aotearoa New Zealand Climate Standards. The Energy transformation (2.0°C) scenario is considered the most challenging and plausible scenario for our business because it has high transition risks and moderate physical risks. In comparison Green tape focuses on transitional risks and Hot house focuses on physical risks. The Energy transformation scenario is considered relevant, as it aligns with International Energy Agency (IEA) reference scenarios. By utilising these three scenarios, we tested the resilience of our business strategy with a broad range of climate-related risks and opportunities.\"",
+      "location_hint": "Page 26, Section 7.2",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context covers climate-related risks and opportunities, governance structures, and risk management frameworks, but does not contain any information about historic (past) climate impacts experienced by Genesis Energy. No verbatim evidence of historic climate impacts is present in the provided passages.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Genesis identifies the following physical climate risks as material:\n1. **Warmer temperatures and longer dry spells impacting hydro generation** (Operations, medium and long term)\n2. **More frequent intense rain events and flooding impacting hydro generation** (Operations/Adaptation and mitigation, medium and long term)\n3. **Weather events impacting gas supply** (Supply/value chain, short, medium and long term)\n4. **Improved alignment of hydro inflows and electricity demand** (Operations — noted as an opportunity linked to physical climate change)",
+      "evidence": "\"Warmer temperatures and longer dry spells impacting hydro generation... More frequent intense rain events and flooding impacting hydro generation... Weather events impacting gas supply\"",
+      "location_hint": "Section 7.3, page 27 (table of material climate-related risks and opportunities)",
+      "confidence": "high",
+      "notes": "The context lists these as physical risks under the \"Renewables\" and \"Flexibility and security of supply\" themes. Direct physical risks include hydro generation impacts from drought and flooding. Indirect physical risks include weather events impacting gas supply (upstream supply chain). The table references pages 33–35 and 39 for more detail, but those pages are not included in the retrieved context.",
+      "verification": null
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "source": "SYNLAIT_MILK_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 20,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "output_tokens": 7748,
+      "total_tokens": 181447,
+      "input_tokens": 173699,
+      "input_token_details": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0,
+        "cache_creation": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Synlait uses three scenarios: (1) Orderly (Present to 2030) – aligned with NGFS Net Zero by 2050, SSP1-1.9 (1.4°C), and Climate Change Commission Tailwinds; (2) Disorderly (2030 to 2050) – aligned with NGFS Delayed Transition (1.8°C), SSP1-2.6 (1.8°C), NIWA RCP2.6, and Climate Change Commission Headwinds; (3) Hot House World (2050 to 2100) – aligned with NGFS Current Policies Hothouse World (3°C+), IPCC SSP5-8.5 (4.4°C), NIWA RCP8.5, and Climate Change Commission Current Policies.",
+      "evidence": "\"ORDERLY – PRESENT TO 2030 • Network for Greening the Financial System (NGFS) - Net zero by 2050 • Shared socioeconomic pathway SSP1-1.9, 1.4˚C • Climate Change Commision - Tailwinds ... DISORDERLY – 2030 TO 2050 • NGFS - Delayed Transition (1.8˚C) • SSP1-2.6, 1.8˚C • NIWA RCP2.6 • Climate Change Commision - Headwinds ... HOT HOUSE WORLD – 2050 TO 2100 • NGFS - Current Policies - Hothouse World (3˚C+) • IPCC SSP5-28.5, 4.4˚C • NIWA RCP8.5 • Climate Change Commision - Current Policies\"",
+      "location_hint": "Section 2.2, p.29; Appendix 4, p.58",
+      "confidence": "high",
+      "notes": "The document uses three named scenarios (Orderly, Disorderly, Hot House World) mapped across short, medium, and long-term time horizons. For physical risk assessment, RCP2.6, RCP4.5, and RCP8.5 (downscaled from AR5) were also used. For transition risk, SSP1-1.9, SSP1-2.6, and SSP5-8.5 were adopted.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes three scenarios with different temperature outcomes by 2100: (1) Orderly scenario: 1.4°C (SSP1-1.9, IPCC best estimate for long-term 2081-2100 warming); (2) Disorderly scenario: 1.8°C (SSP1-2.6); (3) Hot House World scenario: 4.4°C (IPCC SSP5-8.5), with policy ambition of 3°C+.",
+      "evidence": "\"1.4°C is the IPCC's best estimate for long-term (2081-2100) warming (high confidence).\" ... \"HOT HOUSE WORLD – 2050 TO 2100 • NGFS - Current Policies - Hothouse World (3˚C+) • IPCC SSP5-28.5, 4.4˚C • NIWA RCP8.5\" ... \"DISORDERLY – 2030 TO 2050 • NGFS - Delayed Transition (1.8˚C) • SSP1-2.6, 1.8˚C\"",
+      "location_hint": "Page 29, Scenario Architecture section",
+      "confidence": "high",
+      "notes": "Three scenarios are used: Orderly (1.4°C), Disorderly (1.8°C), and Hot House World (4.4°C / 3°C+ policy ambition) by 2100. The 1.4°C figure is explicitly stated as the IPCC best estimate for 2081-2100 warming under the orderly scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "The scenarios were sourced from multiple providers: IPCC (SSP/RCP scenarios), NGFS (Network for Greening the Financial System), NIWA (downscaled RCP data for New Zealand), and the Climate Change Commission. The Aotearoa Circle's Agricultural Sector Climate Change Scenarios also informed the driving forces used in scenario development.",
+      "evidence": "\"ORDERLY – PRESENT TO 2030: Network for Greening the Financial System (NGFS) - Net zero by 2050; Shared socioeconomic pathway SSP1-1.9, 1.4˚C; Climate Change Commision - Tailwinds. DISORDERLY – 2030 TO 2050: NGFS - Delayed Transition (1.8˚C); SSP1-2.6, 1.8˚C; NIWA RCP2.6; Climate Change Commision - Headwinds. HOT HOUSE WORLD – 2050 TO 2100: NGFS - Current Policies - Hothouse World (3˚C+); IPCC SSP5-28.5, 4.4˚C; NIWA RCP8.5; Climate Change Commision - Current Policies\"",
+      "location_hint": "Page 29, Scenario Architecture section",
+      "confidence": "high",
+      "notes": "Multiple scenario providers are used: IPCC (SSPs/RCPs), NGFS, NIWA, and the New Zealand Climate Change Commission. The Aotearoa Circle also informed the driving forces for scenario development.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Synlait used a mix of SSP and RCP scenarios depending on the risk type:\n\n- **Transition risks**: SSP1-1.9, SSP1-2.6 (also referred to as SSP2-2.6 in one section), and SSP5-8.5\n- **Physical risks**: RCP2.6, RCP4.5, and RCP8.5 (downscaled from AR5/NIWA), which correspond to SSP1-2.6, SSP2-4.5, and SSP5-8.5\n\nThe RCP scenarios (aligned to SSP scenarios) from IPCC AR5 were applied for climate metrics not yet developed within IPCC AR6 models. Downscaled SSP1-1.9 data was not available in New Zealand from NIWA, so RCP2.6 was used as the low-end physical risk scenario.",
+      "evidence": "\"To assess our exposure to transition risks, we adopted the SSP1-1.9; SSP2-2.6; and SSP5-8.5 scenarios. To assess our exposure to physical risks, we adopted the RCP2.6, RCP4.5 and RCP8.5 scenarios down-scaled from AR5, as this was the only New Zealand down-scaled data available at the time of assessment for the purposes of a physical risk assessment.\"\n\n\"Synlait adopted the SSP1-2.6; SSP2-4.5; and SSP5-8.5 warming scenarios for our physical risk assessment and SSP1-1.9; SSP1-2.6 and SSP5-8.5 were adopted for our Transition Risk assessment. The down scaled SSP1-1.9 data is not available in New Zealand (from NIWA).\"\n\n\"We applied the RCP scenarios (that are aligned to the SSP scenarios) from the IPCC AR5 for climate metrics that have not yet been developed within the IPCC AR6 models.\"",
+      "location_hint": "Pages 28, 34, 36",
+      "confidence": "high",
+      "notes": "There is a slight inconsistency between pages 28 and 36 regarding which SSP scenarios were used for transition risks (page 28 says SSP1-1.9, SSP2-2.6, SSP5-8.5; page 36 says SSP1-1.9, SSP1-2.6, SSP5-8.5). The physical risk scenarios used RCPs from AR5 because downscaled AR6 SSP data was not fully available in New Zealand at the time of assessment.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes. Synlait developed three customised scenarios: \"Orderly,\" \"Disorderly,\" and \"Hot House World.\" These were built by combining established global frameworks (NGFS, SSP, NIWA RCP, and Climate Change Commission pathways) and tailored to Synlait's context across three time horizons (Short: Current Day–2025; Medium: 2025–2035; Long: 2035–2100+). For transition risks, SSP1-1.9, SSP2-2.6, and SSP5-8.5 were used; for physical risks, RCP2.6, RCP4.5, and RCP8.5 (downscaled from AR5 by NIWA) were used.",
+      "evidence": "\"These then fed into our three Synlait scenarios (Orderly, Disorderly and Hot House World) to contextualise the future under different warming scenarios and timeframes... To assess our exposure to transition risks, we adopted the SSP1-1.9; SSP2-2.6; and SSP5-8.5 scenarios. To assess our exposure to physical risks, we adopted the RCP2.6, RCP4.5 and RCP8.5 scenarios down-scaled from AR5, as this was the only New Zealand down-scaled data available at the time of assessment for the purposes of a physical risk assessment.\"",
+      "location_hint": "Section 2.2, page 28; Appendix 4, page 57",
+      "confidence": "high",
+      "notes": "The three Synlait-specific scenarios are clearly named and described as customised narratives built from multiple established frameworks. The Orderly scenario aligns with NGFS Net Zero 2050/SSP1-1.9 (1.4°C); Disorderly with NGFS Delayed Transition/SSP1-2.6 (1.8°C); Hot House World with NGFS Current Policies/SSP5-8.5 (3°C+).",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Synlait co-produced climate scenarios through a process involving an internal subject matter expert (SME) group drawn from across the organisation, working with external consultant Deloitte. The SME group agreed on key driving forces adapted from The Aotearoa Circle's Agricultural Sector Climate Change Scenarios, then analysed these against the political, social and economic context for Synlait with reference to NGFS global warming scenarios. The scenario narratives were reviewed by a Steering Committee, the ELT, and the Board.",
+      "evidence": "\"Synlait's subject matter experts agreed the key driving forces of change that were used to help develop the scenarios. The driving forces were adapted from The Aotearoa Circle's' Agricultural Sector Climate Change Scenarios, changing consumer behaviour (demand/preferences/expectations) and sustainable farming and nature-based solutions and practices emerged as the most material driving forces. These driving forces were analysed based on the political, social and economic context for Synlait with reference to the NGFS global warming scenarios. The scenario narratives were then defined based on the information captured.\"",
+      "location_hint": "Page 36",
+      "confidence": "high",
+      "notes": "The SME group included representation from all areas of the organisation at various levels of seniority. Deloitte was engaged to assist with the risk assessment scenario analysis. The process was qualitative rather than quantitative.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Synlait used the following baseline scenarios:\n- For physical risk assessment: SSP1-2.6, SSP2-4.5, and SSP5-8.5 (with RCP2.6, RCP4.5, and RCP8.5 down-scaled from IPCC AR5 for New Zealand regional data)\n- For transition risk assessment: SSP1-1.9, SSP1-2.6, and SSP5-8.5\nThese fed into three Synlait scenarios: Orderly, Disorderly, and Hot House World.",
+      "evidence": "\"Synlait adopted the SSP1-2.6; SSP2-4.5; and SSP5-8.5 warming scenarios for our physical risk assessment and SSP1-1.9; SSP1-2.6 and SSP5-8.5 were adopted for our Transition Risk assessment. The down scaled SSP1-1.9 data is not available in New Zealand (from NIWA).\"\n\n\"To assess our exposure to physical risks, we adopted the RCP2.6, RCP4.5 and RCP8.5 scenarios down-scaled from AR5, as this was the only New Zealand down-scaled data available at the time of assessment for the purposes of a physical risk assessment.\"",
+      "location_hint": "Page 28 and Page 36",
+      "confidence": "high",
+      "notes": "The SSPs are from IPCC AR6; RCPs from IPCC AR5 were used where AR6 down-scaled data was not available for New Zealand. The three scenarios map to Orderly (SSP1-1.9/RCP2.6), Disorderly (SSP1-2.6/RCP2.6), and Hot House World (SSP5-8.5/RCP8.5).",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "Deloitte's model was used to determine the most material risks by climate hazard, risk type, risk area and risk receptor. For physical risk scenario analysis, RCP2.6, RCP4.5 and RCP8.5 scenarios downscaled from IPCC AR5 (via NIWA) were used. For transition risk scenario analysis, SSP1-1.9, SSP2-2.6, and SSP5-8.5 scenarios from IPCC AR6 were used. The NGFS scenarios (Net Zero 2050, Delayed Transition, Current Policies/Hothouse World) and Climate Change Commission scenarios (Tailwinds, Headwinds, Current Policies) were also applied.",
+      "evidence": "\"The results of the climate risk assessment were run through Deloitte's model to determine the most material risks by climate hazard, risk type, risk area and risk receptor.\" / \"To assess our exposure to transition risks, we adopted the SSP1-1.9; SSP2-2.6; and SSP5-8.5 scenarios. To assess our exposure to physical risks, we adopted the RCP2.6, RCP4.5 and RCP8.5 scenarios down-scaled from AR5, as this was the only New Zealand down-scaled data available at the time of assessment for the purposes of a physical risk assessment.\"",
+      "location_hint": "Section 3 (Climate Risk Assessment Process), p.34-35",
+      "confidence": "high",
+      "notes": "The assessment was qualitative, not quantitative. Deloitte's model was used for materiality ranking. IPCC AR6 SSPs were used for transition risks; NIWA-downscaled IPCC AR5 RCPs were used for physical risks.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Synlait considers damage from acute physical risks including: extreme weather events disrupting supply chains and logistics (product spoilage, logistical disruptions); flooding, landslides, and coastal inundation disrupting shipping; extreme weather events damaging farm plant and machinery; extreme weather events disrupting importation and delivery of critical ingredients leading to unplanned site shutdowns; and extreme weather events causing asset damage and workforce challenges.",
+      "evidence": "\"Increasing occurrence of extreme weather events may disrupt key logistics and supply chain delivery routes and pose challenges for Synlait increasing the risk of product spoilage, raising inventory storage costs, causing reputation damage, logistical disruptions, and limiting product availability.\" / \"Landslides, coastal inundation, and extreme weather events globally may disrupt logistics and shipping and prevent Synlait from shipping product to market.\" / \"Increasing extreme weather events may damage farm plant and machinery.\" / \"Extreme weather events may disrupt the importation and delivery of critical ingredients and key inputs, leading to unplanned site shutdowns, reduced productivity, and revenue loss for Synlait.\" / \"Increasing occurrence of extreme weather events and number of hot days may cause asset damage, disrupt inbound supply chain, challenge workforce availability, and disrupt plant operations.\"",
+      "location_hint": "Section 2.3, page 30",
+      "confidence": "high",
+      "notes": "Synlait's physical risk assessment explicitly identifies multiple acute physical risk events (extreme weather, flooding, landslides, coastal inundation) and their potential damage impacts across supply chain, farm operations, and manufacturing assets.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include the following non-temperature variables: regional policy variation, policy ambition, policy reaction, technology change, and CDR (CO₂ removal). Additionally, physical hazards referenced across scenarios include drought, high rainfall, flooding, extreme weather events, hot days, high winds, landslides, coastal inundation, sea level rise, storm surge, cyclones, and wind speed/precipitation amounts.",
+      "evidence": "ORDERLY: Regional policy variation – Medium variation; Policy reaction – Immediate and smooth; Technology change – Fast change; CDR (CO₂ removal) – Medium-high use. DISORDERLY: Regional policy variation – High variation; Policy reaction – Delayed; Technology change – Slow/fast change; CDR (CO₂ removal) – Medium use. HOT HOUSE WORLD: Regional policy variation – Low variation; Policy reaction – None - current policies; Technology change – Slow change; CDR (CO₂ removal) – Low use. Also: \"Increasing occurrence of extreme weather events like hot days, drought, high rainfall, high winds and flooding events causing operational pressure and rising costs for farmers.\"",
+      "location_hint": "Section 2.2 Scenarios, p.29; Section 2.1 Current Impacts, p.26",
+      "confidence": "high",
+      "notes": "The scenario architecture table on p.29 explicitly lists non-temperature variables (policy variation, policy reaction, technology change, CDR use) for each of the three scenarios. Physical hazard variables are also described throughout the risk sections.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Synlait used both global and regional (downscaled) scenarios. For transition risks, they adopted global SSP scenarios (SSP1-1.9, SSP2-2.6, SSP5-8.5) from IPCC AR6. For physical risks, they used RCP2.6, RCP4.5, and RCP8.5 scenarios downscaled from IPCC AR5, using New Zealand-specific data from NIWA, due to regional variations in climate impacts.",
+      "evidence": "\"To assess our exposure to transition risks, we adopted the SSP1-1.9; SSP2-2.6; and SSP5-8.5 scenarios. To assess our exposure to physical risks, we adopted the RCP2.6, RCP4.5 and RCP8.5 scenarios down-scaled from AR5, as this was the only New Zealand down-scaled data available at the time of assessment for the purposes of a physical risk assessment. The reason we used down-scaled climate data for our physical risk assessment is due to the regional variations in climate impacts.\"",
+      "location_hint": "Page 28",
+      "confidence": "high",
+      "notes": "Global SSP scenarios used for transition risks; regionally downscaled RCP scenarios (from NIWA/NZ data) used for physical risks.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Synlait nominated three time horizons:\n- Short: Current Day – 2025 (aligns with corporate strategy and short-term sustainability goals such as science-based targets)\n- Medium: 2025 – 2035 (aligns with 10-year asset planning cycle and capital deployment plans)\n- Long: 2035 – 2050 (aligns with long-term strategic planning cycles)",
+      "evidence": "Timeframe Definitions and Alignments\nShort\nCurrent Day - 2025\nAligns with and incorporates our corporate strategy and short-term sustainability goals (such as our science-based targets).\nMedium\n2025 - 2035\nAligns with our 10-year asset planning cycle and capital deployment plans.\nLong\n2035 - 2050\nAligns with our long-term strategic planning cycles.",
+      "location_hint": "Page 28",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Synlait justified their scenario and model choices on the following grounds: (1) alignment with guidance provided by The Aotearoa Circle for sector-level scenario analysis; (2) availability of data from NIWA (downscaled climate data for physical risk assessment due to regional variations in climate impacts); (3) alignment with the NZCS1 standard (paragraph 13); and (4) comparability of results with peers. For physical risks, RCP2.6, RCP4.5 and RCP8.5 scenarios downscaled from AR5 were used as this was the only New Zealand downscaled data available at the time. For transition risks, SSP1-1.9, SSP2-2.6 and SSP5-8.5 were adopted. RCP scenarios aligned to SSP scenarios from IPCC AR5 were applied for climate metrics not yet developed within IPCC AR6 models.",
+      "evidence": "\"We believe these scenarios are relevant and appropriate to assessing the resilience of Synlait's business model and strategy to respond to climate-related risks and opportunities because they align with the guidance provided by The Aotearoa Circle for the purpose of sector level scenario analysis; the availability of data from NIWA; alignment with NZCS1 standard (paragraph 13) and comparability of the result with peers.\" / \"The reason we used down-scaled climate data for our physical risk assessment is due to the regional variations in climate impacts.\" / \"We applied the RCP scenarios (that are aligned to the SSP scenarios) from the IPCC AR5 for climate metrics that have not yet been developed within the IPCC AR6 models.\"",
+      "location_hint": "Page 28 and Page 34",
+      "confidence": "high",
+      "notes": "Justification is explicitly stated across pages 28 and 34 of the report.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context discusses anticipated/future physical climate-related risks and scenario analysis, but does not contain any explicit description of historic (past) climate impacts that Synlait has already experienced. The document appears to be forward-looking in its risk assessment rather than documenting historical climate events and their impacts on the company.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Synlait identifies the following material physical climate risks:\n\n1. **Supply chain disruption** (Physical): Increasing extreme weather events may disrupt key logistics and supply chain delivery routes, causing product spoilage, higher inventory storage costs, reputation damage, logistical disruptions, and limited product availability. Landslides, coastal inundation, and extreme weather events globally may disrupt logistics and shipping.\n\n2. **Milk suppliers' on-farm operations disruption** (Physical): Drought, high rainfall, and flooding events may disrupt farm operations and critical infrastructure, increasing operational pressure and costs for farmers, reducing milk supply and quality, and increasing costs per unit of milk. Drought and reduced frost days may hinder feed production. An increase in invasive pests may cause animal welfare issues. Extreme weather events may damage farm plant and machinery.\n\n3. **Synlait's own operations and assets** (Physical): Increasing extreme weather events and hot days may cause asset damage, disrupt inbound supply chain, challenge workforce availability, and disrupt plant operations — potentially necessitating inventory write-offs and higher capital expenditure. Extreme weather could challenge workforce availability due to illness outbreaks or accessibility issues. Increasing hot days may necessitate a shortened asset design life, damage to roading at manufacturing sites, and increasing occurrence of brownouts as demand for electricity on HVAC increases.",
+      "evidence": "\"Physical climate impacts disrupt Synlait's supply chain, leading to increased market and product risk. Increasing occurrence of extreme weather events may disrupt key logistics and supply chain delivery routes and pose challenges for Synlait increasing the risk of product spoilage, raising inventory storage costs, causing reputation damage, logistical disruptions, and limiting product availability... Landslides, coastal inundation, and extreme weather events globally may disrupt logistics and shipping and prevent Synlait from shipping product to market.\n\nPhysical climate impacts disrupt Synlait's milk suppliers' operations on-farm. Increasing occurrence of climate impacts such as drought, high rainfall and flooding events may disrupt farm operations and critical infrastructure. These factors may contribute to increased operational pressure and rising costs for farmers and may result in reduced milk supply and quality while increasing costs per unit of milk... Drought and reduced frost days may hinder feed production resulting in increased feed costs for farmers... An increase in invasive pests may cause animal welfare issues... Increasing extreme weather events may damage farm plant and machinery.\n\nPhysical climate impacts disrupt Synlait's operations and assets, causing asset damage, downtime, inbound supply chain issues, and workforce challenges. Increasing occurrence of extreme weather events and number of hot days may cause asset damage, disrupt inbound supply chain, challenge workforce availability, and disrupt plant operations. This may necessitate inventory write-offs and higher capital expenditure, and impact productivity and revenue... Extreme weather could challenge workforce availability due to illness outbreaks or accessibility issues which could further exacerbate potential site closures and productivity. Increasing number of hot days may necessitate a shortened asset design life, damage to roading at manufacturing sites and increasing occurrence of brown outs as the demand for electricity on HVAC increases.\"",
+      "location_hint": "Section 2.3, p.30-31",
+      "confidence": "high",
+      "notes": "The document distinguishes between direct physical risks (to Synlait's own operations and assets) and indirect physical risks (to its supply chain and farmer suppliers). Time horizons vary: Short (current day–2025), Medium (2025–2035), and Long (beyond 2035). Specific financial impact figures are not disclosed (referenced as \"See Footnote 2\"), and specific locations are noted as \"See Footnote 1\" to be updated in FY25.",
+      "verification": null
+    }
+  ]
+}

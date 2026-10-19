@@ -1,0 +1,170 @@
+{
+  "source": "AUCKLAND_COUNCIL_2025",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "output_tokens": 5269,
+      "input_token_details": {
+        "cache_read": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_creation": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 51803,
+      "total_tokens": 57072
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Auckland Council uses three climate scenarios based on warming levels of 1.5°C, 2°C, and 3°C, developed using Shared Socioeconomic Pathways (SSPs) as a reference for future states, with modelling from Earth Sciences New Zealand.",
+      "evidence": "\"Our climate scenarios have been prepared assuming climate warming of 1.5 degrees Celsius, 2 degrees Celsius and 3 degrees Celsius. They are based on refreshed modelling from Earth Sciences New Zealand from late 2024.\"",
+      "location_hint": "Section 2.2, p.19",
+      "confidence": "high",
+      "notes": "The scenarios are referenced using SSPs (Shared Socioeconomic Pathways) rather than the previously used RCPs (Representative Concentration Pathways). The three scenarios are defined by temperature warming levels: 1.5°C, 2°C, and 3°C.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document does not specify a global temperature outcome by 2100. The climate scenarios used are based on warming of 1.5°C, 2°C, and 3°C, but the timeframes referenced for scenario modelling are a baseline of 1995 with future scenarios at 2050, not 2100.",
+      "evidence": "Our climate scenarios have been prepared assuming climate warming of 1.5 degrees Celsius, 2 degrees Celsius and 3 degrees Celsius. They are based on refreshed modelling from Earth Sciences New Zealand from late 2024... The timeframes relevant to the below climate scenarios represent a baseline timeframe of 1995, with future scenarios at 2050.",
+      "location_hint": "Section 2.2, p.19 and p.21",
+      "confidence": "medium",
+      "notes": "The document references 1.5°C, 2°C, and 3°C warming scenarios but does not explicitly state a projected global temperature outcome by 2100. The scenario timeframe ends at 2050, not 2100 (though infrastructure planning extends to 2100). The Paris Agreement goal of well below 2°C is also mentioned in the glossary.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "Earth Sciences New Zealand (a Crown Research Institute formed by the merger of GNS Science and NIWA)",
+      "evidence": "\"Earth Sciences New Zealand used dynamic high-resolution climate models along with statistical and machine-learning methods to create projections for the Auckland region.\"",
+      "location_hint": "Page 20, Section 2.2.2 Governance of scenario analysis",
+      "confidence": "high",
+      "notes": "Earth Sciences New Zealand is described in footnote 2 as \"a Crown Research Institute formed by the merger of GNS Science and NIWA.\" They provided the climate modelling underpinning Auckland Council's scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Auckland Council shifted from using Representative Concentration Pathways (RCPs) to Shared Socioeconomic Pathways (SSPs) as part of a 2024 refresh of their climate scenarios. The key change was updating physical climate drivers to reflect new climate projections (shifting from RCP to SSP frameworks). SSPs were adopted because they provide an expanded consideration of societal factors (population, economic growth, technological development) beyond RCPs' focus on GHG concentrations, and are the preferred pathways used by Earth Sciences New Zealand (formerly NIWA). The scenarios are based on warming of 1.5°C, 2°C, and 3°C, using CMIP6 global climate models from the IPCC's Sixth Assessment Report.",
+      "evidence": "\"The biggest change we made was adopting Shared Socioeconomic Pathways (SSPs) as a reference for future states compared to the previously used Representative Concentration Pathways (RCPs). RCPs focus is on future GHG concentrations, while SSPs provide an expanded consideration of societal factors that influence climate change, such as population, economic growth, and technological development, and are the preferred pathways used by Earth Sciences New Zealand (formerly NIWA).\" and \"updated the physical climate drivers to reflect the new climate projections for climate hazards (shifting from RCP to SSP frameworks)\"",
+      "location_hint": "Section 2.2, p.19-20",
+      "confidence": "high",
+      "notes": "The document does not mix SSPs and RCPs simultaneously — it explicitly transitioned from RCPs to SSPs. The scenarios use SSP-based warming levels of 1.5°C, 2°C, and 3°C, underpinned by CMIP6 models.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The context does not mention any customised (bespoke) climate scenarios developed by Auckland Council. The document references standard scenarios (Orderly, Disorderly, Hot House World) used for modelling, but there is no indication these are customised scenarios developed specifically by the organisation beyond standard frameworks.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes. Auckland Council co-produced its climate scenarios with a range of stakeholders including Earth Sciences New Zealand, and Auckland Council group staff from areas such as sustainability, finance, infrastructure strategy, risk and Māori outcomes. Workshops and walkthrough sessions were held to share the refreshed scenarios and gather a wide mix of ideas and perspectives.",
+      "evidence": "\"We worked with a range of stakeholders during the scenario development and analysis process including Earth Sciences New Zealand, Auckland Council group staff from areas such as sustainability, finance, infrastructure strategy, risk and Māori outcomes. We held workshops and walkthrough sessions to share the refreshed scenarios and make sure we got a wide mix of ideas and perspectives.\"",
+      "location_hint": "Page 21",
+      "confidence": "high",
+      "notes": "The scenarios were developed with both external scientific expertise (Earth Sciences New Zealand) and internal cross-functional stakeholders. The modelling itself was based on Earth Sciences New Zealand's dynamic high-resolution climate models using CMIP6 projections.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "The baseline timeframe used is 1995, with future scenarios at 2050. The three climate scenarios assume warming of 1.5°C, 2°C, and 3°C, based on Shared Socioeconomic Pathways (SSPs) and refreshed modelling from Earth Sciences New Zealand (late 2024), using CMIP6 global climate models from the IPCC's Sixth Assessment Report.",
+      "evidence": "\"The timeframes relevant to the below climate scenarios represent a baseline timeframe of 1995, with future scenarios at 2050.\" and \"Our climate scenarios have been prepared assuming climate warming of 1.5 degrees Celsius, 2 degrees Celsius and 3 degrees Celsius. They are based on refreshed modelling from Earth Sciences New Zealand from late 2024.\" and \"This year we have refreshed our three climate scenarios. The biggest change we made was adopting Shared Socioeconomic Pathways (SSPs) as a reference for future states compared to the previously used Representative Concentration Pathways (RCPs).\"",
+      "location_hint": "Section 2.2, pages 19–22",
+      "confidence": "high",
+      "notes": "The document clearly states the baseline year (1995), future horizon (2050), the three warming scenarios (1.5°C, 2°C, 3°C), and the shift from RCPs to SSPs as the scenario framework.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "Auckland Council used six global climate models from the CMIP6 suite (featured in the IPCC's Sixth Assessment Report), with dynamic high-resolution climate models along with statistical and machine-learning methods applied by Earth Sciences New Zealand to create projections for the Auckland region.",
+      "evidence": "\"In July 2024, New Zealand released updated national climate projections to support the country's move toward a low-emissions, climate-resilient future. These projections are based on six global climate models from the CMIP6 suite, featured in the IPCC's latest Sixth Assessment Report. Earth Sciences New Zealand used dynamic high-resolution climate models along with statistical and machine-learning methods to create projections for the Auckland region.\"",
+      "location_hint": "Section 2.2, p.20",
+      "confidence": "high",
+      "notes": "The document also notes a shift from CMIP5 to CMIP6 and from RCPs to Shared Socioeconomic Pathways (SSPs) as part of the scenario refresh.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Auckland Council considers damage from acute physical risks, specifically extreme weather events such as the Anniversary Weekend floods and Cyclone Gabrielle in early 2023. These events incurred recovery costs of about $2 billion across 2023/2024 and 2024/2025. The council also holds a $356 million provision for remaining Risk Category 3 properties and a $30 million provision for Risk Category 2P mitigation grants related to these weather events.",
+      "evidence": "\"In early 2023, Auckland faced unprecedented weather events, including the Anniversary Weekend floods and Cyclone Gabrielle. These disasters resulted in damages that marked them as the costliest weather-related events in New Zealand's history.\" and \"the impact of extreme weather events like that experienced in 2023, have to date incurred recovery costs of about $2 billion across 2023/2024 and 2024/2025 with 50 per cent being funded by the central government. Future severe weather events could reasonably be expected to have similar financial impacts until flood resilience projects are completed.\" and \"The most material is a $356 million provision for the remaining Risk Category 3 properties and a $30 million provision for the Risk Category 2P mitigation grants based on assumptions and estimates made by independent actuaries.\"",
+      "location_hint": "Section 2.5.1, p.27-29",
+      "confidence": "high",
+      "notes": "Acute physical risks explicitly include floods and cyclones, consistent with the document's own definition of physical risk (p.52). Financial impacts are quantified with specific dollar amounts.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context does not contain any explicit discussion of non-temperature variables (e.g., precipitation, sea level rise, wind speed, etc.) as used within climate scenarios. While some physical risks such as sea level rise, flooding, and drought are mentioned in passing, there is no scenario-specific quantification or structured disclosure of non-temperature variables in the provided passages.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Auckland Council uses three climate scenarios based on global warming levels of 1.5°C, 2°C, and 3°C. The scenarios are based on Shared Socioeconomic Pathways (SSPs) and refreshed modelling from Earth Sciences New Zealand from late 2024. They are applied at both entity and group level.",
+      "evidence": "\"Our climate scenarios have been prepared assuming climate warming of 1.5 degrees Celsius, 2 degrees Celsius and 3 degrees Celsius. They are based on refreshed modelling from Earth Sciences New Zealand from late 2024. The scenarios help us to think about climate impacts across the group, and the resulting climate risks and opportunities... Our scenarios have helped us identify and assess our climate-related risks and opportunities at an entity and group level.\"",
+      "location_hint": "Section 2.2, page 19",
+      "confidence": "high",
+      "notes": "The scenarios are applied at both entity and group level. The document also notes a shift from RCPs to SSPs as the reference framework for future states.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Auckland Council Group uses three time frames for climate-related risks:\n1. Short-term: three years (to align with short-term budgeting processes)\n2. Medium-term: to align with the Long-term Plan 2024–2034\n3. Long-term: beyond 2034, to align with the Auckland Plan 2050 and regional infrastructure planning to 2100",
+      "evidence": "\"In identifying our climate-related risks and opportunities we have aligned short, medium and long-term term horizons to our strategic plans as follows: 1. short-term: three years to align with short-term budgeting processes 2. medium-term: to align with the Long-term Plan 2024-2034 3. long-term: beyond 2034 to align with the Auckland Plan 2050, and also to align with regional infrastructure planning to 2100.\"",
+      "location_hint": "Section 2.3, page 25",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Auckland Council adopted Shared Socioeconomic Pathways (SSPs) as the reference framework for their climate scenarios, replacing the previously used Representative Concentration Pathways (RCPs). The justification given is that RCPs focus only on future GHG concentrations, while SSPs provide an expanded consideration of societal factors that influence climate change (such as population, economic growth, and technological development), and SSPs are the preferred pathways used by Earth Sciences New Zealand (formerly NIWA). Scenarios were refreshed with modelling from Earth Sciences New Zealand from late 2024, covering warming of 1.5°C, 2°C, and 3°C.",
+      "evidence": "\"The biggest change we made was adopting Shared Socioeconomic Pathways (SSPs) as a reference for future states compared to the previously used Representative Concentration Pathways (RCPs). RCPs focus is on future GHG concentrations, while SSPs provide an expanded consideration of societal factors that influence climate change, such as population, economic growth, and technological development, and are the preferred pathways used by Earth Sciences New Zealand (formerly NIWA).\"",
+      "location_hint": "Section 2.2, page 19",
+      "confidence": "high",
+      "notes": "The document explicitly states the rationale for switching from RCPs to SSPs and names Earth Sciences New Zealand (formerly NIWA) as the source of the preferred pathways and the modelling provider.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "The most material historic climate impacts on the Auckland Council Group were the unprecedented 2023 weather events, which resulted in damage that marked them as the costliest weather-related events in New Zealand's history. The ongoing recovery from these events continued to be the most material climate impact in the reporting year. The council has focused on buying out community residences that pose an intolerable risk to life and repairing damage to transport and water infrastructure.",
+      "evidence": "\"The most material climate impacts on the group this year continued to be the ongoing recovery from the unprecedented 2023 weather events, which resulted in damage that marked them as the costliest weather-related events in New Zealand's history. We have continued focusing on the buying-out of community residences that pose an intolerable risk to life and repairing damage to our transport and water infrastructure.\"",
+      "location_hint": "Page 11",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "The document does not provide a dedicated list of direct and indirect physical climate risks in the retrieved context. However, it notes that \"all of the group's assets and activities are vulnerable to some degree to climate-related physical and transition risks.\" The context focuses primarily on transition risks (Risks #6–11) and the risk assessment methodology. Physical climate risks were formally assessed and prioritised in 2024, but the specific physical risk statements are not included in the retrieved passages.",
+      "evidence": "\"We consider that all of the group's assets and activities are vulnerable to some degree to climate-related physical and transition risks.\"",
+      "location_hint": "Section 2.3, p.26–27 (Table 2.3.2 and Key points)",
+      "confidence": "low",
+      "notes": "The retrieved context only shows the transition climate-related risks table (Risks #6–11). The physical climate risks table (likely Table 2.3.1 or similar) is not included in the retrieved chunks. The risk assessment methodology is described on p.34 but does not enumerate specific physical risks. Answer reflects what is available in context only.",
+      "verification": null
+    }
+  ]
+}

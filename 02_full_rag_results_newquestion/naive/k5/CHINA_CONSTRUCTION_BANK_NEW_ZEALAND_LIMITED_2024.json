@@ -1,0 +1,170 @@
+{
+  "source": "CHINA_CONSTRUCTION_BANK_NEW_ZEALAND_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_token_details": {
+        "cache_read": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_creation": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "total_tokens": 56274,
+      "input_tokens": 50645,
+      "output_tokens": 5629
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Three scenario narratives were used: 1) Orderly (1.5°C), 2) Too Little Too Late (>2°C), and 3) Hothouse (>3°C).",
+      "evidence": "\"Three scenario narratives and four time horizons were developed in the narrative to promote alignment of climate-related scenario analysis and risk disclosures across New Zealand's banking sector... Orderly | Too Little Too Late | Hothouse | Category 15°C | >2°C | >3°C\"",
+      "location_hint": "Section 03. Strategy, p.13, Table 1",
+      "confidence": "high",
+      "notes": "The three scenarios align to IPCC SSP1-1.9, SSP2-4.5, and SSP5-8.5 respectively, and are mapped to NGFS and IEA pathways as well as NIWA RCP parameters.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes three scenarios with the following global temperature outcomes by 2100:\n1. Orderly: ~1.5°C above pre-industrial levels\n2. Too Little Too Late: >2°C\n3. Hot House: >3°C",
+      "evidence": "\"Orderly (1.5⁰C) | Too Little Too Late (>2⁰C) | Hot House (>3⁰C)\"",
+      "location_hint": "Section 03. Strategy, page 14 (Table of Key scenario dimensions)",
+      "confidence": "high",
+      "notes": "These are scenario-based temperature outcomes, not a single projected global temperature. The document uses three climate scenarios aligned with NZBA narratives.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "NGFS (Network for Greening the Financial System)",
+      "evidence": "NGFS — Network for Greening the Financial System",
+      "location_hint": "Page 1, Abbreviations/Glossary section",
+      "confidence": "medium",
+      "notes": "The document lists NGFS (Network for Greening the Financial System) as an abbreviation, and the scenario analysis section references work at the sector level and bank level, but does not explicitly name NGFS as the scenario provider in the retrieved chunks. However, NGFS is the standard scenario provider used by banks for climate scenario analysis, and it is listed prominently in the abbreviations. The context does not explicitly state \"NGFS scenarios were used\" in the retrieved passages, so confidence is medium.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes. The document uses a mix of SSPs and RCPs across different scenario dimensions. For global climate & socio-economic parameters, it uses IPCC SSPs (SSP1-1.9, SSP2-4.5, SSP5-8.5), while for New Zealand-specific climate parameters, it uses NIWA RCPs (RCP2.6, RCP4.5, RCP8.5). These are mapped to three scenario narratives: Orderly (1.5°C), Too Little Too Late (>2°C), and Hothouse (>3°C).",
+      "evidence": "\"Global climate & socio-economic parameters: IPCC SSP1-1.9 / IPCC SSP2-4.5 / IPCC SSP5-8.5 ... New Zealand-specific climate parameters: NIWA RCP2.6 / NIWA RCP4.5 / NIWA RCP8.5\"",
+      "location_hint": "Table 1, page 13 (Section 03. Strategy)",
+      "confidence": "high",
+      "notes": "The document explicitly combines SSPs (for global parameters) and RCPs (for NZ-specific parameters) within the same scenario framework, mapping them to the same three scenario narratives. This is a clear pick-and-mix approach.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context describes CCB NZL's scenario analysis methodology, physical risk modelling (using RCP 8.5), and sector-level risk/opportunity assessments, but there is no mention of customised (bespoke) scenarios developed by the organisation. The scenarios referenced are standard published scenarios (e.g., RCP 8.5, 'Too Little Too Late'), not customised ones.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes. CCB NZ Limited used co-produced climate scenarios developed by the New Zealand Banking Association (NZBA) on behalf of its members, with the work compiled by EY. The scenarios were developed alongside banking peers to improve comparability and consistency of climate-related risk disclosures across New Zealand's banking sector. Three scenario narratives were developed: Orderly (1.5°C), Too Little Too Late (>2°C), and Hothouse (>3°C), across four time horizons, aligned with international frameworks (IPCC, NGFS, IEA) and New Zealand-specific parameters (NIWA RCPs).",
+      "evidence": "\"The Bank has utilised the common sets of narratives developed alongside its banking peers as the basis of its scenario analysis. The work to compile the narratives was commissioned by the NZBA on behalf of its members, and developed by EY. The aim is to develop a common set of narratives to support a better understanding/assessment of climate-related risks and the reporting expectations against the TCFD recommendations and the Standards.\"",
+      "location_hint": "Appendix A1, p.32; Section 03 Strategy, p.13",
+      "confidence": "high",
+      "notes": "The scenarios were co-produced at the sector level via the NZBA (commissioned from EY), not developed solely by CCB NZ Limited. Three scenarios (Orderly, Too Little Too Late, Hothouse) and four time horizons were used, aligned with IPCC SSP pathways, NGFS, IEA, and NIWA RCP parameters.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "CCB NZL uses three scenario narratives developed by the NZBA (commissioned from EY) as the basis of its scenario analysis: (1) Orderly (1.5°C, IPCC SSP1-1.9, NGFS Net Zero 2050, IEA NZE, NIWA RCP2.6); (2) Too Little Too Late (>2°C, IPCC SSP2-4.5, NGFS NDCs / IEA APS, NIWA RCP4.5); and (3) Hothouse (>3°C, IPCC SSP5-8.5, NGFS Current Policies / IEA STEPS, NIWA RCP8.5).",
+      "evidence": "Three scenario narratives and four time horizons were developed in the narrative to promote alignment of climate-related scenario analysis and risk disclosures across New Zealand's banking sector... Scenario dimensions: Orderly (15°C, IPCC SSP1-1.9, NGFS Net Zero 2050, IEA Net Zero Emissions by 2050 (NZE), NIWA RCP2.6); Too Little Too Late (>2°C, IPCC SSP2-4.5, NGFS Nationally Determined Contributions (NDC's), IEA Announced Pledges (APS), NIWA RCP4.5); Hothouse (>3°C, IPCC SSP5-8.5, NGFS Current Policies, IEA Stated Policies (STEPS), NIWA RCP8.5).",
+      "location_hint": "Section 03 Strategy, p.13 / Table 1",
+      "confidence": "high",
+      "notes": "The \"15°C\" label for the Orderly scenario appears to be a formatting artefact in the source document; it should read \"1.5°C\" based on context (IPCC SSP1-1.9 and NGFS Net Zero 2050 correspond to a 1.5°C pathway).",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context does not specify any particular climate or financial model (e.g., a named quantitative model) used in CCB NZL's scenario analysis or risk assessment. The document notes that scenario analysis was completed through internal assessments rather than a single quantitative model, but no specific model name is mentioned.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. The document considers damage from acute physical risks including flood, extreme weather events (heavy precipitation, river flooding, tropical cyclones), earthquake, sea-level rise, storm surges, and heatwaves. For flood risk specifically, an Expected Mean Damage Ratio is used, with High Risk defined as a damage ratio of 20–100%. The analysis uses Moody's RMS Inland Flood Model covering 350,000 simulated events across RCP 2.6, 4.5, and 8.5 scenarios and multiple time horizons.",
+      "evidence": "\"Flood risk gradings are further derived for all real estate collaterals based on these risk indicators. The risk grading in the raw flood data are grouped by the different level of risk severity... Expected Mean Damage Ratio... Low Risk: 0-10%, Medium Risk: 10-20%, High Risk: 20-100%.\" and \"damage from heavy precipitation or river flooding represented 60 percent of weather related losses... These extreme weather patterns are expected to become more frequent and intense as the climate changes.\"",
+      "location_hint": "Page 38-39, Table 10 and Physical risk analysis methodologies overview",
+      "confidence": "high",
+      "notes": "Acute physical risks explicitly considered include flood (pluvial and fluvial), tropical cyclones, heatwaves, storm surges, and earthquake. Damage is quantified via Expected Mean Damage Ratio in the flood model.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include the following non-temperature physical and transition risk variables: Drought (P1), Extreme weather (P2), Flood (P3), Heatwave (P4), Precipitation change (P5), Sea level rise (P7), Biodiversity loss (P8) — as physical risks; and Customer behaviour change (T1), Increased costs of raw materials (T2), Regulatory impacts (T3), Emissions reduction requirements (T4), Litigation risk (T5), Emissions pricing (T6), Reputation impacts (T7), Lower emissions substitutes (T8), Emerging technologies (T9), Unsuccessful investment (T10), and Stakeholder relations (T11) — as transition risks.",
+      "evidence": "\"Physical: P1. Drought, P2. Extreme weather, P3. Flood, P4. Heatwave, P5. Precipitation change, P6. Temperature change, P7. Sea level rise, P8. Biodiversity loss. Transition: T1. Customer behaviour change, T2. Increased costs of raw materials, T3. Regulatory impacts, T4. Emissions reduction requirements, T5. Litigation risk, T6. Emissions pricing, T7. Reputation impacts, T8. Lower emissions substitutes, T9. Emerging technologies, T10. Unsuccessful investment, T11. Stakeholder relations\"",
+      "location_hint": "Page 35-36, Figure 20",
+      "confidence": "high",
+      "notes": "These variables are applied across three scenarios (Orderly 1.5°C, Too Little Too Late >2°C, and Hothouse >3°C) and across five priority sectors. Non-temperature variables include all listed except P6 (Temperature change).",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "CCB NZL uses three scenarios at a global/national scale: Orderly (1.5°C), Too Little Too Late (>2°C), and Hot House (>3°C). These were developed in common with the Net-Zero Banking Alliance (NZBA) and applied to New Zealand's banking sector context.",
+      "evidence": "\"The common sets of climate change scenario narratives developed with the NZBA were used by the Bank to identify and understand its climate change risk and opportunities... Key scenario dimensions: Orderly (1.5⁰C) | Too Little Too Late (>2⁰C) | Hot House (>3⁰C)\"",
+      "location_hint": "Page 14, Section 03. Strategy",
+      "confidence": "high",
+      "notes": "The scenarios are global in scope but applied to New Zealand's banking sector. The NZBA-developed narratives were used as the common framework.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "The Bank uses three time frames for its climate-related risk analysis: short-term, medium-term, and long-term. These are applied across its scenario analysis (Orderly, Too Little Too Late, and Hothouse scenarios) to assess physical and transition risk levels over time.",
+      "evidence": "\"Physical and transition risk determinations over the short, medium, and long-term are based on the general themes in the NIWA and scenarios, literature reviews and stakeholder feedback.\"",
+      "location_hint": "Section 03. Strategy, page 15",
+      "confidence": "high",
+      "notes": "The document references short-term, medium-term, and long-term time horizons explicitly in the context of physical and transition risk assessments across three scenarios. Specific year ranges for each time frame are not defined in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "The Bank chose the common set of scenario narratives developed by the New Zealand Banking Association (NZBA) and compiled by EY, alongside its banking peers. The justification is to improve comparability and consistency of climate-related risk disclosures across the banking sector, enabling primary users to compare findings more readily. The scenarios are aligned with XRB guidance on sector-level scenario analysis and draw on established international frameworks (IPCC SSPs, NGFS, IEA) and New Zealand-specific climate parameters (NIWA RCPs).",
+      "evidence": "\"The Bank has utilised the common sets of narratives developed alongside its banking peers as the basis of its scenario analysis. The work to compile the narratives was commissioned by the NZBA on behalf of its members, and developed by EY. The aim is to develop a common set of narratives to support a better understanding/assessment of climate-related risks and the reporting expectations against the TCFD recommendations and the Standards... These three elements are designed to improve the comparability and consistency of climate-related risk disclosures in the banking sector, ultimately enabling primary users to be able to compare findings more readily.\"",
+      "location_hint": "Appendix A1, p.32; Section 03 Strategy, p.13",
+      "confidence": "high",
+      "notes": "The scenarios used are: Orderly (1.5°C, IPCC SSP1-1.9, NGFS Net Zero 2050, NIWA RCP2.6), Too Little Too Late (>2°C, IPCC SSP2-4.5, NGFS NDCs, NIWA RCP4.5), and Hothouse (>3°C, IPCC SSP5-8.5, NGFS Current Policies, NIWA RCP8.5). Alignment with XRB guidance is also cited as justification.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context discusses CCB NZL's climate strategy, physical and transition risk frameworks, scenario analysis, and green finance opportunities, but does not contain any information about historic (past) climate impacts experienced by the organization or its portfolio.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "CCB NZL identifies physical climate risks as manifesting through: (1) acute risks — increased frequency and severity of acute weather events, and (2) chronic risks — longer-term chronic shifts in climate patterns. For its lending portfolio, the Bank conducted physical risk modelling on 93.29% of its non-residential (security-backed) portfolio using RMS Moody's data (EFP and Climate Conditioning Flood Data). A property is considered high risk if the expected mean damage ratio is greater than 20%. Analysis under RCP 8.5 (worst-case \"Too little too late\" scenario) showed no high-risk properties currently or in the near future. The Bank also manages exposure to high-risk locations and integrates physical risk considerations into its credit risk appetite and strategy.",
+      "evidence": "\"Physical risks are manifested through the increased frequency and severity of acute weather events, or longer-term chronic shifts in climate patterns.\" / \"Physical risk: The Bank has completed physical risk modelling on 93.29% of its non-residential (security-backed) portfolio using RMS Moody's data (EFP and Climate Conditioning Flood Data ~ Refer to Appendix A1 for an overview of the methodology). A property is considered high risk if the expected mean damage ratio is greater than 20% as modelled in the RMS Moody's dataset. The analysis based on an RCP of 8.5 (which reflects the worst case 'Too little too late' scenario) showed no high risk property currently and into the near future.\"",
+      "location_hint": "Page 12 (Strategy section) and Page 16 (Physical risk modelling)",
+      "confidence": "high",
+      "notes": "The context addresses direct physical risks (acute and chronic) explicitly. Indirect physical risks are not separately distinguished in the retrieved passages, but the Bank's approach to managing exposures to high-risk locations and high climate risk customers implies awareness of indirect impacts. No explicit mention of \"indirect\" physical risks as a separate category.",
+      "verification": null
+    }
+  ]
+}

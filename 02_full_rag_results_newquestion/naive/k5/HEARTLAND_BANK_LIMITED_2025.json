@@ -1,0 +1,170 @@
+{
+  "source": "HEARTLAND_BANK_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "total_tokens": 60243,
+      "input_tokens": 54178,
+      "output_tokens": 6065,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_creation": 0,
+        "cache_read": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "The document references two main scenario narratives: a \"Hot House\" scenario and an \"Orderly\" scenario. These scenarios map out different global and domestic climate, socio-economic, policy, and technology outcomes.",
+      "evidence": "\"The scenarios used map out different global and domestic climate, socio-economic, policy and technology outcomes to each scenario narrative... the impact of climate change on GDP under a Hot House scenario is likely to generate a significant contraction in global GDP growth potential... the curbing of emissions under an Orderly scenario has the potential to positively impact GDP figures going forward\"",
+      "location_hint": "Appendix 3, page 51",
+      "confidence": "medium",
+      "notes": "The context only explicitly names two scenarios (\"Hot House\" and \"Orderly\") in passing within a discussion of limitations. A full enumerated list of scenarios used in the analysis is not directly provided in the retrieved chunks. Additional scenarios may exist but are not visible in the provided context.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document references three scenarios with different temperature outcomes by 2100: an Orderly scenario (referencing IPCC SSP1-1.9, implying ~1.5°C or below), a \"Too Little, Too Late\" scenario (referencing IPCC SSP2-4.5, implying ~2–3°C), and a Hothouse scenario with a global temperature outcome of >3°C (referencing IPCC SSP5-8.5).",
+      "evidence": "\">3°C ... Reference scenarios: NZBA's Orderly scenario: Intergovernmental Panel on Climate Change (IPCC) Standard Socioeconomic Pathway (SSP)1-1.9 ... NZBA's Too Little, Too Late scenario: IPCC SSP2-4.5 ... NZBA's Hothouse scenario: IPCC SSP5-8.5\"",
+      "location_hint": "Page 8",
+      "confidence": "medium",
+      "notes": "The document explicitly states \">3°C\" for the Hothouse scenario and references SSP1-1.9 and SSP2-4.5 for the other two scenarios, but does not spell out exact temperature figures for the Orderly and Too Little Too Late scenarios in the retrieved context. The >3°C figure is directly stated for the Hothouse scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "The document references scenarios from the Network for Greening the Financial System (NGFS) and the International Energy Agency (IEA), as well as the Climate Change Commission.",
+      "evidence": "Network for Greening the Financial System. (2022a). Climate scenarios database – Technical documentation V3.1. Retrieved from https://www.ngfs.net/sites/default/files/media/2022/09/15/technical_documentation-_ngfs_scenarios_phase_3.pdf Network for Greening the Financial System. (2022b). Scenarios portal. Retrieved from https://www.ngfs.net/ngfs-scenariosportal/explore/ ... International Energy Agency. (2021a). Net zero by 2050: A roadmap for the global energy sector. ... Climate Change Commission Scenarios dataset for the",
+      "location_hint": "Page 53",
+      "confidence": "medium",
+      "notes": "The context lists scenario sources in the references section (NGFS, IEA, Climate Change Commission) but does not explicitly label them as \"scenario providers\" in a dedicated section. The answer is inferred from the references cited.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Heartland uses a mix of SSPs and RCPs across its scenarios:\n- **Orderly scenario**: IPCC SSP1-1.9 (plus CCC 'Tailwinds' and Australia's Long-Term Emissions Reduction Plan: The Plan scenario)\n- **Too Little, Too Late scenario**: IPCC SSP2-4.5 (plus CCC 'Headwinds'); New Zealand's RCP 4.5 is also referenced for physical risk modelling out to 2050\n- **Hothouse scenario**: IPCC SSP5-8.5 (plus CCC 'Current policy reference'); RCP 8.5 is used by Jupiter Intelligence's climate modelling tools out to FY2050",
+      "evidence": "\"Reference scenarios: NZBA's Orderly scenario: IPCC SSP1-1.9 / NZBA's Too Little, Too Late scenario: IPCC SSP2-4.5 / NZBA's Hothouse scenario: IPCC SSP5-8.5 ... New Zealand's RCP 4.5 are experienced out to 2050. These are used to model a realistic but challenging physical risk scenario ... Jupiter Intelligence's climate modelling tools 'Climate Score' being over 50 using the Representative Concentration Pathway (RCP) 8.5 Scenario out to FY2050.\"",
+      "location_hint": "Page 8 (scenario table), Page 11 (RCP 8.5 footnote), Page 52 (RCP 4.5 reference)",
+      "confidence": "high",
+      "notes": "The document uses SSPs for the three narrative scenarios (SSP1-1.9, SSP2-4.5, SSP5-8.5) and separately references RCP 4.5 and RCP 8.5 for physical risk modelling tools (Jupiter Intelligence and NZ physical risk modelling), creating a pick-and-mix of both SSP and RCP frameworks.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes. Heartland used three base scenarios (\"Orderly\", \"Too Little, Too Late\", and \"Hot House\"), primarily developed by the New Zealand Banking Association (NZBA), which were then further customised and developed to be relevant and specific to Heartland. The customisations included a particular focus on the potential impact on property backed mortgage lending, transport, infrastructure/civil engineering, small and midsize enterprises, and the agriculture sector. The customised scenario narratives were agreed by a working group comprising senior leaders from across Heartland, including representation from the Heartland Group Sustainability Committee.",
+      "evidence": "\"These scenarios were then further customised and developed to be relevant and specific to Heartland. The adjustments include a particular focus on the potential impact on property backed mortgage lending, transport, infrastructure / civil engineering, small and midsize enterprises, and the agriculture sector. Once customised, the narratives for each scenario were agreed by a working group comprising senior leaders from across Heartland, including representation from the Heartland Group Sustainability Committee.\"",
+      "location_hint": "Heartland Climate Report FY2025.pdf, page 7",
+      "confidence": "high",
+      "notes": "The three base scenarios were developed by the NZBA and then customised by Heartland. In FY2025, summarised versions of the same six scenario narratives from FY2024 were used with more focus on climate-related impacts and their downstream consequences.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Heartland's climate scenarios (\"Orderly\", \"Too Little, Too Late\", and \"Hot House\") were primarily developed by the New Zealand Banking Association (NZBA). No other external partners were used in co-producing the scenarios. These scenarios were then further customised internally by a working group comprising senior leaders from across Heartland, including representation from the Heartland Group Sustainability Committee, to be relevant and specific to Heartland's portfolios and sectors.",
+      "evidence": "\"Orderly\", \"Too Little, Too Late\", and \"Hot House\"), which were primarily developed by the New Zealand Banking Association (NZBA), no other external partners were used. These scenarios were used to align with others in the banking sector to improve comparability... These scenarios were then further customised and developed to be relevant and specific to Heartland... Once customised, the narratives for each scenario were agreed by a working group comprising senior leaders from across Heartland, including representation from the Heartland Group Sustainability Committee.",
+      "location_hint": "Heartland Climate Report FY2025.pdf, page 7",
+      "confidence": "high",
+      "notes": "The scenarios were sourced from the NZBA (not co-produced with external climate science partners), then customised internally. No external co-production partners beyond NZBA are mentioned.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Heartland Group used six climate scenario narratives (the same ones from FY2024) for its FY2025 scenario analysis. The scenarios referenced include an \"Orderly\" scenario and a \"Hot House\" scenario, drawing on frameworks such as NGFS scenarios, IPCC SSPs/RCPs, and IEA pathways. Specific named scenarios referenced in the document include RCP 2.6 (CSIRO) and NGFS scenarios (Phase 3).",
+      "evidence": "\"Using summarised versions of the same six climate scenario narratives from FY2024 with more focus on climate-related impacts and their downstream consequences... The analysis confirmed that the material risks and opportunities identified in FY2024 remain unchanged for the Group.\"",
+      "location_hint": "Page 9; Page 51; Page 53",
+      "confidence": "medium",
+      "notes": "The document confirms six scenario narratives were used and references Orderly and Hot House scenarios, as well as NGFS, IPCC, IEA, and CSIRO frameworks, but does not provide the full names or detailed descriptions of all six baseline scenarios in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context does not explicitly identify a specific climate or financial model used by Heartland Group Holdings. References are made to various external sources (NGFS scenarios, CSIRO RCP models, ENZ model, IEA Global Energy and Climate Model, etc.), but none are identified as the primary model used by Heartland itself for its climate disclosures.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Heartland considers damage from acute physical risks including cyclones, flooding events, and extreme weather. Specific examples include: (1) Cyclone Gabrielle (February 2023) leading to a loan write-off of approximately $1.4 million in FY2025; (2) North Island Weather Events Loan Guarantee Scheme with $31.7 million in supported loans as at 30 June 2025; and (3) a '1-in-500-year' flooding event in New South Wales, Australia in May 2025, prompting Heartland Bank Australia to waive advance fees for 261 reverse mortgage customers for damage-related expenses.",
+      "evidence": "\"Cyclone Gabrielle severely impacted the North Island of New Zealand in February 2023... Heartland writing off a loan of approximately $1.4 million in FY2025 (2024: provision of $1.6 million) partly as a result of a single business loan customer who was impacted by this weather event and unable to recover.\" and \"In late May 2025, a stationary low-pressure trough resulted in high rainfall and led to multiple flooding events in New South Wales, Australia which experts called a '1-in-500-year' event... Heartland Bank Australia informed 261 AU Reverse Mortgage customers that the bank would waive any further advance fee for damage-related expenses.\"",
+      "location_hint": "Page 12",
+      "confidence": "high",
+      "notes": "The document explicitly discusses financial impacts (loan write-offs, provisions, and supported loans) resulting from acute physical climate events such as cyclones and floods.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context discusses climate scenarios (Hot House, Orderly), GDP impacts, physical risks (flooding, wind, storm damage, fire risk, frost risk), and transition risks, but does not explicitly describe non-temperature variables (e.g., precipitation, sea level rise, wind speed) as distinct scenario parameters used in the climate scenarios. The closest reference is to property-level risks including flooding, wind and storm damage, fire risk, and frost risk via the Jupiter Intelligence tool, but these are not framed as scenario variables per se.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "The scenarios used are global and domestic in scale, mapping out different global and domestic climate, socio-economic, policy and technology outcomes. The geographic scope covers New Zealand, Australia, and the rest of the world.",
+      "evidence": "\"The scenarios used map out different global and domestic climate, socio-economic, policy and technology outcomes to each scenario narrative. An inherent limitation of this is a variance that occurs between global and domestic outcomes driven by the differences in modelling approaches used to calculate the scenario parameters, alongside variances in the way New Zealand and Australia are predicted to react to climate change versus the rest of the world.\"",
+      "location_hint": "Appendix 3, page 51",
+      "confidence": "high",
+      "notes": "The scenarios operate at both global and domestic (New Zealand and Australia) scales. No single explicit label of \"scale\" is used, but the scope is clearly described.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Heartland uses four time horizons:\n- **Immediate**: 1–2 years — provides a current state assessment and the ability to address immediate transition and acute physical risks and opportunities.\n- **Short term**: 3–5 years — prior to FY2025, aligns with maximum fixed interest rate periods for Online Home Loans and broadly aligns with the average term of Business Loans; from FY2025, broadly aligns with the average term of Business Loans and internal strategic planning.\n- **Medium term**: 5–7 years — aligns with the maximum term of the majority of Heartland's credit exposures.\n- **Long term**: 30 years — aligns with maximum loan terms for Online Home Loans and Rural Lending, and the vast majority of the 'expected' term of Heartland's Reverse Mortgage portfolio; also aligns with long-term international and domestic emissions reduction targets and long-term science-aligned emissions reduction timeframes.",
+      "evidence": "Immediate: 1 – 2 years — Provides a current state assessment and the ability to address immediate transition and acute physical risks and opportunities. Short term: 3 – 5 years — Prior to FY2025: aligns with maximum fixed interest rate periods for Online Home Loans. Broadly aligns with the average term of Business Loans. FY2025: broadly aligns with the average term of Business Loans, and internal strategic planning. Medium term: 5 – 7 years — Aligns with the maximum term of the majority of Heartland's credit exposures. Long term: 30 years — Aligns with maximum loan terms for Online Home Loans and Rural Lending, and the vast majority of the 'expected' term of Heartland's Reverse Mortgage portfolio. Also aligns with long-term international and domestic emissions reduction targets and long-term science-aligned emissions reduction timeframes.",
+      "location_hint": "Strategy section, p.8",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Heartland used three scenarios (\"Orderly\", \"Too Little, Too Late\", and \"Hot House\") primarily developed by the New Zealand Banking Association (NZBA). These scenarios were chosen to: (1) align with others in the banking sector to improve comparability, and (2) challenge Heartland's resilience against varying transition impacts in the \"Orderly\" and \"Too Little, Too Late\" scenarios, as well as understand potential physical impacts in their extremes in the \"Too Little, Too Late\" and \"Hot House\" scenarios. The scenarios were further customised to be relevant and specific to Heartland, with a particular focus on property-backed mortgage lending, transport, infrastructure/civil engineering, SMEs, and the agriculture sector.",
+      "evidence": "\"Orderly\", \"Too Little, Too Late\", and \"Hot House\"), which were primarily developed by the New Zealand Banking Association (NZBA), no other external partners were used. These scenarios were used to align with others in the banking sector to improve comparability. These scenarios were also used to challenge Heartland's resilience against the varying transition impacts that arise in the \"Orderly\" and \"Too Little, Too Late\" scenarios as well as look to understand the potential physical impacts in their extremes in the \"Too Little, Too Late\" and \"Hot House\" scenarios. These scenarios were then further customised and developed to be relevant and specific to Heartland. The adjustments include a particular focus on the potential impact on property backed mortgage lending, transport, infrastructure / civil engineering, small and midsize enterprises, and the agriculture sector.",
+      "location_hint": "Page 7",
+      "confidence": "high",
+      "notes": "The justification is clearly stated: sector alignment/comparability and stress-testing resilience across transition and physical risk extremes. Scenarios were customised for Heartland's specific portfolio focus areas.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "Heartland's Climate-Related Risks – Composite Assessment takes into consideration physical impacts experienced in the past (particularly the prior quarter), transition impacts experienced in the past (particularly the prior quarter), operational risk impacts experienced in the past, and changes in the carbon price. The document also notes that little reliance can be placed on historical experience to assess both magnitude and patterns of climate-related impacts, given the unprecedented speed of evolution.",
+      "evidence": "\"physical impacts experienced in the past (particularly the prior quarter), and expected physical impacts in the near future • transition impacts experienced in the past (particularly the prior quarter), and expected transition impacts in the near future • changes in the carbon price and implications for Heartland • TAE within sectors which are most vulnerable to climate-related risks, and recent credit performance of borrowers in those sectors • operational risk impacts experienced in the past\"",
+      "location_hint": "Risk Management section, page 35",
+      "confidence": "high",
+      "notes": "The document references historic climate impacts in the context of the quarterly Climate-Related Risks Composite Assessment. It also notes in Appendix 3 that \"little reliance can be placed on historical experience to assess both magnitude and patterns\" due to the unprecedented speed of climate-related impacts.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Heartland identifies both direct and indirect physical climate risks. Direct physical risks include physical impacts experienced in the past (particularly the prior quarter) and expected physical impacts in the near future, which are formally assessed quarterly in the Climate-Related Risks – Composite Assessment. Indirect physical risks include considerations of the financial impact of physical climate impacts on GDP, with a Hot House scenario likely generating a significant contraction in global GDP growth potential, particularly in the latter half of the century. Physical climate risk also manifests primarily within the credit risk category, as part of balance sheet risk and continuity risk, which could then manifest in profit risk and strategic risk. Geographic diversity of physical impacts across New Zealand, Australia, and the rest of the world is also noted as a key uncertainty driver.",
+      "evidence": "\"physical impacts experienced in the past (particularly the prior quarter), and expected physical impacts in the near future\" and \"the impact of climate change on GDP under a Hot House scenario is likely to generate a significant contraction in global GDP growth potential, particularly in the latter half of the century\" and \"Climate-related risk (a non-financial risk) occurs primarily within the credit risk category, as part of balance sheet risk and continuity risk, which could then manifest in profit risk and strategic risk.\"",
+      "location_hint": "Pages 35 and 51",
+      "confidence": "medium",
+      "notes": "The document does not use the explicit terms \"direct\" and \"indirect\" physical climate risks as distinct categories. The answer is synthesized from multiple passages describing physical risk considerations. The quarterly composite assessment covers physical impacts directly, while GDP and credit risk effects represent indirect/downstream impacts.",
+      "verification": null
+    }
+  ]
+}

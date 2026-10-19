@@ -1,0 +1,170 @@
+{
+  "source": "MERIDIAN_ENERGY_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 10,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 89169,
+      "total_tokens": 95354,
+      "output_tokens": 6185,
+      "input_token_details": {
+        "cache_creation": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_read": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Meridian uses three climate-related scenarios: 1) Net Zero Revolution, 2) Adaptive Evolution, and 3) Hot House.",
+      "evidence": "\"Driver | Net Zero Revolution | Adaptive Evolution | Hot House\"",
+      "location_hint": "Appendix A, Table 16, p.47",
+      "confidence": "high",
+      "notes": "The three scenario names are explicitly listed as column headers in Table 16 (Driving forces underlying climate scenarios). The document also references updating the \"Net Zero Evolution\" scenario name to align with NGFS, but the table clearly labels the three scenarios as Net Zero Revolution, Adaptive Evolution, and Hot House.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Meridian's three scenarios project the following global temperature outcomes by 2100:\n1. Net Zero Revolution: 1.5°C (SSP1-1.9)\n2. Adaptive Evolution: ~2.7°C (SSP2-4.5)\n3. Hot House: 3°C+ (SSP3-7.0)",
+      "evidence": "\"Net Zero Revolution: Emissions are in line with the Paris Agreement climate goal of limiting global warming to 1.5°C by the end of the century... Adaptive Evolution: There is a lack of international coordination on the climate response, with regions operating independently. Emissions decline but lead nonetheless to 2.7°C of warming by 2100... Hot House: Globally, only currently implemented policies are preserved. Emissions increase until 2100, leading to 3°C+ of warming by 2100\"",
+      "location_hint": "Page 13",
+      "confidence": "high",
+      "notes": "Three distinct scenarios with clearly stated temperature outcomes by 2100.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "Meridian based its climate scenarios on multiple providers: NGFS (Network for Greening the Financial System), IPCC (Shared Socioeconomic Pathways), Climate Change Commission (CCC) of New Zealand, and NIWA (National Institute of Water and Atmospheric Research) Representative Concentration Pathway (RCP) scenarios.",
+      "evidence": "\"Meridian concluded it could best access the necessary variables by sourcing data and information from a combination of: the Network for Greening the Financial System (NGFS); IPCC Shared Socioeconomic Pathways; New Zealand – Climate Change Commission (CCC); and New Zealand – National Institute of Water and Atmospheric Research (NIWA) Representative Concentration Pathway (RCP) scenarios.\"",
+      "location_hint": "Page 13",
+      "confidence": "high",
+      "notes": "Meridian uses a combination of four scenario providers/sources rather than a single provider.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes. For the Net Zero Revolution scenario, Meridian uses IPCC SSP1-1.9 (global, to 2100) but NIWA RCP2.6 (New Zealand, to 2100) — because NIWA has not downscaled data for RCP1.9 or SSP1-1.9. The company notes that in FY25 it will switch to NIWA SSP1-2.6. For Adaptive Evolution, the global pathway aligns with SSP2-4.5, and for Hot House with SSP3-7.0.",
+      "evidence": "\"New Zealand – to 2100 – NIWA Representative Concentration Pathway RCP2.6*. * In FY25, NIWA SSP1-2.6 will be used (published July 2024 – not available in time for FY24 reporting). RCP2.6 has been used, and SSP1-2.6 will be used next year, as these are the lowest emissions scenarios that NIWA has downscaled for New Zealand. NIWA has not downscaled data for RCP1.9 or SSP1-1.9.\"",
+      "location_hint": "Page 15 (Net Zero Revolution data sources); Page 49 (scenario assumptions table)",
+      "confidence": "high",
+      "notes": "Meridian explicitly mixes SSP1-1.9 (global) with RCP2.6 (NZ) for its Net Zero Revolution scenario due to data availability constraints from NIWA. This is a clear pick-and-mix of SSPs and RCPs.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes, Meridian uses customised scenarios. They have developed their own climate scenarios based on internationally recognised NGFS and IPCC scenarios, supplemented with domestic data sources (Climate Change Commission scenarios and NIWA physical climate data downscaled for New Zealand). Their customised scenarios include: \"Net Zero Revolution,\" \"Adaptive Evolution,\" and \"Hot House.\" They also incorporate Meridian's own \"Revolution model (WMO Revo)\" which models a low-carbon future with strong uptake of disruptive technology, and add Meridian-specific implications across short, medium, and long-term time horizons.",
+      "evidence": "\"We have based our climate scenarios on the internationally recognised NGFS and IPCC scenarios. We have also incorporated data from reputable domestic scenarios: the Climate Change Commission scenarios, and NIWA physical climate data downscaled for New Zealand (based on the IPCC's fifth assessment RCP scenarios).\" and \"Building on the STEEP analysis, we added a section to each scenario covering implications specific to Meridian across short, medium, and long term time horizons.\" and \"Meridian's Revolution model (WMO Revo) – which models a low-carbon future, with strong uptake of disruptive technology.\"",
+      "location_hint": "Page 14-15",
+      "confidence": "high",
+      "notes": "The three named scenarios are Net Zero Revolution, Adaptive Evolution, and Hot House, as referenced in the risk rating tables. Meridian customises internationally recognised scenarios with domestic data and Meridian-specific implications.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Meridian's climate scenarios were not co-produced with external stakeholders in 2024. The scenario update involved internal Meridian personnel (from the modelling team, Sustainability, Strategy and Risk functions) and an externally contracted climate disclosures specialist. No other external stakeholders were involved in updating the scenarios in 2024. The scenarios are based on internationally recognised frameworks (NGFS, IPCC) and domestic scenarios (Climate Change Commission, NIWA), and received independent peer review and advice from a climate scientist, with endorsement by the Executive Team and Board in May 2023.",
+      "evidence": "\"A group of relevant Meridian personnel was appointed to review and update the scenarios ahead of FY24 disclosure. The team included personnel from our modelling team, Sustainability and Strategy and Risk functions. An externally contracted climate disclosures specialist was also involved in reviewing and updating the scenarios. No other external stakeholders were involved in updating the scenarios in 2024.\"",
+      "location_hint": "Page 14, XRB six steps table, Step 1",
+      "confidence": "high",
+      "notes": "The document explicitly states no external stakeholders (beyond the contracted specialist) were involved in the 2024 scenario update. The scenarios were originally developed in 2023 with independent peer review from a climate scientist.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Meridian's climate scenarios are based on the NGFS (Network for Greening the Financial System) and IPCC scenarios as internationally recognised baseline scenarios. They also incorporated domestic scenarios: the Climate Change Commission scenarios, and NIWA physical climate data downscaled for New Zealand (based on the IPCC's fifth assessment RCP scenarios). The three named scenarios are: Net Zero Revolution, Adaptive Evolution, and Hot House.",
+      "evidence": "\"We have based our climate scenarios on the internationally recognised NGFS and IPCC scenarios. We have also incorporated data from reputable domestic scenarios: the Climate Change Commission scenarios, and NIWA physical climate data downscaled for New Zealand (based on the IPCC's fifth assessment RCP scenarios).\"",
+      "location_hint": "Page 14, Appendix A (page 47)",
+      "confidence": "high",
+      "notes": "The three scenario names (Net Zero Revolution, Adaptive Evolution, Hot House) are drawn from the driving forces table on page 47.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "Meridian uses WMO (Wholesale Market Optimisation) models, specifically WMO Revo and Evo models (representative of Net Zero Revolution and Adaptive Evolution scenarios), as well as a 30-year internal model. Climate scenarios are based on internationally recognised NGFS and IPCC scenarios, with domestic data from the Climate Change Commission scenarios and NIWA physical climate data downscaled for New Zealand (based on the IPCC's fifth assessment RCP scenarios).",
+      "evidence": "\"This calculation models anticipated inflow changes to Meridian's hydro catchments under WMO Revo and Evo models (representative of Net Zero Revolution and Adaptative Evolution scenarios).\" and \"We have based our climate scenarios on the internationally recognised NGFS and IPCC scenarios. We have also incorporated data from reputable domestic scenarios: the Climate Change Commission scenarios, and NIWA physical climate data downscaled for New Zealand (based on the IPCC's fifth assessment RCP scenarios).\"",
+      "location_hint": "Pages 14, 28",
+      "confidence": "high",
+      "notes": "Multiple models are referenced: WMO internal models, NGFS scenarios, IPCC scenarios, CCC scenarios, and NIWA physical climate data. The 30-year internal model is also mentioned for financial planning.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Meridian considers damage from acute physical risks, specifically: (1) more intense, extreme rainfall events impacting hydro catchment flood risk (PR 1), and (2) increased severe weather events (storms) damaging assets and infrastructure (PR 3). The actual financial impact from Cyclone Gabrielle/Hale events was $5M in carryover costs in FY24. Insurance cover of $1.5 billion is maintained for asset damage and business interruption.",
+      "evidence": "PR 3 – Increased severe weather events could damage assets and infrastructure: Damage to assets and infrastructure due to severe weather events (storms), resulting in financial loss via reduced generation and increased insurance premiums... Actual financial impact: $5M in carryover costs from the 2023 Cyclone Gabrielle/Hale events in FY24... Mitigation efforts include insurance cover of $1.5 billion for asset damage and business interruption.",
+      "location_hint": "Page 21, Strategy section, Table 4 Physical risks",
+      "confidence": "high",
+      "notes": "Acute physical risks include extreme rainfall/flood events (PR 1) and severe storm events (PR 3). Both are explicitly discussed with current and anticipated impacts, management actions, and metrics.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "Meridian's climate scenarios include the following non-temperature variables: insurance costs, wholesale electricity prices, extreme rainfall and storm events, hydro inflow patterns (seasonal changes, volatility, spill risk), snow/rain patterns, drought risk, and supply chain impacts. Specifically across scenarios: extreme rainfall trends up (slight to significant annual increases in hydro catchments depending on scenario), storm events increase in frequency, and eastern regions experience drier conditions.",
+      "evidence": "\"Extreme rainfall and storm events: Trending up, slight annual increases in hydro catchments; dryer on east coasts. One or two extreme rainfall events on the scale of Cyclone Gabrielle occur over a decade. [Net Zero Revolution] / Moderate annual increases in hydro catchments, some decreases in eastern parts of the North Island. One or two extreme rainfall events on the scale of Cyclone Gabrielle occur over a decade. [Adaptive Evolution] / Significant annual increases in hydro catchments, some decreases in eastern parts of the North Island. Two or four extreme rainfall events on [the scale of Cyclone Gabrielle occur over a decade]. [Hot House]\"",
+      "location_hint": "Page 48, scenario comparison table",
+      "confidence": "high",
+      "notes": "The context also references non-temperature variables such as insurance costs, wholesale electricity prices, and hydro inflow seasonality/volatility across the three scenarios (Net Zero Revolution, Adaptive Evolution, Hot House). Additional detail on winter/summer rainfall changes is found on page 15.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Meridian's climate scenarios cover both global and New Zealand (domestic) scales. Specifically, the scenarios cover the electricity sector globally (to the extent global trends and emissions pathways are relevant to Meridian) and in New Zealand, including things entering or exiting the electricity sector (e.g. EVs), as well as afforestation, nature-based solutions, and carbon capture and storage in New Zealand.",
+      "evidence": "\"Our climate scenarios cover the electricity sector, both globally (to the extent global trends and emissions pathways are relevant to Meridian) and in New Zealand. Our climate scenarios also cover things entering or exiting the electricity sector (e.g. transport modes entering the electricity sector, such as EVs). We have also expanded the boundaries of our climate scenarios to include afforestation, nature-based solutions, and carbon capture and storage in New Zealand, with a particular interest in the way these drivers interact with the electricity system.\"",
+      "location_hint": "Appendix A, page 47",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Meridian uses three time horizons for its climate risk and opportunity assessment:\n- Short term: from today through to 2030\n- Medium term: from 2030 to 2050\n- Long term: from 2050 to 2100",
+      "evidence": "Meridian's annual climate risk and opportunity assessment considers scenarios across three time horizons. Longer time horizons are helpful in considering the useful lives of assets (beyond a typical business case horizons). These horizons will continue to be reviewed based on emerging and relevant contexts, including climate science. The time horizons are as follows:\n• Short term: from today through to 2030.\n• Medium term: from 2030 to 2050.\n• Long term: from 2050 to 2100.",
+      "location_hint": "Page 7",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Meridian justifies its scenario and model choices on the following grounds: (1) The three scenarios are based on internationally recognised NGFS and IPCC scenarios, and incorporate reputable domestic scenarios (Climate Change Commission scenarios and NIWA physical climate data downscaled for New Zealand based on IPCC's fifth assessment RCP scenarios). (2) The scenarios were developed with expert, independent peer review and advice from a climate scientist. (3) The scenarios aim to provide sufficiently distinct and plausible futures to test the resilience of Meridian's business model and strategy, and identify and assess climate-related risks and opportunities. (4) The international and domestic scenarios used are widely used by entities for conducting scenario analyses and climate risk assessments both internationally and in New Zealand. (5) Meridian's in-house Wholesale Market Outlook (WMO) models (Revolution, Evolution, and Devolution) were used to inform the energy pathways for each climate scenario.",
+      "evidence": "\"Meridian is confident that its climate scenarios are relevant and appropriate for assessing the resilience of our business model and strategy to climate-related risks and opportunities. We have based our climate scenarios on the internationally recognised NGFS and IPCC scenarios. We have also incorporated data from reputable domestic scenarios: the Climate Change Commission scenarios, and NIWA physical climate data downscaled for New Zealand (based on the IPCC's fifth assessment RCP scenarios). We recognise that there is an inherent uncertainty and limitations associated with any climate scenarios... The international and domestic scenarios we have used to develop our own are, however, widely used by entities for conducting scenario analyses and climate risk assessments (both internationally and in New Zealand).\"\n\n\"The scenarios were developed by Meridian with expert, independent peer review and advice from a climate scientist.\"\n\n\"Meridian's chosen three scenarios are not forecasts but aim to provide sufficiently distinct and plausible futures to help Meridian test the resilience of its business model and strategy, and identify and assess climate-related risks and opportunities.\"",
+      "location_hint": "Strategy section, p.12-14; Appendix A, p.47-49",
+      "confidence": "high",
+      "notes": "Meridian also notes that in FY24 it updated scenario architecture, e.g. changing alignment of Net Zero Evolution from NGFS 'Divergent Net Zero' to NGFS 'Net Zero Emissions' to reflect removal of the former from the latest Phase 4 NGFS scenarios published November 2023.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "Meridian reports that in FY24, no material financial impacts from physical climate change were identified on supply chain costs or reliability. However, they note they are still experiencing flow-on impacts from Cyclone Gabrielle (a storm event from FY23), which caused supply chain disruptions and increased costs. They are also experiencing increasing lead times and increasing prices in their supply chain, though the impact of climate-motivated demand is difficult to distinguish from geo-political factors, inflation, and COVID-19-related disruptions.",
+      "evidence": "\"Meridian is not aware of any material supply-chain challenges in FY24 related to its suppliers and caused by the physical impacts of climate change. As noted in the physical risk PR 3, Meridian is still experiencing the flow-on impacts of the Cyclone Gabrielle storm event from FY23. This event caused supply chain disruptions and increased costs (quantified in PR 3).\" and \"Meridian is continuing to experience increasing lead times and increasing prices in its supply chain. The impact of increased competition from climate-motivated demand is difficult to distinguish from supply chain disruptions caused by geo-political factors, inflation and the lasting impacts of COVID-19-related supply chain disruptions.\"",
+      "location_hint": "Page 22, Table 4 Physical risks (PR 4) and Table 5 Transition risks (TR 3)",
+      "confidence": "high",
+      "notes": "The document references Cyclone Gabrielle as a historic climate impact with supply chain disruptions and increased costs, but notes the financial quantification is in PR 3 (not included in the retrieved context). No other specific historic climate financial impacts are quantified in the retrieved passages.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Meridian identifies the following physical climate risks:\n\n1. **PR 1 – More intense, extreme rainfall events impact hydro catchment flood risk** (acute physical risk)\n2. **PR 3 – Increased severe weather events could damage assets and infrastructure** (acute physical risk)\n3. **PR 4 – Global climate change impacts on supply chain cost and reliability** (indirect physical risk via global supply chain disruptions)\n\nPhysical risks are categorised as acute (extreme weather events) or chronic (sea-level rise and other gradual changes). Meridian's identified physical risks are dominated by impacts on water/hydroelectricity generation, asset damage from extreme weather events, and impacts on goods and services procured through its global supply chain.",
+      "evidence": "\"Meridian's identified physical risks are dominated by impacts on water/hydroelectricity generation, asset damage from extreme weather events and/or impacts on the goods and services procured through its global supply chain. Identified physical opportunities also exist for potential seasonality changes for water.\"\n\n\"Physical impacts arising from climate impacts such as floods and other climate system changes. Physical impacts can be acute (extreme weather events) or chronic (sea-level rise and other gradual changes)\"\n\n\"PR 4 – Global climate change impacts on supply chain cost and reliability: Increased supply chain disruptions and costs due to global climate-change impacts on Meridian's service and operating cost levels.\"",
+      "location_hint": "Pages 11, 22 — Strategy section, Table 4 Physical risks",
+      "confidence": "high",
+      "notes": "The document references PR 1, PR 3, and PR 4 as physical risks. PR 1 and PR 3 are direct physical risks (hydro catchment flooding and asset damage from severe weather). PR 4 is an indirect physical risk via global supply chain. Full details of PR 1 and PR 3 are referenced but not fully quoted in the retrieved chunks; however, they are named and described sufficiently.",
+      "verification": null
+    }
+  ]
+}

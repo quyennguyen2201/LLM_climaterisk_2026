@@ -1,0 +1,170 @@
+{
+  "source": "LIVESTOCK_IMPROVEMENT_CORPORATION_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "total_tokens": 56452,
+      "input_tokens": 50509,
+      "output_tokens": 5943,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_creation": 0,
+        "cache_read": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "LIC uses three climate scenarios: (1) Orderly, (2) Disorderly, and (3) Hothouse.",
+      "evidence": "\"In an Orderly Scenario, LIC would be particularly exposed to transition risks... A Disorderly Scenario represents a more volatile and uncertain operating context for LIC... In a Hothouse Scenario, although the dairy herd may have had a smaller reduction by 2050 of 13%, LIC would be particularly exposed to the physical risks of climate change...\"",
+      "location_hint": "LIC_Climate_Statements_FINAL signed.pdf, page 19",
+      "confidence": "high",
+      "notes": "The three scenarios are clearly named and described across pages 15 and 19 of the document.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes three scenarios with the following global temperature outcomes:\n1. Orderly (Net Zero 2050): Limit temperature rise to 1.5°C (with overshoot)\n2. Disorderly (Delayed transition): Limit temperature rise to 2°C\n3. Hothouse: Temperature rise >3°C (exceeding 3°C by 2080, continuing to increase beyond 2050)",
+      "evidence": "\"Orderly: Net Zero 2050 – Limit temperature rise to 1.5°C (with overshoot); Disorderly: Delayed transition – Limit temperature rise to 2°C; Hothouse: Hothouse world – Temperature rise >3°C\" and \"with the exception of Hothouse where the temperature continues to increase beyond 2050 to exceed 3°C by 2080\"",
+      "location_hint": "Table 3, page 16-17",
+      "confidence": "high",
+      "notes": "The document references temperature outcomes by 2050 as the primary endpoint, with the Hothouse scenario exceeding 3°C by 2080. No explicit 2100 figure is given, but the Hothouse scenario implies continued rise beyond 2080.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "The Aotearoa Circle (Agriculture Sector Scenarios)",
+      "evidence": "\"The Aotearoa Circle Agriculture Sector Scenarios were used as the foundation for developing LIC's climate-related scenarios for this report.\"",
+      "location_hint": "Page 15, Scenario analysis section",
+      "confidence": "high",
+      "notes": "LIC used the Aotearoa Circle Agriculture Sector Scenarios as the basis for their scenario analysis, with no external partners enlisted beyond this.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "LIC uses the following SSP/RCP combinations across its three scenarios:\n- Orderly (Net Zero 2050, 1.5°C): RCP 2.6 / SSP-1\n- Disorderly (Delayed transition, 2°C): RCP 4.5 / SSP-2\n- Hothouse (>3°C): Not explicitly stated in the retrieved context (the table appears to be cut off)",
+      "evidence": "\"Key climate scenarios and models used: [Orderly] IPCC Representative Concentration Pathway (RCP) 2.6/SSP-1 ... [Disorderly] IPCC RCP 4.5/SSP-2\"",
+      "location_hint": "Table 3, p.16",
+      "confidence": "high",
+      "notes": "The Hothouse scenario's RCP/SSP pairing is not visible in the retrieved context as the table appears truncated. Only Orderly (RCP 2.6/SSP-1) and Disorderly (RCP 4.5/SSP-2) are confirmed.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context does not contain explicit information about customised (bespoke) climate scenarios developed by LIC. The context references scenario analysis and planning as a strategic activity, and mentions dairy herd impact assumptions under different scenarios (30%, 17%, 13% smaller herd by 2050), but does not describe any fully customised scenarios distinct from standard published scenarios (e.g., IEA, IPCC). No direct answer to \"customised scenarios\" is present in the provided passages.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "LIC used the Aotearoa Circle Agriculture Sector Scenarios as the foundation for its climate-related scenarios. The scenario development involved engagement at multiple organisational levels, including the Chief Executive and another SLT member engaging with the Aotearoa Circle in developing the Agriculture Sector Scenarios. However, LIC did not enlist external partners or external stakeholders (with the exception of elected directors who are farmer shareholders), and intends to seek external stakeholder views in future reporting periods.",
+      "evidence": "\"The Aotearoa Circle Agriculture Sector Scenarios were used as the foundation for developing LIC's climate-related scenarios for this report. The sector scenario work programmes led by the Aotearoa Circle have been influential in bringing together sectors across New Zealand to support climate reporting entities and encourage greater comparability of reporting. LIC's scenario analysis process involved engagement and governance at a number of levels of the organisation: −Chief Executive and another SLT member engagement with the Aotearoa Circle in developing the Agriculture Sector Scenarios −Analysis and input from key management resources −Reviews and discussion at both SLT and Board level −Final approval of outputs at Board level. LIC did not enlist the help of external partners and no external stakeholders were involved, with the exception of elected directors, who are farmer shareholders in LIC. LIC intends to seek the views and input of external stakeholders in future reporting periods when reporting processes are more developed.\"",
+      "location_hint": "Page 15",
+      "confidence": "high",
+      "notes": "The scenarios were co-produced at the sector level through the Aotearoa Circle, but LIC's own scenario analysis process did not involve external stakeholders beyond elected farmer-shareholder directors.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "LIC uses three baseline scenarios adapted from the Aotearoa Circle Agri-sector scenarios: (1) Orderly – Net Zero 2050, limiting temperature rise to 1.5°C (with overshoot), using IPCC RCP 2.6/SSP-1 and the Climate Change Commission's 2021 Final Advice Tailwinds dataset; (2) Disorderly – Delayed transition, limiting temperature rise to 2°C, using IPCC RCP 4.5/SSP-2 and the Climate Change Commission's 2021 Final Advice Headwinds dataset; (3) Hothouse – Temperature rise >3°C. All scenarios also draw on Ministry for the Environment 2018 Climate change projections for NZ and Ministry for the Environment 2022 Interim guidance on the use of new sea-level rise projections.",
+      "evidence": "\"Scenario assumptions and narratives – Table 3\nOrderly: Net Zero 2050 – Limit temperature rise to 1.5°C (with overshoot) | Key climate scenarios and models used: IPCC Representative Concentration Pathway (RCP) 2.6/SSP-1; Scenarios dataset for the Climate Change Commission's 2021 Final Advice: Tailwinds data set; Ministry for the Environment 2018 Climate change projections for NZ; Ministry for the Environment 2022 Interim guidance on the use of new sea-level rise projections.\nDisorderly: Delayed transition – Limit temperature rise to 2°C | IPCC RCP 4.5/SSP-2; Scenarios dataset for the Climate Change Commission's 2021 Final Advice: Headwinds data set; Ministry for the Environment 2018 Climate change projections for NZ; Ministry for the Environment 2022 Interim guidance on the use of new sea-level rise.\nHothouse: Hothouse world – Temperature rise >3°C\"",
+      "location_hint": "Table 3, page 16",
+      "confidence": "high",
+      "notes": "The Hothouse scenario's specific climate models/datasets are not fully visible in the retrieved context, but the three scenario names, temperature targets, and key models for Orderly and Disorderly are clearly stated.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context does not mention any specific climate or AI model used for scenario analysis or disclosures. The passages discuss LIC's risk management approach, scenario analysis process, and disclaimers, but do not name a specific model.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. LIC considers damage from acute physical risks including heatwaves, droughts, bushfires, floods, storms, and extreme weather events. Specific examples include South Island flooding impacting farmers (September 2023), a $0.15m insurance claim for repairs from a lightning strike during the Auckland Anniversary weather event (January 2023) that damaged an electrical board managing LIC's fire protection systems, and supply chain/distribution disruption from extreme weather events.",
+      "evidence": "\"Acute risk factors are those related to more frequent and intense extreme climate events such as heatwaves, droughts, bushfires, floods and storms... In the previous year, there was a $0.15m claim for repairs relating to a lightning strike on 29 January 2023 which occurred at the end of the Auckland Anniversary weather event. This caused damage to an electrical board that managed LIC's fire protection systems at the head office building. The claim was paid out in the current reporting period.\"",
+      "location_hint": "Pages 12–13",
+      "confidence": "high",
+      "notes": "The document explicitly identifies acute physical risks and provides a concrete financial example of damage ($0.15m lightning strike claim). Additional acute risks such as supply chain disruption and road/power outages are also discussed on page 22.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include the following non-temperature variables: water stress, storm damage, policy stringency and timing, socioeconomic assumptions (e.g., shifts in consumer diets, cow numbers, alternative proteins, local produce preferences), precipitation patterns, sea-level rises, and transition-related variables such as policy changes, innovation changes (farming practices, alternative proteins), and market/reputation changes (consumer preferences, market access). Specific scenario variables also include reactive/disruptive regulation, gene editing and selection policy, and farmer responses (reducing, diversifying, moving, or liquidating operations).",
+      "evidence": "\"Acute risk factors are those related to more frequent and intense extreme climate events such as heatwaves, droughts, bushfires, floods and storms; and Chronic risk factors are those related to gradual changes in climatic conditions such as increasing temperatures, changes in precipitation patterns and sea-level rises.\" / \"Lowest - The physical impacts of climate change have increased water stress in some regions. Storm damage still poses high risks across large parts of the country.\" / \"Climate policies and innovation are more immediate and gradually become more stringent / Shift towards sustainable diets that include a diverse range of proteins, but still a market for premium animal products / Some farmers were supported to transition out of agriculture in unsustainable areas and policy targets were met, with significantly lower cow numbers resulting / Alternative and lab grown proteins are common, but a market for sustainable dairy remains / Consumers increasingly seek local produce with labelling and stories that embed sustainability / Disruptive, costly transition as rapid and strong policy is implemented after 2030 / Reactive regulation results in cumbersome and inconsistent reporting requirements for New Zealand farmers / Some farmers had to reduce, diversify, move, or liquidate / Gene editing and selection policy has emerged\"",
+      "location_hint": "Pages 12 and 17",
+      "confidence": "high",
+      "notes": "Non-temperature variables are drawn from both the physical risk section (p.12) and the scenario table (p.17). They include precipitation, sea-level rise, water stress, storm damage, policy, socioeconomic, and market/innovation variables across the three scenarios (Orderly, Disorderly, Hothouse).",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "LIC's climate scenario analysis was focused on New Zealand operations, with international factors considered where material (e.g., consumables manufactured offshore or shipping of product sold to international markets). The analysis also focused primarily on the dairy sector. Three scenarios were used: Orderly (Net Zero 2050, limit temperature rise to 1.5°C with overshoot), Disorderly (Delayed transition, limit temperature rise to 2°C), and Hothouse (temperature rise >3°C). Time horizons span short (to 2026/27), medium (2027–2035), and long (2036–2050) term, with 2050 as the endpoint, except for Hothouse where temperature continues to increase beyond 2050 to exceed 3°C by 2080.",
+      "evidence": "\"The climate scenario analysis was focused on LIC's New Zealand operations. International factors were considered where material, such as consumables manufactured offshore or shipping of product sold to international markets. The climate scenario analysis also focused primarily on the dairy sector... Short (to 2026/27), medium (2027-2035) and long (2036-2050) term, with 2050 being the endpoint, with the exception of Hothouse where the temperature continues to increase beyond 2050 to exceed 3oC by 2080\"",
+      "location_hint": "Table 3, p.17",
+      "confidence": "high",
+      "notes": "The scope covers New Zealand operations primarily, with some international considerations. Three scenarios (Orderly, Disorderly, Hothouse) are applied across three time horizons.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "LIC uses two time horizons for assessing climate-related risks and opportunities: \"Medium\" and \"Long\". These are applied across both physical and transition risk categories. The document also references a five-year activity level for strategic planning purposes.",
+      "evidence": "Risk type | Time horizon: Transition | Medium / Long; Physical | Medium / Long. \"Refer to the Strategy section for detail on the scenario analysis process and the time horizons LIC considers for strategic planning and to assess its climate-related risks and opportunities.\" and \"the biggest asset on LIC's balance sheet is our bull team... underpins our expected five-year activity level in relation to product sales.\"",
+      "location_hint": "Pages 20–22 (risk tables) and page 25 (Risk Management section)",
+      "confidence": "high",
+      "notes": "The document consistently labels time horizons as \"Medium\" and \"Long\" across all identified climate-related risks (both physical and transition). A five-year horizon is mentioned in the context of strategic planning for product sales activity levels. No explicit year ranges are provided for \"Medium\" or \"Long\" in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "LIC chose the Aotearoa Circle Agriculture Sector Scenarios as the foundation for its climate scenario analysis for two primary reasons: (1) they were created specifically for agribusinesses operating in New Zealand's agricultural sector, including LIC; and (2) the scenarios were aligned to the temperature requirements in NZ CS 1, including a 1.5°C scenario, a 3°C or greater scenario, and a third climate-related scenario. LIC adapted these scenarios to reflect LIC's specific role in the dairy sector, with key differences focusing on changes relevant to LIC's role within the dairy sector and technology developments.",
+      "evidence": "\"LIC determined that the Aotearoa Circle Agriculture Sector Scenarios were the most relevant and appropriate starting point because they have been created specifically for agribusinesses operating in New Zealand's agricultural sector, including LIC. Moreover, the scenarios were aligned to the temperature requirements in NZ CS 1, including to have a 1.5 degree scenario, a 3 degree or greater scenario, and a third climate-related scenario.\"",
+      "location_hint": "Page 15",
+      "confidence": "high",
+      "notes": "LIC also adapted the Aotearoa Circle scenarios to reflect its specific role in the dairy sector, with the Chief Executive directly involved in developing the original Aotearoa Circle scenarios. The process involved SLT and Board-level workshops and reviews.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context discusses climate-related risks (physical and transition), scenario analysis, and risk management frameworks, but does not contain any explicit discussion of historic (past) climate impacts that have already occurred and affected LIC or its operations. The document is forward-looking in its climate risk framing.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "LIC identifies the following physical climate risks, categorised as acute and chronic:\n\n**Acute risks** (more frequent and intense extreme climate events):\n- Heatwaves\n- Droughts\n- Bushfires\n- Floods\n- Storms\n\n**Chronic risks** (gradual changes in climatic conditions):\n- Increasing temperatures\n- Changes in precipitation patterns\n- Sea-level rises\n\nSpecific physical risk scenarios identified include:\n1. **Supply chain and distribution disruption** – Increasing frequency and severity of extreme weather events impacting LIC's supply chain, potentially causing major business disruption, increased operating costs, and/or inability to meet customer requirements (Medium/Long time horizon).\n2. **Road access, electricity and/or water supply disruption** – Extreme weather events could result in more frequent and lengthy road closures, power outages, water supply disruption, and potential restrictions due to drought (Medium/Long time horizon).\n3. **People/health impacts** – Health impacts for LIC workers and the dairy sector from exposure to more extreme weather and increased heat stress (Medium/Long time horizon).",
+      "evidence": "Physical risk factors are those related to the impacts of the changing climate and can be further categorised as acute or chronic:\n−Acute risk factors are those related to more frequent and intense extreme climate events such as heatwaves, droughts, bushfires, floods and storms; and\n−Chronic risk factors are those related to gradual changes in climatic conditions such as increasing temperatures, changes in precipitation patterns and sea-level rises.\n\n[Table entries:]\nSupply chain and distribution disruption: Increasing frequency and severity of extreme weather events impacting LIC's supply chain, which may result in a major business disruption, increased operating costs and/or an inability to meet customer requirements.\nRoad access, electricity and/or water supply disruption: Extreme weather events could result in more frequent and lengthy road closures, power outages and water supply, as well as potential restrictions due to drought.\nPeople: Health impacts for some LIC workers and in the dairy sector generally from exposure to more extreme weather and potential for increased heat stress.",
+      "location_hint": "Pages 12 and 22",
+      "confidence": "high",
+      "notes": "The document does not explicitly distinguish between \"direct\" and \"indirect\" physical risks using those terms, but the risks described cover both direct operational impacts (e.g., road closures, power outages) and indirect impacts via dairy farmer customers (e.g., reduced farmer profitability affecting LIC revenue).",
+      "verification": null
+    }
+  ]
+}

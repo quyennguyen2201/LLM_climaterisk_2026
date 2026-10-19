@@ -1,0 +1,170 @@
+{
+  "source": "MAINFREIGHT_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 53978,
+      "total_tokens": 59724,
+      "output_tokens": 5746,
+      "input_token_details": {
+        "cache_creation": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_read": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Three scenarios were chosen and modelled, all based on the \"Middle of the Road\" Shared Socioeconomic Pathway (SSP2), with external data sourced from the Network for Greening the Financial System (NGFS) Phase 5 Scenario framework. The specific names/labels of the three scenarios are described in Table 1 on page 28 of the report, but the full table is not included in the retrieved context.",
+      "evidence": "\"In order to assess our resilience to plausible climate futures, three scenarios have been chosen and modelled here, as seen on page 28, Table 1. These allow us to explore the range of impacts different emission pathways could have on our material risks and opportunities. All three scenarios are based on the 'Middle of the Road' Shared Socioeconomic Pathway (SSP2)... External data was sourced from the Network for Greening the Financial System (NGFS) Phase 5 Scenario\"",
+      "location_hint": "Page 26, Climate Scenarios section",
+      "confidence": "medium",
+      "notes": "The context confirms three scenarios were used, all grounded in SSP2 and NGFS Phase 5 data, but the specific names/titles of the three scenarios (as listed in Table 1 on page 28) are not included in the retrieved passages. Only the overarching framework is described here.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The three scenarios project the following global mean temperature increases by 2100 (67th percentile): Orderly Transition: 1.5°C, Disorderly Transition: 1.9°C, Business As Usual: 3.3°C",
+      "evidence": "\"Global Mean Temperature increase by 2100 (67th Percentile): 1.5°C [Orderly Transition], 1.9°C [Disorderly Transition], 3.3°C [Business As Usual]\"",
+      "location_hint": "Page 27 (Table), 2025 Sustainability and Climate Report v1.0.pdf",
+      "confidence": "high",
+      "notes": "Values are explicitly stated in the scenario comparison table on page 27/28.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "Network for Greening the Financial System (NGFS) Phase 5 Scenario Explorer, hosted by IIASA, using the REMIND-MAgPIE 3.3-4.8 model",
+      "evidence": "\"All scenario data was accessed through: NGFS Phase 5 Scenario Explorer hosted by IIASA and uses REMIND-MAgPIE 3.3-4.8 inputs\"",
+      "location_hint": "Page 27, Table 1. Mainfreight Climate Scenarios",
+      "confidence": "high",
+      "notes": "Also confirmed on page 26: \"External data was sourced from the Network for Greening the Financial System (NGFS) Phase 5 Scenario Explorer, using the REMIND-MAgPIE 3.3-4.8 model.\"",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "All three scenarios are based on SSP2 (\"Middle of the Road\"). No RCPs are mentioned; the scenarios are drawn from the NGFS Phase 5 Scenario Explorer (Net Zero 2050, Delayed Transition, Current Policies) using REMIND-MAgPIE 3.3-4.8 inputs.",
+      "evidence": "All three scenarios are based on the \"Middle of the Road\" Shared Socioeconomic Pathway (SSP2). This pathway does not markedly shift from historical patterns, where both global and local institutions make slow progress towards the Sustainable Development Goals. Each scenario has been built from this same starting point and explores how varying levels of physical and transition risks could lead to different climate futures. [...] All scenario data was accessed through: NGFS Phase 5 Scenario Explorer hosted by IIASA and uses REMIND-MAgPIE 3.3-4.8 inputs",
+      "location_hint": "Pages 26–27",
+      "confidence": "high",
+      "notes": "The document uses only SSP2 across all three scenarios (Net Zero 2050, Delayed Transition, Current Policies). There is no mention of RCPs (Representative Concentration Pathways) anywhere in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context passages do not contain any information about customised climate scenarios. The passages cover topics such as physical climate risk events (floods, cyclones), emissions inventory, fleet policy, and community activities, but make no mention of customised scenarios used in climate analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context does not mention any co-produced climate scenarios (i.e., scenarios developed in collaboration with external stakeholders, peers, or industry groups). The document references the use of various sources for identifying climate risks and mentions scenario analysis, but there is no mention of co-production of climate scenarios with external parties.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "All three scenarios are based on the \"Middle of the Road\" Shared Socioeconomic Pathway (SSP2). External data was sourced from the Network for Greening the Financial System (NGFS) Phase 5 Scenario framework.",
+      "evidence": "All three scenarios are based on the \"Middle of the Road\" Shared Socioeconomic Pathway (SSP2). This pathway does not markedly shift from historical patterns, where both global and local institutions make slow progress towards the Sustainable Development Goals. Each scenario has been built from this same starting point and explores how varying levels of physical and transition risks could lead to different climate futures. The SSP framework is widely used in the climate change research community to facilitate the integrated analysis of future climate impacts, vulnerabilities, adaptation and mitigation. External data was sourced from the Network for Greening the Financial System (NGFS) Phase 5 Scenario",
+      "location_hint": "Page 26",
+      "confidence": "high",
+      "notes": "The text is cut off at \"NGFS Phase 5 Scenario\" but the baseline is clearly SSP2 (\"Middle of the Road\") combined with NGFS Phase 5 scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "The Climate Impact Accrual model was used, with the primary input being a natural and climate hazard assessment provided by Gallagher, with licensed use of the Swiss RE CatNet software (updated for 2025).",
+      "evidence": "\"The primary input to our modelling was a natural and climate hazard assessment provided by Gallagher, with licensed use of the Swiss RE CatNet software, updated for 2025.\"",
+      "location_hint": "2025 Sustainability and Climate Report v1.0.pdf, page 29",
+      "confidence": "high",
+      "notes": "The document refers to the internal tool as \"Climate Impact Accrual\" and identifies Gallagher and Swiss RE CatNet as the external data/model sources.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Mainfreight considers damage from acute physical risks including flooding, storm surge, wildfire, windstorm, and cyclones. Over the past three years, they experienced two significant climate-related events with total pre-insurance impacts in excess of NZ$100,000 (Cyclone Gabrielle in February 2023 and NSW Floods in November 2023). In the most recent period, net impact after insurance from climate/natural hazard events was approximately NZ$85,000. Their modelled current Climate Impact Accrual (after insurance) for acute physical risks totals NZ$282,016, broken down by hazard type (fluvial flood: NZ$90,221; storm surge: NZ$72,227; windstorm: NZ$68,982; wildfire: NZ$43,220; drought: NZ$5,376; sea level rise: NZ$1,737; precipitation: NZ$253) across all operating regions.",
+      "evidence": "\"Over the past three years we have experienced two significant climate-related events (with total pre-insurance impacts in excess of NZ$100,000): Cyclone Gabrielle – Hawkes Bay, New Zealand, February 2023; New South Wales (NSW) Floods – New South Wales, Australia, November 2023... All events were covered under existing policies, with net impact after insurance of approximately NZ$85,000... physical impact to the Group assessed at NZ$282,016.\"",
+      "location_hint": "Page 29, Events and Claims / Table 2",
+      "confidence": "high",
+      "notes": "The document provides both actual experienced damage (post-insurance ~NZ$85,000/year) and modelled Climate Impact Accruals (NZ$282,016) covering acute physical risks by hazard type and region.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include the following non-temperature physical hazard variables: Fluvial Flood, Wildfire, Windstorm, Storm Surge, Drought, Precipitation, and Sea Level Rise. These are assessed as both acute (Fluvial Flood, Wildfire, Windstorm, Storm Surge) and chronic (Drought, Precipitation, Sea Level Rise) events across short, medium, and long time horizons under three scenarios (Orderly, Disorderly, and BAU).",
+      "evidence": "\"Events | Type | Leased Exposure | Owned Exposure\nFluvial Flood | Acute | 40% | 20%\nWildfire | Acute | 5% | 10%\nWindstorm | Acute | 1% | 1%\nStorm Surge | Acute | 40% | 20%\nDrought | Chronic | 0.01% | 0.01%\nPrecipitation | Chronic | 0.01% | 0.01%\nSea Level Rise | Chronic | 0.01% | 0.01%\"",
+      "location_hint": "Table 13, page 42; also Table 15/16 and scenario tables on page 30",
+      "confidence": "high",
+      "notes": "The document explicitly lists these seven non-temperature physical hazard variables used in the scenario analysis, categorised as acute or chronic. Temperature changes are separately addressed in Table 16 (Surface Temperature Increase), confirming these are the non-temperature variables.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Mainfreight uses three scenarios applied across three specified time horizons, with scenario weightings based on changes in average global surface temperature as a proxy. The scenarios include: (1) a rapid/coordinated transition scenario, (2) a policy-driven scenario with rapid escalation in emissions pricing, and (3) a \"Business As Usual\" scenario with little to no effective coordination. These are applied at a global scale, covering all regions where Mainfreight operates (New Zealand, Australia, Europe, USA, and Asia).",
+      "evidence": "\"The final step is to apply separate weightings relative to our three scenarios over the different time horizons, using the changes in average global surface temperature as a proxy for our weightings in Additional Information weightings (see page 43, Table 16).\"",
+      "location_hint": "Page 35",
+      "confidence": "medium",
+      "notes": "The context confirms three scenarios and three time horizons applied globally, but does not explicitly label the scenarios by name (e.g., 1.5°C, 2°C, BAU) in the retrieved chunks. The \"Business As Usual\" scenario is described on page 28. The scale appears to be global/multi-regional based on the regions mentioned throughout the document.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Three time horizons are used, spanning 2024 to 2050:\n1. Short Term: 2024 – 2030\n2. Medium Term: 2031 – 2040\n3. Long Term: 2041 – 2050",
+      "evidence": "For each of the assessed risks and opportunities we have compared their likely consequence across three time horizons between 2024 and 2050.\n1. Short Term: 2024 – 2030 \n2. Medium Term: 2031 – 2040 \n3. Long Term: 2041 – 2050",
+      "location_hint": "Page 25, Time Horizons section",
+      "confidence": "high",
+      "notes": "These time horizons are explicitly defined and applied to all assessed climate-related risks and opportunities. They are also linked to strategic planning as referenced on page 46 (clause 14a).",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "The NGFS Phase 5 Scenario Explorer using the REMIND-MAgPIE 3.3-4.8 model was selected because: (1) NGFS scenarios remain up to date with data from the most recent climate models; (2) the REMIND-MAgPIE model has a broad range of temperature outcomes; (3) it is the only NGFS model which integrates potential future damages from physical risks; and (4) the scenarios were selected to capture a range of assumptions about uncertain futures, covering both a smooth and delayed transition to <2°C, and a hot house world above 3°C by 2100.",
+      "evidence": "\"data was sourced from the Network for Greening the Financial System (NGFS) Phase 5 Scenario Explorer, using the REMIND-MAgPIE 3.3-4.8 model. Unlike many of the scenario explorer databases available, the NGFS scenarios remain up to date with data from the most recent climate models. The REMIND-MAgPIE model has a broad range of temperature outcomes, and is the only NGFS model which integrates potential future damages from physical risks. These scenarios were selected in order to capture a range of assumptions about uncertain futures. Two of our scenarios meet the Paris Agreement goal of <2°C by 2100, but compare the effects of a smooth and delayed transition. Our third scenario leads to a hot house world, where emissions continue to rise into the long term above 3°C by 2100.\"",
+      "location_hint": "Page 26",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "Mainfreight examined the revenue performance of ten areas impacted by recent natural events (five new areas plus five from the prior analysis). Events studied include the LA Wildfires, Hurricane Milton, the Dunedin Floods, New South Wales Floods, and Cyclone Jasper. They measured freight revenue originating in or destined for each affected area for the 6 months before and after each event (or 3 months either side for more recent events with limited post-event data), then compared performance to the wider operating region to produce an \"operating difference percentage.\"",
+      "evidence": "\"We examined the revenue performance of five new areas impacted by recent natural events, along with the five areas considered in our last analysis. We used the event as the centre point and viewed performance for the 6 months leading up to the event, and the 6 months following. More recent events, with limited post event data, used a 3-month period either side of the event (these include the LA Wildfires, Hurricane Milton and the Dunedin Floods). Events with limited data in our prior reporting period have been updated to the full 12-month period in this report (New South Wales Floods and Cyclone Jasper). Revenue figures included freight, both originating in, or destined for, the affected area, for both the Transport and Air & Ocean business units... The performance was then compared to that of the wider operating region, with regional revenue growth subtracted from the impacted area growth to produce our operating difference percentage.\"",
+      "location_hint": "Page 35, Acute Physical Impacts to Assets section",
+      "confidence": "high",
+      "notes": "The context describes the methodology for assessing historic climate impacts via a case study approach but does not provide the actual numerical results of the operating difference percentages.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Mainfreight identifies the following direct (acute) and indirect (chronic) physical climate risks:\n\n**Acute (direct) physical risks:**\n- Flooding — rated as the highest international risk category, with leading exposure in Europe and Australia, followed by New Zealand\n- Storm surge — next highest risk, highly centralised around Europe and New Zealand\n- Windstorm — similarly rated, more broadly impactful across regions\n- Wildfire — heavily centred around Queensland, Australia (accounting for over 90% of international wildfire risk)\n\n**Chronic (indirect) physical risks:**\n- Increasing temperature, rainfall, and sea levels — viewed as not especially material to Mainfreight facilities at present\n\n**Indirect/operational risks:**\n- The Air & Ocean business unit, while less exposed to acute physical risks due to its smaller physical footprint, is highly dependent on critical infrastructure (ports and airports) which could be disrupted operationally.\n\n**Regional exposure:**\n- Europe has the highest overall risk exposure (partly mitigated by lower asset ownership)\n- The Americas carry significantly less overall risk due to low asset ownership, higher proportion of Air & Ocean branches, and a lower risk profile",
+      "evidence": "\"Flooding rates as our highest international risk category, with leading exposure in Europe and Australia, followed to a lesser extent by New Zealand. Storm surge and windstorm rate similarly as our next highest risks, but with the former being highly centralised around Europe and New Zealand, whereas windstorm is more broadly impactful. Our wildfire risk is heavily centred around Queensland, Australia, with Australia accounting for over 90% of our international wildfire risk... Our Air & Ocean business unit, with a smaller physical footprint, is less exposed to acute physical risks. However, it is highly dependent on critical infrastructure, like ports and airports, which could be disrupted and impact us operationally. Chronic physical risks are viewed here as not especially material to Mainfreight facilities.\"",
+      "location_hint": "Page 30",
+      "confidence": "high",
+      "notes": "Chronic risks (increasing temperature, rainfall, sea levels) are defined on page 26 but assessed as not especially material to Mainfreight facilities per page 30. Acute risks are quantitatively modelled; transition risks are qualitative only.",
+      "verification": null
+    }
+  ]
+}

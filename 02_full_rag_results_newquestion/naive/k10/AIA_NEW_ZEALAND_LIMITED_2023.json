@@ -1,0 +1,170 @@
+{
+  "source": "AIA_NEW_ZEALAND_LIMITED_2023",
+  "model_id": "claude-sonnet-4-6",
+  "k": 10,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "output_tokens": 6629,
+      "input_token_details": {
+        "cache_read": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_creation": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 84481,
+      "total_tokens": 91110
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "AIA NZ used three climate scenarios:\n1. Net-Zero 2050 (Orderly) — aligned with NGFS Net Zero 2050 (1.5°C), SSP1-1.9/RCP2.6, NIWA RCP2.6, CCC 'Tailwinds'\n2. Delayed Transition (Disorderly) — aligned with NGFS Delayed Transition (1.8°C), SSP1-1.9/RCP2.6, NIWA RCP2.6, CCC 'Headwinds'\n3. Current Policies (Hothouse) — aligned with NGFS Current Policies (>3°C), SSP5-8.5/RCP8.5, NIWA RCP8.5, CCC 'Current Policy Reference'",
+      "evidence": "\"NET-ZERO 2050 (ORDERLY​)​ ... DELAYED TRANSITION​ (DISORDERLY)​ ... CURRENT POLICIES (HOTHOUSE​)​ ... NGFS Net Zero 2050 (1.5°C)​ ... NGFS Delayed Transition (1.8°C)​ ... NGFS Current Policies (>3°C)​\"",
+      "location_hint": "Section 2.3, page 10",
+      "confidence": "high",
+      "notes": "All three scenarios are explicitly named and described in the table on page 10 (Section 2.3).",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes three scenarios with different temperature outcomes by 2100 (or end of century): Net-Zero 2050 (1.5°C, NGFS Net Zero 2050), Delayed Transition (1.8°C, NGFS Delayed Transition), and Current Policies (>3°C, NGFS Current Policies). The Current Policies (Hothouse) scenario specifically states \"emissions growing until 2080 leading to 3°C of warming.\"",
+      "evidence": "\"NGFS Net Zero 2050 (1.5°C)​ ... NGFS Delayed Transition (1.8°C)​ ... NGFS Current Policies (>3°C)​\" and \"This scenario assumes the continuation of any currently implemented climate policies and no further action. There is slow technology uptake and low CO2 removal, with emissions growing until 2080 leading to 3°C of warming and severe physical risks.\"",
+      "location_hint": "Section 2.3 (p.11) and Section 2.7 (p.13)",
+      "confidence": "high",
+      "notes": "Three scenarios are presented: 1.5°C (Net-Zero 2050/Orderly), 1.8°C (Delayed Transition/Disorderly), and >3°C (Current Policies/Hothouse). The 3°C figure is explicitly tied to emissions growing until 2080 under the Current Policies scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "The scenarios used by AIA NZ were sourced from multiple providers: IPCC (Intergovernmental Panel on Climate Change) for global climate and socioeconomic parameters, NGFS (Network for Greening the Financial System) for global energy and emission pathway parameters, NIWA (National Institute of Water and Atmospheric Research) for NZ physical impact parameters, and CCC (Climate Change Commission) for NZ transition impact parameters.",
+      "evidence": "\"Global Climate and Socioeconomic parameters: Intergovernmental Panel on Climate change (\"IPCC\") Shared Socioeconomic Pathway (\"SSP\") | Global energy and emission pathway parameters: Network for Greening the Financial System (\"NGFS\") 2022 | NZ physical impact parameters: National Institute of Water and Atmospheric Research (\"NIWA\") Representative Concentration Pathway (\"RCP\") | NZ transition impact parameters: Climate Change Commission (\"CCC\") 2021\"",
+      "location_hint": "Section 2.3, page 10",
+      "confidence": "high",
+      "notes": "Multiple scenario providers are used for different parameters. The primary scenario framework is NGFS, supplemented by IPCC, NIWA, and CCC for specific parameters.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes. AIA NZ uses a mix of SSPs and RCPs across its three scenarios. For the Net-Zero 2050 (Orderly) and Delayed Transition (Disorderly) scenarios, it uses SSP1-1.9 with RCP2.6. For the Current Policies (Hothouse) scenario, it uses SSP5-8.5 with RCP8.5. Notably, the Delayed Transition scenario uses SSP1-1.9/RCP2.6 for global climate parameters (implying a low-warming physical outcome long-term) while using NGFS Delayed Transition (1.8°C) for energy/emission pathways and CCC 'Headwinds' for NZ transition parameters — combining different framework elements across scenarios.",
+      "evidence": "\"Global Climate and Socioeconomic parameters: Intergovernmental Panel on Climate change (\"IPCC\") Shared Socioeconomic Pathway (\"SSP\")​ — SSP1-1.9, RCP2.6 [Net-Zero 2050]; SSP1-1.9, RCP2.6 [Delayed Transition]; SSP5-8.5, RCP8.5 [Current Policies]. NZ physical impact parameters: National Institute of Water and Atmospheric Research (\"NIWA\") Representative Concentration Pathway (\"RCP\") — NIWA RCP2.6 [Net-Zero 2050]; NIWA RCP2.6 [Delayed Transition]; NIWA RCP8.5 [Current Policies].\"",
+      "location_hint": "Section 2.3, page 11",
+      "confidence": "high",
+      "notes": "The Delayed Transition scenario uses SSP1-1.9/RCP2.6 (same as the orderly scenario) for global climate parameters, but pairs it with NGFS Delayed Transition (1.8°C) and CCC 'Headwinds' for transition parameters. This is a notable pick-and-mix: the physical pathway is the same as the orderly scenario, but the transition pathway is more disorderly/costly.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes. AIA NZ developed internally customised scenarios rather than relying solely on industry scenarios. They participated in the FSC working group that developed industry scenarios for life and health insurers and fund managers, but used internally developed scenarios for their own analysis, cross-checked for consistency against the FSC scenarios. Internally consistent scenarios were developed by aligning sources of data with reference to XRB guidance, and summaries were produced outlining key physical and socioeconomic impacts both globally and for New Zealand. The scenarios used include at least a \"Net-Zero 2050 (Orderly)\" scenario.",
+      "evidence": "\"AIA NZ participated in the FSC working group that developed industry scenarios for life and health insurers and fund managers. However, to ensure that scenario analysis was relevant to our business internally developed scenarios were utilised, with these cross-checked for consistency against the FSC scenarios. Internally consistent scenarios were developed through aligning sources of data with reference to the XRB guidance. Summaries of the scenarios were produced outlining key physical and socioeconomic impacts both globally and for New Zealand.\"",
+      "location_hint": "Section 2.4, page 11",
+      "confidence": "high",
+      "notes": "AIA NZ used internally developed (customised) scenarios cross-checked against FSC industry scenarios. One named scenario is \"Net-Zero 2050 (Orderly)\" described on page 11/12.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "AIA NZ participated in the FSC (Financial Services Council) working group that developed industry scenarios for life and health insurers and fund managers. However, internally developed scenarios were ultimately utilised (cross-checked for consistency against the FSC scenarios). Internally consistent scenarios were developed by aligning sources of data with reference to XRB guidance. Workshops were held with subject matter experts across the business to explore impacts under different climate scenarios.",
+      "evidence": "\"AIA NZ participated in the FSC working group that developed industry scenarios for life and health insurers and fund managers. However, to ensure that scenario analysis was relevant to our business internally developed scenarios were utilised, with these cross-checked for consistency against the FSC scenarios. Internally consistent scenarios were developed through aligning sources of data with reference to the XRB guidance. Summaries of the scenarios were produced outlining key physical and socioeconomic impacts both globally and for New Zealand. Workshops were held with subject matter experts across the business to answer the focal question 'How is AIA NZ impacted under different climate scenarios?'.\"",
+      "location_hint": "Section 2.4, page 11",
+      "confidence": "high",
+      "notes": "AIA NZ co-participated in FSC industry scenario development but ultimately used internally developed scenarios cross-checked against FSC scenarios. The co-production element was participation in the FSC working group.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "AIA NZ uses three climate scenarios: (1) Net-Zero 2050 (Orderly) — aligned with NGFS Net Zero 2050 (1.5°C), IPCC SSP1-1.9/RCP2.6, NIWA RCP2.6, and CCC 'Tailwinds'; (2) Delayed Transition (Disorderly) — aligned with NGFS Delayed Transition (1.8°C), IPCC SSP1-1.9/RCP2.6, NIWA RCP2.6, and CCC 'Headwinds'; (3) Current Policies (Hothouse) — aligned with NGFS Current Policies (>3°C), IPCC SSP5-8.5/RCP8.5, NIWA RCP8.5, and CCC 'Current Policy Reference'.",
+      "evidence": "\"SOURCES OF DATA | NET-ZERO 2050 (ORDERLY) | DELAYED TRANSITION (DISORDERLY) | CURRENT POLICIES (HOTHOUSE) | Global Climate and Socioeconomic parameters: IPCC SSP1-1.9, RCP2.6 | SSP1-1.9, RCP2.6 | SSP5-8.5, RCP8.5 | Global energy and emission pathway parameters: NGFS Net Zero 2050 (1.5°C) | NGFS Delayed Transition (1.8°C) | NGFS Current Policies (>3°C) | NZ physical impact parameters: NIWA RCP2.6 | NIWA RCP2.6 | NIWA RCP8.5 | NZ transition impact parameters: CCC 'Tailwinds' | CCC 'Headwinds' | CCC 'Current Policy Reference'\"",
+      "location_hint": "Section 2.3, page 11",
+      "confidence": "high",
+      "notes": "The three scenarios are clearly described with their data sources and rationale for selection in the table on page 11 (Section 2.3).",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The context describes the climate scenarios and data sources used (IPCC SSP, NGFS, NIWA, CCC), but does not mention a specific climate or financial model (e.g., IAM or proprietary model) used for scenario analysis. The question about \"model used\" cannot be answered from the provided context.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. AIA NZ considers damage from acute physical risks, specifically local increases in extreme weather events (flood, cyclone), which can cause business disruption, morbidity, mortality, lapse & sales impacts, pandemic and catastrophe risk, reinsurance availability issues, asset value changes, market volatility, market liquidity impacts, and affect customers in vulnerable circumstances. In early 2023, flooding in Auckland and Northland and Cyclone Gabrielle highlighted New Zealand's vulnerability, causing widespread damage to infrastructure and supply chains with high economic impact.",
+      "evidence": "\"Environment - Acute: Local increase in extreme weather events (flood, cyclone) — Business disruption, Morbidity, Mortality, Lapse & Sales, Pandemic and Catastrophe, Reinsurance availability, Asset Values, Market Volatility, Market liquidity, Customers in vulnerable circumstances\" and \"In early 2023, the flooding experienced in Auckland and Northland, as well as Cyclone Gabrielle which impacted much of the North Island including the Hawkes Bay, highlighted New Zealand's vulnerability to extreme weather events. Widespread damage impacted infrastructure and supply chains, which came with a high economic impact from both disaster recovery costs and lost productivity.\"",
+      "location_hint": "Section 2.9 (p.15) and Section 2.1 (p.10)",
+      "confidence": "high",
+      "notes": "AIA NZ explicitly identifies acute physical risks (extreme weather events) and their manifestations across operations, insurance & reinsurance, investments, and reputation & regulatory dimensions.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context does not explicitly describe non-temperature variables (e.g., precipitation, sea level rise, wind speed) used in the scenario analysis. The document references NIWA temperature projections and NGFS scenarios, and discusses physical and transition risks qualitatively, but does not enumerate specific non-temperature climate variables incorporated into the scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "AIA NZ used three scenarios at different scales:\n1. Net-Zero 2050 (Orderly) – aligned with NGFS Net Zero 2050 (1.5°C), IPCC SSP1-1.9/RCP2.6, NIWA RCP2.6, CCC 'Tailwinds'\n2. Delayed Transition (Disorderly) – aligned with NGFS Delayed Transition (1.8°C), IPCC SSP1-1.9/RCP2.6, NIWA RCP2.6, CCC 'Headwinds'\n3. Current Policies (Hothouse) – aligned with NGFS Current Policies (>3°C), IPCC SSP5-8.5/RCP8.5, NIWA RCP8.5, CCC 'Current Policy Reference'",
+      "evidence": "\"SOURCES OF DATA | NET-ZERO 2050 (ORDERLY) | DELAYED TRANSITION (DISORDERLY) | CURRENT POLICIES (HOTHOUSE) ... NGFS Net Zero 2050 (1.5°C) | NGFS Delayed Transition (1.8°C) | NGFS Current Policies (>3°C) ... SSP1-1.9, RCP2.6 | SSP1-1.9, RCP2.6 | SSP5-8.5, RCP8.5 ... NIWA RCP2.6 | NIWA RCP2.6 | NIWA RCP8.5 ... CCC 'Tailwinds' | CCC 'Headwinds' | CCC 'Current Policy Reference'\"",
+      "location_hint": "Section 2.3, p.11 (page 10 of PDF)",
+      "confidence": "high",
+      "notes": "Three scenarios spanning 1.5°C to >3°C of warming, using global (NGFS/IPCC) and NZ-specific (NIWA/CCC) data sources. Scenarios cover short, medium, and long time horizons.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "AIA NZ uses three time frames:\n- Short: 0–3 years (aligns with strategic planning period)\n- Medium: 3–10 years (aligns with capital management of risk insurance products, near-term science-based targets for emission reduction and global ambition to engage a billion people to live Healthier, Longer, Better Lives by 2030)\n- Long: 10–30 years (aligns with Net-Zero Commitment and the long-term nature of AIA NZ's life insurance business)",
+      "evidence": "AIA NZ TIMEFRAMES (YEARS)\nShort 0-3 Aligns with strategic planning period\nMedium 3-10 Aligns with capital management of risk insurance products, near-term science-based targets for emission reduction and our global ambition to engage a billion people to live Healthier, Longer, Better Lives by 2030\nLong 10-30 Aligns with Net-Zero Commitment and the long-term nature of AIA NZ's life insurance business",
+      "location_hint": "Section 2.2, p.10",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "AIA NZ justified its scenario/model choices on the following grounds:\n1. Net-Zero 2050 (Orderly): Meets NZ CS requirement for a 1.5°C aligned scenario; aligned with AIA Group scenario; aligned with FSC scenario; explores high transition risk and opportunities over short time-frame.\n2. Delayed Transition (Disorderly): Aligned with AIA Group scenario; aligned with FSC 'too little too late' scenario on local transition risk; explores highest transition risk over medium timeframe.\n3. Current Policies (Hothouse): Meets NZ CS requirement for a greater than 3°C aligned scenario; aligned with AIA Group scenario; aligned with FSC scenario; explores highest physical risk.\n\nInternally consistent scenarios were developed by aligning sources of data with reference to XRB guidance, and cross-checked for consistency against FSC scenarios.",
+      "evidence": "\"Rationale for selection: [Net-Zero 2050] Meets NZ CS requirement for a 1.5°C aligned scenario​; Aligned with AIA Group scenario​; Aligned with Financial Services Council of New Zealand (FSC) scenario​; Explores high transition risk and opportunities over short time-frame​; [Delayed Transition] Aligned with AIA Group scenario​; Aligned with FSC 'too little too late' scenario on local transition risk​; Explores highest transition risk over medium timeframe; [Current Policies] Meets NZ CS requirement for a greater than 3°C aligned scenario​; Aligned with AIA Group scenario​; Aligned with FSC scenario​; Explores highest physical risk​\"\n\n\"AIA NZ participated in the FSC working group that developed industry scenarios for life and health insurers and fund managers. However, to ensure that scenario analysis was relevant to our business internally developed scenarios were utilised, with these cross-checked for consistency against the FSC scenarios. Internally consistent scenarios were developed through aligning sources of data with reference to the XRB guidance.\"",
+      "location_hint": "Section 2.3, p.11 (table); Section 2.4, p.11",
+      "confidence": "high",
+      "notes": "The rationale is explicitly stated in the scenario table and the methodology section of the report.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context from AIA NZ's Climate Related Disclosures Report focuses on forward-looking scenario analysis, future risks and opportunities, and current risk management frameworks. There is no discussion of historic (past) climate impacts on the company's operations, financials, or claims experience. The document explicitly notes that 2023 was AIA NZ's first reporting period under the new Aotearoa New Zealand Climate Standards.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "AIA NZ identifies the following physical climate risks:\n\n**Acute (Direct) Physical Risks:**\n- Local increase in extreme weather events (flood, cyclone), leading to: Business disruption, Morbidity, Mortality, Lapse & Sales, Pandemic and Catastrophe, Reinsurance availability, Asset Values, Market Volatility, Market liquidity, Customers in vulnerable circumstances.\n\n**Chronic (Indirect) Physical Risks:**\n- Local managed retreat & lack of social cohesion worsens mental health\n- Global increasing prevalence of disease\n- Global socioeconomic impacts (lost productivity, disaster relief, financial system instability) and supply chain disruption\n- These manifest as: Mortality, Morbidity, Lapse & Sales\n\nThe most material impacts from physical risk are longer-term health impacts on claims experience (across all protection products), as well as impacts on operations and investment portfolio.",
+      "evidence": "\"Physical Risks and Opportunities — Environment - Acute: Local increase in extreme weather events (flood, cyclone) — Business disruption, Morbidity, Mortality, Lapse & Sales, Pandemic and Catastrophe, Reinsurance availability, Asset Values, Market Volatility, Market liquidity, Customers in vulnerable circumstances. Environment - Chronic: Local managed retreat & lack of social cohesion worsens mental health; Global increasing prevalence of disease; Global socioeconomic impacts (lost productivity, disaster relief, financial system instability) and supply chain disruption; Mortality, Morbidity, Lapse & Sales.\"\n\n\"The most material impacts identified from physical risk are longer-term health impacts on our claims experience (which impacts across all protection products), as well as impacts on our operations and investment portfolio.\"",
+      "location_hint": "Section 2.9, p.15; Section 4.3, p.21",
+      "confidence": "high",
+      "notes": "The document distinguishes between acute (direct) and chronic (indirect) physical risks in the risk table on p.15, and provides materiality commentary on p.21.",
+      "verification": null
+    }
+  ]
+}

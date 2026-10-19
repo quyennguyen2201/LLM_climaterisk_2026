@@ -1,0 +1,170 @@
+{
+  "source": "QUAYSIDE_HOLDINGS_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "output_tokens": 6909,
+      "total_tokens": 51392,
+      "input_tokens": 44483,
+      "input_token_details": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0,
+        "cache_creation": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "The context references \"three climate scenarios\" used by Quayside, developed from Financial Services Sector Climate Scenarios as well as Transport, Agricultural, and Energy Sector Climate Scenarios. However, the specific names or labels of the three scenarios are not explicitly listed in the retrieved context passages.",
+      "evidence": "\"For the PoT and Direct non-Port assets, this entailed qualitatively assessing each asset's expected level of exposure under each Quayside scenario.\" and \"how each profile is expected to change under Quayside's three climate scenarios.\"",
+      "location_hint": "Page 16, Page 23",
+      "confidence": "low",
+      "notes": "The context confirms Quayside uses three climate scenarios and references the sector scenarios used as a starting point, but the specific names/labels of the three scenarios are not provided in the retrieved passages. The answer is therefore incomplete — only the number (three) and the source frameworks are identifiable.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Quayside Holdings uses three scenarios with the following global temperature outcomes by 2100:\n- Orderly: 1.4°C\n- Disorderly: 2.6°C\n- Hothouse: 3.9°C",
+      "evidence": "\"ORDERLY - 1.4°c at 2100 ... DISORDERLY - 2.6°c at 2100 ... HOTHOUSE - 3.9°c at 2100 ... Global mean annual change: 1.6°c at 2050 / 1.4°c at 2100* ... Global mean annual change: 2°c at 2050 / 2.6°c at 2100* ... Global mean annual change: 2.5°c at 2050 / 3.9°c at 2100*\"",
+      "location_hint": "Page 25, Temperature Outcomes table",
+      "confidence": "high",
+      "notes": "All three scenario temperature outcomes by 2100 are explicitly stated in the scenario comparison table.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "NGFS (Network for Greening the Financial System), SSP/RCP pathways (NIWA), and sector-specific scenarios including CCC (Climate Change Commission) scenarios, Agriculture Sector (Tū-ā-pae / Tū-ā-hopo), Transport Sector, and Financial Services Sector scenarios.",
+      "evidence": "REFERENCE SCENARIOS AND PATHWAYS: NGFS: Net Zero 2050, SSP1-1.9, RCP 1.9 (NIWA RCP 2.6); NGFS: Delayed Transition, SSP2-4.5, RCP 4.5 (NIWA RCP 4.5); NGFS: Current Policies, SSP3-7.0, RCP 8.5 (NIWA RCP 8.5); CCC Tailwinds; CCC Headwinds; CCC Current Policy Reference",
+      "location_hint": "Page 24",
+      "confidence": "high",
+      "notes": "Multiple scenario providers are referenced: NGFS for transition scenarios, NIWA for downscaled physical climate projections (RCP), and CCC (Climate Change Commission) for NZ-specific narrative scenarios. Sector scenarios from Agriculture, Transport, and Financial Services sectors are also used as reference archetypes.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Quayside's scenario framework uses the following SSP/RCP combinations:\n1. **Orderly scenario**: NGFS Net Zero 2050 / SSP1-1.9 / RCP 1.9 (NIWA RCP 2.6)\n2. **Disorderly scenario**: NGFS Delayed Transition / SSP2-4.5 / RCP 4.5 (NIWA RCP 4.5)\n3. **Hot House scenario**: NGFS Current Policies / SSP3-7.0 / RCP 8.5 (NIWA RCP 8.5)\n\nKey deviations from sector peers:\n- The Disorderly scenario uses RCP 4.5 (aligned with the Agricultural Sector's Tū-ā-hope scenario), deviating from the Transport Sector's \"Short Detour\" equivalent which uses SSP2-2.6/NIWA RCP 2.6.\n- The Hot House scenario uses SSP3-7.0/RCP 8.5, deviating from the Agriculture and Financial Services sector \"Hothouse\" equivalents (which are based on SSP5-8.5). Quayside chose SSP3 because it presents more challenging circumstances and will likely entail similar physical impacts to SSP5-8.5.\n- NIWA has not produced downscaled projections based on AR6 SSP couplings for RCP 1.9, so NIWA RCP 2.6 and RCP 8.5 projections were used as proxies for SSP1-1.9 and SSP3-7.0 respectively.",
+      "evidence": "REFERENCE SCENARIOS AND PATHWAYS: NGFS: Net Zero 2050 / SSP1-1.9 / RCP 1.9 (NIWA RCP 2.6); NGFS: Delayed Transition / SSP2-4.5 / RCP 4.5 (NIWA RCP 4.5); NGFS: Current Policies / SSP3-7.0 / RCP 8.5 (NIWA RCP 8.5). ... SSP5 assumes continued fossil fuel consumption and rapid technological advancement will enable functional global trade that delivers high economic growth. In contrast, SSP3 depicts a fragmented world characterised by regional blocs, protectionism, and low economic cooperation. Quayside and PoT elected to align with SSP3 because: (a) it entails circumstances that are arguably more challenging and thereby present more opportunity to stress test the resilience of Quayside's business model; and (b) it will likely entail physical impacts that are similar to those under SSP5-8.5. ... As NIWA has not produced downscaled climate projections based on AR6 SSP couplings, RCP 1.9, NIWA RCP 2.6 and RCP 8.5 projections were relied on in place of SSP1-1.9 and SSP3-7.0 respectively.",
+      "location_hint": "Page 24",
+      "confidence": "high",
+      "notes": "Quayside deliberately mixes SSPs and RCPs across scenarios, deviating from some sector peers for reasons of agricultural alignment, physical impact differentiation, and NIWA data availability constraints.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes. Quayside developed customised climate scenarios using a hybrid \"top-down\" and \"bottom-up\" approach. They started with the Financial Services Sector Climate Scenarios and also incorporated Transport, Agricultural, and Energy Sector Climate Scenarios (given Port of Tauranga comprises over 80% of the portfolio). Broad climate archetypes were downscaled from sector scenarios, and detailed drivers and outcomes were then developed from the bottom-up within each archetype. Drivers were either adopted in full or translated into Quayside-specific (\"downscaled\") versions.",
+      "evidence": "\"Quayside opted for a hybrid 'top-down' and 'bottom-up' approach. Broad climate archetypes were downscaled from sector scenarios to manage multi-sector complexity and ensure consistency. Detailed drivers and outcomes were then developed from the bottom-up within each archetype, allowing for relevance, impact, and challenge while maintaining internal coherence across scenarios.\" and \"drivers were derived from the applicable sector scenarios noted above, by either: (A) adopting a driver in full where it was identified as a potential critical uncertainty... or (B) adopting a Quayside specific translation of the given sector driver (i.e. a 'downscaled' version of the same).\"",
+      "location_hint": "Page 23",
+      "confidence": "high",
+      "notes": "Quayside used both sector-level scenarios (Financial Services, Transport, Agricultural, Energy) and customised/downscaled versions to reflect their specific portfolio circumstances, particularly the dominance of Port of Tauranga.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Quayside Holdings developed its climate scenarios using a hybrid \"top-down\" and \"bottom-up\" approach. They started with the Financial Services Sector Climate Scenarios as a base, and also incorporated Transport, Agricultural, and Energy Sector Climate Scenarios given the Port of Tauranga's dominance (>80%) in their portfolio. Broad climate archetypes were downscaled from sector scenarios, and detailed drivers and outcomes were then developed from the bottom-up within each archetype. Drivers were either adopted in full or translated into Quayside-specific (\"downscaled\") versions. This process aligned generally with Steps 4 and 5.1 of the XRB guidance.",
+      "evidence": "\"Quayside opted for a hybrid 'top-down' and 'bottom-up' approach. Broad climate archetypes were downscaled from sector scenarios to manage multi-sector complexity and ensure consistency. Detailed drivers and outcomes were then developed from the bottom-up within each archetype, allowing for relevance, impact, and challenge while maintaining internal coherence across scenarios. This approach balanced practicality with the need for robust scenario development.\"",
+      "location_hint": "Page 23",
+      "confidence": "high",
+      "notes": "The context does not explicitly use the term \"co-produced\" but describes the scenario development methodology in detail. The scenarios were not co-produced with external stakeholders in the traditional sense; rather, they were developed internally using sector scenarios as a starting point and downscaled to Quayside's specific circumstances.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Quayside used the Financial Services Sector Climate Scenarios as a starting point, and also deemed the Transport, Agricultural, and Energy Sector Climate Scenarios relevant (given Port of Tauranga comprises over 80% of Quayside's portfolio). These sector scenarios were used to derive drivers and develop climate scenario archetypes through a hybrid \"top-down\" and \"bottom-up\" approach, aligned with XRB guidance steps 4.1, 4.2, and 5.1.",
+      "evidence": "\"As an asset manager, Quayside first used the Financial Services Sector Climate Scenarios as a starting point. As the Port of Tauranga comprises over 80% of Quayside's portfolio the Transport, Agricultural, and Energy Sector Climate Scenario's were also deemed relevant... This process generally aligned with Step 4 'Select temperature outcomes and emissions pathways' (specifically steps 4.1, 4.2), and step 5.1 of the XRB guidance.\"",
+      "location_hint": "Page 23",
+      "confidence": "high",
+      "notes": "The document describes the baseline/starting scenarios used but does not name specific temperature pathways (e.g., 1.5°C, 2°C, 3°C) in the retrieved context. The sector scenarios referenced are the XRB/NZ-specific sector climate scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context describes Quayside's climate scenario development process and references XRB guidance and sector climate scenarios as starting points, but does not explicitly name a specific climate model (e.g., IPCC, RCP, SSP model) used for the analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Quayside Holdings considers damage from acute physical risks across its portfolio. Key risks identified include:\n- DQR1: Increased risk of acute damage to commercial real estate assets and strategic asset sites caused by exposure to increased rainfall, wind and storm events (assets at risk: eight commercial properties valued at ~$86.4 million, and Rangiuru Business Park and Tauriko valued at ~$120.1 million).\n- DQR2: Heightened risk of flood-related damage and disruption due to increased extreme rain, wind and storm events.\n- DQR3: Increased risk of damage to Huakiwi orchards (including land, vines, root systems, assets and infrastructure) due to increased extreme rain, wind, storm, and flood events.\n- Direct physical risks to Port Assets and Operations (DR1 to DR5) are also considered for the Port of Tauranga.",
+      "evidence": "\"DQR1: Increased risk of acute damage to commercial real estate assets and strategic asset sites, cause by exposure to increased rainfall, wind and storm events. DQR2: Heightened risk of flood related damage and disruption, due to increased extreme rain, wind and storm events DQR3: Increased risk of damage to Huakiwi orchards (including land, vines and root systems, assets and infrastructure) due to increased extreme rain, wind, storm, and flood events.\"",
+      "location_hint": "Page 35, Risk Summary table",
+      "confidence": "high",
+      "notes": "The document explicitly identifies and describes multiple acute physical risk categories (DQR1–DQR3) with associated assets at risk and estimated values. Port-level direct physical risks (DR1–DR5) are also referenced on page 27.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The document references several non-temperature climate variables used in scenario analysis, including: wetter winters, dryer summers, reduced frost days, reduced cold nights (chronic hazards); increased extreme weather (rainfall, wind and storm, flooding events projected to increase in severity, frequency, and duration); drought; wildfire weather; increased landslide and soil erosion events; and increased pests and pathogens.",
+      "evidence": "\"Chronic climate hazards: including increasing temperatures, wetter winters, dryer summers, reduced frost days, and reduced cold nights; Acute climate hazards: including increased: extreme weather (i.e. rainfall, wind and storm, and flooding events, which are projected to increase in severity, frequency, and duration); drought; wild fire weather. Related natural hazards including: increased landslide and soil erosion events caused by extreme rainfall, wind and storm events; and, increased pests and pathogens (new and increased prevalence) caused by increased temperatures.\"",
+      "location_hint": "Page 30, footnote 28",
+      "confidence": "high",
+      "notes": "These variables are listed in the context of indirect physical risks to agricultural systems (dairy, forestry, kiwifruit) that affect export freight volumes through the Port of Tauranga.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context discusses the definition of climate scenarios, impact ratings, and the disclaimer around forward-looking statements, but does not explicitly describe the \"scale\" of scenarios used (e.g., number of scenarios, global vs. sectoral scope, or specific scenario names/warming levels). No direct answer to the scale of scenarios is present in the provided passages.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Short Term: 2024–2035, Medium Term: 2036–2050, Long Term: 2051–2075",
+      "evidence": "Time horizons: Short Term (2024-2035), Medium Term (2036-2050), Long Term (2051-2075)",
+      "location_hint": "Page 18, Impact rating section",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Quayside justified its scenario and model choices on several grounds:\n\n1. **Sector relevance**: As an asset manager with the Port of Tauranga comprising over 80% of its portfolio, Quayside used the Financial Services Sector Climate Scenarios as a starting point, and also deemed the Transport, Agricultural, and Energy Sector Climate Scenarios relevant.\n\n2. **Hybrid top-down/bottom-up approach**: Rather than following XRB's suggested sequence of selecting drivers first, Quayside opted for a hybrid approach — broad climate archetypes were downscaled from sector scenarios to manage multi-sector complexity and ensure consistency, then detailed drivers and outcomes were developed bottom-up within each archetype.\n\n3. **Agricultural alignment**: Quayside aligned its Disorderly scenario with the Agricultural Sector equivalent (RCP 4.5 rather than RCP 2.6) because: (a) it provides more distinct and challenging physical impact circumstances; (b) the Port of Tauranga (nearly 80% of portfolio by VaR) is aligned with the Agricultural Sector's Disorderly archetype, as primary sector goods make up over 65% of total freight; and (c) many of Quayside's other Strategic and Commercial assets are also agriculturally based.\n\n4. **NIWA data availability**: As NIWA has not produced downscaled climate projections based on AR6 SSP couplings for RCP 1.9, NIWA RCP 2.6 and RCP 8.5 projections were relied on in place of SSP1-1.9 and SSP3-7.0 respectively.\n\n5. **Scenario criteria**: Adopted global reference scenarios, emissions trajectories, and macro assumptions that met key scenario criteria: plausible, challenging, distinctive, internally consistent, and relevant.",
+      "evidence": "\"As an asset manager, Quayside first used the Financial Services Sector Climate Scenarios as a starting point. As the Port of Tauranga comprises over 80% of Quayside's portfolio the Transport, Agricultural, and Energy Sector Climate Scenario's were also deemed relevant... Quayside opted for a hybrid 'top-down' and 'bottom-up' approach. Broad climate archetypes were downscaled from sector scenarios to manage multi-sector complexity and ensure consistency... Quayside has chosen to fully align its Disorderly scenario with the Agricultural Sector equivalent (and thereby deviate from the RCP set out in the Transport Sector equivalent) because: (a) it provides a more distinct set of challenging physical impact circumstances to test against... (b) the PoT which comprises nearly 80% of Quayside's portfolio on a Value at Risk ('VaR') basis is also aligned with the Agriculture Sector's Disorderly archetype in full, as primary sector goods make up over 65% of total freight moved via PoT sites... As NIWA has not produced downscaled climate projections based on AR6 SSP couplings, RCP 1.9, NIWA RCP 2.6 and RCP 8.5 projections were relied on in place of SSP1-1.9 and SSP3-7.0 respectively.\"",
+      "location_hint": "Pages 23–24, Quayside Holdings Limited FY24 Climate Related Disclosures",
+      "confidence": "high",
+      "notes": "Multiple justifications are provided across footnotes 7, 9, 12, and 13 on pages 23–24. All are directly quoted from the document.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "The document references Cyclone Gabrielle's impact on kiwifruit growers in the Te Tairāwhiti region as a historic climate event, noting it had the potential to wipe out vines and infrastructure on Huakiwi sites. It also references increasing challenges in obtaining affordable insurance in areas like Wellington and the Kapiti Coast due to coastal flooding and erosion risks. No broader quantitative historic climate impact data is provided in the retrieved context.",
+      "evidence": "\"As demonstrated by the impact of Cyclone Gabrielle on kiwifruit growers in the Te Tairāwhiti region, an acute even also has the potential to wipe out vines and infrastructure on Huakiwi sites. Such an outcome has the potential to cause full or partial loss of Quayside's investment, in part because it does not confer any ownership rights in the underlying land.\"",
+      "location_hint": "Page 35",
+      "confidence": "medium",
+      "notes": "The document uses Cyclone Gabrielle as a reference example of a historic acute climate event to illustrate potential future risks, rather than providing a comprehensive historic climate impact assessment. No specific financial losses from past events are quantified in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "The document identifies both direct and indirect physical climate risks, particularly for the Port of Tauranga (PoT) and Quayside's broader portfolio.\n\n**Indirect Physical Risks (to export freight volumes):**\nThree material indirect physical risks were identified for the PoT:\n- IDR1.A: Compromised Dairy seasonal production and gradual loss of productive capacity over time, due to multiple acute and chronic climate hazards.\n- IDR1.B: Compromised Forestry seasonal production and gradual loss of productive capacity over time, due to multiple acute and chronic climate hazards.\n- IDR1.C: Compromised Kiwifruit seasonal production and gradual loss of productive capacity over time, due to multiple acute and chronic climate hazards.\n\nThese agricultural systems face exposure to:\n- **Chronic hazards**: increasing temperatures, wetter winters, drier summers, reduced frost days, and reduced cold nights.\n- **Acute hazards**: increased extreme weather (rainfall, wind, storm, flooding events projected to increase in severity, frequency, and duration); drought; wildfire weather.\n- **Related natural hazards**: increased landslide and soil erosion events; increased pests and pathogens due to increased temperatures.\n\n**Assessment approach:**\n- For the PoT and Direct non-Port assets: qualitative exposure and vulnerability assessments were conducted under each climate scenario.\n- For indirect non-Port assets: climate-related risk and opportunity profiles were developed for each GICS sub-industry on a top-down basis.",
+      "evidence": "The PoT identified three indirect physical risks that were deemed material:\nIDR1.A: Compromised Dairy seasonal production and gradual loss of productive capacity over time, due to multiple acute, chronic climate hazards\nIDR1.B: Compromised Forestry seasonal production and gradual loss of productive capacity over time, due to multiple acute, chronic climate hazards.\nIDR1.C: Compromised Kiwifruit seasonal production and gradual loss of productive capacity over time, due to multiple acute, chronic climate hazards.\n\nProjections indicate dairy, forestry, and kiwifruit agricultural systems will experience increasing exposure to: Chronic climate hazards: including increasing temperatures, wetter winters, dryer summers, reduced frost days, and reduced cold nights; Acute climate hazards: including increased: extreme weather (i.e. rainfall, wind and storm, and flooding events, which are projected to increase in severity, frequency, and duration); drought; wild fire weather. Related natural hazards including: increased landslide and soil erosion events caused by extreme rainfall, wind and storm events; and, increased pests and pathogens (new and increased prevalence) caused by increased temperatures.",
+      "location_hint": "Page 30",
+      "confidence": "high",
+      "notes": "The context provides detailed information on indirect physical risks but does not explicitly enumerate direct physical risks in the retrieved chunks. The assessment methodology for both direct and indirect assets is described on pages 14 and 16.",
+      "verification": null
+    }
+  ]
+}

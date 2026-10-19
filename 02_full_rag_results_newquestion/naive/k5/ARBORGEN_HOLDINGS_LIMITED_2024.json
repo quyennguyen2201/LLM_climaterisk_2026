@@ -1,0 +1,170 @@
+{
+  "source": "ARBORGEN_HOLDINGS_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "output_tokens": 6634,
+      "input_token_details": {
+        "cache_read": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_creation": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 50264,
+      "total_tokens": 56898
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "ArborGen uses three scenario archetypes:\n1. **Orderly** – SSP1-1.9 / RCP2.6, temperature outcome of 1.5°C by 2100\n2. **Too little, too late** – SSP2-4.5 / RCP4.5, temperature outcome of 2.7°C by 2100\n3. **Hot house world** – SSP3-7.0 / RCP8.5, temperature outcome of >3.0°C by 2100",
+      "evidence": "Table 3: Scenario archetypes used to construct ArborGen's scenarios\nScenario archetypes: Orderly | Too little, too late | Hot house world\nShared Socio-economic Pathways (SSP-RCP): SSP1-1.9: Sustainability, very low GHG emissions | SSP2-4.5: Middle of the road, low GHG emissions | SSP3-7.0: Regional Rivalry, high GHG emissions\nRepresentative Concentration Pathways (RCP): RCP2.6 | RCP4.5 | RCP8.5\n\nTable 4: Temperature outcomes and emissions pathways for each scenario\nTemperature outcome (2100): 1.5°C | 2.7°C | >3.0°C",
+      "location_hint": "Pages 6–7, Table 3 and Table 4",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The three scenarios have the following global temperature outcomes by 2100:\n1. Orderly (SSP1-1.9): 1.5°C\n2. Too little, too late (SSP2-4.5): 2.7°C\n3. Hot house world (SSP3-7.0): >3.0°C",
+      "evidence": "Table 4: Temperature outcomes and emissions pathways for each scenario\nScenario archetypes: Orderly | Too little, too late | Hot house world\nTemperature outcome (2100): 1.5°C | 2.7°C | >3.0°C",
+      "location_hint": "Table 4, page 7",
+      "confidence": "high",
+      "notes": "All three scenario temperature outcomes by 2100 are explicitly stated in Table 4 of the document.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "IPCC (Intergovernmental Panel on Climate Change) SSP-RCP global scenarios and pathways, with weather/climate data from NOAA (National Oceanic and Atmospheric Administration) for Southern US operations and Probable Futures for Brazil operations. External consultants WSP New Zealand Ltd supported the scenario analysis process.",
+      "evidence": "\"To develop climate scenarios relevant to ArborGen's operational geographies in South America and the Southern US (the states of Alabama, Arkansas, Georgia, Florida, Texas, and South Carolina), we selected the Intergovernmental Panel on Climate Changes (IPCC's) SSP-RCP2 global scenarios and pathways. ArborGen uses weather and climate data from the United States federal agency the National Oceanic and Atmospheric Administration (NOAA) for its Southern US operations and Probable Futures for operations in Brazil.\" and \"Engaging external consultants (WSP New Zealand Ltd) to support our climate scenario analysis...\"",
+      "location_hint": "Page 6; Page 5",
+      "confidence": "high",
+      "notes": "Multiple scenario data providers are referenced: IPCC SSP-RCP for scenario archetypes, NOAA for US climate data, Probable Futures for Brazil data, and WSP New Zealand Ltd as the external consultant supporting the analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "ArborGen uses the following SSP-RCP combinations across its three scenario archetypes:\n1. Orderly: SSP1-1.9 (RCP2.6)\n2. Too little, too late: SSP2-4.5 (RCP4.5)\n3. Hot house world: SSP3-7.0 (RCP8.5)",
+      "evidence": "Table 3: Scenario archetypes used to construct ArborGen's scenarios\nScenario archetypes | Orderly | Too little, too late | Hot house world\nShared Socio-economic Pathways (SSP-RCP): SSP1-1.9: Sustainability, very low GHG emissions | SSP2-4.5: Middle of the road, low GHG emissions | SSP3-7.0: Regional Rivalry, high GHG emissions\nRepresentative Concentration Pathways (RCP): RCP2.6 | RCP4.5 | RCP8.5",
+      "location_hint": "Page 6, Table 3",
+      "confidence": "high",
+      "notes": "The document pairs each SSP with a corresponding RCP: SSP1-1.9 with RCP2.6, SSP2-4.5 with RCP4.5, and SSP3-7.0 with RCP8.5. These are presented as the IPCC's SSP-RCP combined scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes, ArborGen used customised scenarios. They started with publicly available information for the agricultural sector and then defined scenario parameters specific to ArborGen's climate scenarios, refining scenario narratives and climate-related risks and opportunities through a series of workshops. The scenarios were built on widely-used, international baselines (SSP-RCP scenarios) adapted to ArborGen's primary production areas.",
+      "evidence": "\"starting with publicly available information for the agricultural sector; defining scenario parameters for ArborGen's climate scenarios; aligning ArborGen's climate scenarios with the Aotearoa New Zealand Climate Standards and accompanying guidance from the External Reporting Board (XRB) and Financial Markets Authority; refining ArborGen's scenario narratives and climate-related risks and opportunities... We consider that the scenarios below are the most relevant and appropriate to assessing ArborGen's resilience and strategy because they are built on widely-used, international baselines adapted to ArborGen's primary production areas.\"",
+      "location_hint": "Page 5",
+      "confidence": "high",
+      "notes": "ArborGen customised internationally recognised SSP-RCP scenarios to their specific business context and primary production areas, with external consultant support (WSP New Zealand Ltd) and internal workshops.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "ArborGen's climate scenarios were not fully co-produced with external stakeholders in a collaborative sense, but were developed through an internal process supported by external consultants. Specifically, ArborGen engaged WSP New Zealand Ltd as external consultants and ran a series of workshops with staff and executive management (Chief Executive, Chief Financial Officer, Vice President of Operations, and General Manager of Operations (Brazil)). The process included starting with publicly available information for the agricultural sector, defining scenario parameters, aligning with NZ Climate Standards, refining scenario narratives, and identifying metrics. The Board reviewed, considered, and approved the scenario analysis process and outcomes.",
+      "evidence": "\"This process involved: • Engaging external consultants (WSP New Zealand Ltd) to support our climate scenario analysis, our identification and assessment of climate-related risks and opportunities, and the development of some metrics for vulnerability to climate-related physical and transition risks. • Running a series of workshops with its staff and executive management (Chief Executive, Chief Financial Officer, Vice President of Operations, and General Manager of Operations (Brazil))... • Board review, consideration, and approval of the scenario analysis process and outcomes.\"",
+      "location_hint": "Page 5",
+      "confidence": "high",
+      "notes": "The scenarios were developed internally with external consultant support (WSP New Zealand Ltd) and executive workshops, but were not co-produced with broader external stakeholders such as communities or industry peers. The scenarios are grounded in IPCC SSP-RCP frameworks.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "ArborGen uses the IPCC's SSP-RCP scenarios as baseline scenarios, specifically:\n1. SSP1-1.9 (Orderly / Sustainability, very low GHG emissions) — aligned with RCP2.6, targeting 1.5°C by 2100\n2. SSP2-4.5 (Too little, too late / Middle of the road, low GHG emissions) — aligned with RCP4.5, targeting 2.7°C by 2100\n3. SSP3-7.0 (Hot house world / Regional Rivalry, high GHG emissions) — aligned with RCP8.5, targeting >3.0°C by 2100\n\nShared Socio-economic Pathways (SSPs) are described as \"baseline narrative scenarios that identify socio-economic assumptions, geopolitical assumptions and economic and technological trends,\" which form the basis for modelling the IPCC's SSP-RCP scenarios when combined with Representative Concentration Pathways (RCPs).",
+      "evidence": "\"Shared Socio-economic Pathways (SSPs) are baseline narrative scenarios that identify socio-economic assumptions, geopolitical assumptions and economic and technological trends. These form the basis for modelling the IPCC's SSP-RCP scenarios, which combine the baseline SSP scenarios with radiative forcing levels from the Representative Concentration Pathways (RCPs) to impose global warming targets.\"",
+      "location_hint": "Page 6, footnote 2; Table 3 and Table 4",
+      "confidence": "high",
+      "notes": "The three scenario archetypes (Orderly, Too little, too late, Hot house world) are explicitly mapped to SSP1-1.9, SSP2-4.5, and SSP3-7.0 respectively, with corresponding RCP levels and temperature outcomes clearly stated in Tables 3 and 4.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "ArborGen uses the IPCC's SSP-RCP global scenarios and pathways as the primary model framework. For the Southern US, climate data comes from NOAA; for Brazil, Probable Futures is used, which employs the CORDEX-CORE simulation framework.",
+      "evidence": "\"To develop climate scenarios relevant to ArborGen's operational geographies in South America and the Southern US (the states of Alabama, Arkansas, Georgia, Florida, Texas, and South Carolina), we selected the Intergovernmental Panel on Climate Changes (IPCC's) SSP-RCP2 global scenarios and pathways. ArborGen uses weather and climate data from the United States federal agency the National Oceanic and Atmospheric Administration (NOAA) for its Southern US operations and Probable Futures for operations in Brazil. [...] Probable Futures is a not-for-profit climate literacy initiative that uses a simulation framework: CORDEX-CORE(8).\"",
+      "location_hint": "Page 6",
+      "confidence": "high",
+      "notes": "Multiple models/frameworks are referenced: IPCC SSP-RCP scenarios as the overarching framework, NOAA data for the US, and CORDEX-CORE (via Probable Futures) for Brazil.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. ArborGen considers damage from acute physical risks including flooding, hurricanes, and drought. Specifically, severe flooding events are noted to erode soil and expose bare root seedlings to damage. Quantitative flood exposure assessments were conducted for US and Brazil nursery sites using a 1-in-100-year return period fluvial flood event under both \"Too little, too late\" (RCP4.5) and \"Hot house\" (RCP8.5) scenarios for 2050.",
+      "evidence": "\"Severe flooding events erode soil and ArborGen's bare root seedlings are exposed, leading to damage. Hurricanes and flooding drive ArborGen to diversify its locations across the US and Brazil to increase the security of its stocks. Drought sees increasing restrictions on water and changes to soil composition which are vital components for successful seedling growth.\"",
+      "location_hint": "Page 9 and Pages 18–21",
+      "confidence": "high",
+      "notes": "Acute physical risks explicitly considered include fluvial flooding (quantified via Aqueduct Floods data), hurricanes, and drought. Flood exposure tables show 14% of US nurseries and 4–8% of Brazil nurseries exposed to 1-in-100-year flood events depending on scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "ArborGen's scenario analysis includes two non-temperature physical climate variables: drought (measured using the Standardised Precipitation-Evapotranspiration Index, SPEI) and fluvial (riverine) flooding (assessed using a 1-in-100-year return period flood event, with data from the World Bank Group Climate Change Knowledge Portal and Aqueduct Floods respectively). These were assessed for 2050 under two scenarios: 'Too Little, Too Late' (aligned with RCP4.5) and 'Hot House' (aligned with RCP8.5).",
+      "evidence": "\"To identify ArborGen's exposure to drought and flooding, a desktop assessment was conducted using climate change adjusted data projections for flooding and drought risk... Exposure to drought is presented in ranges using the Standardised Precipitation - Evapotranspiration Index (SPEI)... ArborGen's exposure to fluvial (riverine) flood in 2050 was assessed using data from Aqueduct Floods... †Data based on RCP4.5 and RCP8.5 was used for the 'Too little, too late' and 'Hot house' scenarios respectively.\"",
+      "location_hint": "Pages 16, 18",
+      "confidence": "high",
+      "notes": "The two non-temperature variables explicitly assessed in the scenarios are drought (SPEI index) and fluvial flooding (1-in-100-year return period). RCP4.5 underpins the 'Too Little, Too Late' scenario and RCP8.5 underpins the 'Hot House' scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "ArborGen uses global-scale scenarios based on the IPCC's SSP-RCP global scenarios and pathways, adapted to its operational geographies in South America (Brazil) and the Southern US (Alabama, Arkansas, Georgia, Florida, Texas, and South Carolina). Three scenario archetypes are used: Orderly (SSP1-1.9 / RCP2.6), Too little, too late (SSP2-4.5 / RCP4.5), and Hot house world (SSP3-7.0 / RCP8.5).",
+      "evidence": "\"To develop climate scenarios relevant to ArborGen's operational geographies in South America and the Southern US (the states of Alabama, Arkansas, Georgia, Florida, Texas, and South Carolina), we selected the Intergovernmental Panel on Climate Changes (IPCC's) SSP-RCP2 global scenarios and pathways.\"",
+      "location_hint": "Page 6, Climate scenario analysis section",
+      "confidence": "high",
+      "notes": "The scenarios are global in scale (IPCC SSP-RCP), but applied/adapted to ArborGen's specific operational geographies.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "ArborGen uses three time horizons:\n- Short term: 2024–2030 (1–7 years, aligned with seedling production cycle)\n- Medium term: 2031–2040 (7–15 years, reflecting seedling maturation and the increasing uptake of advanced genetics in the market across the US and Brazil forestry sector)\n- Long term: 2041–2050 (>15 years, through to 2050)",
+      "evidence": "\"Time horizon | Year | Rationale\nShort term | 2024-2030 | 1-7 years, aligned with seedling production cycle\nMedium term | 2031-2040 | 7-15 years, reflecting seedling maturation and the increasing uptake of advanced genetics in the market across the US and Brazil forestry sector\nLong term | 2041-2050 | >15 years, through to 2050\"",
+      "location_hint": "Table 2 – Time horizons, page 5",
+      "confidence": "high",
+      "notes": "The same time horizons are also confirmed in Table 9 (Risk management time horizons) on page 13, with identical year ranges and rationale.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "ArborGen selected the IPCC's SSP-RCP global scenarios and pathways because they cover the assumptions required to be disclosed by the XRB (including policy and socioeconomic assumptions, macroeconomic trends, energy pathways, carbon sequestration from afforestation and nature-based solutions, and technology assumptions including negative emissions technology). The company's intention is to ground its selected scenarios in credible and commonly adopted assumptions to create logical climate scenarios for primary users to compare against others in the same sector. Three scenario archetypes were used: Orderly (SSP1-1.9/RCP2.6), Too little, too late (SSP2-4.5/RCP4.5), and Hot house world (SSP3-7.0/RCP8.5).",
+      "evidence": "\"ArborGen's scenarios draw on the underlying assumptions of the IPCC SSP-RCP scenarios and emission reduction pathways. These scenarios cover the assumptions required to be disclosed by the XRB, including: policy and socioeconomic assumptions; macroeconomic trends; energy pathways; carbon sequestration from afforestation and nature-based solutions and technology assumptions including negative emissions technology. ArborGen's intention is to ground its selected scenarios in credible and commonly adopted assumptions to create logical climate scenarios for primary users to compare against others in the same sector. The IPCC's scenarios qualify.\"",
+      "location_hint": "Page 7",
+      "confidence": "high",
+      "notes": "Data sources for climate/weather data include NOAA (for Southern US operations) and Probable Futures (for Brazil operations), as stated on page 6.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "ArborGen has experienced historic climate impacts including entire crops being destroyed at individual locations due to extreme weather events. The company faces risks from excessive rains, hail, freezing, hurricanes, drought and excessive heat. Climate and weather impacts have been ingrained into their business practices for more than 30 years. Specific historic impacts include: sudden heavy rainfall within the first 4-6 weeks post-planting washing out seeds and damaging seedlings; pre-lifting heavy rain creating anaerobic conditions that harm seedling roots; freeze events before and during lifting causing root damage; and freeze events during pollination reducing annual seed volumes and harvests.",
+      "evidence": "\"As our business operates mostly outdoors, we face risks from excessive rains, hail, freezing, hurricanes, drought and excessive heat. In the past, we have had entire crops destroyed at individual locations due to extreme weather events, so ArborGen knows what extreme weather can do to our business. Climate and weather and the impacts it can have on our business are, and have been, ingrained into our business practices for more than 30 years.\"",
+      "location_hint": "Page 4",
+      "confidence": "high",
+      "notes": "Additional detail on specific weather event impacts (e.g., heavy rainfall, freeze events) is found on page 10 in Table 8.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "ArborGen identifies the following direct and indirect physical climate risks:\n\n**Direct (Acute) Physical Risks:**\n- Excessive/sudden rain: can wash out seeds and damage seedlings within the first 4–6 weeks post-planting; pre-lifting heavy rain creates anaerobic conditions that harm seedling roots\n- Freeze events: before and during lifting can cause root damage; during pollination reduce annual seed volumes and harvests\n- Drought conditions: hot, dry conditions negatively impact seed germination\n- Hurricanes: increased frequency leads to large-scale damage to orchards and nurseries, potentially necessitating relocation\n- Excessive heat: causes early seedling development, shortening seasons and affecting timing of flower bagging\n- Hail\n\n**Indirect (Chronic/Supply Chain) Physical Risks:**\n- Climate change disrupts supply chain including labour: extreme weather events such as flooding and droughts can damage infrastructure, delay transportation, and interrupt production schedules, leading to increased costs and inventory shortages\n- Weather impacts also affect ArborGen's critical infrastructure causing delay and disruption to business activities\n\n**Risk Ratings for Weather-Related Events:**\n- Short term: Medium\n- Medium term: High\n- Long term: Very High",
+      "evidence": "\"Weather related events including excessive sudden rain, freeze events, drought conditions, hurricanes — Physical risk — Climate-related risks and weather events are material risks within ArborGen's existing Risk Management Framework. The nature of ArborGen's operations make climate and weather an integral part of its business operations across all geographies. ArborGen's seedling production cycle is highly dependent on consistent weather, with extreme weather events already causing significant damage. Sudden heavy rainfall within the first 4-6 weeks post-planting can wash out seeds and damage seedlings, while pre-lifting heavy rain creates anaerobic conditions that harm seedling roots. Freeze events before and during lifting can cause root damage and freeze events that occur during pollination reduce annual seed volumes and harvests. Increased hurricane frequency leads to large-scale damage to orchards and nurseries, potentially necessitating relocation. Higher temperatures cause early seedling development, shortening seasons and can affect the timing of flower bagging - while hot, dry conditions negatively impact seed germination. Additionally, weather impacts also affect ArborGen's critical infrastructure causing delay and disruption to business activities.\"\n\n\"Climate change disrupts supply chain including labour — Physical and transition risk — Climate change can significantly impact ArborGen's supply chain and labour forces, primarily through extreme weather events. Disruptions such as flooding, and droughts can damage infrastructure, delay transportation, and interrupt production schedules, leading to increased costs and inventory shortages.\"",
+      "location_hint": "Table 8, pages 10–11",
+      "confidence": "high",
+      "notes": "The document classifies \"Climate change disrupts supply chain including labour\" as both a physical and transition risk. Direct physical risks relate to on-site weather impacts; indirect physical risks relate to supply chain and infrastructure disruption.",
+      "verification": null
+    }
+  ]
+}

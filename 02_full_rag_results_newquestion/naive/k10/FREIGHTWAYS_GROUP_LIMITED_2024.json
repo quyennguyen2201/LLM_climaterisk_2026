@@ -1,0 +1,170 @@
+{
+  "source": "FREIGHTWAYS_GROUP_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 10,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 91768,
+      "output_tokens": 6701,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "total_tokens": 98469
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Three scenarios were used: (1) Orderly / Net Zero 2050 (1.5°C) with a 1.4°C temperature outcome at 2050; (2) Disorderly / Delayed Transition (1.5°C) with a 1.6°C temperature outcome at 2050; and (3) Hot House World / Current Policies (3+°C) with a 3+°C temperature outcome at 2050.",
+      "evidence": "\"Three scenarios were developed by collating relevant sector-level pathways and data to determine how each scenario may affect the organisation's value chain. The three scenarios selected include a 1.4°c Net Zero 2050, a 1.6°c delayed transition, and a 3+°c current policies.\"\n\nAnd from the scenario table:\n\"ORDERLY / NET ZERO 2050 (1.5°C) | DISORDERLY / DELAYED TRANSITION (1.5°C) | HOT HOUSE WORLD / CURRENT POLICIES (3+°C)\nTEMP. OUTCOMES (2050): 1.4°C | 1.6°C | 3+°C\"",
+      "location_hint": "Page 8, Table 1: Overview of Our Climate Scenarios",
+      "confidence": "high",
+      "notes": "The scenarios align with NGFS archetypes: Orderly (RCP1.9, SSP1, IEA NZE), Disorderly (RCP2.6, SSP3, IEA SDS), and Hot House World (RCP8.5, SSP5, IEA STEPS).",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document provides temperature outcomes at 2050, not 2100, for most scenarios. However, it notes that \"the transport sector work modelled temperature outcomes at 2100.\" The three scenarios and their 2050 temperature outcomes are: Orderly/Net Zero 2050 = 1.4°C, Disorderly/Delayed Transition = 1.6°C, and Hot House World/Current Policies = 3+°C. The Hot House World scenario is explicitly labeled as \"3+°C\" which corresponds to a 2100 outcome per the RCP8.5 pathway.",
+      "evidence": "\"ORDERLY / NET ZERO 2050 (1.5°C) ... TEMP. OUTCOMES (2050): 1.4°C | DISORDERLY / DELAYED TRANSITION (1.5°C) ... TEMP. OUTCOMES (2050): 1.6°C | HOT HOUSE WORLD / CURRENT POLICIES (3+°C) ... TEMP. OUTCOMES (2050): 3+°C\" and \"Temperature outcomes at 2050 are in alignment with climate scenario pathways and models (architectures) that have been used for the scenario analysis. The transport sector work modelled temperature outcomes at 2100.\"",
+      "location_hint": "Page 8",
+      "confidence": "medium",
+      "notes": "The document primarily reports 2050 temperature outcomes. The 2100 outcomes are referenced only indirectly via the scenario labels (e.g., \"3+°C\" for Hot House World, \"1.5°C\" for Orderly and Disorderly scenarios), which appear to be the 2100 targets. The transport sector work modelled 2100 outcomes but specific 2100 values are not separately listed in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "NGFS (Network for Greening the Financial System)",
+      "evidence": "The NGFS (Network for Greening the Financial System) archetypes identified in bold, were used in the scenario analysis, with broadly corresponding RCP, SSP, CCC and IEA alignment noted for reference.",
+      "location_hint": "Page 8",
+      "confidence": "high",
+      "notes": "Data to support the scenarios was also sourced from IEA, CCC, IPCC, NIWA, NASA Sea Level Change Portal, the SSP database and NZ Treasury, but NGFS is the primary scenario framework/provider used.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Freightways uses a mix of RCPs and SSPs across their scenarios. Specifically, they use RCP/SSP2.6 and RCP/SSP4.5 to align with their core scenario projections, and RCP6.0, SSP7.0, and RCP/SSP8.5 for a stretch test of possible exposure. Their three main scenario archetypes map as follows: Orderly/Net Zero 2050 (1.5°C) → RCP1.9 + SSP1; Disorderly/Delayed Transition (1.5°C) → RCP2.6 + SSP3; Hot House World/Current Policies (3+°C) → RCP8.5 + SSP5.",
+      "evidence": "\"We have used RCP/SSP2.6 and RCP/SSP4.5 to align with the projections used in our scenarios and RCP6.0, SSP7.0 and RCP/SSP8.5 for a stretch test of our possible exposure.\" And from the scenario table: Orderly → RCP1.9, SSP1: Sustainability; Disorderly → RCP2.6, SSP3: Regional Rivalry; Hot House World → RCP8.5, SSP5: Fossil Fuel Development.",
+      "location_hint": "Page 20 (footnote 21) and Page 8 (scenario table)",
+      "confidence": "high",
+      "notes": "The document mixes RCPs (from IPCC AR5) and SSPs (from IPCC AR6) across different parts of the analysis. RCPs are used for the physical risk exposure screening (sourced from NIWA for NZ), while SSPs are used for the AR6-based scenario narratives. The pairing of RCP and SSP values is not always 1:1 consistent (e.g., RCP6.0 paired separately from SSP7.0), reflecting the transitional use of both frameworks.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes. Freightways developed customised scenarios based on the Transport Sector Scenarios (produced in collaboration with The Aotearoa Circle), with alterations to make them relevant for Freightways' specific business and operations. The three customised scenarios are: (1) Orderly Scenario, (2) Hot House World Scenario, and a third scenario (implied by the context). These were developed in collaboration with Tadpole (specialist sustainability consultants) through a structured scenario development process.",
+      "evidence": "\"Where possible, we have closely linked our scenario analysis to the Transport Sector Scenarios to make the scenarios appropriate and relevant to assess resilience to climate-related risks and opportunities, with alterations to make them relevant for our business and its operations.\"",
+      "location_hint": "Page 8, Scenario Analysis section",
+      "confidence": "high",
+      "notes": "The document describes three scenarios (Orderly, Hot House World, and a third not fully named in the retrieved chunks). They are customised versions of the Transport Sector Scenarios, adapted for Freightways' specific business context with the help of Tadpole consultants.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes. Freightways co-produced climate scenarios by working collaboratively with other transport sector organisations through The Aotearoa Circle to undertake transport sector-level scenario analysis (resulting in the Transport Sector Scenarios), and by partnering with Tadpole (specialist sustainability consultants) to refresh their own scenario analysis in 2024. Key personnel and stakeholders in management positions (ELT, sustainability and finance teams) were also brought together as part of the scenario development process.",
+      "evidence": "\"Freightways has been working collaboratively with other transport sector organisations to undertake transport sector-level scenario analysis with the assistance of The Aotearoa Circle (the output of that work is the Transport Sector Scenarios). While this sector work was underway, we have undertaken a refresh of our own scenario analysis process in 2024 in collaboration with Tadpole to meet the requirements of the Aotearoa New Zealand Climate Standards. Where possible, we have closely linked our scenario analysis to the Transport Sector Scenarios to make the scenarios appropriate and relevant to assess resilience to climate-related risks and opportunities, with alterations to make them relevant for our business and its operations.\"",
+      "location_hint": "Page 8",
+      "confidence": "high",
+      "notes": "Scenarios were co-produced with The Aotearoa Circle (industry working group) and Tadpole (external sustainability consultants), with internal management involvement. The scenarios were ultimately approved by the Board.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Freightways used three baseline scenarios aligned with NGFS archetypes:\n1. Orderly / Net Zero 2050 (1.5°C) — NGFS Orderly theme, RCP1.9, SSP1: Sustainability, CCC: Tailwinds, IEA: NZE; temperature outcome at 2050: 1.4°C\n2. Disorderly / Delayed Transition (1.5°C) — NGFS Disorderly theme, RCP2.6, SSP3: Regional Rivalry, CCC: Headwinds, IEA: SDS; temperature outcome at 2050: 1.6°C\n3. Hot House World / Current Policies (3+°C) — NGFS Hot House World theme, RCP8.5, SSP5: Fossil Fuel Development, CCC: Current Policy Reference, IEA: STEPS; temperature outcome at 2050: 3+°C",
+      "evidence": "\"ORDERLY / NET ZERO 2050 (1.5°C) | DISORDERLY / DELAYED TRANSITION (1.5°C) | HOT HOUSE WORLD / CURRENT POLICIES (3+°C)\nTEMP. OUTCOMES (2050): 1.4°C | 1.6°C | 3+°C\nSCENARIO ARCHETYPES*: NGFS – Orderly theme RCP1.9 SSP1: Sustainability CCC: Tailwinds IEA: NZE | NGFS – Disorderly theme RCP2.6 SSP3: Regional Rivalry CCC: Headwinds IEA: SDS | NGFS – Hot House World theme RCP8.5 SSP5: Fossil Fuel Development CCC: Current Policy Reference IEA: STEPS\"",
+      "location_hint": "Table 1, page 8",
+      "confidence": "high",
+      "notes": "The three scenarios are explicitly described in Table 1 of the document with their corresponding NGFS archetypes, RCP/SSP pathways, CCC and IEA alignments, and temperature outcomes at 2050.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "NGFS (Network for Greening the Financial System) scenario archetypes/models were used, with alignment to RCP, SSP, CCC, and IEA frameworks. The specific NGFS archetypes used were: Orderly (Net Zero 2050), Disorderly (Delayed Transition), and Hot House World (Current Policies).",
+      "evidence": "*The NGFS (Network for Greening the Financial System) archetypes identified in bold, were used in the scenario analysis, with broadly corresponding RCP, SSP, CCC and IEA alignment noted for reference.",
+      "location_hint": "Page 8, Table 1 (Scenario Archetypes)",
+      "confidence": "high",
+      "notes": "The document also notes that \"Temperature outcomes at 2050 are in alignment with climate scenario pathways and models (architectures) that have been used for the scenario analysis.\" Freightways also considered scenarios against the Transport Sector Scenarios developed by The Aotearoa Circle.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Freightways considers damage from acute physical risks including flooding, extreme weather events (storms, cyclones), extreme rainfall, sea level rise, heat stress, and wildfires. For example, Cyclone Gabrielle caused ~$2m in EBITA impact from lost revenue and additional operating costs. The company conducted a Route and Premises Exposure Assessment covering flood plain risk, wind exposure, tsunami vulnerability, earthquake risk, and other physical risks.",
+      "evidence": "\"As communicated to the New Zealand Stock Exchange (NZX) in March 2023, the impact of Cyclone Gabrielle on Freightways' businesses has been in the region of $2m in earnings before interest, tax, and amortisation as a result of lost revenue and additional operating costs to circumnavigate impacted roads.\" and \"Physical climate change impacts such as more prevalent extreme weather, sea level rise, and heat stress threaten to damage and disrupt operations at our facilities and the utilities that support these buildings.\"",
+      "location_hint": "Pages 7, 11, 20-21",
+      "confidence": "high",
+      "notes": "Acute physical risks explicitly considered include flooding, cyclones/storms, extreme rainfall, heat stress, wildfires, and sea level rise impacts on transport routes and premises. Quantified damage from Cyclone Gabrielle (~$2m EBITA impact) is provided.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include the following non-temperature physical risk variables:\n1. **Extreme weather / Wet Days**: Number of days with precipitation >25mm (NZ) or >20mm (Australia)\n2. **Increased frequency and severity of storms (wind)**: Extreme Wind Intensity Change (NZ) / Tropical Cyclone Intensity (Australia)\n3. **Sea level rise**: Projected relative sea level rise / Projected sea level rise\n4. **Severe Fire Danger Days** (Australia only): Number of severe fire danger days per year",
+      "evidence": "\"TABLE 7: PHYSICAL RISK EXPOSURE DRIVERS AND METRICS\nPHYSICAL RISK DRIVER | NEW ZEALAND EVENT MEASURED | AUSTRALIA EVENT MEASURED\nHeat Stress / Increased Temperature | Hot Days (Number of Days where the daily maximum temperature is above 25C) | Hot days (Number of Days with Heat Index >35C) / Hot days (Number of Severe Fire Danger Days)\nExtreme weather | Wet Days (Number of Days with Precipitation >25mm) | Wet days (Number of Days with Precipitation >20mm)\nIncreased frequency and severity of storms (wind) | Extreme Wind Intensity Change | Tropical Cyclone Intensity\nSea level rise | Projected relative [sea level rise] | Projected sea level rise\"",
+      "location_hint": "Appendix 2, Table 7, p.20",
+      "confidence": "high",
+      "notes": "Non-temperature variables explicitly listed in Table 7 include wet days (precipitation), storm/wind intensity, sea level rise, and fire danger days (Australia). These are assessed under different RCPs, SSPs, and timeframes.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Freightways used three climate scenarios at a national/sectoral scale covering New Zealand and Australia: (1) Orderly / Net Zero 2050 (1.5°C, temp outcome 1.4°C by 2050), (2) Disorderly / Delayed Transition (1.5°C, temp outcome 1.6°C by 2050), and (3) Hot House World / Current Policies (3+°C). These were aligned with NGFS archetypes, RCP/SSP pathways, and the Aotearoa New Zealand Climate Standards, and were also considered against the wider Transport Sector Scenarios developed by The Aotearoa Circle.",
+      "evidence": "\"Our three climate scenarios were chosen to meet the temperature outcomes required by the Aotearoa New Zealand Climate Standards and will allow us to test our current business strategy and identify possible impacts through different futures with varying levels of transition and physical risk. Freightways also considered our scenarios against the wider Transport Sector Scenarios developed by The Aotearoa Circle.\"\n\n\"ORDERLY / NET ZERO 2050 (1.5°C) ... TEMP. OUTCOMES (2050) 1.4°C ... DISORDERLY / DELAYED TRANSITION (1.5°C) ... 1.6°C ... HOT HOUSE WORLD / CURRENT POLICIES (3+°C) ... 3+°C\"",
+      "location_hint": "Pages 8 and 10",
+      "confidence": "high",
+      "notes": "The scenarios operate at a national/sectoral scale covering New Zealand and Australia, aligned with NGFS archetypes and the NZ Climate Standards. Physical risk exposure was assessed at a route/premises level within those geographies.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Freightways uses short-, medium-, and long-term time horizons in its scenario analysis, chosen to align with the Transport Sector Scenario time horizons. These time horizons are longer than those used in their existing general business risk assessment process, given the long-term nature of many climate-related risks. The time horizons used in scenario analysis have not been integrated into Freightways' strategic planning horizons or capital deployment plans.",
+      "evidence": "\"The scenarios and scenario analysis process considered short-, medium- and long-term time horizons which were chosen to align with the Transport Sector Scenario time horizons. These time horizons are longer than we use in our existing general business risk assessment process, given the long-term nature of many climate-related risks. We have endeavoured to align the assessment of climate risks identified through scenario analysis with our existing risk assessment process as much as made sense, even if both the time horizons considered and the nature of some of the impacts are different. As noted above, scenario analysis has been a standalone process rather than integrated with Freightways' overall strategy and the time horizons used in scenario analysis have not been integrated into our strategic planning horizons or capital deployment plans.\"",
+      "location_hint": "Page 10, \"Time horizons used in our Scenario Analysis\"",
+      "confidence": "high",
+      "notes": "The document does not specify exact year ranges for short, medium, and long-term horizons in the retrieved context, only that they align with Transport Sector Scenario time horizons.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "The three scenarios were chosen to meet the temperature outcomes required by the Aotearoa New Zealand Climate Standards and to test the current business strategy and identify possible climate-related risks and opportunities. The scenarios were closely linked to the Transport Sector Scenarios (developed collaboratively with other transport sector organisations via The Aotearoa Circle) to make them appropriate and relevant, with alterations to make them relevant for Freightways' specific business and operations. Data to support the scenarios was sourced from the IEA and CCC (transport and energy variables), and NGFS, IPCC, NIWA, NASA Sea Level Change Portal, the SSP database, and NZ Treasury (physical and socio-economic variables).",
+      "evidence": "\"WHY OUR THREE SCENARIOS? Our three climate scenarios were chosen to meet the temperature outcomes required by the Aotearoa New Zealand Climate Standards and will allow us to test our current business strategy and identify possible [climate-related risks and opportunities].\" ... \"Where possible, we have closely linked our scenario analysis to the Transport Sector Scenarios to make the scenarios appropriate and relevant to assess resilience to climate-related risks and opportunities, with alterations to make them relevant for our business and its operations.\" ... \"Data to support the scenarios was sourced from the IEA and CCC in relation to transport and energy variables. Physical and socio-economic variables were sourced predominantly from NGFS, supplemented by data from IPCC, NIWA, NASA Sea Level Change Portal, the SSP database and NZ Treasury.\"",
+      "location_hint": "Pages 8 and 10",
+      "confidence": "high",
+      "notes": "The justification combines regulatory compliance (NZ Climate Standards), alignment with sector-level scenarios, and use of established data sources. The three scenarios are: 1.4°C Net Zero 2050, 1.6°C delayed transition, and 3+°C current policies.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "Freightways references the 2023 flooding in Auckland and Cyclone Gabrielle in Hawke's Bay as historic climate impact events that provided learnings in how to manage disruption for future extreme weather events.",
+      "evidence": "\"The experience from events such as the 2023 flooding in Auckland and Cyclone Gabrielle in Hawkes Bay, has provided us with learnings in how to manage disruption for future extreme weather events. Freightways reviewed established processes, staff capabilities, and prepared alternate operational plans in preparation for future events.\"",
+      "location_hint": "Page 11, Physical Risk 01 / Strategy Response section",
+      "confidence": "high",
+      "notes": "The document mentions these events as examples of historic climate impacts that informed Freightways' risk management approach, but does not provide detailed financial or operational impact data for these events.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Freightways identifies physical climate risks as arising from: (1) extreme weather events (e.g., storm, flood, drought) — direct physical risks; and (2) longer-term shifts in climate patterns (e.g., increasing temperatures) — chronic physical risks. These changes may result in financial risks due to the direct and indirect impacts they can have on business operations, assets, markets, or supply chains. Freightways also conducted a Route and Premises Exposure Assessment (supported by EY) to understand the possible vulnerability of its business assets and activities (premises in Australia and New Zealand, and major routes) to identified physical climate risks under varying climate projections and time horizons.",
+      "evidence": "\"Physical climate impacts: Physical climate impacts arise from extreme weather events (e.g., storm, flood, drought) or from the longer-term shifts in climate patterns (e.g., increasing temperatures). These changes may result in financial risks due to the direct and indirect impacts they can have on business operations, assets, markets, or to supply chains.\"",
+      "location_hint": "Page 11, Significant climate-related risks and opportunities section",
+      "confidence": "high",
+      "notes": "The document distinguishes between acute physical risks (extreme weather events) and chronic physical risks (longer-term climate pattern shifts). A Route and Premises Exposure Assessment was also conducted to assess vulnerability of premises and routes in Australia and New Zealand.",
+      "verification": null
+    }
+  ]
+}

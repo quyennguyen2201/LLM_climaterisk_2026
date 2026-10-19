@@ -1,0 +1,170 @@
+{
+  "source": "OCEANIA_HEALTHCARE_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "total_tokens": 48704,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_creation": 0
+      },
+      "input_tokens": 42251,
+      "output_tokens": 6453
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Oceania developed three climate-related scenarios: (1) Orderly, (2) Disorderly, and (3) Hothouse World.",
+      "evidence": "\"Oceania drew on the Construction and Property Sector Scenarios as well as its own clinical and operational expertise (noting the care and retirement living elements of its business model) to develop three climate scenarios – Orderly, Disorderly and Hothouse world.\"\n\n\"Scenario name | Orderly | Disorderly | Hothouse world\nScenario archetype | NGFS Net Zero 2050 / IPCC SSP1-1.9 / RCP2.6 | NGFS Delayed Transition / IPCC SSP1-2.6 / RCP4.5 | NGFS Current Policies / IPCC SSP5-8.5 / RCP8.5\nGlobal temperature outcomes | <1.5°C | ~2°C | >3°C\"",
+      "location_hint": "Pages 13–15, Strategy section",
+      "confidence": "high",
+      "notes": "Each scenario is aligned with NGFS archetypes and IPCC/RCP pathways as detailed in the table on page 15.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes three scenarios with different global temperature outcomes by 2100: (1) Orderly scenario: limiting warming to within 1.5°C (using RCP2.6, associated with ~1.5°C warming above pre-industrial levels by 2100); (2) Disorderly scenario: limiting warming to approximately 2°C (aligned with RCP4.5); and (3) a Hot House scenario is implied but the specific temperature for it is not explicitly stated in the retrieved context.",
+      "evidence": "\"Note RCP2.6 formed the lower bound of the physical risk assessment and hence is associated with an Orderly scenario insofar as RCP2.6 is associated with a ~1.5°C warming above pre-industrial levels, by 2100. Our Disorderly scenario describes a hypothetical world where we succeed in limiting warming to approximately 2°C. We have aligned the RCP4.5 scenario with the ~2°C Disorderly scenario as this reflects the mid-tier level of risk for the physical risk assessment, for which the IPCC estimates as representing a mid-term warming of 2.0°C.\"",
+      "location_hint": "Page 15–16",
+      "confidence": "high",
+      "notes": "The Orderly scenario targets <1.5°C; the Disorderly scenario targets ~2°C by 2100. A third (Hot House/high-warming) scenario is referenced elsewhere in the document but its specific temperature outcome is not present in the retrieved context chunks.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "The scenarios were provided by the Network for Greening the Financial System (NGFS), with the Construction and Property Sector Scenarios developed by the New Zealand Green Business Council (NZGBC) and facilitated by Beca. Oceania also drew on IPCC SSP pathways.",
+      "evidence": "\"The Construction and Property Sector Scenarios aligned with the Network for Greening the Financial System (NGFS) archetypes of Orderly, Disorderly and Hothouse World.\" and \"The NZGBC report, Climate Scenarios for the Construction and Property Sector, was published in May 2023 (Construction and Property Sector Scenarios).\"",
+      "location_hint": "Page 13-15",
+      "confidence": "high",
+      "notes": "Oceania's scenarios draw on NGFS archetypes as the primary scenario framework, supplemented by IPCC SSP pathways and the NZGBC/Beca Construction and Property Sector Scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Oceania Healthcare uses a mix of SSPs and RCPs across its three scenarios:\n1. **Orderly** (NGFS Net Zero 2050): IPCC SSP1-1.9 / RCP2.6 — used for transition risk testing with SSP1/RCP1.9 narrative; RCP2.6 forms the lower bound of the physical risk assessment (~1.5°C by 2100).\n2. **Disorderly** (NGFS Delayed Transition): IPCC SSP1-2.6 / RCP4.5 — RCP4.5 aligned with ~2°C scenario as mid-tier physical risk level.\n3. **Hothouse World** (NGFS Current Policies): IPCC SSP5-8.5 / RCP8.5 — used for physical hazard exposure assessment out to 2090–2100 (>3°C).\n\nNotably, the Orderly scenario pairs SSP1-1.9 (for transition risk) with RCP2.6 (for physical risk), and the Disorderly scenario pairs SSP1-2.6 with RCP4.5 — mixing SSP and RCP frameworks across and within scenarios.",
+      "evidence": "\"Scenario name: Orderly / Disorderly / Hothouse world; Scenario archetype: NGFS Net Zero 2050 / IPCC SSP1-1.9 / RCP2.6³ | NGFS Delayed Transition / IPCC SSP1-2.6² / RCP4.5⁴ | NGFS Current Policies / IPCC SSP5-8.5 / RCP8.5 ... 2. Oceania used SSP1/RCP1.9 narrative for transition risk testing. 3. Note RCP2.6 formed the lower bound of the physical risk assessment... 4. Our Disorderly scenario describes a hypothetical world where we succeed in limiting warming to approximately 2°C. We have aligned the RCP4.5 scenario with the ~2°C Disorderly scenario...\"",
+      "location_hint": "Page 15, Scenario Architecture and Key Assumptions table",
+      "confidence": "high",
+      "notes": "The document explicitly mixes SSP and RCP frameworks: the Orderly scenario uses SSP1-1.9 for transition risk but RCP2.6 for physical risk; the Disorderly scenario uses SSP1-2.6 paired with RCP4.5. This is a notable methodological choice acknowledged in the footnotes.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context references named scenarios (Orderly, Disorderly, Hothouse) which appear to be standard/established climate scenarios rather than customised ones. There is no mention of any customised or bespoke scenarios developed by Oceania Healthcare in the provided context passages.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes. Oceania co-produced its climate scenarios by drawing on the Construction and Property Sector Scenarios and its own clinical and operational expertise, with input from management and subject matter experts (SMEs) across a series of workshops, with executive sponsorship from the CFO. The scenario analysis process involved being part of sector scenario development (Step 1) and engaging key internal stakeholders (Step 2), with Board review and feedback incorporated (Step 6). The resulting three scenarios are: Orderly, Disorderly, and Hothouse world.",
+      "evidence": "\"Oceania drew on the Construction and Property Sector Scenarios as well as its own clinical and operational expertise (noting the care and retirement living elements of its business model) to develop three climate scenarios – Orderly, Disorderly and Hothouse world. Oceania's scenario analysis process was a standalone exercise in FY2024. The outputs fed into Oceania's most recent Board strategy day.\"",
+      "location_hint": "Page 14",
+      "confidence": "high",
+      "notes": "The scenarios were co-produced with sector-level input (Construction and Property Sector Scenarios) and internal stakeholders including management, SMEs, and the Board. The CFO provided executive sponsorship.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Oceania uses three climate scenarios with the following baseline scenario architectures:\n1. **Orderly**: NGFS Net Zero 2050 / IPCC SSP1-1.9 / RCP2.6 — global temperature outcome <1.5°C\n2. **Disorderly**: NGFS Delayed Transition / IPCC SSP1-2.6 / RCP4.5 — global temperature outcome ~2°C\n3. **Hothouse World**: NGFS Current Policies / IPCC SSP5-8.5 / RCP8.5 — global temperature outcome >3°C",
+      "evidence": "\"Scenario name | Orderly | Disorderly | Hothouse world\nScenario archetype | NGFS Net Zero 2050 / IPCC SSP1-1.9 / RCP2.6 | NGFS Delayed Transition / IPCC SSP1-2.6 / RCP4.5 | NGFS Current Policies / IPCC SSP5-8.5 / RCP8.5\nGlobal temperature outcomes | <1.5°C | ~2°C | >3°C\"",
+      "location_hint": "Page 15, Overview of Oceania's Climate Scenarios table",
+      "confidence": "high",
+      "notes": "Oceania used SSP1/RCP1.9 narrative specifically for transition risk testing under the Orderly scenario. RCP2.6 formed the lower bound of the physical risk assessment. The scenarios draw on the Construction and Property Sector Scenarios and were developed as a qualitative exercise facilitated by an external provider.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context discusses scenario analysis frameworks (SSP1/RCP1.9, RCP2.6, RCP4.5) and climate-related disclosure provisions, but does not explicitly name a specific climate model used for the analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Oceania Healthcare considers damage from acute physical risks, specifically increasing frequency and intensity of extreme weather events (cyclones, storms, flooding) and increasing intensity of rainfall. Anticipated impacts include damage to assets (buildings, infrastructure, roading), disruption to power/water/communications, potential evacuations, rising remedial and insurance costs, supply chain disruption, and potential revenue loss. Real-world examples include the Auckland floods (January 2023) and Cyclone Gabrielle, both of which caused physical damage and operational disruption to Oceania's sites.",
+      "evidence": "\"Damage to assets including buildings, infrastructure and roading. Disruption from potential outages to power, water and communications. Potential disruption to site access. Disruption to, or risk of harm to, residents and employees and potential evacuations and use of temporary accommodation. Rising cost of remedial activity, operational costs including costs of financing and insurance (or retreat). Potential delays from, and disruption to, supply chain and development (build/construction) activity. Potential loss or delay in revenue.\"",
+      "location_hint": "Page 19, Risk Management table (Physical acute risk row)",
+      "confidence": "high",
+      "notes": "The document explicitly categorises these as Physical (acute) risks under the risk type column, with real examples from Auckland floods and Cyclone Gabrielle provided on page 12.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include non-temperature physical variables such as: rising sea levels (coastal inundation and erosion), increased frequency/duration of drought, increased fire weather, waterborne and vector-borne disease incidence, coastal flooding/erosion, groundwater rise, and saltwater corrosion. These are assessed under RCP/SSP pathways (RCP1.9/SSP1, RCP2.6, RCP4.5) across Orderly, Disorderly, and Hothouse scenarios.",
+      "evidence": "\"Rising sea levels with risk of coastal inundation and erosion... Coastal flooding/erosion, groundwater rise or saltwater corrosion damage to assets.\" and \"Rising temperatures, increase in number of hot days, and increase in frequency and/or duration of drought... Increased infections and illness due to rising incidences of waterborne and vector borne disease. Increased fire weather posing threat to safety and health.\"",
+      "location_hint": "Page 20",
+      "confidence": "high",
+      "notes": "Non-temperature variables explicitly mentioned include sea level rise, drought, fire weather, waterborne/vector-borne disease, coastal flooding/erosion, groundwater rise, and saltwater corrosion. These are embedded in the physical risk scenario descriptions rather than a dedicated \"non-temperature variables\" section.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Oceania developed three climate-related scenarios with the following global temperature outcomes and scale:\n1. **Orderly** (NGFS Net Zero 2050 / IPCC SSP1-1.9 / RCP2.6): <1.5°C warming\n2. **Disorderly** (NGFS Delayed Transition / IPCC SSP1-2.6 / RCP4.5): ~2°C warming\n3. **Hothouse World** (NGFS Current Policies / IPCC SSP5-8.5 / RCP8.5): >3°C warming\n\nTimeframes considered: short term (present day to 2030), mid term (2030–2050), and long term (2050–2080).",
+      "evidence": "\"Scenario name: Orderly / Disorderly / Hothouse world; Scenario archetype: NGFS Net Zero 2050 / IPCC SSP1-1.9 / RCP2.6 | NGFS Delayed Transition / IPCC SSP1-2.6 / RCP4.5 | NGFS Current Policies / IPCC SSP5-8.5 / RCP8.5; Global temperature outcomes: <1.5°C | ~2°C | >3°C\" and \"The timeframes considered were: short term (present day to 2030), mid term (2030-2050) and long term (2050-2080).\"",
+      "location_hint": "Page 13 and Page 15",
+      "confidence": "high",
+      "notes": "Three scenarios covering a range from <1.5°C to >3°C warming, assessed across three time horizons out to 2080.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Oceania Healthcare uses three time horizons — short-term, medium-term, and long-term — when identifying and assessing climate-related risks. The disclosure references these horizons across its risk register (e.g., \"Short to medium term,\" \"Medium term,\" \"Medium to long term\"), but the document does not explicitly specify the numerical duration (e.g., number of years) assigned to each horizon in the retrieved context.",
+      "evidence": "\"the short-term, medium-term, and long-term time horizons considered, including specifying the duration of each of these time horizons.\"",
+      "location_hint": "Page 28-29 (compliance table); risk register pages 19, 21, 22",
+      "confidence": "medium",
+      "notes": "The document acknowledges the requirement to specify durations for each time horizon and uses short/medium/long-term labels in the risk register, but the specific numerical durations (e.g., 0–5 years, 5–15 years, etc.) are not present in the retrieved context passages. The answer reflects what is directly evidenced.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Oceania chose three scenarios (Orderly, Disorderly, and Hothouse World) because they provided the opportunity to test a range of possible risks and opportunities under different levels of uncertainty. The scenarios draw on the Construction and Property Sector Scenarios (covering entities with similar climate-related property risks) and incorporate driving forces and critical uncertainties prioritised specifically to Oceania, allowing it to test the resilience of its business model and strategy to climate-related risks and opportunities.",
+      "evidence": "\"Oceania chose these three scenarios as they provided the opportunity to test a range of possible risks and opportunities under different levels of uncertainty. Oceania's climate scenarios draw on the Construction and Property Sector Scenarios, which cover entities with similar climate-related property risks. Oceania's climate scenarios then incorporate driving forces and critical uncertainties prioritised specifically to Oceania, allowing it to test the resilience of its business model and strategy to climate-related risks and opportunities. Oceania has not undertaken additional modeling other than that used to create the NGFS archetype scenarios and that which was drawn on to develop the Construction and Property Sector Scenario.\"",
+      "location_hint": "Page 15",
+      "confidence": "high",
+      "notes": "The justification is explicitly stated in the scenario architecture table on page 15. No additional modelling beyond NGFS archetypes and Construction and Property Sector Scenarios was undertaken.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "Oceania Healthcare's current (historic) climate-related impacts are described on Page 13 of the disclosure. The context references this page but does not reproduce the specific content. The disclosure notes it is utilising Adoption Provision 1 for current financial impacts, indicating quantitative financial impact information is not yet fully disclosed.",
+      "evidence": "\"(a) its current physical and transition impacts Page 13 (b) the current financial impacts of its physical and transition impacts identified in (a). *Utilising Adoption Provision 1*\"",
+      "location_hint": "Page 37 (index table); Page 13 (actual content, not retrieved)",
+      "confidence": "low",
+      "notes": "The index table on page 37 references page 13 for current climate-related impacts, but page 13 itself was not retrieved in the context chunks. Therefore, the specific historic/current climate impacts cannot be quoted directly. The answer is based on what the index table indicates, not the actual content of page 13.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Oceania identifies the following physical climate risks:\n\n1. **Increasing frequency and intensity of extreme weather events** (acute physical risk, medium to long term, greatest under Hothouse/Disorderly scenarios):\n   - Damage to assets including buildings, infrastructure and roading\n   - Disruption from potential outages to power, water and communications\n   - Potential disruption to site access\n   - Disruption to, or risk of harm to, residents and employees and potential evacuations and use of temporary accommodation\n   - Rising cost of remedial activity, operational costs including costs of financing and insurance (or retreat)\n   - Potential delays from, and disruption to, supply chain and development (build/construction) activity\n   - Potential loss or delay in revenue\n\n2. **Increasing frequency and intensity of rainfall** (acute and chronic physical risk, medium to long term, greatest under Hothouse/Disorderly scenarios):\n   - All of the above, plus accelerated deterioration of assets, grounds, facilities and infrastructure requiring cost to remediate\n   - Increase in chronic illnesses e.g. respiratory and other illnesses related to damp conditions or water/vector borne diseases\n\nThe physical risk assessment covered geospatial climate-related hazards including coastal flooding, coastal erosion, river and surface flooding across Oceania's retirement villages and care centres.",
+      "evidence": "\"That process identified specific physical risks (acute and chronic) and transition risks (associated with transitioning to a low carbon and climate resilient economy) that could arise under each of the scenarios considered... Oceania engaged external climate risk experts to provide an initial assessment of the potential exposure of its retirement villages and care centres, intended to form part of its longer term portfolio, across a range of geospatial climate-related hazards, including coastal flooding, coastal erosion, river and surface flooding, over time.\"\n\n\"1. Increasing frequency and intensity of extreme weather events including cyclones, storms and flooding. Physical (acute) Medium to long term Hothouse Disorderly — Damage to assets including buildings, infrastructure and roading. Disruption from potential outages to power, water and communications. Potential disruption to site access. Disruption to, or risk of harm to, residents and employees and potential evacuations and use of temporary accommodation. Rising cost of remedial activity, operational costs including costs of financing and insurance (or retreat). Potential delays from, and disruption to, supply chain and development (build/construction) activity. Potential loss or delay in revenue.\n\n2. Increasing frequency and intensity of rainfall. Physical (acute and chronic) Medium to long term Hothouse Disorderly — All of the above, plus accelerated deterioration of assets, grounds, facilities and infrastructure requiring cost to remediate. Increase in chronic illnesses e.g. respiratory and other illnesses related to damp conditions or water/vector borne diseases.\"",
+      "location_hint": "Page 19, 27 — Oceania Healthcare FY2024 Climate-related Risk Disclosure",
+      "confidence": "high",
+      "notes": "The context shows two physical risks explicitly listed in the risk table on page 19. Additional physical risks may exist on pages 20 onwards (referenced but not included in the retrieved chunks). The risks span both acute and chronic categories.",
+      "verification": null
+    }
+  ]
+}

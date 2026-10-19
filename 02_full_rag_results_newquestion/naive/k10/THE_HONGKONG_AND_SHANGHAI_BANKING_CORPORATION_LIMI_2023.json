@@ -1,0 +1,170 @@
+{
+  "source": "THE_HONGKONG_AND_SHANGHAI_BANKING_CORPORATION_LIMI_2023",
+  "model_id": "claude-sonnet-4-6",
+  "k": 10,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "output_tokens": 6268,
+      "total_tokens": 87151,
+      "input_tokens": 80883,
+      "input_token_details": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0,
+        "cache_creation": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "The NZ Banking Group has adopted four climate scenarios:\n1. Net Zero scenario – limits global warming to no more than 1.5°C by 2100\n2. Current Commitments scenario – leads to global temperature rises of 2.4°C by 2100\n3. Delayed Transition Risk scenario – climate action delayed until 2030, limits global warming to under 2°C by 2100\n4. Downside Physical Risk scenario – leads to extreme global warming with temperatures increasing by greater than 4°C by 2100",
+      "evidence": "\"The NZ Banking Group has adopted the following scenarios:\n– The Net Zero scenario, which is consistent with the Paris Agreement. This assumes that there will be orderly but considerable climate action, limiting global warming to no more than 1.5°C by 2100, when compared with pre-industrial levels;\n– the Current Commitments scenario, which assumes that climate action is limited to current governmental committed policies, including already implemented actions, leading to global temperature rises of 2.4°C by 2100. This slow transition scenario helps the NZ Banking Group to determine the actions it needs to take to reach its net zero ambition while operating in a world that is not net zero;\n– the Delayed Transition Risk scenario, which assumes that climate action is delayed until 2030 with a late disorderly transition to net zero but stringent and rapid enough to limit global warming to under 2°C by 2100. This scenario allows the NZ Banking Group to stress test severe but plausible transition risk impacts; and\n– the Downside Physical Risk scenario, which assumes climate action is limited to currently implemented governmental policies, leading to extreme global warming with global temperatures increasing by greater than 4°C by 2100.\"",
+      "location_hint": "nzm-cs-dec-2023.pdf, page 6",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes four scenarios with the following global temperature outcomes by 2100 (vs pre-industrial levels):\n1. Net Zero scenario: 1.5°C\n2. Current Commitments scenario: 2.4°C\n3. Delayed Transition Risk scenario: 1.6°C (under 2°C)\n4. Downside Physical Risk scenario: greater than 4°C (4.2°C)",
+      "evidence": "\"Rise in global temperatures by 2100 (vs pre-industrial levels): Net zero: 1.5˚C, Current Commitments: 2.4˚C, Delayed Transition Risk: 1.6˚C, Downside Physical Risk: 4.2˚C\"",
+      "location_hint": "nzm-cs-dec-2023.pdf, page 7 (Characteristics of the scenarios table)",
+      "confidence": "high",
+      "notes": "The document explicitly lists all four scenario temperature outcomes by 2100 in a table on page 7, and also describes them narratively on page 6.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "The NZ Banking Group used internally developed climate scenarios (Group's internal climate scenario analysis, 'ICSA'), with external publicly available climate scenarios used as a reference, including those produced by the Network for Greening the Financial System (NGFS), the Intergovernmental Panel on Climate Change (IPCC), and the International Energy Agency (IEA).",
+      "evidence": "\"Scenarios were created using external publicly available climate scenarios as a reference, including those produced by the Network for Greening the Financial System ('NGFS'), the Intergovernmental Panel on Climate Change ('IPCC') and the International Energy Agency ('IEA').\" and \"The NZ Banking Group has used the Group's internally developed climate scenarios.\"",
+      "location_hint": "Page 6",
+      "confidence": "high",
+      "notes": "The primary scenarios are internally developed by the HSBC Group, but they reference NGFS, IPCC, and IEA scenarios as external inputs.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context from the HSBC NZ Banking Group Climate Statement 2023 does not mention any specific SSPs (Shared Socioeconomic Pathways) or RCPs (Representative Concentration Pathways) used in scenario analysis. The document references climate scenario analysis and TCFD-aligned risk drivers but does not specify which SSP or RCP scenarios were employed.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes. The NZ Banking Group used the Group's internally developed climate scenarios, adapted from external publicly available climate scenarios (NGFS, IPCC, IEA) by incorporating unique climate risks and vulnerabilities specific to the organisation and its customers. The four scenarios adopted are: (1) Net Zero (1.5°C by 2100), (2) Current Commitments (2.4°C by 2100), (3) Delayed Transition Risk (under 2°C by 2100), and (4) Downside Physical Risk (greater than 4°C by 2100).",
+      "evidence": "\"The NZ Banking Group has used the Group's internally developed climate scenarios. These scenarios provide a holistic view that will supplement the Group's current and future strategic thinking... They reflect inputs from key internal stakeholders and experts across the NZ Banking Group and have been reviewed through internal governance... the NZ Banking Group adapted them by incorporating its unique climate risks and vulnerabilities to which the organisation and customers across different business sectors and regions are exposed.\"",
+      "location_hint": "Page 6",
+      "confidence": "high",
+      "notes": "The scenarios were based on external reference scenarios (NGFS, IPCC, IEA) but customised internally. They were deemed to reflect internal climate vulnerabilities better than the New Zealand Banking Association scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "The NZ Banking Group used internally developed climate scenarios (not co-produced with external stakeholders). These scenarios reflect inputs from key internal stakeholders and experts across the NZ Banking Group and were reviewed through internal governance involving sector specialists and key stakeholders. They were not co-produced with external parties; in fact, they were chosen over the New Zealand Banking Association scenarios.",
+      "evidence": "\"The NZ Banking Group has used the Group's internally developed climate scenarios. These scenarios provide a holistic view that will supplement the Group's current and future strategic thinking, which the NZ Banking Group forms part of. They reflect inputs from key internal stakeholders and experts across the NZ Banking Group and have been reviewed through internal governance. This review process involved both sector specialists and key stakeholders within the NZ Banking Group, with the final results being reviewed by the NZ Banking Group's Head of Finance and Chief Risk and Compliance Officer, and tabled at the NZ Banking Group's Risk Management Meeting. These scenarios were deemed to reflect internal climate vulnerabilities better compared to the New Zealand Banking Association scenarios, and is reflective of the global model in which the NZ Banking Group operates.\"",
+      "location_hint": "Page 6, \"Our climate scenarios\" section",
+      "confidence": "high",
+      "notes": "The scenarios were internally developed, not co-produced with external parties. The document explicitly states they were chosen over the New Zealand Banking Association scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "The NZ Banking Group uses four scenarios: (1) Net Zero – limits global warming to 1.5°C by 2100; (2) Current Commitments – limited climate action leading to 2.4°C by 2100; (3) Delayed Transition Risk – climate action delayed until 2030, limiting warming to under 2°C by 2100; (4) Downside Physical Risk – limited action leading to >4°C by 2100. These were developed using external publicly available climate scenarios from NGFS, IPCC, and IEA as a reference.",
+      "evidence": "\"The NZ Banking Group has adopted the following scenarios: – The Net Zero scenario, which is consistent with the Paris Agreement. This assumes that there will be orderly but considerable climate action, limiting global warming to no more than 1.5°C by 2100, when compared with pre-industrial levels; – the Current Commitments scenario, which assumes that climate action is limited to current governmental committed policies, including already implemented actions, leading to global temperature rises of 2.4°C by 2100. This slow transition scenario helps the NZ Banking Group to determine the actions it needs to take to reach its net zero ambition while operating in a world that is not net zero; – the Delayed Transition Risk scenario, which assumes that climate action is delayed until 2030 with a late disorderly transition to net zero but stringent and rapid enough to limit global warming to under 2°C by 2100. This scenario allows the NZ Banking Group to stress test severe but plausible transition risk impacts; and – the Downside Physical Risk scenario, which assumes climate action is limited to currently implemented governmental policies, leading to extreme global warming with global temperatures increasing by greater than 4°C by 2100.\"",
+      "location_hint": "nzm-cs-dec-2023.pdf, page 6",
+      "confidence": "high",
+      "notes": "External reference scenarios include NGFS, IPCC, and IEA. The scenarios were internally adapted to reflect the NZ Banking Group's unique climate risks and vulnerabilities.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "The NZ Banking Group utilised Group-owned models (developed by the HBAP group) for its climate scenario analysis. These models incorporate climate-specific metrics including expected production volumes, revenue, costs and capital expenditure, and assess how these interplay with economic factors such as carbon prices. No localised models were developed for the NZ Banking Group. External publicly available climate scenarios from NGFS, IPCC, and IEA were used as reference inputs.",
+      "evidence": "\"The NZ Banking Group has no localised models and utilised Group-owned models in its climate scenario analysis.\" and \"Scenarios were created using external publicly available climate scenarios as a reference, including those produced by the Network for Greening the Financial System ('NGFS'), the Intergovernmental Panel on Climate Change ('IPCC') and the International Energy Agency ('IEA').\"",
+      "location_hint": "Page 11 and Page 6",
+      "confidence": "high",
+      "notes": "The document does not name a specific proprietary model; it only states that Group-owned (HBAP group) models were used, validated independently, with NGFS/IPCC/IEA scenarios as external references.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. The NZ Banking Group considers damage from acute physical risk events. In 2023, two key acute physical risk events were identified: the Auckland Anniversary floods and Cyclone Gabrielle. The group also models future physical risk using the Downside Physical Risk scenario, which covers increased frequency and severity of weather events, and assesses impacts such as higher expected credit losses (ECL) due to the cost of repairing damage and impacts on property valuations.",
+      "evidence": "\"In 2023, in New Zealand there were two key events that could be considered as climate-related under Acute Physical risk (Auckland Anniversary floods and Cyclone Gabrielle) which had the potential to impact the New Zealand Banking Group's own operations. In both events, the NZ Banking Group identified that the weather events had no adverse current impact on the operations of the NZ Banking Group and there are no other climate-related impacts that have had material impacts on the NZ Banking Group.\"\n\n\"Geographical location is a key determinant in exposure to potential physical risk events, which can lead to higher ECL due to the cost of repairing damage as well as impact property valuations in areas where physical risk events are increasing in frequency.\"",
+      "location_hint": "Page 10 and Page 8",
+      "confidence": "high",
+      "notes": "The document explicitly identifies acute physical risk events (Auckland Anniversary floods and Cyclone Gabrielle) and discusses damage costs (repair costs, property valuation impacts) as part of the ECL framework. No material impact was found in 2023, but the risk is actively considered.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include the following non-temperature variables: (1) Assumed variation in global climate policies (Low / Medium / High / Low across scenarios), (2) Assumed pace of technology change and adoption (Fast / Gradual / Accelerates from 2030 / None), (3) Assumed socioeconomic impact (High / Moderate / Very high / Very high in long term), (4) Carbon price (High increase / Increase / Rapid increase / No change), and (5) Assumed change in CO2 emissions by 2050 (Net zero / Reduce but no net zero / Net zero / Increase).",
+      "evidence": "\"Assumed variation in global climate policies: Low / Medium / High / Low; Assumed pace of technology change and adoption: Fast / Gradual / Accelerates from 2030 / None; Assumed socioeconomic impact: High / Moderate / Very high / Very high (in long term); Carbon price: High increase / Increase / Rapid increase / No change; Assumed change in CO2 emissions (by 2050): Net zero / Reduce, but no net zero / Net zero / Increase\"",
+      "location_hint": "Page 7, Characteristics of the scenarios table",
+      "confidence": "high",
+      "notes": "These variables are drawn directly from the scenario characteristics table on page 7, covering all four scenarios: Net Zero, Current Commitments, Delayed Transition Risk, and Downside Physical Risk.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "The NZ Banking Group uses four climate scenarios at a global scale, with temperature outcomes measured against pre-industrial levels by 2100:\n1. Net Zero scenario: 1.5°C by 2100\n2. Current Commitments scenario: 2.4°C by 2100\n3. Delayed Transition Risk scenario: under 2°C (1.6°C) by 2100\n4. Downside Physical Risk scenario: greater than 4°C (4.2°C) by 2100\n\nThe scenarios are applied across short term (up to 2025), medium term (2026–2035), and long term (2036–2050) time horizons, aligned to the Climate Action 100+ framework v1.2.",
+      "evidence": "\"The NZ Banking Group has adopted the following scenarios: – The Net Zero scenario, which is consistent with the Paris Agreement. This assumes that there will be orderly but considerable climate action, limiting global warming to no more than 1.5°C by 2100, when compared with pre-industrial levels; – the Current Commitments scenario, which assumes that climate action is limited to current governmental committed policies, including already implemented actions, leading to global temperature rises of 2.4°C by 2100. – the Delayed Transition Risk scenario, which assumes that climate action is delayed until 2030 with a late disorderly transition to net zero but stringent and rapid enough to limit global warming to under 2°C by 2100. – the Downside Physical Risk scenario, which assumes climate action is limited to currently implemented governmental policies, leading to extreme global warming with global temperatures increasing by greater than 4°C by 2100.\"\n\n\"The timeframes used in the scenarios are short term up to 2025; medium term from 2026 to 2035; and long term from 2036 to 2050. The time horizons are aligned to the Climate Action 100+ framework v1.2.\"",
+      "location_hint": "Page 6, nzm-cs-dec-2023.pdf",
+      "confidence": "high",
+      "notes": "The scenarios are global in scale (temperature outcomes are global), applied to the NZ Banking Group's portfolio. The endpoint of scenario analysis is 2050, but temperature outcomes are reported to 2100.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "The NZ Banking Group uses three time frames:\n- Short-term: up to 2025\n- Medium-term: 2026 to 2035\n- Long-term: 2036 to 2050\n\nThese are aligned to the Climate Action 100+ framework v1.2. The endpoint in scenario analysis is 2050, with temperature outcomes extending to 2100.",
+      "evidence": "\"The timeframes used in the scenarios are short term up to 2025; medium term from 2026 to 2035; and long term from 2036 to 2050. The time horizons are aligned to the Climate Action 100+ framework v1.2. These time horizons also align internally to the way climate risk is assessed to impact HSBC's risk taxonomy... The endpoint in the scenario analysis is 2050, however the temperature outcomes are to 2100 as it takes decades for carbon emissions to fully manifest in the temperature increase outcomes.\"",
+      "location_hint": "Page 6",
+      "confidence": "high",
+      "notes": "Confirmed also on page 10: \"The Group defines short-term as time periods up to 2025; medium-term as between 2026 and 2035, and long-term as between 2036 and 2050.\"",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "The NZ Banking Group used internally developed climate scenarios (rather than external ones like the New Zealand Banking Association scenarios) because they were deemed to better reflect internal climate vulnerabilities and are reflective of the global model in which the NZ Banking Group operates. The scenarios were developed using external publicly available climate scenarios (NGFS, IPCC, IEA) as a reference and adapted by incorporating the NZ Banking Group's unique climate risks and vulnerabilities. They reflect inputs from key internal stakeholders and experts and were reviewed through internal governance. The four scenarios (Net Zero, Current Commitments, Delayed Transition Risk, Downside Physical Risk) were chosen to cover a range of physical and transition risks across different severity levels, time periods, and temperature outcomes, enabling stress testing of both transition and physical risk impacts.",
+      "evidence": "\"The NZ Banking Group has used the Group's internally developed climate scenarios. These scenarios provide a holistic view that will supplement the Group's current and future strategic thinking, which the NZ Banking Group forms part of. They reflect inputs from key internal stakeholders and experts across the NZ Banking Group and have been reviewed through internal governance... These scenarios were deemed to reflect internal climate vulnerabilities better compared to the New Zealand Banking Association scenarios, and is reflective of the global model in which the NZ Banking Group operates.\" and \"Scenarios were created using external publicly available climate scenarios as a reference, including those produced by the Network for Greening the Financial System ('NGFS'), the Intergovernmental Panel on Climate Change ('IPCC') and the International Energy Agency ('IEA').\"",
+      "location_hint": "Page 6, nzm-cs-dec-2023.pdf",
+      "confidence": "high",
+      "notes": "The document explicitly states the rationale for choosing internally developed scenarios over the NZ Banking Association scenarios, and references the external frameworks used as inputs.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context focuses on forward-looking climate scenario analysis, risk frameworks, and projected impacts on the wholesale lending portfolio. There is no discussion of historic (past) climate impacts experienced by the organization in the provided passages.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "The NZ Banking Group identifies physical risk as arising from: (1) acute risks — increased frequency and severity of extreme weather events, such as typhoons and floods; and (2) chronic risks — shifts in weather patterns or rises in sea level. The NZ Banking Group may be affected by the financial or non-financial impacts of climate risks either directly or indirectly through its relationships with customers. Physical risk is assessed across scenarios, with the \"Downside Physical Risk\" scenario assuming climate action is limited to currently implemented governmental policies, leading to extreme global warming with global temperatures increasing by greater than 4°C by 2100, used to assess physical risks associated with climate change.",
+      "evidence": "\"physical risk, which arises from the increased frequency and severity of extreme weather events, such as typhoons and floods (acute risk), or shifts in weather patterns or rises in sea level... The NZ Banking Group may be affected by the financial or non-financial impacts of climate risks either directly or indirectly through its relationships with customers.\"",
+      "location_hint": "Page 9",
+      "confidence": "high",
+      "notes": "The document distinguishes acute physical risks (extreme weather events) from chronic physical risks (shifts in weather patterns, sea level rise), and notes both direct and indirect exposure pathways. The Downside Physical Risk scenario (4.2°C by 2100) is used specifically to assess physical risks.",
+      "verification": null
+    }
+  ]
+}

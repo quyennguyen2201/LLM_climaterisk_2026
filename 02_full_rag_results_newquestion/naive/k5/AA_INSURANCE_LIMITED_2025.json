@@ -1,0 +1,170 @@
+{
+  "source": "AA_INSURANCE_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "output_tokens": 6029,
+      "input_token_details": {
+        "cache_read": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_creation": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 50518,
+      "total_tokens": 56547
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Three scenarios are used: 1) Orderly – an ambitious and coordinated transition aligned with a 1.5°C warming trajectory; 2) Disorderly – delayed action followed by sudden and uncoordinated transformation, landing at <2.0°C; 3) Hot House – continuation of current policy settings, leading to uncontrolled warming of 3°C+.",
+      "evidence": "\"Orderly ... An ambitious and coordinated transition aligned with a 1.5°C warming trajectory ... Disorderly ... Delayed action, followed by sudden and uncoordinated transformation, landing at <2.0°C ... Hot House ... Continuation of current policy settings, leading to uncontrolled warming of 3°C+\"",
+      "location_hint": "Table 4, page 11",
+      "confidence": "high",
+      "notes": "Each scenario draws on key sources including ICNZ, NGFS, IPCC SSP, and Climate Change Commission (CCC) frameworks.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document presents three scenarios with different temperature outcomes by 2100:\n1. SSP1-2.6 (Rapid transition): 1.8°C increase by 2100 relative to 1850-1900 baseline (note that the low end of the range is consistent with 1.5°C)\n2. SSP2-4.5 (Delayed transition): 2.7°C increase by 2100, relative to 1850-1900 baseline (note that warming is limited to <2°C in 2050)\n3. SSP3-7.0 (Current policies): 3.6°C temperature increase by 2100 relative to 1850-1900 baseline",
+      "evidence": "1.8°C temperature increase by 2100 relative to 1850-1900 baseline. Source: IPCC SSP1-2.6 (note that the low end of the range is consistent with 1.5°C) ... 2.7°C temperature increase by 2100, relative to 1850-1900 baseline. Source: IPCC SSP2-4.5 (note that warming is limited to <2°C in 2050) ... 3.6°C temperature increase by 2100 relative to 1850-1900 baseline. Source: IPCC SSP3-7.0",
+      "location_hint": "Page 29, Appendix 1",
+      "confidence": "high",
+      "notes": "Three scenarios are presented, each with a distinct temperature outcome by 2100. All are relative to the 1850-1900 baseline, sourced from IPCC SSP pathways.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "The scenarios were developed using multiple providers: the Insurance Council of New Zealand (ICNZ), the Network for Greening the Financial System (NGFS), the Intergovernmental Panel on Climate Change (IPCC), and the Climate Change Commission (CCC).",
+      "evidence": "\"The data sources used to construct these scenarios were largely drawn from several local and global frameworks: Network for Greening the Financial System (NGFS), the Intergovernmental Panel on Climate Change's (IPCC) Shared Socio-economic Pathways (SSP), and the Climate Change Commission (CCC). Policy assumptions were updated to reflect the updated CCC scenarios provided to Central Government as part of their advice on the Fourth Emissions budget.\"",
+      "location_hint": "Page 11, Strategy section",
+      "confidence": "high",
+      "notes": "The ICNZ scenarios were used as a starting point, with NGFS, IPCC SSP, and CCC as key data sources for constructing the three scenarios (Orderly, Disorderly, Hot House).",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "AA Insurance uses the following SSP pairings for their three scenarios (no RCPs are mentioned):\n- Orderly scenario: IPCC SSP1-2.6\n- Disorderly scenario: IPCC SSP2-4.5\n- Hot House scenario: IPCC SSP3-7.0\n\nNo RCPs are referenced in the document; only SSPs are used.",
+      "evidence": "\"Key sources: ICNZ Orderly, NGFS Net zero 2050, IPCC SSP1 - 2.6, CCC HTHS ... Key sources: ICNZ Disorderly, NGFS Delayed transition, IPCC SSP2 - 4.5, CCC HTLS ... Key sources: ICNZ Hot House, NGFS Current policies, IPCC SSP3 - 7.0, CCC Reference\"",
+      "location_hint": "Table 4: Scenario overview, p.11",
+      "confidence": "high",
+      "notes": "The document references only SSPs (Shared Socio-economic Pathways), not RCPs (Representative Concentration Pathways). The three SSPs used are SSP1-2.6, SSP2-4.5, and SSP3-7.0, mapped to the Orderly, Disorderly, and Hot House scenarios respectively.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes. AA Insurance developed at least one customised scenario narrative. The document describes a bespoke \"Hot House\" / disorderly scenario narrative set in New Zealand, covering the period to 2035 and 2050, which goes beyond standard off-the-shelf scenarios (e.g. NGFS). Key elements include: NHC expansion covering most perils, reinsurer withdrawal from certain perils in the New Zealand market, very high insurance costs, global conflicts over water/food/energy, and climate-driven migration to New Zealand.",
+      "evidence": "\"The intensification of severe weather events is such that, by 2035, insurance in parts of New Zealand becomes very expensive. In response to this, the New Zealand Government focuses on strong adaptation policy. This includes an expansion of the NHC to cover most perils, taking a historically large market away from general insurers. Reinsurers withdraw from covering certain perils in the New Zealand market... By 2050, climate change is a significant driver of migration, and a large number of people see New Zealand's (comparably) pleasant climate as an ideal destination.\"",
+      "location_hint": "Page 29, Scenario Narrative section",
+      "confidence": "high",
+      "notes": "The document contains a bespoke narrative scenario tailored to the New Zealand insurance market context, referencing NHC, reinsurance dynamics, and local policy responses. It is not purely a standard NGFS or IEA scenario. The document also references three scenario types (Orderly, Disorderly, Hot House) applied to risks and opportunities tables (p.15), suggesting a customised framework built on top of standard scenario archetypes.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The context describes AA Insurance's use of climate scenarios (ICNZ, NGFS, IPCC, CCC frameworks) but does not mention any co-production of climate scenarios with external stakeholders or other organisations. The scenarios used appear to be sourced from existing frameworks rather than co-produced.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "AA Insurance uses three climate change scenarios for its Climate Change Scenario Analysis (CCSA):\n1. **Orderly** – aligned with a 1.5°C warming trajectory (key sources: ICNZ Orderly, NGFS Net zero 2050, IPCC SSP1-2.6, CCC HTHS)\n2. **Disorderly** – delayed action landing at <2.0°C (key sources: ICNZ Disorderly, NGFS Delayed transition, IPCC SSP2-4.5, CCC HTLS)\n3. **Hot House** – continuation of current policy settings leading to 3°C+ warming (key sources: ICNZ Hot House, NGFS Current policies, IPCC SSP3-7.0, CCC Reference)",
+      "evidence": "\"Key sources: ICNZ Orderly, NGFS Net zero 2050, IPCC SSP1 - 2.6, CCC HTHS ... An ambitious and coordinated transition aligned with a 1.5°C warming trajectory. Key sources: ICNZ Disorderly, NGFS Delayed transition, IPCC SSP2 - 4.5, CCC HTLS ... Delayed action, followed by sudden and uncoordinated transformation, landing at <2.0°C. Key sources: ICNZ Hot House, NGFS Current policies, IPCC SSP3 - 7.0, CCC Reference ... Continuation of current policy settings, leading to uncontrolled warming of 3°C+\"",
+      "location_hint": "Table 4: Scenario overview, p.11",
+      "confidence": "high",
+      "notes": "Three scenarios are used: Orderly (1.5°C), Disorderly (<2.0°C), and Hot House (3°C+), each drawing on ICNZ, NGFS, IPCC, and CCC reference scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "For physical modelling: Finity (storm and coastal inundation) and Aon (river and surface water flood modelling). For transition modelling: Finity used a Computable General Equilibrium (CGE) model created by Victoria University (Melbourne).",
+      "evidence": "\"We used the third-party modelling expertise of both Finity (storm and coastal inundation modelling) and Aon (river and surface water flood modelling, as used in 2023).\" and \"The transition modelling performed by Finity used a Computable General Equilibrium (CGE) model created by Victoria University (Melbourne) to capture regional and national changes in response to potential economic shocks under each of the chosen scenarios.\"",
+      "location_hint": "Appendix 2, p.30",
+      "confidence": "high",
+      "notes": "Two separate modelling approaches are described: physical modelling (Finity + Aon) and transition modelling (Finity using Victoria University's CGE model).",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. AA Insurance considers damage from acute physical risks including flooding (surface water, riverine and coastal inundation), storm, and coastal inundation. The analysis found that Average Annual Losses (AALs) are projected to increase under each scenario due to the increased frequency of severe weather events, predominantly due to flooding and coastal inundation. The rising volume, severity and cost of customer claims is identified as a key physical risk, as extreme weather events cause more damage to insured assets.",
+      "evidence": "\"The analysis concluded that AALs are projected to increase under each scenario due to the increased frequency of severe weather events. Increases to AALs are predominantly due to flooding and coastal inundation, whereas the AALs for storm are not projected to change materially under the three scenarios.\"\n\n\"The volume and severity of claims rises as the increasing frequency and severity of extreme weather events causes more damage to our customers' insured assets. The cost of claims also rises, not only due to the rising volumes, but price inflation from national and international supply chain shortages as a result of local and global extreme weather events.\"",
+      "location_hint": "Page 12–13, Strategy section",
+      "confidence": "high",
+      "notes": "Acute physical risks explicitly modelled include flood (surface water, riverine, coastal inundation) and storm across home, contents, motor and small business insurance portfolios.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios incorporate non-temperature variables including: flood, storm, and coastal inundation (for physical risk modelling); inflation, wage growth, and cost growth (for transition/economic modelling); financial margins (household disposable income minus non-discretionary expenditure); and industry revenue growth by sector. The disorderly scenario specifically features projected high inflation and financial instability.",
+      "evidence": "\"We analysed our present-day home, contents, motor and small business insurance portfolios and overlaid climate models for flood, storm and coastal inundation.\" / \"Financial margins (household disposable income minus non-discretionary expenditure) were based on historical data from Stats NZ projected forwards using assumptions for inflation, wage growth and cost growth.\" / \"The disorderly scenario is projected to see the greatest stress on affordability of the three scenarios, with projected high inflation and financial instability caused by a delayed yet aggressive shift towards sustainability.\"",
+      "location_hint": "Pages 12 and 30",
+      "confidence": "high",
+      "notes": "Non-temperature variables span both physical (flood, storm, coastal inundation) and transition/economic dimensions (inflation, wage growth, cost growth, financial margins, industry revenue growth). Temperature changes are used as the primary driver of SSP scenarios, but these additional variables are explicitly modelled.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "AA Insurance used three scenarios for their Climate Change Scenario Analysis (CCSA): 1) Current policies / Hot House World (SSP3-7.0) — continuation of current policy settings, leading to uncontrolled warming of 3°C+; 2) Delayed transition (SSP2-4.5) — delayed action, followed by sudden and uncoordinated transformation, landing at <2.0°C; and an Orderly transition scenario (implied from the risk table). The scenarios were applied across short, medium, and long time horizons, with physical modelling conducted at address level and summarised at postcode level, using the portfolio as at 30 June 2024 as a proxy for present day.",
+      "evidence": "\"Current policies SSP3-7.0 Continuation of current policy settings, leading to uncontrolled warming of 3°C+ Delayed transition SSP2-4.5 Delayed action, followed by sudden and uncoordinated transformation, landing at <2.0°C\"",
+      "location_hint": "Appendix 1 / p.29; Appendix 2 / p.30",
+      "confidence": "high",
+      "notes": "Three scenarios are referenced (Orderly, Disorderly/Delayed transition, Hot House/Current policies), mapped to SSP pathways. Physical modelling covered home, contents, motor and small business insurance portfolios at address level, summarised at postcode level, across three time horizons.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "AA Insurance defines three time horizons for climate-related disclosures:\n- **Short term**: 2025–2030 (aligns with their short-term emissions reduction target and 3–5-year business planning cycle)\n- **Medium term**: 2030–2040 (a midpoint between the short and long terms)\n- **Long term**: 2040–2050 (aligns with the New Zealand Government's target of net zero emissions of long-lived gases by 2050)\n\nNote: For their general risk management framework, different timeframes apply — Short: within the next 12 months; Medium: 1–5 years; Long: 1–20+ years.",
+      "evidence": "\"Short term 2025 – 2030: Aligns with our short-term emissions reduction target and our 3–5-year business planning cycle. Medium term 2030 – 2040: A midpoint between the short and long terms. Long term 2040 – 2050: Aligns with the New Zealand Government's target of net zero emissions of long-lived gases by 2050.\"",
+      "location_hint": "Page 12, Strategy – Time horizons section",
+      "confidence": "high",
+      "notes": "The document also notes that these definitions were updated from prior versions, with no material impact on disclosure. A separate set of timeframes applies to the general risk management framework (p.22).",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "The models used for both physical and transition risk analysis are justified on the basis that they are widely used in the insurance sector. For physical modelling, third-party expertise from Finity (storm and coastal inundation) and Aon (river and surface water flood) was used, with models deemed appropriate as they are \"widely used in the insurance sector for understanding physical risks.\" For transition modelling, a Computable General Equilibrium (CGE) model created by Victoria University (Melbourne) was used, also deemed appropriate as it is \"widely used in the insurance sector for understanding transition risks.\" The company acknowledges it is in an exploratory phase and will continue to explore a range of models.",
+      "evidence": "\"The models used in this analysis are deemed appropriate as they are widely used in the insurance sector for understanding physical risks. We will continue to explore a range of models whilst in the exploratory phase of physical climate modelling.\" / \"The models used in this analysis are deemed appropriate as they are widely used in the insurance sector for understanding transition risks. We will continue to explore a range of models whilst in the exploratory phase of transition risk modelling.\"",
+      "location_hint": "Appendix 2, p.30",
+      "confidence": "high",
+      "notes": "Justification is sector-wide adoption rather than specific scientific or methodological rationale. The CGE model from Victoria University (Melbourne) is specifically named for transition modelling; Finity and Aon are named for physical modelling.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context discusses climate-related risks, risk management frameworks, and future-oriented strategy, but does not contain specific data or descriptions of historic climate impacts (e.g., past weather events, historical loss data, or documented past climate impacts on the business).",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "AA Insurance faces direct physical climate risks from increasingly severe and frequent weather events affecting insured customer assets, leading to higher weather-related claims (long-term average of $16.4m per year, gradually rising) and significantly increased reinsurance premiums (up more than 200% since FY22). Indirect physical risks include impacts on insurance affordability for both the business and customers. In response, the company has invested in third-party models and address-level data, introduced risk-based pricing for flooding in FY24, is working on risk-based pricing for storm, and has paused offering new home insurance cover in higher-risk areas where exposure thresholds are reached.",
+      "evidence": "\"The main physical risks that we face stem from increasingly severe and frequent weather events affecting our customers' assets that we have insured... We have invested in third party models and address level data, which allowed us to introduce risk-based pricing for flooding in FY24 and begin working on the introduction of risk-based pricing for storm... We have also reassessed our underwriting strategy to pause offering new home insurance cover where we have reached a certain level of exposure in a higher risk area.\" and \"our long-term average weather-related claims [are] $16.4m per year, which has been gradually rising... reinsurance premiums... have risen by $64.6m, more than 200%, since FY22.\" and \"Both physical and transition impacts of climate change are expected to have an impact on insurance affordability, for both us as a business and for our customers.\"",
+      "location_hint": "Pages 10 and 18, Strategy section",
+      "confidence": "high",
+      "notes": "The context clearly identifies direct physical risks (weather events, claims, reinsurance costs) and indirect physical risks (insurance affordability). Specific financial figures are provided for claims and reinsurance premium increases.",
+      "verification": null
+    }
+  ]
+}

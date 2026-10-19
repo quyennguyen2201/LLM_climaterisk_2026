@@ -1,0 +1,170 @@
+{
+  "source": "DOWNER_EDI_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "k": 10,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 88864,
+      "output_tokens": 6707,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "total_tokens": 95571
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Downer used three climate scenarios in FY25:\n1. Low climate change scenario: NGFS – Orderly, net zero 2050 (1.5°C) / IPCC – 1.8°C; SSP1; RCP 2.6\n2. Medium climate change scenario: NGFS – Disorderly, delayed transition (2°C) / IPCC – 2.7°C; SSP2; RCP 4.5\n3. High climate change scenario: NGFS – Current policies (3°C) / IPCC – 3.6°C; SSP3; RCP 7.0",
+      "evidence": "\"Scenario name: Low climate change scenario / Medium climate change scenario / High climate change scenario\nScenario inputs:\nNGFS – Orderly, net zero 2050 (1.5°C) / IPCC – 1.8°C; Shared Socioeconomic Pathway (SSP) 1; Representative Concentration Pathway (RCP) 2.6\nNGFS – Disorderly, delayed transition (2°C) / IPCC – 2.7°C; Shared Socioeconomic Pathway (SSP) 2; Representative Concentration Pathway (RCP) 4.5\nNGFS – Current policies (3°C) / IPCC – 3.6°C; Shared Socioeconomic Pathway (SSP) 3; Representative Concentration Pathway (RCP) 7.0\"",
+      "location_hint": "Page 63, Climate scenarios used in FY25 table",
+      "confidence": "high",
+      "notes": "Data sources used: NGFS Climate Scenarios and IPCC Sixth Assessment Report. The three scenarios satisfy NZ CS 1 section 13 requirements for a 1.5°C scenario, a 3°C or greater scenario, and a third scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Downer's climate scenarios project the following global temperature outcomes by 2100:\n- Low climate change scenario (NGFS Orderly, net zero 2050 / IPCC SSP1 RCP2.6): 1.5°C–1.8°C\n- Medium climate change scenario (NGFS Disorderly, delayed transition / IPCC SSP2 RCP4.5): 2.0°C–2.7°C\n- High climate change scenario (NGFS Current policies / IPCC SSP3 RCP7.0): 3.0°C–3.6°C",
+      "evidence": "\"NGFS – Orderly, net zero 2050 (1.5°C) / IPCC – 1.8°C; Shared Socioeconomic Pathway (SSP) 1; Representative Concentration Pathway (RCP) 2.6 ... NGFS – Disorderly, delayed transition (2°C) / IPCC – 2.7°C; Shared Socioeconomic Pathway (SSP) 2; Representative Concentration Pathway (RCP) 4.5 ... NGFS – Current policies (3°C) / IPCC – 3.6°C; Shared Socioeconomic Pathway (SSP) 3; Representative Concentration Pathway (RCP) 7.0\"",
+      "location_hint": "Page 63, Climate scenarios used in FY25 table; also Page 222",
+      "confidence": "high",
+      "notes": "The document uses both NGFS and IPCC scenario inputs, which give slightly different temperature outcomes for the same scenario tier. The ranges reflect both inputs combined. The high scenario text also states \"Without additional measures, global temperatures rise to between 3°C and 3.6°C by 2100.\"",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "Deloitte",
+      "evidence": "In FY25, Downer engaged Deloitte to conduct scenario analysis on a standalone basis to test our business resilience under different climate outcomes.",
+      "location_hint": "Page 62, Scenario analysis section",
+      "confidence": "high",
+      "notes": "Deloitte was the external partner engaged to conduct the scenario analysis. Data sources used were NGFS Climate Scenarios and IPCC Sixth Assessment Report.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Downer uses the following SSP/RCP combinations across its three climate scenarios:\n- Low climate change scenario: SSP 1 / RCP 2.6 (~1.8°C)\n- Medium climate change scenario: SSP 2 / RCP 4.5 (~2.7°C)\n- High climate change scenario: SSP 3 / RCP 7.0 (~3.6°C)",
+      "evidence": "Low climate change scenario, SSP 1; RCP 2.6 [Low climate change scenario] ~1.8°C ... Medium climate change scenario, SSP 2; RCP 4.5 [Medium climate change scenario] ~2.7°C ... High climate change scenario, SSP 3; RCP 7.0 [High climate change scenario] ~3.6°C",
+      "location_hint": "Page 222 (and also summarised on page 63)",
+      "confidence": "high",
+      "notes": "Each scenario pairs a single SSP with a single RCP consistently (no mixing across scenarios). Downer also notes it replaced the previously used SSP5/RCP8.5 with SSP3/RCP7.0 for the high climate change scenario in FY25.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The context describes Downer's use of standard published scenarios (NGFS Climate Scenarios and IPCC Sixth Assessment Report scenarios such as SSP5-8.5 and SSP3-7.0) rather than any customised/proprietary scenarios. There is no mention of customised scenarios being developed or used.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context does not contain any information about co-produced climate scenarios (i.e., scenarios developed jointly with external stakeholders or partners). While there is a reference to scenario analysis methods and assumptions in the NZ CS 3 compliance table (page 220 of the Annual Report), and a mention that external partners and stakeholders may be involved, no specific detail about co-produced climate scenarios is present in the provided context passages.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Downer used three climate scenarios in FY25:\n1. Low climate change scenario: NGFS Orderly, net zero 2050 (1.5°C) + IPCC SSP1/RCP2.6 (~1.8°C)\n2. Medium climate change scenario: NGFS Disorderly, delayed transition (2°C) + IPCC SSP2/RCP4.5 (~2.7°C)\n3. High climate change scenario: NGFS Current policies (3°C) + IPCC SSP3/RCP7.0 (~3.6°C)",
+      "evidence": "\"Climate scenarios used in FY25\nScenario name: Low climate change scenario | Medium climate change scenario | High climate change scenario\nScenario inputs: NGFS – Orderly, net zero 2050 (1.5°C) / IPCC – 1.8°C; SSP 1; RCP 2.6 | NGFS – Disorderly, delayed transition (2°C) / IPCC – 2.7°C; SSP 2; RCP 4.5 | NGFS – Current policies (3°C) / IPCC – 3.6°C; SSP 3; RCP 7.0\"",
+      "location_hint": "Page 63, Scenario analysis section",
+      "confidence": "high",
+      "notes": "Data sources used were NGFS Climate Scenarios and IPCC Sixth Assessment Report. The high climate change scenario replaced the previously used SSP5/RCP8.5 with SSP3/RCP7.0 in FY25.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "Downer used the Network for Greening the Financial System (NGFS) Climate Scenarios and the Intergovernmental Panel on Climate Change (IPCC) Sixth Assessment Report as data sources for constructing their scenarios. Deloitte was engaged to conduct the scenario analysis.",
+      "evidence": "\"In FY25, Downer engaged Deloitte to conduct scenario analysis on a standalone basis to test our business resilience under different climate outcomes. The scenario analysis was undertaken through several sessions of consultation with Downer's subject matter experts, such as the Executive General Manager Sustainability and Environment and the Group Manager Climate & Sustainability. Downer used the following data sources in constructing our scenarios: Network for Greening the Financial System (NGFS) Climate Scenarios; Intergovernmental Panel on Climate Change (IPCC) Sixth Assessment Report.\"",
+      "location_hint": "Scenario analysis, page 62",
+      "confidence": "high",
+      "notes": "The document references NGFS and IPCC as the scenario/model frameworks used, with Deloitte engaged to conduct the analysis. No specific proprietary modelling tool name is mentioned beyond these frameworks.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Downer considers damage from acute physical risks including extreme rainfall, flooding, cyclones, bushfires, and severe weather events. Current year financial impact from Tropical Cyclone Alfred was approximately $5–15 million in aggregate (reduced revenue and additional remediation/repair costs). Revenues from response to acute and chronic physical impacts amounted to approximately $150 million for the period.",
+      "evidence": "\"Tropical Cyclone Alfred resulted in delays in work, shortened programs and lost construction days for Downer's northern New South Wales and southern Queensland regions, particularly across the Transport segment. This translated into reduced revenue for the period, as well as additional costs for remediation and repair. Overall, this resulted in current year impacts of approximately $5-15 million in aggregate.\" and \"The revenues from the response to acute and chronic physical impacts this period amounted to approximately $150 million for Downer.\"",
+      "location_hint": "Pages 68–69, 2025 Annual Report (including Climate Statement)",
+      "confidence": "high",
+      "notes": "Both the risk (damage/costs) and opportunity (revenue from recovery) sides of acute physical risk are explicitly quantified in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include non-temperature variables such as: extreme rainfall and flooding, prolonged exposure to rain, severe weather (including intense wind and rainfall), bushfire days, sea level rise, precipitation shifts, and extreme weather events (cyclones, droughts, floods, bushfires). Specific projections include increased bushfire days in the Northern Territory, northern Queensland, and New Zealand's North Island, and increased extreme weather events across all climate scenarios and time horizons (2030, 2050, and 2070).",
+      "evidence": "\"Extreme weather events (such as heavy rainfall, storms, bushfires) are projected to increase across all climate scenarios and time horizons (2030, 2050, and 2070). The most affected regions where Downer has a large footprint of customers and projects include New Zealand's South Island, South Australia, Tasmania, Queensland, and the Northern Territory.\" and \"Bushfires increase government spending through damage to infrastructure and the need for costly repairs... The highest projected increase in bushfire days are for the Northern Territory and northern Queensland and regions in New Zealand's North Island, in the medium and long-term time horizons.\" and \"Physical risks resulting from climate change can be event driven (acute) such as increased severity of extreme weather events (for example, cyclones, droughts, floods and fires) or relate to longer-term shifts (chronic) in precipitation and temperature and increased variability in weather patterns (for example, sea level rise).\"",
+      "location_hint": "Pages 68-69, 49 of 2025 Annual Report",
+      "confidence": "high",
+      "notes": "The document references multiple non-temperature variables used in scenario analysis, including rainfall, flooding, bushfire days, sea level rise, and severe weather events, across time horizons of 2030, 2050, and 2070.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Downer used three climate scenarios in FY25: (1) Low climate change scenario — NGFS Orderly, net zero 2050 (1.5°C) and IPCC SSP1/RCP2.6 (~1.8°C); (2) Medium climate change scenario — NGFS Disorderly, delayed transition (2°C) and IPCC SSP2/RCP4.5 (~2.7°C); (3) High climate change scenario — NGFS Current policies (3°C) and IPCC SSP3/RCP7.0 (~3.6°C).",
+      "evidence": "\"Downer has chosen three scenarios to inform its scenario analysis in FY25... NGFS – Orderly, net zero 2050 (1.5°C) / IPCC – 1.8°C; Shared Socioeconomic Pathway (SSP) 1; Representative Concentration Pathway (RCP) 2.6 ... NGFS – Disorderly, delayed transition (2°C) / IPCC – 2.7°C; Shared Socioeconomic Pathway (SSP) 2; Representative Concentration Pathway (RCP) 4.5 ... NGFS – Current policies (3°C) / IPCC – 3.6°C; Shared Socioeconomic Pathway (SSP) 3; Representative Concentration Pathway (RCP) 7.0\"",
+      "location_hint": "Page 63 and Page 221-222, 2025 Annual Report",
+      "confidence": "high",
+      "notes": "Three scenarios spanning 1.5°C to 3.6°C warming, using both NGFS and IPCC scenario inputs. Scenarios are applied at a global/national scale (Australia and New Zealand) across short, medium, and long-term time horizons.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Downer uses different time frames for scenario analysis and for general risk management:\n\n**Scenario analysis time frames:**\n- Physical risks: Short term (2030), Medium term (2050), Long term (2070)\n- Transition risks and opportunities: Short term (2030), Medium term (2040), Long term (2050)\n\n**General risk management time frames (used for managing climate-related risks):**\n- Current: <12 months\n- Medium term: one–three years\n- Long term: three plus years",
+      "evidence": "\"Each scenario was considered over the following time horizons: Physical risks: Short term (2030), Medium term (2050), Long term (2070). Transition risks and opportunities: Short term (2030), Medium term (2040), Long term (2050). These timeframes were informed in consultation with Deloitte. These timeframes do not align with timeframes used in general internal risk management processes. Downer's general risk management processes refer to current (<12 months) and non-current (>12 months) impacts...\"\n\n\"For the purposes of climate-related risk management, timeframes are consistent with those used for general strategic planning and management, which are: Current <12 months; Medium term one-three years; Long term three plus years\"",
+      "location_hint": "Page 62 (scenario analysis time frames); Page 73 (risk management time frames)",
+      "confidence": "high",
+      "notes": "Two distinct sets of time frames are used: one for scenario analysis and one for general risk management/strategic planning. The long-term transition risk horizon of 2050 was chosen to align with the Paris Agreement Net Zero target.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Downer justified its scenario choices based on: (1) availability of data specific to Australia and New Zealand, (2) alignment with temperature pathways required by NZ CS 1, and (3) relevance to Downer's operations. The three scenarios (NGFS Orderly Net Zero 2050 at 1.5°C, NGFS Disorderly Delayed Transition at 2°C, and NGFS Current Policies at 3°C) were chosen to assess both major physical risks and the challenges of transitioning to a low-carbon economy, providing a balanced view of potential impacts. For physical risks, IPCC SSP scenarios (SSP1 RCP2.6, SSP2 RCP4.5, SSP3 RCP7.0) were used. Downer also replaced the previously used IPCC SSP5-8.5 with SSP3-7.0, noting that SSP3-7.0 \"presents a more likely future and is being more widely utilised by Governments and organisations.\"",
+      "evidence": "\"Key considerations in the scenario selection included the availability of data specific to Australia and New Zealand, whether the scenarios aligned with the temperature pathways required by NZ CS 1, and whether they included information relevant to Downer's operations. Downer believes that the chosen scenarios are suitable to test its business model and strategy against the climate-related risks and opportunities. These scenarios assess both major physical risks and the challenges of transitioning to a low-carbon economy, to provide a series of ranges for plausible future states of the world... Downer has previously utilised the IPCC SSP5-8.5 scenario in prior scenario analysis undertaken. Downer's view is that the IPCC SSP3-7.0 scenario presents a more likely future and is being more widely utilised by Governments and organisations. As such, we have opted to replace the IPCC SSP5-8.5 scenario with SSP3-7.0 for this year's scenario analysis.\"",
+      "location_hint": "Scenario analysis section, p.62",
+      "confidence": "high",
+      "notes": "Individual scenario basis statements are also provided in the table on p.222, specifying why each scenario was chosen (e.g., to model high-end transition risk, moderate transition, or no additional climate action).",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "Downer's current climate-related impacts include physical risks from extreme weather events (such as cyclones, droughts, floods, and bushfires) causing downtime, project delays, and increased operational costs. Physical risks are primarily acute, stemming from extreme rainfall, prolonged exposure to rain, and severe weather. Transition risks relate to the company's fossil fuel usage in road surfacing plants and fleet operations, with potential impacts from carbon pricing legislation and direct price increases of equipment and fuel. In FY25, Downer's teams responded to Tropical Cyclone Tam in New Zealand, which affected more than 120 telecommunications sites. The Group estimates physical climate change impact can lead to downtime and project delays, increasing operational costs and/or impacting assets, but the impact was considered immaterial to the Group's future cash flows.",
+      "evidence": "\"Physical risks to Downer's non-current assets, including key sites and locations, arise from events such as extreme rainfall, prolonged exposure to rain and severe weather. The Group estimates physical climate change impact can lead to downtime and project delays, increasing operational costs and/or impacting assets. Based on the previous assessments made impact was considered to be immaterial to the Group's future cash flows. Whilst prolonged periods of extreme weather can impact short-term prospects, the assessment indicates Downer is resilient to physical risks due to the Group operating across multiple industries and diverse locations, insurance coverage, contract pass through mechanisms and business opportunities arising from increased government and private spending on infrastructure due to the same extreme weather events.\"",
+      "location_hint": "2025 Annual Report (including Climate Statement).pdf, page 164",
+      "confidence": "high",
+      "notes": "The document describes current/historic climate impacts including physical risks (extreme weather, downtime, project delays) and transition risks (fossil fuel usage, carbon pricing). A specific FY25 example of Cyclone Tam response in New Zealand is also provided. The financial impact was assessed as immaterial to future cash flows.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Downer identifies the following physical climate risks:\n\n**Acute (Direct) Physical Risk:**\n- Extreme rainfall, prolonged exposure to rain and severe weather — identified as the prioritised acute physical risk. This can lead to downtime and project delays, increasing operational costs and/or impacting assets (including key sites and locations).\n\n**Indirect/Broader Physical Risk Impacts:**\n- Prolonged periods of extreme weather can impact short-term prospects. However, Downer considers itself resilient to physical risks due to operating across multiple industries and diverse locations, insurance coverage, contract pass-through mechanisms, and business opportunities arising from increased government and private spending on infrastructure due to the same extreme weather events.\n\nDowner also notes exposure to physical impacts of extreme weather events more broadly, including cyclones and severe storms (as illustrated by Cyclone Tam response in New Zealand in April 2025).",
+      "evidence": "\"Physical risks to Downer's non-current assets, including key sites and locations, arise from events such as extreme rainfall, prolonged exposure to rain and severe weather. The Group estimates physical climate change impact can lead to downtime and project delays, increasing operational costs and/or impacting assets. Based on the previous assessments made impact was considered to be immaterial to the Group's future cash flows. Whilst prolonged periods of extreme weather can impact short-term prospects, the assessment indicates Downer is resilient to physical risks due to the Group operating across multiple industries and diverse locations, insurance coverage, contract pass through mechanisms and business opportunities arising from increased government and private spending on infrastructure due to the same extreme weather events.\"\n\nAlso: \"Extreme rainfall, prolonged exposure to rain and severe weather — Physical – Acute\" (prioritised risk)",
+      "location_hint": "2025 Annual Report, p.61 (prioritised risks table) and p.164 (impact of climate change section)",
+      "confidence": "high",
+      "notes": "The document explicitly categorises extreme rainfall/severe weather as an acute physical risk. Indirect physical risks (e.g., supply chain disruption, community impacts) are not separately enumerated but broader exposure to extreme weather events is noted throughout.",
+      "verification": null
+    }
+  ]
+}

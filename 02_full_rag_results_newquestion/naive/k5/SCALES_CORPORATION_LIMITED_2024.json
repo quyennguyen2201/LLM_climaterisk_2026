@@ -1,0 +1,170 @@
+{
+  "source": "SCALES_CORPORATION_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "output_tokens": 5508,
+      "total_tokens": 49854,
+      "input_tokens": 44346,
+      "input_token_details": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0,
+        "cache_creation": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Scales uses three climate scenarios:\n1. **Orderly**: An orderly transition to a low-carbon future; major climate change avoided. Considers RCP 2.6 and SSP1 ('low challenges to mitigation and adaptation'). Warming limited to 1.5°C.\n2. **Disorderly**: Successful prevention of major climate change but in a highly disruptive fashion. Considers RCP 4.5 and SSP2 ('medium challenges to mitigation and adaptation'), with an increase of 1–2°C in global temperatures and rapid change after 2030.\n3. A third scenario is referenced (selected from the Agri-Adaptation Roadmap) but its full description is not included in the retrieved context.",
+      "evidence": "\"The climate scenarios adopted are summarised as follows: 1. Orderly: an orderly transition to a low-carbon future will be achieved. Major climate change and subsequent physical impacts have been avoided. This scenario effectively considers RCP of 2.6, and SSP1, where there were 'low challenges to mitigation and adaptation'. Warming is limited to a 1.5°C temperature increase. 2. Disorderly: the world will successfully prevent major climate change and its associated impacts but failed to do so in an orderly or stable fashion. Transition to a low-carbon future was highly disruptive on society and local economies. As the worst climate physical changes were avoided, this scenario considers RCP 4.5, with an increase in 1-2°C in global temperatures. It uses SSP2, which considers 'medium challenges to mitigation and adaptation', with rapid change after 2030.\"",
+      "location_hint": "Page 11",
+      "confidence": "medium",
+      "notes": "The document references three scenarios selected from the Agri-Adaptation Roadmap, but only two (Orderly and Disorderly) are fully described in the retrieved context. The third scenario's description was not captured in the retrieved chunks.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes three scenarios with different global temperature outcomes by 2100:\n1. A low-carbon/transition scenario (implied ~1.5°C or below)\n2. A moderate scenario with rapid change after 2030\n3. Hothouse: 3°C or greater increase in global warming by 2100 (business as usual, RCP 8.5, SSP5)",
+      "evidence": "Hothouse: a 'business as usual' world on track to increase global warming by 3°C or greater by 2100. Very limited attempts were made to transition to a low carbon economy and climate policies were not implemented since the 2020s.",
+      "location_hint": "Page 11, Section 3 (Strategy)",
+      "confidence": "high",
+      "notes": "The context explicitly states the Hothouse scenario reaches 3°C or greater by 2100. The other scenarios' exact temperature outcomes are not fully quoted in the retrieved chunks, but the Hothouse scenario is clearly defined.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context passages do not contain any information about scenario providers used for climate scenario analysis. The passages cover GHG emissions inventory methodology, exclusions, and assurance engagement details.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "The three scenarios use the following SSP/RCP combinations:\n1. Orderly: RCP 2.6 + SSP1 (\"low challenges to mitigation and adaptation\")\n2. Disorderly: RCP 4.5 + SSP2 (\"medium challenges to mitigation and adaptation\")\n3. Hothouse: RCP 8.5 + SSP5 (\"high challenges to mitigation and low challenges to adaptation\")",
+      "evidence": "\"Orderly: an orderly transition to a low-carbon future will be achieved... This scenario effectively considers RCP** of 2.6, and SSP1, where there were 'low challenges to mitigation and adaptation'... Disorderly: ...this scenario considers RCP 4.5... It uses SSP2, which considers 'medium challenges to mitigation and adaptation'... Hothouse: ...This scenario considers RCP of 8.5 and follows SSP5, which has 'high challenges to mitigation and low challenges to adaptation'.\"",
+      "location_hint": "Page 11",
+      "confidence": "high",
+      "notes": "Each scenario pairs a distinct RCP with a distinct SSP, mixing across the two frameworks rather than using matched pairs from a single integrated framework.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "No customised scenarios were developed. Scales adopted the three scenarios from the Agri-Adaptation Roadmap (produced by the New Zealand agricultural sector in 2023) without customisation, supplemented by additional physical climate modelling from Urban Intelligence using CMIP5 data for international geographies.",
+      "evidence": "\"Scales continues to use the Agri-Adaptation Roadmap to provide consistency and comparability in disclosures, adopting the most widely accepted set of scenarios for the agriculture sector supported by robust and tested assumptions. Under each scenario we used the same key metrics for both physical and transitional changes as the Agri-Adaptation Roadmap.\"",
+      "location_hint": "Section 3.1.1, p.11",
+      "confidence": "high",
+      "notes": "Scales did not develop bespoke/customised scenarios; they adopted the Agri-Adaptation Roadmap scenarios directly and supplemented with additional GIS-based physical modelling for non-NZ geographies using CMIP5 data.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context passages cover Scales Corporation's risk evaluation, risk treatment, governance framework, and strategy sections, but contain no mention of co-produced climate scenarios or any collaborative scenario development process.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Scales Corporation uses three climate scenarios:\n1. **Orderly**: An orderly transition to a low-carbon future; considers RCP 2.6 and SSP1 ('low challenges to mitigation and adaptation'); warming limited to 1.5°C.\n2. **Disorderly**: Successful prevention of major climate change but in a disruptive fashion; considers RCP 4.5 and SSP2 ('medium challenges to mitigation and adaptation'); 1–2°C increase in global temperatures, with rapid change after 2030.\n3. A third scenario is referenced but not fully described in the retrieved context.",
+      "evidence": "\"The climate scenarios adopted are summarised as follows: 1. Orderly: an orderly transition to a low-carbon future will be achieved. Major climate change and subsequent physical impacts have been avoided. This scenario effectively considers RCP of 2.6, and SSP1, where there were 'low challenges to mitigation and adaptation'. Warming is limited to a 1.5°C temperature increase. 2. Disorderly: the world will successfully prevent major climate change and its associated impacts but failed to do so in an orderly or stable fashion. Transition to a low-carbon future was highly disruptive on society and local economies. As the worst climate physical changes were avoided, this scenario considers RCP 4.5, with an increase in 1-2°C in global temperatures. It uses SSP2, which considers 'medium challenges to mitigation and adaptation', with rapid change after 2030.\"",
+      "location_hint": "Page 11",
+      "confidence": "high",
+      "notes": "The context describes two of the three scenarios in detail. A third scenario is mentioned (\"three chosen scenarios\" referenced on page 19) but its details are not present in the retrieved chunks.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "Urban Intelligence's GIS platform, using multi-model ensembles of CMIP5 (Coupled Model Intercomparison Project Phase 5) data for international geographies, and the Urban Intelligence Resilience Explorer™ for New Zealand sites.",
+      "evidence": "\"additional modelling, conducted by Urban Intelligence, on the potential physical changes across our assets and geographies... International climate data for Australia, Europe, and USA was derived from multi-model ensembles of CMIP5* data... New Zealand sites were able to be evaluated for their exposure to mapped natural hazards using the Urban Intelligence Resilience Explorer™.\"",
+      "location_hint": "Page 11",
+      "confidence": "high",
+      "notes": "The modelling was conducted using Urban Intelligence's GIS platform. CMIP5 data was used for international sites (Australia, Europe, USA), while the Resilience Explorer™ was used for New Zealand.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. The document considers damage from acute physical risks, specifically the increase in frequency and intensity of extreme climate events such as storms, extreme wind, and extreme rainfall events, with anticipated impacts on orchard yields and operations.",
+      "evidence": "\"Increase in frequency and intensity of extreme climate events, specifically storms, extreme wind, and extreme rainfall events. Anticipated impact: Orchard managers focused on managing and supporting the trees to not revert to biannual bearing patterns to ensure yields per hectare are maintained.\"",
+      "location_hint": "Page 14, Risk table",
+      "confidence": "high",
+      "notes": "The risk is classified as Physical, Short-term, affecting Horticulture/Logistics/Global Proteins sectors in New Zealand. Controls include geographic diversification of orchards and orchard infrastructure (frost fans, irrigation, hail netting, drainage).",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include the following non-temperature variables: decrease in frost days, more summer rainfall (and reduced summer rainfall), increase in frequency and intensity of extreme climate events, water regulation changes, and carbon emissions regulations. The Climate Projection update for Hawke's Bay specifically outlined an increase in higher temperatures, a decrease in frost days, and more summer rainfall.",
+      "evidence": "\"The report outlines an increase in higher temperatures, a decrease in frost days and more summer rainfall... Under each scenario we used the same key metrics for both physical and transitional changes as the Agri-Adaptation Roadmap.\" Also referenced: \"More hot days per year, reduced summer rainfall / Increase in frequency and intensity of extreme climate events / Water regulation continues to increase / Carbon emissions regulations increase\"",
+      "location_hint": "Section 3.1.1, p.11; Section 3.3, p.16",
+      "confidence": "high",
+      "notes": "Non-temperature physical variables explicitly mentioned include frost days, summer rainfall, and extreme climate events. Transition variables include water regulation and carbon emissions regulations.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Scales uses three climate scenarios drawn from the Agri-Adaptation Roadmap, assessing scenario impacts out to 2050, with timeframes defined as: short (2023–2025), medium (2025–2035), and long (2035–2050). The scenarios were selected from Shared Socioeconomic Pathways (SSPs) 1, 2 and 3.",
+      "evidence": "\"Scales continues to use the Agri-Adaptation Roadmap to provide consistency and comparability in disclosures, adopting the most widely accepted set of scenarios for the agriculture sector supported by robust and tested assumptions. Under each scenario we used the same key metrics for both physical and transitional changes as the Agri-Adaptation Roadmap. We also aligned our timeframes (short 2023-2025, medium 2025-2035 and long 2035-2050) and processes, including assessing scenario impacts out to 2050. This is consistent with the useful life of our fixed assets and covers multiple business cycles.\"",
+      "location_hint": "Section 3.1.1, p.11",
+      "confidence": "high",
+      "notes": "The scenarios are based on SSPs 1, 2 and 3 from the Agri-Adaptation Roadmap, covering short, medium and long timeframes out to 2050.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Scales Corporation uses the following time frames in its climate risk assessment:\n- **Short-term**: within 1–2 years\n- **Long-term**: over an extended period (requiring a more strategic perspective, considering trends, systematic changes and the potential evolution of drivers over time)\n\nRisks and opportunities are ranked by scenario, timeframe, and type (physical or transitional).",
+      "evidence": "\"For short-term risks, this will usually be within 1-2 years, and for long-term risks over an extended period as noted above. Long-term risks will generally require a more strategic perspective, considering trends, systematic changes and the potential evolution of drivers over time.\"\n\n\"The Group then were asked to refine or add risks as appropriate and then to rank each risk/opportunity, by scenario, timeframe, and type (physical or transitional).\"",
+      "location_hint": "Section 4, p.19-20",
+      "confidence": "high",
+      "notes": "The document references \"an extended period\" for long-term without specifying an exact number of years beyond the short-term 1–2 year definition.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Scales justified its scenario/model choice on the following grounds: (1) the scenarios were selected from the Agri-Adaptation Roadmap, which was produced in 2023 by the New Zealand agricultural sector to guide adaptation to climate change and utilised three climate-related scenarios describing plausible futures for agriculture; (2) using these scenarios provides consistency and comparability in disclosures, as they represent the most widely accepted set of scenarios for the agriculture sector supported by robust and tested assumptions; (3) the same key metrics, timeframes (short 2023–2025, medium 2025–2035, long 2035–2050), and processes as the Agri-Adaptation Roadmap were adopted, consistent with the useful life of Scales' fixed assets and covering multiple business cycles; and (4) a Climate Projection update for Hawke's Bay (commissioned in August 2024 from Urban Intelligence, following NIWA's release of downscaled AR6 climate forecasts for SSPs 1, 2 and 3) revalidated the appropriateness of the adopted scenarios.",
+      "evidence": "\"Scales continues to use the Agri-Adaptation Roadmap to provide consistency and comparability in disclosures, adopting the most widely accepted set of scenarios for the agriculture sector supported by robust and tested assumptions. Under each scenario we used the same key metrics for both physical and transitional changes as the Agri-Adaptation Roadmap. We also aligned our timeframes (short 2023-2025, medium 2025-2035 and long 2035-2050) and processes, including assessing scenario impacts out to 2050. This is consistent with the useful life of our fixed assets and covers multiple business cycles.\"",
+      "location_hint": "Section 3.1.1, p.11",
+      "confidence": "high",
+      "notes": "The justification also includes the August 2024 NIWA/Urban Intelligence climate projection update that revalidated the scenarios, and the involvement of senior executives (COO and Group Sustainability Manager) in the selection process.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context passages discuss Scales' climate risk framework, governance structures, and risk management processes, but do not contain specific information about historic climate impacts experienced by the company.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Scales identifies both direct and indirect physical climate risks across its divisions:\n\n1. **Horticulture division** – Most exposed due to its vertically integrated nature; faces both chronic and acute climate events directly.\n2. **Logistics division** – Also exposed to physical risks due to its integrated value chain with Horticulture (indirect/indirect linkage).\n3. **Global Proteins** – Less exposed but may be impacted by changes in weather patterns and extreme weather effects on raw material supply.\n\nAs a conservative estimate, all of Scales' business activities are exposed to some degree of physical climate risks. Limited hazard data is available beyond New Zealand, constraining the full assessment across geographies.",
+      "evidence": "\"Due to the vertically integrated nature of our Horticulture division, this division is more exposed to both chronic and acute climate events. Logistics is also exposed to this risk, due to its integrated value chain with Horticulture. Global Proteins, while less exposed, still may be impacted by changes in weather patterns and extreme weather effects on raw material supply. However, the available climate data and spatial resolutions vary considerably across the geographies in which we operate, with limited hazard data available beyond New Zealand. As a conservative estimate, as in 2023, based on our internal assessment to date, all of Scales' business activities are exposed to some degree of physical climate risks.\"",
+      "location_hint": "Section 5.3.1, p.28",
+      "confidence": "high",
+      "notes": "The document distinguishes between direct physical risks (e.g., Horticulture exposed to chronic and acute climate events) and indirect physical risks (e.g., Logistics via its value chain with Horticulture; Global Proteins via raw material supply disruption). Data limitations exist beyond New Zealand.",
+      "verification": null
+    }
+  ]
+}

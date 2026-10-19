@@ -1,0 +1,170 @@
+{
+  "source": "FOLEY_WINES_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 43287,
+      "output_tokens": 6301,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "total_tokens": 49588
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Three scenarios were adopted: 1. Orderly (Net zero by 2050, RCP 2.6, SSP1, ~1.5°C warming); 2. Disorderly (RCP 4.5, SSP2, 1–2°C warming); 3. Hothouse (RCP 8.5, SSP5, ≥3°C warming by 2080).",
+      "evidence": "\"The climate scenarios adopted are summarised as follows: 1. Orderly: a smooth and orderly transition to a low-carbon future will be achieved; Net zero by 2050 achieved... This scenario effectively considers RCP** of 2.6 and SSP1... Warming is limited to a 1.5°C temperature increase. 2. Disorderly: the world will successfully prevent major climate change... this scenario considers RCP 4.5, with an increase in 1-2°C in global temperatures. It uses SSP2... 3. Hothouse: a 'business as usual' world on track to increase global warming by 3°C or greater by 2080... This scenario considers RCP of 8.5 and follows SSP5... No further scenarios have been undertaken.\"",
+      "location_hint": "Page 6",
+      "confidence": "high",
+      "notes": "Scenarios were selected from The Aotearoa Circle Agriculture Sector Climate Change Scenarios and Adaptation Roadmap (Agri-Adaptation Roadmap).",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes three scenarios with the following temperature outcomes:\n1. Orderly: warming limited to 1.5°C increase (RCP 2.6)\n2. Disorderly: increase of 1–2°C in global temperatures (RCP 4.5)\n3. Hothouse: global warming of 3°C or greater by 2080 (RCP 8.5)\n\nNote: The Hothouse scenario references 2080, not 2100 explicitly.",
+      "evidence": "\"Orderly: ...Warming is limited to a 1.5°C temperature increase.\" / \"Disorderly: ...an increase in 1-2°C in global temperatures.\" / \"Hothouse: a 'business as usual' world on track to increase global warming by 3°C or greater by 2080.\"",
+      "location_hint": "Page 6",
+      "confidence": "high",
+      "notes": "The Hothouse scenario specifies warming of 3°C or greater by 2080, not 2100. The other two scenarios do not specify a year for the temperature outcome beyond the general scenario framing.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "IPCC (Intergovernmental Panel on Climate Change)",
+      "evidence": "IPCC: The Intergovernmental Panel on Climate Change (IPCC) - the United Nations body responsible for advancing scientific knowledge about climate change. ... RCP: Adopted by the IPCC, Representation Concentration Pathways (RCP) are models which illustrate future possible greenhouse gas emission scenarios/trajectories. SSP: Adopted by the IPCC, Shared Socio-economic Pathways (SSPs) are projections which describe alternative futures of socio-economic development in the absence of climate policy intervention.",
+      "location_hint": "Glossary, page 15",
+      "confidence": "medium",
+      "notes": "The document references IPCC-adopted scenarios (RCPs and SSPs) as the scenario frameworks used, indicating the IPCC is the scenario provider. However, the document does not explicitly state \"scenario provider = IPCC\" in a single sentence; this is inferred from the glossary definitions.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Foley Wines Limited uses the following SSP/RCP combinations across their three scenarios:\n1. Orderly: RCP 2.6 + SSP1\n2. Disorderly: RCP 4.5 + SSP2\n3. Hothouse: RCP 8.5 + SSP5",
+      "evidence": "1. Orderly: ... This scenario effectively considers RCP** of 2.6 and SSP1, where there were 'low challenges to mitigation and adaptation'. 2. Disorderly: ... this scenario considers RCP 4.5, with an increase in 1-2°C in global temperatures. It uses SSP2, which considers 'medium challenges to mitigation and adaptation'. 3. Hothouse: ... This scenario considers RCP of 8.5 and follows SSP5, which has 'high challenges to mitigation and low challenges to adaptation'.",
+      "location_hint": "Page 6",
+      "confidence": "high",
+      "notes": "Each scenario pairs a distinct RCP with a distinct SSP. The combinations are internally consistent (low/medium/high warming trajectories matched to corresponding socioeconomic pathways).",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "No customised scenarios were used. Foley Wines adopted scenarios directly from The Aotearoa Circle Agriculture Sector Climate Change Scenarios and Adaptation Roadmap (\"Agri-Sector Climate Change Adaptation Roadmap\") without customisation.",
+      "evidence": "\"The Company has undertaken a qualitative analysis to develop its climate scenarios and help identify climate-related risks and opportunities over the short, medium and long term. The Executive team and key management were involved in the selection process of our three climate scenarios, which were selected from The Aotearoa Circle Agriculture Sector Climate Change Scenarios and Adaptation Roadmap (\"Agri-Sector Climate Change Adaptation Roadmap\", \"Agri-Adaptation Roadmap\")... We have used the Agri-Adaptation Roadmap to provide consistency and comparability in disclosures, adopting the most widely accepted set of scenarios for the agriculture sector supported by robust and tested assumptions. Under each scenario we used the same key metrics for both physical and transitional changes as the Agri-Adaptation Roadmap.\"",
+      "location_hint": "Section: Strategy – Scenario Analysis, p.6",
+      "confidence": "high",
+      "notes": "The company explicitly states it adopted the Agri-Adaptation Roadmap scenarios without modification, using the same metrics and timeframes. No customised scenarios were developed.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes. Foley Wines selected its three climate scenarios from The Aotearoa Circle Agriculture Sector Climate Change Scenarios and Adaptation Roadmap (\"Agri-Sector Climate Change Adaptation Roadmap\"). In 2023, the New Zealand agricultural sector collaborated to produce this Agri-Adaptation Roadmap. In developing its sector scenarios, The Aotearoa Circle brought together the diversity of the agriculture sector to collaborate, share knowledge, science and insights, and inform the outcome. The Executive team and key management were involved in the selection process of the three scenarios.",
+      "evidence": "\"The Executive team and key management were involved in the selection process of our three climate scenarios, which were selected from The Aotearoa Circle Agriculture Sector Climate Change Scenarios and Adaptation Roadmap (\"Agri-Sector Climate Change Adaptation Roadmap\", \"Agri-Adaptation Roadmap\"). In 2023, the New Zealand agricultural sector collaborated to produce an Agri-Adaptation Roadmap to guide the sector's adaptation to climate change. This roadmap utilised three climate-related scenarios to describe plausible futures for agriculture in New Zealand when impacted by different physical and transition factors. In developing its sector scenarios, The Aotearoa Circle brought together the diversity of the agriculture sector to collaborate, share knowledge, science and insights, and inform the outcome.\"",
+      "location_hint": "Page 6, Strategy – Scenario Analysis section",
+      "confidence": "high",
+      "notes": "The scenarios were co-produced at the sector level by The Aotearoa Circle, with Foley Wines adopting them for consistency and comparability. Foley Wines' own internal involvement was limited to the Executive team and key management selecting which scenarios to use.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Foley Wines Limited adopted three climate scenarios:\n1. **Orderly**: Smooth transition to a low-carbon future; Net zero by 2050; RCP 2.6 and SSP1 ('low challenges to mitigation and adaptation'); warming limited to 1.5°C.\n2. **Disorderly**: Successful prevention of major climate change but in a disruptive manner; RCP 4.5 and SSP2 ('medium challenges to mitigation and adaptation'); 1–2°C temperature increase; rapid change after 2030.\n3. **Hothouse**: 'Business as usual'; global warming of 3°C or greater by 2080; RCP 8.5 and SSP5 ('high challenges to mitigation and low challenges to adaptation'); severe and some irreversible physical impacts.",
+      "evidence": "1. Orderly: a smooth and orderly transition to a low-carbon future will be achieved; Net zero by 2050 achieved. Major climate change and subsequent physical impacts have been avoided. This scenario effectively considers RCP** of 2.6 and SSP1, where there were 'low challenges to mitigation and adaptation'. Warming is limited to a 1.5°C temperature increase. In this scenario both physical and transitions risks are relatively subdued. 2. Disorderly: the world will successfully prevent major climate change and its associated impacts but will fail to do so in an orderly or stable fashion. Transition to a low-carbon future was highly disruptive on society and local economies. As the worst climate physical changes were avoided, this scenario considers RCP 4.5, with an increase in 1-2°C in global temperatures. It uses SSP2, which considers 'medium challenges to mitigation and adaptation', with rapid change after 2030. 3. Hothouse: a 'business as usual' world on track to increase global warming by 3°C or greater by 2080. Very limited attempts were made to transition to a low carbon economy and climate policies were not implemented since the 2020s. The physical impacts of climate change are severe, with some irreversible changes. The world now must focus on adapting to climate change. This scenario considers RCP of 8.5 and follows SSP5, which has 'high challenges to mitigation and low challenges to adaptation'.",
+      "location_hint": "Page 6",
+      "confidence": "high",
+      "notes": "Timeframes used: short (2023–2025), medium (2026–2035), and long (2036–2050), with scenario impacts assessed out to 2050. No further scenarios beyond these three were undertaken.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "Foley Wines Limited used three climate scenarios based on IPCC Representative Concentration Pathways (RCPs) and Shared Socio-economic Pathways (SSPs): (1) Orderly – RCP 2.6 / SSP1; (2) Disorderly – RCP 4.5 / SSP2; (3) Hothouse – RCP 8.5 / SSP5. These were aligned with the Aotearoa Circle Agriculture Sector Climate Change Scenarios and Adaptation Roadmap (Agri-Adaptation Roadmap).",
+      "evidence": "1. Orderly: a smooth and orderly transition to a low-carbon future will be achieved; Net zero by 2050 achieved... This scenario effectively considers RCP** of 2.6 and SSP1... 2. Disorderly: ...this scenario considers RCP 4.5... It uses SSP2... 3. Hothouse: ...This scenario considers RCP of 8.5 and follows SSP5...",
+      "location_hint": "Page 6",
+      "confidence": "high",
+      "notes": "The scenarios are aligned with the Agri-Adaptation Roadmap and use IPCC RCP and SSP models. No proprietary or third-party climate model name (e.g., IAM) is explicitly mentioned beyond the IPCC frameworks.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Foley Wines considers damage from acute physical risks, specifically the increase in frequency and intensity of extreme weather events (storms, extreme wind, extreme or no rainfall, and severe frosts). Current impacts include lower harvest yields in Marlborough and Martinborough in the 2024 harvest due to disruptive weather during the 2023/24 growing season, higher cost of goods, increased insurance costs, and anticipated potential damage to infrastructure.",
+      "evidence": "\"Increase in frequency and intensity of extreme weather events, specifically storms, extreme wind, extreme or no rainfall, and severe frosts. Current impact: The disruptive weather during the 2023/24 growing season resulted in lower harvest yields in Marlborough and Martinborough in the 2024 harvest. Current financial impact: Higher cost of goods for the 2024 wines due to the lower yields in some regions and therefore lower litres processed through the winery/wineries in those regions. Increased cost of insurance policies. Anticipated impact: Harsh adverse climatic conditions (such as frosts, rainfall, sunshine and temperature) could affect the quality of grapes and hence marketable quality of and prices received for the Group's finished wines thereby potentially leading to volatility in earnings. Potential damage to infrastructure. Increased cost of insurance policies.\"",
+      "location_hint": "Page 8, Strategy section – Climate risks and opportunities",
+      "confidence": "high",
+      "notes": "The document explicitly categorises this as a Physical risk with a Medium/Long-term time horizon and outlines both current and anticipated impacts including infrastructure damage.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include non-temperature physical variables such as precipitation (rainfall), extreme weather events (storms, extreme wind, extreme or no rainfall, severe frosts), sea level rise, and weather pattern variability. These are used consistently with the Agri-Adaptation Roadmap metrics for both physical and transitional changes.",
+      "evidence": "\"Under each scenario we used the same key metrics for both physical and transitional changes as the Agri-Adaptation Roadmap.\" Physical risks include \"longer term shifts (chronic) in precipitation and temperature and increased variability in weather patterns, such as sea level rise\" and acute risks such as \"increased severity of extreme weather events.\" Specific variables mentioned include \"storms, extreme wind, extreme or no rainfall, and severe frosts.\"",
+      "location_hint": "Pages 6–8",
+      "confidence": "medium",
+      "notes": "The document references the Agri-Adaptation Roadmap for scenario metrics but does not provide a detailed list of all non-temperature variables used in each scenario. The variables mentioned are drawn from the risk/opportunity descriptions rather than a dedicated scenario variable table.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Foley Wines Limited used three climate scenarios applied at a sector/national scale (New Zealand agriculture sector), sourced from The Aotearoa Circle Agriculture Sector Climate Change Scenarios and Adaptation Roadmap. The three scenarios are:\n1. Orderly (RCP 2.6, SSP1) – warming limited to 1.5°C, net zero by 2050\n2. Disorderly (RCP 4.5, SSP2) – 1–2°C increase, rapid transition after 2030\n3. Hothouse (RCP 8.5, SSP5) – 3°C or greater warming by 2080, business as usual\n\nTimeframes: short (2023–2025), medium (2026–2035), long (2036–2050), with scenario impacts assessed out to 2050.",
+      "evidence": "\"The Company has undertaken a qualitative analysis to develop its climate scenarios and help identify climate-related risks and opportunities over the short, medium and long term. The Executive team and key management were involved in the selection process of our three climate scenarios, which were selected from The Aotearoa Circle Agriculture Sector Climate Change Scenarios and Adaptation Roadmap... We also aligned our timeframes (short 2023-2025, medium 2026-2035 and long 2036-2050) and processes, including assessing scenario impacts out to 2050.\"",
+      "location_hint": "Page 6, Scenario Analysis section",
+      "confidence": "high",
+      "notes": "The scenarios are sector-level (New Zealand agriculture sector) rather than company-specific or global in scale. A qualitative analysis approach was used.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Foley Wines uses three time horizons for climate risk identification: short-term, medium-term, and long-term. Specific examples include:\n- Physical risks (e.g., frost/water infrastructure, storm damage): Short-term\n- Inability to keep up with global technological change: Medium/Long-term\n- Carbon emissions regulation increases: Medium/Long-term",
+      "evidence": "\"The Group's climate risk identification has included scenario analysis incorporating short, medium and long term time horizons as outlined in the Strategy section of this CRDs report.\"\n\nRisk examples:\n- \"Type: Physical / Time Horizon: Short-term\"\n- \"Type: Transition / Time Horizon: Medium/Long-term\" (for both technological change and carbon emissions regulation)",
+      "location_hint": "Pages 8, 11, 12",
+      "confidence": "high",
+      "notes": "The document explicitly names short, medium, and long-term time horizons. Individual risks are tagged with their respective time horizons in the risk/opportunity table.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Foley Wines selected scenarios from The Aotearoa Circle Agriculture Sector Climate Change Scenarios and Adaptation Roadmap (\"Agri-Adaptation Roadmap\") to provide consistency and comparability in disclosures, adopting the most widely accepted set of scenarios for the agriculture sector supported by robust and tested assumptions. The Executive team and key management were involved in the selection process.",
+      "evidence": "\"We have used the Agri-Adaptation Roadmap to provide consistency and comparability in disclosures, adopting the most widely accepted set of scenarios for the agriculture sector supported by robust and tested assumptions. Under each scenario we used the same key metrics for both physical and transitional changes as the Agri-Adaptation Roadmap.\"",
+      "location_hint": "Page 6, Strategy – Scenario Analysis section",
+      "confidence": "high",
+      "notes": "The justification explicitly cites consistency, comparability, and the use of widely accepted, robust and tested assumptions as reasons for choosing the Agri-Adaptation Roadmap scenarios. The scenarios were also developed collaboratively by the NZ agricultural sector, bringing together diverse expertise.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context from Foley Wines Limited's Climate-Related Disclosures Report 2024 does not contain any information about historic climate impacts experienced by the company. The document covers GHG emissions metrics, scenario analysis, risk management, and targets, but does not describe past/historical climate-related events or their impacts on the business.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Foley Wines identifies both acute and chronic physical climate risks:\n\n1. **Acute (event-driven)**: Increased severity of extreme weather events — e.g., disruptive weather during the 2023/24 growing season resulted in lower harvest yields in Marlborough and Martinborough in the 2024 harvest, leading to higher cost of goods.\n\n2. **Chronic (longer-term)**: Longer-term shifts in precipitation and temperature, increased variability in weather patterns, and sea level rise.\n\nThese are described as risks related to the physical impacts of climate change, using the NZ CS 1 definition. The most significant physical risk identified is changes in weather patterns resulting in volatility of annual production.",
+      "evidence": "\"Physical risks – Risks related to the physical impacts of climate change. Physical risks emanating from climate change can be event-driven (acute) such as increased severity of extreme weather events. They can also relate to longer term shifts (chronic) in precipitation and temperature and increased variability in weather patterns, such as sea level rise.\" and \"Changes in weather patterns can result in volatility of annual production. Current impact: The disruptive weather during the 2023/24 growing season resulted in lower harvest yields in Marlborough and Martinborough in the 2024 harvest. Current financial impact: Higher cost of goods for the 2024 wines due to the lower yields in...\"",
+      "location_hint": "Page 7, Strategy section",
+      "confidence": "high",
+      "notes": "The context provides the definition of physical risks (acute and chronic) and one specific example of a current physical risk impact. The full table of risks/opportunities is partially cut off in the retrieved context, so there may be additional physical risks not captured here.",
+      "verification": null
+    }
+  ]
+}

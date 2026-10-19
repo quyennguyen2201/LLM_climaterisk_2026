@@ -1,0 +1,170 @@
+{
+  "source": "RESTAURANT_BRANDS_NEW_ZEALAND_LIMITED_2023",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "output_tokens": 5868,
+      "total_tokens": 46516,
+      "input_tokens": 40648,
+      "input_token_details": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0,
+        "cache_creation": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "The Group used three IPCC scenarios from the AR6 Working Group (WGIII) report:\n1. SSP1-1.9 (low emissions, global warming limited to ~1.5°C by 2100)\n2. SSP2-4.5 (intermediate emissions, global warming ~2°C by 2100)\n3. SSP3-7.0 (high emissions, global warming exceeding 3°C by 2100, emissions to double by ~2100)",
+      "evidence": "\"High emissions scenario with emissions to double by ~2100. Global warming is exceeding 3°C by 2100 ... SSP3-7.0 (<4°C) ... IPCC scenarios from AR6 Working Group (WGIII) report\" and the opportunity table mapping scenarios: \"SCENARIO SSP1-1.9 SSP2-4.5 SSP3-7.0\"",
+      "location_hint": "Page 14 and Page 30, RBD 2023 CRD.pdf",
+      "confidence": "high",
+      "notes": "The context explicitly names all three scenarios (SSP1-1.9, SSP2-4.5, SSP3-7.0) and describes SSP3-7.0 in detail. SSP1-1.9 and SSP2-4.5 descriptions are referenced but their full descriptions are not included in the retrieved chunks; however, all three scenario names are clearly listed.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document outlines three scenarios with different global temperature outcomes by 2100 (compared to pre-industrial levels, 1850–1900):\n1. SSP1-1.9: Global warming limited to 1.5°C by 2100\n2. SSP2-4.5: Global warming limited to 3°C by 2100\n3. SSP3-7.0: Global warming exceeding 3°C by 2100 (up to <4°C)",
+      "evidence": "\"SSP1-1.9 scenario assuming the global warming will be capped at 1.5°C*. SSP2-4.5 scenario assuming the global warming will be limited to 3°C*. SSP3-7.0 scenario assuming the global warming will be limited to 4°C*.\"",
+      "location_hint": "RBD 2023 CRD.pdf, page 14",
+      "confidence": "high",
+      "notes": "Temperature outcomes are relative to pre-industrial levels (1850–1900) as explicitly noted in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": "Page 30 (Scenario section)",
+      "confidence": "high",
+      "notes": "The context references scenarios SSP1-1.9, SSP2-4.5, and SSP3-7.0 (which are IPCC/CMIP6 scenarios), but the document does not explicitly name a scenario provider in the retrieved passages.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "The company uses three Shared Socioeconomic Pathways (SSPs) from the IPCC framework: SSP1-1.9 (global warming capped at 1.5°C), SSP2-4.5 (global warming limited to 3°C), and SSP3-7.0 (global warming limited to 4°C). No RCPs (Representative Concentration Pathways) are used — only SSPs are referenced in the scenario analysis.",
+      "evidence": "\"For the climate scenario modelling, the Group has selected three Shared Socioeconomic Pathways (SSP) from the Intergovernmental Panel on Climate Change (IPCC) framework. The three selected SSPs are: SSP1-1.9 scenario assuming the global warming will be capped at 1.5°C*. SSP2-4.5 scenario assuming the global warming will be limited to 3°C*. SSP3-7.0 scenario assuming the global warming will be limited to 4°C*.\"",
+      "location_hint": "RBD 2023 CRD.pdf, page 14",
+      "confidence": "high",
+      "notes": "The document exclusively uses SSPs (SSP1-1.9, SSP2-4.5, SSP3-7.0) and makes no reference to RCPs. There is no \"pick-and-mix\" of SSPs and RCPs — only SSPs are employed.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The context describes Restaurant Brands' use of three standard scenarios (SSP1-1.9, SSP1-2.6, and a third scenario) sourced from KPMG's \"Integrated Climate Change Scenarios for New Zealand Retail Sector Report\" and Marsh's physical risk assessment. There is no mention of any customised (bespoke) scenarios developed by the company itself. The scenarios used appear to be standard/shared industry scenarios, not customised ones.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The context describes Restaurant Brands' use of IPCC Shared Socioeconomic Pathways (SSP1-1.9, SSP2-4.5, SSP3-7.0) for scenario analysis, with inputs from vendors and regional leaders. However, there is no mention of co-produced climate scenarios (i.e., scenarios developed jointly with external stakeholders, communities, or other organisations in a co-production process). The scenarios used are standard IPCC frameworks, not co-produced ones.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Restaurant Brands uses three IPCC Shared Socioeconomic Pathways (SSPs) from the AR6 framework as its baseline scenarios:\n1. SSP1-1.9 – global warming capped at 1.5°C by 2100 (low emissions, net zero by ~2050)\n2. SSP2-4.5 – global warming limited to 3°C by 2100 (intermediate/current emissions until ~2050)\n3. SSP3-7.0 – global warming exceeding 3°C (limited to 4°C) by 2100 (high emissions, doubling by ~2100)",
+      "evidence": "\"For the climate scenario modelling, the Group has selected three Shared Socioeconomic Pathways (SSP) from the Intergovernmental Panel on Climate Change (IPCC) framework. The three selected SSPs are: SSP1-1.9 scenario assuming the global warming will be capped at 1.5°C*. SSP2-4.5 scenario assuming the global warming will be limited to 3°C*. SSP3-7.0 scenario assuming the global warming will be limited to 4°C*.\"",
+      "location_hint": "RBD 2023 CRD.pdf, page 14",
+      "confidence": "high",
+      "notes": "The three scenarios span from an organised rapid transition to net zero (SSP1-1.9) to a \"hot house / current policies\" scenario (SSP3-7.0). Time horizons used: short term 2024–2030, medium term 2031–2040, long term 2041–2050.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "The Group used the IPCC Shared Socioeconomic Pathways (SSP) framework for climate scenario modelling, selecting three scenarios: SSP1-1.9, SSP2-4.5, and SSP3-7.0. Physical risk modelling referenced CMIP5 global climate models and CORDEX local climate models, along with ERA5/ECMWF atmospheric reanalysis data.",
+      "evidence": "\"For the climate scenario modelling, the Group has selected three Shared Socioeconomic Pathways (SSP) from the Intergovernmental Panel on Climate Change (IPCC) framework. The three selected SSPs are: SSP1-1.9 scenario assuming the global warming will be capped at 1.5°C*. SSP2-4.5 scenario assuming the global warming will be limited to 3°C*. SSP3-7.0 scenario assuming the global warming will be limited to 4°C*.\"",
+      "location_hint": "RBD 2023 CRD.pdf, page 14",
+      "confidence": "high",
+      "notes": "Additional model references include CMIP5 and CORDEX climate models for heat stress and physical risk indices, as mentioned on page 35.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. The document considers damage from multiple acute physical risks including: Tropical Cyclone, Storm Surge, River Flood (Fluvial), Flash Flood (Pluvial/Surface), Sea Level Rise, Precipitation Stress, Heat Stress, Fire Weather Stress, and Wildfire Exposure. These are assessed across current, 2030, 2050, and 2100 time horizons under multiple climate scenarios (SSP1-2.6, SSP2-4.5, SSP3-7.0, SSP5-8.5 / RCP 4.5, RCP 8.5).",
+      "evidence": "Tropical Cyclone zones (100 year return period)... River Flood zones (100 & 500 year return period)... Flash Flood zones are represented in 6 zones starting from Zone 1 (low hazard) to Zone 6 (high hazard)... Sea Level Rise Zones are based on a 30m resolution for flooding hazard by sea-level rise... Precipitation Stress Index based on heavy precipitation indicators... Heat Stress This Index is based on range of high temperature indicators.",
+      "location_hint": "RBD 2023 CRD.pdf, pages 25–26, 35",
+      "confidence": "high",
+      "notes": "The document explicitly models and quantifies exposure to a range of acute physical hazards across regions (NZ, AU, HA, CA) and scenarios. Damage is assessed in terms of % of locations/assets exposed to various hazard zones and stress levels.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include the following non-temperature variables: Fluvial (River) Flood Exposure, Pluvial (Flash/Surface) Flood Exposure, Precipitation Stress, Tropical Cyclone Exposure, Fire Weather Stress, Wildfire Exposure, Sea Level Rise, and Drought Stress (based on Standardized Precipitation-Evapotranspiration Index).",
+      "evidence": "FLUVIAL (RIVER) FLOOD EXPOSURE % of locations exposed to 50-year & 100-year return period; PLUVIAL (FLASH/SURFACE) FLOOD EXPOSURE % of locations in Zones 5 and 6; PRECIPITATION STRESS % of locations with high or extreme score; TROPICAL CYCLONE EXPOSURE % of locations in Zones 4 and 5 (252km/h and higher); FIRE WEATHER STRESS % of locations with high or extreme score; WILDFIRE EXPOSURE % of locations in Zones 3 and 4; SEA LEVEL RISE % of assets with high or extreme exposure by 2100; Drought Stress Index based on Standardized Precipitation-Evapotranspiration Index (SPEI)",
+      "location_hint": "Pages 25, 27, 35",
+      "confidence": "high",
+      "notes": "These non-temperature variables are tracked across multiple SSP scenarios (SSP1-2.6, SSP2-4.5, SSP3-7.0, SSP5-8.5) and across regions (NZ, AU, HA, CA). Drought Stress is listed in the appendix (p.35) as a projection-only metric under SSP2-4.5 and SSP5-8.5.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Restaurant Brands used three climate scenarios applied at the Group level (across all regions), covering time horizons of 2030, 2040, and 2050: SSP1-2.6, SSP2-4.5, and SSP3-7.0.",
+      "evidence": "\"A summary of the Group's current exposure and risk index changes under the three scenarios by 2030, 2040 and 2050 are shown in the table below. Overall, the physical risk impacts are not expected to vary materially under the three scenarios selected between now and 2050.\"",
+      "location_hint": "RBD 2023 CRD.pdf, page 24",
+      "confidence": "high",
+      "notes": "The scenarios (SSP1-2.6, SSP2-4.5, SSP3-7.0) are applied at the Group level across all four regions (New Zealand, Hawaii/Guam/Saipan, and others), with time horizons of 2030, 2040, and 2050.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "The Group uses a time horizon limited to 2050, with analysis covering short, medium, and long-term periods. Specifically, climate-related physical and transition risks are assessed at 2030, 2040, and 2050 time horizons under three scenarios (SSP1-1.9/SSP1-2.6, SSP2-4.5, SSP3-7.0). The period 2025–2050 is used for transition risk assessment. Physical risk differences between scenarios are expected to be significantly higher and accelerating in 2050–2100, which is not covered by the analysis.",
+      "evidence": "\"Because the Group time horizon is limited to 2050, the future physical impacts under all three scenarios are currently considered to be similar within the time horizon used... The difference in the scale and severity of the impacts between the three scenarios is expected to be significantly higher and accelerating in 2050-2100, which is not covered by this analysis. Transition risks and respective anticipated impacts for the period 2025-2050 were overall estimated as medium under the SSP1-1.9 scenario, while assumed low under the other two scenarios for the same periods.\"",
+      "location_hint": "RBD 2023 CRD.pdf, page 15",
+      "confidence": "high",
+      "notes": "Physical risk analysis uses 2030, 2040, and 2050 milestones. Transition risk analysis covers 2025–2050. The period beyond 2050 (up to 2100) is acknowledged but not covered in the analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "The Group selected three Shared Socioeconomic Pathways (SSPs) from the IPCC framework (SSP1-1.9, SSP2-4.5, and SSP3-7.0) because they provide a spectrum of possible outcomes and pathways — from organised rapid transition to net zero under SSP1-1.9, to the \"hot house / current policies\" scenario SSP3-7.0. The time periods (5-, 15-, and 25-year horizons) were selected to align with timelines and milestones commonly used by climate modelling initiatives and insurers, and also with typical franchise and lease tenures, and main Group strategic and operational cycles.",
+      "evidence": "\"The three chosen scenarios provide a spectrum of possible outcomes and pathways - from organised rapid transition to net zero under the SSP1-1.9 scenario, to the 'hot house / current policies' scenario SSP3-7.0. [...] The periods were selected to follow the timelines and milestones commonly used by various climate modelling initiatives and insurers. The 5-, 15- and 25-year horizon was also used with a view towards alignment with typical franchise and lease tenures, and main Group strategic and operational cycles.\"",
+      "location_hint": "RBD 2023 CRD.pdf, page 14",
+      "confidence": "high",
+      "notes": "The justification covers both the choice of scenarios (spectrum of outcomes from IPCC SSP framework) and the choice of time horizons (alignment with industry norms and Group cycles).",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context covers future climate-related risks and opportunities under various scenarios (SSP1-1.9, SSP2-4.5, SSP3-7.0) and methodology for climate risk assessment, but contains no information about historic (past) climate impacts experienced by the company.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Restaurant Brands identified physical climate risks through a combination of internal assessment and an independent third-party physical risk assessment report obtained from Marsh consultants. The Group ESG function and Executive ESG Committee worked with regions to identify and rank main physical risks and anticipated impacts, producing a list of stores with potentially high exposure to physical risk — particularly under the higher-emissions scenarios (SSP2-4.5 and SSP3-7.0). Physical risk exposure and severity under the SSP1-1.9 scenario is expected to be noticeably lower than under the other two scenarios. The identified physical risks were cross-checked against a physical hazards report from Marsh, which sets out the main current and future climate hazards for all stores under the three scenarios. Physical hazards data for SSP1-2.6 (1.5–2.0°C) was also obtained as an additional layer of stress testing under the most optimistic scenario.",
+      "evidence": "\"The Group ESG function and Executive ESG Committee worked with regions on identifying and ranking the main physical and transition risks and the anticipated impacts. Based on the feedback collected we have identified the list of stores with potentially high exposure to the physical risk - particularly under the second and third scenarios. The identified physical risks were cross-checked against a physical risk assessment report obtained by the Group from Marsh (independent third party consultants) which sets out the main current and future climate hazards for all our stores under the three scenarios. Physical risk exposure and severity of the physical impacts under the SSP1-1.9 scenario is expected to be noticeably lower than under the other two scenarios used.\"",
+      "location_hint": "RBD 2023 CRD.pdf, page 23",
+      "confidence": "high",
+      "notes": "The document references physical risks and their assessment methodology but does not provide a detailed enumerated list of specific direct vs. indirect physical risks in the retrieved context. The distinction between direct and indirect physical risks is not explicitly made in the passages provided.",
+      "verification": null
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "source": "COMMONWEALTH_BANK_OF_AUSTRALIA_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 40910,
+      "output_tokens": 4970,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "total_tokens": 45880
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "low",
+      "notes": "The retrieved context references NGFS scenarios and mentions scenario analysis was undertaken (pages 18-20), but does not explicitly list the specific scenario names used. The context mentions a \"net zero scenario\" in passing but does not provide a complete list of scenarios. The full scenario details appear to be on pages 18-20 of the document, which were not fully retrieved.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes three scenarios with the following global temperature outcomes by 2100: Net Zero Scenario: 1.5°C; Disorderly Transition: ~1.8°C; Current Policies: >3°C (~3°C).",
+      "evidence": "Increase in global temperatures by: 1.5°C | ~1.8°C | ~3°C",
+      "location_hint": "CBA NZ Climate Statement 2024.pdf, page 18",
+      "confidence": "high",
+      "notes": "Three scenarios are presented: Net Zero (1.5°C), Disorderly Transition (~1.8°C), and Current Policies (>3°C, described as ~3°C in the table).",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "Network for Greening the Financial System (NGFS)",
+      "evidence": "CBA Group uses assumptions and inputs drawing from global climate scenarios produced by parties such as the Network for Greening the Financial System (NGFS). CBA NZ management, along with CBA Group subject-matter experts, conducted a qualitative, standalone assessment of climate-related risks and opportunities under three scenarios, drawing from the NGFS scenarios.",
+      "location_hint": "CBA NZ Climate Statement 2024.pdf, page 17",
+      "confidence": "high",
+      "notes": "The document also mentions that some NZ banks drew from scenarios developed by the New Zealand Banking Association (NZBA), but CBA NZ explicitly used NGFS-based scenarios consistent with CBA Group level.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "CBA NZ uses three scenarios mapped to RCPs (not SSPs): Net Zero Scenario (1.5°C) → RCP 1.0; Disorderly Transition (~1.8°C) → RCP 2.6; Current Policies (>3°C) → RCP 4.5. No SSPs are referenced.",
+      "evidence": "\"Description of emissions reduction pathways: RCP 1.0 [Net Zero Scenario], RCP 2.6 [Disorderly Transition], RCP 4.5 [Current Policies]\" and \"Note: the NGFS scenarios produce a range of outputs and data which informed this exercise. The NGFS provides a mapping of scenarios to Representative Concentration Pathways as presented here.\"",
+      "location_hint": "CBA NZ Climate Statement 2024, p.18-19",
+      "confidence": "high",
+      "notes": "The document references only RCPs (Representative Concentration Pathways), not SSPs (Shared Socioeconomic Pathways). The three scenarios are sourced from NGFS: Net Zero 2050, Delayed Transition, and Current Policies.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context passages do not contain any information about customised (bespoke) climate scenarios developed or used by CBA NZ. The passages discuss business continuity planning, transition risks/opportunities, and a glossary entry, but make no reference to customised scenario development.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "No. CBA NZ did not co-produce climate scenarios with external partners or stakeholders. The scenarios used were drawn from global scenarios produced by the Network for Greening the Financial System (NGFS), consistent with those approved at CBA Group level. CBA NZ explicitly states that \"No external partners or stakeholders were involved in the assessment.\" CBA NZ is also not a member of the New Zealand Banking Association (NZBA) and was not involved in the preparation of the NZBA scenarios used by some other New Zealand banks.",
+      "evidence": "\"No external partners or stakeholders were involved in the assessment... CBA NZ is not a member of the NZBA, and accordingly was not involved in the preparation of those scenarios. CBA NZ drew from a set of global scenarios consistent with those set at CBA Group level to inform the qualitative standalone assessment.\"",
+      "location_hint": "Page 17 (p.18 of document)",
+      "confidence": "high",
+      "notes": "CBA NZ used NGFS-based scenarios approved by CBA Group's Environmental & Social Action Group, with no co-production with external parties.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "The document references NGFS (Network for Greening the Financial System) scenarios, which are mapped to Representative Concentration Pathways (RCPs). The scenarios include at least a net zero scenario and other scenarios with varying levels of physical and transition risk outcomes (short, medium, and long term). Specific baseline scenario names are not explicitly listed in the retrieved context.",
+      "evidence": "\"Note: the NGFS scenarios produce a range of outputs and data which informed this exercise. The NGFS provides a mapping of scenarios to Representative Concentration Pathways as presented here.\"",
+      "location_hint": "Page 18",
+      "confidence": "medium",
+      "notes": "The retrieved context confirms NGFS scenarios are used and mapped to RCPs, and references a \"net zero scenario\" as a comparator, but does not explicitly name all baseline scenarios used (e.g., specific NGFS scenario names like \"Current Policies,\" \"Delayed Transition,\" etc.). Full scenario details may be on pages 18-20 of the document but are not fully captured in the retrieved chunks.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "CBA NZ used scenarios drawn from the Network for Greening the Financial System (NGFS) scenarios for its climate scenario analysis.",
+      "evidence": "\"CBA Group uses assumptions and inputs drawing from global climate scenarios produced by parties such as the Network for Greening the Financial System (NGFS). CBA NZ management, along with CBA Group subject-matter experts, conducted a qualitative, standalone assessment of climate-related risks and opportunities under three scenarios, drawing from the NGFS scenarios.\"",
+      "location_hint": "Section on Scenario analysis undertaken, p.18",
+      "confidence": "high",
+      "notes": "The document specifies NGFS scenarios as the basis for the climate scenario analysis. No specific proprietary model name (e.g., IAM) is mentioned beyond the NGFS framework.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. CBA NZ considers damage from acute physical risk, specifically identifying \"increase in severe weather events causing damage and destruction\" as a physical risk, with impacts including \"damage and destruction to CBA NZ assets, client assets and infrastructure,\" potential stranded assets, impaired ability to operate businesses causing economic damage, and increased insurance costs. Current physical impacts were also noted during the Auckland floods and Cyclone Gabrielle in January–February 2023.",
+      "evidence": "\"Physical risk | Physical impacts | Increase in severe weather events causing damage and destruction. | Damage and destruction to CBA NZ assets, client assets and infrastructure. This could result in stranded assets, and impaired [ability to operate businesses could cause economic damage]. Insurance costs may increase reflecting growing reinsurance costs.\"",
+      "location_hint": "Page 26-27, Potential anticipated impacts of climate-related risks and opportunities table",
+      "confidence": "high",
+      "notes": "Acute physical risk is explicitly defined in the glossary (p.40) as \"event-driven risks, including increased severity of extreme weather events, such as cyclones, hurricanes, or floods.\" The document also references real current impacts from Cyclone Gabrielle and Auckland floods (p.16).",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include the following non-temperature variables: precipitation/rainfall patterns, sea level rise, storm surges, storms, fire weather, flooding, and drought patterns.",
+      "evidence": "\"Chronic risks would become much more severe in the long term, including extreme temperatures, changes in precipitation and sea level rise, further exacerbating acute risks (including storm surges, storms, fire weather and flooding).\" and \"Increased temperatures and changing rainfall patterns could also impact drought patterns, reducing the capacity of hydropower plants to produce electricity for NZ's households and businesses.\"",
+      "location_hint": "Page 18 and Page 21",
+      "confidence": "high",
+      "notes": "The document references these non-temperature physical variables in the context of chronic and acute physical risks under the scenarios described. No explicit quantitative values are provided for these variables.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "low",
+      "notes": "The retrieved context does not explicitly describe the \"scale\" of scenarios used (e.g., number of scenarios, geographic scale, or sector coverage). Page 18 references NGFS scenarios and mentions short, medium, and long-term timeframes (2030, 2050, 2100), and page 3 references scenario analysis on pages 18-20, but no explicit description of the scale of scenarios is provided in the retrieved chunks.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "CBA NZ uses three time frames in its climate scenario analysis:\n- Short term: 2027\n- Medium term: 2034\n- Long term: 2054",
+      "evidence": "\"Short term (2027) ... Medium term (2034) ... Long term (2054)\"",
+      "location_hint": "CBA NZ Climate Statement 2024.pdf, page 23",
+      "confidence": "high",
+      "notes": "These time frames are consistently applied across all three climate scenarios (Net Zero, Current Policies ~3°C, and an intermediate scenario) as shown in the risk and opportunity tables throughout the document.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "CBA NZ selected three scenarios with the following rationales: (1) Net Zero Scenario (1.5°C) — \"To assess the resilience of CBA NZ's business model under a 1.5°C scenario\"; (2) Disorderly Transition (~1.8°C) — \"To assess the resilience of CBA's business model as it outlines a severe transition risk scenario\"; (3) Current Policies (>3°C) — \"To assess the resilience of CBA's business model as it outlines a severe physical risk scenario.\" Data sources used were NGFS Net Zero 2050, NGFS Delayed Transition, and NGFS Current Policies respectively.",
+      "evidence": "\"Rationale: To assess the resilience of CBA NZ's business model under a 1.5°C scenario / To assess the resilience of CBA's business model as it outlines a severe transition risk scenario / To assess the resilience of CBA's business model as it outlines a severe physical risk scenario. Sources of data used to construct each scenario: NGFS Net Zero 2050. / NGFS Delayed Transition. / NGFS Current Policies\"",
+      "location_hint": "Page 19 (Scenario narrative descriptions table)",
+      "confidence": "high",
+      "notes": "The justification is explicitly stated in the scenario narrative table. The three scenarios were chosen to cover a low-warming orderly transition, a severe transition risk case, and a severe physical risk case, using NGFS frameworks as data sources.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "The document references current climate-related impacts on page 17, including physical and transitional impacts. Specific historic climate impacts described include: increase in severe weather events causing damage and destruction to CBA NZ assets, client assets and infrastructure (potentially resulting in stranded assets and impaired values). Staff may be impacted by severe weather events (e.g. storms, cyclones), losing power, being unable to work from home, or unable to reach the office. The document also notes transition risks such as carbon pricing having flow-on impacts to energy prices, and changes in consumer preferences toward lower-emission alternatives increasing operating costs and reducing revenue for clients with higher emissions.",
+      "evidence": "\"Increase in severe weather events causing damage and destruction. Damage and destruction to CBA NZ assets, client assets and infrastructure. This could result in stranded assets, and impaired\" and \"CBA NZ staff may be impacted by severe weather events (e.g. storms, cyclones), and may lose power and be unable to work from home, or may be unable to reach the office due to personal danger and damage to roading.\"",
+      "location_hint": "Pages 17, 20, 27 of CBA NZ Climate Statement 2024",
+      "confidence": "low",
+      "notes": "The retrieved context does not contain a dedicated \"historic climate impacts\" section with quantified past events or losses. The document references \"Current climate-related impacts\" on page 17 (per the index), but the actual content of that page was not retrieved. The evidence provided relates to anticipated/potential impacts rather than explicitly documented historic impacts. The answer is based on the closest available context.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "The document identifies physical climate risks in the context of CBA NZ's direct operations and financing, assessed through qualitative scenario analysis. Physical risks are considered for both direct operations and the value chain (though the supply chain — ASB — is excluded from the qualitative scenario analysis as ASB's climate risks are covered separately). Physical opportunities identified include providing funding for climate resilient infrastructure (e.g. flood levies). The CBA Group Climate Risk Materiality Assessment Results for CBA IB&M (including IB&M NZ) also assess climate-related risk as a subset of Environmental & Social (E&S) risk across financial, strategic, compliance, and operational risk types. Specific direct and indirect physical climate risk details beyond these points are not fully elaborated in the retrieved context.",
+      "evidence": "\"Potential climate-related risks for CBA NZ's direct operations and financing were considered in the qualitative scenario analysis described in the Scenario analysis section on pages 18-20. CBA NZ only has one supplier (ASB). Given ASB's climate-related risks are considered in ASB's climate statement (ASB Sustainability Report and Climate Statement for the year ended 30 June 2024), CBA NZ has not included its supply chain in the qualitative scenario analysis.\" and \"Increasing physical risks could create an opportunity for CBA NZ to provide funding for climate resilient infrastructure (e.g. flood levies)\"",
+      "location_hint": "Pages 22, 31 — CBA NZ Climate Statement 2024",
+      "confidence": "medium",
+      "notes": "The retrieved context does not provide a comprehensive breakdown of specific direct vs. indirect physical climate risks (e.g., acute vs. chronic). The scenario analysis detail is referenced as being on pages 18-20, which were not fully retrieved. The answer is based on what is available in the provided chunks.",
+      "verification": null
+    }
+  ]
+}

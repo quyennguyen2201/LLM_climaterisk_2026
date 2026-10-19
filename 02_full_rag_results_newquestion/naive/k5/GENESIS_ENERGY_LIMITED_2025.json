@@ -1,0 +1,170 @@
+{
+  "source": "GENESIS_ENERGY_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 44924,
+      "output_tokens": 5960,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "total_tokens": 50884
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Genesis uses four climate scenarios. The context mentions \"changes to our three existing scenarios and the creation of a new scenario,\" resulting in a total of four scenarios. However, the specific names of the scenarios are not provided in the retrieved context.",
+      "evidence": "\"We used the driving forces identified in step 3, the latest climate change scenarios for New Zealand published by NIWA, the latest climate modelling published by the Climate Change Commission and the Energy Sector Climate Scenarios published by Aotearoa Circle to refresh our climate scenarios. This analysis resulted in changes to our three existing scenarios and the creation of a new scenario.\"",
+      "location_hint": "Genesis FY25 Climate Statement, page 17",
+      "confidence": "medium",
+      "notes": "The context confirms four scenarios exist (three existing + one new), but the specific names/labels of the scenarios are not provided in the retrieved passages. A higher-scoring chunk from section 6.1 would likely contain the scenario names.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document outlines four scenarios with the following global temperature outcomes by 2100:\n1. Coordinated transformation: 1.5°C\n2. Green tape: 2.2°C\n3. Delayed transformation: 2.6°C\n4. Hot house: 3.3°C (>3°C)",
+      "evidence": "\"°C warming at 2100: 1.5°C [Coordinated transformation], 2.2°C [Green tape], 2.6°C [Delayed transformation], 3.3°C [Hot house]\"",
+      "location_hint": "Section 6.1, page 18",
+      "confidence": "high",
+      "notes": "These are scenario-based temperature outcomes, not a single projected outcome. Each scenario corresponds to a different warming pathway (RCP/SSP).",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers are referenced, including: Aotearoa Circle (Energy Sector Scenario), NIWA (climate change scenarios for New Zealand), IPCC (RCP and SSP), International Energy Agency (IEA), Climate Change Commission (CCC) 2021 and 2024, BCG, Transpower (Whakamana I Te Mauri Hiko), Treasury, and MBIE (EDGS scenarios).",
+      "evidence": "\"The table below outlines the reference models used to develop our climate scenarios. Reference scenarios... Aotearoa Circle Energy Sector Scenario... NIWA climate change scenarios for New Zealand... IPCC – Representative Concentration Pathway (RCP)... IPCC – Shared Socioeconomic Pathway (SSP)... International Energy Agency (IEA) Climate Scenarios... Climate Change Commission (CCC) 2021... Climate Change Commission (CCC) 2024... BCG... Transpower – Whakamana I Te Mauri Hiko... Treasury carbon pricing... MBIE – electricity demand and generation (EDGS) scenarios\"",
+      "location_hint": "Appendix I, p.58-59",
+      "confidence": "high",
+      "notes": "Genesis uses multiple external scenario providers to develop its four climate scenarios (Coordinated transformation, Green tape, Delayed transformation, Hot house).",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Genesis uses the following SSP/RCP combinations across its four climate scenarios:\n1. Coordinated transformation (1.5°C): RCP 2.6 + SSP 1-1.9\n2. Green tape (2.2°C): RCP 4.5 + SSP 4-3.4\n3. Delayed transformation (2.6°C): RCP 4.5 + SSP 2-4.5\n4. Hot house (>3°C / 3.3°C): RCP 8.5 + SSP 3-7.0",
+      "evidence": "\"Pathways: RCP 2.6 / SSP 1-1.9 | RCP 4.5 / SSP 4-3.4 | RCP 4.5 / SSP 2-4.5 | RCP 8.5 / SSP 3-7.0\"",
+      "location_hint": "Page 18, Section 6.1 Scenarios and scenario analysis",
+      "confidence": "high",
+      "notes": "Notably, the Green tape scenario pairs RCP 4.5 with SSP 4-3.4, and the Delayed transformation scenario also uses RCP 4.5 but with SSP 2-4.5 — two different SSPs mapped to the same RCP. This is confirmed in both the scenario overview table (p.18) and the reference models table (p.59).",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes, Genesis uses customised scenarios. They refreshed their FY24 scenarios by incorporating the Energy Sector Climate Scenarios published by Aotearoa Circle (June 2024), the latest NIWA climate change scenarios for New Zealand (September 2024), and the latest Climate Change Commission modelling (April 2024). They combined results from various models for some data points (e.g., carbon pricing and electricity supply/demand forecasts) to ensure scenarios represented a range of plausible outcomes, meaning some data points differ from those in the Energy Sector scenarios. The review resulted in changes to existing scenarios and the introduction of a new scenario, giving Genesis four climate scenarios in total.",
+      "evidence": "\"The scenarios used in FY24 were refreshed to consider the Energy Sector Climate Scenarios published by Aotearoa Circle in June 2024, the latest climate change scenarios for New Zealand published by NIWA in September 2024 and the latest Climate Change Commission modelling released in April 2024. The narratives and data sets used to develop the Energy Sector Climate Scenarios were reviewed and incorporated into our existing scenarios where applicable. We combined the results of various models for some data points, such as carbon pricing and electricity supply and demand forecasts, to ensure our scenarios represented a range of plausible outcomes. For this reason, some data points are not the same as those disclosed in the Energy Sector scenarios. The review resulted in changes to our existing scenarios and the introduction of a new scenario.\"",
+      "location_hint": "Genesis FY25 Climate Statement, page 17",
+      "confidence": "high",
+      "notes": "Genesis customises scenarios by blending multiple external reference models rather than adopting any single published scenario wholesale. They explicitly note that some data points differ from the Energy Sector scenarios as a result of this combination approach.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Genesis did not co-produce climate scenarios with external parties. They developed their own scenarios internally, using external published sources as inputs: the latest climate change scenarios for New Zealand published by NIWA, the latest climate modelling published by the Climate Change Commission, and the Energy Sector Climate Scenarios published by Aotearoa Circle.",
+      "evidence": "\"We used the driving forces identified in step 3, the latest climate change scenarios for New Zealand published by NIWA, the latest climate modelling published by the Climate Change Commission and the Energy Sector Climate Scenarios published by Aotearoa Circle to refresh our climate scenarios. This analysis resulted in changes to our three existing scenarios and the creation of a new scenario.\"",
+      "location_hint": "Genesis FY25 Climate Statement, page 17",
+      "confidence": "high",
+      "notes": "Genesis used externally published scenarios and modelling as inputs but developed their own scenarios internally through workshops with senior leaders. There is no indication of co-production (joint development) with external organisations.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Genesis uses multiple reference models for its baseline/current policy scenarios. The key baseline scenario is \"Hot house\" (also called \"Delayed transformation\" in some frameworks), which aligns with: Aotearoa Circle Energy Sector Scenario \"Hot house\", NIWA SSP 3-7.0, IPCC RCP 8.5 / SSP 3-7.0, IEA \"Hot house (Current Policies)\", CCC 2021 \"Current Policy Reference (CPR)\", CCC 2024 \"Reference scenario\", BCG \"P1: Business as usual\", Transpower \"Business as usual\", and MBIE EDGS \"Constraint\". Additionally, a \"Delayed transformation\" scenario uses RCP 4.5 / SSP 2-4.5 as a middle-ground baseline.",
+      "evidence": "\"Reference scenarios: Coordinated transformation / Green tape / Delayed transformation / Hot house ... NIWA climate change scenarios for New Zealand: Uses SSP 1-1.9 / Uses SSP 2-4.5 / Uses SSP 2-4.5 / Uses SSP 3-7.0 ... IPCC – Representative Concentration Pathway (RCP): RCP 2.6 / RCP 4.5 / RCP 4.5 / RCP 8.5 ... IEA Climate Scenarios: Orderly (Net Zero 2050) / Orderly (Announced Pledges Scenario) / STEPS (Stated Policies Scenario) / Hot house (Current Policies) ... CCC 2021: Tailwinds / Headwinds / Current Policy Reference (CPR) / Current Policy Reference (CPR)\"",
+      "location_hint": "Appendix I, p.59",
+      "confidence": "high",
+      "notes": "Genesis uses four scenarios ranging from \"Coordinated transformation\" (most ambitious) to \"Hot house\" (least ambitious/current policies baseline). The \"Hot house\" scenario represents the business-as-usual/current policies baseline across all reference frameworks cited.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "Genesis used results from multiple models combined for certain data points, specifically: CCC EB4 modelling, BCG modelling, and Transpower data. No single climate model is named as the primary model; instead, various models were combined for data points such as carbon pricing and electricity supply and demand forecasts.",
+      "evidence": "\"We combined the results of various models for some data points, such as carbon pricing and electricity supply and demand forecasts, to ensure our scenarios represented a range of plausible outcomes... CCC EB4 modelling, BCG modelling and Transpower data.\"",
+      "location_hint": "Section 6.1, p.17 (footnote 21)",
+      "confidence": "high",
+      "notes": "The document references multiple models (CCC EB4, BCG, Transpower) rather than a single named climate model. The scenarios were also informed by NIWA climate change scenarios and Energy Sector Climate Scenarios published by Aotearoa Circle.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Genesis considers damage from acute physical risks, specifically more frequent and intense rain/cyclone events that could cause loss of structural integrity of generation and ancillary infrastructure (e.g. dams, spillways, storage ponds), damage electricity transmission lines, communication networks or road access, and impact operations through flooding, rising lake levels, increased spilling, or sedimentation issues.",
+      "evidence": "\"More frequent and intense rain / cyclone events cause damage to hydro assets and/or related infrastructure, resulting in increased capital expenditure costs and/or lower generation volumes and earnings.\" and \"More frequent intense rain/cyclone events due to climate change have the potential to: cause loss of structural integrity of generation and ancillary infrastructure (e.g. dams, spillways, storage ponds); damage electricity transmission lines, communication networks or road access; impact our ability to operate if intense rain and flooding cause lake levels to rise or increase spilling, or cause sedimentation issues restricting the ability to divert water between catchments.\"",
+      "location_hint": "Genesis FY25 Climate Statement, page 29",
+      "confidence": "high",
+      "notes": "The document explicitly identifies this as a PHYSICAL RISK and describes anticipated financial impacts including increased operating/capital expenditure costs and loss of generation revenue. No significant adverse weather events impacted hydro generation in FY25.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include the following non-temperature variables: rainfall patterns (less rainfall and more dry days projected for Tongariro and Waikaremoana areas; slightly more rainfall and more dry days for Tekapo area by 2090), hydro inflows, snowmelt timing, storm frequency and intensity, drought frequency and duration, heatwaves, bushfires, and extreme weather events. Hydro inflows (GWh) are also tracked as a physical risk metric.",
+      "evidence": "\"There is projected to be less rainfall and more dry days in 2090 compared to 1995 to 2014 for Tongariro and Waikaremoana areas whereas the Tekapo area is projected to have slightly more rainfall and more dry days in 2090. Warmer temperatures may also lead to earlier snowmelt which would alter the timing of inflows into hydro catchments... Weather patterns are less predictable making it difficult to predict hydro inflows used for electricity generation. Heatwaves and prolonged periods of high temperatures increase demand for cooling... Extreme weather events (storms and droughts), heatwaves and bushfires occur frequently.\"",
+      "location_hint": "Section 6.1, p.22",
+      "confidence": "high",
+      "notes": "These non-temperature variables are described specifically within the \"hot house\" scenario narrative. The document also tracks hydro inflows (GWh) as a physical risk metric (p.54). Rainfall projections reference NIWA climate projections consistent with Representative Concentration Pathways.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Genesis uses climate scenarios at both global and New Zealand (national) scale, covering short-term (2030), medium-term (2040), and long-term (2050) time horizons. The scenarios include a \"Hot house\" (3.3°C / heavy reliance on fossil fuels), a 2°C scenario, and a 1.5°C scenario, with both global and NZ-level narrative elements described for each.",
+      "evidence": "\"Short-term 2030 / Medium-term 2040 / Long-term 2050 ... Global / NZ ... Hot house 3.3 / 2°C / 1.5°C ... Electricity demand ~42 TWh / ~48 TWh / ~53 TWh ... Retail gas demand ~49 PJ / ~48 PJ / ~47 PJ\"",
+      "location_hint": "Genesis FY25 Climate Statement, page 22",
+      "confidence": "medium",
+      "notes": "The context shows scenarios operating at both global and NZ scale, across three time horizons (2030, 2040, 2050) and three temperature pathways (1.5°C, 2°C, Hot house ~3.3°C). The exact label \"scale of scenarios\" is not used verbatim, but the global/NZ dual-scale structure is clearly depicted in the scenario table on page 22.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Genesis uses three time horizons for climate-related risks:\n- Short: 1–5 years (to 2030) — aligns with the operating plan and FY28 '8 by 28' goals\n- Medium: 6–15 years (to 2040) — aligns with the Gen35 corporate strategy (to 2035) and net zero 2040 SBT\n- Long: 16–25 years (to 2050) — aligns with IPCC findings on limiting warming to 1.5°C\n\nAn exception applies to physical risks on generation assets, which are considered through to 2100 to align with their useful lives. Some capital deployment plans (e.g. solar) use slightly longer horizons (35 years), and hydro assets' physical climate impacts are considered out to 2100.",
+      "evidence": "The impact of climate-related risks is considered across short-, medium- and long-term time horizons. \nTERM | PERIOD | RATIONALE\nShort | 1-5 years (2030) | Aligns with the time horizon used for Genesis' operating plan and closely aligns with our FY28 goals which we refer to as our '8 by 28'.\nMedium | 6-15 years (2040) | Closely aligns with the time horizon used for Genesis' corporate strategy (Gen35) which looks out to 2035 and our net zero 2040 SBT.\nLong | 16-25 years (2050) | Aligns with the Intergovernmental Panel on Climate Change (IPCC) findings that to limit the temperature increase to 1.5C above pre-industrial levels, emissions would have to peak now and reduce by around half by 2030, and globally net zero emissions need to be attained by 2050.\nThe only exception to this is the length of time considered for physical risks to our generation assets which is considered through to 2100 to align with their useful lives.",
+      "location_hint": "Genesis FY25 Climate Statement, page 16",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Genesis used the latest climate change scenarios for New Zealand published by NIWA, the latest climate modelling published by the Climate Change Commission, and the Energy Sector Climate Scenarios published by Aotearoa Circle. The driving forces were identified through a STEEP analysis carried out in strategy workshops, organised by influence and uncertainty, and drawn from a long list compiled using the Energy Sector Scenarios and Genesis' FY23 driving forces. These inputs were used to refresh existing scenarios and create a new one, centred on the focal question: \"How could climate change plausibly affect our business, what should we do and when?\"",
+      "evidence": "\"We used the driving forces identified in step 3, the latest climate change scenarios for New Zealand published by NIWA, the latest climate modelling published by the Climate Change Commission and the Energy Sector Climate Scenarios published by Aotearoa Circle to refresh our climate scenarios. This analysis resulted in changes to our three existing scenarios and the creation of a new scenario.\"",
+      "location_hint": "Genesis FY25 Climate Statement, page 17",
+      "confidence": "high",
+      "notes": "The document explains the rationale for scenario inputs (NIWA, Climate Change Commission, Aotearoa Circle) and the process used to select and prioritise driving forces via STEEP analysis. No explicit statement of why these specific sources were chosen over alternatives, but the selection process is clearly described.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context passages focus on governance structures (ELT, strategy team, finance team responsibilities), scenario analysis processes, and risk management frameworks. None of the passages contain information about historic climate impacts experienced by Genesis Energy.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context passages discuss governance structures (ELT, strategy team, finance team, business units) and the scenario analysis process, but do not explicitly identify or describe direct and indirect physical climate risks faced by Genesis. No verbatim content about specific physical climate risks (e.g., flooding, drought, extreme weather) is present in the provided chunks.",
+      "verification": null
+    }
+  ]
+}

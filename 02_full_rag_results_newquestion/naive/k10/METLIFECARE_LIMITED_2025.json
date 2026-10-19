@@ -1,0 +1,170 @@
+{
+  "source": "METLIFECARE_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "k": 10,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 89109,
+      "total_tokens": 96135,
+      "output_tokens": 7026,
+      "input_token_details": {
+        "cache_creation": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_read": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Metlifecare uses three climate scenarios: 1) \"Orderly Net Zero 2050\" (1.5°C), 2) \"Disorderly Delayed Transition\" (<2.0°C), and 3) \"Hot House World Current Policies\" (>3.0°C).",
+      "evidence": "\"In line with the requirements of NZCS 1, two of our scenarios included an 'Orderly' scenario (with a temperature outcome of 1.5°C), and a 'Hot House World' scenario (3°C or greater). Our third 'Disorderly' scenario presents an intermediate pathway where transition and physical risk are both serious challenges.\"\n\nTable 3 lists:\n- Orderly Net Zero 2050 | Policy ambition: 1.5°C\n- Disorderly Delayed Transition | Policy ambition: <2.0°C\n- Hot House World Current Policies | Policy ambition: >3.0°C",
+      "location_hint": "Page 9, Table 3",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes multiple scenarios with different temperature outcomes, but does not provide a single global temperature outcome by 2100. The scenarios described are: (1) Orderly Net Zero 2050: limiting global warming to 1.5°C; (2) Disorderly Delayed Transition: keeping global warming below 2°C threshold by 2050; (3) Hot House World/Current Policies: global average temperature increase of greater than 3°C by 2050. Notably, Metlifecare uses 2050 as its upper boundary for long-term horizon rather than 2100.",
+      "evidence": "\"Lack of a coordinated effort to reduce emissions has led to a global average temperature increase of greater than 3°C by 2050. As a result, critical climate tipping points are breached, causing irreversible impacts.\" and \"Emissions decline rapidly, limiting global warming to 1.5°C and achieving net zero CO2 emissions by 2050.\" and \"Countries successfully keep global warming below the 2°C threshold by 2050, avoiding climate tipping points.\" and \"we concluded that 2050 was a more relevant upper boundary for a long-term horizon than 2100.\"",
+      "location_hint": "Page 10",
+      "confidence": "medium",
+      "notes": "The document does not provide temperature outcomes specifically for 2100. Temperature outcomes are referenced for 2050. Metlifecare explicitly chose 2050 as its long-term horizon rather than 2100. The three scenarios reference 1.5°C, below 2°C, and greater than 3°C — all by 2050, not 2100.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "The scenarios were developed using the Construction and Property sector scenarios developed by a working group led by the New Zealand Green Building Council (NZGBC), with original emissions reduction pathways sourced from NGFS (Network for Greening the Financial System).",
+      "evidence": "Our scenarios largely drew from the underlying assumptions and data sets that informed the Construction and Property sector scenarios, which were developed by a working group led by the New Zealand Green Building Council, with participation by Metlifecare representatives... Original source of emissions reduction pathway is NGFS Net-Zero 2050... Original source of emissions reduction pathway is NGFS Disorderly... Original source of emissions reduction pathway is NGFS Hot House World.",
+      "location_hint": "Page 8 and Page 42 (Appendix C)",
+      "confidence": "high",
+      "notes": "The scenarios are company-level adaptations based on NZGBC Construction and Property sector scenarios, which themselves draw from NGFS pathways. Both NZGBC and NGFS are scenario providers referenced in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Metlifecare uses the following SSP and RCP combinations across their three scenarios:\n1. Orderly Net Zero 2050: RCP 2.6 and SSP 1-1.9\n2. Disorderly Delayed Transition: RCP 2.6 and SSP 1-2.6\n3. Hot House World Current Policies: RCP 8.5 and SSP 3-7.0",
+      "evidence": "Orderly Net Zero 2050 / Disorderly Delayed Transition / Hot House World Current Policies\nPathways:\nRCP6: 2.6 / SSP7: 1-1.9 (Orderly)\nRCP: 2.6 / SSP: 1-2.6 (Disorderly)\nRCP: 8.5 / SSP: 3-7.0 (Hot House World)",
+      "location_hint": "Table 3, page 9",
+      "confidence": "high",
+      "notes": "The Orderly scenario uses RCP 2.6 paired with SSP 1-1.9; the Disorderly scenario uses RCP 2.6 paired with SSP 1-2.6; and the Hot House World scenario uses RCP 8.5 paired with SSP 3-7.0. Note that the Orderly and Disorderly scenarios share the same RCP (2.6) but differ in SSP, while the Hot House World uses a much higher RCP (8.5) with SSP 3-7.0.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes. Metlifecare developed three company-level customised scenarios. These were largely drawn from the underlying assumptions and data sets of the Construction and Property sector scenarios (developed by a working group led by the New Zealand Green Building Council, with Metlifecare participation), and also incorporated learnings from the Healthcare sector scenario development in FY24. The company-level scenarios were collaboratively developed with key internal stakeholders who provided input on assumptions specific to Metlifecare's operations and activities. The three scenarios are named: Orderly, Disorderly, and Hot House.",
+      "evidence": "\"The three company-level scenarios for Metlifecare were developed using the process set out in Figure 3. Our scenarios largely drew from the underlying assumptions and data sets that informed the Construction and Property sector scenarios, which were developed by a working group led by the New Zealand Green Building Council, with participation by Metlifecare representatives. We also participated in and took learnings from the Healthcare sector scenario development in FY24. Alignment with these sector scenarios grounds Metlifecare's company-level scenarios in the shared assumptions across the sectors. Our company-level scenarios were collaboratively developed with key internal stakeholders, who provided input on assumptions specific to Metlifecare's operations and activities.\"",
+      "location_hint": "Page 8-9, Scenario analysis section",
+      "confidence": "high",
+      "notes": "The three scenario names (Orderly, Disorderly, Hot House) are referenced in Table 5 on page 13. The development process is described on page 8.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes. Metlifecare co-produced its climate scenarios by drawing from the Construction and Property sector scenarios developed by a working group led by the New Zealand Green Building Council (NZGBC), in which Metlifecare representatives participated. Metlifecare also participated in the Healthcare sector scenario development in FY24. Company-level scenarios were then collaboratively developed with key internal stakeholders who provided input on assumptions specific to Metlifecare's operations and activities.",
+      "evidence": "\"Our scenarios largely drew from the underlying assumptions and data sets that informed the Construction and Property sector scenarios, which were developed by a working group led by the New Zealand Green Building Council, with participation by Metlifecare representatives. We also participated in and took learnings from the Healthcare sector scenario development in FY24. Alignment with these sector scenarios grounds Metlifecare's company-level scenarios in the shared assumptions across the sectors. Our company-level scenarios were collaboratively developed with key internal stakeholders, who provided input on assumptions specific to Metlifecare's operations and activities.\"",
+      "location_hint": "Page 9, Scenario analysis / Climate scenario development section",
+      "confidence": "high",
+      "notes": "The Construction and Property sector scenarios were published in 2023 by the NZGBC. Metlifecare's company-level scenarios were developed in mid-2024 and reviewed in FY25.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Metlifecare uses three climate scenarios: (1) \"Orderly Net Zero 2050\" (1.5°C, RCP 2.6, SSP 1-1.9, IEA Net Zero Emissions, CCC Tailwinds); (2) \"Disorderly Delayed Transition\" (<2.0°C, RCP 2.6, SSP 1-2.6, IEA Sustainable Development, CCC Headwinds); and (3) \"Hot House World Current Policies\" (>3.0°C, RCP 8.5, SSP 3-7.0, IEA Net Zero Emissions, CCC Current Policies).",
+      "evidence": "\"In line with the requirements of NZCS 1, two of our scenarios included an 'Orderly' scenario (with a temperature outcome of 1.5°C), and a 'Hot House World' scenario (3°C or greater). Our third 'Disorderly' scenario presents an intermediate pathway where transition and physical risk are both serious challenges... Orderly Net Zero 2050 | Disorderly Delayed Transition | Hot House World Current Policies | Policy ambition: 1.5°C | <2.0°C | >3.0°C | Pathways: RCP6: 2.6, SSP7: 1-1.9, IEA8: Net Zero Emissions, CCC9: Tailwinds | RCP: 2.6, SSP: 1-2.6, IEA: Sustainable Development, CCC: Headwinds | RCP: 8.5, SSP: 3-7.0, IEA: Net Zero Emissions, CCC: Current Policies\"",
+      "location_hint": "Page 10, Table 3",
+      "confidence": "high",
+      "notes": "The scenarios were originally developed in mid-2024 drawing from the Construction and Property sector scenarios (NZGBC) and reviewed in FY25. The underlying assumptions also reference Climate Change Commission (CCC) scenario modelling.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "The scenarios use the following models/pathways: NGFS Net-Zero 2050 (Orderly), NGFS Disorderly (Disorderly), and NGFS Hot House World (Hot House World), alongside RCP, SSP, IEA, and CCC (New Zealand Climate Change Commission) reference scenarios. The underlying assumptions are also based on the NZ Green Building Council (NZGBC) Construction and Property Sector scenarios.",
+      "evidence": "\"Original source of emissions reduction pathway is NGFS Net-Zero 2050.\" / \"Original source of emissions reduction pathway is NGFS Disorderly.\" / \"Original source of emissions reduction pathway is NGFS Hot House World.\" Also: \"Pathways: RCP6: 2.6 / SSP7: 1-1.9 / IEA8: Net Zero Emissions / CCC9: Tailwinds\" (Orderly); \"RCP: 2.6 / SSP: 1-2.6 / IEA: Sustainable Development / CCC: Headwinds\" (Disorderly); \"RCP: 8.5 / SSP: 3-7.0 / IEA: Net Zero Emissions / CCC: Current Policies\" (Hot House World).",
+      "location_hint": "Appendix C, p.43; Table 3, p.9",
+      "confidence": "high",
+      "notes": "Multiple models are referenced: NGFS for emissions reduction pathways, RCP/SSP (IPCC AR6), IEA Global Energy and Climate Model, and NZ Climate Change Commission scenarios. The NZGBC Construction and Property Sector report is also a key source for underlying assumptions.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Metlifecare considers damage from acute physical risks including extreme weather events (storms, high winds, flooding), heatwaves, and their impacts such as damaged infrastructure, village disruptions, power and water outages, unsafe conditions requiring evacuations, and disruption to construction and development projects.",
+      "evidence": "\"Extreme weather events such as storms, high winds and flooding increase the risk of damage and disruption, and the frequency of power and water outages due to insufficient national infrastructure. • Accessibility and operation of Metlifecare's villages is disrupted, including ability to provide healthcare services if villages do not have back-up generators to supply power. • Damaged infrastructure from storms or flooding may leave residents at risk of illness from contamination or lack of water. • Unsafe conditions may result in evacuations of impacted villages. • Construction and development projects may be disrupted due to damage and/or supply chain delays.\"",
+      "location_hint": "Page 12 (p.13 of document), Physical Risks table",
+      "confidence": "high",
+      "notes": "The document explicitly identifies extreme weather events and heatwaves as acute physical risks and describes their potential damage impacts in detail.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include non-temperature variables such as: sea-level rise, precipitation/rain, wind, and geophysical/earth hazards (physical variables), as well as transition-related variables including carbon sequestration from afforestation and nature-based solutions, technology assumptions (including negative emissions technology), carbon emissions from forestry, energy transition/fossil fuel use landscape, policy and regulatory changes, supply chain pressures, electricity grid capacity, and insurance availability.",
+      "evidence": "\"Ten physical hazards were assessed over five categories - sea-level rise, rain, wind, temperature and earth.\" and \"Preliminary analysis for 2050–2100 indicates minimal risk from sea-level rise and geophysical hazards. However, further work is needed on assessing potential exposure to precipitation, temperature, and wind-related hazards within our nearer-term timeframe.\" and \"Net carbon emissions from forestry (exotic and native) (MtCO2e)... Technology assumptions, including negative emissions technology...\"",
+      "location_hint": "Pages 22, 25, 43",
+      "confidence": "high",
+      "notes": "Non-temperature physical variables explicitly listed include sea-level rise, rain/precipitation, wind, and earth/geophysical hazards. Transition scenario variables include carbon sequestration, forestry emissions, negative emissions technology, energy transition, policy/regulatory change, supply chains, electricity grid, and insurance.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Metlifecare used three climate scenarios: (1) Orderly Net Zero 2050 (~1.5°C, net zero CO2 by 2050), (2) Disorderly Delayed Transition (below 2°C by 2050), and (3) Hot House World / Current Policies (greater than 3°C by 2050, ~4°C rise by 2100 under RCP8.5).",
+      "evidence": "\"Orderly Net Zero 2050: Emissions decline rapidly, limiting global warming to 1.5°C and achieving net zero CO2 emissions by 2050. ... Disorderly Delayed Transition: Countries successfully keep global warming below the 2°C threshold by 2050 ... Hot House World Current Policies: Lack of a coordinated effort to reduce emissions has led to a global average temperature increase of greater than 3°C by 2050.\" and \"Each location was evaluated for exposure and vulnerability under the RCP8.5 scenario (a Hot House World of ~4°C rise by 2100)\"",
+      "location_hint": "Pages 10-11",
+      "confidence": "high",
+      "notes": "The three scenarios align with the NZ CS 1 requirement to analyse at minimum a 1.5°C scenario, a 3°C or greater scenario, and a third scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Metlifecare defines three time horizons for assessing climate-related risks and opportunities:\n- Short-term: 0–5 years (2025–2029), aligned with Metlifecare's 5-year planning cycle\n- Medium-term: 6–15 years (2030–2040), informing Metlifecare's planning within the next 15 years\n- Long-term: 16–25 years (2041–2050), informing Metlifecare's planning within the next 25 years",
+      "evidence": "\"Time horizons for assessing climate-related risks and opportunities\n2025-2029\n2030-2040\n2041-2050\nShort-term\n0-5 years\nAligned with Metlifecare's 5-year planning cycle\nMedium-term\n6-15 years\nInforming Metlifecare's planning within the next 15 years\nLong-term\n16-25 years\nInforming Metlifecare's planning within the next 25 years\"",
+      "location_hint": "Page 8 (Strategy section)",
+      "confidence": "high",
+      "notes": "The document also notes that 2050 was chosen as the upper boundary for the long-term horizon rather than 2100, as it better aligns with Metlifecare's business modelling, strategic planning, capital deployment and asset management decisions.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Metlifecare justified its scenario and model choices on several grounds: (1) Scenarios were largely drawn from the Construction and Property sector scenarios developed by the New Zealand Green Building Council (NZGBC), grounding company-level scenarios in shared sector assumptions. (2) Metlifecare also participated in Healthcare sector scenario development. (3) Company-level scenarios were collaboratively developed with key internal stakeholders for Metlifecare-specific assumptions. (4) The Executive Team reviewed scenarios for internal consistency, plausibility, and challenge. (5) For time horizons, Metlifecare chose 2050 (rather than 2100) as the upper boundary to align with its own business modelling, strategic planning, capital deployment, and asset management decisions — specifically its 5-year, 15-year, and 25-year planning cycles.",
+      "evidence": "\"Our scenarios largely drew from the underlying assumptions and data sets that informed the Construction and Property sector scenarios, which were developed by a working group led by the New Zealand Green Building Council, with participation by Metlifecare representatives. We also participated in and took learnings from the Healthcare sector scenario development in FY24. Alignment with these sector scenarios grounds Metlifecare's company-level scenarios in the shared assumptions across the sectors. Our company-level scenarios were collaboratively developed with key internal stakeholders, who provided input on assumptions specific to Metlifecare's operations and activities... The Executive Team reviewed and provided feedback on the draft scenarios to ensure they are internally consistent, plausible, and challenging... We believe it is important to align the horizons with the planning timeframes used in Metlifecare's business modelling, strategic planning, capital deployment and asset management decisions. Having considered variables such as strategy development, capital allocation and the long-term perspective of physical climate change impacts, we concluded that 2050 was a more relevant upper boundary for a long-term horizon than 2100.\"",
+      "location_hint": "Page 8",
+      "confidence": "high",
+      "notes": "The justification covers both the choice of scenario frameworks (NZGBC Construction and Property sector scenarios, NGFS pathways) and the choice of time horizons (2050 rather than 2100), both explicitly explained in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "In FY25, acute weather events affected Metlifecare villages, although the impact was relatively minor compared to the Auckland Anniversary floods and Cyclone Gabrielle. More chronic changes, such as warmer average summer temperatures year-on-year, are testing Metlifecare's cooling infrastructure at some locations. On the transition side, Metlifecare has been implementing decarbonisation programmes, facing higher costs of carbon-reduced materials, and investing in climate reporting and GHG emissions reduction projects.",
+      "evidence": "\"Acute weather events affected Metlifecare villages in FY25, although the impact of these events was relatively minor compared to the Auckland Anniversary floods and Cyclone Gabrielle. More chronic change, such as warmer average summer temperatures year-on-year are testing Metlifecare's cooling infrastructure at some locations. Site assessments are being carried out and appropriate measures are being actioned where required.\"",
+      "location_hint": "Table 2: Current climate-related impacts on Metlifecare's business, page 8",
+      "confidence": "high",
+      "notes": "The document also notes that \"the effects of climate change did not materially impact Metlifecare's operations\" in the broader context of Table 2. Historic physical impacts include acute weather events and chronic temperature increases; transition impacts include decarbonisation policy costs, higher supplier costs, access to capital requirements, and climate reporting investments.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Metlifecare identifies the following physical climate risks:\n\n1. **Extreme weather events** (e.g., storms, flooding) – impacting assets and operations\n2. **Heatwaves** – affecting resident health and safety, particularly for elderly populations\n3. **Sea-level rise** – preliminary analysis indicates minimal risk for 2050–2100\n4. **Precipitation, temperature, and wind-related hazards** – further work needed for nearer-term timeframe\n5. **Geophysical hazards** – preliminary analysis indicates minimal risk\n\nThese were assessed across ten physical hazards in five categories: sea-level rise, rain, wind, temperature, and earth, under the RCP8.5 scenario (~4°C rise by 2100) for mid-to-late century (2050–2100). 100% of Metlifecare's assets are disclosed as facing some level of identified physical risk, with varying degrees of materiality.\n\nIndirect physical risks include:\n- Scarcity of essential resources (energy and water) impacting village operations and resident safety\n- Supply chain shortages of building materials and clinical equipment due to extreme weather\n- Increased complexity of healthcare needs due to heat stress and social isolation\n- Staffing shortages exacerbated by extreme weather events",
+      "evidence": "\"Preliminary analysis for 2050–2100 indicates minimal risk from sea-level rise and geophysical hazards. However, further work is needed on assessing potential exposure to precipitation, temperature, and wind-related hazards within our nearer-term timeframe... we disclose that 100% of our assets could face some level of identified physical risk, with varying degrees of materiality.\"\n\n\"Ten physical hazards were assessed over five categories - sea-level rise, rain, wind, temperature and earth.\"\n\n\"Scarcity of essential resources such as energy and water would impact the operation of villages and resident safety.\"\n\n\"Heat stress combined with social isolation results in poor physical and mental health outcomes for vulnerable populations, in particular ethnic minorities and the elderly.\"",
+      "location_hint": "Pages 13, 22, 25–26",
+      "confidence": "high",
+      "notes": "Physical risks are assessed under RCP8.5 (Hot House World, ~4°C by 2100) for 2050–2100. Priority physical risks explicitly named in the transition workstream table are 'Extreme weather events' and 'Heatwaves'. The CCRA covered all sites in FY25 via desktop assessment. Indirect physical risks (supply chain, health, staffing) are described qualitatively in scenario narratives.",
+      "verification": null
+    }
+  ]
+}

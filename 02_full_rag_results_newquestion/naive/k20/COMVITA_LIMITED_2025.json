@@ -1,0 +1,170 @@
+{
+  "source": "COMVITA_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "k": 20,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 145506,
+      "output_tokens": 7557,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "total_tokens": 153063
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Comvita uses three proprietary scenarios: (1) Scenario 1 – Orderly & Timely, (2) Scenario 2 – Disorderly & Delayed, and (3) Scenario 3 – Hothouse. These are informed by a broader scenario architecture including: IPCC scenarios (SSP1-2.6, SSP2-4.5, SSP3-7.0); NGFS scenarios (Net Zero 2050, Delayed Transition, Current Policies); IEA scenarios (NZE, SDS, STEPS); RCP projections (RCP2.6, RCP4.5, RCP8.5); NZ Climate Change Commission scenarios (Tailwinds, Headwinds, Current Policy Reference); NZ Agriculture Sector scenarios (Tū-ā-pae, Tū-ā-hopo, Tū-ā-tapape); NZ Transport Sector scenarios (Fully Charged, Short Detour, Bypass to Breakdown); and NZ Energy Sector scenarios (Coordinated Effort, Slow Followers, Hot House).",
+      "evidence": "SCENARIO ARCHETYPES\nGlobal climate and socioeconomics: IPCC SSP1-2.6, IPCC SSP2-4.5, IPCC SSP3-7.0\nGlobal energy and emissions pathways (NGFS): Net Zero 2050 scenario (Orderly), Delayed Transition Scenario (Disorderly), Current Policies scenario (Hot house)\nIEA Scenarios: Net Zero Emissions by 2050 Scenario (NZE), Sustainable Development Scenario (SDS), Stated Policies Scenario (STEPS)\nRCP: RCP2.6 Projections, RCP4.5 Projections, RCP8.5 Projections\nNew Zealand Climate Change Commission (CCC) Scenarios: Tailwinds, Headwinds, Current Policy Reference\nAgriculture Sector Climate Change Scenarios: Tū-ā-pae - Orderly & Immediate, Tū-ā-hopo - Disorderly & Delayed, Tū-ā-tapape - Faltering - Hothouse\nTransport Sector Climate Change Scenarios: Fully Charged, Short Detour, Bypass to Breakdown\nEnergy Sector Climate Change Scenarios: Coordinated Effort, Slow Followers, Hot House\n\nSCENARIO 1 – ORDERLY & TIMELY ... SCENARIO 2 – DISORDERLY & DELAYED ... SCENARIO 3 – HOTHOUSE",
+      "location_hint": "Section 6.1 Scenario Architecture, p.30; Section 2.2 Scenario Narratives, pp.8-9",
+      "confidence": "high",
+      "notes": "Comvita's own three scenarios are Orderly & Timely, Disorderly & Delayed, and Hothouse. The scenario architecture table on p.30 lists all the reference frameworks used to develop these scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document provides global temperature outcomes for each scenario, but only up to 2080-2100 for Scenario 1. Specifically:\n- Scenario 1 (Orderly & Timely): 1.6°C by 2050 and 1.4°C by 2080-2100\n- Scenario 2 (Disorderly & Delayed): 2.0°C by 2050; 2.7°C by 2080\n- Scenario 3 (Hothouse): 2.5°C by 2050, 3.6°C by 2080\n\nNo explicit 2100 temperature outcome is provided for Scenarios 2 and 3.",
+      "evidence": "SCENARIO 1 – ORDERLY & TIMELY: Global Temperature Outcomes: 1.6oC by 2050 and 1.4oC by 2080-2100. SCENARIO 2 – DISORDERLY & DELAYED: Global Temperature Outcomes: 2.0oC by 2050; 2.7oC by 2080. SCENARIO 3 – HOTHOUSE: Global Temperature Outcomes: 2.5oC by 2050, 3.6oC by 2080.",
+      "location_hint": "Pages 7-9, Scenario Narratives (Sections 2.2)",
+      "confidence": "high",
+      "notes": "Scenario 1 explicitly references 2080-2100, while Scenarios 2 and 3 only provide outcomes up to 2080. The document notes scenarios were updated to end at 2050 for FY25, but temperature outcomes are still projected beyond that timeframe.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "Multiple providers were used: IPCC (UN Intergovernmental Panel on Climate Change), NGFS (Network for Greening the Financial System), IEA (International Energy Agency), New Zealand Climate Change Commission (CCC), and sector-specific NZ scenarios for Agriculture, Transport, and Energy sectors.",
+      "evidence": "\"UN Intergovernmental Panel on Climate Change (IPCC) scenarios... Network for Greening the Financial System (NGFS) Scenarios... International Energy Agency (IEA) Scenarios... New Zealand Climate Change Commissions (CCC) Scenarios... Agriculture Sector Climate Change Scenarios... Transport Sector Climate Change Scenarios... Energy Sector Climate Change Scenarios\"",
+      "location_hint": "Section 6.1, Scenario Architecture, p.30",
+      "confidence": "high",
+      "notes": "The document lists multiple scenario providers in the Scenario Architecture appendix. The NZ Agriculture Sector Climate Change Scenarios were used as the primary starting point, as noted in Section 2.2.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Comvita uses IPCC SSP1-2.6, SSP2-4.5, and SSP3-7.0 for global climate and socioeconomic scenarios, paired with RCP2.6, RCP4.5, and RCP8.5 projections respectively for New Zealand physical and transition impacts.",
+      "evidence": "IPCC SSP1-2.6, IPCC SSP2-4.5, IPCC SSP3-7.0 ... RCP2.6 Projections, RCP4.5 Projections, RCP8.5 Projections",
+      "location_hint": "Section 6.1, Scenario Architecture, p.30",
+      "confidence": "high",
+      "notes": "The document lists SSPs under \"UN Intergovernmental Panel on Climate Change (IPCC) scenarios\" and RCPs under \"NZ physical and transition impacts\" within the same scenario architecture table. SSP1-2.6 aligns with RCP2.6, SSP2-4.5 with RCP4.5, and SSP3-7.0 with RCP8.5, though the document does not explicitly state these pairings — they are implied by the parallel structure of the table.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes, Comvita developed customised climate scenarios. They used the NZ Agriculture Sector Climate Change Scenarios as a starting point, then made adjustments to reflect the specific nature of their business model — including the breadth of their value chain (from Mānuka and olive tree cultivation to consumer offline and online stores) and their product range. The scenarios were initially developed in FY24 and refined in FY25 considering latest guidance, primary user input, and further analysis. They also considered information from the Transport and Energy Sector Climate Change Scenarios.",
+      "evidence": "\"Comvita developed its initial climate scenarios in FY24. The NZ Agriculture Sector Climate Change Scenarios were used as a starting point given the nature of our business and Comvita's participation in the working group responsible for their development. Adjustments were made to consider the specific nature of our business model, and specifically the breadth of our value chain (from Mānuka and olive tree cultivation to consumer offline and online stores), and our product range. The FY25 scenarios remain largely unchanged but have been refined considering latest guidance, primary user input, and supported by further analysis and review for our industry and specific business model. We considered information from the more recently published Transport and Energy Sector Climate Change Scenarios.\"",
+      "location_hint": "Section 2.2, page 6",
+      "confidence": "high",
+      "notes": "Comvita customised the NZ Agriculture Sector Climate Change Scenarios to fit their specific business model and value chain, and also drew on Transport and Energy Sector scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes. Comvita co-produced its climate scenarios by participating in the working group responsible for developing the NZ Agriculture Sector Climate Change Scenarios, which were used as the starting point for Comvita's own scenarios. Adjustments were then made to reflect Comvita's specific business model and value chain.",
+      "evidence": "\"Comvita developed its initial climate scenarios in FY24. The NZ Agriculture Sector Climate Change Scenarios were used as a starting point given the nature of our business and Comvita's participation in the working group responsible for their development. Adjustments were made to consider the specific nature of our business model, and specifically the breadth of our value chain (from Mānuka and olive tree cultivation to consumer offline and online stores), and our product range.\"",
+      "location_hint": "Section 2.2, page 6",
+      "confidence": "high",
+      "notes": "Comvita participated in the working group that developed the NZ Agriculture Sector Climate Change Scenarios, which constitutes co-production. They then adapted these scenarios for their specific business context.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Comvita uses three baseline scenarios: (1) Orderly & Timely (1.6°C by 2050), (2) Disorderly & Delayed (2.0°C by 2050), and (3) Hothouse (2.5°C by 2050). These are informed by IPCC SSP scenarios (SSP1-2.6, SSP2-4.5, SSP3-7.0), NGFS scenarios (Net Zero 2050, Delayed Transition, Current Policies), IEA scenarios (NZE, SDS, STEPS), RCP projections (RCP2.6, RCP4.5, RCP8.5), NZ Climate Change Commission scenarios (Tailwinds, Headwinds, Current Policy Reference), and NZ sector-specific scenarios for Agriculture, Transport, and Energy sectors.",
+      "evidence": "\"SCENARIO ARCHETYPES... IPCC SSP1-2.6 / IPCC SSP2-4.5 / IPCC SSP3-7.0... Net Zero 2050 scenario, Orderly category / Delayed Transition Scenario, Disorderly category / Current Policies scenario, Hot house category... Net Zero Emissions by 2050 Scenario (NZE) / Sustainable Development Scenario (SDS) / Stated Policies Scenario (STEPS)... RCP2.6 Projections / RCP4.5 Projections / RCP8.5 Projections... Tailwinds / Headwinds / Current Policy Reference... Tū-ā-pae - Orderly & Immediate / Tū-ā-hopo - Disorderly & Delayed / Tū-ā-tapape - Faltering - Hothouse... Fully Charged / Short Detour / Bypass to Breakdown... Coordinated Effort / Slow Followers / Hot House\"",
+      "location_hint": "Section 6.1, Scenario Architecture, p.30",
+      "confidence": "high",
+      "notes": "Comvita's three proprietary scenarios (Orderly & Timely, Disorderly & Delayed, Hothouse) are built upon multiple external baseline frameworks including IPCC, NGFS, IEA, RCP, and NZ-specific scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The context does not mention any specific climate or emissions model (e.g., a specific quantitative model name) used for scenario analysis or financial impact modelling. The document references scenario frameworks (IPCC SSPs, NGFS, IEA, RCPs, NZ sector scenarios) and standards (GHG Protocol), but no specific named model is identified.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Comvita identifies \"Damage to Physical Assets\" as an acute physical risk, covering damage to natural and built assets from increasingly frequent major climate-related events. Anticipated impacts include revenue and product loss, increased repair costs, additional costs to replace lost supply, and potentially impaired assets. The management response is asset resilience review, monitoring, and planning. Additionally, \"Global Distribution & Logistics\" and \"Weather-Related Health & Safety Incidents\" are also classified as Physical Risk (Acute).",
+      "evidence": "\"DAMAGE TO PHYSICAL ASSETS: Summary: Risk of damage to natural and built assets from increasingly frequent major climate-related events. Risk & Opportunity Type Physical Risk (Acute) Value Chain Category Supply Ingredients Risk Rating Current Impacts: No FY25 events. - Orderly – Med Anticipated Impacts: Damage leads to revenue and product loss; increased repair costs; additional costs to replace lost supply; and potentially impaired assets. Management Response: Asset resilience review, monitoring, and planning. - Disorderly – High - Hothouse – High Anticipated Impacts Time Horizon Medium-Term\"",
+      "location_hint": "2025 Climate Statement.pdf, page 11",
+      "confidence": "high",
+      "notes": "Comvita explicitly categorises \"Damage to Physical Assets\" as Physical Risk (Acute). Other acute physical risks include Global Distribution & Logistics and Weather-Related Health & Safety Incidents.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include non-temperature variables such as: severe weather events (flooding, wind, wildfires, intense rainfall, droughts), changing weather patterns affecting nectar flows and bee foraging, pests and diseases, GHG emission reduction pathways, market/regulatory requirements (carbon standards, trade barriers), consumer preferences, technological advances, government policies (including NZ Emissions Trading Scheme), land use change, insurance and capital availability, and staff health and safety concerns.",
+      "evidence": "Significant changes in weather patterns impact nectar flows and bee foraging patterns, and result in increases in pests and diseases. The impacts are exacerbated by regions experiencing intense rainfall, high winds and droughts on a frequency never experienced before... Tree health, honey and raw material production, and the operation of supply chains, are increasingly impacted from 2035 by severe weather events, causing wind, rain and fire damage and business interruption... Emission Reduction Pathways: GHG emissions continue to rise unabated.",
+      "location_hint": "Section 2, pages 7-9",
+      "confidence": "medium",
+      "notes": "The scenarios contain many non-temperature variables woven throughout the narrative descriptions. The evidence quoted captures key examples but is not exhaustive. Temperature outcomes are separately stated (e.g., 2.5°C by 2050 for Hothouse), while non-temperature variables are described narratively across the scenario descriptions.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Comvita's scenarios operate at multiple scales: global (using IPCC, NGFS, and IEA scenario frameworks), national/New Zealand level (using RCP projections and NZ Climate Change Commission scenarios), and NZ sector-specific level (Agriculture, Transport, and Energy sector climate change scenarios). The scenarios cover three archetypes: Orderly & Timely (1.6°C by 2050), Disorderly & Delayed (2.0°C by 2050), and Hothouse (2.5°C by 2050).",
+      "evidence": "SCENARIO ARCHETYPES\nGlobal climate and socioeconomics: UN Intergovernmental Panel on Climate Change (IPCC) scenarios – IPCC SSP1-2.6, IPCC SSP2-4.5, IPCC SSP3-7.0\nGlobal energy and emissions pathways: Network for Greening the Financial System (NGFS) Scenarios – Net Zero 2050 scenario, Orderly category; Delayed Transition Scenario, Disorderly category; Current Policies scenario, Hot house category\nInternational Energy Agency (IEA) Scenarios – Net Zero Emissions by 2050 Scenario (NZE); Sustainable Development Scenario (SDS); Stated Policies Scenario (STEPS)\nNZ physical and transition impacts: RCP – RCP2.6 Projections, RCP4.5 Projections, RCP8.5 Projections; New Zealand Climate Change Commissions (CCC) Scenarios – Tailwinds, Headwinds, Current Policy Reference\nNZ SECTOR-SPECIFIC SCENARIOS: Agriculture Sector Climate Change Scenarios; Transport Sector Climate Change Scenarios; Energy Sector Climate Change Scenarios",
+      "location_hint": "Section 6, Appendix 6.1 – Scenario Architecture, p.30",
+      "confidence": "high",
+      "notes": "The scenarios span global, national (NZ), and sector-specific scales, drawing on multiple established frameworks (IPCC, NGFS, IEA, NZ CCC, and NZ sector scenarios).",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Comvita uses three time horizons:\n- Short-Term: Risk over the next 1-2 years, out to the end of FY26, in-line with Comvita's current short-term focus.\n- Medium-Term: Risk within the time horizon from 2027 to 2035 (FY27 to FY35), which will include Comvita's next longer-term strategic planning cycle and any near-term science-aligned carbon reduction targets.\n- Long-Term: Risk from 2035 to 2050 (FY35 to FY50) which aligns with the generally accepted Mānuka tree productive lifespan and including Comvita's long-term net zero ambition as it is developed.",
+      "evidence": "TIME HORIZONS\nShort-Term: Risk over the next 1-2 years, out to the end of FY26, in-line with Comvita's current short-term focus.\nMedium-Term: Risk within the time Horizon from 2027 to 2035 (FY27 to FY35), which will include Comvita's next longer-term strategic planning cycle and any near-term science-aligned carbon reduction targets.\nLong-Term: Risk from 2035 to 2050 (FY35 to FY50) which aligns with the generally accepted Mānuka tree productive lifespan and including Comvita's long-term net zero ambition as it is developed.",
+      "location_hint": "Section 2.3, page 10",
+      "confidence": "high",
+      "notes": "The document notes that these time horizons are largely similar to FY25, apart from the Long-Term, which has been shortened.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Comvita used the NZ Agriculture Sector Climate Change Scenarios as a starting point, given the nature of their business and Comvita's participation in the working group responsible for their development. Adjustments were made to consider the specific nature of their business model, including the breadth of their value chain (from Mānuka and olive tree cultivation to consumer offline and online stores) and their product range. The scenario architecture draws on IPCC SSP scenarios, NGFS scenarios, IEA scenarios, RCP projections, NZ Climate Change Commission scenarios, and NZ sector-specific scenarios (Agriculture, Transport, and Energy). In FY25, the scenarios were further refined considering latest guidance, primary user input, and supported by further analysis and review for their industry and specific business model, including information from the more recently published Transport and Energy Sector Climate Change Scenarios.",
+      "evidence": "\"Comvita developed its initial climate scenarios in FY24. The NZ Agriculture Sector Climate Change Scenarios were used as a starting point given the nature of our business and Comvita's participation in the working group responsible for their development. Adjustments were made to consider the specific nature of our business model, and specifically the breadth of our value chain (from Mānuka and olive tree cultivation to consumer offline and online stores), and our product range. The FY25 scenarios remain largely unchanged but have been refined considering latest guidance, primary user input, and supported by further analysis and review for our industry and specific business model. We considered information from the more recently published Transport and Energy Sector Climate Change Scenarios.\"",
+      "location_hint": "Section 2.2, p.6-7",
+      "confidence": "high",
+      "notes": "The scenario architecture appendix (p.29) also lists the full set of reference scenarios used: IPCC SSP1-2.6/SSP2-4.5/SSP3-7.0, NGFS Net Zero 2050/Delayed Transition/Current Policies, IEA NZE/SDS/STEPS, RCP2.6/4.5/8.5, NZ CCC Tailwinds/Headwinds/Current Policy Reference, and NZ sector-specific agriculture, transport, and energy scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "In FY25, Comvita reported the following historic/current climate impacts:\n1. Nectar & Honey Production: \"Climate impacts every season. No specific events identified in FY25.\"\n2. Global Distribution & Logistics: \"Customer credits for heat damaged product $98,000\"\n3. Changing Consumer Preferences & Customer and Market Requirements: \"No FY25 events.\"\n4. Damage to Physical Assets: \"No FY25 events.\"\n5. Access to Funding & Insurance: \"No adverse FY25 impacts – premiums reduced.\"\n6. Domestic Response to Climate Change: \"No FY25 events.\"\n7. Weather-Related Health & Safety Incidents, and Staff Attraction & Retention: \"No FY25 events.\"",
+      "evidence": "Current Impacts: Climate impacts every season. No specific events identified in FY25. [...] Current Impacts: Customer credits for heat damaged product $98,000 [...] Current Impacts: No FY25 events. [...] Current Impacts: No adverse FY25 impacts – premiums reduced.",
+      "location_hint": "Section 2, p.11-13 (Climate-Related Risks & Opportunities table)",
+      "confidence": "high",
+      "notes": "The only quantified historic climate impact reported for FY25 is $98,000 in customer credits for heat-damaged product under Global Distribution & Logistics. All other risk categories reported no specific FY25 events, except Nectar & Honey Production which notes ongoing climate impacts every season without specific events.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Comvita identifies the following direct and indirect physical climate risks:\n\n1. **Nectar & Honey Production** (Physical Risk – Acute & Chronic): Climate change-induced alterations in environmental conditions impacting Mānuka flowering patterns, increasing pests and pathogens, and impacting bee health and foraging patterns. Anticipated impacts include changes in honey production yields and quality, increased supply variability, and increased cost of interventions to maintain bee health.\n\n2. **Damage to Physical Assets** (Physical Risk – Acute): Risk of damage to natural and built assets from increasingly frequent major climate-related events. Key assets include the Paengaroa site (production and storage of raw materials) and third-party logistics providers (3PLs) in China, Hong Kong, other Asian markets, and USA.\n\n3. **Global Distribution & Logistics** (Physical Risk – Acute & Chronic): Climate impacts related to flooding, wind and wildfires (globally and locally) may disrupt distribution networks and alter distribution conditions. Current impacts include customer credits for heat-damaged product of $98,000.\n\n4. **Weather-Related Health & Safety Incidents, and Staff Attraction & Retention** (Physical Risk – Acute): Extreme weather events and changing conditions pose safety risks for workers at Comvita's sites.\n\nComvita notes that 100% of its business activities are vulnerable to physical risks, given its reliance on nature and the climate for product production.",
+      "evidence": "2. NECTAR & HONEY PRODUCTION: Summary: Climate change-induced alterations in environmental conditions which impact Mānuka flowering patterns, increase pests and pathogens, and impact bee health and foraging patterns. Risk & Opportunity Type: Physical Risk (Acute & Chronic)... 3. DAMAGE TO PHYSICAL ASSETS: Summary: Risk of damage to natural and built assets from increasingly frequent major climate-related events. Risk & Opportunity Type Physical Risk (Acute)... 4. GLOBAL DISTRIBUTION & LOGISTICS: Summary: Climate impacts related to flooding, wind and wild fires (globally and locally) may disrupt distribution networks, and alter distribution conditions. Risk & Opportunity Type: Physical Risk (Acute & Chronic)... Current Impacts: Customer credits for heat damaged product $98,000... 7. WEATHER-RELATED HEALTH & SAFETY INCIDENTS, AND STAFF ATTRACTION & RETENTION: Summary: Extreme weather events and changing conditions pose safety risks for workers at Comvita's sites. Risk & Opportunity Type: Physical Risk (Acute) & Transition Risk... The production of our products inherently relies on nature and the climate, and to this extent 100% of our business activities are vulnerable to physical risks.",
+      "location_hint": "Pages 11-12, Section 2.3",
+      "confidence": "high",
+      "notes": "Physical risks are clearly categorized as acute and/or chronic. Risk ratings vary by scenario (Orderly, Disorderly, Hothouse). The document also identifies indirect physical risks through the supply chain (3PLs, logistics networks).",
+      "verification": null
+    }
+  ]
+}

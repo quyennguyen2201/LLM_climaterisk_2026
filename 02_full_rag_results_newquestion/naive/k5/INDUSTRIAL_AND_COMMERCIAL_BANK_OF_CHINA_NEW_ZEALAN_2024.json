@@ -1,0 +1,170 @@
+{
+  "source": "INDUSTRIAL_AND_COMMERCIAL_BANK_OF_CHINA_NEW_ZEALAN_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "total_tokens": 57369,
+      "input_tokens": 50762,
+      "output_tokens": 6607,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_creation": 0,
+        "cache_read": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "ICBC NZ uses three climate-related scenarios: 1) \"Orderly\" (temperature pathway of +1.4°C average rise by 2081-2100, aligned with IPCC SSP1-1.9/SSP1-2.6, NGFS Net Zero 2050, IEA Net Zero Emissions by 2050, NIWA RCP2.6, CCC 'Tailwinds'); 2) \"Too Little, Too Late\" (average temperature rise of +2.7°C by 2081-2100); and a third scenario (details partially visible in context).",
+      "evidence": "\"Three Scenarios for ICBC NZ ... 'Scenario Orderly' ... Average temperature rise by 2081-2100: +1.4°C ... 'Too Little, Too Late' ... Average temperature rise by 2081-2100: +2.7°C\"",
+      "location_hint": "Page 10 (page 11 of document), Strategy section",
+      "confidence": "medium",
+      "notes": "The context clearly identifies two of the three scenarios ('Orderly' and 'Too Little, Too Late') with their temperature pathways. The third scenario is referenced but its name/details are not fully visible in the retrieved context. The global reference scenarios used include IPCC SSP1-1.9, SSP2-4.5, SSP5-baseline, NGFS Net Zero 2050, NDCs, and Current Policies scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes three scenarios with the following average temperature rises by 2081-2100:\n1. Orderly scenario: +1.4°C\n2. Too Little, Too Late scenario: +2.7°C\n3. Hot House scenario: implied to be higher (referenced as \"5.3°C\" in GDP modelling section label)",
+      "evidence": "\"Average temperature rise by 2081-2100: +1.4°C\" (Orderly scenario); \"Average temperature rise by 2081-2100: +2.7°C\" (Too Little, Too Late scenario); \"Too Little Too Late 53 C - Hot House\" (from GDP modelling section)",
+      "location_hint": "Pages 10, 31, 35",
+      "confidence": "medium",
+      "notes": "The Orderly and Too Little Too Late temperature figures by 2081-2100 are clearly stated (+1.4°C and +2.7°C respectively). The Hot House scenario temperature appears as \"5.3°C\" in the GDP modelling chart label on page 35, but this is not explicitly stated as a 2100 temperature in a narrative section — it may refer to a different metric or timeframe. The page 31 context mentions \"+2.5°C by 2050\" for what appears to be the Hot House scenario, suggesting the 2100 figure would be higher.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "NGFS (Network for Greening the Financial System), IIASA (International Institute for Applied Systems Analysis), IEA (International Energy Agency), IPCC (AR6), Climate Change Commission (CCC), and NIWA",
+      "evidence": "NGFS Scenario Explorer, Phase V, Version 1.24.2. Net Zero 2050 Scenario; NDCs Scenario; Current Policies Scenario. Model: REMIND-MAgPIE 3.3-4.8. ... IIASA SSP Database. (Version 2.0). [SSP1-1.9; SSP2-4.5; SSP5-baseline]. ... International Energy Agency (IEA). (2024). Global Energy and Climate Model. ... Climate Change Commission (CCC) (2021). India tonu nei: a low emissions future for Aotearoa",
+      "location_hint": "Page 33, Appendix 06 – Data sources for Key Assumptions Across Scenario Narrative",
+      "confidence": "high",
+      "notes": "Multiple scenario providers are used. The primary scenario frameworks are NGFS (Phase V) and IIASA SSP Database, supplemented by IEA, IPCC AR6, CCC, and NIWA data sources.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "ICBC NZ uses SSP1-1.9, SSP2-4.5, and SSP5-baseline (SSPs from IPCC AR6), paired with NIWA RCP8.5 for the Hot House World scenario. The sea level rise projections also reference SSP1-1.9, SSP2-4.5, and SSP5-8.5.",
+      "evidence": "\"The three scenarios are built using CO2 concentration pathways from three of the Shared Socioeconomic Pathways that are used to coordinate the climate models that inform the IPCC's 6th Assessment Report (AR6).\" ... \"IIASA SSP Database. (Version 2.0). [SSP1-1.9; SSP2-4.5; SSP5-baseline].\" ... \"Hot House World >3°C SSP5-baseline ... NIWA RCP8.5\" ... Sea level rise chart legend: \"SSP1-1.9 == SSP2-4.5 = SSP5-8.5\"",
+      "location_hint": "Appendix, p.32–34 (scenario reference alignment and data sources); p.36 (sea level rise projections)",
+      "confidence": "high",
+      "notes": "The document uses SSPs (SSP1-1.9, SSP2-4.5, SSP5-baseline) as global reference scenarios and separately references NIWA RCP8.5 for New Zealand-specific physical projections under the Hot House scenario. The sea level rise section uses SSP5-8.5 labelling (combining SSP and RCP nomenclature), which is a common pick-and-mix approach in climate disclosure practice.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context does not contain any explicit mention of \"customised scenarios\" developed by ICBC NZ. The context references standard scenarios (SSP pathways, transition/physical risk scenarios) but does not describe any bespoke or customised scenario development by the company.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes. ICBC NZ co-produced climate scenario narratives through a series of interactive workshops involving key stakeholders from across the ICBC NZ Banking Group, facilitated by the bank's Risk Management Committee (RMC). The process developed a focal question, time horizons, organisational boundaries, drivers of change (using the STEEP framework), and scenario architecture. Three scenarios were developed: 'Orderly' (aligned with IPCC SSP1-1.9/SSP1-2.6, NGFS Net Zero 2050, IEA Net Zero Emissions by 2050, NIWA RCP2.6, CCC 'Tailwinds'), 'Too Little, Too Late', and a third scenario. The ICBC NZ Board was informed of the outcome.",
+      "evidence": "\"Through a series of interactive workshops, the following key inputs to developing scenario narratives were identified or developed: Focal Question... Time Horizons... Organisational Boundaries... Drivers of Change: typically broad scale factors or 'mega trends' which influence the direction of future change. The STEEP framework was used to organise driving forces into social, technological, economic, environmental and political categories.\" and \"The bank's RMC facilitated the climate-related scenario narrative development process, involving key stakeholders from across the ICBC NZ Banking Group. The ICBC NZ Board was informed of the outcome of this exercise.\"",
+      "location_hint": "Pages 8–10, Section 03 Strategy",
+      "confidence": "high",
+      "notes": "The scenarios were internally co-produced (not with external third parties per se, but with key internal stakeholders across the Banking Group), using reference scenarios from IPCC, NGFS, IEA, NIWA, and CCC as inputs.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "ICBC NZ uses three climate-related scenarios built on the following reference scenarios and data sources:\n1. **Orderly** (avg. temp rise +1.4°C by 2081-2100): IPCC SSP1-1.9 / SSP1-2.6, NGFS Net Zero 2050, IEA Net Zero Emissions by 2050, NIWA RCP2.6, CCC 'Tailwinds'\n2. **Too Little, Too Late** (avg. temp rise +2.7°C by 2081-2100)\n3. A third scenario (details partially visible in context)\n\nGlobal reference scenarios draw from: IIASA SSP Database (SSP1-1.9; SSP2-4.5; SSP5-baseline), NGFS Scenario Explorer Phase V (Net Zero 2050, NDCs, Current Policies scenarios), IEA Global Energy and Climate Model, and Climate Change Commission (CCC) scenarios.",
+      "evidence": "\"Scenario Architecture: comprises global and local reference scenarios, representing different socioeconomic and physical climate outcomes, including emission reduction pathways, to be used as a reference... IIASA SSP Database. (Version 2.0). [SSP1-1.9; SSP2-4.5; SSP5-baseline]. NGFS Scenario Explorer, Phase V, Version 1.24.2. Net Zero 2050 Scenario; NDCs Scenario; Current Policies Scenario. Model: REMIND-MAgPIE 3.3-4.8. International Energy Agency (IEA). (2024). Global Energy and Climate Model. Climate Change Commission (CCC) (2021).\"",
+      "location_hint": "Pages 10, 33 (Appendix)",
+      "confidence": "high",
+      "notes": "The three scenarios are built using CO2 concentration pathways from three of the Shared Socioeconomic Pathways (SSPs) from IPCC AR6. The full details of the second and third scenarios are partially cut off in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "The NGFS (Network for Greening the Financial System) climate scenarios (Phase V, released September 2024) were used as the basis for modelling, supported by external consultants from PwC.",
+      "evidence": "\"The Network for Greening the Financial System (NGFS) released Phase V of its climate scenarios in September 2024... Global GDP projections allow ICBC to consider the value at risk and the economic conditions present in each of the scenarios.\" and \"This process was conducted as a standalone analysis, and was supported by external consultants from PwC.\"",
+      "location_hint": "Page 8 and Page 34 (Appendix)",
+      "confidence": "high",
+      "notes": "The document references NGFS Phase V scenarios for GDP and climate modelling, with PwC as external consultants. The scenarios were also built on the New Zealand Banking Association's sector scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Acute physical risk damages considered include cyclone, drought, flood, and heatwave. The 90th percentile losses are selected for all acute variables, in line with NGFS-reported values. For NDCs, acute physical losses are approximated as the average of acute physical losses for the Current Policies and Delayed Transition Scenarios.",
+      "evidence": "\"Losses calculated as the sum of Chronic physical, Acute physical (cyclone/drought/flood/heatwave), and Transition losses... For all acute variables, the 90th percentile losses are selected, in line with NGFS-reported values. For NDCs, acute physical losses are not provided. We approximate these as the average of acute physical losses for the Current Policies and Delayed Transition Scenarios as the NDCs scenario exhibits temperature increases approximately halfway between those of these two scenarios.\"",
+      "location_hint": "Page 34–35, Appendix/Modelling Notes",
+      "confidence": "high",
+      "notes": "Acute physical damages are explicitly included in the scenario analysis, covering cyclone, drought, flood, and heatwave. There is also a noted element of overestimation due to overlap between acute and chronic damage estimates across NGFS Phase 4 and 5 methodologies.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include the following non-temperature variables: precipitation (rainfall variations, flooding, drought), carbon price (domestic ETS price), domestic GDP, days annually over 25°C, 92nd percentile rainfall depth increase, and frequency/severity of extreme weather events (floods, storms). Specific examples include: Northland, Hawkes Bay and Canterbury seeing increases in frequency and severity of drought and decreases in precipitation; the West Coast of the South Island experiencing more precipitation; a domestic carbon price (ETS) in 2050; and domestic GDP by 2050.",
+      "evidence": "\"Global temperatures reach an increase of +2.0°C by 2050. Northland, Hawkes Bay and Canterbury all see increases in frequency and severity of drought. The level of precipitation in these regions also decreases. The West Coast of the South Island experiences more precipitation... Days annually over 25°C... Domestic GDP by 2050 (2010 NZD)... Domestic carbon price (ETS) in 2050... 92nd percentile rainfall depth increase... Climate change-related events, such as floods and storms becoming increasingly frequent and intense.\"",
+      "location_hint": "Page 30, Appendix",
+      "confidence": "high",
+      "notes": "Non-temperature variables explicitly referenced in the scenario narratives include precipitation levels, drought frequency/severity, flooding, carbon price (ETS), domestic GDP, days over 25°C, and rainfall depth percentiles.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "ICBC NZ conducted scenario analysis at the ICBC NZ Banking Group level, using three scenarios with the following temperature pathways by 2081-2100:\n1. Orderly: +1.4°C (Net-zero by 2050, aligned with IPCC SSP1-1.9/SSP1-2.6, NGFS Net Zero 2050, IEA Net Zero Emissions by 2050, NIWA RCP2.6, CCC 'Tailwinds')\n2. Too Little, Too Late: +2.7°C\n3. Hot House: +5.3°C (implied from GDP modelling chart label \"5.3 C - Hot House\")\n\nThe scenarios incorporate both global and local reference scenarios, covering different socioeconomic and physical climate outcomes, including emission reduction pathways.",
+      "evidence": "\"In FY23 the bank conducted its first climate-related scenario analysis process. As previously stated, this process was conducted at the ICBC NZ Banking Group level. In FY24 these climate-related scenarios were updated to incorporate newly available data and insights.\"\n\n\"Scenario Architecture: comprises global and local reference scenarios, representing different socioeconomic and physical climate outcomes, including emission reduction pathways, to be used as a reference.\"\n\n\"Average temperature rise by 2081-2100: +1.4°C [Orderly]\"\n\"Average temperature rise by 2081-2100: +2.7°C [Too Little, Too Late]\"",
+      "location_hint": "Pages 8-10, Appendix pages 29-35",
+      "confidence": "high",
+      "notes": "The Hot House scenario temperature (+5.3°C) is inferred from the GDP modelling chart label on page 35 (\"5.3 C -Hot House\"), which is low confidence for that specific figure. The Banking Group level scope and the three scenario names/temperatures for Orderly and Too Little Too Late are clearly stated.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Three time horizons are used: Short-term (S) = 2030, Medium-term (M) = implied between short and long, Long-term (L) = 2080.",
+      "evidence": "Time horizon key: s Short-term, 2030 | [medium implied] | L Long term, 2080",
+      "location_hint": "Page 12, Time horizon key",
+      "confidence": "high",
+      "notes": "The document explicitly defines S = Short-term (2030) and L = Long-term (2080). A medium (M) category is shown in the table columns (S M L) but no explicit year is given for M in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "ICBC NZ justifies its scenario and model choices on the following grounds: (1) the scenarios are built on the New Zealand Banking Association's sector scenarios and tailored to ICBC NZ's specific context, business model, strategy, and portfolio; (2) they are based on high-quality data (including updated data published by the Ministry for the Environment in 2024, and new NGFS GDP projections); (3) they have been specifically tailored to the financial sector and ICBC NZ's unique position within it; and (4) the chosen scenarios are considered relevant and appropriate to assessing the resilience of its business model and strategy to climate-related risks and opportunities. The process was supported by external consultants from PwC.",
+      "evidence": "\"ICBC NZ believes the chosen scenarios are relevant and appropriate to assessing the resilience of its business model and strategy to climate-related risks and opportunities. These scenarios are based on high-quality data and have been specifically tailored to the financial sector and ICBC NZ's unique position within it.\" and \"ICBC NZ's climate-related scenario narratives were built on the foundation of the New Zealand Banking Association's sector scenarios. ICBC NZ developed climate-related scenarios that align with the banking sector, yet are tailored to our specific context, business model, strategy, and portfolio.\"",
+      "location_hint": "Page 8 (Strategy section)",
+      "confidence": "high",
+      "notes": "The justification is explicitly stated in the document. Additional context includes use of updated MfE 2024 data and NGFS projections, and external support from PwC.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "ICBC NZ's business model and strategy were not materially adversely impacted by climate risk in FY24. A case study is provided: a group of companies owning and operating primary sector activities was impacted in 2024 by follow-on effects from physical climate impacts caused by Cyclone Gabrielle in 2023. These impacts reduced the companies' ability to carry out key activities, requiring a change in operating practices. From the bank's perspective, this resulted in a specific probability of default impact (i.e. a lower rating), following the direct financial impact to the borrower's balance sheet and profitability.",
+      "evidence": "\"ICBC NZ's business model and strategy have not been materially adversely impacted by climate risk within the FY24 reporting period. Climate-related impacts on ICBC NZ's lending portfolio were also limited in FY24. As direct impacts on the bank were minimal, for this reason they have been deemed immaterial. However, the following case study demonstrates how flow on effects from climate impacts in a previous year, can have an ongoing impact. Case Study: A group of companies that own and operate primary sector activities was impacted in 2024 by follow on effects from physical climate impacts caused by Cyclone Gabrielle in 2023. The impacts from the previous year have reduced the companies' current ability to carry out key activities, requiring a change in operating practices. From the bank's perspective, there is a specific probability of default impact (i.e. a lower rating), following the direct financial impact to the borrower's balance sheet and profitability.\"",
+      "location_hint": "Page 8, Current Physical Climate-Related Impacts section",
+      "confidence": "high",
+      "notes": "The document explicitly states that direct impacts were deemed immaterial, but provides a case study illustrating indirect/flow-on effects from Cyclone Gabrielle (2023) affecting a borrower in 2024.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "ICBC NZ identifies the following direct and indirect physical climate risks:\n\n1. **Property sector**: Physical climate risks and the resulting increase in insurance costs are most pronounced for the property sector under the Hot House scenario, with risks varying by location. A flood risk assessment of the home loan portfolio showed 93% of properties as low risk, 5% low to moderate risk, 2% moderate to high risk, and four properties at high risk. Flood sources include fluvial (rivers), tidal (estuaries and coastlines), and pluvial (flash flooding or surface water risk).\n\n2. **Transport sector**: Vulnerable to disruption caused by extreme weather events — this risk is highest in the Hot House scenario.\n\n3. **Primary industry and utilities sectors**: Particularly exposed to transition risks around changing regulations and stakeholder expectations (though these are more transition than physical risks).\n\nThe scenario analysis process assessed both direct organisational-level and portfolio-level physical risks, using a risk matrix with a four-point scale (low, moderate, high, extreme) to assess exposure and vulnerability.",
+      "evidence": "\"Physical climate risks and the resulting increase in insurance costs are most pronounced for the property sector under the Hot House scenario, although the risks vary by location. The transport sector is vulnerable to disruption caused by extreme events – this risk is highest in the Hot House scenario.\" / \"The review showed 93% of properties as low risk, 5% showed low to moderate risk, 2% showed moderate to high risk, and just four properties showed high risk.\" / \"Based on the bank's business model, this process considered direct organisational-level and portfolio-level climate-related (transition and physical) risks, opportunities and impacts.\"",
+      "location_hint": "Pages 11, 14, 22",
+      "confidence": "high",
+      "notes": "The document distinguishes between physical and transition risks. The flood risk data is specific to the home loan portfolio assessed via CoreLogic's FloodScore database. The transport sector's physical risk relates to extreme weather event disruption.",
+      "verification": null
+    }
+  ]
+}

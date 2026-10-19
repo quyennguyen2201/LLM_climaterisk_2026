@@ -1,0 +1,170 @@
+{
+  "source": "VENTIA_SERVICES_GROUP_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "output_tokens": 4936,
+      "total_tokens": 46130,
+      "input_tokens": 41194,
+      "input_token_details": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0,
+        "cache_creation": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": "2024 Sustainability Databook – tab \"Climate Scenarios\"; 2024 Annual Report p.74",
+      "confidence": "low",
+      "notes": "The context references that climate scenario details are located in the 2024 Sustainability Databook (tab \"Climate Scenarios\") and the 2024 Annual Report (page 74), but the actual list of scenarios and their descriptions are not reproduced in the retrieved passages. Only a general mention of \"Climate Scenario Analysis\" and \"Examples of Climate Outcomes Considered\" headings appear, without naming specific scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "Under the Fast Action (1.5°C future) scenario (RCP2.6), the IPCC likely temperature range at 2100 is 0.9–2.4°C.",
+      "evidence": "\"Fast Action (1.5oC future) RCP2.6 ... *IPCC Likely Temperature range at 2100 (oC) 0.9-2.4\"",
+      "location_hint": "2024 Sustainability Databook, page 1; 2024 Annual Report page 74",
+      "confidence": "high",
+      "notes": "Only one scenario (RCP2.6 / Fast Action 1.5°C) is shown in the retrieved context. Other scenarios may exist in the full document but are not present in the retrieved chunks.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "IPCC (Intergovernmental Panel on Climate Change) and KPMG",
+      "evidence": "\"Intergovernmental Panel on Climate Change IPCC Summary For Policymakers Report / KPMG / Climate Scenarios / The following section sets out Ventia's approach to assessing Climate-related Risks and Opportunities including assumptions, chosen scenarios, timeframes and risk scoring methodology.\"",
+      "location_hint": "3. AR24 2024-Sustainability-Databook.pdf | page 1",
+      "confidence": "high",
+      "notes": "The context lists both IPCC and KPMG as scenario providers. Ventia used four IPCC representative concentration pathways (RCP2.6, RCP4.5, RCP8.5) for scenario analysis, with KPMG also referenced in the climate scenarios section.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Ventia uses RCP scenarios only (no SSPs). Specifically, they use four IPCC RCP scenarios: RCP2.6 ('Fast Action'), RCP4.5 ('Delayed Rapid Action' – the primary/baseline scenario), and RCP8.5 ('Slow Action'/extreme), assessed across three timeframes (short, medium, and long term).",
+      "evidence": "\"This year, Ventia refreshed its assessment of the 2023 disclosed climate-related risks and opportunities, informed through a combination of four different IPCC RCP scenarios and three distinct timeframes (short, medium and long term). Qualitative assessments were undertaken for the likelihood and consequence of each risk and opportunity against a 'Delayed Rapid Action' RCP scenario (RCP4.5 – intermediate scenario where emissions remain at their current levels until the middle of the century) and associated sensitivity to extreme scenarios (RCP2.6 – 'Fast Action' and RCP8.5 –\"",
+      "location_hint": "Page 75",
+      "confidence": "high",
+      "notes": "The document references four RCP scenarios but only explicitly names three (RCP2.6, RCP4.5, RCP8.5); the fourth is not named in the retrieved context. No SSPs (Shared Socioeconomic Pathways) are mentioned — Ventia relies solely on RCPs from IPCC assessment reports.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context does not contain any information about customised (bespoke) climate scenarios developed by Ventia. The only relevant passage (from the Sustainability Databook, page 1) references \"Climate Scenario Analysis\" and mentions consideration of \"robustness and relevance to the industries Ventia operates in,\" but does not describe any customised scenarios specifically. No further detail on customised scenarios is present in the provided chunks.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "None of the retrieved context passages contain any information about co-produced climate scenarios. The passages cover social sustainability, LED upgrades, industry collaboration (Australian Climate Leaders Coalition), GRI disclosures, and capital inputs — but no mention of co-produced or jointly developed climate scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Ventia uses four climate scenarios based on Representative Concentration Pathways (RCPs):\n1. RCP2.6 (1.5°C future) – \"Fast action\" / Best case scenario: Fast reduction of emissions from now, rapid decline in fossil fuel use, worst physical impacts avoided.\n2. RCP4.5 (2°C future) – \"Delayed rapid action\": Little action on climate change by 2025, rapid action from 2030, worst transition risks due to rapid pace of change, physical impacts still present.\n3. RCP6.0 (>2°C future) – \"Required action\": Increased action during 2030s and 2040s, slower phase-out of fossil fuels, physical impacts experienced.\n4. RCP8.5 (>3°C future) – \"Insufficient action\" / Worst case scenario: Physical impacts are severe with impacts to supply chains, fossil fuel consumption continues to grow out to 2050.",
+      "evidence": "Fast action RCP2.6 (1.5°C future) / Delayed rapid action RCP4.5 (2°C future) / Required action RCP6.0 (>2°C future) / Insufficient action RCP8.5 (>3°C future) — Best case scenario / Worst case scenario",
+      "location_hint": "2024 Annual Report, page 75 (page 74 of report content)",
+      "confidence": "high",
+      "notes": "Ventia's scenario analysis covers a minimum of a 1.5°C scenario, a ≥3°C scenario, and two additional intermediate scenarios, consistent with NZ CS 2 requirements. The scenarios are described qualitatively.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "KPMG (as the modelling/external partner), using IPCC Representative Concentration Pathways (RCP) scenarios",
+      "evidence": "\"To inform Ventia's Climate risk and opportunity assessment, the impact of four climate scenarios were considered in combination with three distinct timeframes, set out below... Ventia considered four IPCC representative concentration pathways for the scenario analysis and selected the 'Delayed Rapid Action' RCP scenario (RCP4.5) intermediate scenario, together with associated sensitivity to extreme scenarios ('Fast Action' - RCP2.6 and 'Insufficient Action' - RCP8.5) to inform the risk and opportunity assessment.\" and the reference to \"KPMG\" alongside \"Intergovernmental Panel on Climate Change IPCC Summary For Policymakers Report\" in the Climate Scenarios section.",
+      "location_hint": "2024 Sustainability Databook – tab \"Climate Scenarios\", page 1",
+      "confidence": "medium",
+      "notes": "The context lists KPMG as an associated entity in the Climate Scenarios section (likely as external partner/model provider), and the IPCC RCP framework as the scenario model used. The document does not explicitly state \"the model used is X\" in a single sentence, but KPMG and IPCC RCP pathways are clearly identified as the basis for the modelling.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Ventia considers acute physical risks such as more frequent and severe weather events (e.g., extreme heat, storms, flooding) as part of its climate-related risk assessment. These are assessed across short, medium, and long timeframes using a qualitative likelihood vs. consequence matrix under RCP scenarios.",
+      "evidence": "\"The impacts of climate change, particularly in RCP4.5 and above scenarios, will result in more frequent and severe weather events. Contracts in locations experiencing the most extreme weather conditions may experience a changed risk profile in relation to physical personnel risks and for attracting and retaining staff. High risk beyond 2035.\"",
+      "location_hint": "Ventia 2024 Annual Report, p.76",
+      "confidence": "high",
+      "notes": "The document addresses acute physical risks (severe weather events, extreme heat, flooding) and their impacts on people and operations, though the specific framing of \"damage\" is not used verbatim. The risk is clearly considered in scenario analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context discusses climate scenarios (RCP 2.6, RCP 4.5, RCP 8.5) and their associated risks and opportunities, but does not explicitly describe non-temperature variables (e.g., precipitation, sea level rise, wind speed, etc.) used within those scenarios. The context references a \"2024 Sustainability Databook tab 'Climate Scenarios'\" for further scenario details, but the actual content of that tab is not provided in the retrieved passages.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "The scenario analysis covers all operations and activities of the Ventia Services Group and its controlled entities, including its value chain. It is limited to a qualitative risk assessment process. Three climate scenarios are used: a 1.5–2°C scenario, an intermediate RCP 4.5 scenario, and an insufficient action >3°C scenario (RCP 8.5).",
+      "evidence": "\"The scope of the scenario analysis includes all operations and activities of the Ventia Services Group and it's controlled entities including its value chain and is limited to qualitative risk assessment process described below.\"",
+      "location_hint": "2024 Sustainability Databook, Climate Scenarios tab, page 1",
+      "confidence": "high",
+      "notes": "The scenarios referenced include RCP 8.5 (>3°C), RCP 4.5 (intermediate), and a 1.5–2°C scenario, consistent with NZ CS 2 requirements for at least three scenarios including 1.5°C and ≥3°C.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Ventia defines its time frames as follows:\n- Short: 2025–2028\n- Medium: 2028–2035\n- Long: 2035–2050",
+      "evidence": "\"Short 2025–2028 | Medium 2028–2035 | Long 2035–2050\"",
+      "location_hint": "2024 Annual Report, page 77 (risk table); also referenced at page 74 per the disclosure index on page 180",
+      "confidence": "high",
+      "notes": "The time horizon definitions are explicitly shown in the risk/opportunity table on page 77. The disclosure index (page 180) confirms that how Ventia defines short, medium and long term and how those definitions are linked to strategic planning horizons is disclosed at page 74.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context only contains general disclaimers about the limitations of scenario analysis and forward-looking statements. There is no explicit justification provided for why specific climate scenarios or models were chosen. The document acknowledges that \"scenario analysis is not an indication of definitive or probable outcomes and relies on assumptions that may or may not prove to be correct,\" but does not explain the rationale for selecting particular scenarios or models.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context passages discuss future climate scenarios (RCP 2.6, RCP 4.5, RCP 8.5), projected risks, and Ventia's climate risk assessment methodology, but do not contain any information about historic (past) climate impacts experienced by the company.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Ventia identifies the following direct and indirect physical climate risks:\n\n1. **Exposure to fixed risk profiles on long-term contracts** (Physical and Transition risk): Some of Ventia's long-term contracts have a fixed risk profile for service delivery that may not adequately contemplate potential future climate-related physical and transitional risks. Anticipated impact is low in the short term, rising to moderate over the medium to long term as extreme weather becomes normalised in contract forms.\n\n2. **Supply Chain Disruption** (Physical and Transition risk): Extreme weather, carbon pricing, and other impacts of climate change could result in external price shocks and disruption. Extreme price fluctuations are difficult to price into contracts, and short lead times diminish the ability to secure long-term prices for materials and services. Anticipated impact is low in the short term, rising to moderate over the medium to long term as industry-wide supply chains are impacted by climate-related events.\n\nBoth risks are rated under RCP 4.5 (Intermediate Scenario) and are relevant to all scenarios, rising with >2 degree scenarios.",
+      "evidence": "\"Exposure to fixed risk profiles on long-term contracts that do not adequately contemplate potential future climate risks... Long-term fixed-risk profile contracts pose a risk to Ventia where they may not have consideration for increased climate-related physical and transitional risks. Ventia anticipates a low impact over the short-term rising to moderate impact over the medium to long term as increasing extreme weather become the normalised in contract forms.\"\n\n\"Supply Chain Disruption... Extreme weather, carbon pricing, and other impacts of climate change could result in external price shocks and disruption. Ventia has identified that extreme price fluctuations are difficult to price into contracts, and short lead times for contracts diminish the ability to secure long-term prices for materials and services. Ventia anticipates a low impact over the short term rising to moderate impact to operations over the medium to long term as industry-wide supply chains are impacted by climate-related events.\"",
+      "location_hint": "Page 78, Theme 3: Understanding Ventia's long-term contract exposure to climate risks",
+      "confidence": "high",
+      "notes": "The context labels both risks as \"Physical and Transition\" risks. The document does not separately enumerate purely direct vs. purely indirect physical risks — both identified risks have both physical and transition components. No further breakdown of direct vs. indirect physical risks is provided in the retrieved context.",
+      "verification": null
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "source": "COOPERATIEVE_RABOBANK_UA_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "input_tokens": 45374,
+      "output_tokens": 6045,
+      "input_token_details": {
+        "cache_creation": 0,
+        "cache_read": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "total_tokens": 51419
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "The document references \"Architecture of NZ Banking Group's Three Entity-Specific Scenarios\" as the framework for scenario analysis, but the specific names/titles of the three scenarios are not provided in the retrieved context passages.",
+      "evidence": "\"Architecture of NZ Banking Group's Three Entity-Specific Scenarios, Conducting Scenario Analysis, Risk and Opportunity Identification and Integration into Strategy 32–37\"",
+      "location_hint": "Table of Contents / Report Navigation, p.1; Scenario Analysis section, pp.32–37",
+      "confidence": "low",
+      "notes": "The context confirms that three entity-specific scenarios exist and are described on pages 32–37, but the actual names or descriptions of those scenarios are not included in the retrieved passages. A full answer would require access to pages 32–37 of the document.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The three scenarios project the following approximate global temperature outcomes by 2100:\n- Orderly (1.5°C-aligned): ~1.4°C\n- Disorderly (other-aligned): ~1.8°C\n- Hot-house world (>3°C-aligned): ~4.4°C",
+      "evidence": "\"Approximate warming at 2100: ~1.4°C [Orderly], ~1.8°C [Disorderly], ~4.4°C [Hot-house world]\"",
+      "location_hint": "Page 16, Architecture of NZ Banking Group's Three Entity-Specific Scenarios table",
+      "confidence": "high",
+      "notes": "The document also notes that the 1.5°C scenario has a projected temperature of 1.4°C because it is \"the closest available IPCC scenario to 1.5°C\" due to the limited number of scenarios available and the probabilistic nature of temperature projections.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "For physical data: the Intergovernmental Panel on Climate Change (IPCC) Shared Socioeconomic Pathway (SSP) scenarios. For transition data: the Network for Greening the Financial System (NGFS) scenarios. New Zealand transition pathways were sourced from the Climate Change Commission (CCC). New Zealand physical parameters were sourced from NIWA.",
+      "evidence": "\"For physical data, the Intergovernmental Panel on Climate Change (IPCC) Shared Socioeconomic Pathway (SSP) scenarios were referenced. For transition data, the Network for Greening the Financial System (NGFS) scenarios were referenced.\"",
+      "location_hint": "Page 15",
+      "confidence": "high",
+      "notes": "The document also references NIWA for NZ physical parameters and the Climate Change Commission (CCC) for NZ transition pathways, as shown in the scenario architecture table on page 16.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes. NZ Banking Group blends SSP and RCP scenarios across its three entity-specific scenarios. Specifically:\n- Orderly (~1.4°C): IPCC SSP1-1.9 (global) + NIWA RCP 2.6 (NZ physical)\n- Disorderly (~1.8°C): IPCC SSP1-2.6 (global) + NIWA RCP 2.6 (NZ physical)\n- Hot-house world (~4.4°C): IPCC SSP5-8.5 (global) + NIWA RCP 8.5 (NZ physical)\n\nThis represents a pick-and-mix approach where different SSPs and RCPs are combined, and physical parameters are further supplemented with NGFS transition scenarios and New Zealand Climate Change Commission pathways.",
+      "evidence": "\"Global physical and socioeconomic parameters: IPCC SSP1-1.9 / IPCC SSP1-2.6 / IPCC SSP5-8.5. New Zealand physical parameters: eg. NIWA RCP 2.6 / NIWA RCP 2.6 / NIWA RCP 8.5. Global transition and energy use: NGFS orderly 'net-zero 2050' scenario / NGFS disorderly 'delayed 2°C' / NGFS hot-house 'current policies'. New Zealand transition pathways: Climate Change Commission (CCC) 'Tailwinds' / CCC 'Headwinds' / CCC current policies.\"",
+      "location_hint": "Page 16, Architecture of NZ Banking Group's Three Entity-Specific Scenarios table",
+      "confidence": "high",
+      "notes": "The document explicitly mixes SSP scenarios (for global physical/socioeconomic parameters) with RCP scenarios (for New Zealand physical parameters), confirming a pick-and-mix approach. Notably, the Disorderly scenario uses SSP1-2.6 globally but the same NIWA RCP 2.6 as the Orderly scenario for NZ physical parameters.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes. NZ Banking Group developed customised scenarios rather than using existing sectoral scenarios. They considered the New Zealand Banking Association and Aotearoa Circle's Agriculture Sector Climate Change Scenarios but found that neither provided the scenarios that best described plausible futures. They synthesised three scenarios (Orderly/Transition, Disorderly, and Hot-House World) using datapoints from chosen scenario datasets, built out with qualitative narratives, and identified five key drivers of change.",
+      "evidence": "\"In developing scenarios, the XRB's recommendation to use sectoral scenarios where advisable was considered both for efficiency and to aid comparability. As the only specialised agribusiness-focused bank operating in New Zealand, two sets of sector scenarios were relevant to NZ Banking Group – the New Zealand Banking Association as well as Aotearoa Circle's Agriculture Sector Climate Change Scenarios. Neither of these provided the scenarios that best described plausible futures or... NZ Banking Group synthesised three scenarios for use in Scenario Analysis. In order to track changes across time, fully distinguish between scenarios and help identify risks and opportunities, NZ Banking Group first identified five key drivers of change.\"",
+      "location_hint": "Page 15, page 29",
+      "confidence": "high",
+      "notes": "The text is cut off after \"Neither of these provided the scenarios that best described plausible futures or\" but the implication is clear that NZ Banking Group chose to develop customised scenarios instead. The three scenarios are evidenced by the data tables on pages 29 and 31 (Disorderly and Hot-House World scenarios shown).",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "NZ Banking Group worked with consultancy Deloitte to assist with scenario development and assess the Climate-Related Risks and Opportunities. The scenario development also involved internal engagement across multiple levels including Project Leads (CSO and Senior Risk Advisor), subject matter experts, a steering committee (CRO, CFO, General Manager Country Banking and Project Leads), Executive committee, and the Board.",
+      "evidence": "\"NZ Banking Group worked with consultancy Deloitte to assist with scenario development and assess the Climate-Related Risks and Opportunities.\"",
+      "location_hint": "Page 18",
+      "confidence": "high",
+      "notes": "The scenarios were co-produced with Deloitte as an external consultancy, alongside internal governance and subject matter experts. The analysis was qualitative rather than quantitative.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context describes the scenario analysis process and one scenario narrative (high physical risk/low transition risk), but does not explicitly identify or name a \"baseline scenario\" used in the analysis. The document references three scenarios used by NZ Banking Group, but the specific baseline scenario(s) are not named or described in the provided context chunks.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "NZ Banking Group used the IPCC Shared Socioeconomic Pathway (SSP) scenarios for physical data and the Network for Greening the Financial System (NGFS) scenarios for transition data. New Zealand physical parameters were based on NIWA RCP 2.6 and NIWA RCP 8.5. New Zealand transition pathways referenced the Climate Change Commission (CCC) scenarios (\"Tailwinds,\" \"Headwinds,\" and current policies).",
+      "evidence": "\"For physical data, the Intergovernmental Panel on Climate Change (IPCC) Shared Socioeconomic Pathway (SSP) scenarios were referenced. For transition data, the Network for Greening the Financial System (NGFS) scenarios were referenced.\"",
+      "location_hint": "Page 15–16, Strategy section",
+      "confidence": "high",
+      "notes": "The document also references NIWA RCP scenarios for New Zealand physical parameters and CCC scenarios for New Zealand transition pathways, as shown in the scenario architecture table on page 16.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. NZ Banking Group considers damage from acute physical risks including cyclones, windstorms, riverine flooding, coastal flooding, heavy precipitation (pluvial flooding), drought, wildfires, and extreme heat. The percentage of assets vulnerable to physical risk is calculated as 0.24% (over the lifetime of the asset, under an IPCC RCP 8.5 scenario). Current impacts include ongoing effects from 2023 extreme weather events (Auckland Anniversary Day floods and Cyclone Gabrielle), with a quantified $3.1 million impact from interest rate discounts and $48,000 from external audit costs.",
+      "evidence": "\"NZ Banking Group uses Rabobank-developed C&E heatmaps for acute physical risks (including cyclones, windstorms, riverine flooding, coastal flooding, heavy precipitation (or pluvial flooding), drought, wildfires, extreme heat)... The percentage of NZ Banking Group's assets vulnerable to physical risk is calculated as 0.24% (over the lifetime of the asset, under an IPCC RCP 8.5 scenario)... $3.1 million impact of rate discount. $48,000 impact of external audit.\"",
+      "location_hint": "Pages 14, 28, 33",
+      "confidence": "high",
+      "notes": "The document explicitly lists acute physical risk types considered, provides a quantified portfolio-level vulnerability percentage, and gives specific dollar figures for current impacts from recent extreme weather events.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios and related analyses incorporate several non-temperature variables, including: precipitation/rainfall changes, sea-level rise, drought, hailstorms, wildfires/bushfires, floods, storms, frost, soil type, land use, topography, drainage, soil origin and texture, production capacity, access to water and water licences, nitrogen limits (policy), and commodity market movements.",
+      "evidence": "\"Acute risk factors are those related to more frequent and intense extreme climate events such as heatwaves, droughts, bushfires, floods and storms. Chronic risk factors are those related to gradual changes in climatic conditions such as increasing temperatures, changes in precipitation patterns and sea-level rise.\" ... \"Multiple extreme conditions are included, such as drought, hailstorms, wildfires and floods. The C&E risk heatmaps also include transition risk events (such as policy change on nitrogen limits).\" ... \"long-term macro changes in climatic considerations to rainfall, temperature, drought, flood and frost that could impact on productivity.\"",
+      "location_hint": "Pages 14, 23, 24",
+      "confidence": "high",
+      "notes": "Non-temperature variables are drawn from multiple sections of the document covering physical risk categorisation, C&E risk heatmaps, and collateral valuation guidance. Temperature is also mentioned but the question focuses on non-temperature variables.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "The scenarios are conducted at both global and New Zealand (regional) scale. Global-level datapoints include global temperature, global GHG emissions, global GDP, global population, global oil price, global agricultural demand, global CCS use, and global carbon price. New Zealand-specific (downscaled) physical datapoints include intense rainfall days, hot days, frost days, and sea-level rise (with vertical land movement), sourced from NIWA regional projections and the IPCC WGI Interactive Atlas regional synthesis.",
+      "evidence": "New Zealand (unless stipulated below) Physical / Transition 2050 (average) Global temperature Physical ~1.4°C ... Global GHG emissions Transition 3.61 GtCO2/yr Global GDP Transition 137,833 US$bn/annum Global population Transition 8,397 million Global oil price Transition 15 US$2010/GJ Global agricultural demand Transition 6,136 million tDM/yr Global CCS use Transition 1,136 MtCO2/yr ... Data sources: Physical: NIWA regional, high-intensity rainfall and sea-level rise projections and IPCC WGI Interactive atlas regional synthesis. Economic: GCAM 5.3+ NGFS World Downscaled and GCAM 6.0 NGFS (GDP only).",
+      "location_hint": "Appendix, p.31",
+      "confidence": "high",
+      "notes": "Scenarios cover both global-scale economic/transition variables and New Zealand-specific (downscaled) physical variables. Three scenarios are presented: Orderly, Disorderly, and Hot-House World, all with a 2050 average time horizon for the datapoints shown.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "NZ Banking Group uses three time frames:\n- Short term: present day–2030\n- Medium term: 2030–2050\n- Long term: 2050–2100\n\nTransition risks are expected to play out in the short and medium terms, while physical risks unfold over a slower, longer time horizon. Time horizons for physical risks were assigned using a simple methodology, while transition risks and opportunities were more subjective assessments due to a lack of sufficient data.",
+      "evidence": "\"Short term – present day–2030\\nMedium term – 2030–2050\\nLong term – 2050–2100\\n\\n...transition risks are expected to play out in the short and medium terms as society makes the necessary changes to the economy to align with policy outcomes. Because of the high degree of estimation uncertainty, time horizons have been estimated using subjective judgement. By comparison, physical risks unfold over a slower, longer time horizon, beginning with the impacts already being felt.\"",
+      "location_hint": "Pages 17–18",
+      "confidence": "high",
+      "notes": "The three time frames are explicitly defined in the Disorderly Scenario Narrative table on page 17, and the rationale for their use is explained on page 18.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "NZ Banking Group developed its own three bespoke scenarios rather than adopting available sectoral scenarios (from the New Zealand Banking Association or Aotearoa Circle's Agriculture Sector Climate Change Scenarios) because neither of those provided scenarios that best described plausible futures or challenged NZ Banking Group's business sufficiently. The custom scenarios speak more specifically to NZ Banking Group's circumstances as an agriculture-focused bank and create an appropriate level of challenge and plausibility. The scenarios were also aligned at a high level with Rabobank's scenarios to facilitate comparison and insights at a Rabobank-wide level. For physical data, the IPCC SSP scenarios were referenced; for transition data, the NGFS scenarios were referenced. The three scenarios cover orderly (1.5°C-aligned), disorderly (high transition risk), and hot-house world (high physical risk) futures.",
+      "evidence": "\"Neither of these provided the scenarios that best described plausible futures or challenged NZ Banking Group's business sufficiently. Instead, the three scenarios that were developed speak more specifically to NZ Banking Group's circumstances as an agriculture-focused bank and create an appropriate level of challenge and plausibility as laid out in the rationale. NZ Banking Group also sought to align – at a high level – its climate scenarios with Rabobank's to facilitate comparison and insights at a Rabobank-wide level... For physical data, the Intergovernmental Panel on Climate Change (IPCC) Shared Socioeconomic Pathway (SSP) scenarios were referenced. For transition data, the Network for Greening the Financial System (NGFS) scenarios were referenced.\"",
+      "location_hint": "Page 15",
+      "confidence": "high",
+      "notes": "The document clearly explains why sectoral scenarios were rejected and what data sources underpinned the custom scenario development.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context discusses anticipated/future physical climate risks and their potential impacts on credit, business, market, liquidity, and operational risk, as well as mitigation strategies. However, there is no mention of historic (past) climate impacts that have already occurred and affected the organization.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "NZ Banking Group identified 93 physical risks across five material risk types: (1) Credit risk (73% of all risks) – supply chain disruptions, reduced crop yields, increased animal welfare costs, weather-related asset damage/loss, and increased loan default risk; (2) Business risk – economic volatility, financial instability, loss of productive land, contraction of forestry and agricultural sectors, and unsustainable business model; (3) Market risk – unfavourable movements in production volumes and commodity markets leading to financial losses; (4) Liquidity risk – extreme credit losses reducing contractual cash inflows, impacting mismatch ratios and availability of funds; (5) Operational risk – also identified as a material risk type. These physical risks are likely to manifest more in the medium to long term.",
+      "evidence": "\"In total, 93 physical risks were identified, which are summarised via NZ Banking Group's material risk types below. Credit risk accounts for 73% of all risks identified and faces the highest exposure to the physical impacts of climate change. These physical risks are likely to manifest more in the medium to long term. Credit risk – medium and long term: The impacts of climate change may cause NZ Banking Group's customers to experience supply chain disruptions, impacting their ability to operate and generate revenue. Crop yields may reduce and the costs of ensuring the welfare of animals may increase. Weather events may result in asset damage and/or loss for customers. This increases the risk of customer loan default. Business risk – medium and long term: The impact of climate-related events may compound to create economic volatility and financial instability, reducing overall demand for lending. Extreme climate impacts may result in a loss of productive land, causing a contraction of the forestry and agricultural sectors. NZ Banking Group's current business model may no longer be sustainable, and NZ Banking Group may not be able to achieve its growth strategy. Market risk – medium and long term: Increasing occurrences of physical climate-related events may result in unfavourable movements in production volumes and commodity markets, leading to financial losses for NZ Banking Group. Liquidity risk – medium and long term: NZ Banking Group may experience extreme credit losses because of the increasing occurrence of physical climate-related events. This may reduce contractual cash inflows, impacting mismatch ratios and leading to a lack of available funds to meet financial commitments.\"",
+      "location_hint": "Page 20, Risk Management section",
+      "confidence": "high",
+      "notes": "The context covers both direct physical risks (e.g., weather events causing asset damage) and indirect physical risks (e.g., supply chain disruptions, economic volatility, commodity market movements). Operational risk is listed as a fifth category but its description is cut off in the retrieved context.",
+      "verification": null
+    }
+  ]
+}

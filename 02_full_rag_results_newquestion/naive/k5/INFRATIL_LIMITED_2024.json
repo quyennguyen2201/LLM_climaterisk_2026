@@ -1,0 +1,170 @@
+{
+  "source": "INFRATIL_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "total_tokens": 61911,
+      "input_tokens": 55256,
+      "output_tokens": 6655,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_creation": 0,
+        "cache_read": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Infratil uses two sets of scenarios:\n\n**Transition Assessment Scenarios (Oxford Economics):**\n1. Baseline – 1.9°C by 2050; 3.1°C by 2100\n2. Organised & Decisive – 1.5°C by 2050; 1.5°C by 2100\n3. Delayed & Disorganised – 1.7°C by 2050; 1.7°C by 2100\n4. Too Little, Too Late – 2.2°C by 2050; 5.0°C by 2100\n\n**Physical Assessment Scenarios (Jupiter Intelligence):**\n1. Baseline – Jupiter 2020 physical exposure assessments\n2. SSP1-2.6 – 1.7°C by 2050; 1.8°C by 2100\n3. SSP2-4.5 – 2.0°C by 2050; 2.7°C by 2100\n4. SSP5-8.5 – 2.4°C by 2050; 4.4°C by 2100",
+      "evidence": "Transition Assessment Scenarios: Baseline (1.9⁰C 2050; 3.1⁰C 2100), Organised & Decisive (1.5⁰C 2050; 1.5⁰C 2100), Delayed & Disorganised (1.7⁰C 2050; 1.7⁰C 2100), Too Little, Too Late (2.2⁰C 2050; 5.0⁰C 2100). Physical Assessment Scenarios: Baseline (Jupiter 2020 physical exposure assessments), SSP1-2.6 (1.7⁰C 2050; 1.8⁰C 2100), SSP2-4.5 (2.0⁰C 2050; 2.7⁰C 2100), SSP5-8.5 (2.4⁰C 2050; 4.4⁰C 2100).",
+      "location_hint": "Page 13, Strategy: summary of scenarios and approach",
+      "confidence": "high",
+      "notes": "Transition scenarios sourced from Oxford Economics; Physical scenarios sourced from Jupiter Intelligence's ClimateScore Global platform using IPCC AR6 SSPs.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document presents three physical climate scenarios with the following global warming outcomes by 2100 above pre-industrial levels (1850–1900):\n- SSP1-2.6: Midpoint ~1.8°C\n- SSP2-4.5: Midpoint ~2.7°C\n- SSP5-8.5: Midpoint ~4.4°C\n\nAdditionally, transition assessment scenarios show:\n- Baseline: 3.1°C by 2100\n- Organised & Decisive: 1.5°C by 2100\n- Delayed & Disorganised: 1.7°C by 2100\n- Too Little, Too Late: 5.0°C by 2100",
+      "evidence": "SSP1-2.6: Midpoint ~1.8ºC; SSP2-4.5: Midpoint ~2.7ºC; SSP5-8.5: Midpoint ~4.4ºC [Physical climate risk scenarios table]\n\nBaseline: 1.9°C 2050 / 3.1°C 2100; Organised & Decisive: 1.5°C 2050 / 1.5°C 2100; Delayed & Disorganised: 1.7°C 2050 / 1.7°C 2100; Too Little, Too Late: 2.2°C 2050 / 5.0°C 2100 [Transition Assessment Scenarios table]",
+      "location_hint": "Appendix, p.40 (Physical climate risk scenarios) and p.41 (Transition Assessment Scenarios)",
+      "confidence": "high",
+      "notes": "Both physical (SSP-based) and transition scenario frameworks are presented with explicit 2100 temperature outcomes. All figures are midpoints above pre-industrial levels (1850–1900).",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context passages from the Infratil FY2024 Climate Related Disclosures document do not mention any specific scenario provider (e.g., IEA, NGFS, IPCC) used for climate scenario analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Infratil uses SSPs (Shared Socioeconomic Pathways) from IPCC AR6 for both physical and transition risk scenarios. For physical risk, they use SSP1-2.6, SSP2-4.5, and SSP5-8.5. For transition risk, they use SSP3-7.0 (Baseline), alongside Oxford Economics scenarios (Net Zero, Delayed Transition, Climate Catastrophe). The SSPs build on the earlier RCPs from IPCC AR5, which described radiative forcings under different scenarios by 2100.",
+      "evidence": "\"Both the Transition Assessment Scenarios and Physical Assessment Scenarios pathways lie within the distribution of IPCC AR6 Shared Socioeconomic Pathways ('SSPs') and the associated warming in degrees Celsius by 2100. Some of these are focused on the tail end of the distribution and are therefore suitable for risk assessment. The SSPs build on the Representative Concentration Pathways ('RCPs') used in the previous IPCC AR5 report, which focused on the physical impacts by describing the radiative forcings (watts per m²) that occur under the different scenarios by 2100. The SSPs augment the physical impacts with narratives that outline societal choices under each scenario, such as policies, energy use and social cohesion.\"",
+      "location_hint": "Section 02 Strategy, p.13; Appendix, p.40-41",
+      "confidence": "high",
+      "notes": "Physical risk scenarios use SSP1-2.6, SSP2-4.5, SSP5-8.5 (Jupiter Intelligence platform). Transition scenarios use SSP3-7.0 as the Baseline. RCPs are referenced as the predecessor framework to SSPs but are not used directly in Infratil's current scenario analysis.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context does not contain any information about customised (bespoke) climate scenarios developed by Infratil. The document references standard scenarios (SSP5-8.5, and qualitative transition scenarios labelled \"Organised & Decisive,\" \"Delayed & Disorganised,\" and \"Too Little, Too Late\"), but there is no mention of customised scenarios in the provided passages.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context does not contain any information about co-produced climate scenarios (i.e., scenarios developed collaboratively with external stakeholders, peers, or industry groups). The context describes Infratil's use of existing climate scenarios (e.g., \"Organised & Decisive\" and \"Delayed & Disorganised\") and their scenario analysis approach, but there is no mention of co-production of scenarios with external parties.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Infratil uses two baseline scenarios:\n\n1. **Transition Assessment Baseline** (Oxford Economics): Global warming of 1.9°C by 2050 and 3.1°C by 2100; limited mitigation policies (current national commitments); 2050 carbon price of US$54/tCO₂e; average GDP growth of 2.4% to 2035 and 1.8% from 2035–2050. It is intended to demonstrate a continuation of the current trajectory in terms of the global response to climate change.\n\n2. **Physical Assessment Baseline** (Jupiter Intelligence): Based on Jupiter 2020 physical exposure assessments, used as the baseline comparator against SSP scenarios (SSP1-2.6, SSP2-4.5, SSP5-8.5).",
+      "evidence": "Transition Assessment Scenarios: Baseline — Global warming: 1.9⁰C 2050; 3.1⁰C 2100 | Mitigation policies: Limited (current national commitments) | 2050 carbon price: US$54/tCO₂e | Average GDP growth to 2035: 2.4% | Average GDP growth 2035–2050: 1.8%. Physical Assessment Scenarios: Baseline — Jupiter 2020 physical exposure assessments. \"The Baseline scenario is intended to demonstrate a continuation of the current trajectory in terms of the global response to climate change.\"",
+      "location_hint": "Page 13, Section 02 Strategy",
+      "confidence": "high",
+      "notes": "The transition baseline is from Oxford Economics; the physical baseline uses Jupiter Intelligence's 2020 physical exposure assessments as the reference point.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "For transition risk analysis: Oxford Economics' Global Economic Model (Global Climate Service), using scenarios based on REMIND-MAgPIE IAM outputs from NGFS 4th vintage. For physical climate risk analysis: Jupiter Intelligence's ClimateScore Global platform, using IPCC AR6 climate scenarios and data from the Coupled Model Intercomparison Project.",
+      "evidence": "\"we have chosen to use climate scenarios developed by Oxford Economics ('the Transition Assessment Scenarios') for our analysis of transition risks and opportunities, and a broadly aligned suite of scenarios underpin the Jupiter Intelligence ('Jupiter') platform that we are using for our analysis of physical climate risks ('the Physical Assessment Scenarios')... Oxford Economics' Global Climate Service scenario assumptions reflect scientific and economic research from a range of recognised sources as well as its own bespoke analysis. The climate scenarios are run on its fully integrated Global Economic Model that provides a rigorous and consistent structure for scenario analysis and forecasting.\"",
+      "location_hint": "Section 02 Strategy, p.13; Appendix 2, p.41",
+      "confidence": "high",
+      "notes": "The transition scenarios are underpinned by REMIND-MAgPIE IAM outputs from NGFS 4th vintage (published November 2023), IEA World Energy Outlook 2023, and IPCC Special Report on Global Warming of 1.5°C. The physical risk platform (Jupiter Intelligence ClimateScore Global) uses IPCC AR6 data.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Infratil considers damage from acute physical risks including extreme weather events such as wildfire, flood, wind, extreme precipitation, and hail. Acute risks are defined as sudden, event-driven shifts. The company uses Jupiter Intelligence's climate modelling platform to assess annual average loss (AAL) for assets exposed and vulnerable to these perils, particularly under the SSP5-8.5 worst-case scenario at 2050.",
+      "evidence": "\"In the context of this report, physical risk is the risk of damage to the buildings, sites and assets because of greater exposure to the physical impacts of climate change. These might be acute risks, like the risk to damage from increasingly frequent or severe extreme weather events, or chronic risks, such as the risk of temperatures and sea levels continuing to gradually rise over time.\"",
+      "location_hint": "Section 02 Strategy, p.12",
+      "confidence": "high",
+      "notes": "Acute perils explicitly modelled include wildfire, flood, wind, extreme precipitation, and hail (p.19). AAL is assessed for flood and wildfire via Jupiter Intelligence, with a simplified approach applied for hail and precipitation (p.22).",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include the following non-temperature physical climate variables: water stress (annual human water demand/water supply), wildfire (probability of a wildfire in a 1km² grid cell per 100 years), flood (1 in 100 year chance of experiencing a flood with a depth in metres), wind (1 in 100 year chance of experiencing a maximum 1-minute sustained wind speed in km/h), precipitation (1 in 100 year chance of maximum daily rain in mm), and hail (number of days in a year where large hail >5cm diameter is possible). Additionally, the scenarios describe changes in frequency and severity of extreme weather events, and physical damage levels.",
+      "evidence": "\"Water stress: Annual human water demand/water supply... Wildfire: Probability of a wildfire in a 1km² grid cell per 100 years... Flood: 1 in 100 year chance of experiencing a flood with a depth in metres... Wind: 1 in 100 year chance of experiencing a maximum 1-minute sustained wind speed (km/h)... Precipitation: 1 in 100 year chance of maximum daily rain (mm)... Hail: The number of days in a year where large hail (> 5cm diameter) is possible\"",
+      "location_hint": "Page 19",
+      "confidence": "high",
+      "notes": "These variables are used in the physical risk assessment across all scenarios (SSP1-2.6 through SSP5-8.5), with exposure bands defined for each. Extreme heat (days ≥ 100 days) is also listed but is a temperature-adjacent variable; the question asks for non-temperature variables specifically.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Infratil uses two sets of scenarios at a global portfolio scale:\n\n**Transition Assessment Scenarios** (Oxford Economics):\n1. Baseline – 1.9°C (2050), 3.1°C (2100)\n2. Organised & Decisive – 1.5°C (2050), 1.5°C (2100)\n3. Delayed & Disorganised – 1.7°C (2050), 1.7°C (2100)\n4. Too Little, Too Late – 2.2°C (2050), 5.0°C (2100)\n\n**Physical Assessment Scenarios** (Jupiter Intelligence, IPCC AR6):\n1. Baseline – Jupiter 2020 physical exposure assessments\n2. SSP1-2.6 – 1.7°C (2050), 1.8°C (2100)\n3. SSP2-4.5 – 2.0°C (2050), 2.7°C (2100)\n4. SSP5-8.5 – 2.4°C (2050), 4.4°C (2100)\n\nThe scenarios are applied at the global portfolio level, covering 291 physical sites relevant to portfolio companies.",
+      "evidence": "\"Climate scenarios that underpin our analysis\nTransition Assessment Scenarios\nBaseline | Organised & Decisive | Delayed & Disorganised | Too Little, Too Late\nGlobal warming: 1.9⁰C 2050; 3.1⁰C 2100 | 1.5⁰C 2050; 1.5⁰C 2100 | 1.7⁰C 2050; 1.7⁰C 2100 | 2.2⁰C 2050; 5.0⁰C 2100\n\nPhysical Assessment Scenarios\nBaseline | SSP1-2.6 | SSP2-4.5 | SSP5-8.5\nGlobal warming: Jupiter 2020 physical exposure assessments | 1.7⁰C 2050; 1.8⁰C 2100 | 2.0⁰C 2050; 2.7⁰C 2100 | 2.4⁰C 2050; 4.4⁰C 2100\n\nWe explore the resilience of 291 physical sites relevant to our portfolio companies using the Physical Assessment Scenarios in the Jupiter Intelligence platform.\"",
+      "location_hint": "Section 02 Strategy, p.13 and p.18",
+      "confidence": "high",
+      "notes": "The scenarios are described as appropriate for a \"global portfolio.\" The criteria for selection included that they be \"plausible but challenging scenarios from credible sources that are appropriate for a global portfolio.\"",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Infratil defines three time horizons for climate-related risk and opportunity analysis:\n1. **Short-term**: 0–3 years (2023 to 2026), aligned to the budget cycle.\n2. **Medium-term**: 3–10 years (2026 to 2033), aligned to detailed financial forecasts and SBTi targets (2028 and 2030).\n3. **Long-term**: 10 years out to 2050, aligned to the strategic investment horizon and the long-term nature of infrastructure assets.",
+      "evidence": "\"Short-term time horizon is defined as zero to three years (i.e. from 2023 to 2026), this broadly aligns to the budget cycle of Infratil and its businesses. Medium-term time horizon is defined as three to ten years (i.e. from 2026 to 2033). As part of the process of undertaking valuations for each portfolio company, we look to build a detailed financial forecast, typically for at least 10 years... Our SBTi targets have a time horizon in this band (2028 and 2030). Long-term time horizon is defined 10 years out to 2050, which aligns to our strategic investment horizon...\"",
+      "location_hint": "Section 02 Strategy, p.12",
+      "confidence": "high",
+      "notes": "All three time horizons are explicitly defined with specific year ranges and rationale in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Infratil chose climate scenarios based on the following criteria: (1) they need to be plausible but challenging scenarios from credible sources that are appropriate for a global portfolio; (2) they need to meet regulatory reporting requirements (NZ CS 1 requires at least three scenarios, including a 1.5°C-aligned and ≥3.0°C scenario); and (3) scenarios from Oxford Economics (for transition) and Jupiter Intelligence (for physical risk) were selected because they are broadly aligned, helping explore the resilience of Infratil's strategy and portfolio to climate change impacts. Internal portfolio valuation models were used for quantitative modelling because they are an existing tool that integrates well with the Oxford Economics outputs.",
+      "evidence": "\"The criteria underlying our choice of climate scenarios (for both the physical and transition components of our analysis) was that they need to be plausible but challenging scenarios from credible sources that are appropriate for a global portfolio. We have also considered the need to choose a range of scenarios that meet the regulatory reporting requirements (NZ CS 1 requires at least three scenarios, including a 1.5°C-aligned and ≥3.0°C scenario)... We have chosen climate scenarios from Oxford Economics to assist our transition modelling, and Jupiter Intelligence for physical risk modelling. We have chosen climate scenarios from each which are broadly aligned, to help us explore the resilience of our strategy and portfolio of investments to the impacts of climate change.\" / \"We chose to use our internal valuation models because they are an existing tool that integrates well with the Oxford Economics outputs.\"",
+      "location_hint": "Page 13 and Page 25",
+      "confidence": "high",
+      "notes": "Justification covers both scenario selection criteria and model choice rationale, drawn from two separate pages of the document.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context covers physical risk assessment methodology, scenario analysis, and risk management processes, but does not contain any information about historic (past) climate impacts experienced by Infratil or its portfolio companies.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Infratil identifies both direct and indirect physical climate risks. Direct physical risks include damage to buildings, sites and assets from acute risks (e.g., increasingly frequent or severe extreme weather events) and chronic risks (e.g., gradually rising temperatures and sea levels). Indirect physical risks include disruption to supply chains and supporting infrastructure, changes in water availability, extreme temperatures affecting site operations, and disruption to transport for staff, customers, and suppliers. At the portfolio level, the key physical risk identified is that climate change negatively impacts the value of Infratil's portfolio due to damage to physical assets, and that a climate event could be sufficiently widespread to negatively impact the operations of multiple assets simultaneously. In the worst-case scenario (SSP5-8.5), the proportionate Average Annual Loss (AAL) is up to $33 million to 2030, up to $66 million to 2030, and up to $286 million out to 2050 (all in present day values).",
+      "evidence": "\"Physical Risk: In the context of this report, physical risk is the risk of damage to the buildings, sites and assets because of greater exposure to the physical impacts of climate change. These might be acute risks, like the risk to damage from increasingly frequent or severe extreme weather events, or chronic risks, such as the risk of temperatures and sea levels continuing to gradually rise over time. Physical risks may have financial implications arising from direct impacts to assets or indirect impacts from disruption to supply chains and supporting infrastructure. Physical risks can also impact a company's financial performance via changes in water availability, extreme temperatures affecting operation of a site, or disruption to transport for staff, customers, and suppliers.\"",
+      "location_hint": "Section 02 Strategy, p.12",
+      "confidence": "high",
+      "notes": "Financial figures for AAL are from p.17. The document distinguishes acute vs. chronic physical risks and direct vs. indirect financial implications clearly.",
+      "verification": null
+    }
+  ]
+}

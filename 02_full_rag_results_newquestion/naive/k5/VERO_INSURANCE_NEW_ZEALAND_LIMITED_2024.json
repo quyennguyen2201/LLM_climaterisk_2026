@@ -1,0 +1,170 @@
+{
+  "source": "VERO_INSURANCE_NEW_ZEALAND_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "output_tokens": 4980,
+      "total_tokens": 48795,
+      "input_tokens": 43815,
+      "input_token_details": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0,
+        "cache_creation": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "low",
+      "notes": "The retrieved context references that scenario analysis was undertaken (pages 16-19 per the cross-referencing index) and mentions \"CCSA outcomes\" (Climate Change Scenario Analysis), but the specific scenarios used (e.g., 1.5°C, 2°C, 3°C, RCP pathways, etc.) are not described in the provided context chunks. The actual scenario names/descriptions would be on pages 16-19 of the document, which were not retrieved.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes three scenarios with the following temperature outcomes by 2100: Orderly scenario at 1.5°C (RCP 2.6), Disorderly scenario at 2°C (RCP 4.5), and Hot house world scenario at 3+°C (RCP 6.0 and 8.5).",
+      "evidence": "→Orderly scenario, 1.5°C (RCP 2.6)* →Disorderly scenario, 2°C (RCP 4.5) →Hot house world scenario, 3+°C (RCP 6.0, and 8.5)",
+      "location_hint": "Table 4, page 8",
+      "confidence": "high",
+      "notes": "These are the scenario-based temperature outcomes used in Vero's FY24 climate change scenario analysis, covering timeframes up to the 2090s (2080–2100).",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "ICNZ Shared Climate Scenarios Initiative (June 2022)",
+      "evidence": "The climate scenarios and narratives we referred to in our analysis were based on the ICNZ Shared Climate Scenarios Initiative (June 2022).",
+      "location_hint": "Page 8, Step 3 of CCSA process",
+      "confidence": "high",
+      "notes": "Aon was also engaged to assist with the CCSA process, including analysis of physical and transition risks, but the scenario provider is explicitly identified as the ICNZ Shared Climate Scenarios Initiative.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Vero Insurance uses RCP scenarios only (RCP 2.6, 4.5, 6.0, and 8.5) for physical risk modelling, and does not mix SSPs with RCPs. The RCP scenarios are used to reflect how concentrated emissions may be in future years and their potential impact on average annual losses from flooding and storms. No SSP scenarios are referenced in the document.",
+      "evidence": "\"In the table opposite, the representative concentration pathway (RCP) scenarios reflect how concentrated emissions may be in future years, based on expected human activity, and how this could potentially impact Vero as a result of more intense flooding and storms.\" Table 5 shows RCP scenarios 2.6, 4.5, 6.0, and 8.5 across time horizons 2030s, 2050s, and 2090s.",
+      "location_hint": "Page 10, Table 5",
+      "confidence": "high",
+      "notes": "The document uses only RCP scenarios (2.6, 4.5, 6.0, 8.5) for physical risk quantification. For qualitative scenario narratives (pages 9), RCP 2.6 is paired with \"1.5°C / Orderly: net-zero 2050\" and RCP 4.5 with \">2°C / Disorderly: delayed transition,\" but no SSP framework is referenced anywhere in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context does not explicitly describe any customised (bespoke) scenarios developed by Vero Insurance. The context references standard RCP scenarios (e.g., RCP 6.0 for a \"Hot house world\" >3°C scenario) and narrative scenario descriptions, but there is no explicit mention of customised scenarios developed beyond standard frameworks.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes. Vero Insurance New Zealand Limited co-produced climate scenarios through the ICNZ Shared Climate Scenarios Initiative (June 2022), used as the basis for their Climate Change Scenario Analysis (CCSA). The FY24 CCSA was undertaken jointly with AA Insurance Limited and Vero Liability Insurance Limited.",
+      "evidence": "\"The climate scenarios and narratives we referred to in our analysis were based on the ICNZ Shared Climate Scenarios Initiative (June 2022).\" and \"In FY24 we undertook a CCSA exercise purely focused on New Zealand, together with AA Insurance Limited and Vero Liability Insurance Limited.\"",
+      "location_hint": "Page 8",
+      "confidence": "high",
+      "notes": "The scenarios themselves were drawn from the ICNZ Shared Climate Scenarios Initiative (an industry-level co-production), while the CCSA exercise was conducted jointly with two related entities. In previous years, the CCSA had been conducted jointly with Suncorp Group.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context passages do not contain any specific information about baseline scenarios used in Vero's climate scenario analysis. While there is a reference to scenario analysis being described on pages 16-19 of the document, the actual content of those pages (including any baseline scenarios) is not included in the retrieved chunks.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context does not specify any particular climate model (e.g., a specific GCM or IAM) used in Vero's scenario analysis. The document references \"current climate models and scenarios\" and \"CCSA outcomes\" generically, but no specific model name is identified in the provided passages.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Vero Insurance considers damage from acute physical risks including flooding (river, surface, and coastal) and wind damage from storms. They measure projected losses using Average Annual Loss (AAL) across multiple RCP scenarios (2.6, 4.5, 6.0, 8.5) and time horizons (2030s, 2050s, 2090s). Storm damage currently accounts for 45% of losses from weather-related perils. Under the most severe scenario (RCP 8.5, 2090s), AAL is projected to increase by 57% for Vero consolidated.",
+      "evidence": "\"We measure projected losses from extreme weather events as 'average annual loss' (AAL). AAL is the financial loss we expect in a year for an insured risk or portfolio due to damage from extreme weather events... Storm damage currently accounts for 45% of the losses from weather-related perils. Our FY24 physical risk analysis focused on flooding and wind damage from storms, due to the effect climate change may have on these events in the future.\"",
+      "location_hint": "Page 10",
+      "confidence": "high",
+      "notes": "Acute physical risks explicitly considered include storms and flooding (river, surface, coastal). Quantitative AAL projections are provided across four RCP scenarios and three time horizons.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include the following non-temperature variables: flooding (river, surface, and coastal), storm/wind damage, rainfall intensity (a 10-15% increase per degree of further warming for extreme short-duration rainfall), sea level rise, and vertical movements in land. These are used to project changes in Average Annual Loss (AAL) under RCP 2.6, 4.5, 6.0, and 8.5 scenarios across 2030s, 2050s, and 2090s time horizons.",
+      "evidence": "\"Our FY24 physical risk analysis focused on flooding and wind damage from storms, due to the effect climate change may have on these events in the future. Over time we expect to see flooding (river, surface and coastal) contributing to a larger share in total losses. These changes are due to more intense rainfall. For extreme rainfall, we expect significant increases in the intensity of short-duration rainfall in storms (a 10-15% increase per degree of further warming). This projected increase is particularly relevant to future surface water and river flooding. Rising sea levels and vertical movements in land will also affect coastal flooding.\"",
+      "location_hint": "Page 10",
+      "confidence": "high",
+      "notes": "The document uses RCP scenarios (concentration pathways) rather than temperature-based scenarios (e.g., SSP). Non-temperature variables explicitly mentioned include flood types, storm/wind, rainfall intensity, sea level rise, and land movement.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Vero uses scenarios developed at a national/sectoral scale for New Zealand, sourced from the ICNZ Shared Climate Scenarios Initiative. The scenarios include an orderly scenario (net-zero 2050, 1.5°C, RCP 2.6) and a high-impact/disorderly scenario, both focused on New Zealand's general insurance (GI) sector and its communities.",
+      "evidence": "Source: ICNZ Shared Climate Scenarios Initiative (June 2022) ... Orderly scenario: net-zero 2050 / 1.5°C / RCP 2.6 ... New Zealand's GI sector is a global testbed for new, climate-smart insurance products and propositions.",
+      "location_hint": "Page 9",
+      "confidence": "medium",
+      "notes": "The context confirms the scenarios are sourced from the ICNZ Shared Climate Scenarios Initiative and are focused on New Zealand at a national/sector level. The exact framing of \"scale\" (e.g., national, sectoral, global) is implied rather than explicitly labelled as such.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Vero Insurance uses the following time frames in their scenario analysis:\n\n**Physical Risk:**\n- Short: 2025 (aligned with business planning, funding, and operational risk timeframes)\n- Medium: 2030s (2020–2040) (aligned with timeframes for net-zero targets, and strategic risks)\n- Long: 2050s (2040–2060) (aligned with NZ Government stated ambition to be net-zero by 2050)\n- Very long: 2090s (2080–2100) (provides longer term perspective of physical risk changes)\n\n**Transitional Risk:**\n- Short: 2025 (aligned with business planning, funding, and operational risk timeframes)\n- Medium: 2030 (2026–2035) (aligned with timeframes for net-zero targets, and strategic risks)\n- Long: 2050 (2036–2050) (aligned with NZ Government stated ambition to be net-zero by 2050)",
+      "evidence": "Timeframes\n• 2025 – short (aligned with business planning, funding, and operational risk timeframes)\n• 2030s (2020-2040) – medium (aligned with timeframes for net-zero targets, and strategic risks)\n• 2050s (2040-2060) – long (aligned with NZ Government stated ambition to be net-zero by 2050)\n• 2090s (2080-2100) – very long (provides longer term perspective of physical risk changes)\n• 2025 – short (aligned with business planning, funding, and operational risk timeframes)\n• 2030 (2026-2035) – medium (aligned with timeframes for net-zero targets, and strategic risks)\n• 2050 (2036-2050) – long (aligned with NZ Government stated ambition to be net-zero by 2050)",
+      "location_hint": "Table 4, page 8",
+      "confidence": "high",
+      "notes": "Physical risk analysis includes an additional \"very long\" timeframe (2090s) not present in the transitional risk analysis. The timeframes differ slightly between physical and transitional risk categories.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context describes the scenarios used (e.g., Orderly net-zero 2050 at 1.5°C/RCP 2.6, and a high-impact scenario) and general forward-looking statement caveats, but does not provide an explicit justification or rationale for why these specific scenarios or models were chosen.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context focuses on future/projected climate impacts (e.g., AAL projections under RCP scenarios), physical and transitional risk definitions, and risk management processes. There is no explicit discussion of historic climate impacts experienced by Vero Insurance New Zealand Limited in the provided passages.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Vero Insurance identifies the following physical climate risks:\n\n1. **Direct physical risk**: Risk of physical climate changes including continued increase in frequency and/or severity of extreme weather events impacting Vero's insurance underwriting and reinsurance risks. The FY24 physical risk analysis focused on flooding and wind damage from storms, with storm damage currently accounting for 45% of losses from weather-related perils.\n\n2. **Quantified impact (Average Annual Loss changes)**: Under the highest emissions scenario (RCP 8.5), AAL for Vero consolidated is projected to increase by 9% in the 2030s, 26% in the 2050s, and 57% in the 2090s. Under the lowest scenario (RCP 2.6), increases are 7%, 15%, and 20% respectively across the same time horizons.",
+      "evidence": "\"Risk of physical climate changes including continued increase in frequency and/or severity of extreme weather events impacting Vero's insurance underwriting and reinsurance risks.\" and \"Storm damage currently accounts for 45% of the losses from weather-related perils. Our FY24 physical risk analysis focused on flooding and wind damage from storms, due to the effect climate change may have\" and Table 5 showing AAL percentage changes under RCP 2.6, 4.5, 6.0, and 8.5 scenarios across 2030s, 2050s, and 2090s time horizons.",
+      "location_hint": "Pages 10 and 14, FY24 Climate-related disclosures",
+      "confidence": "high",
+      "notes": "The document focuses on direct physical risks (extreme weather events affecting underwriting/reinsurance). Indirect physical risks are not explicitly distinguished as a separate category in the retrieved context, though transition and liability risks are listed as separate categories.",
+      "verification": null
+    }
+  ]
+}

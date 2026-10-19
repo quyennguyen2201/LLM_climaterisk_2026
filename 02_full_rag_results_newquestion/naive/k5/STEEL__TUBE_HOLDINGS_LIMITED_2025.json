@@ -1,0 +1,170 @@
+{
+  "source": "STEEL__TUBE_HOLDINGS_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "output_tokens": 6676,
+      "total_tokens": 48565,
+      "input_tokens": 41889,
+      "input_token_details": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0,
+        "cache_creation": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Steel & Tube used the following climate scenarios:\n\n**Physical Risk Scenarios (IPCC AR6 SSPs):**\n1. SSP1-2.6\n2. SSP2-4.5 (relating to a 2-degree warming future meeting current climate targets and pledges)\n3. SSP5-8.5 / RCP8.5 (relating to a 4-degree warming future with limited effort to mitigate GHG emissions)\n\n**Transition Risk Scenarios (NGFS):**\n1. Orderly\n2. Disorderly\n3. Hot House World\n\nAdditionally, RCP scenarios aligned to SSP scenarios from IPCC AR5 were applied for climate metrics not yet developed within IPCC AR6 models.",
+      "evidence": "\"For the purposes for assessing our physical risk due to climate hazards, we adopted the shared socioeconomic scenarios (SSP) provided by the Intergovernmental Panel on Climate Change Sixth Assessment Report (IPCC AR6). For assessing transition risks, we have used the scenarios provided by the Network for Greening the Financial system, which include the Orderly, Disorderly and Hot House World.\"\n\n\"There are three SSPs and RCPs which were utilised for our risk assessment, namely SSP1-2.6; SSP2-4.5 (relating to a 2-degree warming future meeting current climate targets and pledges) and SSP5-8.5 and RCP8.5 (relating to a 4-degree warming future with limited effort to mitigate GHG emissions).\"",
+      "location_hint": "Pages 6 and 17",
+      "confidence": "high",
+      "notes": "Physical risk scenarios are from IPCC AR6 (SSPs); transition risk scenarios are from NGFS. RCP scenarios from IPCC AR5 were also used where AR6 metrics were not yet available.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes three scenarios with different global temperature outcomes by 2100:\n1. Orderly (Net Zero by 2050): Global warming limited to 1.5°C by end of 2100 (policy ambition: 1.4°C)\n2. Disorderly (Delayed Transition): 67% chance of limiting global warming to below 2°C (approximately 1.6°C)\n3. Hothouse (Current Policies): Approximately 3°C of warming (3°C+)\nAdditionally, under SSP 5–8.5 (Fossil-fueled Development), the average global temperature increases by 4.4°C by 2100, with a range of 3.2°C to 5.4°C.",
+      "evidence": "\"Orderly – Net Zero by 2050: Global Warming limited to 1.5°C by the end of 2100... Disorderly Delayed Transition: ...a 67% chance of limiting global warming to below 2°C... Hothouse Current Policies: Emissions grow until 2080 leading to about 3°C of warming... By 2100, the average global temperature has increased by 4.4ºC. Under this scenario, global surface temperatures reach between 3.2ºC and 5.4ºC.\"",
+      "location_hint": "Pages 6, 7, and 18",
+      "confidence": "high",
+      "notes": "Multiple scenarios are described with distinct temperature outcomes by 2100. The NGFS scenarios (Orderly, Disorderly, Hothouse) and IPCC SSP scenarios are both referenced.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "IPCC (for physical climate scenarios using RCP/SSP scenarios from AR5/AR6) and NGFS (for transition risk scenario model drivers and variables)",
+      "evidence": "The global warming futures are evaluated against the scenarios provided by the IPCC. We applied the RCP scenarios (that are aligned to the SSP scenarios) from the IPCC AR5 for climate metrics that have not yet been developed within the IPCC AR6 models at the time of our initial risk assessment. [...] 1. Obtain NGFS scenario model drivers and variables",
+      "location_hint": "Page 17",
+      "confidence": "high",
+      "notes": "Two scenario providers are referenced: IPCC for physical climate scenarios and NGFS for transition risk quantification modelling.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Steel & Tube mixes SSP scenarios (from IPCC AR6) with RCP scenarios (from IPCC AR5) in their analysis. Specifically, they use SSP1-2.6, SSP2-4.5, and SSP5-8.5 for physical risk assessment, while also referencing RCP8.5. In their Disorderly scenario, they pair SSP2 with RCP4.5 (i.e., \"SSP2 – RCP4.5\"). This mixing occurred because NIWA's downscaled data for New Zealand was still based on AR5 (RCP) climate model simulations at the time of their assessment, even though AR6 (SSP) scenarios had been published.",
+      "evidence": "\"The global warming scenarios adopted by Steel & Tube include those provided by the IPCC in its AR5 report, referred to as Representative Concentration Pathways (RCPs); and the IPCC's Shared Socio-Economic Pathways scenarios (SSPs) described in its AR6 report. The scenarios adopted for the purpose of Steel & Tube's first pass climate risk assessment include SSP1-2.6, SSP2-4.5 and SSP5-8.5. The delay between the publication of the IPPC's Sixth Assessment Report in 2021 (AR6) and the downscaling of IPPC climate data to provide more granular detail for New Zealand meant that Steel & Tube's OCCRA climate risk assessment was required to use NIWA data based on climate model simulations from the Intergovernmental Panel on Climate Change (IPCC) Fifth Assessment Report.\"",
+      "location_hint": "Page 17 (Appendices – Risk and opportunities: materiality, assumptions, and limitations)",
+      "confidence": "high",
+      "notes": "The document explicitly acknowledges the mixing of AR5 RCPs and AR6 SSPs, attributing it to the lag in NIWA downscaling of AR6 data for New Zealand. The Disorderly scenario table on page 8 further illustrates the mix by labelling the scenario \"SSP2 – RCP4.5\".",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The context does not mention any customised (bespoke) scenarios developed by Steel & Tube. The document references standard IPCC SSP/RCP scenarios and NFGS scenarios (Orderly, Disorderly, Hothouse), but no customised scenarios are described.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Steel & Tube engaged Deloitte to co-produce their climate scenarios. They used IPCC AR6 Shared Socioeconomic Pathways (SSP) for physical risk assessment and Network for Greening the Financial System (NGFS) scenarios (Orderly, Disorderly, and Hot House World) for transition risk assessment. The scenario narratives were developed through a climate risk assessment and scenario analysis workshop, using STEEP analysis (social, technological, economic, environmental, and political categories) as provided by the XRB Staff Guidance on Entity Scenario Development.",
+      "evidence": "\"Steel & Tube engaged Deloitte over 2023 and 2024 to assist with conducting a climate risk assessment and a scenario analysis workshop to help build our climate scenario narratives... For the purposes for assessing our physical risk due to climate hazards, we adopted the shared socioeconomic scenarios (SSP) provided by the Intergovernmental Panel on Climate Change Sixth Assessment Report (IPCC AR6). For assessing transition risks, we have used the scenarios provided by the Network for Greening the Financial system, which include the Orderly, Disorderly and Hot House World.\"",
+      "location_hint": "Page 6",
+      "confidence": "high",
+      "notes": "The scenarios were co-produced with Deloitte as an external consultant, using established frameworks (IPCC AR6 SSPs and NGFS scenarios) rather than entirely bespoke scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Steel & Tube uses the IPCC AR6 Shared Socioeconomic Pathways (SSPs) for physical risk assessment and the Network for Greening the Financial System (NGFS) scenarios (Orderly, Disorderly, and Hot House World) for transition risk assessment. The specific SSPs and RCPs utilised are: SSP1-2.6, SSP2-4.5 (relating to a 2-degree warming future meeting current climate targets and pledges), and SSP5-8.5 and RCP8.5 (relating to a 4-degree warming future with limited effort to mitigate GHG emissions).",
+      "evidence": "\"For the purposes for assessing our physical risk due to climate hazards, we adopted the shared socioeconomic scenarios (SSP) provided by the Intergovernmental Panel on Climate Change Sixth Assessment Report (IPCC AR6). For assessing transition risks, we have used the scenarios provided by the Network for Greening the Financial system, which include the Orderly, Disorderly and Hot House World.\" and \"There are three SSPs and RCPs which were utilised for our risk assessment, namely SSP1-2.6; SSP2-4.5 (relating to a 2-degree warming future meeting current climate targets and pledges) and SSP5-8.5 and RCP8.5 (relating to a 4-degree warming future with limited effort to mitigate GHG emissions).\"",
+      "location_hint": "Pages 6 and 17",
+      "confidence": "high",
+      "notes": "Physical risk scenarios are drawn from IPCC AR6 SSPs; transition risk scenarios are from NGFS. Three SSP/RCP combinations are explicitly named.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "Steel & Tube used IPCC climate model simulations from the Fifth Assessment Report (AR5), specifically Representative Concentration Pathways (RCPs) and Shared Socio-Economic Pathways (SSPs) from AR6, downscaled by NIWA. The scenarios adopted include SSP1-2.6, SSP2-4.5, and SSP5-8.5. Due to timing constraints, the OCCRA climate risk assessment used NIWA data based on IPCC AR5 climate model simulations.",
+      "evidence": "\"The global warming scenarios adopted by Steel & Tube include those provided by the IPCC in its AR5 report, referred to as Representative Concentration Pathways (RCPs); and the IPCC's Shared Socio-Economic Pathways scenarios (SSPs) described in its AR6 report. The scenarios adopted for the purpose of Steel & Tube's first pass climate risk assessment include SSP1-2.6, SSP2-4.5 and SSP5-8.5. The delay between the publication of the IPPC's Sixth Assessment Report in 2021 (AR6) and the downscaling of IPPC climate data to provide more granular detail for New Zealand meant that Steel & Tube's OCCRA climate risk assessment was required to use NIWA data based on climate model simulations from the Intergovernmental Panel on Climate Change (IPCC) Fifth Assessment Report.\"",
+      "location_hint": "Appendices, page 18",
+      "confidence": "high",
+      "notes": "The document references both AR5 and AR6 IPCC reports, with NIWA downscaling. The actual OCCRA assessment used AR5-based NIWA data due to timing of AR6 downscaling availability.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Steel & Tube considers damage from acute physical risks including coastal inundation, extreme weather events, increasing number of hot days, and fluvial and pluvial flooding. Specific acute physical risk impacts considered include: flooding of workspaces (health risks and revenue loss), impaired site access due to flooding (operational cost escalation and margin loss), flooding causing personal asset damage and loss (staff turnover, productivity loss, remediation/replacement costs), and extreme weather causing asset and/or product damage (remediation and/or replacement costs).",
+      "evidence": "\"The material hazards were assessed to be coastal inundation, extreme weather events, increasing number of hot days, and fluvial and pluvial flooding.\" ... \"Flooding of workspaces — Health risks and associated revenue loss\" ... \"Impaired site access due to flooding — Operational cost escalation and margin loss\" ... \"Flooding, which causes personal asset damage and loss — Staff turnover, productivity loss, remediation and/or replacement costs of assets\" ... \"Extreme weather causes asset/and or product damage — Remediation and/or replacement costs\"",
+      "location_hint": "Pages 13–14",
+      "confidence": "high",
+      "notes": "Acute physical risks are explicitly identified and assessed with associated financial impacts and time horizons (short, medium, long term).",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include variables related to steel price paths, steel demand profiles, product segment demand and cost drivers, price elasticity, and NGFS scenario model drivers. For physical climate scenarios, the hazards assessed include coastal inundation, extreme weather events, increasing number of hot days, and fluvial and pluvial flooding. RCP scenarios (aligned to SSP scenarios) from IPCC AR5 are used for climate metrics not yet developed in IPCC AR6 models.",
+      "evidence": "\"We applied the RCP scenarios (that are aligned to the SSP scenarios) from the IPCC AR5 for climate metrics that have not yet been developed within the IPCC AR6 models at the time of our initial risk assessment.\" and \"1. Obtain NGFS scenario model drivers and variables 2. Develop the indicative steel price paths and steel demand profiles to undertake scenario analysis 3. Overlay Steel & Tube specific demand and cost drivers for each product segment 4. Apply Steel & Tube price elasticity analysis for each product segment to derive the expected demand for each product as steel prices rise\"",
+      "location_hint": "Page 17",
+      "confidence": "medium",
+      "notes": "The document describes non-temperature variables used in transition risk quantification (steel prices, demand, cost drivers, price elasticity, NGFS drivers) and physical risk variables (flooding, hot days, coastal inundation, extreme weather), but does not provide a single consolidated list of \"non-temperature variables\" explicitly labeled as such.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Steel & Tube adopted three global warming scenarios for its climate risk assessment: SSP1-2.6, SSP2-4.5, and SSP5-8.5 (from the IPCC AR6 Shared Socio-Economic Pathways). These were applied at multiple strategic time horizons (short-term: present day–2030, medium-term, and long-term) and downscaled to regional (New Zealand) level by NIWA.",
+      "evidence": "\"The scenarios adopted for the purpose of Steel & Tube's first pass climate risk assessment include SSP1-2.6, SSP2-4.5 and SSP5-8.5.\"",
+      "location_hint": "Page 17 (Appendices – Risk and opportunities: materiality, assumptions, and limitations)",
+      "confidence": "high",
+      "notes": "The scenarios are global IPCC scenarios downscaled to New Zealand by NIWA. The assessment was conducted at multiple strategic time horizons. The Disorderly scenario is mapped to SSP2-RCP4.5, with global warming limited to 2°C by end of 2100.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Steel & Tube uses three time frames for climate-related risks and opportunities:\n1. **Short-term** (Present Day – 2030)\n2. **Medium-term** (2030 – 2050)\n3. **Long-term** (2050 – 2100)",
+      "evidence": "\"Short term (Present Day – 2030) ... Medium-term (2030 – 2050) ... Long-term (2050-2100)\"",
+      "location_hint": "Page 8 and Page 10",
+      "confidence": "high",
+      "notes": "The time frame definitions are explicitly stated on pages 8 and 10 of the disclosure document. Transition risk ratings are also mapped to these time frames: Short-term = \"Action needed now – impact in 2-5 years\"; Medium-term = \"Action needed – impact in 10-15 years\".",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Steel & Tube used IPCC AR6 shared socioeconomic scenarios (SSP1-2.6, SSP2-4.5, and SSP5-8.5/RCP8.5) for their initial climate risk assessment, covering a range from moderate mitigation (meeting Paris Agreement targets) to a high-end global inaction future. For climate metrics not yet developed in IPCC AR6 models at the time of the initial risk assessment, they applied RCP scenarios aligned to SSP scenarios from IPCC AR5. For quantifying transition risks, they used NGFS scenario model drivers and variables (engaged through Deloitte in 2024), which map to Orderly, Disorderly, and Hot House World narratives. The scenarios were chosen to represent plausible futures under differing degrees of climate change — not predictions, but hypotheses about what could happen — consistent with TCFD Guidance (2017).",
+      "evidence": "\"For the purposes of scenario analysis for our initial climate risk assessment, we adopted the shared socioeconomic scenarios provided by the IPCC AR6 report to assess our evolving risk profile. There are three SSPs and RCPs which were utilised for our risk assessment, namely SSP1-2.6; SSP2-4.5 (relating to a 2-degree warming future meeting current climate targets and pledges) and SSP5-8.5 and RCP8.5 (relating to a 4-degree warming future with limited effort to mitigate GHG emissions). These scenarios are related to plausible futures where moderate mitigation leads to meeting the current targets and pledges under the Paris Agreement, and a global inaction future at the high end of the risk spectrum.\" and \"We applied the RCP scenarios (that are aligned to the SSP scenarios) from the IPCC AR5 for climate metrics that have not yet been developed within the IPCC AR6 models at the time of our initial risk assessment.\" and \"Steel & Tube engaged Deloitte in 2024 to support with quantifying S&T's financial exposure to its material climate risks... This process involved... Obtain NGFS scenario model drivers and variables.\"",
+      "location_hint": "Page 17",
+      "confidence": "high",
+      "notes": "The justification covers both physical risk scenarios (IPCC AR5/AR6 SSP/RCP) and transition risk quantification (NGFS via Deloitte). The choice is grounded in TCFD guidance and the need to cover a spectrum from orderly transition to high warming/inaction futures.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context from Steel & Tube's 2025 Climate-Related Disclosures focuses on forward-looking physical risk assessments, scenario analysis, metrics and targets, and vulnerability to physical risks. There is no mention of historic (past) climate impacts experienced by the company in any of the provided passages.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Steel & Tube identifies the following material physical climate risk types:\n1. **Impaired site access** – Operational delays and revenue loss (across short, medium, and long-term horizons). Impacts include inability to receive/despatch product, freight network disruption, increased operational costs, potential flooding of potable water supply, risk of employee injury, and reputational damage.\n2. **Flooding of workspaces** – Health risks and associated revenue loss (short, medium, long-term).\n3. **Impaired site access due to flooding** – Operational cost escalation and margin loss (short, medium, long-term).\n4. **Flooding causing personal asset damage and loss** – Staff turnover, productivity loss, remediation/replacement costs (short, medium, long-term). Impacts include increased time off for affected workforce, increased wellness spend, productivity losses, increased product write-offs due to salt spray/saltwater ingress in coastal areas, increased asset replacement/repair costs, and delays if critical assets (e.g. forklifts) are damaged.\n5. **Extreme weather causing asset and/or product damage** – Remediation and/or replacement costs (short, medium, long-term).",
+      "evidence": "\"Material Risk Type | Impact | Time Horizon ... Impaired site access | Operational delays and revenue loss | Short-term ... Flooding of workspaces | Health risks and associated revenue loss | Short-term ... Impaired site access due to flooding | Operational cost escalation and margin loss | Short-term ... Flooding, which causes personal asset damage and loss | Staff turnover, productivity loss, remediation and/or replacement costs of assets | Short-term ... Extreme weather causes asset/and or product damage | Remediation and/or replacement costs | Short-term\"",
+      "location_hint": "Page 14-15, Table of physical risks, impacts and opportunity",
+      "confidence": "high",
+      "notes": "The document notes that the amount or percentage of assets/operations exposed to physical risks has not been quantified: \"The amount or percentage to which Steel & Tube's people, assets and operations are exposed to our identified physical risks and opportunities has not currently been quantified.\" Risk ratings are provided across Orderly, Disorderly, and Hot House scenarios but the specific rating values (symbols/colours) are not reproducible from the text context.",
+      "verification": null
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "source": "PARTNERS_LIFE_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "total_tokens": 47670,
+      "input_token_details": {
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0,
+        "ephemeral_5m_input_tokens": 0,
+        "cache_creation": 0
+      },
+      "input_tokens": 41341,
+      "output_tokens": 6329
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "The document references three scenarios used in the scenario analysis, but does not explicitly list their names in the retrieved context. The context mentions a 1.5°C temperature outcome scenario and references NGFS scenarios (including pathways based on IPCC SSP2), but the full list of the three scenarios is not provided in the retrieved passages.",
+      "evidence": "\"The scenarios written last year were deemed to be still relevant and were re-used, with their characteristics described in more detail below. It is to be noted however that the plausibility of a 1.5°C temperature outcome in 2050 diminishes in the light of 2024 being the warmest year on record, with 2023 a close follower... the three scenarios selected.\"",
+      "location_hint": "Page 64",
+      "confidence": "low",
+      "notes": "The context confirms three scenarios were used and references a 1.5°C scenario and NGFS scenarios, but the explicit names/list of all three scenarios are not fully stated in the retrieved chunks. Additional context would be needed for a complete list.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The document references a 1.5°C temperature outcome in 2050 (not 2100), and discusses scenario analysis, but does not explicitly state a global temperature outcome by 2100. No specific 2100 temperature figure is mentioned in the retrieved context.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "NGFS (Network for Greening the Financial System), IEA (International Energy Agency), IPCC (Intergovernmental Panel on Climate Change), NIWA (National Institute of Water and Atmospheric Research), CCC (New Zealand Climate Change Commission), and FSC (Financial Services Council)",
+      "evidence": "\"our scenarios are aligned to the sectoral scenarios defined by the FSC in 2023. In addition to the characteristics (see the table below), an estimate from the Network for Greening the Financial System ('NGFS') has been added where their global GDP models include a damage function for physical risk... Global energy and emission pathway parameters: NGFS Net Zero 2050 / IEA NZ Emissions 2050 | NGFS NDCs / IEA APS (Announced Pledged Scenario) | NGFS Current Policies / IEA STEPS (Stated Policies Scenario)... New Zealand specific climate parameters (downscaled from IPCC pathways): NIWA SSP1-2.6 | NIWA SSP2-4.5 | NIWA SSP5-8.5... New Zealand specific transition pathway parameters: CCC Tailwinds | CCC Headwinds | CCC Current Policy reference\"",
+      "location_hint": "Page 66",
+      "confidence": "high",
+      "notes": "Multiple scenario providers are used: FSC for sectoral scenario alignment, NGFS for global GDP/emission pathways, IEA for energy/emission pathways, IPCC for global socio-economic parameters, NIWA for NZ-specific climate parameters, and CCC for NZ-specific transition pathways.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes. The company uses a mix of SSPs and RCPs/emission pathways across its three scenarios:\n- **Orderly**: IPCC SSP1-1.9 (global), NIWA SSP1-2.6 (NZ-specific)\n- **Too Little Too Late**: IPCC SSP2-4.5 (global), NIWA SSP2-4.5 (NZ-specific)\n- **Hothouse**: IPCC SSP5-8.5 (global), NIWA SSP5-8.5 (NZ-specific)\n\nNotably, for the Orderly scenario, the global parameter uses SSP1-1.9 while the NZ-specific downscaled parameter uses SSP1-2.6 — a mix of different RCP levels within the same SSP family. The NGFS scenarios underlying the damage function also rely on SSP2 as a baseline assumption.",
+      "evidence": "\"Global climate and socio-economic parameters: IPCC SSP1-1.9 / IPCC SSP2-4.5 / IPCC SSP5-8.5 ... New Zealand specific climate parameters (downscaled from IPCC pathways): NIWA SSP1-2.6 / NIWA SSP2-4.5 / NIWA SSP5-8.5 ... one of the underlying assumptions is that the IPCC SSP2 pathway is used.\"",
+      "location_hint": "Table S.3, p.66",
+      "confidence": "high",
+      "notes": "The Orderly scenario mixes SSP1-1.9 at the global level with SSP1-2.6 at the NZ-downscaled level — a clear pick-and-mix of different RCP levels within the same SSP family. The NGFS damage function also defaults to SSP2 regardless of the scenario being modelled.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes, the company uses customised scenarios aligned to the sectoral scenarios defined by the Financial Services Council (FSC) in 2023. The three scenarios are: (1) Orderly (aligned with IPCC SSP1-1.9, NGFS Net Zero 2050, IEA NZ Emissions 2050, NIWA SSP1-2.6, CCC Tailwinds); (2) Too Little Too Late (aligned with IPCC SSP2-4.5, NGFS NDCs, IEA APS, NIWA SSP2-4.5, CCC Headwinds); and (3) Hothouse (aligned with IPCC SSP5-8.5, NGFS Current Policies, IEA STEPS, NIWA SSP5-8.5, CCC Current Policy reference). An estimate from the NGFS has been added where their global GDP models include a damage function for physical risk.",
+      "evidence": "\"Following the Company's active involvement in the FSC initiative and development of the sectoral scenarios, our scenarios are aligned to the sectoral scenarios defined by the FSC in 2023. In addition to the characteristics (see the table below), an estimate from the Network for Greening the Financial System ('NGFS') has been added where their global GDP models include a damage function for physical risk.\"",
+      "location_hint": "PLL Financial Statements Signed.pdf, page 66",
+      "confidence": "high",
+      "notes": "The scenarios are based on FSC sectoral scenarios but customised with additional NGFS GDP impact estimates and New Zealand-specific parameters (NIWA downscaled pathways and CCC transition pathways). Scenario analysis was conducted qualitatively with no modelling undertaken for FY24.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes. Partners Life co-produced its climate scenarios through active involvement in the Financial Services Council (FSC) initiative. The scenarios are aligned to the sectoral scenarios defined by the FSC in 2023, and scenario analysis workshops gathered subject matter experts from strategy, product, finance, actuarial, operations, and risk functions within the Company. The scenario analysis documentation was presented to the Climate Disclosure steering committee and Risk Committee.",
+      "evidence": "\"Following the Company's active involvement in the FSC initiative and development of the sectoral scenarios, our scenarios are aligned to the sectoral scenarios defined by the FSC in 2023.\" and \"The scenario analysis workshops gathered subject matter experts from strategy, product, finance, actuarial, operations, and risk functions. The workshops aimed to identify the climate-related risks and opportunities most relevant to the Company's strategy, and to explore the magnitude of their impact across different time horizons and the three scenarios selected.\"",
+      "location_hint": "PLL Financial Statements Signed.pdf, pages 64 and 66",
+      "confidence": "high",
+      "notes": "The scenarios were co-produced with the FSC (Financial Services Council) at a sectoral level, and internally developed through cross-functional workshops. No external co-production with academic or government bodies beyond FSC alignment is mentioned.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "The Company uses three scenarios for its climate scenario analysis: (1) Orderly, (2) Too Little Too Late, and (3) Hothouse World. These are based on NGFS (Network for Greening the Financial System) scenarios. The scenarios were first developed in FY23 and reused in FY24, as they were deemed still relevant. The focal question was: \"How could climate change affect our business model, impact our mid-term strategy, and what actions may be necessary to address these impacts?\"",
+      "evidence": "\"The scenarios written last year were deemed to be still relevant and were re-used, with their characteristics described in more detail below. It is to be noted however that the plausibility of a 1.5°C temperature outcome in 2050 diminishes in the light of 2024 being the warmest year on record, with 2023 a close follower.\"\n\nTable colour / Scenario: Orderly | Too Little Too Late | Hothouse World",
+      "location_hint": "PLL Financial Statements Signed.pdf, pages 64 and 69",
+      "confidence": "high",
+      "notes": "The three scenarios (Orderly, Too Little Too Late, Hothouse World) are explicitly named and colour-coded in Table S.6. They are based on NGFS scenarios as referenced in the footnotes (p.66). No quantitative baseline values (e.g., temperature targets per scenario) are provided in the retrieved context beyond the mention of a 1.5°C outcome for the Orderly scenario.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "The company used NGFS (Network for Greening the Financial System) scenarios, aligned with FSC sectoral scenarios, incorporating IPCC SSP pathways, IEA energy/emission pathways, NIWA downscaled New Zealand climate parameters, and CCC transition pathway parameters. The NGFS Phase V global GDP models include a damage function for physical risk.",
+      "evidence": "\"Following the Company's active involvement in the FSC initiative and development of the sectoral scenarios, our scenarios are aligned to the sectoral scenarios defined by the FSC in 2023. In addition to the characteristics (see the table below), an estimate from the Network for Greening the Financial System ('NGFS') has been added where their global GDP models include a damage function for physical risk.\"",
+      "location_hint": "Page 66",
+      "confidence": "high",
+      "notes": "The scenarios use NGFS Net Zero 2050 / NDCs / Current Policies, IEA NZ Emissions 2050 / APS / STEPS, IPCC SSP1-1.9 / SSP2-4.5 / SSP5-8.5, NIWA downscaled pathways, and CCC Tailwinds / Headwinds / Current Policy reference for New Zealand-specific parameters.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. The company considers several acute physical risks, including: (1) significant increase in morbidity and mortality rates impacting claims, (2) disruptions to the Independent Financial Advisors (IFAs) network due to extreme weather events impacting customer base growth, and (3) surge in frequency and severity of global insurance claims due to extreme weather events increasing reinsurance costs. However, no current climate-related impacts from acute physical risks were experienced during the reporting period.",
+      "evidence": "\"Significant increase in morbidity rate and impact on claims – Physical – Long – Acute/Chronic – Increase in number and cost of claims. [...] Sustained or repeated disruptions to the Independent Financial Advisors ('IFAs') network in the face of extreme weather events could impact customer base growth – Physical – Medium to Long – Acute – Loss in projected revenue. Surge in frequency and severity of global insurance claims due to extreme weather events could significantly increase reinsurance costs – Physical – Medium to Long – Acute/Chronic – Solvency impact in long-term.\"",
+      "location_hint": "Table S.4 - Climate-related risks, p.67-68",
+      "confidence": "high",
+      "notes": "The document also notes that during the current reporting period, \"there was no significant increase of claims attributable to climate change\" and \"Distribution and operations were not noticeably affected by extreme weather events.\" The acute physical risks are identified as medium-to-long term concerns.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include several non-temperature climate variables, including: air pollution levels, extreme weather event frequency and severity (acute weather events), humidity/wetness patterns (affecting pathogen transmission), and GHG emissions trajectories. These drive impacts such as morbidity/mortality rates, public health infrastructure stress, and resilience of vulnerable communities.",
+      "evidence": "\"Patterns of humidity and temperature change favour diseases due to multiple factors. This would in turn put a heavy strain on the public health infrastructure.\" / \"Intensity and frequency of extreme weather events increase at an exploding rate.\" / \"lower air pollution is unlikely to worsen environment-induced medical claims.\" / \"Warmer and wetter regions will benefit pathogen transmission.\"",
+      "location_hint": "PLL Financial Statements Signed.pdf, pages 65 and 68",
+      "confidence": "medium",
+      "notes": "The document references non-temperature variables (air pollution, humidity, extreme weather frequency/severity, pathogen transmission conditions) within scenario narratives, but does not present them as formal quantified scenario parameters. They are described qualitatively as part of scenario storylines.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "The company conducts its scenario analysis on a standalone basis, using three scenarios. The scenarios are based on NGFS frameworks and include at least a 1.5°C temperature outcome scenario, a fragmented/divergent transition scenario, and a high physical risk (\"little action\") scenario. The analysis covers multiple time horizons.",
+      "evidence": "\"The Company conducts its scenario analysis on a standalone basis. The scenario analysis documentation, summing up the process and the outcome of the analysis, was presented to our Climate Disclosure steering committee and Risk Committee.\"\n\n\"The scenarios written last year were deemed to be still relevant and were re-used, with their characteristics described in more detail below. It is to be noted however that the plausibility of a 1.5°C temperature outcome in 2050 diminishes in the light of 2024 being the warmest year on record.\"\n\n\"No modelling was undertaken for the purpose of scenario analysis during FY24.\"",
+      "location_hint": "Page 64-65",
+      "confidence": "medium",
+      "notes": "The context confirms the scenario analysis is conducted on a standalone (entity-level) basis, using three qualitative scenarios (no quantitative modelling in FY24). The exact number of scenarios (three) is implied by references to \"three scenarios selected\" on page 64. The scenarios appear to be NGFS-based. Full scenario names/labels are not fully captured in the retrieved chunks.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Three time horizons are used:\n- Short Term: 1–3 Years\n- Medium Term: 5–10 Years\n- Long Term: >30 Years",
+      "evidence": "\"The time horizons of interest in the context of climate risk are:\nShort Term | Medium Term | Long Term\nTime Horizon: 1-3 Years | 5-10 Years | > 30 Years\"",
+      "location_hint": "PLL Financial Statements Signed.pdf, page 65, Table S.1.",
+      "confidence": "high",
+      "notes": "Rationale for each horizon is also provided: Short Term is aligned with regulator stress testing horizons; Medium Term is aligned with FSC proposed horizon and NZ's first NDC target (50% GHG reduction by 2030 vs 2005); Long Term is aligned with FSC proposed horizon and NZ's net zero target (2050).",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "The scenarios were chosen based on alignment with the Financial Services Council (FSC) sectoral scenarios defined in 2023, meeting specific temperature outcome requirements (1.5°C and 3°C), and alignment with NGFS and IEA global energy/emission pathways. Specifically: the Orderly scenario meets requirements of a 1.5°C temperature scenario; the Too Little Too Late scenario is aligned with FSC selected scenarios; and the Hothouse scenario meets requirements for a 3°C temperature outcome. The scenarios also incorporate NGFS Phase V GDP damage functions for physical risk and are downscaled to New Zealand-specific parameters using NIWA and the Climate Change Commission (CCC) pathways.",
+      "evidence": "\"Following the Company's active involvement in the FSC initiative and development of the sectoral scenarios, our scenarios are aligned to the sectoral scenarios defined by the FSC in 2023... Reason for selection: [Orderly] Aligned with FSC selected scenarios. Meets requirements of 1.5°C temperature scenario. [Too Little Too Late] Aligned with FSC selected scenarios. Aligned with FSC selected scenario. [Hothouse] Aligned with FSC selected scenario. Meets requirements for 3°C temperature outcome.\"",
+      "location_hint": "Page 66, Table S.3",
+      "confidence": "high",
+      "notes": "The justification is explicitly stated in the \"Reason for selection\" row of Table S.3. The scenarios are also supplemented by NGFS Phase V GDP impact estimates and downscaled NZ-specific parameters from NIWA and the CCC.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "There were no current climate-related impacts affecting the Company during the reporting period. Specifically: distribution and operations were not noticeably affected by extreme weather events; product design has not yet needed to integrate climate-related concerns; the investment portfolio (mostly cash instruments) had no noticeable impact from climate-related physical events or policy change on bond prices; and there was no significant increase of claims attributable to climate change.",
+      "evidence": "\"Current climate-related impacts are defined as impacts experienced during the reporting period. While climate-related risks have been identified in longer time horizons as will be discussed below, there were no current climate-related impacts affecting the Company during the reporting period. As above, the Company assessed this as follows: — Distribution and operations were not noticeably affected by extreme weather events. — Product design has not yet needed to integrate climate-related concerns (due to emerging physical or transition risk). — The investment portfolio, as noted above, is composed of mostly cash instruments, which is an asset class less subject to climate-related risks than other asset classes (such as equity). The investment mix also has New Zealand sovereign bonds in a small proportion – however there was no noticeable impact from climate-related physical events or policy change on the bond prices. — There was no significant increase of claims attributable to climate change.\"",
+      "location_hint": "PLL Financial Statements Signed.pdf, page 64",
+      "confidence": "high",
+      "notes": "The document explicitly states there were no historic/current climate-related impacts during the reporting period across all assessed dimensions.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "The company identifies the following physical climate risks:\n\n1. **Significant increase in morbidity rate and impact on claims** (Physical, Long-term, Acute & Chronic): Leads to increase in number and cost of claims, and increased operational demand with higher call volumes.\n\n2. **Significant increase in mortality rate and impact on claims** (Physical, Long-term, Acute & Chronic): Leads to increase in number and cost of claims.\n\n3. **Sustained or repeated disruptions to the Independent Financial Advisors (IFAs) network in the face of extreme weather events could impact customer base growth** (Physical, Medium to Long-term, Acute): Results in loss in projected revenue.\n\nAdditionally, a physical chronic opportunity is identified: **Public health infrastructure under stress leads to increased appeal for medical cover** — patterns of humidity and temperature change favour diseases, putting strain on public health infrastructure, making private practices and insurance cover more desirable.",
+      "evidence": "\"Significant increase in morbidity rate and impact on claims | Physical | Long | Acute, Chronic | Increase in number and cost of claims. Increased operational demand with higher call volumes. Significant increase in mortality rate and impact on claims | Physical | Long | Acute, Chronic | Increase in number and cost of claims. Sustained or repeated disruptions to the Independent Financial Advisors ('IFAs') network in the face of extreme weather events could impact customer base growth | Physical | Medium to Long | Acute | Loss in projected revenue.\"",
+      "location_hint": "Page 67, Table of Risks & Opportunities",
+      "confidence": "high",
+      "notes": "The document distinguishes between acute and chronic physical risks. No explicit distinction is made between \"direct\" and \"indirect\" physical risks using those terms, but the risks identified span both acute (extreme weather events) and chronic (morbidity/mortality from climate change) categories.",
+      "verification": null
+    }
+  ]
+}

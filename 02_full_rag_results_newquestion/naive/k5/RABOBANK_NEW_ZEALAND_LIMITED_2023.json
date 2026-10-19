@@ -1,0 +1,170 @@
+{
+  "source": "RABOBANK_NEW_ZEALAND_LIMITED_2023",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "output_tokens": 6171,
+      "total_tokens": 51370,
+      "input_tokens": 45199,
+      "input_token_details": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0,
+        "cache_creation": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Rabobank New Zealand Limited uses three entity-specific scenarios: (1) an orderly (1.5°C-aligned) scenario, corresponding to Rabobank's Paris-aligned commitments; (2) a disorderly scenario, challenging the Bank's resiliency to transition risks; and (3) a hot-house world scenario, challenging the Bank's resiliency to physical risks. Physical data is drawn from IPCC Shared Socioeconomic Pathway (SSP) scenarios, and transition data from Network for Greening the Financial System (NGFS) scenarios.",
+      "evidence": "\"The Bank's three scenarios detailed on the following pages are an orderly (1.5°C-aligned) scenario, which corresponds to Rabobank's Paris-aligned commitments, along with two scenarios that challenge the Bank's resiliency to both transition risks (disorderly) and physical risks (hot-house world). ... For physical data, we have used the Intergovernmental Panel on Climate Change (IPCC) Shared Socioeconomic Pathway (SSP) scenarios. For transition data, we have used the Network for Greening the Financial System (NGFS) scenarios.\"",
+      "location_hint": "Page 13",
+      "confidence": "high",
+      "notes": "The 1.5°C scenario has a projected temperature in 2100 of 1.4°C, noted as the closest available IPCC scenario to 1.5°C.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document does not explicitly state a single global temperature outcome by 2100 for all scenarios. However, it notes that the 1.5°C scenario has a projected temperature in 2100 of 1.4°C (the closest available IPCC scenario to 1.5°C), and references NGFS scenarios including a disorderly \"delayed 2°C\" and a hot-house \"current policies\" scenario. The 2050 average global temperature warming shown is ~1.8°C for both the disorderly and another scenario.",
+      "evidence": "\"It should be noted that, due to the limited number of scenarios available and the nature of temperature projections being based on probabilities and ranges, this has led to our 1.5⁰C scenario having a projected temperature in 2100 of 1.4°C (which is the closest available IPCC scenario to 1.5°C).\"",
+      "location_hint": "Page 14",
+      "confidence": "medium",
+      "notes": "The document references multiple scenarios (orderly ~1.5°C/1.4°C by 2100, disorderly ~2°C, hot-house \"current policies\") but does not provide a single definitive global temperature outcome by 2100 for all scenarios in one place. The 2050 figures (~1.8°C warming) are provided for the disorderly scenario. The 1.4°C figure is the only explicit 2100 temperature projection mentioned.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "For physical data: IPCC (Intergovernmental Panel on Climate Change) SSP scenarios; for transition data: NGFS (Network for Greening the Financial System) scenarios. New Zealand physical parameters use NIWA RCP scenarios.",
+      "evidence": "\"For physical data, we have used the Intergovernmental Panel on Climate Change (IPCC) Shared Socioeconomic Pathway (SSP) scenarios. For transition data, we have used the Network for Greening the Financial System (NGFS) scenarios.\"",
+      "location_hint": "Page 13",
+      "confidence": "high",
+      "notes": "The bank blended multiple scenario providers: IPCC SSP for physical risk, NGFS for transition risk, and NIWA RCP for New Zealand-specific physical parameters.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Yes. Rabobank New Zealand uses a combination of IPCC SSP scenarios and NIWA RCP scenarios (alongside NGFS transition scenarios) in their three climate scenarios:\n- Orderly (~1.4°C): IPCC SSP1-1.9 / NIWA RCP 2.6 / NGFS \"net-zero 2050\"\n- Disorderly (~1.8°C): IPCC SSP1-2.6 / NIWA RCP 2.6 / NGFS \"delayed 2°C\"\n- Hot-house world (~4.4°C): IPCC SSP5-8.5 / NIWA RCP 8.5 / NGFS \"current policies\"",
+      "evidence": "\"Global physical and socioeconomic parameters: IPCC SSP1-1.9 / IPCC SSP1-2.6 / IPCC SSP5-8.5. New Zealand physical parameters: eg. NIWA RCP 2.6 / NIWA RCP 2.6 / NIWA RCP 8.5. Global transition and energy use: NGFS orderly 'net-zero 2050' scenario / NGFS disorderly 'delayed 2°C' / NGFS hot-house 'current policies'\"",
+      "location_hint": "Page 14, scenario table",
+      "confidence": "high",
+      "notes": "The document explicitly blends SSP scenarios (for global physical/socioeconomic parameters) with RCP scenarios from NIWA (for New Zealand physical parameters) and NGFS scenarios (for transition/energy use). Notably, the Orderly and Disorderly scenarios both use NIWA RCP 2.6 for NZ physical parameters despite having different global SSP scenarios (SSP1-1.9 and SSP1-2.6 respectively).",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes. Rabobank New Zealand developed its own customised scenarios rather than adopting existing sectoral scenarios. The bank considered the New Zealand Banking Association and Aotearoa Circle's Agriculture Sector Climate Change Scenarios but found that neither provided scenarios that best described plausible futures or sufficiently challenged the business. The bank also sought to align its scenarios with Rabobank globally to facilitate better reporting and analysis at a Rabobank-wide level.",
+      "evidence": "\"In developing our scenarios, the XRB's recommendation to use sectoral scenarios where advisable was considered both for efficiency and to aid comparability. As the only specialised agribusiness-focused bank operating in New Zealand, two sets of sector scenarios were relevant to us – the New Zealand Banking Association as well as Aotearoa Circle's Agriculture Sector Climate Change Scenarios. Neither of these provided us with the scenarios that best described plausible futures for us or in our view challenged our business sufficiently. The Bank also sought to align our climate scenarios with Rabobank to facilitate better reporting and analysis at a Rabobank-wide level.\"",
+      "location_hint": "Page 13",
+      "confidence": "high",
+      "notes": "The bank explicitly chose to develop customised scenarios rather than use available sectoral scenarios, citing inadequacy of existing options and the need for global alignment with parent Rabobank.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Rabobank New Zealand worked with consultancy Deloitte to assist with scenario development and assess related climate change risks and opportunities. The scenario development and analysis involved engagement at multiple levels of the business, including Project Leads (CSO and Senior Risk Advisor), Subject Matter Experts, a Steering Committee (Chief Risk Officer, CFO, General Manager Country Banking, and Project Leads), Executive Committee, and the Board, which reviewed, discussed, and approved the scenario architecture.",
+      "evidence": "\"The Bank worked with consultancy Deloitte to assist with scenario development and assess the related climate change risk and opportunities.\"",
+      "location_hint": "Page 16",
+      "confidence": "high",
+      "notes": "The scenarios were co-produced with Deloitte as an external consultancy, with internal governance involving multiple levels of the business. The process was qualitative rather than quantitative.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "low",
+      "notes": "The retrieved context does not explicitly describe baseline scenarios used in the climate disclosure. While there is mention of scenario analysis (pages 27–33) and a \"worst-case scenario for climate change using various trajectories for Greenhouse Gas concentrations spanning a period up to 2100\" for physical risk identification, no specific named baseline scenarios (e.g., SSP1-2.6, RCP 4.5, etc.) are identified in the provided context passages.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "The context does not explicitly name a specific climate/financial model used. The Bank used NGFS scenarios and worked with Deloitte for scenario development. The scenario analysis was qualitative rather than quantitative. The GTAP (Global Trade Analysis Project) is mentioned in the glossary, suggesting it may have been used as a reference.",
+      "evidence": "\"The Bank worked with consultancy Deloitte to assist with scenario development and assess the related climate change risk and opportunities.\" and \"This analysis process was qualitative rather than quantitative.\"",
+      "location_hint": "Page 16",
+      "confidence": "medium",
+      "notes": "No specific quantitative model is named. The analysis was qualitative. NGFS scenarios were adopted. GTAP appears in the glossary but is not explicitly described as the model used. Deloitte assisted with scenario development.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Rabobank New Zealand considers damage from acute physical risks including cyclones, windstorms, riverine flooding, coastal flooding, heavy precipitation (pluvial flooding), drought, wildfires, and extreme heat. These are captured through Rabobank-developed heatmaps combined with credit exposure to identify the most material climate-related risks to customers.",
+      "evidence": "\"the Bank uses Rabobank-developed heatmaps for acute physical risks (including cyclones, windstorms, riverine flooding, coastal flooding, heavy precipitation (or pluvial flooding), drought, wildfires, extreme heat) and one chronic physical risk – water scarcity. Combining the heatmaps with our credit exposure enables us to identify the most relevant Climate-Related Risks before mitigations and adaptations\"",
+      "location_hint": "Page 28 (Assets Vulnerable to Physical Risks Methodology section)",
+      "confidence": "high",
+      "notes": "The document also notes that in the Hot-House World scenario, increasing weather events result in \"increasing damage remediation costs for farmers and a slightly higher incidence of loan defaults,\" further confirming that damage from acute physical risks is explicitly considered.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenarios include non-temperature variables such as: changes in precipitation patterns, sea-level rise, carbon prices, and GHG (Greenhouse Gas) concentrations. Physical risk events covered include cyclones, windstorms, riverine flooding, coastal flooding, heavy precipitation (pluvial flooding), drought, wildfires, and extreme heat.",
+      "evidence": "\"Chronic risk factors are those related to gradual changes in climatic conditions such as increasing temperatures, changes in precipitation patterns and sea-level rise.\" / \"Carbon prices are typically higher for a given temperature outcome.\" / \"Hot-house world scenarios assume that some climate policies are implemented in some jurisdictions but global efforts are insufficient to halt significant global warming. Critical temperature thresholds are exceeded, leading to severe physical risks and irreversible impacts like sea-level rise.\" / \"the Bank is also introducing the use of Rabobank-developed heatmaps to quantify the physical impacts to the Bank's portfolio from key acute events, including cyclones, windstorms, riverine flooding, coastal flooding, heavy precipitation (or pluvial flooding), drought, wildfires and extreme heat.\" / \"using various trajectories for Greenhouse Gas concentrations spanning a period up to 2100.\"",
+      "location_hint": "Pages 12, 13, 17, 28",
+      "confidence": "high",
+      "notes": "Non-temperature variables explicitly mentioned in the scenarios and heatmaps include precipitation patterns, sea-level rise, carbon prices, GHG concentrations, and various acute physical risk events (flooding, drought, cyclones, etc.).",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Rabobank New Zealand uses NGFS (Network for Greening the Financial System) scenarios, which are global in scale. The scenarios cover four broad categories: Orderly, Disorderly, Hot-house world, and Too little, too late — stressing both transition and physical risks across jurisdictions and sectors. For physical risk assessment, a worst-case scenario using various trajectories for Greenhouse Gas concentrations spanning a period up to 2100 is used.",
+      "evidence": "\"The NGFS has defined four broad categories of scenarios that stress both transition and physical risk: [Orderly, Disorderly, Hot-house world, Too little, too late]\" and \"To identify exposures, we have chosen to rely on a worst-case scenario for climate change using various trajectories for Greenhouse Gas concentrations spanning a period up to 2100.\"",
+      "location_hint": "Page 13 and Page 28",
+      "confidence": "high",
+      "notes": "The scenarios are global in scale (NGFS scenarios), with physical risk assessment using trajectories up to 2100. The temporal granularity for Heatmaps is three time horizons: less than 5 years, up to 10 years, and more than 10 years.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "The Bank uses three time horizons for scenario analysis and climate risk assessment:\n- Short term: now – 2030 (aligned with existing 5-year horizons in strategic planning, MTP, ICAAP and Funding Plan)\n- Medium term: 2030–2050 (reflecting the contractual maturity profile of the Bank's loan book)\n- Long term: 2050–2100 (to recognise the intergenerational nature of farming and growing in New Zealand, and guard against the historical trend of improved science leading to impacts being brought forward)",
+      "evidence": "\"In conducting our Scenario Analysis and climate risk and opportunity assessment, the Bank used the following time horizons:\n• Short term: now – 2030 – to align with the existing 5-year horizons in strategic planning, Medium Term Planning (MTP), Internal Capital Adequacy Assessment Process (ICAAP) and Funding Plan. During 2023, MTP horizon was extended to 2030 for asset growth by sector to align with Sector x Country Plans.\n• Medium term: 2030–2050 – to reflect the contractual maturity profile of the Bank's loan book.\n• Long term: 2050–2100 – recognise the intergenerational nature of farming and growing in New Zealand, ensure understanding of the longer-term implications of climate impacts and guard against the historical trend of improved science leading to impacts being brought forward.\"",
+      "location_hint": "Page 14",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Rabobank New Zealand developed its own bespoke scenarios rather than adopting existing sectoral scenarios for two main reasons: (1) neither the New Zealand Banking Association scenarios nor the Aotearoa Circle's Agriculture Sector Climate Change Scenarios provided plausible futures that sufficiently challenged the business; and (2) the Bank sought to align its scenarios with Rabobank globally to facilitate better reporting and analysis at a Rabobank-wide level. The custom scenarios blend IPCC SSP scenarios (for physical data) and NGFS scenarios (for transition data), covering an orderly (1.5°C-aligned), a disorderly (transition risk), and a hot-house world (physical risk) scenario.",
+      "evidence": "\"In developing our scenarios, the XRB's recommendation to use sectoral scenarios where advisable was considered both for efficiency and to aid comparability. As the only specialised agribusiness-focused bank operating in New Zealand, two sets of sector scenarios were relevant to us – the New Zealand Banking Association as well as Aotearoa Circle's Agriculture Sector Climate Change Scenarios. Neither of these provided us with the scenarios that best described plausible futures for us or in our view challenged our business sufficiently. The Bank also sought to align our climate scenarios with Rabobank to facilitate better reporting and analysis at a Rabobank-wide level. Therefore, our own scenarios have been developed, as described below, through blending recognised and coherent scenarios on physical and transition risks together, incorporating relevant datapoints and elements... For physical data, we have used the Intergovernmental Panel on Climate Change (IPCC) Shared Socioeconomic Pathway (SSP) scenarios. For transition data, we have used the Network for Greening the Financial System (NGFS) scenarios.\"",
+      "location_hint": "Page 13",
+      "confidence": "high",
+      "notes": "The justification is clearly and directly stated in the document. The Bank explicitly rejected available sectoral scenarios and developed its own by blending IPCC SSP and NGFS scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context discusses anticipated/future climate-related impacts, physical risks, and scenario analysis, but does not contain any information about historic (past) climate impacts experienced by Rabobank New Zealand Limited.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Rabobank New Zealand identified 93 physical risks in total, classified across five material risk types:\n\n1. **Credit risk (68 risks, 73% of total):** Climate change may cause supply chain disruptions, reduce crop yields, increase animal welfare costs, and cause asset damage/loss from weather events, increasing the risk of customer loan default.\n\n2. **Business risk (19 risks):** Climate-related events may create economic volatility and financial instability, reduce demand for lending, cause loss of productive land, and threaten the Bank's current business model and growth strategy.\n\n3. **Market risk (1 risk):** Increasing physical climate-related events may cause unfavourable movements in commodity markets, leading to financial losses.\n\n4. **Liquidity risk (1 risk):** Extreme credit losses from physical climate events may reduce contractual cash inflows, impacting mismatch ratios and availability of funds.\n\n5. **Operational risk (4 risks):** Climate-related events may disrupt business operations.\n\nRisks and opportunities arise through **direct transmission channels** (risks that impact the Bank directly) and **indirect transmission channels** (risks that impact the economy or customers). The Bank uses heatmap analysis to assess physical risks including drought, hailstorms, wildfires, and floods.",
+      "evidence": "\"In total, 93 physical risks were identified... Credit risk: The impacts of climate change may cause the Bank's customers to experience supply chain disruptions, impacting their ability to operate and generate revenue. Crop yields may reduce and the costs of ensuring the welfare of animals may increase. Weather events may result in asset damage and/or loss for customers. This increases the risk of customer loan default. Business risk: The impact of climate-related events may compound to create economic volatility and financial instability, reducing overall demand for lending. Extreme climate impacts may result in a loss of productive land causing a contraction of the forestry and agricultural sectors. The Bank's current business model may no longer be sustainable, and the Bank may not be able to achieve its growth strategy. Market risk: Increasing occurrences of physical climate-related events may result in unfavourable movements in commodity markets leading to financial losses for the Bank. Liquidity risk: The Bank may experience extreme credit losses because of the increasing occurrence of physical climate-related events. This may reduce contractual cash inflows, impacting mismatch ratios and leading to a lack of available funds to meet financial commitments. Operational risk: Climate-related events may disrupt business... Direct transmission channels refer to risks that impact the Bank, and indirect transmission channels refer to risks that impact the economy or customers.\"",
+      "location_hint": "Page 18 and Page 20",
+      "confidence": "high",
+      "notes": "The document explicitly distinguishes direct (impacts the Bank) and indirect (impacts the economy or customers) transmission channels. The 93 physical risks are broken down by risk type with credit risk accounting for 73% of all risks identified.",
+      "verification": null
+    }
+  ]
+}

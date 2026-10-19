@@ -1,0 +1,170 @@
+{
+  "source": "THE_CO-OPERATIVE_BANK_LIMITED_2025",
+  "model_id": "claude-sonnet-4-6",
+  "k": 10,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "output_tokens": 6390,
+      "total_tokens": 92722,
+      "input_tokens": 86332,
+      "input_token_details": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_read": 0,
+        "cache_creation": 0
+      }
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "The Co-operative uses three climate scenarios for its climate scenario analysis:\n1. **Orderly scenario** – Collective action toward a low-carbon economy, achieving net zero by 2050 and limiting global warming to 1.5°C by 2100.\n2. A second scenario (implied from context referencing \"three climate scenarios\" and FSC scenarios, but only the Orderly scenario is fully described in the retrieved context).\n3. A third scenario (similarly referenced but not fully described in the retrieved context).\n\nBased on the retrieved context, only the \"Orderly scenario\" is explicitly named and described. The document references three scenarios total, informed by NZBA, FSC, and NGFS frameworks.",
+      "evidence": "\"The three climate scenarios developed and used by The Co-operative for the purposes of climate scenario analysis are described below... Orderly scenario: Collective action is taken towards a low-carbon global economy. In this scenario, steady and constant societal changes related to technology, policy and behaviour support the transition to a lower emissions economy – seeing a world that achieves net zero emissions by 2050 and limits global warming to 1.5°C by 2100.\"",
+      "location_hint": "Appendix A, page 38",
+      "confidence": "medium",
+      "notes": "The retrieved context explicitly names and describes only the \"Orderly scenario.\" The document states there are three scenarios total, but the names and descriptions of the other two are not present in the retrieved chunks. The context also references FSC scenarios and NGFS Current Policies scenarios as additional inputs, but these are not the three primary scenarios used by The Co-operative.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document uses three climate scenarios with the following global temperature outcomes: Orderly Transition (1.5°C), Too Little, Too Late (>2°C), and Hot House (>3°C).",
+      "evidence": "Scenario | Orderly Transition 1.5°C | Too Little, Too Late >2°C | Hot House >3°C",
+      "location_hint": "Page 13, Strategy section – Climate scenario architecture table",
+      "confidence": "high",
+      "notes": "The scenarios are described with temperature labels (1.5°C, >2°C, >3°C) but the document's long-term horizon extends to 2081–2099 (referred to as 2090), not explicitly 2100. The temperature labels are scenario descriptors rather than precise 2100 projections, though they are standard climate scenario conventions.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "Multiple scenario providers were used: IPCC (Intergovernmental Panel on Climate Change), Network for Greening the Financial System (NGFS), International Energy Agency (IEA), NIWA (National Institute of Water and Atmospheric Research), and New Zealand Climate Change Commission (CCC).",
+      "evidence": "\"Global climate & socio-economic parameters: IPCC SSP1-1.9, IPCC SSP1-2.6, IPCC SSP2-4.5, IPCC SSP5-8.5, IPCC SSP3-7.0. Global energy & emission pathway parameters: Network for Greening the Financial System (NGFS) Net Zero 2050, International Energy Agency (IEA) Net Zero Emissions by 2050, NGFS Nationally Determined Contributions (\"NDCs\"), IEA APS (Announced Pledges), NGFS Current Policies, IEA STEPS (Stated Policies). New Zealand-specific climate parameters: National Institute of Water and Atmospheric Research (NIWA) RCP 2.6, New Zealand Climate Change Commission (CCC) 'Tailwinds', NIWA RCP4.5, CCC 'Headwinds', NIWA RCP8.5, CCC 'Current Policy Reference'\"",
+      "location_hint": "Page 13, Climate scenario architecture table",
+      "confidence": "high",
+      "notes": "Multiple scenario providers are used across different dimensions (global climate, energy/emissions, and NZ-specific parameters).",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "The Co-operative Bank uses a combination of SSPs and RCPs across its three climate scenarios:\n\n- **Orderly Transition (1.5°C):** IPCC SSP1-1.9 and IPCC SSP1-2.6 (global); NIWA RCP2.6 (NZ-specific)\n- **Too Little, Too Late (>2°C):** IPCC SSP2-4.5 (global); NIWA RCP4.5 (NZ-specific)\n- **Hot House (>3°C):** IPCC SSP5-8.5 and IPCC SSP3-7.0 (global); NIWA RCP8.5 (NZ-specific)",
+      "evidence": "Global climate & socio-economic parameters: IPCC SSP1-1.9, IPCC SSP1-2.6 [Orderly Transition]; IPCC SSP2-4.5 [Too Little, Too Late]; IPCC SSP5-8.5, IPCC SSP3-7.0 [Hot House]. New Zealand-specific climate parameters: NIWA RCP (representative concentration pathway) 2.6 [Orderly Transition]; NIWA RCP4.5 [Too Little, Too Late]; NIWA RCP8.5 [Hot House].",
+      "location_hint": "Page 13, Climate scenario architecture table",
+      "confidence": "high",
+      "notes": "The document explicitly maps SSPs and RCPs to each scenario. SSP1-2.6 and SSP3-7.0 were added in FY25 as noted in the narrative.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "No customised scenarios. The Co-operative used existing NZBA banking climate scenarios and FSC climate scenarios for the financial services sector, refreshed through an internal scenario analysis process. The scenarios referenced are \"Orderly,\" \"Too Little, Too Late,\" and at least one other (implied \"Disorderly\"), which appear to be industry-standard scenarios rather than bespoke ones.",
+      "evidence": "\"Review of The Co-operative's FY24 climate scenario analysis process and comparison between the NZBA banking climate scenarios and FSC climate scenarios for the financial services sector.\"",
+      "location_hint": "Page 12, Strategy section",
+      "confidence": "medium",
+      "notes": "The document references NZBA and FSC scenarios as the basis for scenario analysis, with internal narrative refreshes and stakeholder testing, but no evidence of fully customised/bespoke scenarios developed from scratch. The scenarios named (Orderly, Too Little Too Late) are standard industry scenarios adapted for The Co-operative's context.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "The Co-operative developed its own climate scenarios internally, refreshed in FY25, through a process involving internal stakeholder engagement, workshops, and qualitative re-assessment of scenario data and assumptions. The scenarios were not co-produced with external parties but were informed by international and national datasets and reviewed against frameworks such as NZBA banking climate scenarios and FSC climate scenarios. Three scenarios were developed: Orderly, Too Little Too Late, and a third scenario (implied). Internal stakeholders including the SLT and Board were engaged in the process.",
+      "evidence": "\"The three climate scenarios developed and used by The Co-operative for the purposes of climate scenario analysis are described below. These narratives are amended slightly from those used and disclosed in FY24, with updates including impacts for life insurance. The climate scenario narratives are qualitative and exploratory in nature, informed by international and national datasets. The climate scenarios are not predictive forecasts, nor do they represent a preferred set of choices. They represent a set of plausible yet challenging future scenarios to test our view of climate-related risks, opportunities and related drivers. They were refreshed in FY25 as part of The Co-operative's climate scenario analysis process to review climate-related risks and opportunities and feed into transition planning.\"",
+      "location_hint": "Appendix A, p.38",
+      "confidence": "medium",
+      "notes": "The context describes the scenario development process as internally driven with stakeholder engagement (workshops with SLT, Board), informed by external datasets and frameworks, but does not explicitly describe co-production with external parties. The question asks about \"co-produced\" scenarios, which is not a term used in the document. The scenarios appear to be internally developed with internal stakeholder input.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "The Co-operative uses three climate scenarios: (1) Orderly Transition (1.5°C) — aligned with IPCC SSP1-1.9/SSP1-2.6, NGFS Net Zero 2050, IEA Net Zero Emissions by 2050, and NIWA RCP2.6/CCC 'Tailwinds'; (2) Too Little, Too Late (>2°C) — aligned with IPCC SSP2-4.5, NGFS NDCs, IEA APS, NIWA RCP4.5/CCC 'Headwinds'; (3) Hot House (>3°C) — aligned with IPCC SSP5-8.5/SSP3-7.0, NGFS Current Policies, IEA STEPS, NIWA RCP8.5/CCC 'Current Policy Reference'.",
+      "evidence": "\"Scenario | Orderly Transition 1.5°C | Too Little, Too Late >2°C | Hot House >3°C ... Global climate & socio-economic parameters: IPCC SSP1-1.9, IPCC SSP1-2.6 | IPCC SSP2-4.5, IPCC SSP5-8.5 | IPCC SSP3-7.0 ... Global energy & emission pathway parameters: Network for Greening the Financial System (NGFS) Net Zero 2050, International Energy Agency (IEA) Net Zero Emissions by 2050 | NGFS Nationally Determined Contributions (\"NDCs\"), IEA APS (Announced Pledges) | NGFS Current Policies, IEA STEPS (Stated Policies) ... New Zealand-specific climate parameters: NIWA RCP 2.6, New Zealand Climate Change Commission (CCC) 'Tailwinds' | NIWA RCP4.5, CCC 'Headwinds' | NIWA RCP8.5, CCC 'Current Policy Reference'\"",
+      "location_hint": "Strategy section, p.13",
+      "confidence": "high",
+      "notes": "The document explicitly lays out the three scenarios and their associated baseline parameters in a table format on page 13.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "Beta regression and Generalised Additive Models (GAM)",
+      "evidence": "\"The modelling approaches selected were Beta regression and Generalised Additive Models (GAM). GAMs are powerful statistical models that allow for the modelling of complex non-linear relationships between variables (which we often see in econometric relationships); its key advantages include flexibility, interpretability, robustness and automatic variable selection. Both the Beta coefficients and the GAM curves serve as \"pre-trained\" models, allowing predictions to be generated in Excel for various climate scenario economic paths.\"",
+      "location_hint": "Appendix B, page 42",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. The Co-operative recorded three weather-related events in FY25 that caused temporary branch closures (no material financial impact at organisational level), and flood damage relating to a Wairoa property in FY25 led to a loss of $86,687. Additionally, physical (flood-related) risk modelling was conducted considering fluvial, pluvial, and tidal flooding under multiple climate scenarios, with flood depths and depth-damage curves used to measure property risk and lending exposure.",
+      "evidence": "\"The Co-operative recorded three weather-related events in FY25 that caused temporary branch closures. Given our staff's ability to work remotely in these situations and the temporary nature of these closures, the events caused no significant business disruption nor any material financial impacts at an organisational level. Flood damage relating to a Wairoa property in FY25 led to a loss of $86,687 due to the property being...\"",
+      "location_hint": "Page 11",
+      "confidence": "high",
+      "notes": "The document explicitly identifies acute physical risks (floods, extreme weather events) and quantifies at least one instance of damage ($86,687 from Wairoa flood). The broader modelling framework also considers damage from acute flood events across the mortgage portfolio.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "The scenario analysis included non-temperature physical climate variables of heat, drought, wind, and wildfire, as well as flood-related variables (surface flooding, river flooding, and coastal flooding). These were explored qualitatively as part of a deep dive using MfE's Aotearoa New Zealand climate projections.",
+      "evidence": "\"New driving forces and critical uncertainties presented by previously unmodelled physical drivers of heat, drought, wind and wildfire explored qualitatively as part of deep dive.\" and \"This was followed by an analysis of the physical impacts from heat, drought, wind and wildfire using MfE's Aotearoa New Zealand climate projections over three temperature-aligned climate scenarios in the short-term (2021-2040), medium-term (2041-2060) and long-term (2081 to 2099).\"",
+      "location_hint": "Page 12 and Page 27",
+      "confidence": "high",
+      "notes": "Flood risk (surface, river, coastal) was also modelled quantitatively as a separate physical risk variable. Heat, drought, wind, and wildfire were assessed qualitatively.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "The Co-operative uses three climate scenarios: Orderly Transition (1.5°C), Too Little, Too Late (>2°C), and Hot House (>3°C). These are applied over short-term (to 2030), medium-term (to 2050), and long-term (to 2080+) time horizons.",
+      "evidence": "\"Scenario | Orderly Transition 1.5°C | Too Little, Too Late >2°C | Hot House >3°C ... The tables below summarise the key climate-related risks and opportunities identified for The Co-operative over the short term (to 2030), medium term (to 2050) and long term (to 2080+) as identified from the climate scenario analysis process.\"",
+      "location_hint": "Page 13–14, Climate scenario architecture section",
+      "confidence": "high",
+      "notes": "Three scenarios covering global warming levels of 1.5°C, >2°C, and >3°C, assessed across three time horizons. Physical risk modelling runs from 2025 to 2080 per Appendix B.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "The Co-operative uses three time horizons for climate-related risks and opportunities:\n- Short term: 10 years (~2030)\n- Medium term: 30 years (~2050)\n- Long term: 50+ years (~2080+)\n(All years relative to 2022)\n\nThese differ from the strategic planning time horizons:\n- Short-term planning: up to three years with a one-year business plan\n- Medium-term planning: up to five years\n- Long-term planning: up to ten years",
+      "evidence": "\"Horizon | Coverage & duration*\nShort term | 10 years (~2030)\nMedium term | 30 years (~2050)\nLong term | 50+ years (~2080+)\n* Year relative to 2022\n\nThe above time horizons differ to those used for The Co-operative's strategic planning and capital deployment plans, which are as follows:\n• Short-term planning – up to three years with a one-year business plan\n• Medium-term planning – up to five years\n• Long-term planning – up to ten years\"",
+      "location_hint": "Section: Strategy, p.14",
+      "confidence": "high",
+      "notes": "The document clearly distinguishes between climate risk assessment time horizons (based on NZBA's sectoral climate scenario analysis) and internal strategic planning time horizons.",
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "The Co-operative uses the NZBA (New Zealand Banking Association) climate risk scenarios (Orderly, Too Little, Too Late, and Hot House) because they consider them appropriate for their business context, to achieve comparability while also using baseline assumptions applicable to the wider New Zealand context they operate in (particularly their residential mortgage lending portfolio). The longer time horizon also allows for further consideration of the long-term impacts on life insurance. The modelling approaches selected were Beta regression and Generalised Additive Models (GAM), chosen for their flexibility, interpretability, robustness and automatic variable selection in modelling complex non-linear relationships.",
+      "evidence": "\"These time horizons are based on the NZBA's sectoral climate scenario analysis. We consider this appropriate for our business context, to achieve comparability while also using baseline assumptions applicable to the wider New Zealand context we operate in (particularly our residential mortgage lending portfolio). The longer time horizon also allows for further consideration of the long-term impacts on life insurance.\" and \"The modelling approaches selected were Beta regression and Generalised Additive Models (GAM). GAMs are powerful statistical models that allow for the modelling of complex non-linear relationships between variables (which we often see in econometric relationships); its key advantages include flexibility, interpretability, robustness and automatic variable selection.\"",
+      "location_hint": "Page 14 (time horizons/scenario justification); Page 42 (modelling methodology)",
+      "confidence": "high",
+      "notes": "The justification for scenario choice (NZBA scenarios) is explicitly stated on page 14. The justification for model choice (Beta regression and GAM) is explicitly stated on page 42.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "The Co-operative has assessed the current climate-related impacts on The Co-operative over the reporting period 1 April 2024 to 31 March 2025, including transition impacts. The document notes current climate impacts but does not provide detailed historic (past) climate impact data beyond the current reporting period. In FY25, climate-related flood risks were considered as part of future branch network decision making.",
+      "evidence": "\"The Co-operative has assessed the current climate-related impacts on The Co-operative over the reporting period 1 April 2024 to 31 March 2025 as outlined below. Transition impacts: Impacts on The Co-operative...\"",
+      "location_hint": "Page 11, Strategy section",
+      "confidence": "low",
+      "notes": "The context references \"current climate impacts\" for the FY25 reporting period but does not provide detailed historic climate impact data (e.g., specific past events and their financial impacts). The document mentions flood risk consideration in branch network decisions and scenario analysis, but no explicit historic climate impact figures or events are described in the retrieved passages.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "The Co-operative identifies the following physical climate risks:\n\n1. **Flood risk** – considered as part of future branch network decision-making and monitored across the residential mortgage portfolio (with modelling work by Luma Analytics on flood risks and economic risks under three climate scenarios).\n\n2. **Heat, drought, wind and wildfire** – newly explored physical climate drivers in the FY25 scenario analysis refresh, previously unmodelled, explored qualitatively as part of a deep dive.\n\nThese physical risks are assessed across short-term (~2030), medium-term (~2050), and long-term (~2080+) horizons and are considered as aggravating factors within existing risk categories (particularly credit risk, financial risk, market risk and reputational risk). Physical risks affect lending activities, life insurance business, branch network operations, and infrastructure delivering services to customers.",
+      "evidence": "\"New driving forces and critical uncertainties presented by previously unmodelled physical drivers of heat, drought, wind and wildfire explored qualitatively as part of deep dive.\" / \"In FY25, this included considering climate-related flood risks as part of the future branch network decision making.\" / \"Luma Analytics provided detailed modelling work focused on our residential mortgage lending and impacts of flood risks and economic risks under the three climate scenarios.\" / \"Our approach to climate risk is to consider it as an aggravating factor in other categories of risks we have already identified in our enterprise risk framework, particularly credit risk, financial risk, market risk and reputational risk, on the basis that climate change affects many of our business operations–from our lending activities, life insurance business and branch network operations to our infrastructure delivering our services to our customers.\"",
+      "location_hint": "Pages 12, 26, 28",
+      "confidence": "high",
+      "notes": "The document distinguishes between direct physical risks (flood, heat, drought, wind, wildfire affecting operations and assets) and indirect physical risks (impacts on mortgage portfolio/customers). Transition risks are also identified separately but are not physical risks.",
+      "verification": null
+    }
+  ]
+}

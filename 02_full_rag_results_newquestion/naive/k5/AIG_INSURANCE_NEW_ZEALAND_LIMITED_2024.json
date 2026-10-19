@@ -1,0 +1,170 @@
+{
+  "source": "AIG_INSURANCE_NEW_ZEALAND_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 5,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "output_tokens": 6437,
+      "input_token_details": {
+        "cache_read": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_creation": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 50120,
+      "total_tokens": 56557
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "low",
+      "notes": "The retrieved context references that AIG New Zealand conducted scenario analysis and that the ERM function designs stress scenarios, and that the Board reviewed scenario analysis, but the specific list of climate scenarios used (e.g., 1.5°C, 2°C, 3°C, RCP pathways, NGFS scenarios, etc.) is not explicitly named or listed in any of the provided passages.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The document describes three scenarios with different global temperature outcomes by 2100:\n1. Orderly Scenario: ~1.4°C warming by end-century (starting above 1.5°C mid-century, then dialed back via carbon removal)\n2. Disorderly Scenario: below 2.0°C this century\n3. Hot House/High Physical Risk Scenario: above 3.0°C this century (insufficient to keep total warming below 3.0°C)",
+      "evidence": "\"Medium to high deployment of carbon removal solutions dials the heat back to 1.4˚C warming by end-century.\" / \"By 2035, New Zealand's Nationally Determined Contributions (NDCs) to the Paris Agreement, in combination with other countries around the world, are sufficient to keep total warming below 2.0˚C this century.\" / \"New Zealand's Nationally Determined Contributions to the Paris Agreement, in combination with other countries around the world, are insufficient to keep total warming below 3.0˚C this century.\"",
+      "location_hint": "Page 13, Figure 4: AIG New Zealand's Climate Change Scenarios",
+      "confidence": "high",
+      "notes": "Three scenarios are described: Orderly (1.4°C by end-century), Disorderly (<2.0°C), and a high physical risk/hot house scenario (>3.0°C). The third scenario is not explicitly named in the retrieved context but is described as the scenario where current policies are \"sporadic and weak.\"",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "The Insurance Council of New Zealand (ICNZ), with scenarios also drawing on the IPCC (Representative Concentration Pathways and Shared Socioeconomic Pathways) and the Network for Greening the Financial System (NGFS) framework.",
+      "evidence": "AIG New Zealand has used the Insurance Council of New Zealand (ICNZ) shared climate scenarios for the New Zealand general insurance sector as the basis for our scenario analysis utilising the same framework architecture, quantitative and qualitative parameters, and narrative storylines, where appropriate... The ICNZ scenarios utilise the Representative Concentration Pathways (RCPs) and Shared Socioeconomic Pathways (SSPs) developed by the Intergovernmental Panel on Climate Change (IPCC) and the Shared Policy Assumptions for New Zealand (SPANZ). The narratives draw heavily on the Network for Greening the Financial System (NGFS) framework.",
+      "location_hint": "Page 12, Scenario Analysis section",
+      "confidence": "high",
+      "notes": "Primary scenario provider is ICNZ; underlying scientific frameworks come from IPCC and NGFS.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "AIG New Zealand uses the following SSP and RCP combinations across its three scenarios:\n- SPANZ F (100% SMART): SSP 1, RCP 2.6\n- SPANZ A (Kicking, Screaming): SSP 2, RCP 2.6\n- SPANZ D (Home Economics): SSP 2, RCP 6.0",
+      "evidence": "SSP reference scenario: SSP 1 / SSP reference scenario: SSP 2 / SSP reference scenario: SSP 2 / RCP reference: RCP 2.6 / RCP reference: RCP 2.6 / RCP reference: RCP 6.0 / SPANZ: F – 100% SMART / SPANZ: A – Kicking, Screaming / SPANZ: D – Home Economics",
+      "location_hint": "Page 13",
+      "confidence": "high",
+      "notes": "The document lists three scenarios with their respective SSP and RCP pairings. Notably, two scenarios share SSP 2 but differ in RCP (2.6 vs 6.0), and the first scenario uses SSP 1 with RCP 2.6 — a mix-and-match approach across the IPCC frameworks.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "Yes. AIG New Zealand developed three integrated scenarios tailored to the particularities of its business. These were based on the Insurance Council of New Zealand (ICNZ) shared climate scenarios, using the same framework architecture, quantitative and qualitative parameters, and narrative storylines. In 2023, AIG New Zealand engaged a third-party to facilitate the scenario development and analysis process with a cross-functional working group through a series of workshops. The scenarios reference IPCC RCPs and SSPs, as well as Shared Policy Assumptions for New Zealand (SPANZ), and draw on the NGFS framework. The three scenarios correspond to: SSP1/RCP2.6/SPANZ F–100% SMART; SSP2/RCP2.6/SPANZ A–Kicking, Screaming; and SSP2/RCP6.0/SPANZ D–Home Economics.",
+      "evidence": "\"In 2023, AIG New Zealand engaged a third-party to help facilitate the scenario development and analysis process with a cross functional working group of AIG New Zealand management and business representatives, and through a series of workshops, this group: Developed three integrated scenarios tailored to the particularities of AIG New Zealand's business; Identified climate-driven risks and opportunities; Explored the impacts and implications for AIG New Zealand's business model and strategy.\"",
+      "location_hint": "Page 12–13, Scenario Analysis section",
+      "confidence": "high",
+      "notes": "The scenarios are customised versions of the ICNZ shared scenarios, adapted to AIG New Zealand's specific business context. The three scenarios are mapped to SSP/RCP/SPANZ reference scenarios as shown in the table on page 13.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Yes. AIG New Zealand participated in the Insurance Council of New Zealand (ICNZ) shared climate scenarios initiative during 2022 to co-design and collaboratively develop scenarios along with other industry members. Additionally, in 2023, AIG New Zealand engaged a third-party to facilitate scenario development and analysis with a cross-functional working group through a series of workshops, developing three integrated scenarios tailored to AIG New Zealand's business.",
+      "evidence": "\"AIG New Zealand participated in this initiative during 2022 to co-design and collaboratively develop these scenarios along with other industry members... In 2023, AIG New Zealand engaged a third-party to help facilitate the scenario development and analysis process with a cross functional working group of AIG New Zealand management and business representatives, and through a series of workshops, this group: Developed three integrated scenarios tailored to the particularities of AIG New Zealand's business\"",
+      "location_hint": "Page 12, Scenario Analysis section",
+      "confidence": "high",
+      "notes": "The ICNZ scenarios also drew on contributions from technical experts including the External Reporting Board (XRB), government ministries, banking partners, and the New Zealand Green Building Council. The scenarios utilise RCPs, SSPs (IPCC), SPANZ, and the NGFS framework.",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "AIG New Zealand uses three baseline scenarios referencing SSP and RCP frameworks, as well as SPANZ scenarios:\n1. SSP 1 / RCP 2.6 / SPANZ: F – 100% SMART\n2. SSP 2 / RCP 2.6 / SPANZ: A – Kicking, Screaming\n3. SSP 2 / RCP 6.0 / SPANZ: D – Home Economics",
+      "evidence": "\"SSP reference scenario: SSP 1 / SSP reference scenario: SSP 2 / SSP reference scenario: SSP 2 / RCP reference: RCP 2.6 / RCP reference: RCP 2.6 / RCP reference: RCP 6.0 / SPANZ: F – 100% SMART / SPANZ: A – Kicking, Screaming / SPANZ: D – Home Economics\"",
+      "location_hint": "Page 13",
+      "confidence": "high",
+      "notes": "Three scenarios are described, each with SSP, RCP, and SPANZ references. The third scenario (SSP 2 / RCP 6.0 / SPANZ: D – Home Economics) is the high-physical-risk scenario described in the surrounding text about current climate policies being \"sporadic and weak\" and warming exceeding 3.0°C.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "AIG New Zealand used the Insurance Council of New Zealand (ICNZ) shared climate scenarios, which utilise the Representative Concentration Pathways (RCPs) and Shared Socioeconomic Pathways (SSPs) developed by the IPCC, and the Shared Policy Assumptions for New Zealand (SPANZ). The narratives draw heavily on the Network for Greening the Financial System (NGFS) framework. For physical risk modelling of investments, MSCI's physical risk scenario modelling data was used.",
+      "evidence": "\"AIG New Zealand has used the Insurance Council of New Zealand (ICNZ) shared climate scenarios for the New Zealand general insurance sector as the basis for our scenario analysis utilising the same framework architecture, quantitative and qualitative parameters, and narrative storylines, where appropriate... The ICNZ scenarios utilise the Representative Concentration Pathways (RCPs) and Shared Socioeconomic Pathways (SSPs) developed by the Intergovernmental Panel on Climate Change (IPCC) and the Shared Policy Assumptions for New Zealand (SPANZ). The narratives draw heavily on the Network for Greening the Financial System (NGFS) framework.\"",
+      "location_hint": "Page 12",
+      "confidence": "high",
+      "notes": "For investment physical risk, MSCI's physical risk modelling was also used (page 24). The scenario analysis model is primarily the ICNZ shared scenarios framework.",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. AIG Insurance New Zealand considers damage from acute physical risks, specifically the risk of increased frequency, severity, and simultaneity of severe weather events (including flooding, cyclones, drought, heatwaves, wildfires, and severe storms) exacerbated by climate change. These are identified as Natural Catastrophe Risk under Physical Risks, with anticipated business impacts including increased claims costs and volumes, restricted operational capacity, and increased reinsurance costs and premiums.",
+      "evidence": "\"Natural Catastrophe Risk Physical: Risk of increased frequency, severity, and simultaneity of severe weather events within New Zealand (including but not limited to flooding, cyclones, drought, heatwaves, wildfires and severe storms). These events are exacerbated by the changing climate. Natural catastrophes can also impact AIG's operations directly, restricting normal operational levels. Increase in extreme weather events is likely to result in increased claims costs and volumes to AIG New Zealand. This in turn potentially impacts the overall customer experience as operational capacity is restricted. Reinsurance costs are also likely to increase given an increased probability of risk occurrence, resulting in increased premiums and availability of peril coverages.\"",
+      "location_hint": "Page 15",
+      "confidence": "high",
+      "notes": "Acute physical risks are explicitly categorized and described with anticipated business impacts and a medium to long term time horizon.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The retrieved context describes AIG New Zealand's climate scenarios (Orderly and Disorderly) primarily in terms of temperature targets (1.5°C, <2°C) and transition/policy assumptions. No explicit non-temperature variables (e.g., sea level rise, precipitation, carbon price levels, GDP impacts) are quantified or named as scenario parameters in the provided passages.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "AIG New Zealand uses three climate scenarios at a national/international scale:\n1. **Orderly Scenario** – An ambitious and coordinated transition aligned with a 1.5°C warming trajectory (SSP 1, RCP 2.6, SPANZ: F – 100% SMART)\n2. **Disorderly Scenario** – Delayed action, followed by sudden and uncoordinated transformation, landing at <2°C (SSP 2, RCP 2.6, SPANZ: A – Kicking, Screaming)\n3. **Hot House / High Physical Risk Scenario** – Current policies are sporadic and weak, insufficient to limit warming to 2.0°C, with physical impacts accelerating from 2050 (SSP 2, RCP 6.0, SPANZ: D – Home Economics)",
+      "evidence": "\"Figure 4: AIG New Zealand's Climate Change Scenarios\nOrderly Scenario – An ambitious and coordinated transition aligned with a 1.5˚C warming trajectory\nDisorderly Scenario – Delayed action, followed by sudden and uncoordinated transformation, landing at <2˚C\n...\nSSP reference scenario: SSP 1 / SSP 2 / SSP 2\nRCP reference: RCP 2.6 / RCP 2.6 / RCP 6.0\nSPANZ: F – 100% SMART / A – Kicking, Screaming / D – Home Economics\"",
+      "location_hint": "Page 13",
+      "confidence": "high",
+      "notes": "The scenarios are applied at both New Zealand national and international/global scale, referencing NZ government policy, NDCs, and global warming trajectories. Three distinct scenarios are used with explicit SSP and RCP reference scenarios provided.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "AIG New Zealand uses three time horizons:\n- **Short term**: 1–3 years (consistent with AIG New Zealand's 3-year strategic and business planning cycle)\n- **Medium term**: 3–7 years (broadly aligns with the time taken for AIG New Zealand's investments to reach maturity)\n- **Long term**: 7+ years (aligns with AIG's target to achieve Net-Zero Emissions by 2050)",
+      "evidence": "Table 2: Time Horizons\nThe time horizons in AIG New Zealand's scenario analysis and risk assessment are:\nHorizon | Period | Description\nShort term | 1–3 years | Consistent with AIG New Zealand's 3 year strategic and business planning cycle.\nMedium term | 3–7 years | This time horizon broadly aligns with the time taken for AIG New Zealand's investments to reach maturity.\nLong term | 7+ years | AIG has set a target to achieve Net-Zero Emissions by 2050. This time horizon aligns with that commitment.",
+      "location_hint": "Table 2, p.12–13",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "AIG New Zealand justified its scenario/model choice on the following grounds: (1) It used the Insurance Council of New Zealand (ICNZ) shared climate scenarios, which were co-designed with industry members including AIG New Zealand itself in 2022, ensuring sector relevance. (2) The ICNZ scenarios utilise established IPCC frameworks (RCPs and SSPs) and draw heavily on the NGFS framework, with input from technical experts including the XRB, government ministries, banking partners, and the NZ Green Building Council. (3) AIG New Zealand additionally engaged a third-party to facilitate tailored scenario development through cross-functional workshops, developing three integrated scenarios specific to AIG New Zealand's business. Due to the alignment with New Zealand's general insurance sector and these additional internal efforts, AIG New Zealand considers the scenarios relevant and appropriate for assessing resilience to climate-related risks and opportunities.",
+      "evidence": "\"AIG New Zealand has used the Insurance Council of New Zealand (ICNZ) shared climate scenarios for the New Zealand general insurance sector as the basis for our scenario analysis utilising the same framework architecture, quantitative and qualitative parameters, and narrative storylines, where appropriate. AIG New Zealand participated in this initiative during 2022 to co-design and collaboratively develop these scenarios along with other industry members. The ICNZ scenarios utilise the Representative Concentration Pathways (RCPs) and Shared Socioeconomic Pathways (SSPs) developed by the Intergovernmental Panel on Climate Change (IPCC) and the Shared Policy Assumptions for New Zealand (SPANZ). The narratives draw heavily on the Network for Greening the Financial System (NGFS) framework... Due to the alignment of our scenarios with New Zealand's general insurance sector and our additional efforts internally, we consider that our scenarios are relevant and appropriate for assessing resilience to climate-related risks and opportunities.\"",
+      "location_hint": "Page 12",
+      "confidence": "high",
+      "notes": "The justification is explicitly stated in the document, covering both the use of established frameworks (IPCC RCPs/SSPs, NGFS) and the sector-specific alignment through ICNZ collaboration.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "In FY24, physical and transition climate-related impacts on AIG New Zealand were not material to the business. The historic climate impacts included: (1) 9 claims received for major weather events during 2024, compared to 1,860 claims in 2023, with work to resolve claims relating to Cyclone Gabrielle and the Auckland Anniversary Flooding continuing throughout 2024; and (2) increased resourcing and compliance costs to meet climate-related disclosure requirements (whilst not currently material).",
+      "evidence": "\"In FY24, physical and transition climate-related impacts on AIG New Zealand were not material to the business. These impacts included: 9 claims received for major weather events during 2024, compared to 1860 claims in 2023. Work to resolve claims relating to Cyclone Gabrielle and the Auckland Anniversary Flooding major weather events continued throughout 2024. Whilst not currently material, AIG New Zealand's resourcing and compliance costs have increased to meet the climate-related disclosure requirements.\"",
+      "location_hint": "Page 14",
+      "confidence": "high",
+      "notes": "Major weather events are defined as weather events classified by the Insurance Council of New Zealand (ICNZ) to be a major event.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "AIG New Zealand identifies both direct and indirect physical climate risks:\n\n**Direct physical risks:**\n- Exposure to physical impacts of climate change on individual sites and office locations (AIG NZ operates from a single location in Auckland CBD)\n- Operational disruption from physical climate events, impacting customers, reputation and workforce\n- In the medium- to long-term: chronic physical risks such as shifting temperatures, precipitation levels, droughts and sea water levels impacting underwriting and operational exposures\n- All underwriting activities with exposure to Physical Damage and Business Interruption coverages are considered vulnerable to climate-related physical risks\n\n**Indirect physical risks:**\n- Physical impacts on infrastructure, supply chains and third-parties relied upon to operate\n- Increased costs to adjudicate and settle claims due to higher construction materials and labour costs, inflationary pressures, supply chain congestion and demand for specialist expertise\n- Physical risks can impact investments and credit ratings, creating a volatile market environment (lowered corporate valuations, borrower defaults, credit rating downgrades, increased counter-party risks)\n- The scope, speed and scale of physical impacts may outpace AIG New Zealand's ability to adapt (Adaptive Capacity Risk), leading to substantial increases in operational costs for specialist resources, data, technology and models",
+      "evidence": "\"We consider both direct physical impacts and indirect effects that may emerge through transition risks... In the medium- to long-term, chronic physical risks such as shifting temperatures, precipitation levels, droughts and sea water levels could impact our underwriting and operational exposures to climate change.\"\n\n\"AIG is exposed to the physical impacts of climate change on individual sites and office locations, as well as the infrastructure, supply chains and third-parties we rely on to operate... These exposures can result in operational disruption, ultimately impacting our customers, reputation and workforce... Costs incurred to adjudicate and settle claims may also increase due to higher construction materials and labour costs, inflationary pressures and other supply chain congestion and demand for specialist expertise in certain communities.\"\n\n\"All AIG New Zealand's underwriting activities with exposure to Physical Damage and Business Interruption coverages are, to some extent, vulnerable to climate-related physical risks.\"",
+      "location_hint": "Pages 14, 16, 24",
+      "confidence": "high",
+      "notes": "The document distinguishes direct physical risks (to AIG's own operations and underwriting) from indirect physical risks (through supply chains, third parties, investments, and claims costs). The Adaptive Capacity Risk is classified as both Physical and Transition.",
+      "verification": null
+    }
+  ]
+}

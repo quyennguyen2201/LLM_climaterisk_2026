@@ -1,0 +1,170 @@
+{
+  "source": "AIR_NEW_ZEALAND_LIMITED_2024",
+  "model_id": "claude-sonnet-4-6",
+  "k": 10,
+  "token_usage": {
+    "claude-sonnet-4-6": {
+      "output_tokens": 6712,
+      "input_token_details": {
+        "cache_read": 0,
+        "ephemeral_1h_input_tokens": 0,
+        "cache_creation": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 87336,
+      "total_tokens": 94048
+    }
+  },
+  "answers": [
+    {
+      "q_id": 1,
+      "question": "List of scenarios",
+      "answer": "Air New Zealand used three scenarios for its climate scenario analysis:\n1. **Scenario 1: 'Ambitious' scenario** – aligned to SSP1-1.9, consistent with 1.5°C of global warming by 2100, where global GHG emissions are managed down to levels consistent with the Paris Agreement.\n2. **Scenario 2: 'Steady' scenario** – (based on one of the IPCC's SSPs; specific SSP alignment not detailed in the retrieved context).\n3. **Scenario 3: 'Delayed' scenario** – (based on one of the IPCC's SSPs; specific SSP alignment not detailed in the retrieved context).",
+      "evidence": "\"The three scenarios Air New Zealand used for its scenario analysis are described below. The starting point for each scenario is one of the Intergovernmental Panel on Climate Change's (IPCC's) Shared Socioeconomic Pathways (SSPs), which are a set of illustrative emissions scenarios developed in the IPCC's 6th Assessment Report.\n\nSCENARIO 1: 'Ambitious' scenario – aligned to SSP1-1.9 and is consistent with 1.5°C of global warming by 2100, where global GHG emissions are managed down to levels consistent with the Paris Agreement.\nSCENARIO 2: 'Steady' scenario\nSCENARIO 3: 'Delayed' scenario\"",
+      "location_hint": "Section 3.1, p.10",
+      "confidence": "high",
+      "notes": "The context clearly names all three scenarios. The specific SSP alignments for the 'Steady' and 'Delayed' scenarios are not included in the retrieved context chunks, though the 'Ambitious' scenario is explicitly aligned to SSP1-1.9.",
+      "verification": null
+    },
+    {
+      "q_id": 2,
+      "question": "Global temperature outcome by 2100",
+      "answer": "The three scenarios used by Air New Zealand project the following global temperature outcomes by 2100:\n- 'Ambitious' scenario (SSP1-1.9): 1.5°C of global warming by 2100\n- 'Steady' scenario (SSP2-4.5): 2.7°C of global warming by 2100\n- 'Delayed' scenario (SSP3-7.0): 3.6°C of global warming by 2100",
+      "evidence": "\"The airline's first climate scenario is aligned to SSP1-1.9 and is consistent with 1.5°C of global warming by 2100... The airline's second climate scenario is aligned to SSP2-4.5 and is consistent with 2.7°C of global warming by 2100... The airline's third climate scenario is aligned to SSP3-7.0 and is consistent with 3.6°C of global warming by 2100.\"",
+      "location_hint": "Strategy section, p.10-11",
+      "confidence": "high",
+      "notes": "All three scenario temperature outcomes are explicitly stated in the document.",
+      "verification": null
+    },
+    {
+      "q_id": 3,
+      "question": "Scenario provider",
+      "answer": "The scenarios were developed internally by Air New Zealand, with external consulting support from WSP New Zealand, Accenture New Zealand, and Risk Frontiers. The starting point for each scenario is one of the IPCC's Shared Socioeconomic Pathways (SSPs).",
+      "evidence": "This included external consulting support from WSP New Zealand, Accenture New Zealand, and Risk Frontiers. This process included input and oversight from the Board, including approval of the scenarios for analysis. [...] The starting point for each scenario is one of the Intergovernmental Panel on Climate Change's (IPCC's) Shared Socioeconomic Pathways (SSPs), which are a set of illustrative emissions scenarios developed in the IPCC's 6th Assessment Report.",
+      "location_hint": "Page 9–10",
+      "confidence": "high",
+      "notes": "Scenarios were internally developed by Air New Zealand using IPCC SSPs as a starting point, with external consulting support from WSP New Zealand, Accenture New Zealand, and Risk Frontiers.",
+      "verification": null
+    },
+    {
+      "q_id": 4,
+      "question": "Pick-and-mix of SSPs and RCPs",
+      "answer": "Air New Zealand uses SSP-based scenarios (SSP1-1.9, SSP2-4.5, SSP3-7.0) for its transition and physical risk analysis. For physical risk (flood exposure of immovable assets), the document also references SSP1-2.6, SSP2-4.5, and SSP5-8.5 scenarios. The scenarios are described as \"aligned with Representative Concentration Pathways (RCPs)\" but the primary framework used is the IPCC's Shared Socioeconomic Pathways (SSPs) from the 6th Assessment Report. There is a mix: SSP1-2.6 and SSP5-8.5 appear only in the physical asset flood risk metric, while SSP1-1.9, SSP2-4.5, and SSP3-7.0 are used for the main scenario analysis.",
+      "evidence": "\"IPCC Scenarios: Shared Socioeconomic Pathways (SSPs), aligned with Representative Concentration Pathways (RCPs).\" ... \"SSP 3-7.0 'DELAYED' (3.6⁰C BY 2100)\" ... \"SSP 2-4.5 'STEADY' (2.7⁰C BY 2100)\" ... \"SSP 1-1.9 'AMBITIOUS' (1.5⁰C BY 2100)\" ... \"assets that could not be moved in the event of forecast severe weather and are in a location at risk of flooding due to storm-surge, river flooding, and / or coastal erosion in any of the SSP 1-2.6, SSP 2-4.5 or SSP 5-8.5 scenarios out to 2100.\"",
+      "location_hint": "Pages 10-11 and 40",
+      "confidence": "high",
+      "notes": "The document uses SSP1-1.9, SSP2-4.5, and SSP3-7.0 for the main scenario analysis (transition and physical risk models), but separately references SSP1-2.6, SSP2-4.5, and SSP5-8.5 for the flood risk metric on immovable assets. This represents a pick-and-mix of SSPs across different parts of the analysis. RCPs are mentioned as aligned with SSPs but not used independently.",
+      "verification": null
+    },
+    {
+      "q_id": 5,
+      "question": "Customised scenarios",
+      "answer": "not_found",
+      "evidence": null,
+      "location_hint": null,
+      "confidence": "high",
+      "notes": "The context describes Air New Zealand's scenario analysis process, including the use of at least three scenarios (one 1.5°C aligned, one >3°C, and at least one other), but does not explicitly state whether these were \"customised\" scenarios developed by the company itself or standard/third-party scenarios. The context mentions external consulting support from WSP New Zealand, Accenture New Zealand, and Risk Frontiers, and that the airline sought \"plausible, internally consistent scenarios,\" but does not explicitly label them as customised or non-customised scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 6,
+      "question": "Co-produced climate scenarios",
+      "answer": "Air New Zealand did not co-produce its climate scenarios with external stakeholders in a participatory sense, but it did use external consulting support. The scenario analysis involved a management-level Steering Committee (consisting of the CSCAO, the Chief Operational Integrity and Safety Officer, and senior leaders from Legal, Finance, Network Strategy and Sustainability teams), with external consulting support from WSP New Zealand, Accenture New Zealand, and Risk Frontiers. The Board also provided input and oversight, including approval of the scenarios. The scenarios were based on the IPCC's Shared Socioeconomic Pathways (SSPs) from the 6th Assessment Report.",
+      "evidence": "\"The Steering Committee was the primary governance mechanism for the scenario analysis. The Steering Committee consisted of the CSCAO, the Chief Operational Integrity and Safety Officer, and senior leaders from the Legal, Finance, Network Strategy and Sustainability teams. The Steering Committee oversaw steps 2 through 5. A working team facilitated the overall process and undertook the analysis. This included external consulting support from WSP New Zealand, Accenture New Zealand, and Risk Frontiers. This process included input and oversight from the Board, including approval of the scenarios for analysis.\"",
+      "location_hint": "Section 3.1, p.9",
+      "confidence": "high",
+      "notes": "The scenarios were internally developed using IPCC SSPs as a starting point, with external consulting support but not described as \"co-produced\" with external stakeholders in a formal sense. The document does not use the term \"co-produced.\"",
+      "verification": null
+    },
+    {
+      "q_id": 7,
+      "question": "Baseline scenarios",
+      "answer": "Air New Zealand used three scenarios based on the IPCC's Shared Socioeconomic Pathways (SSPs) from the 6th Assessment Report as the starting point: (1) 'Ambitious' scenario – aligned to SSP1-1.9, consistent with 1.5°C of global warming by 2100; (2) 'Steady' scenario; and (3) 'Delayed' scenario.",
+      "evidence": "\"The three scenarios Air New Zealand used for its scenario analysis are described below. The starting point for each scenario is one of the Intergovernmental Panel on Climate Change's (IPCC's) Shared Socioeconomic Pathways (SSPs), which are a set of illustrative emissions scenarios developed in the IPCC's 6th Assessment Report. ... SCENARIO 1: 'Ambitious' scenario ... aligned to SSP1-1.9 and is consistent with 1.5°C of global warming by 2100 ... SCENARIO 2: 'Steady' scenario ... SCENARIO 3: 'Delayed' scenario\"",
+      "location_hint": "Section 3.1, p.10",
+      "confidence": "high",
+      "notes": "The 'Steady' and 'Delayed' scenarios are named but their SSP alignments are not fully detailed in the retrieved context. Only the 'Ambitious' scenario's SSP alignment (SSP1-1.9) is explicitly stated.",
+      "verification": null
+    },
+    {
+      "q_id": 8,
+      "question": "Model used",
+      "answer": "Air New Zealand developed two key models for scenario analysis: (1) A physical risk model, which analysed the future frequency and severity of acute weather events at domestic and international airports, combining data from a range of external, peer-reviewed models including CanESM5, EC-Earth3, and MIROC6; and (2) A transition risk model, which analysed potential risks and opportunities from emissions pricing, changes to NGA and SAF adoption timeframes, and competitive impacts of airfare pricing changes.",
+      "evidence": "\"Two key models were developed to support the airline's scenario analysis: A physical risk model — This analysed the future frequency and severity of acute weather events at the domestic and international airports which Air New Zealand flies to... A transition risk model — This analysed the potential risks and opportunities from further emissions pricing, changes to NGA and SAF adoption time frames, and competitive impacts of airfare pricing changes.\"",
+      "location_hint": "Section 3.1, p.11",
+      "confidence": "high",
+      "notes": "The physical risk model drew on CanESM5, EC-Earth3 (CMIP6), and MIROC6 (CMIP6 ScenarioMIP), among other sources. The scenarios were aligned with IPCC SSPs (SSP1-1.9, SSP2-4.5, SSP3-7.0).",
+      "verification": null
+    },
+    {
+      "q_id": 9,
+      "question": "Damage from acute physical risk considered",
+      "answer": "Yes. Air New Zealand considers damage from acute physical risks including: damage to aircraft from lightning strikes and hail (increasing maintenance costs and causing aircraft to be out of service); damage to 'immovable' physical assets (buildings and contents) from flooding due to storm-surge, river flooding, and/or coastal erosion; and increased OH&S risks for staff from thunderstorms, heat waves, and other acute/severe weather events. Key locations identified as having high exposure are Auckland, Wellington, and Nelson airports.",
+      "evidence": "\"Aircraft may be susceptible to damage from lightning strikes and hail, which could lead to greater maintenance costs and aircraft being out of service... The risk of weather-related damage to 'immovable' physical assets could increase due to the combination of more frequent and / or severe weather events, potentially increasing costs. This is most likely to occur where rising sea levels increase flood risk and damage the airline's 'immovable' physical assets like buildings and contents. The locations with the greatest 'immovable' physical asset values and currently assessed as having high exposure to these risks are Auckland, Wellington, and Nelson airports.\"",
+      "location_hint": "Pages 14 and 40",
+      "confidence": "high",
+      "notes": "The document explicitly identifies multiple types of damage from acute physical risks and uses three metrics to assess exposure: aircraft value as proportion of total assets (45%), proportion of immovable assets exposed to flood risk (10%), and weather-related delays/cancellations.",
+      "verification": null
+    },
+    {
+      "q_id": 10,
+      "question": "Non-temperature variables in scenarios",
+      "answer": "Air New Zealand's physical risk model included the following non-temperature variables: fog, wind, thunderstorms, rain, ice, and snow (in addition to severe heat). These were analysed for frequency and severity at domestic and international airports from 1990 projected out to 2100. For physical asset flood risk, the scenarios also considered storm-surge, river flooding, and coastal erosion.",
+      "evidence": "\"This included the frequency of severe heat, fog, wind, thunderstorms, rain, ice and snow that has occurred each year since 1990, and projected occurrences out to 2100.\" and \"Specifically this includes physical assets that could not be moved in the event of forecast severe weather and are in a location at risk of flooding due to storm-surge, river flooding, and / or coastal erosion in any of the SSP 1-2.6, SSP 2-4.5 or SSP 5-8.5 scenarios out to 2100.\"",
+      "location_hint": "Section 3.1, p.11; Section 5.1, p.40",
+      "confidence": "high",
+      "notes": "The physical risk model explicitly lists non-temperature weather variables used in scenario analysis. Flood-related hazards (storm-surge, river flooding, coastal erosion) are also mentioned in the context of immovable asset exposure across SSP scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 11,
+      "question": "Scale of scenarios",
+      "answer": "Air New Zealand's scenario analysis covered all material parts of its own operations, all airports the airline regularly operates from, and considered fuel suppliers, aircraft manufacturers, customers and broader network considerations. The scenarios were developed at the level of the airline's own operations and value chain, using global and New Zealand-specific inputs.",
+      "evidence": "\"Note that all material parts of Air New Zealand's own operations were considered in the scenario analysis.\" and \"The climate-related physical risk analysis conducted in the 2023 and 2024 financial years explicitly included consideration of all airports the airline regularly operates from. The climate-related risk workshops conducted internally with business units across the airline explicitly included consideration of fuel suppliers, aircraft manufacturers, customers and broader network considerations.\"",
+      "location_hint": "Appendix A: Details of scenario analysis, p.48; Risk Management section, p.32",
+      "confidence": "high",
+      "notes": "The scenario analysis draws on both global (e.g. IPCC SSPs, IEA) and New Zealand-specific sources, but the scope of the analysis is Air New Zealand's own operations and value chain.",
+      "verification": null
+    },
+    {
+      "q_id": 12,
+      "question": "Time frames",
+      "answer": "Air New Zealand defines three time frames for climate-related risks:\n- Short-term: 0–5 years (aligns with strategic and network planning horizons for the airline's five-year financial plan, incorporating capital deployment plans)\n- Medium-term: 5–18 years (aligns with fleet planning and aircraft lease and purchase decisions, representing the airline's longest capital deployment horizons, excluding property)\n- Long-term: 18 years and beyond (includes the airline's 2050 Target time frame and the period over which the greatest physical impacts of climate change are expected)",
+      "evidence": "The identified climate-related risks are described as likely to occur over the following short, medium, or long-term time frames: \n• Short-term: 0-5 years, which aligns with strategic and network planning time horizons for the airline's five-year financial plan, which incorporates capital deployment plans; \n• Medium-term: 5-18 years, which aligns with decisions about fleet planning and aircraft lease and purchases, and generally represent the airline's longest capital deployment horizons, excluding property; \n• Long-term: 18 years and beyond, which would include the airline's 2050 Target time frame and the time-period over which the airline expects the greatest physical impacts of climate change to occur.",
+      "location_hint": "Page 12, Section 3.2 Climate-related risks and opportunities",
+      "confidence": "high",
+      "notes": null,
+      "verification": null
+    },
+    {
+      "q_id": 13,
+      "question": "Justification for scenario/model choice",
+      "answer": "Air New Zealand justified its scenario and model choices on several grounds:\n\n1. **Scenarios**: The three scenarios (Ambitious/SSP1-1.9, Steady/SSP2-4.5, Delayed/SSP3-7.0) were chosen to be plausible and internally consistent, sufficiently differentiated to produce insights on a breadth of plausible futures, and to meet the NZ CS requirement of at least three scenarios including one 1.5°C aligned, one >3°C, and at least one other. The starting point for each scenario is one of the IPCC's Shared Socioeconomic Pathways (SSPs) from the 6th Assessment Report.\n\n2. **Physical risk model**: The combination of external, peer-reviewed models was chosen because they: include a range of possible temperature changes for a given amount of CO₂ emissions; are produced by reputable research groups; are independent from one another; provide access to a range of scenarios; and include a range of relevant and detailed variables required for physical climate risk analysis in the aviation sector.",
+      "evidence": "\"To meet these goals, the airline sought to meet three principles: to select plausible, internally consistent scenarios; to ensure scenarios were sufficiently differentiated to produce insights on a breadth of plausible futures; and to adopt at least three scenarios, including one 1.5°C aligned, one >3°C and at least one other scenario.\"\n\n\"The physical risk model was considered appropriate and relevant to assessing the resilience of Air New Zealand's business model and strategy to climate-related risks and opportunities because it combined data from a range of external, peer-reviewed models. This combination of models was chosen for several reasons, including that they: include a range of possible temperature changes for a given amount of carbon dioxide emissions; are produced by reputable research groups; are independent from one another; provide access to a range of scenarios; and include a range of relevant and detailed variables required for physical climate risk analysis in the aviation sector.\"",
+      "location_hint": "Pages 9 and 11, Strategy section / Scenario analysis",
+      "confidence": "high",
+      "notes": "Justification covers both the scenario selection principles and the physical risk model selection criteria. The IPCC SSPs are cited as the basis for the scenarios.",
+      "verification": null
+    },
+    {
+      "q_id": 14,
+      "question": "Historic climate impacts",
+      "answer": "Air New Zealand reports no material current impacts from climate-related risks, including from acute/severe weather events, chronic climate change, and supply chain disruption. The document states \"No material current impacts\" for these risk categories.",
+      "evidence": "\"Current impact: No material current impacts.\" (repeated for both Chronic climate change and Supply chain disruption and cost increases risk categories). Additionally: \"while acute and severe weather events can occur in the short-term, the contribution of climate change to exacerbating the impact of these events is difficult to attribute, and the associated financial impact is unlikely to be material to Air New Zealand, so the risk posed to Air New Zealand is assessed as not material in the short-term.\"",
+      "location_hint": "Strategy section, pages 15 and 20",
+      "confidence": "high",
+      "notes": "The document consistently states \"No material current impacts\" across the climate risk categories shown in the retrieved context. Air New Zealand also applied Adoption provision 1, which exempts them from disclosing current financial impacts of physical and transition risks.",
+      "verification": null
+    },
+    {
+      "q_id": 15,
+      "question": "Direct and indirect physical climate risks",
+      "answer": "Air New Zealand identifies the following direct and indirect physical climate risks:\n\n**Direct physical risks:**\n- Exposure of Auckland International Airport's precinct to physical climate risks (material risk due to its importance to day-to-day operations)\n- Channel Infrastructure New Zealand's fuel pipeline from Marsden Point to the Wiri terminal exposed to physical climate risks\n- More frequent and/or severe weather events that could increase fuel burn, create operational safety impacts, and expose aircraft to damage\n\n**Indirect physical risks (via supply chain):**\n- Short-term interruptions or long-term damage to suppliers' assets and operations (airports, air traffic management services, aircraft, fuel and fuelling infrastructure, spare parts and engines)\n- If aeronautical services providers do not adopt sufficient new technology, Air New Zealand's ability to navigate more frequent and/or severe weather events might be impacted\n- Higher operating or capital costs if suppliers pass on their own climate mitigation or adaptation costs to the airline\n\nThe 'climate change' risk consolidating physical and transition risks is currently rated 'Very High' on Air New Zealand's Group Risk Profile.",
+      "evidence": "\"The exposure of Auckland International Airport's precinct, and Channel Infrastructure New Zealand's fuel pipeline from Marsden Point to the Wiri terminal, to physical climate risks are material risks for Air New Zealand, even if their vulnerability is low, due to the importance of these suppliers to the airline's day-to-day operations. Higher operating or capital costs could arise if suppliers pass on their own climate mitigation or adaptation costs to the airline. This could be a material financial risk to the airline that could increase the airline's operating costs. If aeronautical services providers do not adopt sufficient new technology, Air New Zealand's ability to navigate more frequent and / or severe weather events might be impacted. This could increase fuel burn across the network, create operational safety impacts, and expose aircraft to damage.\"",
+      "location_hint": "Page 20, Strategy (continued) – Risk 7: Supply chain disruption and cost increases",
+      "confidence": "high",
+      "notes": "The document discusses physical risks primarily in the context of supply chain risk (Risk 7). Direct physical risks to Air New Zealand's own operations (e.g., weather events affecting flights) are mentioned but the most detailed physical risk discussion focuses on key infrastructure suppliers. The climate-related physical risk analysis explicitly included all airports the airline regularly operates from.",
+      "verification": null
+    }
+  ]
+}
