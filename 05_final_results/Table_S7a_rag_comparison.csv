@@ -1,0 +1,8 @@
+﻿RAG configuration,Accuracy,Precision,Recall,Specificity,Used tokens,P-value,Not found answers
+Agentic RAG (used in the main analysis),91.0%,93.5%,95.1%,76.5%,"1,043,427",,0.4%
+"Linear RAG, child chunk, k=5",66.2%,91.9%,62.3%,80.4%,"31,618",<0.001,26.9%
+"Linear RAG, child chunk, k=10",71.4%,92.0%,69.4%,78.4%,"40,571",<0.001,18.8%
+"Linear RAG, child chunk, k=20",74.8%,91.9%,74.3%,76.5%,"58,107",<0.001,13.7%
+"Linear RAG, parent chunk, k=5",73.5%,92.3%,72.1%,78.4%,"59,479",<0.001,15.8%
+"Linear RAG, parent chunk, k=10",78.2%,93.4%,77.6%,80.4%,"93,858",<0.001,12.4%
+"Linear RAG, parent chunk, k=20",81.6%,91.7%,84.2%,72.5%,"160,746",<0.001,6.0%
